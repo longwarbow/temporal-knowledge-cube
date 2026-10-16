@@ -1,0 +1,55 @@
+{
+  "N": 1278493,
+  "cascades": 3387,
+  "base_cells": 67090,
+  "cuboids": [
+    "day_cluster",
+    "month_cluster",
+    "all_cluster"
+  ],
+  "ops": [
+    {
+      "op": "MERGE",
+      "moved_cascades": 50,
+      "moved_events": 45671,
+      "affected_cells": 1662,
+      "affected_pct": 2.47726933969295,
+      "inc_ops": 274026,
+      "reb_ops": 3835479,
+      "cost_ratio": 13.996770379453045,
+      "t_inc": 6.615124225616455,
+      "t_rebuild": 4.007181882858276,
+      "diffs_raw": 0,
+      "diffs_after_gc": 0
+    },
+    {
+      "op": "REPARENT",
+      "moved_cascades": 100,
+      "moved_events": 77822,
+      "affected_cells": 3213,
+      "affected_pct": 4.789089283052616,
+      "inc_ops": 466932,
+      "reb_ops": 3835479,
+      "cost_ratio": 8.214213204492303,
+      "t_inc": 14.463469505310059,
+      "t_rebuild": 4.182483911514282,
+      "diffs_raw": 0,
+      "diffs_after_gc": 0
+    },
+    {
+      "op": "SPLIT",
+      "moved_cascades": 50,
+      "moved_events": 39189,
+      "affected_cells": 735,
+      "affected_pct": 1.0955433000447161,
+      "inc_ops": 235134,
+      "reb_ops": 3835479,
+      "cost_ratio": 16.311885988415117,
+      "t_inc": 6.984612703323364,
+      "t_rebuild": 3.821178674697876,
+      "diffs_raw": 0,
+      "diffs_after_gc": 0
+    }
+  ],
+  "all_equivalent": true
+}

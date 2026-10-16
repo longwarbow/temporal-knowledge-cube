@@ -1,0 +1,24 @@
+\subsection*{S2 · Source-independence features (E3)}
+\addcontentsline{toc}{subsection}{S2 · Source-independence features (E3)}
+\noindent\emph{Referred to from the main paper, \S7.4.3.}
+
+\begin{table}[htbp]
+\caption{Source independence on the propagation tree (E3): group medians,
+discrimination and effect size.}
+\label{stab:independence}
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{1.14}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+\textbf{Feature} & \textbf{rumour} & \textbf{non-r.} & \textbf{AUC} & \textbf{$\delta$}\\
+\midrule
+naive ratio (reproduces the failure) & 0.9752 & 0.9808 & \textbf{0.449} & $-0.101$\\
+$S_{1a}$ cross-cascade high-activity share & 0.0822 & 0.0457 & \textbf{0.651} & $+0.302$\\
+$S_{1b}$ max single-account share & 0.0110 & 0.0073 & 0.630 & $+0.261$\\
+$S_{2a}$ max sub-branch share & 0.1053 & 0.0633 & 0.607 & $+0.213$\\
+$S_{2b}$ median propagation depth & 1.0000 & 1.0000 & 0.585 & $+0.170$\\
+$S_{3b}$ $\log_{10}$ propagation span (h) & 2.8431 & 3.3013 & 0.360 & $-0.280$\\
+\bottomrule
+\end{tabular}
+\end{table}

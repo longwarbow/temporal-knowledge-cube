@@ -1,0 +1,60 @@
+﻿item,pid,flip_rev,kind,prev_rank_of_sid,n_claims_before,n_claims_after,n_active_after,active_values_after,n_new_values,detail,flip_ts,q_P813,r_P813,q_P582,e8_retrieved,e8_endtime,flip_comment
+Q113845832,P569,1725848395,RANK_ONLY,normal,2,2,1,T:1981-00-00T00:00:00Z,0,sid_after=deprecated; new_values=,2022-09-10T22:37:02Z,,2022-08-03T00:00:00Z,,2022-08-03T00:00:00Z,,/* wbsetclaim-update:2||1 */ [[Property:P569]]: 19 CE
+Q102076066,P570,1320473747,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2020-12-09T18:20:20Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P570]]: 18
+Q102867418,P108,2358286150,RANK_ONLY,normal,2,2,1,E:Q6450969,0,sid_after=deprecated; new_values=,2025-06-08T16:57:05Z,,2020-11-30T00:00:00Z,,2025-09-22T00:00:00Z,2018-07-01T00:00:00Z,/* wbsetclaim-update:2||1 */ [[Property:P108]]: [[Q41506]]
+Q106491379,P570,1401441493,RANK_ONLY,normal,3,3,2,T:1650-01-01T00:00:00Z|T:1640-01-01T00:00:00Z,0,sid_after=deprecated; new_values=,2021-04-14T07:22:15Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P570]]: 164
+Q1036526,P26,1396413898,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2021-04-05T15:42:20Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P26]]: [[Q3044]]
+Q107472006,P26,2413562794,RANK_ONLY,normal,2,2,1,E:Q138850,0,sid_after=deprecated; new_values=,2025-10-07T06:47:26Z,,2025-10-07T00:00:00Z,,2025-10-07T00:00:00Z,,/* wbsetclaim-update:2||1 */ [[Property:P26]]: [[Q78891]]
+Q109498395,P108,1914337157,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2023-06-13T11:47:57Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P108]]: [[Q34433]]
+Q112107281,P570,2356486315,RANK_ONLY,preferred,1,1,0,,0,sid_after=deprecated; new_values=,2025-06-03T13:48:23Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P570]]: 29 May 1994
+Q104772317,P39,2520968605,RANK_ONLY,normal,2,2,1,E:Q15113603,0,sid_after=deprecated; new_values=,2026-07-22T07:50:17Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P39]]: [[Q30185]]
+Q1195050,P569,1505401990,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2021-09-29T14:56:00Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P569]]: 22. century BCE
+Q104531094,P69,2104841789,RANK_ONLY,normal,2,2,1,E:Q4111176,0,sid_after=deprecated; new_values=,2024-03-18T13:48:54Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P69]]: [[Q658192]]
+Q11947904,P108,574117076,RANK_ONLY,normal,4,4,2,E:Q3323383|E:Q4694821,0,sid_after=deprecated; new_values=,2017-10-08T13:45:20Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P108]]: [[Q35638]]
+Q111304346,P26,2241746219,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2024-09-01T21:11:38Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P26]]: [[Q32522]]
+Q115625386,P570,1985426314,RANK_ONLY,normal,2,2,1,T:1966-04-00T00:00:00Z,0,sid_after=deprecated; new_values=,2023-10-02T11:41:57Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P570]]: October 167
+Q1235522,P569,1181182835,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2020-05-14T10:38:41Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P569]]: 24 September 15
+Q11949813,P39,2371694011,RANK_ONLY,normal,2,2,1,E:Q48626049,0,sid_after=deprecated; new_values=,2025-07-01T22:16:10Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P39]]: [[Q29182]]
+Q125579302,P569,2138703823,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2024-04-27T16:25:12Z,,2024-04-20T00:00:00Z,,2024-04-20T00:00:00Z,,/* wbsetclaim-update:2||1 */ [[Property:P569]]: 3 November 26 CE
+Q107297915,P69,1587982416,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2022-03-05T20:13:23Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P69]]: [[Q1317143]]
+Q11946288,P26,1298330066,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2020-10-27T09:38:47Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P26]]: [[Q72541]]
+Q1284910,P570,2298849760,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2025-01-16T18:49:51Z,,2021-06-29T00:00:00Z,,2021-06-29T00:00:00Z,,/* wbsetclaim-update:2||1 */ [[Property:P570]]: 218 BCE
+Q123982,P108,2320876660,RANK_ONLY,normal,2,2,1,E:Q4345832,0,sid_after=deprecated; new_values=,2025-03-06T18:33:24Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P108]]: [[Q27621]]
+Q1382490,P570,1871689054,RANK_ONLY,normal,2,2,1,T:-0331-01-01T00:00:00Z,0,sid_after=deprecated; new_values=,2023-04-10T02:04:12Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P570]]: 344
+Q12310409,P39,1779509920,CREATE_DEPRECATED,(absent),0,1,0,,0,sid_after=deprecated; new_values=,2022-11-27T05:59:39Z,,,,,,/* wbsetclaim-create:2||1 */ [[Property:P39]]: [[Q27169]]
+Q1252904,P26,2279530296,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2024-11-25T09:32:53Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P26]]: [[Q133343]]
+Q127537468,P108,2206839823,CREATE_DEPRECATED,(absent),0,1,0,,0,sid_after=deprecated; new_values=,2024-07-17T20:45:13Z,,,,,,/* wbsetclaim-create:2||1 */ [[Property:P108]]: [[Q35794]]
+Q11308254,P69,2118865312,CREATE_DEPRECATED,(absent),1,2,1,E:Q7698685,0,sid_after=deprecated; new_values=,2024-04-04T03:42:31Z,,,,,,/* wbsetclaim-create:2||1 */ [[Property:P69]]: [[Q1420239]]
+Q113734907,P69,1903353855,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2023-05-27T10:59:26Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P69]]: [[Q209842]]
+Q123464602,P39,2546316338,RANK_ONLY,normal,2,2,1,E:Q45820835,0,sid_after=deprecated; new_values=,2026-09-15T18:22:41Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P39]]: [[Q30185]]
+Q1286436,P26,2408523360,RANK_ONLY,preferred,2,2,1,E:Q571396,0,sid_after=deprecated; new_values=,2025-09-23T09:33:30Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P26]]: [[Q145718]]
+Q12950107,P108,1935144722,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2023-07-15T21:23:10Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P108]]: [[Q10176]]
+Q11391693,P69,2382259883,RANK_ONLY,normal,2,2,1,E:Q1091287,0,sid_after=deprecated; new_values=,2025-07-21T05:35:53Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P69]]: [[Q651233]]
+Q1275943,P26,1255263729,RANK_ONLY,normal,2,2,1,E:Q96074983,0,sid_after=deprecated; new_values=,2020-08-12T10:49:49Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P26]]: [[Q131333]]
+Q1554946,P570,1966061551,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2023-09-01T15:13:15Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P570]]: July 5 CE
+Q1324252,P108,1309658956,CREATE_DEPRECATED,(absent),4,5,1,E:Q682739,0,sid_after=deprecated; new_values=,2020-11-20T18:33:59Z,,,,,,/* wbsetclaim-create:2||1 */ [[Property:P108]]: [[Q13371]]
+Q11542483,P69,2327916684,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2025-03-21T02:09:28Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P69]]: [[Q1149393]]
+Q1344534,P26,1519611435,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2021-10-30T13:41:05Z,,,1993-00-00T00:00:00Z,,1993-01-01T00:00:00Z,/* wbsetclaim-update:2||1 */ [[Property:P26]]: [[Q42786]]
+Q1376948,P569,1160994760,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2020-04-19T16:42:42Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P569]]: no value
+Q1433434,P39,2520970024,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2026-07-22T07:54:16Z,,,,,http://www.wikidata.org/.well-known/genid/a16efdfb4fc0a7778a20436f33dd0a34,/* wbsetclaim-update:2||1 */ [[Property:P39]]: [[Q30185]]
+Q1291301,P569,2350960055,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2025-05-21T18:40:16Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P569]]: 20. century BCE
+Q1433,P570,2272461857,RANK_ONLY,normal,2,2,1,T:0169-00-00T00:00:00Z,0,sid_after=deprecated; new_values=,2024-11-09T19:46:43Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P570]]: 168
+Q116759326,P69,1832177098,RANK_ONLY,normal,3,3,2,E:Q1939211|E:Q1115050,0,sid_after=deprecated; new_values=,2023-02-12T01:36:57Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P69]]: [[Q1939211]]
+Q186544,P570,1505398579,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2021-09-29T14:45:52Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P570]]: 22. century BCE
+Q11818098,P69,1701923026,RANK_ONLY,normal,3,3,2,E:Q175529|E:Q175529,0,sid_after=deprecated; new_values=,2022-08-11T21:27:40Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P69]]: [[Q25404328]]
+Q1385977,P569,2143469220,RANK_ONLY,normal,2,2,0,,0,sid_after=deprecated; new_values=,2024-05-03T09:32:48Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P569]]: 1. century
+Q1691444,P26,2347163118,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2025-05-10T20:18:19Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P26]]: [[Q104358]]
+Q15810578,P39,2520975088,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2026-07-22T08:07:40Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P39]]: [[Q30185]]
+Q1394680,P108,2274969223,RANK_ONLY,normal,4,4,3,E:Q35794|E:Q7528204|E:Q327116,0,sid_after=deprecated; new_values=,2024-11-15T09:35:31Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P108]]: [[Q34433]]
+Q102234654,P69,2196215989,RANK_ONLY,normal,2,2,1,E:Q105083742,0,sid_after=deprecated; new_values=,2024-07-05T17:10:02Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P69]]: [[Q157575]]
+Q101564259,P39,1306081761,RANK_ONLY,normal,2,2,1,E:Q20056508,0,sid_after=deprecated; new_values=,2020-11-13T16:52:35Z,,,-0506-00-00T00:00:00Z,,-0505-01-01T00:00:00Z,/* wbsetclaim-update:2||1 */ [[Property:P39]]: [[Q40779]]
+Q11943248,P569,2109135334,RANK_ONLY,normal,2,2,1,T:-0091-00-00T00:00:00Z,0,sid_after=deprecated; new_values=,2024-03-23T12:34:09Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P569]]: 1. century BCE
+Q1081793,P39,2516616891,RANK_ONLY,normal,2,2,1,E:Q140519329,0,sid_after=deprecated; new_values=,2026-07-12T12:28:10Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P39]]: [[Q30185]]
+Q1284890,P569,2207081178,RANK_ONLY,normal,2,2,1,T:-0295-00-00T00:00:00Z,0,sid_after=deprecated; new_values=,2024-07-18T03:58:27Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P569]]: 4. century BCE
+Q1230528,P108,2276573729,RANK_ONLY,normal,2,2,1,E:Q193510,0,sid_after=deprecated; new_values=,2024-11-18T14:28:21Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P108]]: [[Q4948]]
+Q131612868,P569,2296475730,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2025-01-09T15:00:03Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P569]]: 9 CE
+Q102255087,P69,2464267562,RANK_ONLY,normal,2,2,1,E:Q20266330,0,sid_after=deprecated; new_values=,2026-02-17T22:43:31Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P69]]: [[Q152087]]
+Q134817,P39,2329302987,RANK_ONLY,normal,2,2,1,E:Q15315411,0,sid_after=deprecated; new_values=,2025-03-23T13:21:50Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P39]]: [[Q43292]]
+Q15446516,P108,1364215247,CREATE_DEPRECATED,(absent),5,6,1,E:Q153006,0,sid_after=deprecated; new_values=,2021-02-18T11:31:17Z,,,,,,/* wbsetclaim-create:2||1 */ [[Property:P108]]: [[Q16952]]
+Q170547,P570,1813716429,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2023-01-18T00:57:01Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P570]]: 17 January 357
+Q1448476,P39,2344597113,RANK_ONLY,normal,1,1,0,,0,sid_after=deprecated; new_values=,2025-05-04T15:52:14Z,,,,,,/* wbsetclaim-update:2||1 */ [[Property:P39]]: [[Q30185]]

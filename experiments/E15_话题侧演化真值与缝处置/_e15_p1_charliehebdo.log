@@ -1,0 +1,47 @@
+事件 charliehebdo-all-rnr-threads：待抽取线程 2079（labeled_only=False）
+  50/2079  0.5 min
+  100/2079  1.0 min
+  150/2079  1.6 min
+  200/2079  2.0 min
+  250/2079  2.5 min
+  300/2079  2.9 min
+  350/2079  3.3 min
+  400/2079  3.7 min
+  450/2079  4.0 min
+  500/2079  4.4 min
+  550/2079  4.8 min
+  600/2079  5.2 min
+  650/2079  5.5 min
+  700/2079  5.9 min
+  750/2079  6.3 min
+  800/2079  6.7 min
+  850/2079  7.2 min
+  900/2079  7.7 min
+  950/2079  8.1 min
+  1000/2079  8.5 min
+  1050/2079  8.9 min
+  1100/2079  9.4 min
+  1150/2079  9.9 min
+  1200/2079  10.3 min
+  1250/2079  10.7 min
+  1300/2079  11.0 min
+  1350/2079  11.4 min
+  1400/2079  11.8 min
+  1450/2079  12.1 min
+  1500/2079  12.5 min
+  1550/2079  12.9 min
+  1600/2079  13.3 min
+  1650/2079  13.7 min
+  1700/2079  14.1 min
+  1750/2079  14.5 min
+  1800/2079  14.8 min
+  1850/2079  15.2 min
+  1900/2079  15.5 min
+  1950/2079  15.9 min
+  2000/2079  16.4 min
+  2050/2079  16.9 min
+完成：新增 2079，总 2079 条 → D:\WSPforWB\10.keyan\场景1-海量短文本\实验\E15_话题侧演化真值与缝处置\E15_P1_声明_charliehebdo.jsonl（17.2 min）
+
+族分布： {'AMBIG_PERSON': 776, 'NONE': 329, 'FATALITY': 289, 'PERPETRATOR_EXISTS': 234, 'PERPETRATOR_IDENTITY': 233, 'CUSTODY_HELD': 109, 'FORCE_SHOTS': 41, 'POLICE_OPERATION': 27, 'FORCE_EXPLOSION': 15, 'CUSTODY_EXITED': 13, 'INJURY': 12, 'ERR': 1}
+日分布： {'2015-01-07': 825, '2015-01-08': 634, '2015-01-09': 620}
+aspect top12： [('public reaction', 309), ('death toll', 84), ('hostage situation', 64), ('police operation', 44), ('perpetrator identity', 42), ('killed', 38), ('condemnation', 24), ('location', 21), ('solidarity', 20), ('attack', 16), ('quote', 16), ('response', 15)]

@@ -1,0 +1,193 @@
+2026-10-16 07:05:37.838 | INFO     | Core.Graph.TreeGraphDynamic:get_hyperplanes:74 - 
+❌ No existing hyperplane! Regenerated hyperplane!
+2026-10-16 07:05:38.112 | INFO     | Core.Chunk.DocChunk:build_chunks:27 - Starting chunk the given documents
+2026-10-16 07:05:38.174 | INFO     | Core.Storage.ChunkKVStorage:_persist:105 - Writing data into D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_8\tree_graph_dynamic\chunk_storage_chunk_data_idx.pkl and D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_8\tree_graph_dynamic\chunk_storage_chunk_data_key.pkl
+2026-10-16 07:05:38.177 | INFO     | Core.Chunk.DocChunk:build_chunks:74 - ✅ Finished the chunking stage
+2026-10-16 07:05:38.178 | INFO     | Core.GraphRAG:_update_costs_info:205 - Chunking stage cost: Total prompt token: 0, Total completeion token: 0, Total cost: 0
+2026-10-16 07:05:38.178 | INFO     | Core.GraphRAG:_update_costs_info:207 - Chunking time(s): 0.07
+2026-10-16 07:05:38.179 | INFO     | Core.Graph.BaseGraph:build_graph:41 - Starting build graph for the given documents
+2026-10-16 07:05:38.179 | INFO     | Core.Storage.TreeGraphStorage:load_tree_graph:43 - Force flag is set. Rebuilding tree from scratch.
+2026-10-16 07:05:38.187 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 0, children = None
+2026-10-16 07:05:38.196 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 1, children = None
+2026-10-16 07:05:38.202 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 2, children = None
+2026-10-16 07:05:38.203 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 3, children = None
+2026-10-16 07:05:38.208 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 4, children = None
+2026-10-16 07:05:38.209 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 5, children = None
+2026-10-16 07:05:38.212 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 6, children = None
+2026-10-16 07:05:38.212 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 6, children = None
+2026-10-16 07:05:38.218 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 8, children = None
+2026-10-16 07:05:38.219 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 9, children = None
+2026-10-16 07:05:38.220 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 10, children = None
+2026-10-16 07:05:38.224 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 11, children = None
+2026-10-16 07:05:38.225 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 11, children = None
+2026-10-16 07:05:38.226 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 11, children = None
+2026-10-16 07:05:38.226 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 12, children = None
+2026-10-16 07:05:38.229 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 15, children = None
+2026-10-16 07:05:38.229 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 16, children = None
+2026-10-16 07:05:38.232 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 17, children = None
+2026-10-16 07:05:38.233 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 18, children = None
+2026-10-16 07:05:38.236 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 19, children = None
+2026-10-16 07:05:38.237 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 20, children = None
+2026-10-16 07:05:38.238 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 21, children = None
+2026-10-16 07:05:38.239 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 22, children = None
+2026-10-16 07:05:38.241 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 23, children = None
+2026-10-16 07:05:38.242 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 24, children = None
+2026-10-16 07:05:38.243 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 24, children = None
+2026-10-16 07:05:38.245 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 26, children = None
+2026-10-16 07:05:38.247 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 27, children = None
+2026-10-16 07:05:38.248 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 28, children = None
+2026-10-16 07:05:38.249 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 28, children = None
+2026-10-16 07:05:38.250 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 30, children = None
+2026-10-16 07:05:38.250 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 30, children = None
+2026-10-16 07:05:38.251 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 31, children = None
+2026-10-16 07:05:38.254 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 33, children = None
+2026-10-16 07:05:38.256 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 34, children = None
+2026-10-16 07:05:38.257 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 35, children = None
+2026-10-16 07:05:38.261 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 36, children = None
+2026-10-16 07:05:38.261 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 36, children = None
+2026-10-16 07:05:38.261 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 37, children = None
+2026-10-16 07:05:38.262 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 37, children = None
+2026-10-16 07:05:38.264 | INFO     | Core.Graph.TreeGraphDynamic:_build_graph:673 - 40
+2026-10-16 07:05:38.264 | INFO     | Core.Graph.TreeGraphDynamic:_build_graph:674 - To batch embed leaves
+2026-10-16 07:05:38.826 | INFO     | Core.Graph.TreeGraphDynamic:_build_graph:676 - Created 40 Leaf Embeddings
+2026-10-16 07:05:38.829 | INFO     | Core.Graph.TreeGraphDynamic:_build_tree_from_leaves:339 - length of layer: 40
+2026-10-16 07:05:38.830 | INFO     | Core.Graph.TreeGraphDynamic:_perform_clustering:192 - Perform Clustering: n_samples = 40
+2026-10-16 07:05:38.831 | INFO     | Core.Graph.TreeGraphDynamic:_print_bucket_stats:163 - 
+=== LSH Bucket Distribution Analysis ===
+2026-10-16 07:05:38.831 | INFO     | Core.Graph.TreeGraphDynamic:_print_bucket_stats:164 - Total Buckets: 40
+2026-10-16 07:05:38.832 | INFO     | Core.Graph.TreeGraphDynamic:_print_bucket_stats:165 - Biggest Buckets: 1 Elements
+2026-10-16 07:05:38.832 | INFO     | Core.Graph.TreeGraphDynamic:_print_bucket_stats:166 - Smallest Buckets: 1 Elements
+2026-10-16 07:05:38.832 | INFO     | Core.Graph.TreeGraphDynamic:_print_bucket_stats:167 - Average Size: 1.0 Elements
+2026-10-16 07:05:38.833 | INFO     | Core.Graph.TreeGraphDynamic:_print_bucket_stats:168 - 
+Bucket Size:
+2026-10-16 07:05:38.833 | INFO     | Core.Graph.TreeGraphDynamic:_print_bucket_stats:169 - Size     | Count    | Percentage
+2026-10-16 07:05:38.833 | INFO     | Core.Graph.TreeGraphDynamic:_print_bucket_stats:175 - 1        | 40       |    100.0%
+2026-10-16 07:05:38.833 | INFO     | Core.Graph.TreeGraphDynamic:_print_bucket_stats:178 - 
+=== Clustering Result ===
+2026-10-16 07:05:38.833 | INFO     | Core.Graph.TreeGraphDynamic:_print_bucket_stats:179 - Total Clusters: 5
+2026-10-16 07:05:38.833 | INFO     | Core.Graph.TreeGraphDynamic:_print_bucket_stats:181 - Cluster Distribution: Biggest 8, Smallest 8, Average 8.0
+2026-10-16 07:05:41.840 | INFO     | Core.Common.CostManager:update_cost:136 - prompt_tokens: 219, completion_tokens: 32
+2026-10-16 07:05:41.842 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 40, children = {35, 5, 6, 7, 8, 9, 19, 23}
+2026-10-16 07:05:41.851 | INFO     | Core.Common.CostManager:update_cost:136 - prompt_tokens: 227, completion_tokens: 52
+2026-10-16 07:05:41.851 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 41, children = {36, 4, 13, 14, 20, 24, 25, 31}
+2026-10-16 07:05:41.934 | INFO     | Core.Common.CostManager:update_cost:136 - prompt_tokens: 231, completion_tokens: 61
+2026-10-16 07:05:41.936 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 42, children = {32, 34, 2, 11, 15, 22, 28, 30}
+2026-10-16 07:05:42.040 | INFO     | Core.Common.CostManager:update_cost:136 - prompt_tokens: 162, completion_tokens: 37
+2026-10-16 07:05:42.041 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 43, children = {1, 38, 10, 17, 18, 21, 26, 29}
+2026-10-16 07:05:42.058 | INFO     | Core.Common.CostManager:update_cost:136 - prompt_tokens: 257, completion_tokens: 48
+2026-10-16 07:05:42.059 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 44, children = {0, 33, 3, 37, 39, 12, 16, 27}
+2026-10-16 07:05:42.060 | INFO     | Core.Graph.TreeGraphDynamic:_build_tree_from_leaves:352 - To batch embed current layer
+2026-10-16 07:05:42.229 | INFO     | Core.Graph.TreeGraphDynamic:_build_tree_from_leaves:355 - Layer: 0
+2026-10-16 07:05:42.229 | INFO     | Core.Graph.TreeGraphDynamic:_build_tree_from_leaves:339 - length of layer: 5
+2026-10-16 07:05:42.229 | INFO     | Core.Graph.TreeGraphDynamic:_build_tree_from_leaves:357 - 2
+2026-10-16 07:05:42.230 | INFO     | Core.Storage.TreeGraphStorage:_persist:33 - Writing graph into D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_8\tree_graph_dynamic\graph_storage_tree_data.pkl
+2026-10-16 07:05:42.233 | INFO     | Core.Graph.BaseGraph:build_graph:57 - ✅ Finished the graph building stage
+2026-10-16 07:05:42.233 | INFO     | Core.GraphRAG:_update_costs_info:205 - Build Graph stage cost: Total prompt token: 1096, Total completeion token: 230, Total cost: 0
+2026-10-16 07:05:42.233 | INFO     | Core.GraphRAG:_update_costs_info:207 - Build Graph time(s): 4.06
+2026-10-16 07:05:42.233 | INFO     | Core.Index.BaseIndex:build_index:13 - Starting insert elements of the given graph into vector database
+2026-10-16 07:05:42.271 | INFO     | Core.Index.BaseIndex:build_index:25 - Building index for input elements
+2026-10-16 07:05:43.142 | INFO     | Core.Index.FaissIndex:_update_index:106 - refresh index size is 45
+2026-10-16 07:05:43.153 | INFO     | Core.Index.BaseIndex:build_index:28 - Index successfully built and stored.
+2026-10-16 07:05:43.153 | INFO     | Core.Index.BaseIndex:build_index:29 - ✅ Finished starting insert entities of the given graph into vector database
+2026-10-16 07:05:43.153 | INFO     | Core.GraphRAG:_update_costs_info:205 - Index Building stage cost: Total prompt token: 0, Total completeion token: 0, Total cost: 0
+2026-10-16 07:05:43.153 | INFO     | Core.GraphRAG:_update_costs_info:207 - Index Building time(s): 0.92
+2026-10-16 07:05:43.153 | INFO     | Core.GraphRAG:_build_retriever_context:176 - Building retriever context for the current execution
+2026-10-16 07:05:43.155 | INFO     | Core.Chunk.DocChunk:build_chunks:27 - Starting chunk the given documents
+2026-10-16 07:05:43.207 | INFO     | Core.Storage.ChunkKVStorage:_persist:105 - Writing data into D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_8\_c_b1\w3c_d8_b1\chunk_storage_chunk_data_idx.pkl and D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_8\_c_b1\w3c_d8_b1\chunk_storage_chunk_data_key.pkl
+2026-10-16 07:05:43.209 | INFO     | Core.Chunk.DocChunk:build_chunks:74 - ✅ Finished the chunking stage
+2026-10-16 07:05:43.209 | INFO     | Core.Graph.BaseGraph:build_graph:41 - Starting build graph for the given documents
+2026-10-16 07:05:43.210 | INFO     | Core.Storage.TreeGraphStorage:load_tree_graph:47 - Attempting to load the tree from: D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_8\tree_graph_dynamic\graph_storage_tree_data.pkl
+2026-10-16 07:05:43.234 | INFO     | Core.Storage.TreeGraphStorage:load_tree_graph:53 - Successfully loaded tree from: D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_8\tree_graph_dynamic\graph_storage_tree_data.pkl with 45 nodes and 2 layers
+2026-10-16 07:05:43.234 | INFO     | Core.Storage.TreeGraphStorage:load_full_tree_graph:100 - Attempting to load the full tree from: D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_8\tree_graph_dynamic\graph_storage_tree_data.pkl
+2026-10-16 07:05:43.236 | INFO     | Core.Storage.TreeGraphStorage:load_full_tree_graph:116 - Successfully loaded full tree with 40 leaves and 2 layers.
+2026-10-16 07:05:43.236 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 45, children = None
+2026-10-16 07:05:43.237 | INFO     | Core.Graph.TreeGraphDynamic:_refine_graph:626 - new_node.parent: None
+2026-10-16 07:05:43.237 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 46, children = None
+2026-10-16 07:05:43.237 | INFO     | Core.Graph.TreeGraphDynamic:_refine_graph:626 - new_node.parent: None
+2026-10-16 07:05:43.237 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 47, children = None
+2026-10-16 07:05:43.237 | INFO     | Core.Graph.TreeGraphDynamic:_refine_graph:626 - new_node.parent: None
+2026-10-16 07:05:43.237 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 48, children = None
+2026-10-16 07:05:43.237 | INFO     | Core.Graph.TreeGraphDynamic:_refine_graph:626 - new_node.parent: None
+2026-10-16 07:05:43.238 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 49, children = None
+2026-10-16 07:05:43.238 | INFO     | Core.Graph.TreeGraphDynamic:_refine_graph:626 - new_node.parent: None
+2026-10-16 07:05:43.238 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 50, children = None
+2026-10-16 07:05:43.238 | INFO     | Core.Graph.TreeGraphDynamic:_refine_graph:626 - new_node.parent: None
+2026-10-16 07:05:43.238 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 51, children = None
+2026-10-16 07:05:43.238 | INFO     | Core.Graph.TreeGraphDynamic:_refine_graph:626 - new_node.parent: None
+2026-10-16 07:05:43.238 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 52, children = None
+2026-10-16 07:05:43.238 | INFO     | Core.Graph.TreeGraphDynamic:_refine_graph:626 - new_node.parent: None
+2026-10-16 07:05:43.238 | INFO     | Core.Graph.TreeGraphDynamic:_refine_graph:632 - Refining graph with 8 new chunks
+2026-10-16 07:05:43.239 | INFO     | Core.Graph.TreeGraphDynamic:_refine_graph:634 - length of layer: 48
+2026-10-16 07:05:43.239 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:459 - refine layer: 0
+2026-10-16 07:05:43.239 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:471 - ✅Layer 0 split&merge completed in 0.00 seconds
+2026-10-16 07:05:43.239 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:480 - affected node.index: 45
+2026-10-16 07:05:43.239 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:480 - affected node.index: 46
+2026-10-16 07:05:43.239 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:480 - affected node.index: 47
+2026-10-16 07:05:43.239 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:480 - affected node.index: 48
+2026-10-16 07:05:43.239 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:480 - affected node.index: 49
+2026-10-16 07:05:43.240 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:480 - affected node.index: 50
+2026-10-16 07:05:43.240 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:480 - affected node.index: 51
+2026-10-16 07:05:43.240 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:480 - affected node.index: 52
+2026-10-16 07:05:43.240 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:486 - len of current affected entities: 8
+2026-10-16 07:05:43.240 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:520 - ✅Layer 0 resummarize completed in 0.00 seconds
+2026-10-16 07:05:43.240 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:525 - len of texts: 8
+2026-10-16 07:05:43.360 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:530 - ✅Layer 0 embedding_update completed in 0.12 seconds
+2026-10-16 07:05:43.361 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:541 - len of current layer signatures: 48
+2026-10-16 07:05:43.361 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:543 - ✅Layer 0 signature_update completed in 0.00 seconds
+2026-10-16 07:05:43.361 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:582 - record_parent_idx: [44, None, 44, None, 44, None, None, 44, 44, 44, 44, 44, 42, 42, 42, 42, 42, 42, 42, None, 42, 41, 41, 41, 41, None, 41, None, 41, 41, 41, 43, 43, 43, 43, 43, 43, None, 43, 43, 40, 40, 40, 40, 40, 40, 40, 40]
+2026-10-16 07:05:43.361 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:585 - Layer 0 refinement completed in 0.12 seconds
+2026-10-16 07:05:43.361 | INFO     | Core.Graph.TreeGraphDynamic:_refine_graph:634 - length of layer: 5
+2026-10-16 07:05:43.361 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:459 - refine layer: 1
+2026-10-16 07:05:43.362 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:466 - total children: 48
+2026-10-16 07:05:43.362 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:471 - ✅Layer 1 split&merge completed in 0.00 seconds
+2026-10-16 07:05:43.362 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:480 - affected node.index: 41
+2026-10-16 07:05:43.362 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:480 - affected node.index: 42
+2026-10-16 07:05:43.362 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:480 - affected node.index: 43
+2026-10-16 07:05:43.362 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:480 - affected node.index: 44
+2026-10-16 07:05:43.362 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:486 - len of current affected entities: 4
+2026-10-16 07:05:43.362 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:501 - Processing node 41 with 10 children
+2026-10-16 07:05:45.273 | INFO     | Core.Common.CostManager:update_cost:136 - prompt_tokens: 271, completion_tokens: 39
+2026-10-16 07:05:45.275 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:515 - Updated summary for node 41
+2026-10-16 07:05:45.275 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:501 - Processing node 42 with 9 children
+2026-10-16 07:05:50.340 | INFO     | Core.Common.CostManager:update_cost:136 - prompt_tokens: 265, completion_tokens: 40
+2026-10-16 07:05:50.342 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:515 - Updated summary for node 42
+2026-10-16 07:05:50.342 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:501 - Processing node 43 with 9 children
+2026-10-16 07:05:52.791 | INFO     | Core.Common.CostManager:update_cost:136 - prompt_tokens: 167, completion_tokens: 38
+2026-10-16 07:05:52.792 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:515 - Updated summary for node 43
+2026-10-16 07:05:52.792 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:501 - Processing node 44 with 12 children
+2026-10-16 07:05:55.062 | INFO     | Core.Common.CostManager:update_cost:136 - prompt_tokens: 380, completion_tokens: 37
+2026-10-16 07:05:55.063 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:515 - Updated summary for node 44
+2026-10-16 07:05:55.063 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:520 - ✅Layer 1 resummarize completed in 11.70 seconds
+2026-10-16 07:05:55.064 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:525 - len of texts: 4
+2026-10-16 07:05:55.151 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:530 - ✅Layer 1 embedding_update completed in 0.09 seconds
+2026-10-16 07:05:55.151 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:541 - len of current layer signatures: 5
+2026-10-16 07:05:55.151 | INFO     | Core.Graph.TreeGraphDynamic:_refine_one_layer:543 - ✅Layer 1 signature_update completed in 0.00 seconds
+2026-10-16 07:05:55.152 | INFO     | Core.Graph.TreeGraphDynamic:_reorder_node_id:611 - len of new_all_nodes: 53
+2026-10-16 07:05:55.152 | INFO     | Core.Graph.TreeGraphDynamic:_reorder_node_id:612 - len of original nodes: 53
+2026-10-16 07:05:55.152 | INFO     | Core.Storage.TreeGraphStorage:_persist:33 - Writing graph into D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_8\tree_graph_dynamic\graph_storage_tree_data.pkl
+2026-10-16 07:05:55.156 | INFO     | Core.Graph.BaseGraph:build_graph:48 - ✅ Finished adding additional info to the tree
+2026-10-16 07:05:55.156 | INFO     | Core.Graph.BaseGraph:build_graph:57 - ✅ Finished the graph building stage
+2026-10-16 07:05:55.159 | INFO     | Core.Chunk.DocChunk:build_chunks:27 - Starting chunk the given documents
+2026-10-16 07:05:55.170 | INFO     | Core.Storage.ChunkKVStorage:_persist:105 - Writing data into D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_8\_c_b2\w3c_d8_b2\chunk_storage_chunk_data_idx.pkl and D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_8\_c_b2\w3c_d8_b2\chunk_storage_chunk_data_key.pkl
+2026-10-16 07:05:55.173 | INFO     | Core.Chunk.DocChunk:build_chunks:74 - ✅ Finished the chunking stage
+2026-10-16 07:05:55.173 | INFO     | Core.Graph.BaseGraph:build_graph:41 - Starting build graph for the given documents
+2026-10-16 07:05:55.174 | INFO     | Core.Storage.TreeGraphStorage:load_tree_graph:47 - Attempting to load the tree from: D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_8\tree_graph_dynamic\graph_storage_tree_data.pkl
+2026-10-16 07:05:55.187 | INFO     | Core.Storage.TreeGraphStorage:load_tree_graph:53 - Successfully loaded tree from: D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_8\tree_graph_dynamic\graph_storage_tree_data.pkl with 53 nodes and 2 layers
+2026-10-16 07:05:55.188 | INFO     | Core.Storage.TreeGraphStorage:load_full_tree_graph:100 - Attempting to load the full tree from: D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_8\tree_graph_dynamic\graph_storage_tree_data.pkl
+2026-10-16 07:05:55.190 | INFO     | Core.Storage.TreeGraphStorage:load_full_tree_graph:116 - Successfully loaded full tree with 48 leaves and 2 layers.
+2026-10-16 07:05:55.190 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 53, children = None
+2026-10-16 07:05:55.190 | INFO     | Core.Graph.TreeGraphDynamic:_refine_graph:626 - new_node.parent: None
+2026-10-16 07:05:55.190 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 54, children = None
+2026-10-16 07:05:55.191 | INFO     | Core.Graph.TreeGraphDynamic:_refine_graph:626 - new_node.parent: None
+2026-10-16 07:05:55.191 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 55, children = None
+2026-10-16 07:05:55.191 | INFO     | Core.Graph.TreeGraphDynamic:_refine_graph:626 - new_node.parent: None
+2026-10-16 07:05:55.191 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 56, children = None
+2026-10-16 07:05:55.191 | INFO     | Core.Graph.TreeGraphDynamic:_refine_graph:626 - new_node.parent: None
+2026-10-16 07:05:55.191 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 57, children = None
+2026-10-16 07:05:55.192 | INFO     | Core.Graph.TreeGraphDynamic:_refine_graph:626 - new_node.parent: None
+2026-10-16 07:05:55.192 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 58, children = None
+2026-10-16 07:05:55.192 | INFO     | Core.Graph.TreeGraphDynamic:_refine_graph:626 - new_node.parent: None
+2026-10-16 07:05:55.192 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 59, children = None
+2026-10-16 07:05:55.192 | INFO     | Core.Graph.TreeGraphDynamic:_refine_graph:626 - new_node.parent: None
+2026-10-16 07:05:55.192 | INFO     | Core.Graph.TreeGraphDynamic:_create_node_without_embedding:285 - Create node_id = 60, children = None
+2026-10-16 07:05:55.192 | INFO     | Core.Graph.TreeGraphDynamic:_refine_graph:626 - new_node.parent: None

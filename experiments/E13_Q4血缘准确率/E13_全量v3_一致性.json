@@ -1,0 +1,141 @@
+{
+  "n": 755,
+  "kappa": 0.8932,
+  "agree_rate": 0.9391,
+  "gwet_ac1": 0.8582,
+  "n_disagree": 46,
+  "per_stratum": {
+    "S1_same_thread_reply": {
+      "n": 97,
+      "agree_rate": 0.9175,
+      "kappa": 0.5527,
+      "dist_M": {
+        "UNRELATED": 89,
+        "DERIVE": 6,
+        "SUPPORT": 2
+      },
+      "dist_N": {
+        "UNRELATED": 86,
+        "SUPPORT": 7,
+        "CONFLICT": 3,
+        "DERIVE": 1
+      }
+    },
+    "S2_cross_thread_high_sim": {
+      "n": 97,
+      "agree_rate": 0.9381,
+      "kappa": 0.8183,
+      "dist_M": {
+        "DERIVE": 6,
+        "SUPPORT": 78,
+        "CONFLICT": 6,
+        "UNRELATED": 7
+      },
+      "dist_N": {
+        "DERIVE": 5,
+        "SUPPORT": 78,
+        "CONFLICT": 6,
+        "UNRELATED": 8
+      }
+    },
+    "S3_cross_thread_opposite_veracity": {
+      "n": 97,
+      "agree_rate": 0.9485,
+      "kappa": 0.7233,
+      "dist_M": {
+        "UNRELATED": 86,
+        "SUPPORT": 11
+      },
+      "dist_N": {
+        "UNRELATED": 88,
+        "SUPPORT": 8,
+        "CONFLICT": 1
+      }
+    },
+    "S4_cross_thread_random": {
+      "n": 97,
+      "agree_rate": 0.9588,
+      "kappa": 0.8252,
+      "dist_M": {
+        "UNRELATED": 83,
+        "SUPPORT": 12,
+        "CONFLICT": 2
+      },
+      "dist_N": {
+        "UNRELATED": 85,
+        "SUPPORT": 11,
+        "CONFLICT": 1
+      }
+    },
+    "S5_cross_thread_verbatim": {
+      "n": 97,
+      "agree_rate": 1.0,
+      "kappa": 1.0,
+      "dist_M": {
+        "DERIVE": 92,
+        "SUPPORT": 5
+      },
+      "dist_N": {
+        "DERIVE": 92,
+        "SUPPORT": 5
+      }
+    },
+    "S6_same_slot_conflicting": {
+      "n": 270,
+      "agree_rate": 0.9148,
+      "kappa": 0.8136,
+      "dist_M": {
+        "UNRELATED": 194,
+        "CONFLICT": 31,
+        "SUPPORT": 45
+      },
+      "dist_N": {
+        "UNRELATED": 187,
+        "CONFLICT": 30,
+        "SUPPORT": 53
+      }
+    }
+  },
+  "S6_subtypes_dist_channelM": {
+    "polarity": {
+      "n": 20,
+      "dist_M": {
+        "UNRELATED": 14,
+        "SUPPORT": 5,
+        "CONFLICT": 1
+      }
+    },
+    "strict": {
+      "n": 233,
+      "dist_M": {
+        "UNRELATED": 169,
+        "CONFLICT": 30,
+        "SUPPORT": 34
+      }
+    },
+    "vague": {
+      "n": 17,
+      "dist_M": {
+        "UNRELATED": 11,
+        "SUPPORT": 6
+      }
+    }
+  },
+  "label_dist_M": {
+    "UNRELATED": 459,
+    "DERIVE": 104,
+    "SUPPORT": 153,
+    "CONFLICT": 39
+  },
+  "label_dist_N": {
+    "UNRELATED": 454,
+    "SUPPORT": 162,
+    "CONFLICT": 41,
+    "DERIVE": 98
+  },
+  "files": {
+    "M": "E13_全量v3_通道M.csv",
+    "N": "E13_全量v3_通道N.csv",
+    "disagree": "E13_全量v3_分歧清单.csv"
+  }
+}

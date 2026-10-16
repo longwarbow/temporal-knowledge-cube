@@ -1,0 +1,376 @@
+{
+  "seed": 20261011,
+  "n": 60,
+  "design": {
+    "S5_random": 20,
+    "S6_quota": {
+      "strict": 20,
+      "polarity": 12,
+      "vague": 8
+    }
+  },
+  "map": {
+    "E13-0521": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "slot": "slot=DEAD 11|4",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0499": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "slot": "slot=DEAD 12|4",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0429": {
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "slot": "coverage=1.000 + mention-only",
+      "system_pred": "DERIVE"
+    },
+    "E13-0542": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "slot": "slot=HOSTAGE 13|5",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0431": {
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "slot": "coverage=1.000 + mention-only",
+      "system_pred": "DERIVE"
+    },
+    "E13-0558": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "slot": "slot=SUSPECT multiple|3",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0398": {
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "slot": "coverage=1.000 + mention-only",
+      "system_pred": "DERIVE"
+    },
+    "E13-0533": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "slot": "slot=DEAD 11|4",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0551": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "slot": "slot=DEAD many|2",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0422": {
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "slot": "coverage=1.000 + mention-only",
+      "system_pred": "DERIVE"
+    },
+    "E13-0477": {
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "slot": "coverage=1.000 + mention-only",
+      "system_pred": "DERIVE"
+    },
+    "E13-0550": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "slot": "slot=HOSTAGE many|1",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0494": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "slot": "slot=DEAD 11|12",
+      "system_pred": "CONFLICT"
+    },
+    "E13-0522": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "slot": "slot=DEAD 2|1",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0563": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "slot": "slot=SUSPECT 3|multiple",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0435": {
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "slot": "coverage=1.000 + mention-only",
+      "system_pred": "DERIVE"
+    },
+    "E13-0577": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "slot": "slot=SUSPECT many|2",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0455": {
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "slot": "coverage=1.000 + mention-only",
+      "system_pred": "DERIVE"
+    },
+    "E13-0569": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "slot": "slot=SUSPECT multiple|5",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0491": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "slot": "slot=SUSPECT 1|96",
+      "system_pred": "CONFLICT"
+    },
+    "E13-0532": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "slot": "slot=DEAD 10|2",
+      "system_pred": "CONFLICT"
+    },
+    "E13-0503": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "slot": "slot=HOSTAGE 1|2",
+      "system_pred": "CONFLICT"
+    },
+    "E13-0575": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "slot": "slot=SUSPECT many|1",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0555": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "slot": "slot=SUSPECT multiple|1",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0471": {
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "slot": "coverage=1.000 + mention-only",
+      "system_pred": "DERIVE"
+    },
+    "E13-0506": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "slot": "slot=HOSTAGE 50|3",
+      "system_pred": "CONFLICT"
+    },
+    "E13-0582": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "slot": "slot=AIRPLANE 6|many",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0519": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "slot": "slot=DEAD 2|1",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0546": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "slot": "slot=SUSPECT some|1",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0458": {
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "copy",
+      "slot": "coverage=1.000",
+      "system_pred": "DERIVE"
+    },
+    "E13-0530": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "slot": "slot=DEAD 11|0",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0441": {
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "copy",
+      "slot": "coverage=1.000",
+      "system_pred": "DERIVE"
+    },
+    "E13-0512": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "slot": "slot=DEAD 10|11",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0472": {
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "copy",
+      "slot": "coverage=1.000",
+      "system_pred": "DERIVE"
+    },
+    "E13-0566": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "slot": "slot=DEAD 1|many",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0462": {
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "copy",
+      "slot": "coverage=1.000",
+      "system_pred": "DERIVE"
+    },
+    "E13-0553": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "slot": "slot=DEAD 1|many",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0482": {
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "slot": "coverage=1.000 + mention-only",
+      "system_pred": "DERIVE"
+    },
+    "E13-0549": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "slot": "slot=DEAD 0|many",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0567": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "slot": "slot=DEAD 1,2|many",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0536": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "slot": "slot=HOSTAGE 5|2",
+      "system_pred": "CONFLICT"
+    },
+    "E13-0459": {
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "slot": "coverage=1.000 + mention-only",
+      "system_pred": "DERIVE"
+    },
+    "E13-0479": {
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "slot": "coverage=1.000 + mention-only",
+      "system_pred": "DERIVE"
+    },
+    "E13-0523": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "slot": "slot=DEAD 96|2",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0560": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "slot": "slot=SUSPECT multiple|1",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0428": {
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "slot": "coverage=1.000 + mention-only",
+      "system_pred": "DERIVE"
+    },
+    "E13-0415": {
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "copy",
+      "slot": "coverage=1.000",
+      "system_pred": "DERIVE"
+    },
+    "E13-0420": {
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "slot": "coverage=1.000 + mention-only",
+      "system_pred": "DERIVE"
+    },
+    "E13-0524": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "slot": "slot=DEAD 12|2",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0579": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "slot": "slot=SUSPECT multiple|1",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0570": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "slot": "slot=SUSPECT multiple|2,3",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0559": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "slot": "slot=SUSPECT few|1",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0439": {
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "slot": "coverage=1.000 + mention-only",
+      "system_pred": "DERIVE"
+    },
+    "E13-0496": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "slot": "slot=DEAD 4|2",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0539": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "slot": "slot=HOSTAGE 40,50|1",
+      "system_pred": "CONFLICT"
+    },
+    "E13-0487": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "slot": "slot=DEAD 11|4,6",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0490": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "slot": "slot=HOSTAGE 2|1,6",
+      "system_pred": "CONFLICT"
+    },
+    "E13-0548": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "slot": "slot=HOSTAGE 5|dozens",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0554": {
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "slot": "slot=SUSPECT multiple|3",
+      "system_pred": "UNRELATED"
+    },
+    "E13-0430": {
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "slot": "coverage=1.000 + mention-only",
+      "system_pred": "DERIVE"
+    }
+  },
+  "leakage_note": "盲版只含 pair_id/event/p_text/q_text + 待填列；stratum（列名自带答案）、subtype、量槽、system_pred 全部剔除",
+  "warning": "本索引含 stratum/subtype，**不得**交给标注员"
+}

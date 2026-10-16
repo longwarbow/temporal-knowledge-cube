@@ -1,0 +1,78 @@
+{
+ "slice": "S4 11-24T10:53→11-24T11:49",
+ "kappa": 0.4118,
+ "kappa_tab": [
+  27,
+  32,
+  3,
+  58
+ ],
+ "po": 0.7083,
+ "n_labels": 16,
+ "n_other": 0,
+ "node_threads": {
+  "artwork_acceptance": 25,
+  "bequest_management": 4,
+  "decision_announcement": 5
+ },
+ "node_members": {
+  "artwork_acceptance": [
+   "acceptance",
+   "accepts looted Nazi art",
+   "acceptance of art trove",
+   "accepts art",
+   "acceptance by Bern museum",
+   "accepts art trove",
+   "collection",
+   "Obtains Trove",
+   "accepts part of",
+   "transparency",
+   "summary"
+  ],
+  "bequest_management": [
+   "accepts bequest",
+   "management agreement"
+  ],
+  "decision_announcement": [
+   "conclusion",
+   "confirmation",
+   "accord signed"
+  ]
+ },
+ "assign_A": {
+  "acceptance": 1,
+  "accepts bequest": 2,
+  "conclusion": 5,
+  "confirmation": 5,
+  "accepts looted Nazi art": 1,
+  "accord signed": 5,
+  "acceptance of art trove": 1,
+  "accepts art": 1,
+  "acceptance by Bern museum": 1,
+  "accepts art trove": 1,
+  "collection": 1,
+  "Obtains Trove": 1,
+  "accepts part of": 1,
+  "transparency": 1,
+  "summary": 1,
+  "management agreement": 2
+ },
+ "assign_B": {
+  "Obtains Trove": 0,
+  "acceptance": 1,
+  "acceptance by Bern museum": 1,
+  "acceptance of art trove": 1,
+  "accepts art": 1,
+  "accepts art trove": 1,
+  "accepts bequest": 6,
+  "accepts looted Nazi art": 1,
+  "accepts part of": 1,
+  "accord signed": 5,
+  "collection": 0,
+  "conclusion": 5,
+  "confirmation": 5,
+  "management agreement": 2,
+  "summary": 5,
+  "transparency": 0
+ }
+}

@@ -1,0 +1,13 @@
+﻿pair_id,label_relation,label_confidence,label_notes
+E13-0570,SUPPORT,2,A2 模糊量 multiple suspects 与具体 3 gunmen 可兼容⇒SUPPORT
+E13-0513,SUPPORT,3,A3-ⓐ③ 总数12死 vs 具指子项4名法国漫画家⇒SUPPORT
+E13-0543,UNRELATED,3,A4-反例清单 枪手被击毙/士兵中枪 ↔ 医院收治伤者⇒UNRELATED
+E13-0499,SUPPORT,3,A3-ⓐ③ 总数12死 vs 具指子项4名法国漫画家⇒SUPPORT
+E13-0539,UNRELATED,3,A4-反例清单 被扣押 ↔ 枪击/人质逃离⇒UNRELATED
+E13-0487,UNRELATED,3,A3-①限定 of six hostages 非 p 所量总体(枪击死者)⇒UNRELATED
+E13-0540,UNRELATED,2,A4 人质离开(状态转移) ↔ 人质确认枪手诉求(另一动作)⇒UNRELATED
+E13-0534,UNRELATED,3,A4-反例清单 被扣押 ↔ 枪击/人质逃离⇒UNRELATED
+E13-0458,SUPPORT,3,A5 via @theblaze 为归因新增来源细节⇒SUPPORT
+E13-0566,UNRELATED,3,T1 q 为纯提问非事实命题⇒UNRELATED
+E13-0503,UNRELATED,3,A3-ⓠ 1 hostage(人数) vs 2 hostage situations(起数)计量对象不同⇒UNRELATED
+E13-0556,UNRELATED,3,T1 q 为纯提问非事实命题⇒UNRELATED

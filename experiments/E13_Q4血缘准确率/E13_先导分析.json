@@ -1,0 +1,366 @@
+{
+  "n_pilot": 50,
+  "annotators": {
+    "A": "E13_先导50条_标注员A.csv",
+    "B": "E13_先导50条_标注员B.csv",
+    "arbitration": "E13_先导50条_仲裁.csv"
+  },
+  "agreement": {
+    "cohen_kappa": {
+      "po": 0.92,
+      "pe": 0.5152,
+      "kappa": 0.835,
+      "se": 0.0791,
+      "ci95": [
+        0.6799,
+        0.9901
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          13,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          31
+        ]
+      ]
+    },
+    "gwet_ac1": {
+      "po": 0.92,
+      "pe": 0.1613,
+      "ac1": 0.9046
+    },
+    "n_disagree": 4,
+    "disagree_pct": 8.0,
+    "per_class_agreement": {
+      "DERIVE": {
+        "A_n": 1,
+        "agree": 1,
+        "agree_rate": 1.0
+      },
+      "SUPPORT": {
+        "A_n": 15,
+        "agree": 13,
+        "agree_rate": 0.8667
+      },
+      "CONFLICT": {
+        "A_n": 2,
+        "agree": 1,
+        "agree_rate": 0.5
+      },
+      "UNRELATED": {
+        "A_n": 32,
+        "agree": 31,
+        "agree_rate": 0.9688
+      }
+    }
+  },
+  "disagreements": [
+    {
+      "pair_id": "E13-0042",
+      "stratum": "S1_same_thread_reply",
+      "event": "ottawashooting-all-rnr-threads",
+      "A": "SUPPORT",
+      "B": "UNRELATED",
+      "arbitration": null,
+      "A_conf": "1",
+      "B_conf": "2",
+      "A_note": "both are condolences to Ottawa-shooting victims (same pro-stance, no citation) => SUPPORT; borderline UNRELATED if pure emotion is non-propositional.",
+      "B_note": "both are condolence/prayer expressions (emotion) -> UNRELATED per 2.2; could be argued SUPPORT",
+      "contain": "0.125",
+      "j_tok": "0.0667",
+      "pol_opposite": "0",
+      "char3_j": "0.0574",
+      "system_pred": "UNRELATED",
+      "p_text": "Hearts and prayers go out to everyone affected by the shootings in Ottawa today.",
+      "q_text": "@timhicksmusic so sad one of the guards was from Hamilton armoury! Too close to home! Prayers to all"
+    },
+    {
+      "pair_id": "E13-0083",
+      "stratum": "S1_same_thread_reply",
+      "event": "ottawashooting-all-rnr-threads",
+      "A": "UNRELATED",
+      "B": "CONFLICT",
+      "arbitration": null,
+      "A_conf": "2",
+      "B_conf": "2",
+      "A_note": "q only reports the live link is dead (logistics); different proposition.",
+      "B_note": "q denies p's implicit claim that the link is a live feed -> incompatible on same sub-fact; borderline vs UNRELATED",
+      "contain": "0.25",
+      "j_tok": "0.0769",
+      "pol_opposite": "0",
+      "char3_j": "0.0326",
+      "system_pred": "UNRELATED",
+      "p_text": "#RCMP news conference on #Ottawa shootings expected to begin momentarily. Watch live @ http://t.co/kngapKTSCe",
+      "q_text": "@CBCAlerts @CBCTheNational that link doesnt lead to a live feed"
+    },
+    {
+      "pair_id": "E13-0098",
+      "stratum": "S3_cross_thread_opposite_veracity",
+      "event": "ferguson-all-rnr-threads",
+      "A": "CONFLICT",
+      "B": "UNRELATED",
+      "arbitration": null,
+      "A_conf": "1",
+      "B_conf": "1",
+      "A_note": "p: police stopped Brown for blocking traffic; q: Brown was shot over a shoplifting accusation => competing accounts of the same police action; borderline UNRELATED (why-stopped vs why-shot).",
+      "B_note": "different facts (reason for stop vs reason for shooting); could be CONFLICT if police rationale treated as one fact with one value; low confidence",
+      "contain": "0.1667",
+      "j_tok": "0.087",
+      "pol_opposite": "0",
+      "char3_j": "0.1124",
+      "system_pred": "UNRELATED",
+      "p_text": "Q: \"why did he stop Michael Brown?\" #Ferguson Police Chief: \"because they were walking down the middle of the street blocking traffic\"",
+      "q_text": "St. Louis: Unarmed teenager #MikeBrown was shot ten times by a #Ferguson police officer for accusation of shoplifting http://t.co/cmaG8mnMiP"
+    },
+    {
+      "pair_id": "E13-0105",
+      "stratum": "S3_cross_thread_opposite_veracity",
+      "event": "ottawashooting-all-rnr-threads",
+      "A": "SUPPORT",
+      "B": "UNRELATED",
+      "arbitration": null,
+      "A_conf": "2",
+      "B_conf": "2",
+      "A_note": "overlap only on 'police seeking multiple/3 suspects' (consistent); p's main claim (death) not covered by q; weak partial overlap.",
+      "B_note": "shares police-searching-for-suspects element but asserted facts differ (3 suspects / one dealt with); reads as related progress",
+      "contain": "0.2",
+      "j_tok": "0.1",
+      "pol_opposite": "0",
+      "char3_j": "0.071",
+      "system_pred": "UNRELATED",
+      "p_text": "Soldier shot by gunman outside Canada parliament dies, minister says, as police search for multiple suspects",
+      "q_text": "BREAKING NEWS: OTTAWA POLICE CONFIRM TO ABC NEWS THEY ARE LOOKING FOR 3 SUSPECTS, ONE HAS BEEN 'DEALT WITH' - http://t.co/lXFiYaVImZ"
+    }
+  ],
+  "label_distribution": {
+    "A": {
+      "UNRELATED": 32,
+      "DERIVE": 1,
+      "SUPPORT": 15,
+      "CONFLICT": 2
+    },
+    "B": {
+      "UNRELATED": 34,
+      "DERIVE": 1,
+      "CONFLICT": 2,
+      "SUPPORT": 13
+    },
+    "consensus": {
+      "UNRELATED": 31,
+      "DERIVE": 1,
+      "SUPPORT": 13,
+      "CONFLICT": 1
+    },
+    "consensus_by_stratum": {
+      "S1_same_thread_reply": {
+        "UNRELATED": 10,
+        "DERIVE": 1
+      },
+      "S2_cross_thread_high_sim": {
+        "SUPPORT": 11,
+        "CONFLICT": 1
+      },
+      "S3_cross_thread_opposite_veracity": {
+        "UNRELATED": 9,
+        "SUPPORT": 1
+      },
+      "S4_cross_thread_random": {
+        "UNRELATED": 12,
+        "SUPPORT": 1
+      }
+    }
+  },
+  "consensus_source": {
+    "agree": 46,
+    "unresolved": 4
+  },
+  "system_scores_on_consensus": {
+    "S_plus_structural": {
+      "per_class": {
+        "DERIVE": {
+          "support": 1,
+          "tp": 1,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.3333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "SUPPORT": {
+          "support": 13,
+          "tp": 8,
+          "fp": 0,
+          "fn": 5,
+          "precision": 1.0,
+          "recall": 0.6154,
+          "f1": 0.7619
+        },
+        "CONFLICT": {
+          "support": 1,
+          "tp": 1,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.3333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "UNRELATED": {
+          "support": 31,
+          "tp": 29,
+          "fp": 3,
+          "fn": 2,
+          "precision": 0.9062,
+          "recall": 0.9355,
+          "f1": 0.9206
+        }
+      },
+      "accuracy_NOT_a_result": 0.8478,
+      "macro_f1": 0.6706,
+      "n": 46
+    },
+    "S_minus_content_only": {
+      "per_class": {
+        "DERIVE": {
+          "support": 1,
+          "tp": 1,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.3333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "SUPPORT": {
+          "support": 13,
+          "tp": 8,
+          "fp": 0,
+          "fn": 5,
+          "precision": 1.0,
+          "recall": 0.6154,
+          "f1": 0.7619
+        },
+        "CONFLICT": {
+          "support": 1,
+          "tp": 1,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.3333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "UNRELATED": {
+          "support": 31,
+          "tp": 29,
+          "fp": 3,
+          "fn": 2,
+          "precision": 0.9062,
+          "recall": 0.9355,
+          "f1": 0.9206
+        }
+      },
+      "accuracy_NOT_a_result": 0.8478,
+      "macro_f1": 0.6706,
+      "n": 46
+    },
+    "null_all_UNRELATED": {
+      "per_class": {
+        "DERIVE": {
+          "support": 1,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "SUPPORT": {
+          "support": 13,
+          "tp": 0,
+          "fp": 0,
+          "fn": 13,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CONFLICT": {
+          "support": 1,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "UNRELATED": {
+          "support": 31,
+          "tp": 31,
+          "fp": 15,
+          "fn": 0,
+          "precision": 0.6739,
+          "recall": 1.0,
+          "f1": 0.8052
+        }
+      },
+      "accuracy_NOT_a_result": 0.6739,
+      "macro_f1": 0.2013,
+      "n": 46
+    }
+  },
+  "diagnostics": {
+    "P_CONFLICT_given_veracity_opposite": {
+      "n": 10,
+      "rate": 0.0
+    },
+    "P_CONFLICT_given_random_same_event": {
+      "n": 13,
+      "rate": 0.0
+    },
+    "consensus_by_stratum": {
+      "S1_same_thread_reply": {
+        "UNRELATED": 10,
+        "DERIVE": 1
+      },
+      "S2_cross_thread_high_sim": {
+        "SUPPORT": 11,
+        "CONFLICT": 1
+      },
+      "S3_cross_thread_opposite_veracity": {
+        "UNRELATED": 9,
+        "SUPPORT": 1
+      },
+      "S4_cross_thread_random": {
+        "UNRELATED": 12,
+        "SUPPORT": 1
+      }
+    },
+    "S_plus_vs_S_minus_diff_on_pilot": 0,
+    "kappa_high_conf_subset": {
+      "n": 45,
+      "kappa": 0.8986,
+      "po": 0.9556
+    }
+  },
+  "gate": {
+    "target_kappa": 0.7,
+    "kappa": 0.835,
+    "pass": true,
+    "note": "AI 双通道探针的 κ 只用于**否决性检验**（连 AI 都分不开 ⇒ 判据肯定坏了），不能替代人类 κ；两者误差相关，探针 κ 偏乐观"
+  }
+}

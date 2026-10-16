@@ -1,0 +1,120 @@
+{
+ "slice": "S2 11-21T23:21→11-24T09:11",
+ "kappa": 0.085,
+ "kappa_tab": [
+  5,
+  65,
+  4,
+  277
+ ],
+ "po": 0.8034,
+ "n_labels": 27,
+ "n_other": 0,
+ "node_threads": {
+  "challenge_action": 9,
+  "control_of_art": 13,
+  "decision_announcement": 4,
+  "litigation_process": 2,
+  "event_update": 3,
+  "public_reaction": 3
+ },
+ "node_members": {
+  "challenge_action": [
+   "will challenge",
+   "challenges",
+   "challenged",
+   "challenge",
+   "lodges claim",
+   "inheritance claim"
+  ],
+  "control_of_art": [
+   "Nazi-era art hoard",
+   "location",
+   "control of art",
+   "sale proceeds",
+   "paintings hidden",
+   "destination",
+   "sale and distribution",
+   "Swiss museum",
+   "fate",
+   "control by heirs"
+  ],
+  "decision_announcement": [
+   "decision",
+   "decision announcement",
+   "deciding"
+  ],
+  "litigation_process": [
+   "lawsuit",
+   "litigation"
+  ],
+  "event_update": [
+   "last-minute",
+   "Update",
+   "update twist"
+  ],
+  "public_reaction": [
+   "interview",
+   "commenting on",
+   "Germany's handling"
+  ]
+ },
+ "assign_A": {
+  "will challenge": 3,
+  "challenges": 3,
+  "Nazi-era art hoard": 4,
+  "location": 4,
+  "control of art": 4,
+  "decision": 5,
+  "challenged": 3,
+  "sale proceeds": 4,
+  "lawsuit": 7,
+  "last-minute": 6,
+  "decision announcement": 5,
+  "litigation": 7,
+  "challenge": 3,
+  "Update": 6,
+  "paintings hidden": 4,
+  "destination": 4,
+  "sale and distribution": 4,
+  "lodges claim": 3,
+  "Swiss museum": 4,
+  "fate": 4,
+  "inheritance claim": 3,
+  "interview": 8,
+  "update twist": 6,
+  "control by heirs": 4,
+  "commenting on": 8,
+  "deciding": 5,
+  "Germany's handling": 8
+ },
+ "assign_B": {
+  "Germany's handling": 1,
+  "Nazi-era art hoard": 2,
+  "Swiss museum": 2,
+  "Update": 3,
+  "challenge": 4,
+  "challenged": 4,
+  "challenges": 4,
+  "commenting on": 8,
+  "control by heirs": 8,
+  "control of art": 4,
+  "deciding": 10,
+  "decision": 11,
+  "decision announcement": 11,
+  "destination": 13,
+  "fate": 14,
+  "inheritance claim": 15,
+  "interview": 16,
+  "last-minute": 17,
+  "lawsuit": 18,
+  "litigation": 19,
+  "location": 20,
+  "lodges claim": 21,
+  "paintings hidden": 22,
+  "sale and distribution": 23,
+  "sale proceeds": 24,
+  "update twist": 25,
+  "will challenge": 26
+ }
+}

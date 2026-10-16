@@ -1,0 +1,101 @@
+{
+  "selftest_ok": true,
+  "selftest_fails": [],
+  "families": {
+    "FATALITY": {
+      "attribute": "生命状态",
+      "value": "死亡",
+      "priority": 0,
+      "n_single_forms": 27,
+      "n_phrases": 7
+    },
+    "INJURY": {
+      "attribute": "生命状态",
+      "value": "受伤",
+      "priority": 1,
+      "n_single_forms": 21,
+      "n_phrases": 2
+    },
+    "AMBIG_PERSON": {
+      "attribute": "生命状态",
+      "value": "存殁未定",
+      "priority": 2,
+      "n_single_forms": 5,
+      "n_phrases": 0
+    },
+    "CUSTODY_EXITED": {
+      "attribute": "拘押状态",
+      "value": "脱离拘押",
+      "priority": 3,
+      "n_single_forms": 17,
+      "n_phrases": 1
+    },
+    "CUSTODY_HELD": {
+      "attribute": "拘押状态",
+      "value": "被扣押",
+      "priority": 4,
+      "n_single_forms": 14,
+      "n_phrases": 6
+    },
+    "PERPETRATOR_IDENTITY": {
+      "attribute": "施害者",
+      "value": "身份/背景/动机",
+      "priority": 5,
+      "n_single_forms": 17,
+      "n_phrases": 0
+    },
+    "PERPETRATOR_EXISTS": {
+      "attribute": "施害者",
+      "value": "存在/数量",
+      "priority": 6,
+      "n_single_forms": 28,
+      "n_phrases": 0
+    },
+    "FORCE_SHOTS": {
+      "attribute": "武力",
+      "value": "枪击/开枪",
+      "priority": 7,
+      "n_single_forms": 8,
+      "n_phrases": 3
+    },
+    "FORCE_EXPLOSION": {
+      "attribute": "武力",
+      "value": "爆炸",
+      "priority": 8,
+      "n_single_forms": 13,
+      "n_phrases": 0
+    },
+    "POLICE_OPERATION": {
+      "attribute": "处置",
+      "value": "警方行动/围困",
+      "priority": 9,
+      "n_single_forms": 17,
+      "n_phrases": 1
+    }
+  },
+  "fam_prio": [
+    "FATALITY",
+    "INJURY",
+    "AMBIG_PERSON",
+    "CUSTODY_EXITED",
+    "CUSTODY_HELD",
+    "PERPETRATOR_IDENTITY",
+    "PERPETRATOR_EXISTS",
+    "FORCE_SHOTS",
+    "FORCE_EXPLOSION",
+    "POLICE_OPERATION"
+  ],
+  "fam_cap": {
+    "FATALITY": 5000,
+    "INJURY": 5000,
+    "AMBIG_PERSON": 100000,
+    "CUSTODY_HELD": 500,
+    "CUSTODY_EXITED": 500,
+    "PERPETRATOR_EXISTS": 200,
+    "PERPETRATOR_IDENTITY": 200,
+    "FORCE_SHOTS": 5000,
+    "FORCE_EXPLOSION": 500,
+    "POLICE_OPERATION": 100
+  },
+  "note": "A4 机械化 = 把量纲细化为 (属性,取值)；same_family⇒同一槽位；diff_family/out_of_table⇒UNRELATED（封闭世界）"
+}

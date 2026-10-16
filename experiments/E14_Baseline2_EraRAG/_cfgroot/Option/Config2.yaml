@@ -1,0 +1,31 @@
+# E14 —— EraRAG (Baseline #2) 运行配置（本地副本，不改动官方仓库）
+# 用法：METAGPT_PROJECT_ROOT=<...>/E14_Baseline2_EraRAG/_cfgroot
+#      cwd = <...>/E14_Baseline2_EraRAG/_repo
+#
+# 说明：
+#  - llm.base_url 默认指向本地确定性 stub（见 e14_stub_llm_server.py），零成本、CPU-only。
+#    接真 API 时只改这三行（api_key / base_url / model），其余不动。
+#  - embedding.api_type=hf ⇒ 走本地 sentence-transformers（CPU）。
+
+llm:
+  api_type: "open_llm"
+  model: "stub-local"
+  base_url: "http://127.0.0.1:8791/v1"
+  api_key: "sk-e14-stub"
+  max_token: 2048
+  temperature: 0.0
+  timeout: 600
+  max_concurrent: 8
+
+embedding:
+  api_type: "hf"
+  api_key: "sk-e14-stub"
+  model: "sentence-transformers/all-MiniLM-L6-v2"
+  cache_folder: "D:/WSPforWB/10.keyan/场景1-海量短文本/实验/E14_Baseline2_EraRAG/_hf_cache"
+  dimensions: 384
+  embed_batch_size: 64
+
+data_root: "D:/WSPforWB/10.keyan/场景1-海量短文本/实验/E14_Baseline2_EraRAG/_data"
+working_dir: "D:/WSPforWB/10.keyan/场景1-海量短文本/实验/E14_Baseline2_EraRAG/runs"
+exp_name: "E14"
+external_tree_path: ""

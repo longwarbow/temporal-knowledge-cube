@@ -1,0 +1,22 @@
+\subsection*{S1 · Dataset table}
+\addcontentsline{toc}{subsection}{S1 · Dataset table}
+\noindent\emph{Referred to from the main paper, \S7.1 (Setup).}
+
+\begin{table}[htbp]
+\caption{Datasets (public only; no proprietary API dependency by design).}
+\label{stab:data}
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{1.16}
+\begin{tabular}{@{}p{0.135\columnwidth}p{0.315\columnwidth}p{0.45\columnwidth}@{}}
+\toprule
+\textbf{Dataset} & \textbf{Role} & \textbf{Scale (measured)}\\
+\midrule
+CED \cite{r6} & repost/anomaly stream (P1, as-of roll-up) & 3,387 seeds + 1,275,106 reposts = \textbf{1,278,493 events}; time 97.4\%; \textbf{0} true orphans\\
+CTAmap \cite{r14} & versioned geographic dimension (ground truth) & \textbf{450 changes} (2000--2025) $\to$ 462 nodes / 516 records / \textbf{338 mappings}\\
+PHEME \cite{r5} & claim-state ground truth (English group) & \textbf{6,425 threads} (2,402 rumour / 4,023 non), \textbf{105,747 tweets}; veracity on 1,972 threads (true 1,008 / false 393 / unverified 571), 5 of 9 events\\
+Wikidata \cite{r15} & declaration-level retraction truth & \textbf{10,970,321} \texttt{deprecated} statements\\
+Weibo21 / WeiboHAN \cite{r67} & domain gold standards / cross-checks & 9,592 posts (9 domains) / 6,494 posts + 57,236 reposts\\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,132 @@
+{
+ "slice": "S1 03-13T00:19→03-13T17:07",
+ "kappa": -0.0125,
+ "kappa_tab": [
+  6,
+  10,
+  225,
+  255
+ ],
+ "po": 0.5262,
+ "n_labels": 32,
+ "n_other": 3,
+ "node_threads": {
+  "status_report": 6,
+  "indication_of_event": 7,
+  "reason_speculation": 9,
+  "rumour_report": 3,
+  "missing_report": 3,
+  "coup_theory": 2,
+  "presence_report": 1,
+  "location_report": 1,
+  "absence_report": 1,
+  "health_condition_report": 2
+ },
+ "node_members": {
+  "status_report": [
+   "status"
+  ],
+  "indication_of_event": [
+   "indication",
+   "death"
+  ],
+  "reason_speculation": [
+   "reason",
+   "AWOL",
+   "paternity leave",
+   "childbirth",
+   "reason for absence"
+  ],
+  "rumour_report": [
+   "rumour"
+  ],
+  "missing_report": [
+   "missing",
+   "rumoured"
+  ],
+  "coup_theory": [
+   "coup"
+  ],
+  "presence_report": [
+   "birth date"
+  ],
+  "location_report": [
+   "location"
+  ],
+  "absence_report": [
+   "birth"
+  ],
+  "health_condition_report": [
+   "health speculation",
+   "health condition"
+  ]
+ },
+ "assign_A": {
+  "status": 1,
+  "indication": 6,
+  "reason": 9,
+  "rumour": 11,
+  "missing": 3,
+  "coup": 4,
+  "death": 6,
+  "birth date": 7,
+  "location": 2,
+  "AWOL": 9,
+  "paternity leave": 9,
+  "childbirth": 9,
+  "birth": 12,
+  "health speculation": 10,
+  "rumoured": 3,
+  "affection": 0,
+  "mission details": 0,
+  "health condition": 10,
+  "number": 18,
+  "reason for absence": 9,
+  "gender": 20,
+  "greeting": 21,
+  "birth of daughter": 22,
+  "potential occurrence": 23,
+  "birthplace": 24,
+  "overthrown": 25,
+  "absence": 26,
+  "baby rumours": 27,
+  "seen": 28,
+  "date of image": 29,
+  "condition": 30,
+  "absorption of South Ossetia": 0
+ },
+ "assign_B": {
+  "AWOL": 0,
+  "absence": 0,
+  "absorption of South Ossetia": 0,
+  "affection": 0,
+  "baby rumours": 0,
+  "birth": 0,
+  "birth date": 0,
+  "birth of daughter": 0,
+  "birthplace": 0,
+  "childbirth": 0,
+  "condition": 0,
+  "coup": 13,
+  "date of image": 0,
+  "death": 0,
+  "gender": 0,
+  "greeting": 0,
+  "health condition": 10,
+  "health speculation": 17,
+  "indication": 6,
+  "location": 2,
+  "missing": 20,
+  "mission details": 0,
+  "number": 0,
+  "overthrown": 0,
+  "paternity leave": 0,
+  "potential occurrence": 0,
+  "reason": 26,
+  "reason for absence": 27,
+  "rumour": 11,
+  "rumoured": 0,
+  "seen": 0,
+  "status": 1
+ }
+}

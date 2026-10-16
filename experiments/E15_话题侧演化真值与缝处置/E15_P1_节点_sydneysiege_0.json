@@ -1,0 +1,1952 @@
+{
+ "day": 0,
+ "label": "S1(12-14T23:02→12-15T02:09)",
+ "kappa_intra_family": 0.0563,
+ "kappa_tab": [
+  60,
+  782,
+  31,
+  1269
+ ],
+ "kappa_all": 0.1169,
+ "nodesA": [
+  {
+   "node": "hostage_situation",
+   "family": "CUSTODY_HELD",
+   "members": [
+    "hostage situation",
+    "islamic flag",
+    "being held by men waving an ISIS flag",
+    "human shield",
+    "siege",
+    "unfolding",
+    "Islamic Flag",
+    "Islamic flag",
+    "being held hostage",
+    "being held up",
+    "developing",
+    "holding a Cafe hostage",
+    "holding hostages",
+    "hostage",
+    "hostage location",
+    "position",
+    "reported",
+    "situation"
+   ]
+  },
+  {
+   "node": "perpetrator_info",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "perpetrator",
+    "incident",
+    "location",
+    "police presence",
+    "siege situation",
+    "statement",
+    "contact made",
+    "device location",
+    "devices located",
+    "displayed",
+    "diversion",
+    "global impact",
+    "global threat",
+    "gun laws",
+    "inside",
+    "larger plot",
+    "news conference",
+    "possible ISIS terrorist attack",
+    "presence of devices",
+    "press conference",
+    "radio communication",
+    "requesting to speak",
+    "surrounding cafe",
+    "take down",
+    "terrorist attack",
+    "using young woman as shield"
+   ]
+  },
+  {
+   "node": "perpetrator_identity",
+   "family": "PERPETRATOR_IDENTITY",
+   "members": [
+    "motivation",
+    "perpetrator identity",
+    "type of flag",
+    "affiliation",
+    "black flag",
+    "caption",
+    "demand content",
+    "flag",
+    "flag identity",
+    "gunman demands",
+    "gunman identity",
+    "gunman statement",
+    "identity",
+    "islamic motivation",
+    "link to IS",
+    "official statement",
+    "perpetrator motivation",
+    "photo evidence",
+    "picture",
+    "prime minister address",
+    "religion",
+    "retraction of claims",
+    "wants to speak",
+    "with Arabic writing"
+   ]
+  },
+  {
+   "node": "public reaction",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "public reaction"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "evacuation_process",
+   "family": "POLICE_OPERATION",
+   "members": [
+    "evacuated",
+    "evacuation",
+    "lockdown",
+    "locked down"
+   ]
+  },
+  {
+   "node": "hostage_count",
+   "family": "CUSTODY_HELD",
+   "members": [
+    "hostage count",
+    "duration"
+   ]
+  },
+  {
+   "node": "operation_details",
+   "family": "POLICE_OPERATION",
+   "members": [
+    "police operation",
+    "major",
+    "underway",
+    "social media blackout",
+    "standoff/siege"
+   ]
+  },
+  {
+   "node": "other_aspects",
+   "family": "none",
+   "members": [
+    "shutdown",
+    "closed",
+    "shut down",
+    "source",
+    "familiarity",
+    "flown",
+    "presence"
+   ]
+  },
+  {
+   "node": "public_reaction",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "authenticity",
+    "blame",
+    "concerns",
+    "gathering",
+    "monitoring",
+    "reaction",
+    "representation",
+    "scene",
+    "scenes",
+    "type"
+   ]
+  },
+  {
+   "node": "operation_naming",
+   "family": "POLICE_OPERATION",
+   "members": [
+    "Dramatic Siege Unfolds",
+    "Opera House",
+    "Operation",
+    "operation"
+   ]
+  },
+  {
+   "node": "media_coverage",
+   "family": "media",
+   "members": [
+    "transcript",
+    "translation",
+    "coverage"
+   ]
+  },
+  {
+   "node": "media coverage",
+   "family": "NONE",
+   "members": [
+    "media coverage"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "event_status",
+   "family": "event",
+   "members": [
+    "status",
+    "stop"
+   ]
+  },
+  {
+   "node": "event_related",
+   "family": "event",
+   "members": [
+    "meeting",
+    "mentioning"
+   ]
+  },
+  {
+   "node": "operation_scale",
+   "family": "POLICE_OPERATION",
+   "members": [
+    "major"
+   ]
+  },
+  {
+   "node": "media responsibility",
+   "family": "NONE",
+   "members": [
+    "media responsibility"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "media_content",
+   "family": "media",
+   "members": [
+    "content"
+   ]
+  },
+  {
+   "node": "event_closure",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "closure"
+   ]
+  },
+  {
+   "node": "briefing_info",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "briefing"
+   ]
+  },
+  {
+   "node": "outcome",
+   "family": "FATALITY",
+   "members": [
+    "outcome"
+   ]
+  },
+  {
+   "node": "armed explosives alert",
+   "family": "FORCE_EXPLOSION",
+   "members": [
+    "armed explosives alert"
+   ]
+  },
+  {
+   "node": "conscious & smoking",
+   "family": "INJURY",
+   "members": [
+    "conscious & smoking"
+   ]
+  },
+  {
+   "node": "at cafe",
+   "family": "CUSTODY_HELD",
+   "members": [
+    "at cafe"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "need for prayers",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "need for prayers"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "streaming coverage",
+   "family": "NONE",
+   "members": [
+    "streaming coverage"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "reaction to Muslims",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "reaction to Muslims"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "reaction to fanatics",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "reaction to fanatics"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "live coverage",
+   "family": "NONE",
+   "members": [
+    "live coverage"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "end of anti-cop protests",
+   "family": "NONE",
+   "members": [
+    "end of anti-cop protests"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "tactical information",
+   "family": "NONE",
+   "members": [
+    "tactical information"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "public disclosure",
+   "family": "NONE",
+   "members": [
+    "public disclosure"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "operation status",
+   "family": "NONE",
+   "members": [
+    "operation status"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "PM Abbott statement",
+   "family": "NONE",
+   "members": [
+    "PM Abbott statement"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "racism and Islamophobia justification",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "racism and Islamophobia justification"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "raiding homes",
+   "family": "POLICE_OPERATION",
+   "members": [
+    "raiding homes"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "information sharing",
+   "family": "NONE",
+   "members": [
+    "information sharing"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "condemnation of Jihadists",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "condemnation of Jihadists"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "media behavior",
+   "family": "NONE",
+   "members": [
+    "media behavior"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "social media sharing",
+   "family": "NONE",
+   "members": [
+    "social media sharing"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "police request",
+   "family": "NONE",
+   "members": [
+    "police request"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "latest update",
+   "family": "NONE",
+   "members": [
+    "latest update"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "speculative nature",
+   "family": "NONE",
+   "members": [
+    "speculative nature"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "staff count",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "staff count"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "police intel",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "police intel"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "prime minister statement",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "prime minister statement"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "follow",
+   "family": "CUSTODY_HELD",
+   "members": [
+    "follow"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "Christianity association",
+   "family": "NONE",
+   "members": [
+    "Christianity association"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "face expressions",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "face expressions"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "halal certification",
+   "family": "NONE",
+   "members": [
+    "halal certification"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "reaction to sydneysiege",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "reaction to sydneysiege"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "important things to remember",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "important things to remember"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "police operation relation",
+   "family": "NONE",
+   "members": [
+    "police operation relation"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "live video",
+   "family": "NONE",
+   "members": [
+    "live video"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "known facts",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "known facts"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "media credibility",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "media credibility"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "report accuracy",
+   "family": "NONE",
+   "members": [
+    "report accuracy"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "photo gallery",
+   "family": "NONE",
+   "members": [
+    "photo gallery"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "report correctness",
+   "family": "NONE",
+   "members": [
+    "report correctness"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "ethnicity of victims",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "ethnicity of victims"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "invited viewpoint",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "invited viewpoint"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "emergency message",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "emergency message"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "media interaction",
+   "family": "NONE",
+   "members": [
+    "media interaction"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "latest updates",
+   "family": "NONE",
+   "members": [
+    "latest updates"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "name and religion",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "name and religion"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "crowd and media",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "crowd and media"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "current knowledge",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "current knowledge"
+   ],
+   "_singleton": true
+  }
+ ],
+ "nodesB": [
+  {
+   "node": "event_status",
+   "family": "event",
+   "members": [
+    "closed",
+    "presence",
+    "shutdown",
+    "status",
+    "stop"
+   ]
+  },
+  {
+   "node": "media_content",
+   "family": "media",
+   "members": [
+    "content",
+    "transcript",
+    "translation"
+   ]
+  },
+  {
+   "node": "event_related",
+   "family": "event",
+   "members": [
+    "flown",
+    "meeting",
+    "mentioning"
+   ]
+  },
+  {
+   "node": "media_source",
+   "family": "media",
+   "members": [
+    "source"
+   ]
+  },
+  {
+   "node": "event_management",
+   "family": "event",
+   "members": [
+    "shutdown"
+   ]
+  },
+  {
+   "node": "event_updates",
+   "family": "event",
+   "members": [
+    "status"
+   ]
+  },
+  {
+   "node": "event_resources",
+   "family": "event",
+   "members": [
+    "flown",
+    "meeting"
+   ]
+  },
+  {
+   "node": "authenticity_and_blame",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "authenticity",
+    "blame"
+   ]
+  },
+  {
+   "node": "concerns_and_current_knowledge",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "concerns"
+   ]
+  },
+  {
+   "node": "face_expressions_and_scenes",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "scene"
+   ]
+  },
+  {
+   "node": "gathering_and_staff_count",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "gathering"
+   ]
+  },
+  {
+   "node": "invited_viewpoint_and_monitoring",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "monitoring"
+   ]
+  },
+  {
+   "node": "perpetrator_existence",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "briefing",
+    "closure",
+    "coverage",
+    "displayed",
+    "diversion",
+    "incident",
+    "inside",
+    "location",
+    "statement"
+   ]
+  },
+  {
+   "node": "perpetrator_specific",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "perpetrator"
+   ]
+  },
+  {
+   "node": "location_specific",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "location"
+   ]
+  },
+  {
+   "node": "incident_specific",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "incident"
+   ]
+  },
+  {
+   "node": "perpetrator_identity",
+   "family": "PERPETRATOR_IDENTITY",
+   "members": [
+    "affiliation",
+    "caption",
+    "flag",
+    "identity",
+    "motivation",
+    "picture",
+    "religion"
+   ]
+  },
+  {
+   "node": "islamic_flag_custody",
+   "family": "CUSTODY_HELD",
+   "members": [
+    "Islamic Flag",
+    "Islamic flag",
+    "being held by men waving an ISIS flag",
+    "islamic flag"
+   ]
+  },
+  {
+   "node": "hostage_situation",
+   "family": "CUSTODY_HELD",
+   "members": [
+    "being held hostage",
+    "being held up",
+    "holding a Cafe hostage",
+    "holding hostages",
+    "hostage",
+    "siege",
+    "situation",
+    "unfolding"
+   ]
+  },
+  {
+   "node": "hostage_details",
+   "family": "CUSTODY_HELD",
+   "members": [
+    "hostage count",
+    "hostage location",
+    "hostage situation",
+    "human shield",
+    "position"
+   ]
+  },
+  {
+   "node": "event_progression",
+   "family": "CUSTODY_HELD",
+   "members": [
+    "developing",
+    "duration",
+    "follow",
+    "reported"
+   ]
+  },
+  {
+   "node": "general_ref",
+   "family": "CUSTODY_HELD",
+   "members": [
+    "at cafe",
+    "hostage",
+    "situation"
+   ]
+  },
+  {
+   "node": "dramatic_police_operation",
+   "family": "POLICE_OPERATION",
+   "members": [
+    "operation"
+   ]
+  },
+  {
+   "node": "evacuation_measures",
+   "family": "POLICE_OPERATION",
+   "members": [
+    "evacuated",
+    "evacuation"
+   ]
+  },
+  {
+   "node": "siege_status",
+   "family": "POLICE_OPERATION",
+   "members": [
+    "underway"
+   ]
+  },
+  {
+   "node": "outcome",
+   "family": "FATALITY",
+   "members": [
+    "outcome"
+   ]
+  },
+  {
+   "node": "armed explosives alert",
+   "family": "FORCE_EXPLOSION",
+   "members": [
+    "armed explosives alert"
+   ]
+  },
+  {
+   "node": "conscious & smoking",
+   "family": "INJURY",
+   "members": [
+    "conscious & smoking"
+   ]
+  },
+  {
+   "node": "public reaction",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "public reaction"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "police operation",
+   "family": "POLICE_OPERATION",
+   "members": [
+    "police operation"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "media coverage",
+   "family": "NONE",
+   "members": [
+    "media coverage"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "siege situation",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "siege situation"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "police presence",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "police presence"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "type of flag",
+   "family": "PERPETRATOR_IDENTITY",
+   "members": [
+    "type of flag"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "major",
+   "family": "POLICE_OPERATION",
+   "members": [
+    "major"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "perpetrator identity",
+   "family": "PERPETRATOR_IDENTITY",
+   "members": [
+    "perpetrator identity"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "media responsibility",
+   "family": "NONE",
+   "members": [
+    "media responsibility"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "possible ISIS terrorist attack",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "possible ISIS terrorist attack"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "Operation",
+   "family": "POLICE_OPERATION",
+   "members": [
+    "Operation"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "surrounding cafe",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "surrounding cafe"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "need for prayers",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "need for prayers"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "black flag",
+   "family": "PERPETRATOR_IDENTITY",
+   "members": [
+    "black flag"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "flag identity",
+   "family": "PERPETRATOR_IDENTITY",
+   "members": [
+    "flag identity"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "with Arabic writing",
+   "family": "PERPETRATOR_IDENTITY",
+   "members": [
+    "with Arabic writing"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "type",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "type"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "streaming coverage",
+   "family": "NONE",
+   "members": [
+    "streaming coverage"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "global impact",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "global impact"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "reaction to Muslims",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "reaction to Muslims"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "lockdown",
+   "family": "POLICE_OPERATION",
+   "members": [
+    "lockdown"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "reaction to fanatics",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "reaction to fanatics"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "live coverage",
+   "family": "NONE",
+   "members": [
+    "live coverage"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "link to IS",
+   "family": "PERPETRATOR_IDENTITY",
+   "members": [
+    "link to IS"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "global threat",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "global threat"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "end of anti-cop protests",
+   "family": "NONE",
+   "members": [
+    "end of anti-cop protests"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "tactical information",
+   "family": "NONE",
+   "members": [
+    "tactical information"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "shut down",
+   "family": "NONE",
+   "members": [
+    "shut down"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "gunman demands",
+   "family": "PERPETRATOR_IDENTITY",
+   "members": [
+    "gunman demands"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "public disclosure",
+   "family": "NONE",
+   "members": [
+    "public disclosure"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "contact made",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "contact made"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "Opera House",
+   "family": "POLICE_OPERATION",
+   "members": [
+    "Opera House"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "operation status",
+   "family": "NONE",
+   "members": [
+    "operation status"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "social media blackout",
+   "family": "POLICE_OPERATION",
+   "members": [
+    "social media blackout"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "presence of devices",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "presence of devices"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "PM Abbott statement",
+   "family": "NONE",
+   "members": [
+    "PM Abbott statement"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "radio communication",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "radio communication"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "racism and Islamophobia justification",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "racism and Islamophobia justification"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "demand content",
+   "family": "PERPETRATOR_IDENTITY",
+   "members": [
+    "demand content"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "gunman statement",
+   "family": "PERPETRATOR_IDENTITY",
+   "members": [
+    "gunman statement"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "wants to speak",
+   "family": "PERPETRATOR_IDENTITY",
+   "members": [
+    "wants to speak"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "raiding homes",
+   "family": "POLICE_OPERATION",
+   "members": [
+    "raiding homes"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "information sharing",
+   "family": "NONE",
+   "members": [
+    "information sharing"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "condemnation of Jihadists",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "condemnation of Jihadists"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "photo evidence",
+   "family": "PERPETRATOR_IDENTITY",
+   "members": [
+    "photo evidence"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "media behavior",
+   "family": "NONE",
+   "members": [
+    "media behavior"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "social media sharing",
+   "family": "NONE",
+   "members": [
+    "social media sharing"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "standoff/siege",
+   "family": "POLICE_OPERATION",
+   "members": [
+    "standoff/siege"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "police request",
+   "family": "NONE",
+   "members": [
+    "police request"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "official statement",
+   "family": "PERPETRATOR_IDENTITY",
+   "members": [
+    "official statement"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "latest update",
+   "family": "NONE",
+   "members": [
+    "latest update"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "requesting to speak",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "requesting to speak"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "Dramatic Siege Unfolds",
+   "family": "POLICE_OPERATION",
+   "members": [
+    "Dramatic Siege Unfolds"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "islamic motivation",
+   "family": "PERPETRATOR_IDENTITY",
+   "members": [
+    "islamic motivation"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "gun laws",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "gun laws"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "speculative nature",
+   "family": "NONE",
+   "members": [
+    "speculative nature"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "locked down",
+   "family": "POLICE_OPERATION",
+   "members": [
+    "locked down"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "staff count",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "staff count"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "terrorist attack",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "terrorist attack"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "police intel",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "police intel"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "prime minister statement",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "prime minister statement"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "press conference",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "press conference"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "familiarity",
+   "family": "NONE",
+   "members": [
+    "familiarity"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "news conference",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "news conference"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "Christianity association",
+   "family": "NONE",
+   "members": [
+    "Christianity association"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "face expressions",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "face expressions"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "representation",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "representation"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "halal certification",
+   "family": "NONE",
+   "members": [
+    "halal certification"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "device location",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "device location"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "reaction",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "reaction"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "retraction of claims",
+   "family": "PERPETRATOR_IDENTITY",
+   "members": [
+    "retraction of claims"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "reaction to sydneysiege",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "reaction to sydneysiege"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "devices located",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "devices located"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "take down",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "take down"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "important things to remember",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "important things to remember"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "police operation relation",
+   "family": "NONE",
+   "members": [
+    "police operation relation"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "live video",
+   "family": "NONE",
+   "members": [
+    "live video"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "gunman identity",
+   "family": "PERPETRATOR_IDENTITY",
+   "members": [
+    "gunman identity"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "known facts",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "known facts"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "media credibility",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "media credibility"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "report accuracy",
+   "family": "NONE",
+   "members": [
+    "report accuracy"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "photo gallery",
+   "family": "NONE",
+   "members": [
+    "photo gallery"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "report correctness",
+   "family": "NONE",
+   "members": [
+    "report correctness"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "ethnicity of victims",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "ethnicity of victims"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "scenes",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "scenes"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "using young woman as shield",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "using young woman as shield"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "invited viewpoint",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "invited viewpoint"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "prime minister address",
+   "family": "PERPETRATOR_IDENTITY",
+   "members": [
+    "prime minister address"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "emergency message",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "emergency message"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "perpetrator motivation",
+   "family": "PERPETRATOR_IDENTITY",
+   "members": [
+    "perpetrator motivation"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "media interaction",
+   "family": "NONE",
+   "members": [
+    "media interaction"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "larger plot",
+   "family": "PERPETRATOR_EXISTS",
+   "members": [
+    "larger plot"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "latest updates",
+   "family": "NONE",
+   "members": [
+    "latest updates"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "name and religion",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "name and religion"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "crowd and media",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "crowd and media"
+   ],
+   "_singleton": true
+  },
+  {
+   "node": "current knowledge",
+   "family": "AMBIG_PERSON",
+   "members": [
+    "current knowledge"
+   ],
+   "_singleton": true
+  }
+ ],
+ "counts": {
+  "underway": 2,
+  "islamic flag": 31,
+  "hostage situation": 32,
+  "displayed": 1,
+  "siege": 2,
+  "being held up": 1,
+  "unfolding": 2,
+  "being held by men waving an ISIS flag": 3,
+  "at cafe": 1,
+  "hostage": 1,
+  "Islamic Flag": 1,
+  "siege situation": 2,
+  "diversion": 1,
+  "possible ISIS terrorist attack": 1,
+  "police operation": 10,
+  "Operation": 1,
+  "surrounding cafe": 1,
+  "hostage count": 15,
+  "need for prayers": 1,
+  "outcome": 1,
+  "black flag": 1,
+  "flag identity": 1,
+  "with Arabic writing": 1,
+  "duration": 1,
+  "type": 1,
+  "public reaction": 27,
+  "location": 2,
+  "closed": 1,
+  "shutdown": 4,
+  "holding a Cafe hostage": 1,
+  "streaming coverage": 1,
+  "affiliation": 1,
+  "mentioning": 1,
+  "evacuated": 11,
+  "global impact": 1,
+  "reaction to Muslims": 1,
+  "evacuation": 4,
+  "flag": 1,
+  "incident": 2,
+  "lockdown": 1,
+  "reaction to fanatics": 1,
+  "presence": 2,
+  "live coverage": 1,
+  "link to IS": 1,
+  "global threat": 1,
+  "end of anti-cop protests": 1,
+  "situation": 1,
+  "police presence": 2,
+  "blame": 1,
+  "tactical information": 1,
+  "shut down": 1,
+  "type of flag": 2,
+  "motivation": 2,
+  "media coverage": 3,
+  "translation": 1,
+  "gunman demands": 1,
+  "public disclosure": 1,
+  "developing": 1,
+  "contact made": 1,
+  "Opera House": 1,
+  "operation status": 1,
+  "flown": 1,
+  "meeting": 1,
+  "social media blackout": 1,
+  "presence of devices": 1,
+  "major": 2,
+  "statement": 2,
+  "PM Abbott statement": 1,
+  "radio communication": 1,
+  "content": 1,
+  "closure": 1,
+  "armed explosives alert": 1,
+  "racism and Islamophobia justification": 1,
+  "conscious & smoking": 1,
+  "demand content": 1,
+  "position": 1,
+  "gunman statement": 1,
+  "concerns": 1,
+  "picture": 1,
+  "perpetrator identity": 2,
+  "wants to speak": 1,
+  "raiding homes": 1,
+  "information sharing": 1,
+  "coverage": 1,
+  "condemnation of Jihadists": 1,
+  "photo evidence": 1,
+  "media behavior": 1,
+  "social media sharing": 1,
+  "standoff/siege": 1,
+  "police request": 1,
+  "official statement": 1,
+  "identity": 1,
+  "latest update": 1,
+  "status": 1,
+  "media responsibility": 2,
+  "requesting to speak": 1,
+  "Dramatic Siege Unfolds": 1,
+  "islamic motivation": 1,
+  "gun laws": 1,
+  "speculative nature": 1,
+  "locked down": 1,
+  "staff count": 1,
+  "terrorist attack": 1,
+  "holding hostages": 1,
+  "inside": 1,
+  "police intel": 1,
+  "prime minister statement": 1,
+  "Islamic flag": 1,
+  "authenticity": 1,
+  "follow": 1,
+  "press conference": 1,
+  "familiarity": 1,
+  "news conference": 1,
+  "Christianity association": 1,
+  "face expressions": 1,
+  "scene": 1,
+  "representation": 1,
+  "halal certification": 1,
+  "device location": 1,
+  "operation": 1,
+  "reaction": 1,
+  "hostage location": 1,
+  "retraction of claims": 1,
+  "reaction to sydneysiege": 1,
+  "devices located": 1,
+  "reported": 1,
+  "caption": 1,
+  "take down": 1,
+  "important things to remember": 1,
+  "perpetrator": 2,
+  "gathering": 1,
+  "police operation relation": 1,
+  "live video": 1,
+  "gunman identity": 1,
+  "known facts": 1,
+  "source": 1,
+  "media credibility": 1,
+  "being held hostage": 1,
+  "report accuracy": 1,
+  "photo gallery": 1,
+  "stop": 1,
+  "report correctness": 1,
+  "ethnicity of victims": 1,
+  "religion": 1,
+  "scenes": 1,
+  "human shield": 2,
+  "using young woman as shield": 1,
+  "invited viewpoint": 1,
+  "prime minister address": 1,
+  "emergency message": 1,
+  "perpetrator motivation": 1,
+  "briefing": 1,
+  "media interaction": 1,
+  "monitoring": 1,
+  "larger plot": 1,
+  "latest updates": 1,
+  "transcript": 1,
+  "name and religion": 1,
+  "crowd and media": 1,
+  "current knowledge": 1
+ },
+ "fam": {
+  "underway": "POLICE_OPERATION",
+  "islamic flag": "CUSTODY_HELD",
+  "hostage situation": "CUSTODY_HELD",
+  "displayed": "PERPETRATOR_EXISTS",
+  "siege": "CUSTODY_HELD",
+  "being held up": "CUSTODY_HELD",
+  "unfolding": "CUSTODY_HELD",
+  "being held by men waving an ISIS flag": "CUSTODY_HELD",
+  "at cafe": "CUSTODY_HELD",
+  "hostage": "CUSTODY_HELD",
+  "Islamic Flag": "CUSTODY_HELD",
+  "siege situation": "PERPETRATOR_EXISTS",
+  "diversion": "PERPETRATOR_EXISTS",
+  "possible ISIS terrorist attack": "PERPETRATOR_EXISTS",
+  "police operation": "POLICE_OPERATION",
+  "Operation": "POLICE_OPERATION",
+  "surrounding cafe": "PERPETRATOR_EXISTS",
+  "hostage count": "CUSTODY_HELD",
+  "need for prayers": "AMBIG_PERSON",
+  "outcome": "FATALITY",
+  "black flag": "PERPETRATOR_IDENTITY",
+  "flag identity": "PERPETRATOR_IDENTITY",
+  "with Arabic writing": "PERPETRATOR_IDENTITY",
+  "duration": "CUSTODY_HELD",
+  "type": "AMBIG_PERSON",
+  "public reaction": "AMBIG_PERSON",
+  "location": "PERPETRATOR_EXISTS",
+  "closed": "NONE",
+  "shutdown": "NONE",
+  "holding a Cafe hostage": "CUSTODY_HELD",
+  "streaming coverage": "NONE",
+  "affiliation": "PERPETRATOR_IDENTITY",
+  "mentioning": "NONE",
+  "evacuated": "POLICE_OPERATION",
+  "global impact": "PERPETRATOR_EXISTS",
+  "reaction to Muslims": "AMBIG_PERSON",
+  "evacuation": "POLICE_OPERATION",
+  "flag": "PERPETRATOR_IDENTITY",
+  "incident": "PERPETRATOR_EXISTS",
+  "lockdown": "POLICE_OPERATION",
+  "reaction to fanatics": "AMBIG_PERSON",
+  "presence": "NONE",
+  "live coverage": "NONE",
+  "link to IS": "PERPETRATOR_IDENTITY",
+  "global threat": "PERPETRATOR_EXISTS",
+  "end of anti-cop protests": "NONE",
+  "situation": "CUSTODY_HELD",
+  "police presence": "PERPETRATOR_EXISTS",
+  "blame": "AMBIG_PERSON",
+  "tactical information": "NONE",
+  "shut down": "NONE",
+  "type of flag": "PERPETRATOR_IDENTITY",
+  "motivation": "PERPETRATOR_IDENTITY",
+  "media coverage": "NONE",
+  "translation": "NONE",
+  "gunman demands": "PERPETRATOR_IDENTITY",
+  "public disclosure": "NONE",
+  "developing": "CUSTODY_HELD",
+  "contact made": "PERPETRATOR_EXISTS",
+  "Opera House": "POLICE_OPERATION",
+  "operation status": "NONE",
+  "flown": "NONE",
+  "meeting": "NONE",
+  "social media blackout": "POLICE_OPERATION",
+  "presence of devices": "PERPETRATOR_EXISTS",
+  "major": "POLICE_OPERATION",
+  "statement": "PERPETRATOR_EXISTS",
+  "PM Abbott statement": "NONE",
+  "radio communication": "PERPETRATOR_EXISTS",
+  "content": "NONE",
+  "closure": "PERPETRATOR_EXISTS",
+  "armed explosives alert": "FORCE_EXPLOSION",
+  "racism and Islamophobia justification": "AMBIG_PERSON",
+  "conscious & smoking": "INJURY",
+  "demand content": "PERPETRATOR_IDENTITY",
+  "position": "CUSTODY_HELD",
+  "gunman statement": "PERPETRATOR_IDENTITY",
+  "concerns": "AMBIG_PERSON",
+  "picture": "PERPETRATOR_IDENTITY",
+  "perpetrator identity": "PERPETRATOR_IDENTITY",
+  "wants to speak": "PERPETRATOR_IDENTITY",
+  "raiding homes": "POLICE_OPERATION",
+  "information sharing": "NONE",
+  "coverage": "PERPETRATOR_EXISTS",
+  "condemnation of Jihadists": "AMBIG_PERSON",
+  "photo evidence": "PERPETRATOR_IDENTITY",
+  "media behavior": "NONE",
+  "social media sharing": "NONE",
+  "standoff/siege": "POLICE_OPERATION",
+  "police request": "NONE",
+  "official statement": "PERPETRATOR_IDENTITY",
+  "identity": "PERPETRATOR_IDENTITY",
+  "latest update": "NONE",
+  "status": "NONE",
+  "media responsibility": "NONE",
+  "requesting to speak": "PERPETRATOR_EXISTS",
+  "Dramatic Siege Unfolds": "POLICE_OPERATION",
+  "islamic motivation": "PERPETRATOR_IDENTITY",
+  "gun laws": "PERPETRATOR_EXISTS",
+  "speculative nature": "NONE",
+  "locked down": "POLICE_OPERATION",
+  "staff count": "AMBIG_PERSON",
+  "terrorist attack": "PERPETRATOR_EXISTS",
+  "holding hostages": "CUSTODY_HELD",
+  "inside": "PERPETRATOR_EXISTS",
+  "police intel": "AMBIG_PERSON",
+  "prime minister statement": "AMBIG_PERSON",
+  "Islamic flag": "CUSTODY_HELD",
+  "authenticity": "AMBIG_PERSON",
+  "follow": "CUSTODY_HELD",
+  "press conference": "PERPETRATOR_EXISTS",
+  "familiarity": "NONE",
+  "news conference": "PERPETRATOR_EXISTS",
+  "Christianity association": "NONE",
+  "face expressions": "AMBIG_PERSON",
+  "scene": "AMBIG_PERSON",
+  "representation": "AMBIG_PERSON",
+  "halal certification": "NONE",
+  "device location": "PERPETRATOR_EXISTS",
+  "operation": "POLICE_OPERATION",
+  "reaction": "AMBIG_PERSON",
+  "hostage location": "CUSTODY_HELD",
+  "retraction of claims": "PERPETRATOR_IDENTITY",
+  "reaction to sydneysiege": "AMBIG_PERSON",
+  "devices located": "PERPETRATOR_EXISTS",
+  "reported": "CUSTODY_HELD",
+  "caption": "PERPETRATOR_IDENTITY",
+  "take down": "PERPETRATOR_EXISTS",
+  "important things to remember": "AMBIG_PERSON",
+  "perpetrator": "PERPETRATOR_EXISTS",
+  "gathering": "AMBIG_PERSON",
+  "police operation relation": "NONE",
+  "live video": "NONE",
+  "gunman identity": "PERPETRATOR_IDENTITY",
+  "known facts": "AMBIG_PERSON",
+  "source": "NONE",
+  "media credibility": "AMBIG_PERSON",
+  "being held hostage": "CUSTODY_HELD",
+  "report accuracy": "NONE",
+  "photo gallery": "NONE",
+  "stop": "NONE",
+  "report correctness": "NONE",
+  "ethnicity of victims": "AMBIG_PERSON",
+  "religion": "PERPETRATOR_IDENTITY",
+  "scenes": "AMBIG_PERSON",
+  "human shield": "CUSTODY_HELD",
+  "using young woman as shield": "PERPETRATOR_EXISTS",
+  "invited viewpoint": "AMBIG_PERSON",
+  "prime minister address": "PERPETRATOR_IDENTITY",
+  "emergency message": "AMBIG_PERSON",
+  "perpetrator motivation": "PERPETRATOR_IDENTITY",
+  "briefing": "PERPETRATOR_EXISTS",
+  "media interaction": "NONE",
+  "monitoring": "AMBIG_PERSON",
+  "larger plot": "PERPETRATOR_EXISTS",
+  "latest updates": "NONE",
+  "transcript": "NONE",
+  "name and religion": "AMBIG_PERSON",
+  "crowd and media": "AMBIG_PERSON",
+  "current knowledge": "AMBIG_PERSON"
+ }
+}

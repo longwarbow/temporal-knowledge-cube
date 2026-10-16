@@ -1,0 +1,47 @@
+﻿pair_id,label_relation,label_confidence,label_notes
+E13-0018,DERIVE,3,"q('@globeandmail:'+正文)逐字照抄p正文(仅URL不同,URL按§2.1剥除),A5逐字覆盖≥90%⇒DERIVE"
+E13-0020,DERIVE,3,"q引用照抄p正文(仅URL不同,A5剥URL),@metpoliceuk为收件人非新增事实⇒DERIVE"
+E13-0027,DERIVE,3,"q以RT方式照抄p原文(仅前置'Jesus.'情绪词,忽略)⇒DERIVE(A5/RT)"
+E13-0037,DERIVE,3,"q引用照抄p正文(@PzFeed前缀,正文逐字相同)⇒DERIVE(A5)"
+E13-0064,DERIVE,3,"q引用照抄p正文(原作者MarkDiStef,仅two→2)⇒DERIVE(A5)"
+E13-0070,CONFLICT,1,q明确否定p断言(pyramids still there / Islam is AntiRacism)⇒§2.8极性
+E13-0080,CONFLICT,1,q否定p关于back up被调集时点/原因的断言('since day 1'对'因纵火')⇒§2.8
+E13-0083,UNRELATED,1,③a主体不同(发布会 vs 该链接);q对p命题(发布会)无真值约束
+E13-0102,CONFLICT,1,A4-同族FORCE_SHOTS;A3-ⓑ shootings计数2(second) vs 3互斥
+E13-0139,UNRELATED,2,"③b A4不适用(q为载员数,落不进族);命题不同(无生还 vs 载客)⇒⑤兜底"
+E13-0143,UNRELATED,2,"A4不适用(q=142载客数,落不进族);命题不同(150死 vs 载客)⇒⑤兜底"
+E13-0146,UNRELATED,2,命题不同(飞行员被锁舱外/事故存疑 vs 坠机低空+求救)⇒⑤兜底
+E13-0166,UNRELATED,2,A4-不同族 FATALITY(≥10 killed)↔AMBIG_PERSON(first victim);上位词缝保守取UNRELATED
+E13-0200,DERIVE,3,"q近似逐字照抄p(Germanwings plane crashes...148,仅onboard→people)⇒DERIVE(A5)"
+E13-0210,DERIVE,2,q照抄p首句(仅删来源via@、加非命题反问);A5近似逐字⇒DERIVE
+E13-0224,DERIVE,3,q近似逐字照抄p(144 passengers and 6 crew)⇒DERIVE(A5)
+E13-0229,SUPPORT,1,A4-同族CUSTODY_EXITED;q'另一名人质逃离'为p'两名人质逃离'更弱同向版本
+E13-0282,UNRELATED,2,A4-不同族 CUSTODY_HELD(hostages taken)↔CUSTODY_EXITED(police taking people out);判词:扣押≠脱离拘押
+E13-0290,SUPPORT,2,"q独立重述同一命题(PD发抢劫报告未发枪击报告),无引用痕迹"
+E13-0301,UNRELATED,1,命题不同(PD承认Wilson不知抢劫 vs 局长称因堵路拦下)⇒⑤兜底
+E13-0324,UNRELATED,1,命题不同(指认MZB为枪手 vs 嫌犯在逃)⇒⑤兜底
+E13-0338,UNRELATED,2,A4-不同族 PERPETRATOR_EXISTS(shooter on loose)↔FATALITY(dead gunman)
+E13-0347,UNRELATED,2,A4-不同族 FATALITY(soldier died)↔FORCE_SHOTS(soldier shot)+lockdown
+E13-0491,UNRELATED,1,③a主体/情形不同(p:未具名武装嫌犯 vs q:Monis身份背景罗列);A4抓不到逐条事实罗列
+E13-0497,SUPPORT,1,"A4-同族CUSTODY_HELD;A3-ⓐ②(q下界≥5 vs p具体1,对象同类)可兼容⇒SUPPORT"
+E13-0588,UNRELATED,1,③a主体不同/命题不同(宗教身份争论 vs 巴黎4名恐怖分子)⇒⑤兜底
+E13-0591,UNRELATED,2,A4-不同族 FATALITY(gunman shot and killed)↔PERPETRATOR_EXISTS(3 suspects sought)
+E13-0595,CONFLICT,1,A4-同族FATALITY;A3-ⓑ dead计数1/2 vs 3互斥
+E13-0596,SUPPORT,1,A4-同族CUSTODY_HELD;A3-ⓐ②(≥5 vs 1)可兼容⇒SUPPORT
+E13-0601,SUPPORT,1,A4-同族CUSTODY_HELD;A3-ⓐ②(≥5 vs 1)可兼容⇒SUPPORT
+E13-0607,CONFLICT,2,A4-同族PERPETRATOR_EXISTS;A3-ⓑ 2名枪手 vs 1名(the gunman)互斥(指南例:多名 vs 一名)
+E13-0624,CONFLICT,1,A4-同族CUSTODY_HELD;A3-ⓑ人质数13 vs 6互斥
+E13-0630,UNRELATED,1,③a情形不同(Charlie Hebdo HQ vs Dammartin等);跨子事件数值不可比
+E13-0634,UNRELATED,2,①T1:p为祈祷/建议('we should pray')通篇不含事实命题⇒UNRELATED
+E13-0652,SUPPORT,2,A4-同族CUSTODY_HELD;A2模糊量(up to 20)与具体11可兼容⇒SUPPORT
+E13-0661,SUPPORT,1,A4-同族CUSTODY_EXITED;3 vs 5视为部分/同向可兼容⇒SUPPORT
+E13-0671,UNRELATED,2,A4-不同族 FATALITY(gunman killed)↔PERPETRATOR_EXISTS(3 suspects)
+E13-0672,UNRELATED,2,③a主体不同(1名RCMP警官 vs 2名加拿大士兵);不同事件
+E13-0673,UNRELATED,1,A4-不同族 INJURY(士兵1人负伤)↔PERPETRATOR_EXISTS(two gunmen)
+E13-0687,CONFLICT,1,A4-同族PERPETRATOR_EXISTS;A3-ⓑ枪手数1 vs 5互斥
+E13-0690,UNRELATED,2,A4-不同族 FATALITY(gunman shot and killed)↔PERPETRATOR_EXISTS(3 suspects)
+E13-0692,UNRELATED,2,A4-不同族 FATALITY(gunman shot dead)↔PERPETRATOR_EXISTS(3 suspects/one dealt with)
+E13-0694,UNRELATED,1,A4-不同族 FATALITY(p:枪手被击毙)↔PERPETRATOR_EXISTS(q:5名在活动枪手)
+E13-0701,UNRELATED,2,A4-不同族 FATALITY(one gunman shot dead)↔PERPETRATOR_EXISTS(2 shooters)
+E13-0739,UNRELATED,1,命题不同(MikeBrown被谋杀 vs 'only one got dead'泛评)⇒⑤兜底
+E13-0753,CONFLICT,1,"A4-同族PERPETRATOR_EXISTS;A3-ⓑ嫌疑人数4-5 vs 1,且q'Unarmed'否定p'armed'⇒§2.8"

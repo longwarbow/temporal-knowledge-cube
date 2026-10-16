@@ -1,0 +1,51 @@
+{
+  "version": "v3",
+  "rng_seed": 20261012,
+  "total": 755,
+  "strata": {
+    "S1_same_thread_reply": 97,
+    "S3_cross_thread_opposite_veracity": 97,
+    "S2_cross_thread_high_sim": 97,
+    "S4_cross_thread_random": 97,
+    "S5_cross_thread_verbatim": 97,
+    "S6_same_slot_conflicting": 270
+  },
+  "S6_subtypes_all": {
+    "strict": 233,
+    "polarity": 20,
+    "vague": 17
+  },
+  "increment": {
+    "only": "S6-strict",
+    "n_added": 173,
+    "pair_id_range": "E13-0583…E13-0755",
+    "extra_event_cap": 40,
+    "node_reuse_in_extra_batch": 2,
+    "excluded_all_v2_pairs": true
+  },
+  "inherited": {
+    "v2_rows": 582,
+    "pair_ids_unchanged": true
+  },
+  "candidate_pool_strict_after_dedupe": 90425,
+  "label_set": [
+    "DERIVE",
+    "SUPPORT",
+    "CONFLICT",
+    "UNRELATED"
+  ],
+  "rationale": "S6-strict 产量 11.1%（v1.6 口径）⇒ 97 条只能得 ≈11 条 CONFLICT 真值；加抽至 ≈270 才能支撑逐类 F1（30÷0.111≈270，协议 §4.4b）。用户 2026-10-12 拍板「加抽至 ≈270」+「跑全量探针标注」。",
+  "hygiene": {
+    "template_max_repeat": 3,
+    "n_nodes_dropped_as_template": 9424,
+    "n_nodes_after_hygiene": 94894,
+    "s6_classes_used": [
+      "DEAD",
+      "INJURED",
+      "HOSTAGE",
+      "SUSPECT",
+      "AIRPLANE",
+      "BUILDING"
+    ]
+  }
+}

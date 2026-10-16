@@ -1,0 +1,55 @@
+{
+ "event": "germanwings",
+ "nodes": [
+  {
+   "node": "aircraft_crash",
+   "desc": "Description of the aircraft crash event."
+  },
+  {
+   "node": "co_pilot_action",
+   "desc": "Actions taken by the co-pilot."
+  },
+  {
+   "node": "deaths_and_survivors",
+   "desc": "Number of deaths and survivors."
+  },
+  {
+   "node": "flight_details",
+   "desc": "Details about the flight."
+  },
+  {
+   "node": "location_and_route",
+   "desc": "Location and route of the flight."
+  },
+  {
+   "node": "media_coverage",
+   "desc": "Media coverage and reactions."
+  },
+  {
+   "node": "pilot_and_crew",
+   "desc": "Information about the pilot and crew."
+  },
+  {
+   "node": "public_reactions",
+   "desc": "Public reactions to the event."
+  },
+  {
+   "node": "regulatory_reactions",
+   "desc": "Regulatory and legal reactions."
+  },
+  {
+   "node": "survivor_details",
+   "desc": "Details about the survivors."
+  },
+  {
+   "node": "weather_conditions",
+   "desc": "Weather conditions at the time of the crash."
+  },
+  {
+   "node": "other",
+   "desc": "Other narrative aspects not covered by the above nodes."
+  }
+ ],
+ "n_label_used": 145,
+ "coverage_pct": 85.1
+}

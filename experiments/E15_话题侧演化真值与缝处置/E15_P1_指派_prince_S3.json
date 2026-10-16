@@ -1,0 +1,156 @@
+{
+ "slice": "S3 11-04T18:41→11-04T20:22",
+ "kappa": 0.5369,
+ "kappa_tab": [
+  39,
+  21,
+  33,
+  468
+ ],
+ "po": 0.9037,
+ "n_labels": 34,
+ "n_other": 0,
+ "node_threads": {
+  "event_schedule": 10,
+  "performance_event": 4,
+  "rumours": 6,
+  "event_cancellation": 10,
+  "event_status": 12,
+  "event_occurrence": 3,
+  "public_reaction": 7,
+  "event_details": 2,
+  "ticket_price": 1,
+  "event_location": 2,
+  "event_announcement": 1
+ },
+ "node_members": {
+  "event_schedule": [
+   "schedule",
+   "show dates",
+   "length",
+   "scheduled event",
+   "waiting time",
+   "scheduled"
+  ],
+  "performance_event": [
+   "performance"
+  ],
+  "rumours": [
+   "rumored",
+   "rumoured",
+   "rumours"
+  ],
+  "event_cancellation": [
+   "event cancellation",
+   "cancellation",
+   "cancelled",
+   "performance cancellation",
+   "will not be",
+   "will not be happening"
+  ],
+  "event_status": [
+   "event status",
+   "performance status",
+   "confirmation",
+   "status",
+   "scheduled status",
+   "show status"
+  ],
+  "event_occurrence": [
+   "event occurrence"
+  ],
+  "public_reaction": [
+   "attendance",
+   "public reaction",
+   "lining up",
+   "public event",
+   "presence"
+  ],
+  "event_details": [
+   "surprise event",
+   "meaning"
+  ],
+  "ticket_price": [
+   "ticket availability"
+  ],
+  "event_location": [
+   "venue",
+   "location"
+  ],
+  "event_announcement": [
+   "event announcement"
+  ]
+ },
+ "assign_A": {
+  "schedule": 10,
+  "performance": 1,
+  "rumored": 7,
+  "event cancellation": 4,
+  "event status": 5,
+  "event occurrence": 3,
+  "performance status": 5,
+  "confirmation": 5,
+  "attendance": 6,
+  "cancellation": 4,
+  "public reaction": 6,
+  "show dates": 10,
+  "rumoured": 7,
+  "lining up": 6,
+  "public event": 6,
+  "length": 10,
+  "surprise event": 11,
+  "rumours": 7,
+  "presence": 6,
+  "ticket availability": 8,
+  "status": 5,
+  "cancelled": 4,
+  "scheduled status": 5,
+  "scheduled event": 10,
+  "meaning": 11,
+  "waiting time": 10,
+  "performance cancellation": 4,
+  "show status": 5,
+  "venue": 9,
+  "will not be": 4,
+  "event announcement": 2,
+  "location": 9,
+  "scheduled": 10,
+  "will not be happening": 4
+ },
+ "assign_B": {
+  "attendance": 0,
+  "cancellation": 0,
+  "cancelled": 4,
+  "confirmation": 5,
+  "event announcement": 2,
+  "event cancellation": 5,
+  "event occurrence": 3,
+  "event status": 5,
+  "length": 10,
+  "lining up": 0,
+  "location": 9,
+  "meaning": 11,
+  "performance": 1,
+  "performance cancellation": 4,
+  "performance status": 5,
+  "presence": 0,
+  "public event": 0,
+  "public reaction": 6,
+  "rumored": 7,
+  "rumoured": 7,
+  "rumours": 7,
+  "schedule": 10,
+  "scheduled": 10,
+  "scheduled event": 10,
+  "scheduled status": 5,
+  "show dates": 10,
+  "show status": 5,
+  "status": 5,
+  "surprise event": 0,
+  "ticket availability": 8,
+  "venue": 9,
+  "waiting time": 0,
+  "will not be": 0,
+  "will not be happening": 0
+ }
+}

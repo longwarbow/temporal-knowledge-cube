@@ -1,0 +1,74 @@
+{
+  "n_per_stratum_target": 97,
+  "cap_per_event": 30,
+  "total": 582,
+  "strata": {
+    "S1_same_thread_reply": 97,
+    "S3_cross_thread_opposite_veracity": 97,
+    "S2_cross_thread_high_sim": 97,
+    "S4_cross_thread_random": 97,
+    "S5_cross_thread_verbatim": 97,
+    "S6_same_slot_conflicting": 97
+  },
+  "S6_subtypes": {
+    "strict": 60,
+    "polarity": 20,
+    "vague": 17
+  },
+  "candidate_pool": {
+    "S5_candidates_coverage_ge_0.90": 879,
+    "S6_candidates_slot_exclusive": 127883,
+    "S6_candidate_subtypes": {
+      "strict": 90114,
+      "polarity": 8326,
+      "vague": 29443
+    }
+  },
+  "S6_quota": {
+    "strict": 60,
+    "polarity": 20,
+    "vague": 17
+  },
+  "S5_params": {
+    "coverage_min": 0.9,
+    "min_norm_len": 40,
+    "blocking": "prefix-50 / midpoint-50 char-3gram buckets"
+  },
+  "S6_params": {
+    "group_cap": 320,
+    "canonical_only": true,
+    "slot_definition": "量槽 = (量纲 head-class, 取值集合)；T5「量的兼容性」作用层的可机械化投影"
+  },
+  "event_distribution": {
+    "ottawashooting-all-rnr-threads": 144,
+    "charliehebdo-all-rnr-threads": 142,
+    "sydneysiege-all-rnr-threads": 98,
+    "germanwings-crash-all-rnr-threads": 98,
+    "ferguson-all-rnr-threads": 86,
+    "gurlitt-all-rnr-threads": 7,
+    "putinmissing-all-rnr-threads": 5,
+    "prince-toronto-all-rnr-threads": 2
+  },
+  "label_set": [
+    "DERIVE",
+    "SUPPORT",
+    "CONFLICT",
+    "UNRELATED"
+  ],
+  "base_rows_preserved": "S1–S4 的 388 行 pair_id（E13-0001…E13-0388）与 v1 完全一致",
+  "hygiene": {
+    "template_max_repeat": 3,
+    "n_nodes_dropped_as_template": 9424,
+    "n_nodes_after_hygiene": 94894,
+    "s6_classes_used": [
+      "DEAD",
+      "INJURED",
+      "HOSTAGE",
+      "SUSPECT",
+      "AIRPLANE",
+      "BUILDING"
+    ],
+    "s6_person_excluded_reason": "PERSON 是句法中心词而非被量化的度量，语义过载（\"one sick stupid person\" ⇒ PERSON 1），会引入大量假候选"
+  },
+  "note": "S5/S6 为**候选生成器**；其 CONFLICT/DERIVE **产量由先导标注实测**，不假设。"
+}

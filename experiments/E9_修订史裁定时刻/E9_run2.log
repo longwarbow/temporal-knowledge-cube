@@ -1,0 +1,17 @@
+[INFO] 候选 120 条声明（来自 2946 条 E8 样本，属性分布 ['P108', 'P26', 'P39', 'P569', 'P570', 'P69']）
+[RESUME] 已完成 47 条，本次重跑 73 条
+    [START] Q102234654 P69
+    [START] Q101564259 P39
+    [START] Q11943248 P569
+    [START] Q102255087 P69
+[  1/ 73] Q102234654 P69 revs=15 flip=2024-07-05T17:10:02Z status=ok calls=4
+    [START] Q1081793 P39
+[  2/ 73] Q101564259 P39 revs=41 flip=2020-11-13T16:52:35Z status=ok calls=7
+    [START] Q1230528 P108
+[  3/ 73] Q102255087 P69 revs=65 flip=2026-02-17T22:43:31Z status=ok calls=7
+    [START] Q1284890 P569
+[  4/ 73] Q11943248 P569 revs=104 flip=2024-03-23T12:34:09Z status=ok calls=14
+    [START] Q134817 P39
+[  5/ 73] Q1081793 P39 revs=142 flip=2026-07-12T12:28:10Z status=ok calls=13
+    [START] Q131612868 P569
+[  6/ 73] Q1284890 P569 revs=159 flip=2024-07-18T03:58:27Z status=ok calls=15

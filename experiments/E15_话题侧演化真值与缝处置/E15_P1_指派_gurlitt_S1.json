@@ -1,0 +1,129 @@
+{
+ "slice": "S1 11-20T01:20→11-21T22:43",
+ "kappa": 0.195,
+ "kappa_tab": [
+  17,
+  21,
+  55,
+  258
+ ],
+ "po": 0.7835,
+ "n_labels": 27,
+ "n_other": 0,
+ "node_threads": {
+  "artwork_acceptance": 5,
+  "public_reaction": 3,
+  "bequest_management": 5,
+  "challenge_action": 3,
+  "decision_announcement": 6,
+  "other": 4,
+  "control_of_art": 5,
+  "litigation_process": 2,
+  "event_update": 2
+ },
+ "node_members": {
+  "artwork_acceptance": [
+   "acceptance",
+   "artworks collection acceptance"
+  ],
+  "public_reaction": [
+   "public reaction"
+  ],
+  "bequest_management": [
+   "future decision",
+   "sale benefit",
+   "benefit"
+  ],
+  "challenge_action": [
+   "challenged",
+   "formal challenge"
+  ],
+  "decision_announcement": [
+   "fitness to write will",
+   "mental fitness",
+   "announcement",
+   "press conference",
+   "decision announcement",
+   "resolution"
+  ],
+  "other": [
+   "is all wrong",
+   "story",
+   "Responsibility",
+   "Nazi-looted art"
+  ],
+  "control_of_art": [
+   "return to museums",
+   "sale proposal",
+   "museum placement",
+   "museum ownership",
+   "handling"
+  ],
+  "litigation_process": [
+   "fraud charges",
+   "litigation"
+  ],
+  "event_update": [
+   "update",
+   "twist"
+  ]
+ },
+ "assign_A": {
+  "acceptance": 1,
+  "public reaction": 8,
+  "future decision": 2,
+  "sale benefit": 2,
+  "challenged": 3,
+  "fitness to write will": 5,
+  "mental fitness": 5,
+  "is all wrong": 9,
+  "story": 9,
+  "Responsibility": 9,
+  "return to museums": 4,
+  "sale proposal": 4,
+  "museum placement": 4,
+  "museum ownership": 4,
+  "handling": 4,
+  "fraud charges": 7,
+  "announcement": 5,
+  "press conference": 5,
+  "decision announcement": 5,
+  "resolution": 5,
+  "artworks collection acceptance": 1,
+  "benefit": 2,
+  "Nazi-looted art": 9,
+  "litigation": 7,
+  "update": 6,
+  "twist": 6,
+  "formal challenge": 3
+ },
+ "assign_B": {
+  "Nazi-looted art": 1,
+  "Responsibility": 0,
+  "acceptance": 4,
+  "announcement": 3,
+  "artworks collection acceptance": 4,
+  "benefit": 5,
+  "challenged": 3,
+  "decision announcement": 3,
+  "fitness to write will": 0,
+  "formal challenge": 3,
+  "fraud charges": 0,
+  "future decision": 11,
+  "handling": 0,
+  "is all wrong": 0,
+  "litigation": 7,
+  "mental fitness": 0,
+  "museum ownership": 4,
+  "museum placement": 4,
+  "press conference": 0,
+  "public reaction": 8,
+  "resolution": 0,
+  "return to museums": 4,
+  "sale benefit": 5,
+  "sale proposal": 0,
+  "story": 0,
+  "twist": 0,
+  "update": 6
+ }
+}

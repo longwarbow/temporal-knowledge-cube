@@ -1,0 +1,10 @@
+事件 putinmissing-all-rnr-threads：待抽取线程 238（labeled_only=False）
+  50/238  0.6 min
+  100/238  1.1 min
+  150/238  1.6 min
+  200/238  2.0 min
+完成：新增 238，总 238 条 → D:\WSPforWB\10.keyan\场景1-海量短文本\实验\E15_话题侧演化真值与缝处置\E15_P1_声明_putinmissing.jsonl（2.3 min）
+
+族分布： {'AMBIG_PERSON': 132, 'ERR': 38, 'NONE': 23, 'FATALITY': 20, 'PERPETRATOR_EXISTS': 16, 'PERPETRATOR_IDENTITY': 6, 'CUSTODY_EXITED': 2, 'FORCE_SHOTS': 1}
+日分布： {'2015-03-13': 105, '2015-03-14': 110, '2015-03-16': 23}
+aspect top12： [('status', 39), (None, 38), ('location', 14), ('missing', 13), ('coup', 9), ('disappearance', 8), ('indication', 7), ('presence', 7), ('reappearance', 7), ('Disappearance', 7), ('reason', 5), ('death', 4)]

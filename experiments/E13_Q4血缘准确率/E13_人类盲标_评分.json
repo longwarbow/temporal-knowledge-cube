@@ -1,0 +1,294 @@
+{
+ "intuition": {
+  "n": 48,
+  "kappa": 0.3944954128440366,
+  "ci": [
+   0.2162162162162162,
+   0.574719432959244
+  ],
+  "raw": 0.5416666666666666,
+  "per_class": {
+   "DERIVE": {
+    "P": 0.5555555555555556,
+    "R": 1.0,
+    "F1": 0.7142857142857143,
+    "n": 10
+   },
+   "SUPPORT": {
+    "P": 0.3076923076923077,
+    "R": 0.3333333333333333,
+    "F1": 0.32,
+    "n": 12
+   },
+   "CONFLICT": {
+    "P": 0.8571428571428571,
+    "R": 0.5,
+    "F1": 0.631578947368421,
+    "n": 12
+   },
+   "UNRELATED": {
+    "P": 0.6,
+    "R": 0.42857142857142855,
+    "F1": 0.5,
+    "n": 14
+   }
+  },
+  "macro_F1": 0.5414661654135338,
+  "calibration": {
+   "n_high": 48,
+   "n_low": 0,
+   "n_unset": 0,
+   "disagree_high": 22,
+   "disagree_low": 0,
+   "low_conf_qids": []
+  },
+  "disagreements": [
+   {
+    "qid": "Q02",
+    "human": "SUPPORT",
+    "truth": "UNRELATED"
+   },
+   {
+    "qid": "Q04",
+    "human": "SUPPORT",
+    "truth": "UNRELATED"
+   },
+   {
+    "qid": "Q05",
+    "human": "SUPPORT",
+    "truth": "CONFLICT"
+   },
+   {
+    "qid": "Q06",
+    "human": "CONFLICT",
+    "truth": "UNRELATED"
+   },
+   {
+    "qid": "Q08",
+    "human": "SUPPORT",
+    "truth": "UNRELATED"
+   },
+   {
+    "qid": "Q09",
+    "human": "UNRELATED",
+    "truth": "SUPPORT"
+   },
+   {
+    "qid": "Q10",
+    "human": "DERIVE",
+    "truth": "CONFLICT"
+   },
+   {
+    "qid": "Q16",
+    "human": "SUPPORT",
+    "truth": "UNRELATED"
+   },
+   {
+    "qid": "Q17",
+    "human": "SUPPORT",
+    "truth": "UNRELATED"
+   },
+   {
+    "qid": "Q23",
+    "human": "UNRELATED",
+    "truth": "CONFLICT"
+   },
+   {
+    "qid": "Q29",
+    "human": "DERIVE",
+    "truth": "SUPPORT"
+   },
+   {
+    "qid": "Q30",
+    "human": "SUPPORT",
+    "truth": "UNRELATED"
+   },
+   {
+    "qid": "Q31",
+    "human": "DERIVE",
+    "truth": "UNRELATED"
+   },
+   {
+    "qid": "Q32",
+    "human": "SUPPORT",
+    "truth": "CONFLICT"
+   },
+   {
+    "qid": "Q36",
+    "human": "SUPPORT",
+    "truth": "CONFLICT"
+   },
+   {
+    "qid": "Q37",
+    "human": "UNRELATED",
+    "truth": "SUPPORT"
+   },
+   {
+    "qid": "Q38",
+    "human": "DERIVE",
+    "truth": "SUPPORT"
+   },
+   {
+    "qid": "Q39",
+    "human": "DERIVE",
+    "truth": "SUPPORT"
+   },
+   {
+    "qid": "Q44",
+    "human": "UNRELATED",
+    "truth": "SUPPORT"
+   },
+   {
+    "qid": "Q45",
+    "human": "DERIVE",
+    "truth": "SUPPORT"
+   },
+   {
+    "qid": "Q47",
+    "human": "DERIVE",
+    "truth": "CONFLICT"
+   },
+   {
+    "qid": "Q48",
+    "human": "DERIVE",
+    "truth": "SUPPORT"
+   }
+  ]
+ },
+ "guided": {
+  "n": 48,
+  "kappa": 0.49591598599766623,
+  "ci": [
+   0.31506849315068497,
+   0.6613756613756614
+  ],
+  "raw": 0.625,
+  "per_class": {
+   "DERIVE": {
+    "P": 0.7142857142857143,
+    "R": 1.0,
+    "F1": 0.8333333333333333,
+    "n": 10
+   },
+   "SUPPORT": {
+    "P": 0.75,
+    "R": 0.25,
+    "F1": 0.375,
+    "n": 12
+   },
+   "CONFLICT": {
+    "P": 0.6666666666666666,
+    "R": 0.5,
+    "F1": 0.5714285714285715,
+    "n": 12
+   },
+   "UNRELATED": {
+    "P": 0.5238095238095238,
+    "R": 0.7857142857142857,
+    "F1": 0.6285714285714286,
+    "n": 14
+   }
+  },
+  "macro_F1": 0.6020833333333333,
+  "calibration": {
+   "n_high": 48,
+   "n_low": 0,
+   "n_unset": 0,
+   "disagree_high": 18,
+   "disagree_low": 0,
+   "low_conf_qids": []
+  },
+  "disagreements": [
+   {
+    "qid": "Q03",
+    "human": "CONFLICT",
+    "truth": "SUPPORT"
+   },
+   {
+    "qid": "Q05",
+    "human": "UNRELATED",
+    "truth": "CONFLICT"
+   },
+   {
+    "qid": "Q06",
+    "human": "CONFLICT",
+    "truth": "UNRELATED"
+   },
+   {
+    "qid": "Q08",
+    "human": "SUPPORT",
+    "truth": "UNRELATED"
+   },
+   {
+    "qid": "Q09",
+    "human": "UNRELATED",
+    "truth": "SUPPORT"
+   },
+   {
+    "qid": "Q11",
+    "human": "UNRELATED",
+    "truth": "CONFLICT"
+   },
+   {
+    "qid": "Q12",
+    "human": "UNRELATED",
+    "truth": "CONFLICT"
+   },
+   {
+    "qid": "Q19",
+    "human": "UNRELATED",
+    "truth": "SUPPORT"
+   },
+   {
+    "qid": "Q20",
+    "human": "CONFLICT",
+    "truth": "UNRELATED"
+   },
+   {
+    "qid": "Q23",
+    "human": "UNRELATED",
+    "truth": "CONFLICT"
+   },
+   {
+    "qid": "Q29",
+    "human": "DERIVE",
+    "truth": "SUPPORT"
+   },
+   {
+    "qid": "Q32",
+    "human": "UNRELATED",
+    "truth": "CONFLICT"
+   },
+   {
+    "qid": "Q36",
+    "human": "UNRELATED",
+    "truth": "CONFLICT"
+   },
+   {
+    "qid": "Q37",
+    "human": "UNRELATED",
+    "truth": "SUPPORT"
+   },
+   {
+    "qid": "Q38",
+    "human": "DERIVE",
+    "truth": "SUPPORT"
+   },
+   {
+    "qid": "Q39",
+    "human": "DERIVE",
+    "truth": "SUPPORT"
+   },
+   {
+    "qid": "Q44",
+    "human": "UNRELATED",
+    "truth": "SUPPORT"
+   },
+   {
+    "qid": "Q48",
+    "human": "DERIVE",
+    "truth": "SUPPORT"
+   }
+  ]
+ }
+}

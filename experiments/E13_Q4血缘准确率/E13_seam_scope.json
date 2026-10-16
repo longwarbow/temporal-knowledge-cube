@@ -1,0 +1,723 @@
+{
+ "counts": {
+  "a4_seam1": 9,
+  "a4_seam2": 31,
+  "r1": 15,
+  "r2": 25
+ },
+ "detail": {
+  "a4_seam1": [
+   [
+    "E13-0166",
+    "q=AMBIG",
+    "UNRELATED",
+    "UNRELATED",
+    "BREAKING: At least 10 killed in shooting at French satirical newspaper",
+    "FRANCE - PHOTO: Ahmed Merabet, French #Muslim Cop, first victim of #Ch"
+   ],
+   [
+    "E13-0262",
+    "q=AMBIG",
+    "SUPPORT",
+    "UNRELATED",
+    "Updated: Full story on Nathan Cirillo, the soldier killed in #Ottawash",
+    "Cpl. Nathan Cirillo identified as victim of #ottawashooting at Nationa"
+   ],
+   [
+    "E13-0386",
+    "p=AMBIG",
+    "UNRELATED",
+    "UNRELATED",
+    "‘Banksy’ Instagram tribute to #CharlieHebdo victims not posted by arti",
+    "Update - Police say 3 gunmen on the loose after 12 people were killed "
+   ],
+   [
+    "E13-0493",
+    "q=AMBIG",
+    "UNRELATED",
+    "UNRELATED",
+    ":( \"@euronews: 12 confirmed dead in #CharlieHebdo attack (@AFP) http:/",
+    "@vicenews Please remove the YouTube Video. It is disrespectful towards"
+   ],
+   [
+    "E13-0543",
+    "q=AMBIG",
+    "UNRELATED",
+    "UNRELATED",
+    "CXN: 1 gunman shot dead in Parliament Hill attack, soldier shot in Ott",
+    "Senin memlekette sapitti, @melisada @AP: BREAKING: Hospital says it ha"
+   ],
+   [
+    "E13-0549",
+    "p=AMBIG",
+    "UNRELATED",
+    "UNRELATED",
+    "No one is dead, yet - “@JustinTrudeau: Our hearts go out to the people",
+    "@ChuckNellis @brian_roe @Missy10013Kathy nah mate.. If your case was t"
+   ],
+   [
+    "E13-0642",
+    "q=AMBIG",
+    "UNRELATED",
+    "UNRELATED",
+    "@bryangibson11 even in the Koran it says if we killed 1 person means k",
+    "@ohPayno @Kellinquinn Hostage situation. Thankfully it's over with onl"
+   ],
+   [
+    "E13-0695",
+    "q=AMBIG",
+    "UNRELATED",
+    "UNRELATED",
+    "@cnnbrk one soldier shot and one shooter killed. Don't know where you ",
+    "#ottawashooting! “@AP: BREAKING: Hospital says it has received 3 victi"
+   ],
+   [
+    "E13-0731",
+    "p=AMBIG",
+    "SUPPORT",
+    "CONFLICT",
+    "My heart goes out to the victims of GermanWings crashed near Marseille",
+    "Tragic news: “@Reuters: 148 people feared dead after Germanwings Airbu"
+   ]
+  ],
+  "a4_seam2": [
+   [
+    "E13-0130",
+    "UNRELATED",
+    "UNRELATED",
+    "CONVERT",
+    "#BREAKING: Death toll on #Germanwings flight #4U9525 rises t",
+    "BREAKING GERMAN NEWS: Germanwings Airbus Co-Pilot Was MUSLIM"
+   ],
+   [
+    "E13-0135",
+    "UNRELATED",
+    "UNRELATED",
+    "convert",
+    "The door is solid, you can’t knock it down… it’s bulletproof",
+    "Just had an emergency meeting at Ansar, Ansar &amp; Ansar La"
+   ],
+   [
+    "E13-0138",
+    "UNRELATED",
+    "UNRELATED",
+    "Convert",
+    "One pilot was locked out of cockpit before #Germanwings flig",
+    "#Germanwings Co Pilot New Muslim Convert Islamic State Prais"
+   ],
+   [
+    "E13-0142",
+    "UNRELATED",
+    "UNRELATED",
+    "CONVERT",
+    "Germanwings passenger plane crashes in France: http://t.co/B",
+    "Memo to @ron_fournier: you owe @jimgeraghty an apology: GERM"
+   ],
+   [
+    "E13-0144",
+    "UNRELATED",
+    "UNRELATED",
+    "CONVERT",
+    "We get reports about an Germanwings A320 crash. Flight 4U952",
+    "GERMAN NEWS: Co-Pilot of Germanwings Airbus Was MUSLIM CONVE"
+   ],
+   [
+    "E13-0145",
+    "UNRELATED",
+    "UNRELATED",
+    "convert",
+    "Tracking data shows descent of #4U9525 was very aggressive, ",
+    "The co-pilot of the Germanwings Airbus was a convert to Isla"
+   ],
+   [
+    "E13-0147",
+    "UNRELATED",
+    "UNRELATED",
+    "Convert",
+    "Reports of a plane crash near the French Alps, a GermanWings",
+    "BREAKING: German Media Site Says Germanwings Co-Pilot Was Mu"
+   ],
+   [
+    "E13-0151",
+    "UNRELATED",
+    "UNRELATED",
+    "CONVERT",
+    "BREAKING: #Germanwings co-pilot's name is Andreas Lubitz, a ",
+    "GERMAN NEWS: Co-Pilot of Germanwings Airbus Was MUSLIM CONVE"
+   ],
+   [
+    "E13-0152",
+    "UNRELATED",
+    "UNRELATED",
+    "CONVERT",
+    "#4U9525: Robin names Andreas Lubitz as the copilot in the fl",
+    "Pilot of Germanwings Airbus Was MUSLIM CONVERT …’Hero of Isl"
+   ],
+   [
+    "E13-0154",
+    "UNRELATED",
+    "SUPPORT",
+    "convert",
+    "BREAKING #Germanwings #4U9525 co-pilot's name is Andreas Lub",
+    "BREAKING: Germanwings co-pilot was Muslim convert http://t.c"
+   ],
+   [
+    "E13-0159",
+    "UNRELATED",
+    "UNRELATED",
+    "convert",
+    "BREAKING Germanwings says 144 passengers and 6 crew on crash",
+    "A German news website claims #Germanwings co-pilot #AndreasL"
+   ],
+   [
+    "E13-0197",
+    "DERIVE",
+    "DERIVE",
+    "CONVERT",
+    "GERMAN NEWS REPORT: Co-Pilot of Germanwings Airbus Was MUSLI",
+    "Pilot of Germanwings Airbus Was MUSLIM CONVERT …’Hero of Isl"
+   ],
+   [
+    "E13-0202",
+    "SUPPORT",
+    "SUPPORT",
+    "CONVERT",
+    "BREAKING GERMAN NEWS: Germanwings Airbus Co-Pilot Was MUSLIM",
+    "The co-pilot of the Germanwings Airbus was a convert to Isla"
+   ],
+   [
+    "E13-0207",
+    "SUPPORT",
+    "SUPPORT",
+    "convert",
+    "The co-pilot of the Germanwings Airbus was a convert to Isla",
+    "GERMAN NEWS REPORT: Co-Pilot of Germanwings Airbus Was MUSLI"
+   ],
+   [
+    "E13-0210",
+    "DERIVE",
+    "SUPPORT",
+    "CONVERT",
+    "GERMAN NEWS: Co-Pilot of Germanwings Airbus Was MUSLIM CONVE",
+    "GERMAN NEWS: Co-Pilot of Germanwings Airbus Was MUSLIM CONVE"
+   ],
+   [
+    "E13-0220",
+    "SUPPORT",
+    "SUPPORT",
+    "convert",
+    "The co-pilot of the Germanwings Airbus was a convert to Isla",
+    "Pilot of Germanwings Airbus Was MUSLIM CONVERT …’Hero of Isl"
+   ],
+   [
+    "E13-0232",
+    "SUPPORT",
+    "SUPPORT",
+    "convert",
+    "The co-pilot of the Germanwings Airbus was a convert to Isla",
+    "BREAKING NEWS: Germanwings Co-Pilot was recent convert to Is"
+   ],
+   [
+    "E13-0244",
+    "SUPPORT",
+    "SUPPORT",
+    "CONVERT",
+    "Memo to @ron_fournier: you owe @jimgeraghty an apology: GERM",
+    "The co-pilot of the Germanwings Airbus was a convert to Isla"
+   ],
+   [
+    "E13-0351",
+    "UNRELATED",
+    "UNRELATED",
+    "born in",
+    "JUST IN: U.S. officials tell CBS News the name of the dead O",
+    "Tragedy mounts as soldier shot this AM dies of his wounds in"
+   ],
+   [
+    "E13-0354",
+    "UNRELATED",
+    "UNRELATED",
+    "convert",
+    "NEWS Germanwings pilot was muslim convert http://t.co/hQ9Ydk",
+    "#BREAKING #GERMANWINGS co-pilot confirmed name at Press Conf"
+   ],
+   [
+    "E13-0356",
+    "UNRELATED",
+    "UNRELATED",
+    "CONVERT",
+    "The latest: Airline Germanwings now says there were 144 pass",
+    "GERMAN NEWS REPORT: Co-Pilot of Germanwings Airbus Was MUSLI"
+   ],
+   [
+    "E13-0373",
+    "UNRELATED",
+    "UNRELATED",
+    "CONVERT",
+    "Memo to @ron_fournier: you owe @jimgeraghty an apology: GERM",
+    "French authorities say the last words from a #Germanwings #A"
+   ],
+   [
+    "E13-0375",
+    "UNRELATED",
+    "UNRELATED",
+    "CONVERT",
+    "GERMAN NEWS: Co-Pilot of Germanwings Airbus Was MUSLIM CONVE",
+    "Germanwings #A320 plane crashes in southern France, French p"
+   ],
+   [
+    "E13-0451",
+    "DERIVE",
+    "DERIVE",
+    "convert",
+    "The co-pilot of the Germanwings Airbus was a convert to Isla",
+    "The co-pilot of the Germanwings Airbus was a convert to Isla"
+   ],
+   [
+    "E13-0456",
+    "DERIVE",
+    "DERIVE",
+    "asylum",
+    "@Channel4News it's a racist colonial outpost that treats its",
+    "@WSJ it's a racist colonial outpost that treats its own abor"
+   ],
+   [
+    "E13-0485",
+    "DERIVE",
+    "DERIVE",
+    "convert",
+    "“@RedNationRising: The co-pilot of the Germanwings Airbus wa",
+    "The co-pilot of the Germanwings Airbus was a convert to Isla"
+   ],
+   [
+    "E13-0491",
+    "UNRELATED",
+    "UNRELATED",
+    "Fled",
+    "“@cnnbrk: There is at least one armed suspect involved in Sy",
+    "Haron Monis,Hostage-taker in #Sydney: Fled #Iran 96,suspect "
+   ],
+   [
+    "E13-0509",
+    "UNRELATED",
+    "UNRELATED",
+    "refugee",
+    "“@BBCNewsAus: Fear and relief as these two hostages escape #",
+    "@FoxNews JIHADIST holding up to 15 people hostage is an Iran"
+   ],
+   [
+    "E13-0556",
+    "UNRELATED",
+    "CONFLICT",
+    "convert",
+    "@ThatKevinSmith thanks Kev, we appreciate the love. Still a ",
+    "@cnni how many Christian shooters were not reported as \"Chri"
+   ],
+   [
+    "E13-0562",
+    "UNRELATED",
+    "UNRELATED",
+    "convert",
+    "@cnnbrk @TheCurrentCBC: Police - more than 1 suspect, downto",
+    "@cnni how many Christian shooters were not reported as \"Chri"
+   ],
+   [
+    "E13-0755",
+    "UNRELATED",
+    "UNRELATED",
+    "Previous",
+    "just as I'm about to get on 6 flights 😰 @NBCNews: #BREAKING:",
+    "@flightradar24 @bbcbreaking Wonder why was it at 38,000ft? P"
+   ]
+  ],
+  "r1": [
+   [
+    "E13-0042",
+    "S1_same_thread_reply",
+    "UNRELATED",
+    "UNRELATED",
+    10,
+    "Hearts and prayers go out to everyone affected by the shootings in Ott",
+    "@timhicksmusic so sad one of the guards was from Hamilton armoury! Too"
+   ],
+   [
+    "E13-0088",
+    "S1_same_thread_reply",
+    "DERIVE",
+    "DERIVE",
+    1,
+    "Someone please remind me what year it is again? #ferguson http://t.co/",
+    "Word RT@brennamuncy: Someone please remind me what year it is again? #"
+   ],
+   [
+    "E13-0330",
+    "S4_cross_thread_random",
+    "UNRELATED",
+    "UNRELATED",
+    10,
+    "RIP Corporal Nathan Cirillo Thank you for serving our country. Gone bu",
+    "Our thoughts are with the family and friends of Cpl. Nathan Cirillo an"
+   ],
+   [
+    "E13-0419",
+    "S5_cross_thread_verbatim",
+    "DERIVE",
+    "DERIVE",
+    2,
+    "@kellyyysue @9NewsAUS Heavenly Father, please Heal the wounded Sidney ",
+    "@AdamBaldwin Heavenly Father, please Heal the wounded Sidney Siege hos"
+   ],
+   [
+    "E13-0424",
+    "S5_cross_thread_verbatim",
+    "DERIVE",
+    "DERIVE",
+    2,
+    "@ImJustHereLivin @Oreo_Monsterr Please check out this site and support",
+    "@AntonioFrench Please check out this site and support this movement th"
+   ],
+   [
+    "E13-0425",
+    "S5_cross_thread_verbatim",
+    "DERIVE",
+    "DERIVE",
+    1,
+    "Overkill in #Ferguson. Officer won't answer my question about why this",
+    "RT @YourAnonGlobal: Overkill in #Ferguson. Officer won't answer my que"
+   ],
+   [
+    "E13-0426",
+    "S5_cross_thread_verbatim",
+    "DERIVE",
+    "DERIVE",
+    2,
+    "‘The Gurlitt collection should be sold to benefit Jewish organisations",
+    "‘The Gurlitt collection should be sold to benefit Jewish organisations"
+   ],
+   [
+    "E13-0435",
+    "S5_cross_thread_verbatim",
+    "DERIVE",
+    "DERIVE",
+    2,
+    "Our thoughts are with all those affected by today's events in Ottawa.",
+    "“@BlueJays: Our thoughts are with all those affected by today’s events"
+   ],
+   [
+    "E13-0438",
+    "S5_cross_thread_verbatim",
+    "DERIVE",
+    "DERIVE",
+    2,
+    "‘The Gurlitt collection should be sold to benefit Jewish organisations",
+    "‘The Gurlitt collection should be sold to benefit Jewish organisations"
+   ],
+   [
+    "E13-0457",
+    "S5_cross_thread_verbatim",
+    "DERIVE",
+    "DERIVE",
+    2,
+    "‘The Gurlitt collection should be sold to benefit Jewish organisations",
+    "‘The Gurlitt collection should be sold to benefit Jewish organisations"
+   ],
+   [
+    "E13-0463",
+    "S5_cross_thread_verbatim",
+    "UNRELATED",
+    "DERIVE",
+    3,
+    "“@Independent: Why a hostage situation is neither the time nor place f",
+    "Why a hostage situation is neither the time nor place for selfies. #sy"
+   ],
+   [
+    "E13-0468",
+    "S5_cross_thread_verbatim",
+    "DERIVE",
+    "DERIVE",
+    2,
+    "@9NewsAUS Heavenly Father, please heal the wounded Sidney Siege hostag",
+    "@AdamBaldwin Heavenly Father, please Heal the wounded Sidney Siege hos"
+   ],
+   [
+    "E13-0476",
+    "S5_cross_thread_verbatim",
+    "DERIVE",
+    "DERIVE",
+    2,
+    "@ACLU Don't assault clerk +don't rob store + buy ur cigars + comply to",
+    "@occbaystreet Don't assault clerk +don't rob store + buy ur cigars + c"
+   ],
+   [
+    "E13-0483",
+    "S5_cross_thread_verbatim",
+    "DERIVE",
+    "DERIVE",
+    2,
+    "@sambonfante PLEASE LISTEN WE NEED WORLD PEACE http://t.co/hJvY8BCnY9 ",
+    "@TO_sportsgirl PLEASE LISTEN WE NEED WORLD PEACE http://t.co/hJvY8BCnY"
+   ],
+   [
+    "E13-0484",
+    "S5_cross_thread_verbatim",
+    "DERIVE",
+    "DERIVE",
+    2,
+    "If Islam is a religion of peace why aren't their extremist extremely p",
+    "@masoudtarek @RiskyLiberal If Islam is a religion of peace why aren't "
+   ]
+  ],
+  "r2": [
+   [
+    "E13-0121",
+    "S3_cross_thread_opposite_veracity",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.0,
+    "#BREAKING: Shooter is dead, according to sources on Parliament Hill",
+    "#OTTAWA SHOOTING: Police killed 1 guman, believe 2 or 3 still at large"
+   ],
+   [
+    "E13-0153",
+    "S3_cross_thread_opposite_veracity",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.3333,
+    "Several European news agencies reporting an accident involving a Germa",
+    "148 people feared dead after Germanwings Airbus crash in France: http:"
+   ],
+   [
+    "E13-0181",
+    "S3_cross_thread_opposite_veracity",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.2222,
+    "DEVELOPING: #CharlieHebdo shooting suspects holed up in premises of co",
+    "UPDATE: French police in standoff with #CharlieHebdo attack suspects, "
+   ],
+   [
+    "E13-0229",
+    "S2_cross_thread_high_sim",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.2,
+    "#BREAKING: Two more hostages have just escaped from #sydneysiege",
+    "Another hostage flees the scene of the #sydneysiege | https://t.co/OFl"
+   ],
+   [
+    "E13-0255",
+    "S2_cross_thread_high_sim",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.375,
+    "Soldier shot at National War Memorial in Ottawa http://t.co/Sgmcq7gUzf",
+    "Canadian soldier shot in Ottawa a reservist from Hamilton http://t.co/"
+   ],
+   [
+    "E13-0256",
+    "S2_cross_thread_high_sim",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.4,
+    "Several European news agencies reporting an accident involving a Germa",
+    "#BREAKING: There are reports that a Germanwings Airbus A320 has crashe"
+   ],
+   [
+    "E13-0260",
+    "S2_cross_thread_high_sim",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.3333,
+    "Ottawa police: Actively looking for one or more suspects in Canadian p",
+    "HAPPENING NOW: More shots heard near parliament in #Ottawa, suspect st"
+   ],
+   [
+    "E13-0261",
+    "S2_cross_thread_high_sim",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.3,
+    "JUST IN: Two gunmen, dozen hostages inside cafe in Sydney, Australia. ",
+    "Hostages held in Sydney cafe, Islamic flag seen in window: local TV ht"
+   ],
+   [
+    "E13-0262",
+    "S2_cross_thread_high_sim",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.375,
+    "Updated: Full story on Nathan Cirillo, the soldier killed in #Ottawash",
+    "Cpl. Nathan Cirillo identified as victim of #ottawashooting at Nationa"
+   ],
+   [
+    "E13-0263",
+    "S2_cross_thread_high_sim",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.375,
+    "#BREAKING: A Germanwings A320 has crashed in France, German officials ",
+    "Germanwings #A320 plane crashes in southern France, French prime minis"
+   ],
+   [
+    "E13-0269",
+    "S2_cross_thread_high_sim",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.4,
+    "Hamilton Argylls soldier, Nathan Cirillo, on the right in this picture",
+    "This is the soldier who died today at the #Ottawa War Memorial. His na"
+   ],
+   [
+    "E13-0279",
+    "S2_cross_thread_high_sim",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.375,
+    "DRAMATIC PHOTO:Woman running from #SYDNEYSIEGE cafe, unknown number of",
+    "3 people run out of Sydney cafe where hostages are being held. http://"
+   ],
+   [
+    "E13-0285",
+    "S2_cross_thread_high_sim",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.3333,
+    "#CharlieHebdo latest: - 2 gunmen believed holed up in building - repor",
+    "BREAKING: Shots fired, hostages taken in manhunt for #CharlieHebdo att"
+   ],
+   [
+    "E13-0289",
+    "S2_cross_thread_high_sim",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.3333,
+    "BREAKING: Another hostage situation developing in a Parisian Kosher su",
+    "BREAKING: Hostage taken at kosher deli in Paris by gunman who killed c"
+   ],
+   [
+    "E13-0302",
+    "S4_cross_thread_random",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.2727,
+    "now shameful #ferguson police say Brown wasn't even a robbery suspect ",
+    "They released that information this morning about the robbery KNOWING "
+   ],
+   [
+    "E13-0346",
+    "S4_cross_thread_random",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.3571,
+    "Parliament was stormed by at least one gunman who shot a soldier stand",
+    "Recap: Parliament Hill in lockdown after uniformed Canadian soldier sh"
+   ],
+   [
+    "E13-0360",
+    "S4_cross_thread_random",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.3636,
+    "Germanwings plane crash: #A320 sent distress signal before crashing in",
+    "Before crash, pilots of #Germanwings A320 reported emergency at 10:47 "
+   ],
+   [
+    "E13-0365",
+    "S4_cross_thread_random",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.3333,
+    "French police have confirmed that an #Airbus operated by -#Germanwings",
+    "'No survivors' in #Germanwings crash says French transport minister ad"
+   ],
+   [
+    "E13-0380",
+    "S4_cross_thread_random",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.1818,
+    "Terrible news... Airbus A320 from Barcelona to Dusseldorf has crashed ",
+    "Germanwings plane crash: #A320 sent distress signal before crashing in"
+   ],
+   [
+    "E13-0385",
+    "S4_cross_thread_random",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.2727,
+    "Killed Charlie Hebdo suspects came out firing on security forces: sour",
+    "Breaking: Shots fired northeast of Paris involving men believed to be "
+   ],
+   [
+    "E13-0559",
+    "S6_same_slot_conflicting",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.0,
+    "@ThatKevinSmith thanks Kev, we appreciate the love. Still a few gunmen",
+    "@CTVNews @alixwala There is more than one shooter, not over yet."
+   ],
+   [
+    "E13-0564",
+    "S6_same_slot_conflicting",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.0,
+    "@cnnbrk Respectfully this is not an incident..this is ISIS...POLICY NO",
+    "“@AP: MORE: Canadian soldier shot at war memorial has died; one of thr"
+   ],
+   [
+    "E13-0569",
+    "S6_same_slot_conflicting",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.0,
+    "@Breaking911 Plausible. Multiple locations. Multiple gunmen. They've g",
+    "OMG fear-mongering much? “@SunNewsNetwork: Credible sources say there "
+   ],
+   [
+    "E13-0577",
+    "S6_same_slot_conflicting",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.0,
+    "@DavidMuir @WNTonight and in the shopping center a street away. Many g",
+    "BREAKING NEWS: Ottawa police now confirm one suspect has been killed. "
+   ],
+   [
+    "E13-0578",
+    "S6_same_slot_conflicting",
+    "SUPPORT",
+    "UNRELATED",
+    "UNRELATED",
+    0.0,
+    "Good god \"@RT_com #OTTAWA SHOOTING: Police claim multiple suspects at ",
+    "@LeslieAllain Apparently more than one shooter."
+   ]
+  ]
+ }
+}

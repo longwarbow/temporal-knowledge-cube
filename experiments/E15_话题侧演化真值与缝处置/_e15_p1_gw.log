@@ -1,0 +1,15 @@
+事件 germanwings-crash-all-rnr-threads：待抽取线程 469（labeled_only=False）
+  50/469  0.7 min
+  100/469  1.4 min
+  150/469  2.1 min
+  200/469  3.0 min
+  250/469  3.9 min
+  300/469  4.9 min
+  350/469  6.0 min
+  400/469  7.2 min
+  450/469  8.2 min
+完成：新增 469，总 469 条 → D:\WSPforWB\10.keyan\场景1-海量短文本\实验\E15_话题侧演化真值与缝处置\E15_P1_声明_germanwings.jsonl（8.6 min）
+
+族分布： {'AMBIG_PERSON': 174, 'FATALITY': 151, 'NONE': 78, 'PERPETRATOR_IDENTITY': 57, 'PERPETRATOR_EXISTS': 9}
+日分布： {'2015-03-24': 352, '2015-03-25': 4, '2015-03-26': 38, '2015-03-27': 75}
+aspect top12： [('crash', 41), ('public reaction', 39), ('death toll', 29), ('crashes', 21), ('passenger count', 12), ('co-pilot identity', 12), ('distress signal', 11), ('survivors', 8), ('convert', 8), ('convert to Islam', 7), ('distress call', 6), ('pilot locked out', 6)]

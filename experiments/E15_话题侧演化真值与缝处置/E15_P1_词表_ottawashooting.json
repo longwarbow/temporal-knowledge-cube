@@ -1,0 +1,63 @@
+{
+ "event": "ottawashooting",
+ "nodes": [
+  {
+   "node": "public_reaction",
+   "desc": "Public sentiment and responses"
+  },
+  {
+   "node": "casualties",
+   "desc": "Number and status of those killed or injured"
+  },
+  {
+   "node": "police_response",
+   "desc": "Law enforcement actions and operations"
+  },
+  {
+   "node": "event_description",
+   "desc": "Details about the shooting incident"
+  },
+  {
+   "node": "location_details",
+   "desc": "Specifics about the event location"
+  },
+  {
+   "node": "safety_measures",
+   "desc": "Safety protocols and lockdowns"
+  },
+  {
+   "node": "media_coverage",
+   "desc": "News and media reporting on the event"
+  },
+  {
+   "node": "individual_involvement",
+   "desc": "Information about individuals involved"
+  },
+  {
+   "node": "event_impact",
+   "desc": "Consequences and effects of the event"
+  },
+  {
+   "node": "social_media_response",
+   "desc": "Social media reactions and hashtags"
+  },
+  {
+   "node": "government_response",
+   "desc": "Official statements and actions"
+  },
+  {
+   "node": "legal_proceedings",
+   "desc": "Legal actions and charges"
+  },
+  {
+   "node": "community_reactions",
+   "desc": "Community responses and support"
+  },
+  {
+   "node": "other",
+   "desc": "Labels not fitting into the above categories"
+  }
+ ],
+ "n_label_used": 244,
+ "coverage_pct": 85.1
+}

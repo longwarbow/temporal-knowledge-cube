@@ -1,0 +1,708 @@
+[
+ {
+  "group": "A-CONF->UNREL",
+  "pair_id": "E13-0735",
+  "qid": "Q05",
+  "truth": "CONFLICT",
+  "v4_pred": "UNRELATED",
+  "v4_rule": "10",
+  "steps": {
+   "rt": 0,
+   "contain": 0.364,
+   "char3_j": 0.137,
+   "pol_opposite": 0,
+   "slot_kind": "num_exclusive",
+   "slot_cls": "DEAD",
+   "slot_vals_p": "148",
+   "slot_vals_q": "150,16",
+   "a3_subset": 1,
+   "a3_subset_why": "part_mark",
+   "event_unit": 0,
+   "src_q_only": 0,
+   "pred_rel": "same_family",
+   "pred_fam": "FATALITY | FATALITY",
+   "slots_detail": [
+    {
+     "cls": "DEAD",
+     "vals_p": [
+      "148"
+     ],
+     "vals_q": [
+      "150",
+      "16"
+     ],
+     "kind": "num_exclusive"
+    }
+   ]
+  },
+  "p": "“@Reuters: 148 people feared dead after Germanwings Airbus crash in France: http://t.co/pAZlcFPGa4 http://t.co/3SkuOFdoxu” terrible news.",
+  "q": "Thoughts and prayers with the families and relatives of #Germanwings Airbus A320 plane crash: Two babies and 16 children among 150 dead."
+ },
+ {
+  "group": "A-CONF->UNREL",
+  "pair_id": "E13-0560",
+  "qid": "Q23",
+  "truth": "CONFLICT",
+  "v4_pred": "UNRELATED",
+  "v4_rule": "10",
+  "steps": {
+   "rt": 0,
+   "contain": 0.273,
+   "char3_j": 0.144,
+   "pol_opposite": 0,
+   "slot_kind": "vague_exclusive",
+   "slot_cls": "SUSPECT",
+   "slot_vals_p": "multiple",
+   "slot_vals_q": "1",
+   "a3_subset": 0,
+   "a3_subset_why": "",
+   "event_unit": 0,
+   "src_q_only": 0,
+   "pred_rel": "same_family",
+   "pred_fam": "FATALITY+PERPETRATOR_EXISTS | PERPETRATOR_EXISTS",
+   "slots_detail": [
+    {
+     "cls": "SUSPECT",
+     "vals_p": [
+      "multiple"
+     ],
+     "vals_q": [
+      "1"
+     ],
+     "kind": "vague_exclusive"
+    }
+   ]
+  },
+  "p": "@CoreyTaylorRock multiple gunmen at the Ottawa Parliament building. One soldier is dead one shooter has been killed by police.",
+  "q": "Ottawa police correct their info. No shooting at the Rideau shopping centre. Everything now points to one gunman in two locations."
+ },
+ {
+  "group": "A-CONF->UNREL",
+  "pair_id": "E13-0334",
+  "qid": "Q32",
+  "truth": "CONFLICT",
+  "v4_pred": "UNRELATED",
+  "v4_rule": "10",
+  "steps": {
+   "rt": 0,
+   "contain": 0.091,
+   "char3_j": 0.078,
+   "pol_opposite": 0,
+   "slot_kind": "",
+   "slot_cls": "",
+   "slot_vals_p": "",
+   "slot_vals_q": "",
+   "a3_subset": 0,
+   "a3_subset_why": "",
+   "event_unit": 0,
+   "src_q_only": 0,
+   "pred_rel": "not_applicable",
+   "pred_fam": "- | PERPETRATOR_EXISTS",
+   "slots_detail": []
+  },
+  "p": "U.S. officials: Suspected shooter in Ottawa rampage identified as Canadian-born Michael Zehaf-Bibeau. Live blog: http://t.co/q98AMohu7T",
+  "q": "BREAKING: Two or three gunmen were involved in shooting at Canada war memorial, Ottawa police say. http://t.co/qsAnGNqBEw"
+ },
+ {
+  "group": "A-CONF->UNREL",
+  "pair_id": "E13-0270",
+  "qid": "Q36",
+  "truth": "CONFLICT",
+  "v4_pred": "UNRELATED",
+  "v4_rule": "10",
+  "steps": {
+   "rt": 0,
+   "contain": 0.444,
+   "char3_j": 0.221,
+   "pol_opposite": 0,
+   "slot_kind": "",
+   "slot_cls": "",
+   "slot_vals_p": "",
+   "slot_vals_q": "",
+   "a3_subset": 0,
+   "a3_subset_why": "",
+   "event_unit": 0,
+   "src_q_only": 0,
+   "pred_rel": "not_applicable",
+   "pred_fam": "CUSTODY_HELD+PERPETRATOR_EXISTS | -",
+   "slots_detail": []
+  },
+  "p": "We understand there are two gunmen and up to a dozen hostages inside the cafe under siege at Sydney.. ISIS flags remain on display #7News",
+  "q": "A gunman holding hostages in a Sydney cafe is said to be demanding an #ISIS flag http://t.co/39zCkBTOvF #sydneysiege http://t.co/Z8QH4xssOc"
+ },
+ {
+  "group": "A-CONF->UNREL",
+  "pair_id": "E13-0753",
+  "qid": "Q11",
+  "truth": "CONFLICT",
+  "v4_pred": "UNRELATED",
+  "v4_rule": "10",
+  "steps": {
+   "rt": 0,
+   "contain": 0.0,
+   "char3_j": 0.064,
+   "pol_opposite": 0,
+   "slot_kind": "num_exclusive",
+   "slot_cls": "SUSPECT",
+   "slot_vals_p": "5",
+   "slot_vals_q": "1",
+   "a3_subset": 0,
+   "a3_subset_why": "",
+   "event_unit": 0,
+   "src_q_only": 0,
+   "pred_rel": "same_family",
+   "pred_fam": "PERPETRATOR_EXISTS | PERPETRATOR_EXISTS",
+   "slots_detail": [
+    {
+     "cls": "SUSPECT",
+     "vals_p": [
+      "5"
+     ],
+     "vals_q": [
+      "1"
+     ],
+     "kind": "num_exclusive"
+    }
+   ]
+  },
+  "p": "@trischls Ur kidding right? St.Louis Cty. police responded to reports of shots being fired and four or five armed suspects,wearing ski masks",
+  "q": "@SuzyBlueLady @HaroldItz Unarmed, no less. So much here I'm not buying. They shoot one suspect, let other walk away? Seriously? #ferguson"
+ },
+ {
+  "group": "A-CONF->UNREL",
+  "pair_id": "E13-0102",
+  "qid": "Q12",
+  "truth": "CONFLICT",
+  "v4_pred": "UNRELATED",
+  "v4_rule": "10",
+  "steps": {
+   "rt": 0,
+   "contain": 0.2,
+   "char3_j": 0.152,
+   "pol_opposite": 0,
+   "slot_kind": "",
+   "slot_cls": "",
+   "slot_vals_p": "",
+   "slot_vals_q": "",
+   "a3_subset": 0,
+   "a3_subset_why": "",
+   "event_unit": 0,
+   "src_q_only": 0,
+   "pred_rel": "not_applicable",
+   "pred_fam": "- | FORCE_SHOTS",
+   "slots_detail": []
+  },
+  "p": "BREAKING: Reports of second shooting behind Peace Tower, solider shot on War Memorial a short time ago. Shooter is on the loose.",
+  "q": "BREAKING: CTV Ottawa confirms there were 3 separate shootings. One on Parliament Hill, one at National War Memorial, one near Rideau Centre"
+ },
+ {
+  "group": "A-UNREL误判(对照方向)",
+  "pair_id": "E13-0086",
+  "qid": "Q08",
+  "truth": "UNRELATED",
+  "v4_pred": "SUPPORT",
+  "v4_rule": "8",
+  "steps": {
+   "rt": 0,
+   "contain": 0.75,
+   "char3_j": 0.22,
+   "pol_opposite": 0,
+   "slot_kind": "",
+   "slot_cls": "",
+   "slot_vals_p": "",
+   "slot_vals_q": "",
+   "a3_subset": 0,
+   "a3_subset_why": "",
+   "event_unit": 0,
+   "src_q_only": 0,
+   "pred_rel": "not_applicable",
+   "pred_fam": "- | -",
+   "slots_detail": []
+  },
+  "p": "@PascalSyn @airlivenet radio call then passengers, no ? 20 sec isn’t much… it takes me longer to tweet sometimes ;-)",
+  "q": "@damienramage radio call to passengers: not a priority at all !!"
+ },
+ {
+  "group": "A-UNREL误判(对照方向)",
+  "pair_id": "E13-0630",
+  "qid": "Q20",
+  "truth": "UNRELATED",
+  "v4_pred": "CONFLICT",
+  "v4_rule": "5",
+  "steps": {
+   "rt": 1,
+   "contain": 0.286,
+   "char3_j": 0.169,
+   "pol_opposite": 0,
+   "slot_kind": "num_exclusive",
+   "slot_cls": "DEAD",
+   "slot_vals_p": "11",
+   "slot_vals_q": "12,20",
+   "a3_subset": 0,
+   "a3_subset_why": "",
+   "event_unit": 0,
+   "src_q_only": 0,
+   "pred_rel": "same_family",
+   "pred_fam": "FATALITY | FATALITY+INJURY",
+   "slots_detail": [
+    {
+     "cls": "DEAD",
+     "vals_p": [
+      "11"
+     ],
+     "vals_q": [
+      "12",
+      "20"
+     ],
+     "kind": "num_exclusive"
+    }
+   ]
+  },
+  "p": "RT @BBCBreaking: Police say 11 now dead in \"carnage\" at #CharlieHebdo HQ in Paris. http://t.co/tfiDUxya3S http://t.co/KHohDV2KEb",
+  "q": "@SkyNews #JeSuisCharlie #UnsucessfulFrancePolice #DammartinEnGoele #CharlieHebdo #parisisburning 20, dead 12 injured 57 Hostage"
+ },
+ {
+  "group": "A-SUPP->UNREL",
+  "pair_id": "E13-0297",
+  "qid": "Q09",
+  "truth": "SUPPORT",
+  "v4_pred": "UNRELATED",
+  "v4_rule": "10",
+  "steps": {
+   "rt": 0,
+   "contain": 0.133,
+   "char3_j": 0.084,
+   "pol_opposite": 1,
+   "slot_kind": "",
+   "slot_cls": "",
+   "slot_vals_p": "",
+   "slot_vals_q": "",
+   "a3_subset": 0,
+   "a3_subset_why": "",
+   "event_unit": 0,
+   "src_q_only": 0,
+   "pred_rel": "not_applicable",
+   "pred_fam": "- | -",
+   "slots_detail": []
+  },
+  "p": "White man aiming down on police...nothing happens. Unarmed black kid walking back from store shot 10 times. #Ferguson http://t.co/48EcUF2Bwa",
+  "q": "DARREN WILSON MURDERED AN UNARMED TEEN LEFT HIS BODY IN THE STREET FOR 4 HRS Anything else is irrelevant. #MikeBrown #Ferguson #CoverUp"
+ },
+ {
+  "group": "A-SUPP->UNREL",
+  "pair_id": "E13-0105",
+  "qid": "Q37",
+  "truth": "SUPPORT",
+  "v4_pred": "UNRELATED",
+  "v4_rule": "10",
+  "steps": {
+   "rt": 0,
+   "contain": 0.2,
+   "char3_j": 0.071,
+   "pol_opposite": 0,
+   "slot_kind": "vague_exclusive",
+   "slot_cls": "SUSPECT",
+   "slot_vals_p": "multiple",
+   "slot_vals_q": "3",
+   "a3_subset": 0,
+   "a3_subset_why": "",
+   "event_unit": 0,
+   "src_q_only": 0,
+   "pred_rel": "same_family",
+   "pred_fam": "PERPETRATOR_EXISTS | PERPETRATOR_EXISTS",
+   "slots_detail": [
+    {
+     "cls": "SUSPECT",
+     "vals_p": [
+      "multiple"
+     ],
+     "vals_q": [
+      "3"
+     ],
+     "kind": "vague_exclusive"
+    }
+   ]
+  },
+  "p": "Soldier shot by gunman outside Canada parliament dies, minister says, as police search for multiple suspects",
+  "q": "BREAKING NEWS: OTTAWA POLICE CONFIRM TO ABC NEWS THEY ARE LOOKING FOR 3 SUSPECTS, ONE HAS BEEN 'DEALT WITH' - http://t.co/lXFiYaVImZ"
+ },
+ {
+  "group": "A-SUPP->UNREL",
+  "pair_id": "E13-0140",
+  "qid": "Q44",
+  "truth": "SUPPORT",
+  "v4_pred": "UNRELATED",
+  "v4_rule": "10",
+  "steps": {
+   "rt": 0,
+   "contain": 0.125,
+   "char3_j": 0.103,
+   "pol_opposite": 0,
+   "slot_kind": "",
+   "slot_cls": "",
+   "slot_vals_p": "",
+   "slot_vals_q": "",
+   "a3_subset": 0,
+   "a3_subset_why": "",
+   "event_unit": 0,
+   "src_q_only": 0,
+   "pred_rel": "not_applicable",
+   "pred_fam": "- | -",
+   "slots_detail": []
+  },
+  "p": "BREAKING: Germanwings CEO: plane went into 8-minute descent before crashing.",
+  "q": "A Germanwings Airbus A320, flight #4U9525 BCN-DUS, crashed in southern France; 148 on board http://t.co/tUtpc26daX"
+ },
+ {
+  "group": "A-SUPP->UNREL",
+  "pair_id": "E13-0579",
+  "qid": "Q19",
+  "truth": "SUPPORT",
+  "v4_pred": "UNRELATED",
+  "v4_rule": "10",
+  "steps": {
+   "rt": 0,
+   "contain": 0.286,
+   "char3_j": 0.12,
+   "pol_opposite": 0,
+   "slot_kind": "vague_exclusive",
+   "slot_cls": "SUSPECT",
+   "slot_vals_p": "multiple",
+   "slot_vals_q": "1",
+   "a3_subset": 0,
+   "a3_subset_why": "",
+   "event_unit": 0,
+   "src_q_only": 0,
+   "pred_rel": "same_family",
+   "pred_fam": "PERPETRATOR_EXISTS | PERPETRATOR_EXISTS",
+   "slots_detail": [
+    {
+     "cls": "SUSPECT",
+     "vals_p": [
+      "multiple"
+     ],
+     "vals_q": [
+      "1"
+     ],
+     "kind": "vague_exclusive"
+    }
+   ]
+  },
+  "p": "“@globeandmail: Police in pursuit of multiple shooters in Ottawa; PM safe; downtown buildings in lockdown” WTF!? This is out of control.",
+  "q": "“@AP: BREAKING: Ottawa police say they believe there is more than one shooter.” #uaj307"
+ },
+ {
+  "group": "A-SUPP->UNREL",
+  "pair_id": "E13-0698",
+  "qid": "Q03",
+  "truth": "SUPPORT",
+  "v4_pred": "UNRELATED",
+  "v4_rule": "10",
+  "steps": {
+   "rt": 0,
+   "contain": 0.0,
+   "char3_j": 0.078,
+   "pol_opposite": 0,
+   "slot_kind": "num_exclusive",
+   "slot_cls": "SUSPECT",
+   "slot_vals_p": "5",
+   "slot_vals_q": "1",
+   "a3_subset": 0,
+   "a3_subset_why": "",
+   "event_unit": 0,
+   "src_q_only": 0,
+   "pred_rel": "same_family",
+   "pred_fam": "PERPETRATOR_EXISTS | PERPETRATOR_EXISTS",
+   "slots_detail": [
+    {
+     "cls": "SUSPECT",
+     "vals_p": [
+      "5"
+     ],
+     "vals_q": [
+      "1"
+     ],
+     "kind": "num_exclusive"
+    }
+   ]
+  },
+  "p": "@Reuters Possible five shooters.",
+  "q": "@BBCWorld an official just confirmed there is definately at least 1 more shooter. But why no more shootings occurring?"
+ },
+ {
+  "group": "B-SUPP->DERIVE",
+  "pair_id": "E13-0203",
+  "qid": "Q29",
+  "truth": "SUPPORT",
+  "v4_pred": "DERIVE",
+  "v4_rule": "3",
+  "steps": {
+   "rt": 0,
+   "contain": 1.0,
+   "char3_j": 0.667,
+   "pol_opposite": 0,
+   "slot_kind": "",
+   "slot_cls": "",
+   "slot_vals_p": "",
+   "slot_vals_q": "",
+   "a3_subset": 0,
+   "a3_subset_why": "",
+   "event_unit": 0,
+   "src_q_only": 0,
+   "pred_rel": "not_applicable",
+   "pred_fam": "- | -",
+   "slots_detail": []
+  },
+  "p": "BREAKING Authorities confirm last words from #germanwings #4U9525 A320 distress call were \"emergency, emergency\" http://t.co/wFg8KTSve2",
+  "q": "Last words from #Germanwings A320 distress call were \"emergency, emergency,\" authorities say. http://t.co/FXVBrA7RPz http://t.co/OxfPISsdvj"
+ },
+ {
+  "group": "B-SUPP->DERIVE",
+  "pair_id": "E13-0399",
+  "qid": "Q39",
+  "truth": "SUPPORT",
+  "v4_pred": "DERIVE",
+  "v4_rule": "2",
+  "steps": {
+   "rt": 0,
+   "contain": 1.0,
+   "char3_j": 0.89,
+   "pol_opposite": 0,
+   "slot_kind": "",
+   "slot_cls": "",
+   "slot_vals_p": "",
+   "slot_vals_q": "",
+   "a3_subset": 0,
+   "a3_subset_why": "",
+   "event_unit": 0,
+   "src_q_only": 0,
+   "pred_rel": "not_applicable",
+   "pred_fam": "- | -",
+   "slots_detail": []
+  },
+  "p": "“@WSJ: #SydneySiege is likely being carried out by a 'lone wolf' with minimal links to organized terror groups http://t.co/5Ftx50jDq9”",
+  "q": "#SydneySiege is likely being carried out by a 'lone wolf' with minimal links to organized terror groups, expert says http://t.co/mFayhCVfpy"
+ },
+ {
+  "group": "B-SUPP->DERIVE",
+  "pair_id": "E13-0415",
+  "qid": "Q48",
+  "truth": "SUPPORT",
+  "v4_pred": "DERIVE",
+  "v4_rule": "3",
+  "steps": {
+   "rt": 0,
+   "contain": 1.0,
+   "char3_j": 0.732,
+   "pol_opposite": 0,
+   "slot_kind": "",
+   "slot_cls": "",
+   "slot_vals_p": "",
+   "slot_vals_q": "",
+   "a3_subset": 0,
+   "a3_subset_why": "",
+   "event_unit": 0,
+   "src_q_only": 0,
+   "pred_rel": "not_applicable",
+   "pred_fam": "- | -",
+   "slots_detail": []
+  },
+  "p": "@WSJLive @WSJ Lies and propaganda are traditionally the tools of theocracy, fascism, and totalitarianism.",
+  "q": "@BBCWorld Lies and propaganda are traditionally the tools of theocracy, fascism, and totalitarianism. Stop build terrorism &amp; #Isis's fame"
+ },
+ {
+  "group": "C-对照(v4已对)",
+  "pair_id": "E13-0281",
+  "qid": "Q06",
+  "truth": "UNRELATED",
+  "v4_pred": "UNRELATED",
+  "v4_rule": "10",
+  "steps": {
+   "rt": 0,
+   "contain": 0.2,
+   "char3_j": 0.176,
+   "pol_opposite": 0,
+   "slot_kind": "",
+   "slot_cls": "",
+   "slot_vals_p": "",
+   "slot_vals_q": "",
+   "a3_subset": 0,
+   "a3_subset_why": "",
+   "event_unit": 0,
+   "src_q_only": 0,
+   "pred_rel": "not_applicable",
+   "pred_fam": "FORCE_SHOTS | -",
+   "slots_detail": []
+  },
+  "p": "Two shot in Paris, including traffic cop, as manhunt continues for #CharlieHebdo suspects http://t.co/L7wpNhAYZn http://t.co/oQi2UinDH1",
+  "q": "PHOTO: Armed gunmen face police officers near #CharlieHebdo HQ in Paris http://t.co/3Jsosc7yl3 http://t.co/iOpVNO6Iq0"
+ },
+ {
+  "group": "C-对照(v4已对)",
+  "pair_id": "E13-0019",
+  "qid": "Q38",
+  "truth": "SUPPORT",
+  "v4_pred": "SUPPORT",
+  "v4_rule": "30",
+  "steps": {
+   "rt": 0,
+   "contain": 1.0,
+   "char3_j": 0.817,
+   "pol_opposite": 0,
+   "slot_kind": "",
+   "slot_cls": "",
+   "slot_vals_p": "",
+   "slot_vals_q": "",
+   "a3_subset": 0,
+   "a3_subset_why": "",
+   "event_unit": 0,
+   "src_q_only": 1,
+   "pred_rel": "not_applicable",
+   "pred_fam": "- | -",
+   "slots_detail": []
+  },
+  "p": "BREAKING: Hostage taker at Kosher supermarket siege in eastern Paris dead: Le Monde http://t.co/MK4AastvZD",
+  "q": "Via @Reuters: #BREAKING: Hostage taker at Kosher supermarket siege in eastern Paris dead: Le Monde http://t.co/MgGaaDDctI #CharlieHebdo"
+ },
+ {
+  "group": "D-平局方向性",
+  "pair_id": "E13-0596",
+  "qid": "-",
+  "truth": "CONFLICT",
+  "v4_pred": "UNRELATED",
+  "v4_rule": "10",
+  "steps": {
+   "rt": 0,
+   "contain": 0.0,
+   "char3_j": 0.062,
+   "pol_opposite": 0,
+   "slot_kind": "num_exclusive",
+   "slot_cls": "HOSTAGE",
+   "slot_vals_p": "1",
+   "slot_vals_q": "5",
+   "a3_subset": 1,
+   "a3_subset_why": "lower_bound_on_total",
+   "event_unit": 0,
+   "src_q_only": 0,
+   "pred_rel": "same_family",
+   "pred_fam": "CUSTODY_HELD | CUSTODY_HELD",
+   "slots_detail": [
+    {
+     "cls": "HOSTAGE",
+     "vals_p": [
+      "1"
+     ],
+     "vals_q": [
+      "5"
+     ],
+     "kind": "num_exclusive"
+    }
+   ]
+  },
+  "p": "Breaking: Police suspect gunmen have taken one hostage, after shots were fired involving Charlie Hebdo suspects http://t.co/FYkXChPD4d",
+  "q": "フランスで新たに発生した人質事件の方は人質が少なくとも５人だそう。“@France24_en: - At least five hostages in Parishttps://t.co/h1qXZG6GlP #Vincennes http://t.co/bYlFnTcCD9”"
+ },
+ {
+  "group": "D-平局方向性",
+  "pair_id": "E13-0601",
+  "qid": "-",
+  "truth": "CONFLICT",
+  "v4_pred": "UNRELATED",
+  "v4_rule": "10",
+  "steps": {
+   "rt": 0,
+   "contain": 0.0,
+   "char3_j": 0.154,
+   "pol_opposite": 0,
+   "slot_kind": "num_exclusive",
+   "slot_cls": "HOSTAGE",
+   "slot_vals_p": "1",
+   "slot_vals_q": "5",
+   "a3_subset": 1,
+   "a3_subset_why": "lower_bound_on_total",
+   "event_unit": 0,
+   "src_q_only": 0,
+   "pred_rel": "same_family",
+   "pred_fam": "CUSTODY_HELD | CUSTODY_HELD",
+   "slots_detail": [
+    {
+     "cls": "HOSTAGE",
+     "vals_p": [
+      "1"
+     ],
+     "vals_q": [
+      "5"
+     ],
+     "kind": "num_exclusive"
+    }
+   ]
+  },
+  "p": "@BBCBreaking 1 female hostage",
+  "q": "フランスで新たに発生した人質事件の方は人質が少なくとも５人だそう。“@France24_en: - At least five hostages in Parishttps://t.co/h1qXZG6GlP #Vincennes http://t.co/bYlFnTcCD9”"
+ },
+ {
+  "group": "D-平局方向性",
+  "pair_id": "E13-0687",
+  "qid": "-",
+  "truth": "CONFLICT",
+  "v4_pred": "UNRELATED",
+  "v4_rule": "10",
+  "steps": {
+   "rt": 0,
+   "contain": 0.0,
+   "char3_j": 0.171,
+   "pol_opposite": 0,
+   "slot_kind": "num_exclusive",
+   "slot_cls": "SUSPECT",
+   "slot_vals_p": "1",
+   "slot_vals_q": "5",
+   "a3_subset": 0,
+   "a3_subset_why": "",
+   "event_unit": 0,
+   "src_q_only": 0,
+   "pred_rel": "same_family",
+   "pred_fam": "PERPETRATOR_EXISTS | PERPETRATOR_EXISTS",
+   "slots_detail": [
+    {
+     "cls": "SUSPECT",
+     "vals_p": [
+      "1"
+     ],
+     "vals_q": [
+      "5"
+     ],
+     "kind": "num_exclusive"
+    }
+   ]
+  },
+  "p": "@grahamctv @OttawaPolice @ctvottawa ctv national say 1 shooter shot",
+  "q": "@Reuters Possible five shooters."
+ },
+ {
+  "group": "D-平局方向性",
+  "pair_id": "E13-0139",
+  "qid": "-",
+  "truth": "UNRELATED",
+  "v4_pred": "UNRELATED",
+  "v4_rule": "10",
+  "steps": {
+   "rt": 0,
+   "contain": 0.091,
+   "char3_j": 0.146,
+   "pol_opposite": 0,
+   "slot_kind": "",
+   "slot_cls": "",
+   "slot_vals_p": "",
+   "slot_vals_q": "",
+   "a3_subset": 0,
+   "a3_subset_why": "",
+   "event_unit": 0,
+   "src_q_only": 0,
+   "pred_rel": "not_applicable",
+   "pred_fam": "- | -",
+   "slots_detail": []
+  },
+  "p": "French President François Hollande states that there are no survivors expected in the Germanwings #4U9525 crash.",
+  "q": "MORE Airbus A320 that crashed in southern France operated by Germanwings, carrying 142 passengers, 2 pilots, 4 crew http://t.co/XwKPmofTD9"
+ }
+]

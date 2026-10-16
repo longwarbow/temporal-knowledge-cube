@@ -1,0 +1,55 @@
+{
+ "event": "prince",
+ "nodes": [
+  {
+   "node": "performance_event",
+   "desc": "Event involving a performance"
+  },
+  {
+   "node": "event_announcement",
+   "desc": "Official announcement of an event"
+  },
+  {
+   "node": "event_occurrence",
+   "desc": "Actual occurrence of an event"
+  },
+  {
+   "node": "event_cancellation",
+   "desc": "Event has been cancelled"
+  },
+  {
+   "node": "event_status",
+   "desc": "Current status of an event"
+  },
+  {
+   "node": "public_reaction",
+   "desc": "Public response to an event"
+  },
+  {
+   "node": "rumours",
+   "desc": "Rumours or speculation about an event"
+  },
+  {
+   "node": "ticket_price",
+   "desc": "Price of tickets for an event"
+  },
+  {
+   "node": "event_location",
+   "desc": "Physical location of an event"
+  },
+  {
+   "node": "event_schedule",
+   "desc": "Timing and scheduling of an event"
+  },
+  {
+   "node": "event_details",
+   "desc": "Specific details of an event"
+  },
+  {
+   "node": "other",
+   "desc": "Labels not covered by the above nodes"
+  }
+ ],
+ "n_label_used": 64,
+ "coverage_pct": 85.4
+}

@@ -1,0 +1,35 @@
+{
+ "n": 755,
+ "changed": [
+  {
+   "pair_id": "E13-0427",
+   "old": "SUPPORT",
+   "new": "DERIVE",
+   "note": "A5-②收录 RT 归因 @TelegraphNews + \"see this\" ⇒ 过判；实质新增=0"
+  },
+  {
+   "pair_id": "E13-0446",
+   "old": "SUPPORT",
+   "new": "DERIVE",
+   "note": "A5-②收录情绪尾巴 \"so important to read\" ⇒ 过判；实质新增=0"
+  },
+  {
+   "pair_id": "E13-0464",
+   "old": "SUPPORT",
+   "new": "DERIVE",
+   "note": "A5-②收录 hashtag #tolerance + \"anytime\" ⇒ 过判；实质新增=0"
+  },
+  {
+   "pair_id": "E13-0482",
+   "old": "SUPPORT",
+   "new": "DERIVE",
+   "note": "A5-②收录 RT 归因 @Copwatch ⇒ 过判；实质新增=0"
+  }
+ ],
+ "dist": {
+  "UNRELATED": 469,
+  "DERIVE": 108,
+  "SUPPORT": 144,
+  "CONFLICT": 34
+ }
+}

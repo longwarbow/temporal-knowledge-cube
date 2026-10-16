@@ -1,0 +1,31 @@
+{
+  "phase": [
+    {
+      "name": "A_initial_build",
+      "add": false,
+      "force": true,
+      "seconds": 27.1,
+      "leaf_nodes": 40
+    },
+    {
+      "name": "B_incremental_add",
+      "add": true,
+      "force": false,
+      "new_chunks": 15,
+      "seconds": 24.2,
+      "leaf_nodes_after": 55
+    }
+  ],
+  "routes": {
+    "build": 1,
+    "refine": 1,
+    "build_n": 40,
+    "refine_n": 15
+  },
+  "verdict": {
+    "PhaseA_build_path": true,
+    "PhaseB_refine_path": true,
+    "leaves_grew": true,
+    "W1_PASS": true
+  }
+}

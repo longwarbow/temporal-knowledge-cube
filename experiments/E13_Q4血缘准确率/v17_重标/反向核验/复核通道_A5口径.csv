@@ -1,0 +1,9 @@
+﻿pair_id,label_relation,label_confidence,label_notes
+E13-0197,DERIVE,2,实质新增词 = []，共 0 个（删 Co-，余同文）
+E13-0203,DERIVE,3,实质新增词 = []，共 0 个（仅调语序）
+E13-0410,DERIVE,3,实质新增词 = []，共 0 个（仅换署名 @）
+E13-0433,DERIVE,3,实质新增词 = []，共 0 个（#ПутинУмер 为 hashtag）
+E13-0427,DERIVE,3,实质新增词 = []，共 0 个（see this、@ 均排除）
+E13-0446,DERIVE,3,实质新增词 = []，共 0 个（评价/指令词均排除）
+E13-0464,DERIVE,3,实质新增词 = []，共 0 个（#tolerance、anytime 排除）
+E13-0482,DERIVE,3,实质新增词 = []，共 0 个（纯引用无尾巴）

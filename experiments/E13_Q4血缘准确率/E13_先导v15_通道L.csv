@@ -1,0 +1,13 @@
+﻿pair_id,label_relation,label_confidence,label_notes
+E13-0570,SUPPORT,2,A2 模糊量词multiple suspects与具体数3 gunmen同为人数⇒SUPPORT
+E13-0513,SUPPORT,2,A3-ⓐ③ 具指子项(4 French cartoonists)⊂同类总量(12 dead)⇒SUPPORT
+E13-0543,UNRELATED,3,A4-反例清单 枪手被击毙/士兵中枪↔医院收治3伤者⇒UNRELATED
+E13-0499,SUPPORT,3,A3-ⓐ③ 4 cartoonists为具指子项⊂同类总量12 dead⇒SUPPORT
+E13-0539,UNRELATED,3,A4-反例清单 被扣押↔枪击/逃离⇒UNRELATED
+E13-0487,UNRELATED,3,A3-ⓐ①限定 of six hostages非p所量总体(枪击死者)⇒UNRELATED
+E13-0540,UNRELATED,2,A4 谓词不同 人质离开↔人质确认要求⇒UNRELATED
+E13-0534,UNRELATED,3,A4-反例清单 被扣押↔枪击/逃离⇒UNRELATED
+E13-0458,SUPPORT,3,A5 via@theblaze为归因(新增事实性细节)⇒SUPPORT
+E13-0566,UNRELATED,3,T1 q为纯提问无事实命题⇒UNRELATED
+E13-0503,UNRELATED,3,A3-ⓠ 1 hostage(人数)vs 2 hostage situations(起数)⇒UNRELATED
+E13-0556,UNRELATED,3,T1 q为纯提问无事实命题⇒UNRELATED

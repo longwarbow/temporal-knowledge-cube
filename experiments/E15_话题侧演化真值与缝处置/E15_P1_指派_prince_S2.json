@@ -1,0 +1,147 @@
+{
+ "slice": "S2 11-04T15:45→11-04T18:40",
+ "kappa": 0.5886,
+ "kappa_tab": [
+  156,
+  25,
+  80,
+  267
+ ],
+ "po": 0.8011,
+ "n_labels": 33,
+ "n_other": 0,
+ "node_threads": {
+  "performance_event": 25,
+  "event_announcement": 7,
+  "rumours": 9,
+  "ticket_price": 4,
+  "event_cancellation": 4,
+  "event_occurrence": 5,
+  "event_details": 1,
+  "public_reaction": 2,
+  "event_location": 1
+ },
+ "node_members": {
+  "performance_event": [
+   "performance",
+   "predicted event",
+   "surprise show",
+   "news coverage",
+   "offer to line up",
+   "line length",
+   "secret show",
+   "lining up",
+   "length",
+   "private show",
+   "line up",
+   "meeting",
+   "love for city",
+   "planning",
+   "setup",
+   "secret event",
+   "availability",
+   "stage view",
+   "hope for"
+  ],
+  "event_announcement": [
+   "event announcement"
+  ],
+  "rumours": [
+   "rumoured",
+   "rumours",
+   "rumoured event",
+   "speculation"
+  ],
+  "ticket_price": [
+   "ticket price"
+  ],
+  "event_cancellation": [
+   "playing"
+  ],
+  "event_occurrence": [
+   "rumoured performance",
+   "event occurrence",
+   "event"
+  ],
+  "event_details": [
+   "event nature"
+  ],
+  "public_reaction": [
+   "public reaction",
+   "social media speculation"
+  ],
+  "event_location": [
+   "event location"
+  ]
+ },
+ "assign_A": {
+  "performance": 1,
+  "event announcement": 2,
+  "rumoured": 7,
+  "ticket price": 8,
+  "playing": 4,
+  "rumoured performance": 3,
+  "rumours": 7,
+  "predicted event": 1,
+  "surprise show": 1,
+  "news coverage": 1,
+  "offer to line up": 1,
+  "line length": 1,
+  "secret show": 1,
+  "event occurrence": 3,
+  "lining up": 1,
+  "length": 1,
+  "event nature": 11,
+  "rumoured event": 7,
+  "private show": 1,
+  "public reaction": 6,
+  "line up": 1,
+  "social media speculation": 6,
+  "speculation": 7,
+  "meeting": 1,
+  "love for city": 1,
+  "planning": 1,
+  "setup": 1,
+  "secret event": 1,
+  "availability": 1,
+  "stage view": 1,
+  "event location": 9,
+  "event": 3,
+  "hope for": 1
+ },
+ "assign_B": {
+  "availability": 0,
+  "event": 0,
+  "event announcement": 2,
+  "event location": 9,
+  "event nature": 0,
+  "event occurrence": 3,
+  "hope for": 0,
+  "length": 0,
+  "line length": 0,
+  "line up": 0,
+  "lining up": 0,
+  "love for city": 0,
+  "meeting": 0,
+  "news coverage": 0,
+  "offer to line up": 0,
+  "performance": 1,
+  "planning": 0,
+  "playing": 0,
+  "predicted event": 0,
+  "private show": 0,
+  "public reaction": 6,
+  "rumoured": 7,
+  "rumoured event": 2,
+  "rumoured performance": 1,
+  "rumours": 7,
+  "secret event": 0,
+  "secret show": 0,
+  "setup": 0,
+  "social media speculation": 0,
+  "speculation": 7,
+  "stage view": 0,
+  "surprise show": 0,
+  "ticket price": 8
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "slice": "S3 11-24T09:15→11-24T10:50",
+ "kappa": 0.5883,
+ "kappa_tab": [
+  108,
+  9,
+  49,
+  110
+ ],
+ "po": 0.7899,
+ "n_labels": 24,
+ "n_other": 0,
+ "node_threads": {
+  "artwork_acceptance": 14,
+  "decision_announcement": 4,
+  "event_update": 2,
+  "public_reaction": 15
+ },
+ "node_members": {
+  "artwork_acceptance": [
+   "accepts artworks",
+   "acceptance",
+   "acceptance of art",
+   "accepts",
+   "acceptance of artworks"
+  ],
+  "decision_announcement": [
+   "decision",
+   "Nazi-looted art"
+  ],
+  "event_update": [
+   "fate announcement",
+   "museum decision"
+  ],
+  "public_reaction": [
+   "press conference",
+   "museum confirmation",
+   "decision influence",
+   "agrees to take",
+   "research and restitution",
+   "looted works",
+   "research centre responsibility",
+   "provenance research",
+   "destination",
+   "controversial #gurlitt collection",
+   "work ownership",
+   "Nazi-loot identification",
+   "acceptance investigation",
+   "management agreement",
+   "Switzerland's role"
+  ]
+ },
+ "assign_A": {
+  "accepts artworks": 1,
+  "acceptance": 1,
+  "acceptance of art": 1,
+  "accepts": 1,
+  "decision": 5,
+  "Nazi-looted art": 5,
+  "fate announcement": 6,
+  "museum decision": 6,
+  "press conference": 8,
+  "museum confirmation": 8,
+  "decision influence": 8,
+  "agrees to take": 8,
+  "research and restitution": 8,
+  "looted works": 8,
+  "research centre responsibility": 8,
+  "provenance research": 8,
+  "destination": 8,
+  "controversial #gurlitt collection": 8,
+  "acceptance of artworks": 1,
+  "work ownership": 8,
+  "Nazi-loot identification": 8,
+  "acceptance investigation": 8,
+  "management agreement": 8,
+  "Switzerland's role": 8
+ },
+ "assign_B": {
+  "Nazi-loot identification": 1,
+  "Nazi-looted art": 2,
+  "Switzerland's role": 1,
+  "acceptance": 4,
+  "acceptance investigation": 1,
+  "acceptance of art": 3,
+  "acceptance of artworks": 1,
+  "accepts": 2,
+  "accepts artworks": 4,
+  "agrees to take": 1,
+  "controversial #gurlitt collection": 1,
+  "decision": 2,
+  "decision influence": 1,
+  "destination": 1,
+  "fate announcement": 1,
+  "looted works": 1,
+  "management agreement": 1,
+  "museum confirmation": 1,
+  "museum decision": 1,
+  "press conference": 1,
+  "provenance research": 1,
+  "research and restitution": 1,
+  "research centre responsibility": 1,
+  "work ownership": 1
+ }
+}

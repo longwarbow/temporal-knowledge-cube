@@ -1,0 +1,51 @@
+﻿pair_id,label_relation,label_confidence,label_notes
+E13-0010,UNRELATED,2,reply voicing generic support ('free americans'); does not assert or address p's proposition (NY Times Square protest).
+E13-0027,DERIVE,3,q = 'Jesus. RT @CTVNews:' + verbatim copy of p; explicit RT and identical wording => DERIVE.
+E13-0032,UNRELATED,2,q mocks the 'fight against terror' framing; does not assert/deny that Netanyahu called Harper (p's proposition).
+E13-0040,UNRELATED,3,in-thread conversational jab; no shared proposition.
+E13-0041,UNRELATED,2,same subtopic (robbery report) but q asks a different question (did Brown know he robbed); no truth constraint on p's claim.
+E13-0042,SUPPORT,1,"both are condolences to Ottawa-shooting victims (same pro-stance, no citation) => SUPPORT; borderline UNRELATED if pure emotion is non-propositional."
+E13-0043,UNRELATED,3,banter about ranking tweets; no propositional relation.
+E13-0047,UNRELATED,3,conversation about sect/identity; no shared proposition.
+E13-0053,UNRELATED,3,"q is a 'sad day' reaction to a news account; emotional, no shared proposition."
+E13-0067,UNRELATED,2,"same thread, but q defends a nuanced position; no shared proposition."
+E13-0083,UNRELATED,2,q only reports the live link is dead (logistics); different proposition.
+E13-0084,UNRELATED,2,"both express fear/frustration; emotional exchange, no factual proposition; could be SUPPORT if sentiment counts."
+E13-0091,UNRELATED,3,'I am Groot' joke/banter.
+E13-0098,CONFLICT,1,p: police stopped Brown for blocking traffic; q: Brown was shot over a shoplifting accusation => competing accounts of the same police action; borderline UNRELATED (why-stopped vs why-shot).
+E13-0101,UNRELATED,3,p = soldier died; q = 3 shooting scenes; different claims.
+E13-0105,SUPPORT,2,overlap only on 'police seeking multiple/3 suspects' (consistent); p's main claim (death) not covered by q; weak partial overlap.
+E13-0114,UNRELATED,3,p = soldier identified as Cirillo; q = police won't say if suspects at large; different.
+E13-0117,UNRELATED,3,p = RIP Cirillo; q = police dealing with multiple suspects; different.
+E13-0122,UNRELATED,3,p = Cirillo identified; q = police correction re: scenes/gunmen; different.
+E13-0134,UNRELATED,3,p = no survivors among 150; q = co-pilot brought the plane down / FAA; different.
+E13-0141,UNRELATED,3,p = 144 passengers + 6 crew; q = no mayday signal; different.
+E13-0155,UNRELATED,3,p = co-pilot name; q = 148 passengers aboard; different.
+E13-0181,SUPPORT,2,shared core: suspects cornered/standoff; q adds hostage detail; different wording => SUPPORT.
+E13-0182,UNRELATED,3,p = attackers disserved Islam; q = Banksy joins support; different.
+E13-0193,UNRELATED,3,p = gunman wants to talk on radio; q = hostage/gunmen counts + ISIS flag; different.
+E13-0200,SUPPORT,2,near-duplicate ('Germanwings plane crashes in French Alps with 148 ...') but wording differs ('passenger...onboard' vs 'people') and no RT; >=90% literal not met => SUPPORT; borderline DERIVE.
+E13-0201,CONFLICT,2,"death toll 11 vs 10 for the same attack => same fact, different value = CONFLICT per 2.3."
+E13-0202,SUPPORT,2,"identical proposition (co-pilot = Muslim convert / convert to Islam), different wording, no RT => SUPPORT."
+E13-0204,SUPPORT,2,"same claim ('serious depressive episode'), attributed to Bild vs 'German media'; no citation => SUPPORT."
+E13-0228,SUPPORT,2,shared: A320 crashed in French Alps; q adds 148; different wording => SUPPORT.
+E13-0231,SUPPORT,2,shared: Cpl. Cirillo killed; q adds RIP sentiment; different wording => SUPPORT.
+E13-0236,SUPPORT,2,shared: pilot locked out of cockpit; different sourcing (Report vs black box) => SUPPORT.
+E13-0243,SUPPORT,2,shared: at least 10 killed at Charlie Hebdo; different attribution (police vs prosecutor) => SUPPORT.
+E13-0261,SUPPORT,2,shared: hostages in Sydney cafe + Islamic/ISIS flag; q cites 'local TV' => SUPPORT.
+E13-0277,SUPPORT,2,shared: soldier named Cpl. Nathan Cirillo; different wording => SUPPORT.
+E13-0287,SUPPORT,2,"shared: soldier shot at war memorial; p: National War Memorial, q: near Canadian parliament => SUPPORT."
+E13-0290,SUPPORT,1,"same rhetorical claim (released robbery report, not shooting report; 'did you think we wouldn't notice'); reworded => SUPPORT; borderline DERIVE if it is a paraphrase/copy."
+E13-0303,UNRELATED,3,p = police once charged a man for bleeding on uniforms; q = Ferguson shut down; different.
+E13-0304,UNRELATED,2,both critique the police narrative but assert different propositions (character assassination vs logical inconsistency).
+E13-0305,UNRELATED,3,q is a meta-comment 'the police story keeps changing'; matches guide's example (names to be released vs statements change) => UNRELATED.
+E13-0307,UNRELATED,2,p is mostly hashtags + link ('American Justice?!') (insufficient-info); q about a video released to blame the victim; different.
+E13-0309,UNRELATED,3,p = Brown fit robbery description; q = 2009 beating of wrong suspect; different events.
+E13-0313,UNRELATED,3,p = police narrative; q = witnesses may have phone video; different.
+E13-0317,UNRELATED,3,p = robbery surveillance video; q = 2009 blood-on-uniform charge; different.
+E13-0341,UNRELATED,3,p = soldier died / one gunman dead; q = video of shoot-out; different.
+E13-0344,UNRELATED,2,p lists incident locations; q says a shooter possibly on the loose; different sub-claims.
+E13-0345,UNRELATED,3,p = no shooting inside Rideau mall; q = players heard shots at Tomb; different.
+E13-0346,SUPPORT,2,shared: soldier shot at War Memorial / Parliament incident; q adds lockdown + rifle details => SUPPORT.
+E13-0362,UNRELATED,3,p = flight 4U9525 accident; q = last words 'emergency'; different.
+E13-0370,UNRELATED,2,p = 142 on board; q = 16 schoolchildren may have been aboard; related development but different proposition => UNRELATED.

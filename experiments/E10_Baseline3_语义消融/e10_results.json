@@ -1,0 +1,184 @@
+{
+  "ced": {
+    "n_originals": 3387,
+    "n_bad": 2,
+    "total_posts": 1278567,
+    "total_reposts": 1275180,
+    "by_label": {
+      "rumor": 1538,
+      "non-rumor": 1849
+    },
+    "posts_by_label": {
+      "rumor": 485155,
+      "non-rumor": 793412
+    },
+    "cascade_size": {
+      "min": 4,
+      "p25": 179,
+      "median": 327,
+      "p75": 548,
+      "p90": 741,
+      "p99": 928,
+      "max": 965,
+      "mean": 377.49
+    },
+    "amp_posts_over_origins": 377.49,
+    "dedup_by_user_cut_ratio": 1.042,
+    "amp_after_user_dedup_over_origins": 362.16,
+    "declared_reposts": {
+      "n_with_declared": 3387,
+      "median_declared": 359,
+      "sum_declared": 1389174,
+      "actual_over_declared_pct": 91.79,
+      "field_match_pct": 1.3
+    },
+    "n_day_cells": 794,
+    "day_span": [
+      "2010-12-02",
+      "2014-04-10"
+    ],
+    "top10pct_cascades_volume_share_pct": 21.98
+  },
+  "pheme": {
+    "n_posts": 105747,
+    "n_threads": 6425,
+    "amp_posts_over_threads": 16.46,
+    "thread_size": {
+      "min": 1,
+      "p25": 5,
+      "median": 12,
+      "p75": 21,
+      "p90": 32,
+      "max": 346,
+      "mean": 16.46
+    },
+    "veracity_dist": {
+      "unverified": 571,
+      "false": 393,
+      "true": 1008
+    },
+    "per_event": {
+      "charliehebdo-all-rnr-threads": {
+        "posts": 38670,
+        "threads": 2079,
+        "amp": 18.6
+      },
+      "ebola-essien-all-rnr-threads": {
+        "posts": 227,
+        "threads": 14,
+        "amp": 16.21
+      },
+      "ferguson-all-rnr-threads": {
+        "posts": 23748,
+        "threads": 1143,
+        "amp": 20.78
+      },
+      "germanwings-crash-all-rnr-threads": {
+        "posts": 4524,
+        "threads": 469,
+        "amp": 9.65
+      },
+      "gurlitt-all-rnr-threads": {
+        "posts": 179,
+        "threads": 138,
+        "amp": 1.3
+      },
+      "ottawashooting-all-rnr-threads": {
+        "posts": 12402,
+        "threads": 890,
+        "amp": 13.93
+      },
+      "prince-toronto-all-rnr-threads": {
+        "posts": 923,
+        "threads": 233,
+        "amp": 3.96
+      },
+      "putinmissing-all-rnr-threads": {
+        "posts": 846,
+        "threads": 238,
+        "amp": 3.55
+      },
+      "sydneysiege-all-rnr-threads": {
+        "posts": 24228,
+        "threads": 1221,
+        "amp": 19.84
+      }
+    },
+    "conflict": {
+      "day": {
+        "total_cells": 84,
+        "conflicted_cells": 22,
+        "conflicted_cell_pct": 26.19,
+        "volume_in_conflicted_pct": 87.99
+      },
+      "hour": {
+        "total_cells": 1021,
+        "conflicted_cells": 109,
+        "conflicted_cell_pct": 10.68,
+        "volume_in_conflicted_pct": 68.11
+      },
+      "10min": {
+        "total_cells": 3693,
+        "conflicted_cells": 325,
+        "conflicted_cell_pct": 8.8,
+        "volume_in_conflicted_pct": 49.7
+      }
+    },
+    "conflicted_events": {
+      "n_events_with_labels": 5,
+      "n_conflicted_events": 5,
+      "detail": {
+        "charliehebdo-all-rnr-threads": [
+          "false",
+          "true"
+        ],
+        "ferguson-all-rnr-threads": [
+          "false",
+          "true"
+        ],
+        "germanwings-crash-all-rnr-threads": [
+          "false",
+          "true"
+        ],
+        "ottawashooting-all-rnr-threads": [
+          "false",
+          "true"
+        ],
+        "sydneysiege-all-rnr-threads": [
+          "false",
+          "true"
+        ]
+      }
+    }
+  },
+  "cost": {
+    "pheme_lineage_rows_hour": 22229,
+    "pheme_lineage_rows_max_gran": 42665,
+    "ced_lineage_cascades": 3387,
+    "note": "numeric cube stores no lineage; ours stores one row per (claim, cell) edge"
+  },
+  "fairness": {
+    "checks": [
+      {
+        "gran": "day",
+        "cells": 84,
+        "diff_cells": 0,
+        "total": 105747
+      },
+      {
+        "gran": "hour",
+        "cells": 1021,
+        "diff_cells": 0,
+        "total": 105747
+      },
+      {
+        "gran": "10min",
+        "cells": 3693,
+        "diff_cells": 0,
+        "total": 105747
+      }
+    ],
+    "statement": "data-plane measures are the projection of ours onto the numeric cube; the two agree cell-by-cell, so #3 is a fair (non-strawman) baseline"
+  },
+  "elapsed_s": 10.09
+}

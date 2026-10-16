@@ -1,0 +1,1023 @@
+{
+ "event": "prince",
+ "n_claims": 233,
+ "vocab": {
+  "event": "prince",
+  "nodes": [
+   {
+    "node": "performance_event",
+    "desc": "Event involving a performance"
+   },
+   {
+    "node": "event_announcement",
+    "desc": "Official announcement of an event"
+   },
+   {
+    "node": "event_occurrence",
+    "desc": "Actual occurrence of an event"
+   },
+   {
+    "node": "event_cancellation",
+    "desc": "Event has been cancelled"
+   },
+   {
+    "node": "event_status",
+    "desc": "Current status of an event"
+   },
+   {
+    "node": "public_reaction",
+    "desc": "Public response to an event"
+   },
+   {
+    "node": "rumours",
+    "desc": "Rumours or speculation about an event"
+   },
+   {
+    "node": "ticket_price",
+    "desc": "Price of tickets for an event"
+   },
+   {
+    "node": "event_location",
+    "desc": "Physical location of an event"
+   },
+   {
+    "node": "event_schedule",
+    "desc": "Timing and scheduling of an event"
+   },
+   {
+    "node": "event_details",
+    "desc": "Specific details of an event"
+   },
+   {
+    "node": "other",
+    "desc": "Labels not covered by the above nodes"
+   }
+  ],
+  "n_label_used": 64,
+  "coverage_pct": 85.4
+ },
+ "min_count": 1,
+ "l2_only": true,
+ "slices": {
+  "0": {
+   "label": "S1 11-03T22:29→11-04T15:45",
+   "n_threads": 59,
+   "labels": [
+    "performance",
+    "event announcement",
+    "event",
+    "playing",
+    "surprise show",
+    "lining up",
+    "rumours",
+    "happening",
+    "rumoured performance",
+    "pop up show",
+    "performance venue",
+    "reason",
+    "event happening",
+    "number",
+    "stage clothes origin",
+    "Prince performance",
+    "content",
+    "rumoured show",
+    "show",
+    "performance date",
+    "location",
+    "reportedly",
+    "event schedule",
+    "performing",
+    "event details",
+    "forecasted",
+    "knowledge",
+    "playing show",
+    "ticket price",
+    "performance status",
+    "secret performance",
+    "event occurrence"
+   ],
+   "counts": {
+    "event": 3,
+    "event announcement": 7,
+    "performance venue": 1,
+    "reason": 1,
+    "event happening": 1,
+    "number": 1,
+    "stage clothes origin": 1,
+    "Prince performance": 1,
+    "playing": 3,
+    "content": 1,
+    "performance": 9,
+    "happening": 2,
+    "rumoured show": 1,
+    "show": 1,
+    "performance date": 1,
+    "location": 1,
+    "surprise show": 3,
+    "reportedly": 1,
+    "event schedule": 1,
+    "performing": 1,
+    "lining up": 3,
+    "event details": 1,
+    "rumours": 3,
+    "forecasted": 1,
+    "knowledge": 1,
+    "rumoured performance": 2,
+    "playing show": 1,
+    "pop up show": 2,
+    "ticket price": 1,
+    "performance status": 1,
+    "secret performance": 1,
+    "event occurrence": 1
+   },
+   "node_members": {
+    "performance_event": [
+     "event announcement"
+    ],
+    "event_announcement": [
+     "event"
+    ],
+    "event_occurrence": [
+     "playing",
+     "surprise show",
+     "lining up",
+     "happening",
+     "rumoured performance",
+     "pop up show",
+     "event happening",
+     "performing",
+     "playing show",
+     "secret performance",
+     "event occurrence"
+    ],
+    "public_reaction": [
+     "rumours"
+    ],
+    "event_location": [
+     "performance venue",
+     "location"
+    ],
+    "other": [
+     "reason"
+    ],
+    "event_details": [
+     "stage clothes origin",
+     "Prince performance",
+     "content",
+     "rumoured show",
+     "show",
+     "event details"
+    ],
+    "event_schedule": [
+     "performance date",
+     "event schedule"
+    ],
+    "ticket_price": [
+     "ticket price"
+    ],
+    "event_status": [
+     "performance status"
+    ]
+   },
+   "node_threads": {
+    "performance_event": 7,
+    "event_announcement": 3,
+    "event_occurrence": 20,
+    "public_reaction": 3,
+    "event_location": 2,
+    "other": 1,
+    "event_details": 6,
+    "event_schedule": 2,
+    "ticket_price": 1,
+    "event_status": 1
+   },
+   "kappa": 0.3826,
+   "kappa_tab": [
+    34,
+    39,
+    37,
+    386
+   ],
+   "po": 0.8468,
+   "n_other": 1
+  },
+  "1": {
+   "label": "S2 11-04T15:45→11-04T18:40",
+   "n_threads": 58,
+   "labels": [
+    "performance",
+    "event announcement",
+    "rumoured",
+    "ticket price",
+    "playing",
+    "rumoured performance",
+    "rumours",
+    "predicted event",
+    "surprise show",
+    "news coverage",
+    "offer to line up",
+    "line length",
+    "secret show",
+    "event occurrence",
+    "lining up",
+    "length",
+    "event nature",
+    "rumoured event",
+    "private show",
+    "public reaction",
+    "line up",
+    "social media speculation",
+    "speculation",
+    "meeting",
+    "love for city",
+    "planning",
+    "setup",
+    "secret event",
+    "availability",
+    "stage view",
+    "event location",
+    "event",
+    "hope for"
+   ],
+   "counts": {
+    "ticket price": 4,
+    "predicted event": 1,
+    "performance": 7,
+    "surprise show": 1,
+    "playing": 4,
+    "event announcement": 7,
+    "news coverage": 1,
+    "offer to line up": 1,
+    "rumours": 2,
+    "rumoured": 5,
+    "line length": 1,
+    "secret show": 1,
+    "event occurrence": 1,
+    "rumoured performance": 3,
+    "lining up": 1,
+    "length": 1,
+    "event nature": 1,
+    "rumoured event": 1,
+    "private show": 1,
+    "public reaction": 1,
+    "line up": 1,
+    "social media speculation": 1,
+    "speculation": 1,
+    "meeting": 1,
+    "love for city": 1,
+    "planning": 1,
+    "setup": 1,
+    "secret event": 1,
+    "availability": 1,
+    "stage view": 1,
+    "event location": 1,
+    "event": 1,
+    "hope for": 1
+   },
+   "node_members": {
+    "performance_event": [
+     "performance",
+     "predicted event",
+     "surprise show",
+     "news coverage",
+     "offer to line up",
+     "line length",
+     "secret show",
+     "lining up",
+     "length",
+     "private show",
+     "line up",
+     "meeting",
+     "love for city",
+     "planning",
+     "setup",
+     "secret event",
+     "availability",
+     "stage view",
+     "hope for"
+    ],
+    "event_announcement": [
+     "event announcement"
+    ],
+    "rumours": [
+     "rumoured",
+     "rumours",
+     "rumoured event",
+     "speculation"
+    ],
+    "ticket_price": [
+     "ticket price"
+    ],
+    "event_cancellation": [
+     "playing"
+    ],
+    "event_occurrence": [
+     "rumoured performance",
+     "event occurrence",
+     "event"
+    ],
+    "event_details": [
+     "event nature"
+    ],
+    "public_reaction": [
+     "public reaction",
+     "social media speculation"
+    ],
+    "event_location": [
+     "event location"
+    ]
+   },
+   "node_threads": {
+    "performance_event": 25,
+    "event_announcement": 7,
+    "rumours": 9,
+    "ticket_price": 4,
+    "event_cancellation": 4,
+    "event_occurrence": 5,
+    "event_details": 1,
+    "public_reaction": 2,
+    "event_location": 1
+   },
+   "kappa": 0.5886,
+   "kappa_tab": [
+    156,
+    25,
+    80,
+    267
+   ],
+   "po": 0.8011,
+   "n_other": 0
+  },
+  "2": {
+   "label": "S3 11-04T18:41→11-04T20:22",
+   "n_threads": 58,
+   "labels": [
+    "schedule",
+    "performance",
+    "rumored",
+    "event cancellation",
+    "event status",
+    "event occurrence",
+    "performance status",
+    "confirmation",
+    "attendance",
+    "cancellation",
+    "public reaction",
+    "show dates",
+    "rumoured",
+    "lining up",
+    "public event",
+    "length",
+    "surprise event",
+    "rumours",
+    "presence",
+    "ticket availability",
+    "status",
+    "cancelled",
+    "scheduled status",
+    "scheduled event",
+    "meaning",
+    "waiting time",
+    "performance cancellation",
+    "show status",
+    "venue",
+    "will not be",
+    "event announcement",
+    "location",
+    "scheduled",
+    "will not be happening"
+   ],
+   "counts": {
+    "show dates": 1,
+    "rumoured": 1,
+    "lining up": 1,
+    "performance": 4,
+    "rumored": 4,
+    "public event": 1,
+    "length": 1,
+    "surprise event": 1,
+    "rumours": 1,
+    "presence": 1,
+    "event status": 3,
+    "ticket availability": 1,
+    "event occurrence": 3,
+    "status": 1,
+    "cancelled": 1,
+    "event cancellation": 4,
+    "scheduled status": 1,
+    "schedule": 5,
+    "scheduled event": 1,
+    "performance status": 3,
+    "confirmation": 3,
+    "meaning": 1,
+    "waiting time": 1,
+    "performance cancellation": 1,
+    "show status": 1,
+    "venue": 1,
+    "attendance": 2,
+    "will not be": 1,
+    "event announcement": 1,
+    "location": 1,
+    "cancellation": 2,
+    "public reaction": 2,
+    "scheduled": 1,
+    "will not be happening": 1
+   },
+   "node_members": {
+    "event_schedule": [
+     "schedule",
+     "show dates",
+     "length",
+     "scheduled event",
+     "waiting time",
+     "scheduled"
+    ],
+    "performance_event": [
+     "performance"
+    ],
+    "rumours": [
+     "rumored",
+     "rumoured",
+     "rumours"
+    ],
+    "event_cancellation": [
+     "event cancellation",
+     "cancellation",
+     "cancelled",
+     "performance cancellation",
+     "will not be",
+     "will not be happening"
+    ],
+    "event_status": [
+     "event status",
+     "performance status",
+     "confirmation",
+     "status",
+     "scheduled status",
+     "show status"
+    ],
+    "event_occurrence": [
+     "event occurrence"
+    ],
+    "public_reaction": [
+     "attendance",
+     "public reaction",
+     "lining up",
+     "public event",
+     "presence"
+    ],
+    "event_details": [
+     "surprise event",
+     "meaning"
+    ],
+    "ticket_price": [
+     "ticket availability"
+    ],
+    "event_location": [
+     "venue",
+     "location"
+    ],
+    "event_announcement": [
+     "event announcement"
+    ]
+   },
+   "node_threads": {
+    "event_schedule": 10,
+    "performance_event": 4,
+    "rumours": 6,
+    "event_cancellation": 10,
+    "event_status": 12,
+    "event_occurrence": 3,
+    "public_reaction": 7,
+    "event_details": 2,
+    "ticket_price": 1,
+    "event_location": 2,
+    "event_announcement": 1
+   },
+   "kappa": 0.5369,
+   "kappa_tab": [
+    39,
+    21,
+    33,
+    468
+   ],
+   "po": 0.9037,
+   "n_other": 0
+  },
+  "3": {
+   "label": "S4 11-04T20:24→11-05T03:00",
+   "n_threads": 58,
+   "labels": [
+    "event occurrence",
+    "event cancellation",
+    "public reaction",
+    "performance",
+    "reason for cancellation",
+    "confirmation",
+    "setup",
+    "location",
+    "fan reaction",
+    "rumours",
+    "presence",
+    "status",
+    "scheduled",
+    "cancellation",
+    "concludes",
+    "announcement",
+    "lineup",
+    "hope",
+    "cancelled",
+    "secret show",
+    "insult",
+    "playing",
+    "change in plans",
+    "reaction",
+    "event",
+    "waiting line",
+    "duration",
+    "event outcome",
+    "playing show",
+    "event announcement",
+    "win",
+    "event status",
+    "occurrence",
+    "line status",
+    "is a joke",
+    "apology",
+    "report",
+    "event location",
+    "production rehearsal"
+   ],
+   "counts": {
+    "scheduled": 1,
+    "event occurrence": 4,
+    "cancellation": 1,
+    "confirmation": 2,
+    "public reaction": 3,
+    "concludes": 1,
+    "announcement": 1,
+    "setup": 2,
+    "lineup": 1,
+    "performance": 3,
+    "event cancellation": 4,
+    "hope": 1,
+    "location": 2,
+    "reason for cancellation": 3,
+    "fan reaction": 2,
+    "cancelled": 1,
+    "secret show": 1,
+    "rumours": 2,
+    "presence": 2,
+    "insult": 1,
+    "playing": 1,
+    "change in plans": 1,
+    "reaction": 1,
+    "event": 1,
+    "waiting line": 1,
+    "duration": 1,
+    "event outcome": 1,
+    "playing show": 1,
+    "event announcement": 1,
+    "win": 1,
+    "event status": 1,
+    "status": 2,
+    "occurrence": 1,
+    "line status": 1,
+    "is a joke": 1,
+    "apology": 1,
+    "report": 1,
+    "event location": 1,
+    "production rehearsal": 1
+   },
+   "node_members": {
+    "event_cancellation": [
+     "event occurrence",
+     "event cancellation",
+     "cancellation",
+     "cancelled"
+    ],
+    "public_reaction": [
+     "public reaction",
+     "fan reaction",
+     "reaction"
+    ],
+    "performance_event": [
+     "performance",
+     "playing",
+     "event",
+     "playing show"
+    ],
+    "event_details": [
+     "reason for cancellation",
+     "setup",
+     "presence",
+     "concludes",
+     "lineup",
+     "hope",
+     "secret show",
+     "insult",
+     "change in plans",
+     "waiting line",
+     "event outcome",
+     "win",
+     "line status",
+     "is a joke",
+     "apology",
+     "report",
+     "production rehearsal"
+    ],
+    "event_status": [
+     "confirmation",
+     "status",
+     "event status"
+    ],
+    "event_location": [
+     "location",
+     "event location"
+    ],
+    "rumours": [
+     "rumours"
+    ],
+    "event_schedule": [
+     "scheduled",
+     "duration"
+    ],
+    "event_announcement": [
+     "announcement",
+     "event announcement"
+    ],
+    "event_occurrence": [
+     "occurrence"
+    ]
+   },
+   "node_threads": {
+    "event_cancellation": 10,
+    "public_reaction": 6,
+    "performance_event": 6,
+    "event_details": 21,
+    "event_status": 5,
+    "event_location": 3,
+    "rumours": 2,
+    "event_schedule": 2,
+    "event_announcement": 2,
+    "event_occurrence": 1
+   },
+   "kappa": 0.266,
+   "kappa_tab": [
+    48,
+    109,
+    46,
+    538
+   ],
+   "po": 0.7908,
+   "n_other": 0
+  }
+ },
+ "kappa_mean": 0.4435,
+ "po_mean": 0.8356,
+ "transitions": [],
+ "ops_llm": {},
+ "det_ops_total": {
+  "CONTINUE": 26,
+  "BIRTH": 4,
+  "RETIRE": 4
+ },
+ "det_per_trans": [
+  {
+   "d1": "S1 11-03T22:29→11-04T15:45",
+   "d2": "S2 11-04T15:45→11-04T18:40",
+   "det": {
+    "CONTINUE": 7,
+    "BIRTH": 2,
+    "RETIRE": 3
+   },
+   "born": [
+    "event_cancellation",
+    "rumours"
+   ],
+   "retired": [
+    "event_schedule",
+    "event_status",
+    "other"
+   ]
+  },
+  {
+   "d1": "S2 11-04T15:45→11-04T18:40",
+   "d2": "S3 11-04T18:41→11-04T20:22",
+   "det": {
+    "CONTINUE": 9,
+    "BIRTH": 2,
+    "RETIRE": 0
+   },
+   "born": [
+    "event_schedule",
+    "event_status"
+   ],
+   "retired": []
+  },
+  {
+   "d1": "S3 11-04T18:41→11-04T20:22",
+   "d2": "S4 11-04T20:24→11-05T03:00",
+   "det": {
+    "CONTINUE": 10,
+    "BIRTH": 0,
+    "RETIRE": 1
+   },
+   "born": [],
+   "retired": [
+    "ticket_price"
+   ]
+  }
+ ],
+ "node_lifespan": {
+  "event_announcement": {
+   "first": "S1 11-03T22:29→11-04T15:45",
+   "last": "S4 11-04T20:24→11-05T03:00",
+   "n_slices": 4,
+   "threads": [
+    3,
+    7,
+    1,
+    2
+   ]
+  },
+  "event_location": {
+   "first": "S1 11-03T22:29→11-04T15:45",
+   "last": "S4 11-04T20:24→11-05T03:00",
+   "n_slices": 4,
+   "threads": [
+    2,
+    1,
+    2,
+    3
+   ]
+  },
+  "event_status": {
+   "first": "S1 11-03T22:29→11-04T15:45",
+   "last": "S4 11-04T20:24→11-05T03:00",
+   "n_slices": 3,
+   "threads": [
+    1,
+    0,
+    12,
+    5
+   ]
+  },
+  "rumours": {
+   "first": "S2 11-04T15:45→11-04T18:40",
+   "last": "S4 11-04T20:24→11-05T03:00",
+   "n_slices": 3,
+   "threads": [
+    0,
+    9,
+    6,
+    2
+   ]
+  },
+  "performance_event": {
+   "first": "S1 11-03T22:29→11-04T15:45",
+   "last": "S4 11-04T20:24→11-05T03:00",
+   "n_slices": 4,
+   "threads": [
+    7,
+    25,
+    4,
+    6
+   ]
+  },
+  "event_details": {
+   "first": "S1 11-03T22:29→11-04T15:45",
+   "last": "S4 11-04T20:24→11-05T03:00",
+   "n_slices": 4,
+   "threads": [
+    6,
+    1,
+    2,
+    21
+   ]
+  },
+  "other": {
+   "first": "S1 11-03T22:29→11-04T15:45",
+   "last": "S1 11-03T22:29→11-04T15:45",
+   "n_slices": 1,
+   "threads": [
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "event_cancellation": {
+   "first": "S2 11-04T15:45→11-04T18:40",
+   "last": "S4 11-04T20:24→11-05T03:00",
+   "n_slices": 3,
+   "threads": [
+    0,
+    4,
+    10,
+    10
+   ]
+  },
+  "event_occurrence": {
+   "first": "S1 11-03T22:29→11-04T15:45",
+   "last": "S4 11-04T20:24→11-05T03:00",
+   "n_slices": 4,
+   "threads": [
+    20,
+    5,
+    3,
+    1
+   ]
+  },
+  "public_reaction": {
+   "first": "S1 11-03T22:29→11-04T15:45",
+   "last": "S4 11-04T20:24→11-05T03:00",
+   "n_slices": 4,
+   "threads": [
+    3,
+    2,
+    7,
+    6
+   ]
+  },
+  "event_schedule": {
+   "first": "S1 11-03T22:29→11-04T15:45",
+   "last": "S4 11-04T20:24→11-05T03:00",
+   "n_slices": 3,
+   "threads": [
+    2,
+    0,
+    10,
+    2
+   ]
+  },
+  "ticket_price": {
+   "first": "S1 11-03T22:29→11-04T15:45",
+   "last": "S3 11-04T18:41→11-04T20:22",
+   "n_slices": 3,
+   "threads": [
+    1,
+    4,
+    1,
+    0
+   ]
+  }
+ },
+ "anchor": {
+  "born_nodes": [
+   "event_cancellation",
+   "event_schedule",
+   "event_status",
+   "rumours"
+  ],
+  "continue_nodes": [
+   "event_announcement",
+   "event_cancellation",
+   "event_details",
+   "event_location",
+   "event_occurrence",
+   "event_schedule",
+   "event_status",
+   "performance_event",
+   "public_reaction",
+   "rumours",
+   "ticket_price"
+  ],
+  "ver_born": {
+   "null": 73
+  },
+  "ver_continue": {
+   "null": 219
+  }
+ },
+ "veracity_anchor": {
+  "S1 11-03T22:29→11-04T15:45": {
+   "performance_event": {
+    "null": 7
+   },
+   "event_announcement": {
+    "null": 3
+   },
+   "event_occurrence": {
+    "null": 20
+   },
+   "public_reaction": {
+    "null": 3
+   },
+   "event_location": {
+    "null": 2
+   },
+   "other": {
+    "null": 1
+   },
+   "event_details": {
+    "null": 6
+   },
+   "event_schedule": {
+    "null": 2
+   },
+   "ticket_price": {
+    "null": 1
+   },
+   "event_status": {
+    "null": 1
+   }
+  },
+  "S2 11-04T15:45→11-04T18:40": {
+   "performance_event": {
+    "null": 25
+   },
+   "event_announcement": {
+    "null": 7
+   },
+   "rumours": {
+    "null": 9
+   },
+   "ticket_price": {
+    "null": 4
+   },
+   "event_cancellation": {
+    "null": 4
+   },
+   "event_occurrence": {
+    "null": 5
+   },
+   "event_details": {
+    "null": 1
+   },
+   "public_reaction": {
+    "null": 2
+   },
+   "event_location": {
+    "null": 1
+   }
+  },
+  "S3 11-04T18:41→11-04T20:22": {
+   "event_schedule": {
+    "null": 10
+   },
+   "performance_event": {
+    "null": 4
+   },
+   "rumours": {
+    "null": 6
+   },
+   "event_cancellation": {
+    "null": 10
+   },
+   "event_status": {
+    "null": 12
+   },
+   "event_occurrence": {
+    "null": 3
+   },
+   "public_reaction": {
+    "null": 7
+   },
+   "event_details": {
+    "null": 2
+   },
+   "ticket_price": {
+    "null": 1
+   },
+   "event_location": {
+    "null": 2
+   },
+   "event_announcement": {
+    "null": 1
+   }
+  },
+  "S4 11-04T20:24→11-05T03:00": {
+   "event_cancellation": {
+    "null": 10
+   },
+   "public_reaction": {
+    "null": 6
+   },
+   "performance_event": {
+    "null": 6
+   },
+   "event_details": {
+    "null": 21
+   },
+   "event_status": {
+    "null": 5
+   },
+   "event_location": {
+    "null": 3
+   },
+   "rumours": {
+    "null": 2
+   },
+   "event_schedule": {
+    "null": 2
+   },
+   "event_announcement": {
+    "null": 2
+   },
+   "event_occurrence": {
+    "null": 1
+   }
+  }
+ }
+}

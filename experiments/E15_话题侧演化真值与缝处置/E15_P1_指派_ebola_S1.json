@@ -1,0 +1,45 @@
+{
+ "slice": "S1 10-12T14:44→10-12T17:59",
+ "kappa": 1.0,
+ "kappa_tab": [
+  0,
+  0,
+  0,
+  6
+ ],
+ "po": 1.0,
+ "n_labels": 4,
+ "n_other": 0,
+ "node_threads": {
+  "ebola_infection": 2,
+  "ebola_virus": 1,
+  "accuracy": 1,
+  "ebola_diagnosis": 1
+ },
+ "node_members": {
+  "ebola_infection": [
+   "Ebola infection"
+  ],
+  "ebola_virus": [
+   "Ebola virus contraction"
+  ],
+  "accuracy": [
+   "accuracy"
+  ],
+  "ebola_diagnosis": [
+   "diagnosis"
+  ]
+ },
+ "assign_A": {
+  "Ebola infection": 1,
+  "Ebola virus contraction": 5,
+  "accuracy": 6,
+  "diagnosis": 3
+ },
+ "assign_B": {
+  "Ebola infection": 1,
+  "Ebola virus contraction": 5,
+  "accuracy": 6,
+  "diagnosis": 3
+ }
+}

@@ -1,0 +1,299 @@
+{
+  "n": 755,
+  "truth_dist": {
+    "UNRELATED": 462,
+    "DERIVE": 105,
+    "SUPPORT": 145,
+    "CONFLICT": 43
+  },
+  "v4_overall": {
+    "n": 755,
+    "macro_F1": 0.7109,
+    "accuracy": 0.8305,
+    "DERIVE": {
+      "n_true": 105,
+      "P": 0.8879,
+      "R": 0.981,
+      "F1": 0.9321
+    },
+    "SUPPORT": {
+      "n_true": 145,
+      "P": 0.8472,
+      "R": 0.4207,
+      "F1": 0.5622
+    },
+    "CONFLICT": {
+      "n_true": 43,
+      "P": 0.5926,
+      "R": 0.3721,
+      "F1": 0.4571
+    },
+    "UNRELATED": {
+      "n_true": 462,
+      "P": 0.8278,
+      "R": 0.9675,
+      "F1": 0.8922
+    }
+  },
+  "naive_majority": {
+    "label": "UNRELATED",
+    "macro_F1": 0.1898,
+    "accuracy": 0.6119
+  },
+  "per_stratum": {
+    "S1_same_thread_reply": {
+      "n": 97,
+      "truth": {
+        "UNRELATED": 87,
+        "DERIVE": 6,
+        "SUPPORT": 2,
+        "CONFLICT": 2
+      },
+      "pred": {
+        "UNRELATED": 85,
+        "DERIVE": 8,
+        "SUPPORT": 2,
+        "CONFLICT": 2
+      },
+      "metrics": {
+        "DERIVE": {
+          "P": 0.75,
+          "R": 1.0,
+          "F1": 0.8571,
+          "n_true": 6
+        },
+        "SUPPORT": {
+          "P": 0.5,
+          "R": 0.5,
+          "F1": 0.5,
+          "n_true": 2
+        },
+        "CONFLICT": {
+          "P": 0.5,
+          "R": 0.5,
+          "F1": 0.5,
+          "n_true": 2
+        },
+        "UNRELATED": {
+          "P": 0.9882,
+          "R": 0.9655,
+          "F1": 0.9767,
+          "n_true": 87
+        }
+      },
+      "macro_F1": 0.7085,
+      "accuracy": 0.9485
+    },
+    "S2_cross_thread_high_sim": {
+      "n": 97,
+      "truth": {
+        "DERIVE": 7,
+        "SUPPORT": 77,
+        "CONFLICT": 6,
+        "UNRELATED": 7
+      },
+      "pred": {
+        "DERIVE": 12,
+        "CONFLICT": 6,
+        "SUPPORT": 62,
+        "UNRELATED": 17
+      },
+      "metrics": {
+        "DERIVE": {
+          "P": 0.4167,
+          "R": 0.7143,
+          "F1": 0.5263,
+          "n_true": 7
+        },
+        "SUPPORT": {
+          "P": 0.8871,
+          "R": 0.7143,
+          "F1": 0.7914,
+          "n_true": 77
+        },
+        "CONFLICT": {
+          "P": 0.6667,
+          "R": 0.6667,
+          "F1": 0.6667,
+          "n_true": 6
+        },
+        "UNRELATED": {
+          "P": 0.1765,
+          "R": 0.4286,
+          "F1": 0.25,
+          "n_true": 7
+        }
+      },
+      "macro_F1": 0.5586,
+      "accuracy": 0.6907
+    },
+    "S3_cross_thread_opposite_veracity": {
+      "n": 97,
+      "truth": {
+        "UNRELATED": 89,
+        "CONFLICT": 1,
+        "SUPPORT": 7
+      },
+      "pred": {
+        "UNRELATED": 95,
+        "SUPPORT": 2
+      },
+      "metrics": {
+        "DERIVE": {
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_true": 0
+        },
+        "SUPPORT": {
+          "P": 0.5,
+          "R": 0.1429,
+          "F1": 0.2222,
+          "n_true": 7
+        },
+        "CONFLICT": {
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_true": 1
+        },
+        "UNRELATED": {
+          "P": 0.9263,
+          "R": 0.9888,
+          "F1": 0.9565,
+          "n_true": 89
+        }
+      },
+      "macro_F1": 0.2947,
+      "accuracy": 0.9175
+    },
+    "S4_cross_thread_random": {
+      "n": 97,
+      "truth": {
+        "UNRELATED": 86,
+        "SUPPORT": 10,
+        "CONFLICT": 1
+      },
+      "pred": {
+        "UNRELATED": 94,
+        "CONFLICT": 1,
+        "SUPPORT": 2
+      },
+      "metrics": {
+        "DERIVE": {
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_true": 0
+        },
+        "SUPPORT": {
+          "P": 1.0,
+          "R": 0.2,
+          "F1": 0.3333,
+          "n_true": 10
+        },
+        "CONFLICT": {
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_true": 1
+        },
+        "UNRELATED": {
+          "P": 0.9043,
+          "R": 0.9884,
+          "F1": 0.9444,
+          "n_true": 86
+        }
+      },
+      "macro_F1": 0.3194,
+      "accuracy": 0.8969
+    },
+    "S5_cross_thread_verbatim": {
+      "n": 97,
+      "truth": {
+        "DERIVE": 92,
+        "SUPPORT": 5
+      },
+      "pred": {
+        "DERIVE": 96,
+        "SUPPORT": 1
+      },
+      "metrics": {
+        "DERIVE": {
+          "P": 0.9583,
+          "R": 1.0,
+          "F1": 0.9787,
+          "n_true": 92
+        },
+        "SUPPORT": {
+          "P": 1.0,
+          "R": 0.2,
+          "F1": 0.3333,
+          "n_true": 5
+        },
+        "CONFLICT": {
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_true": 0
+        },
+        "UNRELATED": {
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_true": 0
+        }
+      },
+      "macro_F1": 0.328,
+      "accuracy": 0.9588
+    },
+    "S6_same_slot_conflicting": {
+      "n": 270,
+      "truth": {
+        "UNRELATED": 193,
+        "CONFLICT": 33,
+        "SUPPORT": 44
+      },
+      "pred": {
+        "UNRELATED": 249,
+        "CONFLICT": 18,
+        "SUPPORT": 3
+      },
+      "metrics": {
+        "DERIVE": {
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_true": 0
+        },
+        "SUPPORT": {
+          "P": 0.3333,
+          "R": 0.0227,
+          "F1": 0.0426,
+          "n_true": 44
+        },
+        "CONFLICT": {
+          "P": 0.6111,
+          "R": 0.3333,
+          "F1": 0.4314,
+          "n_true": 33
+        },
+        "UNRELATED": {
+          "P": 0.751,
+          "R": 0.9689,
+          "F1": 0.8462,
+          "n_true": 193
+        }
+      },
+      "macro_F1": 0.3301,
+      "accuracy": 0.737
+    }
+  },
+  "guards": {
+    "A4_block": 44,
+    "A4_suppressed": 6,
+    "A4_not_applicable": 464
+  },
+  "ties_closed_by_channel_P": 5,
+  "probe_status": "探针 κ（多通道）= 见 E13_全量v3_一致性.json；人类 κ 仍缺（协议 §7 探针地位声明）"
+}

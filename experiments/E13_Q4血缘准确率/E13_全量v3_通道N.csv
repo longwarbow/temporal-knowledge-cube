@@ -1,0 +1,756 @@
+﻿pair_id,label_relation,label_confidence,label_notes
+E13-0001,UNRELATED,3,T1 非命题(祈祷/表态)
+E13-0002,UNRELATED,3,T1 非命题(观点互怼)
+E13-0003,UNRELATED,2,T1 q 无事实命题
+E13-0004,UNRELATED,3,T1 q 非命题 insufficient-info
+E13-0005,UNRELATED,2,T1 观点 兜底不同命题
+E13-0006,UNRELATED,3,T1 q 无事实命题
+E13-0007,UNRELATED,3,T1 非命题
+E13-0008,UNRELATED,3,T1 q 无事实命题
+E13-0009,UNRELATED,2,兜底 不同命题
+E13-0010,UNRELATED,2,T1 q 表态非命题
+E13-0011,UNRELATED,3,T1 q 无事实命题
+E13-0012,UNRELATED,3,T1 非命题(观点)
+E13-0013,UNRELATED,3,T1 非命题
+E13-0014,UNRELATED,2,T1 q 无事实命题
+E13-0015,UNRELATED,3,T1 q 情绪非命题
+E13-0016,UNRELATED,3,T1 非命题(观点/反问)
+E13-0017,UNRELATED,2,兜底 不同命题
+E13-0018,SUPPORT,3,A5 引用@globeandmail 归因→SUPPORT
+E13-0019,SUPPORT,3,A5 via@Reuters 归因→SUPPORT
+E13-0020,SUPPORT,3,A5 引用@metpoliceuk 归因→SUPPORT
+E13-0021,UNRELATED,3,T1 q 邀请非命题
+E13-0022,UNRELATED,2,T1 评价性非事实命题
+E13-0023,UNRELATED,3,T1 辱骂非命题
+E13-0024,UNRELATED,3,T1 q 无关评论
+E13-0025,UNRELATED,2,T1 观点 兜底
+E13-0026,UNRELATED,3,T1 观点
+E13-0027,SUPPORT,3,A5 RT@CTVNews 归因→SUPPORT
+E13-0028,UNRELATED,3,T1 观点
+E13-0029,UNRELATED,2,T2 建议; 兜底
+E13-0030,UNRELATED,2,T1 观点
+E13-0031,UNRELATED,2,T1 q 评论非命题
+E13-0032,UNRELATED,3,T1 q 嘲讽非命题
+E13-0033,UNRELATED,3,T1 q 玩笑非命题
+E13-0034,UNRELATED,3,T1 提问
+E13-0035,UNRELATED,3,T1 非命题
+E13-0036,UNRELATED,2,T1 q 评论; 兜底
+E13-0037,SUPPORT,3,A5 引用@PzFeed 归因→SUPPORT
+E13-0038,UNRELATED,3,T1 非命题(闲聊)
+E13-0039,UNRELATED,3,T1 观点
+E13-0040,UNRELATED,2,T1 观点
+E13-0041,UNRELATED,2,T1/T2 提问
+E13-0042,UNRELATED,2,兜底 不同命题
+E13-0043,UNRELATED,3,T1 非命题
+E13-0044,UNRELATED,2,T1 q 表态非命题
+E13-0045,UNRELATED,3,T1 非命题
+E13-0046,UNRELATED,2,T1 观点
+E13-0047,UNRELATED,3,T1 提问/身份表态
+E13-0048,UNRELATED,3,T1 观点
+E13-0049,UNRELATED,2,T1 q 仅附和(exactly)无独立命题
+E13-0050,SUPPORT,3,A5 引用@AntonioFrench 归因→SUPPORT
+E13-0051,UNRELATED,3,T1 q 情绪非命题
+E13-0052,UNRELATED,2,T1 观点
+E13-0053,UNRELATED,3,T1 q 情绪非命题
+E13-0054,UNRELATED,2,q 元评论(speculation) 不同命题
+E13-0055,UNRELATED,2,T1 观点
+E13-0056,UNRELATED,2,T1 q 观点
+E13-0057,UNRELATED,3,T1 q 情绪非命题
+E13-0058,UNRELATED,3,T1 辱骂非命题
+E13-0059,UNRELATED,2,T1 q 情绪非命题
+E13-0060,UNRELATED,3,T1 提问
+E13-0061,UNRELATED,2,T1 观点/道别
+E13-0062,UNRELATED,2,T1 观点
+E13-0063,UNRELATED,2,T1 q 嘲讽非命题
+E13-0064,SUPPORT,3,A5 引用@MarkDiStef 归因→SUPPORT
+E13-0065,UNRELATED,3,T1 q 情绪非命题
+E13-0066,UNRELATED,2,T1 邀请/评论
+E13-0067,UNRELATED,2,T1 提问/观点
+E13-0068,UNRELATED,3,T1 q 无关观点
+E13-0069,UNRELATED,2,T1 宗教观点
+E13-0070,CONFLICT,2,§2.8 极性: q 明确否定金字塔被毁
+E13-0071,UNRELATED,2,T1 q 评论非命题
+E13-0072,UNRELATED,3,T1 反问
+E13-0073,UNRELATED,2,不同命题 FORCE_SHOTS↔FATALITY
+E13-0074,UNRELATED,2,T1 q 确认性评论非命题
+E13-0075,UNRELATED,3,T1 q 观点非命题
+E13-0076,UNRELATED,2,T1 q 评论非命题
+E13-0077,UNRELATED,3,T1 q 无内容仅@提及
+E13-0078,UNRELATED,3,T1 玩笑非命题
+E13-0079,UNRELATED,2,T1 q 表扬非命题
+E13-0080,CONFLICT,2,同槽位(增援召集时点)相斥: since day 1 vs 因纵火才召唤
+E13-0081,UNRELATED,3,T1 q 情绪非命题
+E13-0082,UNRELATED,3,T1 q 情绪非命题
+E13-0083,CONFLICT,2,§2.8 极性: q 否定 p 链接为直播
+E13-0084,UNRELATED,3,T1 情绪非命题
+E13-0085,UNRELATED,2,T1 提问
+E13-0086,UNRELATED,2,T1 提问/观点
+E13-0087,UNRELATED,2,T1 q 情绪+祈祷 无独立事实命题
+E13-0088,DERIVE,2,T1 例外: q 显式照抄 p 文本(RT转抄)
+E13-0089,UNRELATED,2,T1 观点
+E13-0090,UNRELATED,2,T2 祈使; 兜底
+E13-0091,UNRELATED,3,T1 非命题
+E13-0092,UNRELATED,2,T2 祈使
+E13-0093,UNRELATED,3,T1 提问/观点
+E13-0094,UNRELATED,2,T1 观点
+E13-0095,UNRELATED,3,T1 q 致谢非命题
+E13-0096,UNRELATED,2,T1 提问
+E13-0097,UNRELATED,2,T1 观点
+E13-0098,UNRELATED,2,不同命题(拦停原因↔连开十枪)
+E13-0099,UNRELATED,2,不同命题(拦停原因↔连开十枪)
+E13-0100,UNRELATED,2,不同命题(议会内枪响↔枪手毙命)
+E13-0101,UNRELATED,2,不同命题(士兵身亡↔三处枪击)
+E13-0102,UNRELATED,2,不同命题(士兵中弹/枪手在逃↔三处枪击)
+E13-0103,UNRELATED,2,不同命题(士兵身亡↔枪击处数更正)
+E13-0104,UNRELATED,2,不同命题(士兵身亡↔另一枪手中弹)
+E13-0105,SUPPORT,2,A2 模糊量词 multiple suspects vs 3 suspects 兼容
+E13-0106,UNRELATED,2,不同命题(悼念↔Rideau无人受伤)
+E13-0107,UNRELATED,2,不同命题(确认姓名↔第二枪手中弹)
+E13-0108,UNRELATED,2,不同命题(一名袭击者毙命↔三处枪击)
+E13-0109,UNRELATED,2,不同命题(中士英雄↔第二枪手中弹)
+E13-0110,UNRELATED,2,不同命题(士兵身亡↔Rideau误报更正)
+E13-0111,UNRELATED,2,不同命题(一名嫌疑人毙命↔第三处枪击)
+E13-0112,UNRELATED,2,不同命题(士兵身亡↔商场无枪击)
+E13-0113,UNRELATED,2,不同命题(市长声明↔协同袭击观感)
+E13-0114,UNRELATED,2,不同命题(确认姓名↔行动仍在进行)
+E13-0115,UNRELATED,2,不同命题(嫌疑人毙命↔第三处枪击)
+E13-0116,UNRELATED,3,不同命题(赛程取消↔枪击地点更正)
+E13-0117,UNRELATED,2,不同命题(悼念↔多名嫌疑人)
+E13-0118,SUPPORT,2,同命题(嫌疑人在逃/被搜捕) A2 量兼容(1 or more)
+E13-0119,UNRELATED,2,不同命题(士兵背景↔事发地点)
+E13-0120,UNRELATED,2,不同命题(现场视频↔枪击点数)
+E13-0121,SUPPORT,3,同命题(枪手毙命) q 新增在逃人数细节
+E13-0122,UNRELATED,2,不同命题(确认姓名↔枪手人数更正)
+E13-0123,UNRELATED,2,不同命题(议会封锁↔第三处枪击)
+E13-0124,UNRELATED,2,不同命题(伤亡数字↔至少三处枪击)
+E13-0125,UNRELATED,2,不同命题(悼念↔三处枪击确认)
+E13-0126,UNRELATED,2,不同命题(总理讲话↔三处枪击)
+E13-0127,UNRELATED,2,不同命题(枪手毙命↔事发地点分布)
+E13-0128,UNRELATED,2,不同命题(士兵身亡↔多名枪手搜捕)
+E13-0129,UNRELATED,2,不同命题(识别Vickers↔多名嫌疑人在逃)
+E13-0130,UNRELATED,2,不同命题(死亡人数↔身份传闻)
+E13-0131,UNRELATED,2,不同命题(下降率分析↔坠机+人数)
+E13-0132,UNRELATED,2,T1 q 观点非命题
+E13-0133,SUPPORT,2,同命题(坠机) q 新增机上人数细节
+E13-0134,UNRELATED,2,不同命题(无生还↔副驾驶蓄意)
+E13-0135,UNRELATED,2,不同命题(驾驶门↔舆论操作)
+E13-0136,UNRELATED,2,不同命题(下降轨迹↔遇难者国籍)
+E13-0137,UNRELATED,2,不同命题(下降轨迹↔最后通话)
+E13-0138,UNRELATED,2,不同命题(机长被锁外↔身份传闻)
+E13-0139,CONFLICT,2,A3-ⓑ 同计量对象(机上人数)总数互斥 150 vs 142+2+4=148
+E13-0140,SUPPORT,2,同命题(坠机) 不同细节(8分钟下降↔148人)
+E13-0141,UNRELATED,2,不同命题(机上人数↔无mayday)
+E13-0142,UNRELATED,2,不同命题(坠机↔身份传闻)
+E13-0143,UNRELATED,2,A3-ⓠ 计量对象不同(死者数↔乘客数)
+E13-0144,UNRELATED,2,不同命题(坠机雷达↔身份传闻)
+E13-0145,UNRELATED,2,不同命题(下降数据↔身份传闻)
+E13-0146,SUPPORT,2,同命题(坠机) 不同细节(锁外↔低高度mayday)
+E13-0147,UNRELATED,2,不同命题(坠机报告↔身份传闻)
+E13-0148,UNRELATED,2,不同命题(下降数据↔坠机+人数)
+E13-0149,UNRELATED,2,不同命题(下降用时↔通话内容)
+E13-0150,UNRELATED,2,不同命题(q 仅断言求救呼叫 未断言坠机)
+E13-0151,UNRELATED,2,不同身份事实(姓名↔皈依传闻) 兜底
+E13-0152,UNRELATED,2,不同命题(指认姓名↔身份传闻)
+E13-0153,SUPPORT,2,同命题(坠机) q 新增死亡预估细节
+E13-0154,UNRELATED,2,不同命题(指认姓名↔身份传闻)
+E13-0155,UNRELATED,2,不同命题(副驾驶姓名↔机上人数)
+E13-0156,UNRELATED,2,不同命题(指认姓名↔SOS信号)
+E13-0157,UNRELATED,2,不同命题(副驾驶年龄/蓄意↔求救时间)
+E13-0158,UNRELATED,2,不同命题(指认身份↔机上人数)
+E13-0159,UNRELATED,2,不同命题(机上人数↔身份传闻)
+E13-0160,UNRELATED,2,不同命题(劫持↔Charb语录)
+E13-0161,UNRELATED,2,不同命题(击毙↔现场照片)
+E13-0162,UNRELATED,2,T3 情形不同(犹太超市↔Dammartin)
+E13-0163,UNRELATED,2,不同命题(警察中弹↔劫持人质)
+E13-0164,UNRELATED,2,不同命题(劫持者关联↔Trocadero布警)
+E13-0165,UNRELATED,3,不同命题(嫌犯照片↔Banksy画作)
+E13-0166,UNRELATED,2,上位词缝 AMBIG_PERSON(victim)↔FATALITY 保守判U
+E13-0167,UNRELATED,2,T3 主体不同; A4-不同族 FATALITY↔INJURY
+E13-0168,UNRELATED,2,不同命题(死亡数↔Trocadero误报)
+E13-0169,UNRELATED,2,不同命题(坦克装甲车↔劫持人质)
+E13-0170,UNRELATED,2,不同命题(3名袭击者在逃↔警方车队/劫持)
+E13-0171,UNRELATED,3,不同命题(枪手进入办公室↔Banksy)
+E13-0172,UNRELATED,2,A4-不同族 FATALITY↔CUSTODY_HELD
+E13-0173,UNRELATED,2,不同命题(12死↔枪响+劫持)
+E13-0174,UNRELATED,3,兜底 不同命题(人质获释↔Banksy)
+E13-0175,UNRELATED,2,T3 主体不同(嫌疑人↔漫画家)
+E13-0176,UNRELATED,2,不同命题(女警遇害↔Trocadero疏散)
+E13-0177,UNRELATED,2,不同命题(警察身亡↔第四处枪击传闻)
+E13-0178,UNRELATED,2,不同命题(两起劫持关联↔交火伤亡)
+E13-0179,UNRELATED,2,不同命题(RPG武器↔劫持传闻)
+E13-0180,UNRELATED,2,A4-不同族 CUSTODY_EXITED↔CUSTODY_HELD
+E13-0181,SUPPORT,2,同命题(嫌疑人被围/对峙) q 新增劫持细节
+E13-0182,UNRELATED,2,不同命题(伤亡批评↔Banksy声援)
+E13-0183,UNRELATED,3,不同命题(警方搜捕现场↔画作作者)
+E13-0184,UNRELATED,2,不同命题(10死↔Trocadero误报)
+E13-0185,UNRELATED,2,不同命题(Kouachi毙命/人质获释↔Trocadero疏散)
+E13-0186,UNRELATED,3,不同命题(枪手毙命↔Banksy画作)
+E13-0187,UNRELATED,3,不同命题(人质离开超市↔Banksy画作)
+E13-0188,UNRELATED,2,不同命题(伤亡数字↔Banksy归属)
+E13-0189,UNRELATED,3,不同命题(10死↔画作作者)
+E13-0190,UNRELATED,2,T2 祈使/建议，q 无事实断言
+E13-0191,UNRELATED,2,T3 主体不同（人质扣押 vs 旗帜属性）
+E13-0192,UNRELATED,3,A4-不同族 CUSTODY_EXITED<->CUSTODY_HELD
+E13-0193,UNRELATED,2,T3 主体不同（枪手诉求 vs 扣押/人数）
+E13-0194,UNRELATED,3,T3 主体不同（两人逃离 vs 报纸特刊）
+E13-0195,DERIVE,3,A5 逐字>=90% 无新事实细节（仅链接不同）
+E13-0196,DERIVE,3,A5 逐字>=90% 无新事实细节
+E13-0197,SUPPORT,2,A5 细节改变（Co-Pilot->Pilot）
+E13-0198,DERIVE,2,A5 近逐字转写（省略 southern）
+E13-0199,DERIVE,3,A5 逐字相同（NEWS->PHOTO）
+E13-0200,SUPPORT,3,同命题 措辞不同（passenger plane/onboard）
+E13-0201,CONFLICT,3,A3-ⓑ 总数vs总数 11<->10 dead
+E13-0202,SUPPORT,3,同命题 转述（q 省略 via 来源）
+E13-0203,SUPPORT,3,同命题 转述
+E13-0204,SUPPORT,3,同命题 转述
+E13-0205,SUPPORT,3,同命题 转述
+E13-0206,SUPPORT,3,同命题 转述
+E13-0207,SUPPORT,3,A5 q 新增 Hero of Islamic State 细节
+E13-0208,SUPPORT,3,A5 q 新增 black box 来源细节
+E13-0209,SUPPORT,3,A5 q 新增 148 on board
+E13-0210,DERIVE,2,A5 事实核心逐字复制；新增仅修辞性问句
+E13-0211,SUPPORT,3,A3-ⓒ 同值兼容（at least 5 vs 5）
+E13-0212,SUPPORT,3,同命题 转述
+E13-0213,SUPPORT,3,A5 q 新增 flightradar 急降细节
+E13-0214,SUPPORT,3,同命题 转述（10 dead）
+E13-0215,SUPPORT,3,A5 q 新增 4 名警员细节
+E13-0216,SUPPORT,2,A3-ⓠ 均计人数；范围不同（148 on board vs 142 passengers），核心命题同
+E13-0217,SUPPORT,2,A4 不适用（q 无数值）；q 新增士兵死讯细节
+E13-0218,SUPPORT,3,同命题 转述
+E13-0219,SUPPORT,3,同命题（5 escaped）；q 新增尚有人质在内
+E13-0220,SUPPORT,2,A5 细节增改（pilot<->co-pilot；via 归因）
+E13-0221,SUPPORT,3,同命题（Cirillo 阵亡身份确认）
+E13-0222,SUPPORT,3,同命题（uniforms 指控事件）
+E13-0223,SUPPORT,3,同命题（Zehaf-Bibeau 为枪手）
+E13-0224,SUPPORT,3,同命题 转述（144+6）
+E13-0225,SUPPORT,3,同命题 转述；双方均引 @NYTimes
+E13-0226,CONFLICT,3,A3-ⓑ 总数vs总数 142<->148 乘客
+E13-0227,CONFLICT,3,A3-ⓑ 总数vs总数 11<->10 dead
+E13-0228,SUPPORT,3,A5 q 新增 148 on board
+E13-0229,UNRELATED,1,A4-同族 CUSTODY_EXITED；递增计数 two more<->another 时点不明，非同一完整计数，兜底
+E13-0230,SUPPORT,3,同命题；q 新增 innocent 修饰
+E13-0231,SUPPORT,2,T1 混合语力：忽略悼念，事实从句（Cirillo 阵亡）匹配
+E13-0232,SUPPORT,3,A5 q 新增 recent 细节
+E13-0233,SUPPORT,3,同核心（士兵死/袭击者被击毙）
+E13-0234,SUPPORT,3,A5 q 新增 German officials confirm
+E13-0235,SUPPORT,3,同命题（纪念碑士兵中枪）；q 省略议会枪击
+E13-0236,SUPPORT,3,A5 q 新增 black box 来源细节
+E13-0237,SUPPORT,3,同命题（Brown 涉抢劫）
+E13-0238,SUPPORT,3,A5 q 新增 150人/德国籍/蓄意 细节
+E13-0239,SUPPORT,3,同命题（比赛因枪击延期）
+E13-0240,SUPPORT,3,同命题（扣押+旗帜）
+E13-0241,SUPPORT,3,同核心（坠机）；q 更弱（reports）
+E13-0242,SUPPORT,2,同事件（发布会），q 为进行时弱版本
+E13-0243,SUPPORT,3,A3-ⓒ 同值 at least 10
+E13-0244,SUPPORT,2,T1 混合语力：忽略 memo 修辞，事实核心相同
+E13-0245,UNRELATED,2,pred-out-of-table: located；located<->killed 非同一命题
+E13-0246,SUPPORT,3,同命题（uniforms 指控事件）
+E13-0247,SUPPORT,3,A5 q 新增 砸门细节
+E13-0248,SUPPORT,3,A5 q 新增 2009/black man 细节
+E13-0249,SUPPORT,2,A3-ⓐ② up to 40（模糊上界）vs 13（具体）
+E13-0250,SUPPORT,3,A3-ⓒ 同值 12 dead
+E13-0251,UNRELATED,3,A4-不同族 CUSTODY_HELD<->CUSTODY_EXITED
+E13-0252,SUPPORT,3,同命题（士兵不治）
+E13-0253,SUPPORT,3,A3-ⓒ 同值 148 on board
+E13-0254,SUPPORT,2,A4-同族 CUSTODY_EXITED；q 无数值弱版本
+E13-0255,SUPPORT,3,A5 q 新增 reservist/Hamilton 细节
+E13-0256,SUPPORT,3,同命题（A320 坠机报道）
+E13-0257,SUPPORT,3,同命题；p 新增 4 名警员细节
+E13-0258,UNRELATED,2,T1 q 无事实命题（情绪/祈祷）
+E13-0259,SUPPORT,3,A5 q 新增航线/142乘客/6机组 细节
+E13-0260,SUPPORT,2,同核心（嫌疑人未落网）
+E13-0261,SUPPORT,2,同核心（扣押+旗帜）；p 细节更多
+E13-0262,SUPPORT,3,同命题（Cirillo 阵亡）
+E13-0263,SUPPORT,3,同命题（坠机确认）；来源不同
+E13-0264,SUPPORT,3,同命题（Wilson 不知情）
+E13-0265,SUPPORT,3,A5 q 新增 24岁/纪念碑细节
+E13-0266,SUPPORT,3,A3-ⓒ 同值 at least 2；双方均含 AFP
+E13-0267,SUPPORT,3,A3-ⓒ 3 与 at least 3 兼容
+E13-0268,SUPPORT,3,A3-ⓒ 同值 3 处地点
+E13-0269,SUPPORT,3,同命题（Cirillo 阵亡）
+E13-0270,CONFLICT,2,A3-ⓑ 枪手数 2<->1（多名 vs 一名）
+E13-0271,SUPPORT,2,A3-ⓐ group vs this hostage（具指子项）
+E13-0272,SUPPORT,3,同核心命题；p 新增旗帜辨析
+E13-0273,SUPPORT,2,同核心（Wilson 杀 Brown）；p 含 4小时细节
+E13-0274,UNRELATED,3,A4-不同族 CUSTODY_HELD<->CUSTODY_EXITED
+E13-0275,CONFLICT,2,极性：police said was<->wasn't robbery suspect
+E13-0276,SUPPORT,3,同命题（Brown 涉抢劫）
+E13-0277,SUPPORT,3,同命题（Cirillo 身份确认）
+E13-0278,CONFLICT,3,A3-ⓑ 总数vs总数 11<->12 dead
+E13-0279,SUPPORT,1,A4-同族 CUSTODY_EXITED；p 弱量（woman）vs q 3 人，兼容
+E13-0280,SUPPORT,2,A4-同族 CUSTODY_EXITED；q 新增 3 人计数
+E13-0281,UNRELATED,2,T3 主体不同（2人中弹 vs 对峙照片）
+E13-0282,UNRELATED,2,A4-不同族 CUSTODY_HELD<->CUSTODY_EXITED/POLICE_OPERATION
+E13-0283,SUPPORT,3,同核心（武装者劫持人质）；p 新增警方包围
+E13-0284,SUPPORT,2,同事件（发布会）
+E13-0285,SUPPORT,2,同向多重叠细节（枪击/人质/追捕）
+E13-0286,SUPPORT,3,A3-ⓒ 3 与 at least 3 兼容
+E13-0287,SUPPORT,3,同命题（纪念碑士兵中枪）
+E13-0288,UNRELATED,2,A3-ⓠ 计量对象不同（3起事件 vs 3声枪响）
+E13-0289,SUPPORT,2,同命题（犹太超市劫持）
+E13-0290,SUPPORT,1,T1 修辞性问句含事实核心，与 p 相同
+E13-0291,SUPPORT,3,A3-ⓒ 同值 5（脱离总数）
+E13-0292,UNRELATED,3,T1 q 无事实命题（情绪宣泄）
+E13-0293,UNRELATED,3,不同命题（封锁 vs 官员言论）
+E13-0294,UNRELATED,2,T1 q 纯提问非命题
+E13-0295,UNRELATED,3,不同命题（殴打指控 vs 枪杀评论）
+E13-0296,UNRELATED,3,不同命题（官员不知情 vs 报告发布）
+E13-0297,SUPPORT,2,同核心（非武装青少年被警击毙）；p 新增 10 枪细节
+E13-0298,UNRELATED,3,不同命题（Chambers 中枪 vs 官员不知情）
+E13-0299,UNRELATED,2,T1 q 纯提问非命题
+E13-0300,UNRELATED,1,T1 q 讽刺转写无独立事实命题
+E13-0301,UNRELATED,2,不同命题（不知情抢劫 vs 拦停理由）
+E13-0302,SUPPORT,2,同核心（Brown 非因抢劫被拦停）
+E13-0303,UNRELATED,3,不同命题（uniforms 指控 vs 封锁）
+E13-0304,UNRELATED,2,不同命题（被杀断言 vs 接近警察说法）
+E13-0305,UNRELATED,3,T1 q 无事实命题（情绪）
+E13-0306,UNRELATED,2,T1 q 纯提问
+E13-0307,UNRELATED,3,T1 p 无事实命题（口号+链接）
+E13-0308,UNRELATED,3,不同命题（drive-by 受害者 vs Anonymous 音频）
+E13-0309,UNRELATED,3,不同命题（抢劫嫌疑 vs 2009 指控）
+E13-0310,UNRELATED,1,T1 q 评论性；与 p 讽刺无共同事实命题
+E13-0311,UNRELATED,2,不同命题（Brown 系劫匪 vs 警察推搡媒体）
+E13-0312,UNRELATED,3,不同命题（官员不知情 vs uniforms 指控）
+E13-0313,UNRELATED,2,不同命题（警方叙事 vs 目击者录像）
+E13-0314,UNRELATED,2,不同命题（发布会观感 vs 中10枪）
+E13-0315,UNRELATED,1,needs-world-knowledge：受伤女性与 mya 需外部知识关联
+E13-0316,UNRELATED,2,T1 p 为 RT 碎片；与 robbery 信息发布不同命题
+E13-0317,UNRELATED,3,不同命题（抢劫视频 vs uniforms 指控）
+E13-0318,UNRELATED,2,不同命题（视频动机 vs RT 碎片）
+E13-0319,UNRELATED,3,不同命题（Chambers 中枪 vs 抢劫信息发布）
+E13-0320,UNRELATED,3,不同命题（经验之谈 vs uniforms 指控）
+E13-0321,UNRELATED,3,不同命题（封锁 vs character assassination 评论）
+E13-0322,UNRELATED,2,T3/不同命题（枪击现场 vs 市政悼念）
+E13-0323,UNRELATED,3,T3 主体不同（Cirillo vs Vickers）
+E13-0324,UNRELATED,2,不同命题（身份指认 vs 嫌疑人在逃）
+E13-0325,UNRELATED,2,不同命题（总理讲话 vs RCMP 发布会）
+E13-0326,UNRELATED,2,T1 混合语力；事实核心不同（枪手中枪 vs 士兵被害）
+E13-0327,UNRELATED,2,T1 q 无事实命题（纪念性内容）
+E13-0328,UNRELATED,3,不同命题（多嫌疑人 vs 总理讲话）
+E13-0329,UNRELATED,2,p 断言'有报道未证实'；q 断言在逃，槽位不同
+E13-0330,UNRELATED,2,T1 q 无事实命题（慰问）
+E13-0331,UNRELATED,3,不同命题（搜捕多嫌疑人 vs 发布会安排）
+E13-0332,UNRELATED,3,T3 主体不同（Zehaf-Bibeau vs Vickers）
+E13-0333,UNRELATED,2,A3-ⓠ 计量对象不同（3起枪击 vs 3名患者）
+E13-0334,CONFLICT,2,A3-ⓑ 枪手数 1<->two or three
+E13-0335,UNRELATED,3,不同命题（患者出院 vs NHL 延期）
+E13-0336,UNRELATED,1,不同命题（搜捕 vs 议会内枪声报告）
+E13-0337,SUPPORT,3,同命题（纪念碑士兵中枪）
+E13-0338,UNRELATED,1,不同时点状态（在逃 vs 已死），无同时点真值约束
+E13-0339,UNRELATED,3,不同命题（总理讲话 vs 士兵死讯）
+E13-0340,UNRELATED,3,不同命题（多嫌疑人 vs 3 处地点）
+E13-0341,UNRELATED,2,不同命题（死亡通报 vs 议会枪战视频）
+E13-0342,UNRELATED,3,不同命题（嫌疑人在逃 vs 早就知晓威胁）
+E13-0343,UNRELATED,3,不同命题（士兵死讯 vs 总理外交通话）
+E13-0344,UNRELATED,2,不同命题（三处地点 vs 嫌疑人在逃）
+E13-0345,UNRELATED,2,不同命题（商场内无枪击 vs 闻枪声）
+E13-0346,SUPPORT,3,同核心（士兵中枪/议会遭袭/嫌疑人）
+E13-0347,SUPPORT,2,同核心（纪念碑士兵中枪）；q 为弱版本无死讯
+E13-0348,UNRELATED,3,不同命题（悼念 vs 枪击地点地图）
+E13-0349,UNRELATED,2,不同命题（走廊枪声视频 vs 枪手被击毙）
+E13-0350,UNRELATED,1,不同命题（2名伤者送医 vs 议会山枪声）
+E13-0351,UNRELATED,3,T3 主体不同（嫌疑人身份 vs 士兵死讯）
+E13-0352,UNRELATED,3,不同命题（下降率 vs 无幸存者）
+E13-0353,UNRELATED,2,不同槽位（机上148人 vs 国籍细分），非同一命题
+E13-0354,UNRELATED,3,不同命题（皈依传闻 vs 官宣姓名）
+E13-0355,UNRELATED,2,不同命题（副驾驶身份 vs 死亡人数150）
+E13-0356,UNRELATED,3,不同命题（机上人数 vs 皈依传闻）
+E13-0357,UNRELATED,2,不同命题（蓄意坠机 vs 舱门防弹）
+E13-0358,UNRELATED,2,不同命题（副驾驶身份 vs 坠机确认）
+E13-0359,UNRELATED,2,T1 p 假设性评论非事实命题
+E13-0360,SUPPORT,2,同核心（坠机前紧急信号）；q 新增 10:47/5000英尺
+E13-0361,UNRELATED,2,不同命题（航线 vs 机上人员构成）
+E13-0362,UNRELATED,2,不同命题（事故确认 vs 求救通话内容）
+E13-0363,UNRELATED,2,不同命题（恐无生还 vs 紧急情况宣告）
+E13-0364,UNRELATED,2,T1 q 假设性评论非命题
+E13-0365,SUPPORT,3,同核心（坠机确认）；q 新增无幸存者/求救信号
+E13-0366,UNRELATED,2,不同命题（求救通话 vs 机上人数）
+E13-0367,UNRELATED,2,T1 p 假设性评论非命题
+E13-0368,SUPPORT,3,A3-ⓒ 同值 148 on board
+E13-0369,UNRELATED,2,不同命题（求救阶段澄清 vs 148恐遇难）
+E13-0370,SUPPORT,2,A3-ⓐ③ 具指子项（16学童+2教师 属 142 之子集）
+E13-0371,UNRELATED,2,不同命题（坠机 vs 求救信号）
+E13-0372,UNRELATED,2,T1 p 假设性评论非命题
+E13-0373,UNRELATED,3,不同命题（皈依传闻 vs 求救通话）
+E13-0374,UNRELATED,2,T1 q 观点评论非事实命题
+E13-0375,UNRELATED,3,不同命题（皈依传闻 vs 坠机确认）
+E13-0376,UNRELATED,3,不同命题（舱门防弹 vs 遇难者构成）
+E13-0377,UNRELATED,3,不同命题（坠机确认 vs 飞行员被锁外）
+E13-0378,UNRELATED,2,不同命题（被锁舱外 vs 10:47 紧急报告）
+E13-0379,UNRELATED,2,不同命题（下降率正常 vs 载客148人）；④/⑤兜底
+E13-0380,SUPPORT,2,同事件核心命题（坠机）+q新增细节（求救信号）；④A5
+E13-0381,UNRELATED,2,不同命题（生还前景 vs 飞行数据）；⑤兜底
+E13-0382,UNRELATED,2,T3 不同主体（Banksy画作 vs 超市枪击劫持）
+E13-0383,UNRELATED,2,不同命题（嫌疑人被围 vs 呐喊引语）；⑤兜底
+E13-0384,UNRELATED,2,T3 不同情形（超市劫持者死亡 vs 街头装甲车）
+E13-0385,SUPPORT,2,FORCE_SHOTS 同情形（嫌疑人开火交火）；④SUPPORT
+E13-0386,UNRELATED,2,不同命题（Banksy辟谣 vs 枪手在逃12死）；⑤兜底
+E13-0387,UNRELATED,2,不同命题（呐喊引语 vs 4漫画家死亡）；A4不同族
+E13-0388,UNRELATED,2,不同命题（商铺关闭令 vs 小镇枪击劫持）；⑤兜底
+E13-0389,DERIVE,3,近似逐字+RT @Beltrew 引用痕迹；A5
+E13-0390,DERIVE,3,同文复制（仅URL不同）
+E13-0391,DERIVE,3,同文复制，仅句首收件人@不同（A5剥除后逐字同）；T1例外
+E13-0392,DERIVE,3,同文复制，仅句首收件人@不同；T1例外
+E13-0393,DERIVE,3,同文复制，仅收件人@与cop/cops差异
+E13-0394,DERIVE,3,同文复制（仅URL不同）
+E13-0395,DERIVE,3,同文标题，q未新增细节（p侧via@在先）
+E13-0396,DERIVE,3,同文复制，仅收件人@不同
+E13-0397,DERIVE,3,同文复制，仅收件人@不同
+E13-0398,DERIVE,3,同文复制（仅URL不同）
+E13-0399,SUPPORT,3,同命题但q新增 expert says 归因；A5
+E13-0400,DERIVE,3,同文复制（仅末尾多表情）
+E13-0401,DERIVE,3,同文复制，仅收件人@不同
+E13-0402,DERIVE,3,同文复制，仅收件人@不同
+E13-0403,DERIVE,3,q含RT @smh 引用痕迹，同文
+E13-0404,DERIVE,3,同文复制（仅URL不同）
+E13-0405,DERIVE,3,同文复制，仅收件人@不同
+E13-0406,DERIVE,3,同文复制，仅收件人@不同
+E13-0407,DERIVE,3,同文复制（仅URL不同）
+E13-0408,DERIVE,3,双侧RT @AFPphoto 同文（仅URL不同）
+E13-0409,DERIVE,3,同文标题复制
+E13-0410,SUPPORT,2,近似逐字但q新增归因(@liztilley84)；A5
+E13-0411,DERIVE,3,近似逐字（RT @guardian 版本）
+E13-0412,DERIVE,3,同文复制，仅收件人@不同；T1例外
+E13-0413,DERIVE,3,同文复制，仅收件人@不同
+E13-0414,DERIVE,3,同文复制，仅收件人@不同
+E13-0415,SUPPORT,2,高覆盖但q新增 Stop build terrorism & #Isis's fame；A5
+E13-0416,DERIVE,3,同文复制，仅收件人@不同
+E13-0417,DERIVE,3,同文复制（仅URL不同）
+E13-0418,DERIVE,3,同文复制，仅收件人@不同
+E13-0419,DERIVE,3,同文复制（祈祷语），仅收件人@不同；T1例外
+E13-0420,DERIVE,3,同文复制，仅收件人@不同
+E13-0421,DERIVE,3,同文复制，仅收件人@不同
+E13-0422,DERIVE,3,同文复制
+E13-0423,DERIVE,3,同文复制（仅URL与#Toronto差异）
+E13-0424,DERIVE,3,同文复制，仅收件人@不同
+E13-0425,DERIVE,3,RT @YourAnonGlobal 引用痕迹，同文
+E13-0426,DERIVE,3,同文复制（仅URL不同）
+E13-0427,DERIVE,2,q为@7NewsBrisbane同文引用+评论 see this
+E13-0428,DERIVE,3,同文复制（仅URL不同）
+E13-0429,DERIVE,3,同文复制，仅收件人@不同
+E13-0430,DERIVE,3,同文复制，仅收件人@不同
+E13-0431,DERIVE,3,同文复制（仅URL不同）
+E13-0432,DERIVE,3,同文复制，仅收件人@不同
+E13-0433,SUPPORT,2,同文标题但q新增 #ПутинУмер 细节；A5
+E13-0434,DERIVE,3,同文复制，仅收件人@不同
+E13-0435,DERIVE,3,q为@BlueJays同文引用
+E13-0436,DERIVE,2,同文，q尾部多 returned to @（非事实细节）
+E13-0437,DERIVE,3,同文复制，仅收件人@不同
+E13-0438,DERIVE,3,同文复制（q去hashtag）
+E13-0439,DERIVE,3,同文复制，仅收件人@不同
+E13-0440,DERIVE,3,同文复制（q加收件人@guardiannews）
+E13-0441,DERIVE,2,双侧引同一@guardian推文（q加评论Incrível）
+E13-0442,DERIVE,3,同文复制（仅URL不同）
+E13-0443,DERIVE,3,同文复制，仅收件人@不同
+E13-0444,DERIVE,3,同文复制（USjrno/US jrno微差）
+E13-0445,DERIVE,2,RT引用同文（says @simonjenkins4 措辞微差）
+E13-0446,DERIVE,2,q为@7NewsBrisbane同文引用+评论
+E13-0447,DERIVE,3,同文复制，仅收件人@不同
+E13-0448,DERIVE,3,同文复制（q多一个收件人@）
+E13-0449,DERIVE,3,同文复制（祝愿语），仅收件人@不同；T1例外
+E13-0450,DERIVE,3,q为@liztilley84同文引用
+E13-0451,DERIVE,3,同文复制（q去#RedNationRising）
+E13-0452,DERIVE,3,同文复制，仅收件人@不同
+E13-0453,DERIVE,3,同文复制，仅收件人@不同
+E13-0454,DERIVE,3,同文复制（含乱序数字），仅收件人@不同
+E13-0455,DERIVE,3,同文复制（仅URL不同）
+E13-0456,DERIVE,3,同文复制，仅收件人@不同
+E13-0457,DERIVE,3,同文复制（q去hashtag）
+E13-0458,SUPPORT,3,A5 q新增 via @theblaze 归因⇒SUPPORT
+E13-0459,DERIVE,3,同文复制，仅收件人@不同
+E13-0460,DERIVE,3,同文复制（仅去引号）
+E13-0461,DERIVE,2,同文引用+评论 Here here RT
+E13-0462,DERIVE,3,同文复制（q加引号与hashtag）
+E13-0463,DERIVE,2,p为引文+评论，q为同文标题原样
+E13-0464,DERIVE,2,q为@guardian同文引用+评论
+E13-0465,DERIVE,3,同文复制，仅收件人@不同
+E13-0466,DERIVE,3,同文复制，仅收件人@不同
+E13-0467,DERIVE,3,同文复制，仅收件人@不同
+E13-0468,DERIVE,3,同文复制（祈祷语），仅收件人@不同；T1例外
+E13-0469,DERIVE,3,同文复制（大小写微差），收件人@不同
+E13-0470,DERIVE,3,同文复制（Aaaaaand拼写微差）
+E13-0471,DERIVE,3,同文复制，仅收件人@不同
+E13-0472,DERIVE,2,同文，q新增#JusticeForMikeBrown标签
+E13-0473,DERIVE,3,同文复制（仅URL不同）
+E13-0474,DERIVE,3,同文模板复制，仅收件人@不同
+E13-0475,DERIVE,3,q为@airlivenet同文引用+评论So sad
+E13-0476,DERIVE,3,同文复制，仅收件人@不同
+E13-0477,DERIVE,3,同文复制（标点微差），仅收件人@不同
+E13-0478,DERIVE,3,同文复制，仅收件人@不同
+E13-0479,DERIVE,3,同文复制，仅收件人@不同
+E13-0480,DERIVE,3,同文复制（should be/shouldbe微差）
+E13-0481,DERIVE,3,同文复制，仅收件人@不同
+E13-0482,DERIVE,2,q为@Copwatch同文引用
+E13-0483,DERIVE,3,同文复制，仅收件人@不同
+E13-0484,DERIVE,3,同文复制（q加收件人@）
+E13-0485,DERIVE,3,同文（p引@RedNationRising，q为正文）
+E13-0486,UNRELATED,3,A3-ⓠ 计量对象不同（2起事件 vs 5名人质）
+E13-0487,UNRELATED,3,A3-① 部分标记指向人质总体，非p所量枪击死者；不同事件
+E13-0488,UNRELATED,2,A4-不同族 CUSTODY_HELD(50)↔CUSTODY_EXITED(5)
+E13-0489,UNRELATED,2,不同主体（被击毙枪手 vs 另1名枪手），无真值约束
+E13-0490,CONFLICT,3,A4-同族CUSTODY_HELD；A3-ⓑ 同一超市人质总数5↔6
+E13-0491,SUPPORT,2,PERPETRATOR 同向更强（身份具体化）；A4表外→④
+E13-0492,UNRELATED,2,不同命题（13人被扣押 vs 现场动态观察）；⑤兜底
+E13-0493,UNRELATED,2,q诉诸视频投诉，与p命题（12死）无真值约束
+E13-0494,CONFLICT,3,A4-同族FATALITY；A3-ⓑ 11↔12 dead
+E13-0495,UNRELATED,2,T1 p为修辞观点，非事实命题
+E13-0496,UNRELATED,2,T1/T2 q为反问/假设，非命题
+E13-0497,SUPPORT,1,A3-ⓐ② q下界≥5人质 vs p具指1名人质（女）；场所未明
+E13-0498,UNRELATED,2,A4-不同族 FATALITY(12)↔PERPETRATOR_EXISTS
+E13-0499,SUPPORT,3,A3-ⓐ③ 12死总量 vs 4漫画家具指子项；FATALITY同族
+E13-0500,UNRELATED,3,A3-ⓠ 计量对象不同（1名人质 vs 2起事件）
+E13-0501,CONFLICT,2,A4-同族FATALITY；A3-ⓑ 同一枪击总量10↔11
+E13-0502,CONFLICT,3,§2.8 极性：p断言2死 vs q明确否定有死者确认
+E13-0503,UNRELATED,3,A3-ⓠ 计量对象不同（1名人质 vs 2起事件）
+E13-0504,CONFLICT,3,A4-同族FATALITY；A3-ⓑ 10↔11 dead
+E13-0505,UNRELATED,2,q为观点评论，无匹配数值命题；⑤兜底
+E13-0506,UNRELATED,2,A4-不同族 CUSTODY_HELD(≤50)↔CUSTODY_EXITED(3)
+E13-0507,UNRELATED,1,T1 q以情绪/祈祷为主，无匹配命题
+E13-0508,UNRELATED,3,A3-ⓠ 计量对象不同（5名人质 vs 2起事件）
+E13-0509,UNRELATED,2,A4-不同族 CUSTODY_EXITED(2)↔CUSTODY_HELD/PERPETRATOR_IDENTITY
+E13-0510,UNRELATED,2,T1 q纯提问（13 killed?），非命题
+E13-0511,UNRELATED,2,A4-不同族 CUSTODY_HELD(13)↔CUSTODY_EXITED(3)
+E13-0512,CONFLICT,2,A4-同族FATALITY；A3-ⓑ 10↔11
+E13-0513,SUPPORT,3,A3-ⓐ③ 12死总量 vs 4漫画家具指子项
+E13-0514,UNRELATED,1,T1/T2 p反问假设，非命题
+E13-0515,CONFLICT,2,A4-同族FATALITY；A3-ⓑ 10↔12
+E13-0516,UNRELATED,2,q为观点评论，无匹配命题；⑤兜底
+E13-0517,CONFLICT,2,A4-同族CUSTODY_HELD；A3-ⓑ 13↔50
+E13-0518,UNRELATED,3,T3 不同主体/事件（Montgomery County枪击 vs Sydney围困）
+E13-0519,UNRELATED,2,q为观点评论，无匹配命题；⑤兜底
+E13-0520,SUPPORT,3,A3-ⓐ③ 12死总量 vs 4漫画家具指子项
+E13-0521,SUPPORT,3,A3-ⓐ② at least 11(下界) vs 4漫画家具指子项
+E13-0522,SUPPORT,2,A4-同族FATALITY；A3-ⓒ at least 2 与 2 dead（人质+枪手）兼容
+E13-0523,UNRELATED,2,T3 主体不同（通用统计 vs 异地2警察死亡）
+E13-0524,UNRELATED,2,T3 不同情形（Hebdo总部枪击 vs 人质事件2死）
+E13-0525,UNRELATED,2,T3 不同情形（Hebdo袭击4死 vs Vincennes人质事件≥2死）
+E13-0526,UNRELATED,2,p为宏观统计反问，无匹配命题；⑤兜底
+E13-0527,UNRELATED,2,双方评论，无对应事实命题；⑤兜底
+E13-0528,UNRELATED,2,A4-不同族 CUSTODY_HELD(13)↔CUSTODY_EXITED(2)
+E13-0529,SUPPORT,3,A3-ⓐ③ 10死总量 vs 4漫画家具指子项
+E13-0530,UNRELATED,2,q为观点评论，无匹配命题；⑤兜底
+E13-0531,UNRELATED,2,不同命题（历史类比 vs 现场狙击评论）；⑤兜底
+E13-0532,SUPPORT,3,A3-ⓐ③ 10死总量 vs 2漫画家具指子项
+E13-0533,UNRELATED,2,不同命题（11死 vs 伊朗/拉什迪议题）；⑤兜底
+E13-0534,UNRELATED,2,A4-不同族 CUSTODY_HELD(≤20)↔FORCE_SHOTS/CUSTODY_EXITED
+E13-0535,SUPPORT,2,A3-ⓐ② at least 1 shooter(下界) vs 2 shooters 兼容；PERPETRATOR同族
+E13-0536,SUPPORT,3,A3-ⓐ① these two 指向p所量5名逃离者总体；CUSTODY_EXITED同族
+E13-0537,CONFLICT,3,A4-同族CUSTODY_EXITED；A3-ⓑ 逃离总数5↔6
+E13-0538,UNRELATED,2,T1/T2 q假设性（if intel...），非命题
+E13-0539,UNRELATED,2,A4-不同族 CUSTODY_HELD(40-50)↔FORCE_SHOTS/CUSTODY_EXITED
+E13-0540,UNRELATED,2,不同命题（5人已离开 vs 2人质传话要求）；⑤兜底
+E13-0541,UNRELATED,2,A4-不同族 CUSTODY_HELD(>12)↔CUSTODY_EXITED(6)
+E13-0542,UNRELATED,2,A4-不同族 CUSTODY_HELD(≥13)↔CUSTODY_EXITED(5)
+E13-0543,UNRELATED,2,A4-缝 FATALITY(1枪手)↔AMBIG_PERSON(3 victims) 保守取值
+E13-0544,UNRELATED,3,T3 主体不同（美国枪击死亡 vs Sydney现场）
+E13-0545,SUPPORT,2,CUSTODY_EXITED同族；A3-ⓐ 2 more 为增量，与p的3人累计兼容
+E13-0546,UNRELATED,2,T1 p反问非命题
+E13-0547,UNRELATED,2,T1 q祝愿非命题
+E13-0548,UNRELATED,2,A4-不同族 CUSTODY_EXITED(5)↔CUSTODY_HELD(dozens)
+E13-0549,UNRELATED,2,q为修辞性他题反问，无匹配命题；⑤兜底
+E13-0550,UNRELATED,2,T1 p为提问无数值命题
+E13-0551,UNRELATED,2,T1 p反问非命题
+E13-0552,UNRELATED,2,T1 双方修辞性非命题；⑤兜底
+E13-0553,UNRELATED,2,q悼念评论，无匹配数值命题；⑤兜底
+E13-0554,SUPPORT,2,A2 模糊量词 multiple gunmen vs at least 2-3 shooters 同向兼容
+E13-0555,SUPPORT,2,A2 模糊量词 multiple gunmen ↔ more than one shooter 同向兼容
+E13-0556,UNRELATED,2,T1 q反问非命题
+E13-0557,UNRELATED,2,双方无事件事实命题（假设统计/反问）；⑤兜底
+E13-0558,UNRELATED,2,不同命题（警方未确认 vs 寻找3嫌疑人）；⑤兜底
+E13-0559,SUPPORT,2,A2 模糊量词 a few gunmen ↔ more than one shooter 同向
+E13-0560,CONFLICT,2,A3-ⓑ multiple(≥2)↔one gunman 互斥；CONFLICT不判谁对
+E13-0561,UNRELATED,1,双方命题不对应事件事实；⑤兜底
+E13-0562,UNRELATED,2,T1 q反问非命题
+E13-0563,SUPPORT,2,A2 模糊量词 multiple gunmen vs two or three shooters 兼容
+E13-0564,SUPPORT,2,A2 MULTIPLE SHOOTERS vs three suspected gunmen 同向兼容
+E13-0565,UNRELATED,2,q悼念评论，无匹配命题；⑤兜底
+E13-0566,UNRELATED,2,T1 q反问非命题
+E13-0567,UNRELATED,2,T1 双方修辞性非命题；⑤兜底
+E13-0568,UNRELATED,3,T1 非命题（评论/调侃）
+E13-0569,SUPPORT,2,A4-同族 PERPETRATOR_EXISTS；A3 vague↔vague 相容(A2)
+E13-0570,SUPPORT,2,A4-同族 PERPETRATOR_EXISTS；A3 vague(multiple)↔3 相容(A2)
+E13-0571,SUPPORT,2,A4-同族 PERPETRATOR_EXISTS；A3 vague↔3 相容(A2)
+E13-0572,UNRELATED,3,T1 非命题（纯提问）
+E13-0573,UNRELATED,3,T1 非命题（评论）
+E13-0574,UNRELATED,2,A4-不同族 PERPETRATOR_EXISTS↔PERPETRATOR_IDENTITY
+E13-0575,UNRELATED,2,A4-不同族；p 为推测(decoy/jihad)，非同一命题
+E13-0576,UNRELATED,3,T3 主体不同（士兵伤亡 vs 加拿大反枪情绪）
+E13-0577,SUPPORT,2,A4-同族 PERPETRATOR_EXISTS；A3 vague(many)↔3 相容(A2)
+E13-0578,SUPPORT,2,A4-同族 PERPETRATOR_EXISTS；A3 vague↔vague 相容
+E13-0579,SUPPORT,3,A4-同族 PERPETRATOR_EXISTS
+E13-0580,UNRELATED,2,A4-不同族；q 为推测(decoy/jihad)，非同一命题
+E13-0581,UNRELATED,2,T1 非命题（修辞/质问）
+E13-0582,UNRELATED,2,T2 推断隐含（猜测性提问）
+E13-0583,UNRELATED,2,T3 主体不同（Charlie Hebdo vs 犹太超市）
+E13-0584,CONFLICT,3,A3-ⓑ 总数10↔12
+E13-0585,UNRELATED,3,T1 非命题（议论）
+E13-0586,UNRELATED,3,T1 非命题（议论/祈祷）
+E13-0587,UNRELATED,2,A3-ⓠ 计量对象不同 人数(5 hostages)↔起数(2 hostage situations)
+E13-0588,SUPPORT,1,A4-同族 PERPETRATOR_EXISTS；数量模糊相容(A2)
+E13-0589,SUPPORT,2,A3-ⓐ 部分(2 police)⊂总数(12 killed)
+E13-0590,UNRELATED,3,A4-不同族 CUSTODY_HELD↔CUSTODY_EXITED
+E13-0591,SUPPORT,2,A4-同族 PERPETRATOR_EXISTS；1 killed⊂3 suspects 相容
+E13-0592,SUPPORT,1,A4-同族 CUSTODY_EXITED；数量2↔5more 相容(增量)
+E13-0593,UNRELATED,2,T3 主体不同（Charlie Hebdo vs east Paris 人质事件）
+E13-0594,CONFLICT,2,A3-ⓑ 总数11(=9+2)↔12
+E13-0595,UNRELATED,2,T3 主体不同/信息不足
+E13-0596,UNRELATED,1,T3 主体不同（不同人质事件 1↔5）
+E13-0597,UNRELATED,1,A4-不同族 PERPETRATOR_EXISTS↔FATALITY
+E13-0598,UNRELATED,2,A3-ⓠ 计量对象不同 人数(5 hostages)↔起数(2 hostage situations)
+E13-0599,CONFLICT,2,A4-同族 CUSTODY_HELD；A3-ⓑ 总数20↔50
+E13-0600,UNRELATED,2,T1 非命题（泛化议论）
+E13-0601,UNRELATED,1,T3 主体不同（不同人质事件 1↔5）
+E13-0602,UNRELATED,2,T3 主体不同（Charlie Hebdo vs east Paris 人质事件）
+E13-0603,UNRELATED,2,A4-不同族 CUSTODY_HELD↔CUSTODY_EXITED
+E13-0604,UNRELATED,2,T3 主体不同（Charlie Hebdo vs east Paris 人质事件）
+E13-0605,SUPPORT,1,A4-同族 CUSTODY_EXITED；数量2(增量)↔12-15(总) 相容
+E13-0606,UNRELATED,1,T3 主体不同（Charlie Hebdo 死者 vs 人质死者）
+E13-0607,UNRELATED,2,T3 主体不同（枪手数量 vs 悉尼枪手旗帜要求）
+E13-0608,UNRELATED,2,T1 非命题（纯提问）
+E13-0609,UNRELATED,2,T3 主体不同（美国枪击死亡 vs 悉尼事件）
+E13-0610,UNRELATED,2,T3/T1 主体不同
+E13-0611,CONFLICT,3,A3-ⓑ 总数11↔12
+E13-0612,CONFLICT,2,A4-同族 CUSTODY_HELD；A3-ⓑ 12↔20
+E13-0613,UNRELATED,2,A4-不同族 CUSTODY_HELD↔CUSTODY_EXITED/FORCE_SHOTS
+E13-0614,UNRELATED,3,T1 非命题（纯提问/议论）
+E13-0615,UNRELATED,2,T3 主体不同
+E13-0616,UNRELATED,2,T3 主体不同/信息不足
+E13-0617,UNRELATED,2,T3 主体不同
+E13-0618,UNRELATED,2,T1 非命题（修辞）
+E13-0619,CONFLICT,2,A3-ⓑ 总数11↔12
+E13-0620,UNRELATED,2,T1/T3 主体不同（议论）
+E13-0621,UNRELATED,2,T3 主体不同
+E13-0622,UNRELATED,3,A4-不同族 CUSTODY_HELD↔CUSTODY_EXITED
+E13-0623,SUPPORT,1,A4-同族 CUSTODY_EXITED；数量3↔2新 相容
+E13-0624,CONFLICT,1,A3-ⓑ 总数13↔6
+E13-0625,UNRELATED,2,T3 主体不同
+E13-0626,CONFLICT,3,A3-ⓑ 总数10↔11
+E13-0627,UNRELATED,2,T3 主体不同（印度车祸 vs 悉尼事件）
+E13-0628,UNRELATED,2,T1/T3 主体不同
+E13-0629,UNRELATED,2,T1 非命题（纯提问 vs 比喻议论）
+E13-0630,CONFLICT,1,A3-ⓑ 总数11↔20(q 语义不清)
+E13-0631,UNRELATED,2,T3 主体不同
+E13-0632,UNRELATED,3,A4-不同族 CUSTODY_HELD↔CUSTODY_EXITED
+E13-0633,UNRELATED,2,T3 主体不同（悉尼 vs 加沙）
+E13-0634,UNRELATED,2,T1 非命题（祈愿）
+E13-0635,UNRELATED,2,A4-不同族 FATALITY↔POLICE_OPERATION
+E13-0636,UNRELATED,3,T3 主体不同（q 明示 separate incident）
+E13-0637,UNRELATED,2,T3 主体不同（Charlie Hebdo vs 杂货店）
+E13-0638,CONFLICT,3,A3-ⓑ 总数11↔12
+E13-0639,UNRELATED,2,T1 非命题（议论）
+E13-0640,UNRELATED,2,T3 主体不同（杂志死者 vs 嫌犯被击毙）
+E13-0641,UNRELATED,2,T1 非命题（议论）
+E13-0642,UNRELATED,2,T1/T3 主体不同
+E13-0643,CONFLICT,2,A4-同族 CUSTODY_HELD；A3-ⓑ 12↔20
+E13-0644,UNRELATED,2,T3 主体不同（也门 vs 巴黎）
+E13-0645,UNRELATED,1,T3 主体不同/信息不足
+E13-0646,UNRELATED,2,T3 主体不同
+E13-0647,UNRELATED,2,T3 主体不同
+E13-0648,UNRELATED,2,T3 主体不同（漫画死者 vs 恐怖分子/人质）
+E13-0649,UNRELATED,2,A4-不同族 CUSTODY_EXITED↔CUSTODY_HELD
+E13-0650,UNRELATED,2,T3 主体不同（犹太超市 vs 印刷厂）
+E13-0651,UNRELATED,2,T1 非命题（纯提问）
+E13-0652,CONFLICT,1,A3-ⓑ 总数11↔20
+E13-0653,UNRELATED,2,T3/T1 主体不同
+E13-0654,CONFLICT,1,A3-ⓑ 总数13↔15
+E13-0655,UNRELATED,2,T1 非命题（议论）
+E13-0656,UNRELATED,2,T1 非命题（议论）
+E13-0657,UNRELATED,1,T1 非命题（纯提问）
+E13-0658,UNRELATED,2,A4-不同族 CUSTODY_HELD↔CUSTODY_EXITED/FORCE_SHOTS
+E13-0659,SUPPORT,1,A4-同族 CUSTODY_HELD；A3 下界(>12)↔上界(≤50) 相容
+E13-0660,UNRELATED,2,T1/T3 主体不同（狙击推测）
+E13-0661,CONFLICT,1,A4-同族 CUSTODY_EXITED；A3-ⓑ 3↔5
+E13-0662,UNRELATED,2,A4-不同族 CUSTODY_EXITED↔FORCE_SHOTS
+E13-0663,UNRELATED,3,A4-不同族 CUSTODY_HELD↔CUSTODY_EXITED
+E13-0664,UNRELATED,1,A4-不同族 FATALITY(gunman killed)↔PERPETRATOR_EXISTS(1 gunman)
+E13-0665,UNRELATED,2,T3 主体不同
+E13-0666,UNRELATED,2,T3 主体不同
+E13-0667,UNRELATED,2,T1 非命题（祈祷）
+E13-0668,UNRELATED,2,A4-不同族 PERPETRATOR_EXISTS↔FATALITY 否定
+E13-0669,SUPPORT,3,A4-同族；同一事实独立陈述
+E13-0670,SUPPORT,1,A4-同族 PERPETRATOR_EXISTS；1 loose⊂3 相容
+E13-0671,SUPPORT,2,A4-同族 PERPETRATOR_EXISTS；1 killed⊂3 suspects 相容
+E13-0672,SUPPORT,1,A3-ⓐ 部分(1 RCMP)⊂总数(2 soldiers)
+E13-0673,SUPPORT,1,A4-同族 PERPETRATOR_EXISTS；同为单一枪手
+E13-0674,UNRELATED,2,T3/T1 主体不同
+E13-0675,CONFLICT,3,A3-ⓑ 总数1↔2 (PERPETRATOR_EXISTS)
+E13-0676,UNRELATED,2,A4-不同族 PERPETRATOR_EXISTS↔PERPETRATOR_IDENTITY
+E13-0677,UNRELATED,2,A4-不同族 PERPETRATOR_EXISTS↔PERPETRATOR_IDENTITY
+E13-0678,SUPPORT,2,A4-同族 PERPETRATOR_EXISTS；vague(>1)↔3 相容(A2)
+E13-0679,SUPPORT,1,A4-同族 PERPETRATOR_EXISTS；2-3↔up to 5 相容
+E13-0680,SUPPORT,1,A4-同族 PERPETRATOR_EXISTS；5↔2-3 模糊相容(A2)
+E13-0681,UNRELATED,2,T3/T1 主体不同
+E13-0682,SUPPORT,3,A4-同族 PERPETRATOR_EXISTS；1 killed+2 at large=3
+E13-0683,UNRELATED,2,T3/T1 主体不同
+E13-0684,UNRELATED,2,T3 主体不同（渥太华 vs 美国日常枪击）
+E13-0685,SUPPORT,1,A4-同族 PERPETRATOR_EXISTS；2-3↔up to 5 相容
+E13-0686,UNRELATED,2,T1/T3 主体不同
+E13-0687,SUPPORT,1,A4-同族 PERPETRATOR_EXISTS；1 shot⊂5 相容
+E13-0688,UNRELATED,2,T1 非命题（议论）
+E13-0689,UNRELATED,2,T1 非命题（纯提问）
+E13-0690,SUPPORT,2,A4-同族 PERPETRATOR_EXISTS；1 killed⊂3 suspects 相容
+E13-0691,UNRELATED,2,T1 非命题（嘲讽）
+E13-0692,SUPPORT,2,A4-同族 PERPETRATOR_EXISTS；1 killed⊂3 suspects 相容
+E13-0693,UNRELATED,2,T3 主体不同（枪手死亡 vs 士兵死亡）
+E13-0694,SUPPORT,1,A4-同族 PERPETRATOR_EXISTS；2 shot⊂up to 5 相容
+E13-0695,UNRELATED,2,A4-不同族 FATALITY↔INJURY
+E13-0696,UNRELATED,1,A4-不同族 INJURY↔FATALITY
+E13-0697,UNRELATED,2,T1 非命题（提问/议论）
+E13-0698,SUPPORT,1,A4-同族 PERPETRATOR_EXISTS；5↔at least 1 more 相容
+E13-0699,UNRELATED,1,T3 主体不同（枪手 vs 士兵）
+E13-0700,UNRELATED,2,T3/T1 主体不同
+E13-0701,SUPPORT,1,A4-同族 PERPETRATOR_EXISTS；1 shot⊂2 相容
+E13-0702,UNRELATED,2,T3 主体不同（嫌犯死 vs 士兵死）
+E13-0703,UNRELATED,2,T3 主体不同（渥太华 vs 休斯敦）
+E13-0704,CONFLICT,2,A3-ⓑ/§2.8 极性 多枪手↔单一枪手
+E13-0705,SUPPORT,1,A4-同族 PERPETRATOR_EXISTS；at least 1↔1 相容
+E13-0706,UNRELATED,2,T1/T3 主体不同
+E13-0707,UNRELATED,2,T1 非命题（纯提问）
+E13-0708,UNRELATED,2,T1/T3 非命题（议论）
+E13-0709,UNRELATED,2,T1/T3 主体不同
+E13-0710,UNRELATED,2,T1 非命题（议论）
+E13-0711,UNRELATED,2,T1/T3 非命题
+E13-0712,UNRELATED,2,T3 主体不同
+E13-0713,UNRELATED,2,T1/T3 主体不同
+E13-0714,UNRELATED,2,T1 非命题（议论）
+E13-0715,UNRELATED,2,T3 主体不同
+E13-0716,UNRELATED,2,T3 主体不同
+E13-0717,UNRELATED,2,T1 非命题（议论）
+E13-0718,UNRELATED,2,T1/T3 主体不同
+E13-0719,UNRELATED,2,T3 主体不同
+E13-0720,UNRELATED,2,T1 非命题（议论）
+E13-0721,UNRELATED,2,T3 主体不同
+E13-0722,UNRELATED,2,T3/T1 主体不同
+E13-0723,UNRELATED,2,T1/T3 非命题
+E13-0724,UNRELATED,2,T1/T3 非命题
+E13-0725,UNRELATED,2,T3 主体不同
+E13-0726,UNRELATED,2,T1 非命题（修辞）
+E13-0727,UNRELATED,2,T3 主体不同
+E13-0728,CONFLICT,1,A3-ⓑ 总数4-5↔2 suspects
+E13-0729,UNRELATED,2,T3/T1 主体不同
+E13-0730,UNRELATED,2,T3/T1 主体不同
+E13-0731,SUPPORT,2,A4-同族 FATALITY；A3-ⓒ 同值148
+E13-0732,UNRELATED,2,T3/T1 主体不同
+E13-0733,UNRELATED,2,T1 非命题（议论）
+E13-0734,UNRELATED,2,T3 主体不同
+E13-0735,CONFLICT,2,A3-ⓑ 总数148↔150
+E13-0736,UNRELATED,2,T1 非命题（议论）
+E13-0737,UNRELATED,2,T1 非命题（提问/议论）
+E13-0738,SUPPORT,2,A3-ⓐ② 区间142-150⊃148
+E13-0739,UNRELATED,2,T3/T1 主体不同
+E13-0740,SUPPORT,2,A4-同族 FATALITY；A3 up to150⊃148 相容
+E13-0741,CONFLICT,1,A3-ⓑ 总数148↔150
+E13-0742,UNRELATED,2,T1 非命题（议论/提问）
+E13-0743,UNRELATED,2,T1 非命题（议论）
+E13-0744,SUPPORT,1,A4-同族 FATALITY；A3 140+⊃148 相容
+E13-0745,UNRELATED,2,T1/T3 主体不同
+E13-0746,UNRELATED,2,T3/T1 主体不同
+E13-0747,UNRELATED,2,T1 非命题（议论）
+E13-0748,SUPPORT,2,A3-ⓐ 部分(72+35=107)⊂总数(150)
+E13-0749,UNRELATED,2,T3/T1 主体不同
+E13-0750,UNRELATED,2,T1/T3 非命题
+E13-0751,UNRELATED,2,T1/T3 主体不同
+E13-0752,SUPPORT,2,A4-同族 FATALITY；A3 up to150⊃148 相容
+E13-0753,UNRELATED,1,T1/T3 主体不同
+E13-0754,CONFLICT,2,A3-ⓑ 总数148↔150
+E13-0755,UNRELATED,2,T1 非命题（纯提问）

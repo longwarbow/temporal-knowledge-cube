@@ -1,0 +1,1381 @@
+{
+ "event": "sydneysiege",
+ "n_claims": 1220,
+ "vocab": {
+  "event": "sydneysiege",
+  "nodes": [
+   {
+    "node": "public_reaction",
+    "desc": "Public sentiment and responses"
+   },
+   {
+    "node": "hostage_situation",
+    "desc": "Details of the hostage-taking event"
+   },
+   {
+    "node": "perpetrator_identity",
+    "desc": "Information about the attacker"
+   },
+   {
+    "node": "police_operation",
+    "desc": "Actions taken by law enforcement"
+   },
+   {
+    "node": "hostage_count",
+    "desc": "Number of hostages involved"
+   },
+   {
+    "node": "status_update",
+    "desc": "Changes in the situation's status"
+   },
+   {
+    "node": "evacuation",
+    "desc": "Evacuation procedures and outcomes"
+   },
+   {
+    "node": "media_coverage",
+    "desc": "Media reporting and analysis"
+   },
+   {
+    "node": "public_behavior",
+    "desc": "Public behavior and reactions"
+   },
+   {
+    "node": "demand_statement",
+    "desc": "Demands made by the perpetrator"
+   },
+   {
+    "node": "religion_politics",
+    "desc": "Religious and political aspects"
+   },
+   {
+    "node": "safety_measures",
+    "desc": "Safety and security measures"
+   },
+   {
+    "node": "economic_impact",
+    "desc": "Economic and business impact"
+   },
+   {
+    "node": "other",
+    "desc": "Other relevant aspects not covered by above"
+   }
+  ],
+  "n_label_used": 306,
+  "coverage_pct": 85.0
+ },
+ "min_count": 4,
+ "slices": {
+  "0": {
+   "label": "S1 12-14T23:02→12-15T02:08",
+   "n_threads": 305,
+   "labels": [
+    "hostage situation",
+    "islamic flag",
+    "public reaction",
+    "hostage count",
+    "evacuated",
+    "police operation",
+    "shutdown",
+    "evacuation"
+   ],
+   "counts": {
+    "underway": 2,
+    "islamic flag": 31,
+    "hostage situation": 32,
+    "displayed": 1,
+    "siege": 2,
+    "being held up": 1,
+    "unfolding": 2,
+    "being held by men waving an ISIS flag": 3,
+    "at cafe": 1,
+    "hostage": 1,
+    "Islamic Flag": 1,
+    "siege situation": 2,
+    "diversion": 1,
+    "possible ISIS terrorist attack": 1,
+    "police operation": 10,
+    "Operation": 1,
+    "surrounding cafe": 1,
+    "hostage count": 15,
+    "need for prayers": 1,
+    "outcome": 1,
+    "black flag": 1,
+    "flag identity": 1,
+    "with Arabic writing": 1,
+    "duration": 1,
+    "type": 1,
+    "public reaction": 27,
+    "location": 2,
+    "closed": 1,
+    "shutdown": 4,
+    "holding a Cafe hostage": 1,
+    "streaming coverage": 1,
+    "affiliation": 1,
+    "mentioning": 1,
+    "evacuated": 11,
+    "global impact": 1,
+    "reaction to Muslims": 1,
+    "evacuation": 4,
+    "flag": 1,
+    "incident": 2,
+    "lockdown": 1,
+    "reaction to fanatics": 1,
+    "presence": 2,
+    "live coverage": 1,
+    "link to IS": 1,
+    "global threat": 1,
+    "end of anti-cop protests": 1,
+    "situation": 1,
+    "police presence": 2,
+    "blame": 1,
+    "tactical information": 1,
+    "shut down": 1,
+    "type of flag": 2,
+    "motivation": 2,
+    "media coverage": 3,
+    "translation": 1,
+    "gunman demands": 1,
+    "public disclosure": 1,
+    "developing": 1,
+    "contact made": 1,
+    "Opera House": 1,
+    "operation status": 1,
+    "flown": 1,
+    "meeting": 1,
+    "social media blackout": 1,
+    "presence of devices": 1,
+    "major": 2,
+    "statement": 2,
+    "PM Abbott statement": 1,
+    "radio communication": 1,
+    "content": 1,
+    "closure": 1,
+    "armed explosives alert": 1,
+    "racism and Islamophobia justification": 1,
+    "conscious & smoking": 1,
+    "demand content": 1,
+    "position": 1,
+    "gunman statement": 1,
+    "concerns": 1,
+    "picture": 1,
+    "perpetrator identity": 2,
+    "wants to speak": 1,
+    "raiding homes": 1,
+    "information sharing": 1,
+    "coverage": 1,
+    "condemnation of Jihadists": 1,
+    "photo evidence": 1,
+    "media behavior": 1,
+    "social media sharing": 1,
+    "standoff/siege": 1,
+    "police request": 1,
+    "official statement": 1,
+    "identity": 1,
+    "latest update": 1,
+    "status": 1,
+    "media responsibility": 2,
+    "requesting to speak": 1,
+    "Dramatic Siege Unfolds": 1,
+    "islamic motivation": 1,
+    "gun laws": 1,
+    "speculative nature": 1,
+    "locked down": 1,
+    "staff count": 1,
+    "terrorist attack": 1,
+    "holding hostages": 1,
+    "inside": 1,
+    "police intel": 1,
+    "prime minister statement": 1,
+    "Islamic flag": 1,
+    "authenticity": 1,
+    "follow": 1,
+    "press conference": 1,
+    "familiarity": 1,
+    "news conference": 1,
+    "Christianity association": 1,
+    "face expressions": 1,
+    "scene": 1,
+    "representation": 1,
+    "halal certification": 1,
+    "device location": 1,
+    "operation": 1,
+    "reaction": 1,
+    "hostage location": 1,
+    "retraction of claims": 1,
+    "reaction to sydneysiege": 1,
+    "devices located": 1,
+    "reported": 1,
+    "caption": 1,
+    "take down": 1,
+    "important things to remember": 1,
+    "perpetrator": 2,
+    "gathering": 1,
+    "police operation relation": 1,
+    "live video": 1,
+    "gunman identity": 1,
+    "known facts": 1,
+    "source": 1,
+    "media credibility": 1,
+    "being held hostage": 1,
+    "report accuracy": 1,
+    "photo gallery": 1,
+    "stop": 1,
+    "report correctness": 1,
+    "ethnicity of victims": 1,
+    "religion": 1,
+    "scenes": 1,
+    "human shield": 2,
+    "using young woman as shield": 1,
+    "invited viewpoint": 1,
+    "prime minister address": 1,
+    "emergency message": 1,
+    "perpetrator motivation": 1,
+    "briefing": 1,
+    "media interaction": 1,
+    "monitoring": 1,
+    "larger plot": 1,
+    "latest updates": 1,
+    "transcript": 1,
+    "name and religion": 1,
+    "crowd and media": 1
+   },
+   "node_members": {
+    "hostage_situation": [
+     "hostage situation"
+    ],
+    "public_reaction": [
+     "public reaction"
+    ],
+    "perpetrator_identity": [
+     "hostage count"
+    ],
+    "evacuation": [
+     "evacuated",
+     "evacuation"
+    ],
+    "police_operation": [
+     "police operation"
+    ]
+   },
+   "node_threads": {
+    "hostage_situation": 32,
+    "public_reaction": 27,
+    "perpetrator_identity": 15,
+    "evacuation": 15,
+    "police_operation": 10
+   },
+   "kappa": -0.0769,
+   "kappa_tab": [
+    0,
+    2,
+    2,
+    24
+   ],
+   "po": 0.8571,
+   "n_other": 2
+  },
+  "1": {
+   "label": "S2 12-15T02:09→12-15T07:00",
+   "n_threads": 305,
+   "labels": [
+    "public reaction",
+    "hostage situation",
+    "escaped",
+    "islamic flag",
+    "hostage count",
+    "escape",
+    "surge pricing",
+    "evacuated",
+    "police operation",
+    "exit",
+    "hostage escape",
+    "custody exited"
+   ],
+   "counts": {
+    "current knowledge": 1,
+    "identity": 1,
+    "using #SydneySiege": 1,
+    "surge pricing": 4,
+    "Presidential briefing": 1,
+    "motivation": 2,
+    "reality": 1,
+    "live video": 2,
+    "evacuated": 4,
+    "hostage situation": 24,
+    "targeting": 1,
+    "thoughts": 2,
+    "downtown sydney cafe": 1,
+    "punishment": 1,
+    "gathered": 1,
+    "islamic flag": 9,
+    "emergency message": 1,
+    "public reaction": 37,
+    "minimum surge pricing": 1,
+    "quality": 1,
+    "gunman activity": 1,
+    "is terrorism": 1,
+    "gunman orders": 1,
+    "incident": 1,
+    "evacuation": 1,
+    "resolution": 1,
+    "political motivation": 1,
+    "hostage count": 9,
+    "armed suspect": 1,
+    "lockdown": 3,
+    "images": 1,
+    "charging policy": 1,
+    "reporting standards": 1,
+    "incidents": 1,
+    "ongoing": 1,
+    "safety": 2,
+    "used by groups": 1,
+    "increase": 1,
+    "TeamHumanity": 1,
+    "contact status": 1,
+    "victims": 1,
+    "equipment": 1,
+    "understanding of Islam": 1,
+    "contact with hostage taker": 1,
+    "comparison": 2,
+    "current location": 1,
+    "connection to #sydneysiege": 1,
+    "cost": 1,
+    "victims and targets": 1,
+    "disturbing nature": 1,
+    "guts to face women": 1,
+    "religion of peace": 1,
+    "importance": 2,
+    "picking riders": 1,
+    "religion": 2,
+    "personnel accounted for": 1,
+    "offer": 1,
+    "familiarity": 1,
+    "text": 1,
+    "confirmation": 1,
+    "prayer": 1,
+    "CBD attack": 1,
+    "location": 2,
+    "RSS blame": 1,
+    "protected and blessed": 1,
+    "duration": 2,
+    "selfie-taking": 2,
+    "Islamophobia": 2,
+    "authoritative statement": 1,
+    "be free of those who think Allah demands killing": 1,
+    "fact-checking resistance": 1,
+    "character trait": 1,
+    "breaks out": 1,
+    "statement": 3,
+    "ride pricing": 1,
+    "worst": 1,
+    "front page": 1,
+    "composition": 1,
+    "condemnation": 3,
+    "Islamaphobia": 1,
+    "evacuated grounds": 1,
+    "Mufti statement": 1,
+    "police operation": 4,
+    "police contact": 1,
+    "swigging from bottles of white wine": 1,
+    "improvised explosive device": 1,
+    "extremist involvement": 1,
+    "media responsibility": 1,
+    "conflation": 1,
+    "situation": 1,
+    "condemns": 2,
+    "updates": 1,
+    "displayed flag": 1,
+    "exit": 4,
+    "escape": 8,
+    "impact on Muslim community": 1,
+    "status": 1,
+    "escaped": 15,
+    "released hostages": 1,
+    "free rides": 1,
+    "eyewitness reports": 1,
+    "gun ownership": 1,
+    "released": 1,
+    "hostage escape": 4,
+    "muslim community": 1,
+    "safe": 1,
+    "emerged": 1,
+    "price gouging": 1,
+    "taking selfies": 1,
+    "custody exited": 4,
+    "fire exit": 1,
+    "reaction to sydneysiege": 1,
+    "terrorism history": 1,
+    "negotiators contact": 1,
+    "event classification": 1,
+    "contact with gunman": 1,
+    "helpful social media behavior": 1,
+    "under siege": 1,
+    "Custody Exited": 1,
+    "contacted": 2,
+    "racism and bigotry": 1,
+    "complaint": 1,
+    "police report": 1,
+    "contact information": 2,
+    "fleeing": 1,
+    "use in political agendas": 1,
+    "contact": 1,
+    "performance cancellation": 1,
+    "profile": 1,
+    "content": 2,
+    "gross": 1,
+    "public behavior": 1,
+    "armed person": 1,
+    "role in crisis": 1,
+    "escaped people": 1,
+    "terrorising": 1,
+    "professionalism and calmness": 1,
+    "fleeing people": 1,
+    "operation": 1,
+    "message sabotage": 1,
+    "live coverage": 1,
+    "relevance": 1,
+    "islamic message": 1,
+    "participants": 1,
+    "staff members": 1,
+    "writing": 1,
+    "rethink": 1,
+    "number exited": 1,
+    "escaping": 1,
+    "perpetrator identity": 2,
+    "runs to police": 1,
+    "continuation": 1,
+    "escaped hostages": 1,
+    "expression": 1,
+    "demand": 3,
+    "bombs": 1,
+    "fled": 1,
+    "falls": 1,
+    "demand details": 1,
+    "gunman identity": 1,
+    "have left": 1,
+    "monitoring social media": 1,
+    "mental health focus": 1,
+    "non-violence": 1,
+    "trapped": 1,
+    "bombs location": 1,
+    "uniform": 1
+   },
+   "node_members": {
+    "public_reaction": [
+     "public reaction",
+     "hostage situation"
+    ],
+    "hostage_situation": [
+     "escaped",
+     "islamic flag",
+     "escape",
+     "exit",
+     "hostage escape",
+     "custody exited"
+    ],
+    "hostage_count": [
+     "hostage count"
+    ],
+    "economic_impact": [
+     "surge pricing"
+    ],
+    "evacuation": [
+     "evacuated"
+    ],
+    "police_operation": [
+     "police operation"
+    ]
+   },
+   "node_threads": {
+    "public_reaction": 61,
+    "hostage_situation": 44,
+    "hostage_count": 9,
+    "economic_impact": 4,
+    "evacuation": 4,
+    "police_operation": 4
+   },
+   "kappa": 0.122,
+   "kappa_tab": [
+    7,
+    9,
+    15,
+    35
+   ],
+   "po": 0.6364,
+   "n_other": 0
+  },
+  "2": {
+   "label": "S3 12-15T07:04→12-15T12:11",
+   "n_threads": 305,
+   "labels": [
+    "public reaction",
+    "islamic flag",
+    "escaped",
+    "hostage situation",
+    "duration",
+    "statement",
+    "condemnation",
+    "hostage count",
+    "demand",
+    "identity",
+    "public behavior"
+   ],
+   "counts": {
+    "islamic flag": 10,
+    "hostage escape": 3,
+    "escaped": 8,
+    "bombs claimed": 1,
+    "public reaction": 87,
+    "gunman demands": 2,
+    "condemnation": 5,
+    "hostage count": 5,
+    "campaign support": 1,
+    "update": 1,
+    "hostage situation": 7,
+    "gunman identity": 1,
+    "demand": 5,
+    "identity": 5,
+    "updates": 2,
+    "custody exited": 2,
+    "issue nature": 1,
+    "statement": 6,
+    "evacuated": 1,
+    "support": 2,
+    "hostage rotation": 1,
+    "clarification": 2,
+    "scene": 1,
+    "demands": 1,
+    "level": 1,
+    "surreal scenes": 1,
+    "opening": 1,
+    "public behavior": 4,
+    "media reporting": 1,
+    "awareness": 1,
+    "exploitation": 1,
+    "start": 1,
+    "presence": 2,
+    "misnomer": 1,
+    "individual causation": 1,
+    "remains": 1,
+    "opportunistic": 1,
+    "peaceful safe resolution": 1,
+    "media perspective": 1,
+    "news update": 1,
+    "role in crisis": 1,
+    "spreading lies & misinformation": 1,
+    "fled": 1,
+    "from influence of IS": 1,
+    "survivor": 1,
+    "selfies": 1,
+    "police contact": 1,
+    "separation of fact from fiction": 1,
+    "carries": 1,
+    "irresponsible journalism": 1,
+    "answers needed": 1,
+    "left in #lindtcafe": 1,
+    "expectation": 1,
+    "inviting public to pray": 1,
+    "request": 1,
+    "hostage requests": 1,
+    "reaction": 2,
+    "cultural attribution": 1,
+    "action": 1,
+    "news": 1,
+    "community leaders": 1,
+    "everything": 1,
+    "media blackout": 1,
+    "identified": 1,
+    "video content": 1,
+    "difficulty": 1,
+    "emotional state": 1,
+    "response to hatred and racism": 1,
+    "media restraint": 1,
+    "safety warning": 1,
+    "racist abuse fear": 1,
+    "viewing recommendation": 1,
+    "gun ownership": 1,
+    "unite": 1,
+    "current information": 2,
+    "public opinion": 1,
+    "#sydneysiege": 1,
+    "count": 1,
+    "perpetrator identity": 2,
+    "joint prayer session": 1,
+    "rise of": 1,
+    "status": 2,
+    "irresponsible": 1,
+    "terrorism": 1,
+    "islamic representation": 1,
+    "escaped hostages": 1,
+    "gunmen": 1,
+    "call": 1,
+    "police operation": 2,
+    "public transport action": 1,
+    "map posted": 1,
+    "gun control": 1,
+    "prayer": 1,
+    "expression of care": 1,
+    "price gouging": 1,
+    "media coverage": 1,
+    "reminder": 1,
+    "gunman": 1,
+    "origin": 1,
+    "hostage": 1,
+    "conduct": 1,
+    "internal conflict": 1,
+    "faiths praying": 1,
+    "unity prayers": 1,
+    "location": 2,
+    "safety": 3,
+    "operation": 1,
+    "event": 1,
+    "flag displayed": 1,
+    "driver support": 1,
+    "hostage-taker state": 1,
+    "community reaction": 1,
+    "mention count": 1,
+    "risk": 1,
+    "mood misreading": 1,
+    "action taken": 1,
+    "campaign": 1,
+    "best thing": 1,
+    "held for hostages": 1,
+    "Twitter use": 1,
+    "role in outcome": 1,
+    "duration": 7,
+    "selfie-taking": 2,
+    "meaning": 1,
+    "public safety": 1,
+    "solidarity": 2,
+    "safety & welcome": 1,
+    "content shown": 1,
+    "prayers": 1,
+    "gun rights": 1,
+    "waiting": 1,
+    "unity": 1,
+    "rally": 1,
+    "map": 1,
+    "generalization": 1,
+    "statement on #SydneySiege": 1,
+    "volume": 1,
+    "demanding flag": 1,
+    "taking selfies": 1,
+    "meeting": 2,
+    "urged action": 1,
+    "restoration of faith": 1,
+    "situation": 1,
+    "preventative action": 1,
+    "response to terrorism": 1,
+    "closed": 1,
+    "moment of escape": 1,
+    "bias": 1
+   },
+   "node_members": {
+    "public_reaction": [
+     "public reaction"
+    ],
+    "perpetrator_identity": [
+     "hostage situation"
+    ],
+    "police_operation": [
+     "duration"
+    ],
+    "demand_statement": [
+     "statement",
+     "demand"
+    ],
+    "hostage_count": [
+     "hostage count"
+    ],
+    "public_behavior": [
+     "identity",
+     "public behavior"
+    ]
+   },
+   "node_threads": {
+    "public_reaction": 87,
+    "perpetrator_identity": 7,
+    "police_operation": 7,
+    "demand_statement": 11,
+    "hostage_count": 5,
+    "public_behavior": 9
+   },
+   "kappa": 0.2466,
+   "kappa_tab": [
+    1,
+    4,
+    1,
+    49
+   ],
+   "po": 0.9091,
+   "n_other": 3
+  },
+  "3": {
+   "label": "S4 12-15T12:11→12-15T15:58",
+   "n_threads": 305,
+   "labels": [
+    "public reaction",
+    "police operation",
+    "perpetrator identity",
+    "status",
+    "death toll",
+    "gunman identity",
+    "escaped",
+    "end",
+    "hostage situation",
+    "identity",
+    "gunfire",
+    "identified",
+    "force shots",
+    "police confirmation"
+   ],
+   "counts": {
+    "ends without anyone getting hurt": 1,
+    "prayer for": 1,
+    "selfie taking": 2,
+    "islamic flag": 2,
+    "public reaction": 48,
+    "government policy": 1,
+    "duration": 2,
+    "hostage situation": 8,
+    "flag usage": 1,
+    "perpetrator identity": 14,
+    "news report": 1,
+    "hostage demands": 1,
+    "police operation": 28,
+    "comparison": 1,
+    "gunman demand": 1,
+    "handling of #sydneysiege": 1,
+    "selfie": 1,
+    "action": 2,
+    "solidarity": 1,
+    "response to #sydneysiege": 1,
+    "thoughts and prayers": 1,
+    "coverage": 1,
+    "faiths praying": 1,
+    "selfie-taking": 1,
+    "hostage positions": 1,
+    "Hashtag Response": 1,
+    "occurred": 1,
+    "escaped": 9,
+    "initiation": 2,
+    "distribution": 2,
+    "Islamic State links": 1,
+    "multiculturalism": 1,
+    "text": 1,
+    "origin": 1,
+    "geographical coverage": 1,
+    "religion": 1,
+    "reaction": 1,
+    "hostage count": 3,
+    "response": 1,
+    "death toll": 11,
+    "mention": 1,
+    "gunman identity": 11,
+    "identified": 4,
+    "named/identified": 1,
+    "Perpetrator Identity": 1,
+    "named": 2,
+    "best thing": 1,
+    "escape": 1,
+    "behaviour": 1,
+    "BBC terminology": 1,
+    "on rampage": 1,
+    "quote": 1,
+    "identity": 7,
+    "convert to Islam": 1,
+    "fetish for self-publicity": 1,
+    "scarf removal": 2,
+    "convert": 1,
+    "charges": 1,
+    "claims": 1,
+    "suspect identity": 1,
+    "true Muslim beliefs": 1,
+    "rally": 1,
+    "training": 1,
+    "gunman demands": 1,
+    "known to police and media": 1,
+    "danger to Ummah": 1,
+    "hostage escaped": 1,
+    "custody exited": 1,
+    "charge": 1,
+    "hostage escape": 2,
+    "shots fired": 1,
+    "fled": 2,
+    "reportedly heard": 1,
+    "heard": 1,
+    "police activity": 1,
+    "forever": 1,
+    "force shots": 4,
+    "gunfire": 7,
+    "gunfire and explosions": 1,
+    "jihadist violence trend": 1,
+    "carrying out": 1,
+    "injury": 3,
+    "freed": 1,
+    "violence": 1,
+    "fleeing": 1,
+    "injured": 2,
+    "is terrorism": 1,
+    "operation": 3,
+    "public perception": 1,
+    "police storming": 1,
+    "gunman": 1,
+    "death": 2,
+    "escaping": 1,
+    "cafe": 1,
+    "media coverage": 1,
+    "background": 1,
+    "latest details": 1,
+    "First Couple": 1,
+    "status": 13,
+    "given CPR": 1,
+    "police confirmation": 4,
+    "stormed cafe": 1,
+    "entered": 1,
+    "end": 9,
+    "emergence": 1,
+    "casualties": 2,
+    "police storm": 1,
+    "confirmation": 1,
+    "object throwing": 1,
+    "end of situation": 1,
+    "monitoring": 1,
+    "police statement": 3,
+    "public behavior": 1,
+    "thinking": 1,
+    "whereabouts": 1,
+    "ends": 2,
+    "over": 1,
+    "official report": 1,
+    "taken away": 1,
+    "end of siege": 1
+   },
+   "node_members": {
+    "public_reaction": [
+     "public reaction"
+    ],
+    "police_operation": [
+     "police operation",
+     "gunfire",
+     "force shots",
+     "police confirmation"
+    ],
+    "perpetrator_identity": [
+     "perpetrator identity",
+     "gunman identity",
+     "identity",
+     "identified"
+    ],
+    "status_update": [
+     "status",
+     "end"
+    ],
+    "hostage_count": [
+     "death toll"
+    ],
+    "hostage_situation": [
+     "escaped",
+     "hostage situation"
+    ]
+   },
+   "node_threads": {
+    "public_reaction": 48,
+    "police_operation": 43,
+    "perpetrator_identity": 36,
+    "status_update": 22,
+    "hostage_count": 11,
+    "hostage_situation": 17
+   },
+   "kappa": 0.121,
+   "kappa_tab": [
+    3,
+    11,
+    8,
+    69
+   ],
+   "po": 0.7912,
+   "n_other": 0
+  }
+ },
+ "kappa_mean": 0.1032,
+ "po_mean": 0.7984,
+ "transitions": [
+  {
+   "d1": "S1 12-14T23:02→12-15T02:08",
+   "d2": "S2 12-15T02:09→12-15T07:00",
+   "n_prev": 5,
+   "n_next": 6,
+   "map_A": {
+    "public_reaction": [
+     "public_reaction"
+    ],
+    "hostage_situation": [
+     "hostage_situation"
+    ],
+    "hostage_count": [],
+    "economic_impact": [],
+    "evacuation": [
+     "evacuation"
+    ],
+    "police_operation": [
+     "police_operation"
+    ]
+   },
+   "map_B": {
+    "economic_impact": [],
+    "evacuation": [
+     "evacuation"
+    ],
+    "hostage_count": [],
+    "hostage_situation": [
+     "hostage_situation"
+    ],
+    "police_operation": [
+     "police_operation"
+    ],
+    "public_reaction": [
+     "public_reaction"
+    ]
+   },
+   "ops_A": {
+    "CONTINUE": 4,
+    "BIRTH": 2,
+    "RETIRE": 1
+   },
+   "ops_B": {
+    "CONTINUE": 4,
+    "BIRTH": 2,
+    "RETIRE": 1
+   },
+   "edges_agree": 4,
+   "edges_disputed": 0,
+   "err": null
+  },
+  {
+   "d1": "S2 12-15T02:09→12-15T07:00",
+   "d2": "S3 12-15T07:04→12-15T12:11",
+   "n_prev": 6,
+   "n_next": 6,
+   "map_A": {
+    "public_reaction": [
+     "public_reaction"
+    ],
+    "demand_statement": [],
+    "public_behavior": [],
+    "perpetrator_identity": [],
+    "police_operation": [
+     "police_operation"
+    ],
+    "hostage_count": [
+     "hostage_count"
+    ]
+   },
+   "map_B": {
+    "demand_statement": [],
+    "hostage_count": [
+     "hostage_count"
+    ],
+    "perpetrator_identity": [],
+    "police_operation": [
+     "police_operation"
+    ],
+    "public_behavior": [],
+    "public_reaction": [
+     "public_reaction"
+    ]
+   },
+   "ops_A": {
+    "CONTINUE": 3,
+    "BIRTH": 3,
+    "RETIRE": 3
+   },
+   "ops_B": {
+    "CONTINUE": 3,
+    "BIRTH": 3,
+    "RETIRE": 3
+   },
+   "edges_agree": 3,
+   "edges_disputed": 0,
+   "err": null
+  },
+  {
+   "d1": "S3 12-15T07:04→12-15T12:11",
+   "d2": "S4 12-15T12:11→12-15T15:58",
+   "n_prev": 6,
+   "n_next": 6,
+   "map_A": {
+    "public_reaction": [
+     "public_reaction"
+    ],
+    "police_operation": [
+     "police_operation"
+    ],
+    "perpetrator_identity": [
+     "perpetrator_identity"
+    ],
+    "status_update": [],
+    "hostage_situation": [],
+    "hostage_count": [
+     "hostage_count"
+    ]
+   },
+   "map_B": {
+    "hostage_count": [
+     "hostage_count"
+    ],
+    "hostage_situation": [],
+    "perpetrator_identity": [
+     "perpetrator_identity"
+    ],
+    "police_operation": [
+     "police_operation"
+    ],
+    "public_reaction": [
+     "public_behavior",
+     "public_reaction"
+    ],
+    "status_update": []
+   },
+   "ops_A": {
+    "CONTINUE": 4,
+    "BIRTH": 2,
+    "RETIRE": 2
+   },
+   "ops_B": {
+    "MERGE": 1,
+    "CONTINUE": 3,
+    "BIRTH": 2,
+    "RETIRE": 1
+   },
+   "edges_agree": 4,
+   "edges_disputed": 1,
+   "err": null
+  }
+ ],
+ "ops_llm": {
+  "CONTINUE": 11,
+  "BIRTH": 7,
+  "RETIRE": 6
+ },
+ "det_ops_total": {
+  "CONTINUE": 11,
+  "BIRTH": 7,
+  "RETIRE": 6
+ },
+ "det_per_trans": [
+  {
+   "d1": "S1 12-14T23:02→12-15T02:08",
+   "d2": "S2 12-15T02:09→12-15T07:00",
+   "det": {
+    "CONTINUE": 4,
+    "BIRTH": 2,
+    "RETIRE": 1
+   },
+   "born": [
+    "economic_impact",
+    "hostage_count"
+   ],
+   "retired": [
+    "perpetrator_identity"
+   ]
+  },
+  {
+   "d1": "S2 12-15T02:09→12-15T07:00",
+   "d2": "S3 12-15T07:04→12-15T12:11",
+   "det": {
+    "CONTINUE": 3,
+    "BIRTH": 3,
+    "RETIRE": 3
+   },
+   "born": [
+    "demand_statement",
+    "perpetrator_identity",
+    "public_behavior"
+   ],
+   "retired": [
+    "economic_impact",
+    "evacuation",
+    "hostage_situation"
+   ]
+  },
+  {
+   "d1": "S3 12-15T07:04→12-15T12:11",
+   "d2": "S4 12-15T12:11→12-15T15:58",
+   "det": {
+    "CONTINUE": 4,
+    "BIRTH": 2,
+    "RETIRE": 2
+   },
+   "born": [
+    "hostage_situation",
+    "status_update"
+   ],
+   "retired": [
+    "demand_statement",
+    "public_behavior"
+   ]
+  }
+ ],
+ "node_lifespan": {
+  "hostage_count": {
+   "first": "S2 12-15T02:09→12-15T07:00",
+   "last": "S4 12-15T12:11→12-15T15:58",
+   "n_slices": 3,
+   "threads": [
+    0,
+    9,
+    5,
+    11
+   ]
+  },
+  "demand_statement": {
+   "first": "S3 12-15T07:04→12-15T12:11",
+   "last": "S3 12-15T07:04→12-15T12:11",
+   "n_slices": 1,
+   "threads": [
+    0,
+    0,
+    11,
+    0
+   ]
+  },
+  "economic_impact": {
+   "first": "S2 12-15T02:09→12-15T07:00",
+   "last": "S2 12-15T02:09→12-15T07:00",
+   "n_slices": 1,
+   "threads": [
+    0,
+    4,
+    0,
+    0
+   ]
+  },
+  "perpetrator_identity": {
+   "first": "S1 12-14T23:02→12-15T02:08",
+   "last": "S4 12-15T12:11→12-15T15:58",
+   "n_slices": 3,
+   "threads": [
+    15,
+    0,
+    7,
+    36
+   ]
+  },
+  "public_reaction": {
+   "first": "S1 12-14T23:02→12-15T02:08",
+   "last": "S4 12-15T12:11→12-15T15:58",
+   "n_slices": 4,
+   "threads": [
+    27,
+    61,
+    87,
+    48
+   ]
+  },
+  "hostage_situation": {
+   "first": "S1 12-14T23:02→12-15T02:08",
+   "last": "S4 12-15T12:11→12-15T15:58",
+   "n_slices": 3,
+   "threads": [
+    32,
+    44,
+    0,
+    17
+   ]
+  },
+  "public_behavior": {
+   "first": "S3 12-15T07:04→12-15T12:11",
+   "last": "S3 12-15T07:04→12-15T12:11",
+   "n_slices": 1,
+   "threads": [
+    0,
+    0,
+    9,
+    0
+   ]
+  },
+  "evacuation": {
+   "first": "S1 12-14T23:02→12-15T02:08",
+   "last": "S2 12-15T02:09→12-15T07:00",
+   "n_slices": 2,
+   "threads": [
+    15,
+    4,
+    0,
+    0
+   ]
+  },
+  "status_update": {
+   "first": "S4 12-15T12:11→12-15T15:58",
+   "last": "S4 12-15T12:11→12-15T15:58",
+   "n_slices": 1,
+   "threads": [
+    0,
+    0,
+    0,
+    22
+   ]
+  },
+  "police_operation": {
+   "first": "S1 12-14T23:02→12-15T02:08",
+   "last": "S4 12-15T12:11→12-15T15:58",
+   "n_slices": 4,
+   "threads": [
+    10,
+    4,
+    7,
+    43
+   ]
+  }
+ },
+ "anchor": {
+  "born_nodes": [
+   "demand_statement",
+   "economic_impact",
+   "hostage_count",
+   "hostage_situation",
+   "perpetrator_identity",
+   "public_behavior",
+   "status_update"
+  ],
+  "continue_nodes": [
+   "evacuation",
+   "hostage_count",
+   "hostage_situation",
+   "perpetrator_identity",
+   "police_operation",
+   "public_reaction"
+  ],
+  "ver_born": {
+   "0": 118,
+   "1": 24,
+   "2": 11,
+   "null": 69
+  },
+  "ver_continue": {
+   "1": 31,
+   "2": 23,
+   "0": 167,
+   "null": 261
+  }
+ },
+ "veracity_anchor": {
+  "S1 12-14T23:02→12-15T02:08": {
+   "hostage_situation": {
+    "0": 25,
+    "1": 4,
+    "2": 1,
+    "null": 2
+   },
+   "public_reaction": {
+    "null": 24,
+    "0": 2,
+    "1": 1
+   },
+   "perpetrator_identity": {
+    "1": 14,
+    "0": 1
+   },
+   "evacuation": {
+    "1": 2,
+    "2": 8,
+    "0": 3,
+    "null": 2
+   },
+   "police_operation": {
+    "0": 3,
+    "null": 6,
+    "1": 1
+   }
+  },
+  "S2 12-15T02:09→12-15T07:00": {
+   "public_reaction": {
+    "0": 27,
+    "null": 32,
+    "1": 1,
+    "2": 1
+   },
+   "hostage_situation": {
+    "2": 2,
+    "0": 40,
+    "1": 1,
+    "null": 1
+   },
+   "hostage_count": {
+    "null": 1,
+    "1": 2,
+    "0": 6
+   },
+   "economic_impact": {
+    "0": 4
+   },
+   "evacuation": {
+    "2": 2,
+    "0": 2
+   },
+   "police_operation": {
+    "null": 1,
+    "0": 3
+   }
+  },
+  "S3 12-15T07:04→12-15T12:11": {
+   "public_reaction": {
+    "1": 2,
+    "0": 1,
+    "null": 84
+   },
+   "perpetrator_identity": {
+    "0": 3,
+    "null": 4
+   },
+   "police_operation": {
+    "null": 7
+   },
+   "demand_statement": {
+    "0": 5,
+    "null": 6
+   },
+   "hostage_count": {
+    "0": 1,
+    "1": 3,
+    "null": 1
+   },
+   "public_behavior": {
+    "null": 8,
+    "2": 1
+   }
+  },
+  "S4 12-15T12:11→12-15T15:58": {
+   "public_reaction": {
+    "null": 46,
+    "2": 1,
+    "0": 1
+   },
+   "police_operation": {
+    "null": 18,
+    "0": 24,
+    "2": 1
+   },
+   "perpetrator_identity": {
+    "null": 23,
+    "0": 12,
+    "2": 1
+   },
+   "status_update": {
+    "0": 8,
+    "null": 14
+   },
+   "hostage_count": {
+    "null": 3,
+    "0": 8
+   },
+   "hostage_situation": {
+    "null": 6,
+    "0": 5,
+    "2": 6
+   }
+  }
+ }
+}

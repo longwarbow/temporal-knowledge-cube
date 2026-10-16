@@ -1,0 +1,42 @@
+{
+ "slice": "S3 10-12T19:03→10-15T07:23",
+ "kappa": 1.0,
+ "kappa_tab": [
+  1,
+  0,
+  0,
+  5
+ ],
+ "po": 1.0,
+ "n_labels": 4,
+ "n_other": 0,
+ "node_threads": {
+  "ebola_infection": 2,
+  "ebola_status": 1,
+  "consideration": 1
+ },
+ "node_members": {
+  "ebola_infection": [
+   "Ebola virus infection",
+   "Ebola infection"
+  ],
+  "ebola_status": [
+   "health status"
+  ],
+  "consideration": [
+   "consideration"
+  ]
+ },
+ "assign_A": {
+  "Ebola virus infection": 1,
+  "health status": 2,
+  "Ebola infection": 1,
+  "consideration": 7
+ },
+ "assign_B": {
+  "Ebola infection": 1,
+  "Ebola virus infection": 1,
+  "consideration": 7,
+  "health status": 2
+ }
+}

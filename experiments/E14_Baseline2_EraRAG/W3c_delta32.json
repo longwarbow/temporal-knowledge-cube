@@ -1,0 +1,79 @@
+{
+  "N_total": 200,
+  "N0": 40,
+  "delta": 32,
+  "mode": "per_batch_process",
+  "phase0": {
+    "docs": 40,
+    "leaves": 40,
+    "internal": 5,
+    "wall_s": 3.53,
+    "prompt_tokens": 1096,
+    "completion_tokens": 183,
+    "total_tokens": 1279
+  },
+  "batches": [
+    {
+      "N_total": 200,
+      "N0": 40,
+      "delta": 32,
+      "b": 1,
+      "n": 32,
+      "leaves": 72,
+      "internal": 6,
+      "wall_s": 24.11,
+      "batch_tokens": 2177,
+      "batch_tokens_per_doc": 68.03,
+      "cum_tokens": 3456,
+      "cum_wall_s": 27.64
+    },
+    {
+      "N_total": 200,
+      "N0": 40,
+      "delta": 32,
+      "b": 2,
+      "n": 32,
+      "leaves": 104,
+      "internal": 9,
+      "wall_s": 36.57,
+      "batch_tokens": 3367,
+      "batch_tokens_per_doc": 105.22,
+      "cum_tokens": 6823,
+      "cum_wall_s": 64.21
+    },
+    {
+      "N_total": 200,
+      "N0": 40,
+      "delta": 32,
+      "b": 3,
+      "n": 32,
+      "leaves": 136,
+      "internal": 12,
+      "wall_s": 30.98,
+      "batch_tokens": 4001,
+      "batch_tokens_per_doc": 125.03,
+      "cum_tokens": 10824,
+      "cum_wall_s": 95.19
+    }
+  ],
+  "summary": {
+    "batch_count": 3,
+    "final_leaves": 136,
+    "final_internal": 12,
+    "total_wall_s": 95.19,
+    "total_tokens": 10824,
+    "increment_tokens": 9545,
+    "increment_wall_s": 91.66,
+    "tokens_per_doc": 54.12,
+    "wall_per_doc": 0.476
+  },
+  "full_rebuild": {
+    "docs": 200,
+    "leaves": 200,
+    "internal": 23,
+    "wall_s": 102.37,
+    "prompt_tokens": 5814,
+    "completion_tokens": 1101,
+    "total_tokens": 6915
+  }
+}

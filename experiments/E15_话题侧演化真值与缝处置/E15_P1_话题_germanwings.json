@@ -1,0 +1,1877 @@
+{
+ "event": "germanwings",
+ "n_claims": 469,
+ "vocab": {
+  "event": "germanwings",
+  "nodes": [
+   {
+    "node": "aircraft_crash",
+    "desc": "Description of the aircraft crash event."
+   },
+   {
+    "node": "co_pilot_action",
+    "desc": "Actions taken by the co-pilot."
+   },
+   {
+    "node": "deaths_and_survivors",
+    "desc": "Number of deaths and survivors."
+   },
+   {
+    "node": "flight_details",
+    "desc": "Details about the flight."
+   },
+   {
+    "node": "location_and_route",
+    "desc": "Location and route of the flight."
+   },
+   {
+    "node": "media_coverage",
+    "desc": "Media coverage and reactions."
+   },
+   {
+    "node": "pilot_and_crew",
+    "desc": "Information about the pilot and crew."
+   },
+   {
+    "node": "public_reactions",
+    "desc": "Public reactions to the event."
+   },
+   {
+    "node": "regulatory_reactions",
+    "desc": "Regulatory and legal reactions."
+   },
+   {
+    "node": "survivor_details",
+    "desc": "Details about the survivors."
+   },
+   {
+    "node": "weather_conditions",
+    "desc": "Weather conditions at the time of the crash."
+   },
+   {
+    "node": "other",
+    "desc": "Other narrative aspects not covered by the above nodes."
+   }
+  ],
+  "n_label_used": 145,
+  "coverage_pct": 85.1
+ },
+ "min_count": 1,
+ "slices": {
+  "0": {
+   "label": "S1 03-24T10:37→03-24T11:09",
+   "n_threads": 79,
+   "labels": [
+    "crash",
+    "crashes",
+    "passenger count",
+    "loss",
+    "last position",
+    "death toll",
+    "crash location",
+    "positions",
+    "distress call",
+    "possible aircraft",
+    "occurrence",
+    "accident",
+    "crashed",
+    "confirmed",
+    "schedule and status",
+    "disappeared",
+    "flight number",
+    "plane crash",
+    "route map",
+    "latest info",
+    "position reports",
+    "confirmation",
+    "public reaction",
+    "flight tracking data",
+    "plane crashing",
+    "age and delivery date",
+    "SOS message",
+    "video playback",
+    "survivors expected",
+    "jet ownership",
+    "distress signal",
+    "flight path",
+    "flight altitude"
+   ],
+   "counts": {
+    "possible aircraft": 1,
+    "death toll": 2,
+    "occurrence": 1,
+    "crash": 22,
+    "passenger count": 6,
+    "accident": 1,
+    "crashes": 11,
+    "crashed": 1,
+    "confirmed": 1,
+    "loss": 4,
+    "schedule and status": 1,
+    "last position": 4,
+    "disappeared": 1,
+    "flight number": 1,
+    "crash location": 2,
+    "plane crash": 1,
+    "route map": 1,
+    "latest info": 1,
+    "position reports": 1,
+    "confirmation": 1,
+    "public reaction": 1,
+    "flight tracking data": 1,
+    "plane crashing": 1,
+    "age and delivery date": 1,
+    "SOS message": 1,
+    "positions": 2,
+    "video playback": 1,
+    "survivors expected": 1,
+    "distress call": 2,
+    "jet ownership": 1,
+    "distress signal": 1,
+    "flight path": 1,
+    "flight altitude": 1
+   },
+   "node_members": {
+    "aircraft_crash": [
+     "crash",
+     "crashes",
+     "occurrence",
+     "accident",
+     "crashed",
+     "confirmed",
+     "plane crash",
+     "confirmation",
+     "plane crashing"
+    ],
+    "deaths_and_survivors": [
+     "passenger count",
+     "loss",
+     "death toll",
+     "survivors expected"
+    ],
+    "location_and_route": [
+     "last position",
+     "crash location",
+     "positions",
+     "route map",
+     "position reports",
+     "flight tracking data",
+     "flight path"
+    ],
+    "co_pilot_action": [
+     "distress call",
+     "SOS message",
+     "distress signal"
+    ],
+    "flight_details": [
+     "possible aircraft",
+     "schedule and status",
+     "disappeared",
+     "flight number"
+    ],
+    "media_coverage": [
+     "latest info",
+     "video playback"
+    ],
+    "public_reactions": [
+     "public reaction"
+    ],
+    "pilot_and_crew": [
+     "age and delivery date",
+     "jet ownership"
+    ],
+    "weather_conditions": [
+     "flight altitude"
+    ]
+   },
+   "node_threads": {
+    "aircraft_crash": 40,
+    "deaths_and_survivors": 13,
+    "location_and_route": 12,
+    "co_pilot_action": 4,
+    "flight_details": 4,
+    "media_coverage": 2,
+    "public_reactions": 1,
+    "pilot_and_crew": 2,
+    "weather_conditions": 1
+   },
+   "kappa": 0.3346,
+   "kappa_tab": [
+    40,
+    34,
+    66,
+    388
+   ],
+   "po": 0.8106,
+   "n_other": 0
+  },
+  "1": {
+   "label": "S2 03-24T11:10→03-24T11:32",
+   "n_threads": 78,
+   "labels": [
+    "crashes",
+    "death toll",
+    "crash",
+    "public reaction",
+    "altitude & speed",
+    "distress signal",
+    "survivors",
+    "playback availability",
+    "location",
+    "age",
+    "known facts",
+    "survivors expected",
+    "descending rate",
+    "impact speed",
+    "destination",
+    "passenger count",
+    "route",
+    "last recorded movements",
+    "signal loss",
+    "unknowns",
+    "parked",
+    "graph data availability",
+    "condolences",
+    "tragedy",
+    "victims nationality",
+    "search & rescue teams",
+    "news",
+    "normalcy of flight path",
+    "last position",
+    "emergency declaration",
+    "altitude",
+    "missing",
+    "last position report",
+    "debris found",
+    "search and rescue",
+    "all-rnr-threads",
+    "helicopter tracking",
+    "latest reports",
+    "crash location",
+    "takeoff time",
+    "expression of solidarity",
+    "debris location",
+    "first accident",
+    "disappearance"
+   ],
+   "counts": {
+    "survivors expected": 1,
+    "descending rate": 1,
+    "death toll": 8,
+    "survivors": 2,
+    "playback availability": 2,
+    "altitude & speed": 3,
+    "crash": 6,
+    "impact speed": 1,
+    "crashes": 9,
+    "destination": 1,
+    "passenger count": 1,
+    "route": 1,
+    "last recorded movements": 1,
+    "location": 2,
+    "distress signal": 3,
+    "signal loss": 1,
+    "unknowns": 1,
+    "parked": 1,
+    "age": 2,
+    "graph data availability": 1,
+    "condolences": 1,
+    "tragedy": 1,
+    "victims nationality": 1,
+    "search & rescue teams": 1,
+    "known facts": 2,
+    "news": 1,
+    "normalcy of flight path": 1,
+    "public reaction": 6,
+    "last position": 1,
+    "emergency declaration": 1,
+    "altitude": 1,
+    "missing": 1,
+    "last position report": 1,
+    "debris found": 1,
+    "search and rescue": 1,
+    "all-rnr-threads": 1,
+    "helicopter tracking": 1,
+    "latest reports": 1,
+    "crash location": 1,
+    "takeoff time": 1,
+    "expression of solidarity": 1,
+    "debris location": 1,
+    "first accident": 1,
+    "disappearance": 1
+   },
+   "node_members": {
+    "aircraft_crash": [
+     "crashes",
+     "crash"
+    ],
+    "deaths_and_survivors": [
+     "death toll",
+     "survivors",
+     "survivors expected"
+    ],
+    "public_reactions": [
+     "public reaction",
+     "condolences",
+     "tragedy",
+     "expression of solidarity"
+    ],
+    "weather_conditions": [
+     "altitude & speed",
+     "distress signal",
+     "descending rate",
+     "impact speed",
+     "signal loss",
+     "altitude",
+     "last position report",
+     "debris found"
+    ],
+    "other": [
+     "playback availability",
+     "unknowns",
+     "parked",
+     "graph data availability",
+     "first accident",
+     "disappearance"
+    ],
+    "location_and_route": [
+     "location",
+     "destination",
+     "passenger count",
+     "route",
+     "last recorded movements",
+     "normalcy of flight path",
+     "last position",
+     "crash location",
+     "takeoff time",
+     "debris location"
+    ],
+    "survivor_details": [
+     "age",
+     "known facts",
+     "victims nationality",
+     "missing"
+    ],
+    "regulatory_reactions": [
+     "search & rescue teams",
+     "emergency declaration",
+     "search and rescue",
+     "helicopter tracking"
+    ],
+    "media_coverage": [
+     "news",
+     "all-rnr-threads",
+     "latest reports"
+    ]
+   },
+   "node_threads": {
+    "aircraft_crash": 15,
+    "deaths_and_survivors": 11,
+    "public_reactions": 9,
+    "weather_conditions": 12,
+    "other": 7,
+    "location_and_route": 11,
+    "survivor_details": 6,
+    "regulatory_reactions": 4,
+    "media_coverage": 3
+   },
+   "kappa": 0.3376,
+   "kappa_tab": [
+    58,
+    55,
+    99,
+    734
+   ],
+   "po": 0.8372,
+   "n_other": 0
+  },
+  "2": {
+   "label": "S3 03-24T11:32→03-24T11:59",
+   "n_threads": 78,
+   "labels": [
+    "public reaction",
+    "crash",
+    "death toll",
+    "debris location",
+    "survivors",
+    "descent",
+    "route",
+    "age",
+    "signal loss",
+    "pilots call",
+    "thoughts and prayers",
+    "police operation",
+    "airplane crash",
+    "accessibility",
+    "rate of descent",
+    "altitude of debris",
+    "weather conditions",
+    "live updates",
+    "last position data",
+    "thoughts",
+    "last known location",
+    "positions and altitude",
+    "number on board",
+    "altitude",
+    "loop around crash area",
+    "latest",
+    "reliability",
+    "happened to",
+    "spotted altitude",
+    "goes down",
+    "tweets on",
+    "location",
+    "emergency report",
+    "survivors expectation",
+    "crashes",
+    "coverage",
+    "flying over area",
+    "latest updates",
+    "passengers & families",
+    "what we know so far",
+    "news",
+    "occurred",
+    "breaking details",
+    "known facts",
+    "last radar contact",
+    "latest update",
+    "distress call"
+   ],
+   "counts": {
+    "signal loss": 1,
+    "descent": 2,
+    "pilots call": 1,
+    "public reaction": 15,
+    "thoughts and prayers": 1,
+    "police operation": 1,
+    "airplane crash": 1,
+    "accessibility": 1,
+    "rate of descent": 1,
+    "altitude of debris": 1,
+    "crash": 8,
+    "weather conditions": 1,
+    "live updates": 1,
+    "last position data": 1,
+    "death toll": 4,
+    "thoughts": 1,
+    "last known location": 1,
+    "positions and altitude": 1,
+    "debris location": 3,
+    "number on board": 1,
+    "altitude": 1,
+    "loop around crash area": 1,
+    "latest": 1,
+    "reliability": 1,
+    "survivors": 3,
+    "happened to": 1,
+    "spotted altitude": 1,
+    "goes down": 1,
+    "tweets on": 1,
+    "location": 1,
+    "emergency report": 1,
+    "survivors expectation": 1,
+    "crashes": 1,
+    "coverage": 1,
+    "flying over area": 1,
+    "latest updates": 1,
+    "passengers & families": 1,
+    "what we know so far": 1,
+    "route": 2,
+    "age": 2,
+    "news": 1,
+    "occurred": 1,
+    "breaking details": 1,
+    "known facts": 1,
+    "last radar contact": 1,
+    "latest update": 1,
+    "distress call": 1
+   },
+   "node_members": {
+    "public_reactions": [
+     "public reaction",
+     "thoughts and prayers",
+     "thoughts",
+     "survivors expectation",
+     "passengers & families"
+    ],
+    "aircraft_crash": [
+     "crash",
+     "airplane crash",
+     "crashes",
+     "occurred"
+    ],
+    "deaths_and_survivors": [
+     "death toll",
+     "survivors",
+     "number on board"
+    ],
+    "location_and_route": [
+     "debris location",
+     "route",
+     "altitude of debris",
+     "last position data",
+     "last known location",
+     "positions and altitude",
+     "altitude",
+     "loop around crash area",
+     "spotted altitude",
+     "location",
+     "flying over area",
+     "last radar contact"
+    ],
+    "co_pilot_action": [
+     "descent",
+     "signal loss",
+     "pilots call",
+     "rate of descent",
+     "goes down",
+     "co_pilot_action"
+    ],
+    "survivor_details": [
+     "age"
+    ],
+    "regulatory_reactions": [
+     "police operation",
+     "emergency report"
+    ],
+    "weather_conditions": [
+     "weather conditions"
+    ],
+    "media_coverage": [
+     "live updates",
+     "latest",
+     "tweets on",
+     "coverage",
+     "latest updates",
+     "what we know so far",
+     "news",
+     "breaking details",
+     "known facts",
+     "media_coverage"
+    ]
+   },
+   "node_threads": {
+    "public_reactions": 19,
+    "aircraft_crash": 11,
+    "deaths_and_survivors": 8,
+    "location_and_route": 15,
+    "co_pilot_action": 6,
+    "survivor_details": 2,
+    "regulatory_reactions": 2,
+    "weather_conditions": 1,
+    "media_coverage": 9
+   },
+   "kappa": 0.0305,
+   "kappa_tab": [
+    88,
+    54,
+    514,
+    425
+   ],
+   "po": 0.4746,
+   "n_other": 5
+  },
+  "3": {
+   "label": "S4 03-24T12:00→03-24T13:24",
+   "n_threads": 78,
+   "labels": [
+    "death toll",
+    "public reaction",
+    "crash",
+    "survivors",
+    "passenger count",
+    "logo change",
+    "distress call",
+    "last words",
+    "accident",
+    "hotline established",
+    "weather conditions",
+    "flight path",
+    "reported",
+    "No survivors expected",
+    "role in fleet",
+    "pilots' actions",
+    "arrival board",
+    "dark day",
+    "flightpath",
+    "recap",
+    "plunge",
+    "darkening",
+    "crash area photo",
+    "arrival",
+    "response sites",
+    "arrival information",
+    "thoughts",
+    "information telephone",
+    "remote area",
+    "crash time",
+    "crashed",
+    "passenger and crew count",
+    "distress call content",
+    "change",
+    "updated statement",
+    "descent rate",
+    "coverage",
+    "emergency units staging",
+    "arrival of family members",
+    "body recovery",
+    "nationality",
+    "final distress call",
+    "logo color",
+    "presence",
+    "rescue teams",
+    "plunging rate",
+    "rescue operation",
+    "flying"
+   ],
+   "counts": {
+    "reported": 1,
+    "crash": 5,
+    "No survivors expected": 1,
+    "role in fleet": 1,
+    "pilots' actions": 1,
+    "arrival board": 1,
+    "dark day": 1,
+    "survivors": 3,
+    "flightpath": 1,
+    "death toll": 9,
+    "public reaction": 8,
+    "recap": 1,
+    "plunge": 1,
+    "darkening": 1,
+    "crash area photo": 1,
+    "arrival": 1,
+    "logo change": 2,
+    "response sites": 1,
+    "distress call": 2,
+    "arrival information": 1,
+    "passenger count": 3,
+    "last words": 2,
+    "thoughts": 1,
+    "information telephone": 1,
+    "remote area": 1,
+    "crash time": 1,
+    "crashed": 1,
+    "passenger and crew count": 1,
+    "distress call content": 1,
+    "change": 1,
+    "updated statement": 1,
+    "accident": 2,
+    "descent rate": 1,
+    "coverage": 1,
+    "hotline established": 2,
+    "emergency units staging": 1,
+    "arrival of family members": 1,
+    "weather conditions": 2,
+    "body recovery": 1,
+    "nationality": 1,
+    "final distress call": 1,
+    "logo color": 1,
+    "presence": 1,
+    "flight path": 2,
+    "rescue teams": 1,
+    "plunging rate": 1,
+    "rescue operation": 1,
+    "flying": 1
+   },
+   "node_members": {
+    "regulatory_reactions": [
+     "death toll"
+    ],
+    "public_reactions": [
+     "public reaction"
+    ],
+    "location_and_route": [
+     "crash",
+     "flight path",
+     "flightpath"
+    ],
+    "deaths_and_survivors": [
+     "survivors",
+     "passenger count"
+    ],
+    "co_pilot_action": [
+     "logo change",
+     "distress call",
+     "last words",
+     "accident",
+     "hotline established",
+     "pilots' actions",
+     "distress call content",
+     "final distress call"
+    ],
+    "weather_conditions": [
+     "weather conditions",
+     "weather_conditions"
+    ],
+    "aircraft_crash": [
+     "reported",
+     "No survivors expected",
+     "arrival board",
+     "dark day",
+     "recap",
+     "plunge",
+     "darkening",
+     "crash area photo",
+     "arrival",
+     "response sites",
+     "arrival information",
+     "thoughts",
+     "information telephone",
+     "remote area",
+     "crash time",
+     "crashed",
+     "passenger and crew count",
+     "change",
+     "updated statement",
+     "descent rate",
+     "coverage",
+     "emergency units staging",
+     "arrival of family members",
+     "body recovery",
+     "nationality",
+     "logo color",
+     "presence",
+     "rescue teams"
+    ],
+    "pilot_and_crew": [
+     "role in fleet"
+    ],
+    "flight_details": [
+     "flight_details"
+    ]
+   },
+   "node_threads": {
+    "regulatory_reactions": 9,
+    "public_reactions": 8,
+    "location_and_route": 8,
+    "deaths_and_survivors": 6,
+    "co_pilot_action": 13,
+    "weather_conditions": 2,
+    "aircraft_crash": 28,
+    "pilot_and_crew": 1,
+    "flight_details": 0
+   },
+   "kappa": 0.1717,
+   "kappa_tab": [
+    95,
+    318,
+    58,
+    657
+   ],
+   "po": 0.6667,
+   "n_other": 3
+  },
+  "4": {
+   "label": "S5 03-24T13:25→03-26T14:57",
+   "n_threads": 78,
+   "labels": [
+    "distress signal",
+    "death toll",
+    "pilot locked out",
+    "pilot action",
+    "co-pilot identity",
+    "public reaction",
+    "passenger count",
+    "victims nationality",
+    "co-pilot name",
+    "all-rnr-threads",
+    "emergency response",
+    "press conference",
+    "flight path",
+    "last known position",
+    "altitude",
+    "mayday signal",
+    "unfortunate event",
+    "passenger and crew count",
+    "emergency services presence",
+    "possible passengers",
+    "known facts",
+    "location of incident",
+    "descent time",
+    "plane descent",
+    "distress call",
+    "video",
+    "distress call origin",
+    "moving body",
+    "image",
+    "image of",
+    "passenger nationality",
+    "co-pilot action",
+    "locked out",
+    "victims",
+    "pilot staffing",
+    "pilot situation",
+    "attempted re-entry",
+    "names release",
+    "pilots rumored",
+    "intent of copilot",
+    "copilot identity",
+    "perpetrator identity",
+    "co-pilot's name",
+    "identity",
+    "name",
+    "deliberately crashed plane",
+    "FAA commendation",
+    "training history"
+   ],
+   "counts": {
+    "all-rnr-threads": 1,
+    "distress signal": 7,
+    "emergency response": 1,
+    "press conference": 1,
+    "death toll": 6,
+    "flight path": 1,
+    "last known position": 1,
+    "public reaction": 4,
+    "altitude": 1,
+    "mayday signal": 1,
+    "unfortunate event": 1,
+    "passenger and crew count": 1,
+    "emergency services presence": 1,
+    "possible passengers": 1,
+    "passenger count": 2,
+    "known facts": 1,
+    "location of incident": 1,
+    "descent time": 1,
+    "plane descent": 1,
+    "distress call": 1,
+    "video": 1,
+    "distress call origin": 1,
+    "moving body": 1,
+    "image": 1,
+    "image of": 1,
+    "victims nationality": 2,
+    "passenger nationality": 1,
+    "pilot locked out": 6,
+    "co-pilot action": 1,
+    "locked out": 1,
+    "pilot action": 5,
+    "victims": 1,
+    "pilot staffing": 1,
+    "pilot situation": 1,
+    "attempted re-entry": 1,
+    "names release": 1,
+    "pilots rumored": 1,
+    "co-pilot name": 2,
+    "co-pilot identity": 5,
+    "intent of copilot": 1,
+    "copilot identity": 1,
+    "perpetrator identity": 1,
+    "co-pilot's name": 1,
+    "identity": 1,
+    "name": 1,
+    "deliberately crashed plane": 1,
+    "FAA commendation": 1,
+    "training history": 1
+   },
+   "node_members": {
+    "aircraft_crash": [
+     "distress signal",
+     "mayday signal",
+     "unfortunate event",
+     "distress call",
+     "distress call origin"
+    ],
+    "deaths_and_survivors": [
+     "death toll",
+     "passenger count",
+     "victims nationality",
+     "passenger and crew count",
+     "possible passengers",
+     "passenger nationality",
+     "victims"
+    ],
+    "co_pilot_action": [
+     "pilot locked out",
+     "pilot action",
+     "co-pilot action",
+     "locked out",
+     "intent of copilot",
+     "deliberately crashed plane"
+    ],
+    "pilot_and_crew": [
+     "co-pilot identity",
+     "co-pilot name",
+     "pilot staffing",
+     "pilot situation",
+     "copilot identity",
+     "perpetrator identity",
+     "co-pilot's name",
+     "identity",
+     "name",
+     "training history"
+    ],
+    "public_reactions": [
+     "public reaction"
+    ],
+    "location_and_route": [
+     "flight path",
+     "last known position",
+     "altitude",
+     "location of incident",
+     "descent time",
+     "plane descent"
+    ],
+    "regulatory_reactions": [
+     "FAA commendation"
+    ]
+   },
+   "node_threads": {
+    "aircraft_crash": 11,
+    "deaths_and_survivors": 14,
+    "co_pilot_action": 15,
+    "pilot_and_crew": 15,
+    "public_reactions": 4,
+    "location_and_route": 6,
+    "regulatory_reactions": 1
+   },
+   "kappa": 0.3667,
+   "kappa_tab": [
+    71,
+    101,
+    70,
+    886
+   ],
+   "po": 0.8484,
+   "n_other": 12
+  },
+  "5": {
+   "label": "S6 03-26T16:35→03-27T20:17",
+   "n_threads": 78,
+   "labels": [
+    "convert",
+    "convert to Islam",
+    "co-pilot identity",
+    "public reaction",
+    "islamic flag",
+    "co-pilot religion",
+    "depressive episode",
+    "co-pilot condition",
+    "perpetrator identity",
+    "tribute",
+    "battled depression",
+    "co-pilot mental health",
+    "cockpit rules",
+    "cockpit door unlocking",
+    "experts' questions",
+    "known facts",
+    "deliberately crashed",
+    "crashed plane",
+    "black box availability",
+    "heroic action",
+    "legal liabilities",
+    "number of families",
+    "co-pilot action",
+    "black box data release",
+    "pilot presence",
+    "probability in U.S.",
+    "rescuer challenges",
+    "possibility",
+    "deliberate crash",
+    "liability",
+    "response",
+    "flight safety",
+    "recent Muslim convert",
+    "cockpit-security measures",
+    "convert/refugee/offender/record",
+    "religion",
+    "terrorist attack",
+    "muslim convert",
+    "airline policy",
+    "cockpit door design",
+    "depression history",
+    "psychiatric treatment",
+    "suitability for duty",
+    "pilot identity",
+    "depression treatment",
+    "CoPilot identity"
+   ],
+   "counts": {
+    "co-pilot condition": 2,
+    "battled depression": 1,
+    "co-pilot mental health": 1,
+    "cockpit rules": 1,
+    "cockpit door unlocking": 1,
+    "experts' questions": 1,
+    "known facts": 1,
+    "deliberately crashed": 1,
+    "crashed plane": 1,
+    "perpetrator identity": 2,
+    "convert to Islam": 7,
+    "black box availability": 1,
+    "heroic action": 1,
+    "legal liabilities": 1,
+    "number of families": 1,
+    "co-pilot action": 1,
+    "tribute": 2,
+    "black box data release": 1,
+    "pilot presence": 1,
+    "probability in U.S.": 1,
+    "rescuer challenges": 1,
+    "public reaction": 5,
+    "possibility": 1,
+    "islamic flag": 3,
+    "deliberate crash": 1,
+    "liability": 1,
+    "response": 1,
+    "convert": 8,
+    "flight safety": 1,
+    "co-pilot religion": 3,
+    "recent Muslim convert": 1,
+    "cockpit-security measures": 1,
+    "convert/refugee/offender/record": 1,
+    "co-pilot identity": 7,
+    "religion": 1,
+    "terrorist attack": 1,
+    "muslim convert": 1,
+    "airline policy": 1,
+    "cockpit door design": 1,
+    "depression history": 1,
+    "depressive episode": 3,
+    "psychiatric treatment": 1,
+    "suitability for duty": 1,
+    "pilot identity": 1,
+    "depression treatment": 1,
+    "CoPilot identity": 1
+   },
+   "node_members": {
+    "co_pilot_action": [
+     "co-pilot identity",
+     "co-pilot condition",
+     "perpetrator identity",
+     "tribute",
+     "co-pilot action",
+     "co_pilot_action"
+    ],
+    "location_and_route": [
+     "public reaction"
+    ],
+    "deaths_and_survivors": [
+     "islamic flag",
+     "co-pilot religion",
+     "depressive episode",
+     "religion",
+     "terrorist attack",
+     "muslim convert"
+    ],
+    "aircraft_crash": [
+     "battled depression",
+     "co-pilot mental health",
+     "cockpit rules",
+     "cockpit door unlocking",
+     "experts' questions",
+     "known facts",
+     "deliberately crashed",
+     "crashed plane",
+     "black box availability",
+     "heroic action",
+     "legal liabilities",
+     "number of families",
+     "black box data release",
+     "pilot presence",
+     "probability in U.S.",
+     "rescuer challenges",
+     "possibility",
+     "deliberate crash",
+     "liability",
+     "response",
+     "flight safety",
+     "cockpit-security measures",
+     "airline policy",
+     "cockpit door design",
+     "depression history",
+     "psychiatric treatment",
+     "suitability for duty",
+     "pilot identity",
+     "depression treatment"
+    ]
+   },
+   "node_threads": {
+    "co_pilot_action": 14,
+    "location_and_route": 5,
+    "deaths_and_survivors": 12,
+    "aircraft_crash": 29
+   },
+   "kappa": -0.0898,
+   "kappa_tab": [
+    88,
+    353,
+    169,
+    425
+   ],
+   "po": 0.4957,
+   "n_other": 5
+  }
+ },
+ "kappa_mean": 0.1919,
+ "po_mean": 0.6889,
+ "transitions": [
+  {
+   "d1": "S1 03-24T10:37→03-24T11:09",
+   "d2": "S2 03-24T11:10→03-24T11:32",
+   "n_prev": 9,
+   "n_next": 9,
+   "map_A": {},
+   "map_B": {
+    "aircraft_crash": [
+     "aircraft_crash"
+    ],
+    "deaths_and_survivors": [
+     "deaths_and_survivors"
+    ],
+    "location_and_route": [
+     "location_and_route"
+    ],
+    "media_coverage": [
+     "media_coverage"
+    ],
+    "public_reactions": [
+     "public_reactions"
+    ],
+    "regulatory_reactions": [],
+    "survivor_details": [],
+    "weather_conditions": [
+     "weather_conditions"
+    ],
+    "other": []
+   },
+   "ops_A": {
+    "BIRTH": 9,
+    "RETIRE": 9
+   },
+   "ops_B": {
+    "CONTINUE": 6,
+    "BIRTH": 3,
+    "RETIRE": 3
+   },
+   "edges_agree": 0,
+   "edges_disputed": 6,
+   "err": "JSONDecodeError: Extra data: line 1 column 461 (char 460)"
+  },
+  {
+   "d1": "S2 03-24T11:10→03-24T11:32",
+   "d2": "S3 03-24T11:32→03-24T11:59",
+   "n_prev": 9,
+   "n_next": 9,
+   "map_A": {
+    "public_reactions": [
+     "public_reactions",
+     "other"
+    ],
+    "location_and_route": [
+     "location_and_route"
+    ],
+    "aircraft_crash": [
+     "aircraft_crash"
+    ],
+    "media_coverage": [
+     "media_coverage"
+    ],
+    "deaths_and_survivors": [
+     "deaths_and_survivors"
+    ],
+    "co_pilot_action": [],
+    "survivor_details": [],
+    "regulatory_reactions": [],
+    "weather_conditions": []
+   },
+   "map_B": {
+    "co_pilot_action": [],
+    "deaths_and_survivors": [
+     "deaths_and_survivors"
+    ],
+    "location_and_route": [
+     "location_and_route"
+    ],
+    "media_coverage": [
+     "media_coverage"
+    ],
+    "public_reactions": [
+     "public_reactions"
+    ],
+    "regulatory_reactions": [],
+    "survivor_details": [],
+    "weather_conditions": []
+   },
+   "ops_A": {
+    "MERGE": 1,
+    "CONTINUE": 4,
+    "BIRTH": 4,
+    "RETIRE": 3
+   },
+   "ops_B": {
+    "CONTINUE": 4,
+    "BIRTH": 5,
+    "RETIRE": 5
+   },
+   "edges_agree": 4,
+   "edges_disputed": 2,
+   "err": null
+  },
+  {
+   "d1": "S3 03-24T11:32→03-24T11:59",
+   "d2": "S4 03-24T12:00→03-24T13:24",
+   "n_prev": 9,
+   "n_next": 9,
+   "map_A": {
+    "aircraft_crash": [
+     "aircraft_crash",
+     "location_and_route"
+    ],
+    "co_pilot_action": [
+     "co_pilot_action"
+    ],
+    "regulatory_reactions": [
+     "regulatory_reactions"
+    ],
+    "public_reactions": [
+     "public_reactions"
+    ],
+    "location_and_route": [
+     "location_and_route"
+    ],
+    "deaths_and_survivors": [
+     "deaths_and_survivors"
+    ],
+    "weather_conditions": [
+     "weather_conditions"
+    ],
+    "pilot_and_crew": [],
+    "flight_details": []
+   },
+   "map_B": {
+    "aircraft_crash": [
+     "aircraft_crash",
+     "location_and_route"
+    ],
+    "co_pilot_action": [
+     "co_pilot_action"
+    ],
+    "deaths_and_survivors": [
+     "deaths_and_survivors"
+    ],
+    "location_and_route": [
+     "location_and_route"
+    ],
+    "media_coverage": [],
+    "public_reactions": [
+     "public_reactions"
+    ],
+    "regulatory_reactions": [
+     "regulatory_reactions"
+    ],
+    "survivor_details": [],
+    "weather_conditions": [
+     "weather_conditions"
+    ]
+   },
+   "ops_A": {
+    "MERGE": 1,
+    "CONTINUE": 5,
+    "SPLIT": 1,
+    "BIRTH": 2,
+    "RETIRE": 2
+   },
+   "ops_B": {
+    "MERGE": 1,
+    "CONTINUE": 5,
+    "SPLIT": 1,
+    "BIRTH": 2,
+    "RETIRE": 2
+   },
+   "edges_agree": 8,
+   "edges_disputed": 0,
+   "err": null
+  },
+  {
+   "d1": "S4 03-24T12:00→03-24T13:24",
+   "d2": "S5 03-24T13:25→03-26T14:57",
+   "n_prev": 9,
+   "n_next": 7,
+   "map_A": {
+    "co_pilot_action": [
+     "co_pilot_action"
+    ],
+    "pilot_and_crew": [
+     "pilot_and_crew"
+    ],
+    "deaths_and_survivors": [
+     "deaths_and_survivors"
+    ],
+    "aircraft_crash": [
+     "aircraft_crash"
+    ],
+    "location_and_route": [
+     "location_and_route"
+    ],
+    "public_reactions": [],
+    "regulatory_reactions": []
+   },
+   "map_B": {
+    "aircraft_crash": [
+     "aircraft_crash"
+    ],
+    "co_pilot_action": [
+     "co_pilot_action"
+    ],
+    "deaths_and_survivors": [
+     "deaths_and_survivors"
+    ],
+    "location_and_route": [
+     "location_and_route"
+    ],
+    "pilot_and_crew": [
+     "pilot_and_crew"
+    ],
+    "public_reactions": [
+     "public_reactions"
+    ],
+    "regulatory_reactions": []
+   },
+   "ops_A": {
+    "CONTINUE": 5,
+    "BIRTH": 2,
+    "RETIRE": 4
+   },
+   "ops_B": {
+    "CONTINUE": 6,
+    "BIRTH": 1,
+    "RETIRE": 3
+   },
+   "edges_agree": 5,
+   "edges_disputed": 1,
+   "err": null
+  },
+  {
+   "d1": "S5 03-24T13:25→03-26T14:57",
+   "d2": "S6 03-26T16:35→03-27T20:17",
+   "n_prev": 7,
+   "n_next": 4,
+   "map_A": {
+    "aircraft_crash": [
+     "aircraft_crash",
+     "pilot_and_crew"
+    ],
+    "co_pilot_action": [
+     "co_pilot_action"
+    ],
+    "deaths_and_survivors": [
+     "deaths_and_survivors"
+    ],
+    "location_and_route": [
+     "location_and_route"
+    ]
+   },
+   "map_B": {
+    "aircraft_crash": [
+     "aircraft_crash",
+     "location_and_route"
+    ],
+    "co_pilot_action": [],
+    "deaths_and_survivors": [],
+    "location_and_route": []
+   },
+   "ops_A": {
+    "MERGE": 1,
+    "CONTINUE": 3,
+    "RETIRE": 2
+   },
+   "ops_B": {
+    "MERGE": 1,
+    "BIRTH": 3,
+    "RETIRE": 5
+   },
+   "edges_agree": 1,
+   "edges_disputed": 5,
+   "err": null
+  }
+ ],
+ "ops_llm": {
+  "BIRTH": 17,
+  "RETIRE": 20,
+  "MERGE": 3,
+  "CONTINUE": 17,
+  "SPLIT": 1
+ },
+ "det_ops_total": {
+  "CONTINUE": 32,
+  "BIRTH": 6,
+  "RETIRE": 11
+ },
+ "det_per_trans": [
+  {
+   "d1": "S1 03-24T10:37→03-24T11:09",
+   "d2": "S2 03-24T11:10→03-24T11:32",
+   "det": {
+    "CONTINUE": 6,
+    "BIRTH": 3,
+    "RETIRE": 3
+   },
+   "born": [
+    "other",
+    "regulatory_reactions",
+    "survivor_details"
+   ],
+   "retired": [
+    "co_pilot_action",
+    "flight_details",
+    "pilot_and_crew"
+   ]
+  },
+  {
+   "d1": "S2 03-24T11:10→03-24T11:32",
+   "d2": "S3 03-24T11:32→03-24T11:59",
+   "det": {
+    "CONTINUE": 8,
+    "BIRTH": 1,
+    "RETIRE": 1
+   },
+   "born": [
+    "co_pilot_action"
+   ],
+   "retired": [
+    "other"
+   ]
+  },
+  {
+   "d1": "S3 03-24T11:32→03-24T11:59",
+   "d2": "S4 03-24T12:00→03-24T13:24",
+   "det": {
+    "CONTINUE": 7,
+    "BIRTH": 2,
+    "RETIRE": 2
+   },
+   "born": [
+    "flight_details",
+    "pilot_and_crew"
+   ],
+   "retired": [
+    "media_coverage",
+    "survivor_details"
+   ]
+  },
+  {
+   "d1": "S4 03-24T12:00→03-24T13:24",
+   "d2": "S5 03-24T13:25→03-26T14:57",
+   "det": {
+    "CONTINUE": 7,
+    "BIRTH": 0,
+    "RETIRE": 2
+   },
+   "born": [],
+   "retired": [
+    "flight_details",
+    "weather_conditions"
+   ]
+  },
+  {
+   "d1": "S5 03-24T13:25→03-26T14:57",
+   "d2": "S6 03-26T16:35→03-27T20:17",
+   "det": {
+    "CONTINUE": 4,
+    "BIRTH": 0,
+    "RETIRE": 3
+   },
+   "born": [],
+   "retired": [
+    "pilot_and_crew",
+    "public_reactions",
+    "regulatory_reactions"
+   ]
+  }
+ ],
+ "node_lifespan": {
+  "media_coverage": {
+   "first": "S1 03-24T10:37→03-24T11:09",
+   "last": "S3 03-24T11:32→03-24T11:59",
+   "n_slices": 3,
+   "threads": [
+    2,
+    3,
+    9,
+    0,
+    0,
+    0
+   ]
+  },
+  "survivor_details": {
+   "first": "S2 03-24T11:10→03-24T11:32",
+   "last": "S3 03-24T11:32→03-24T11:59",
+   "n_slices": 2,
+   "threads": [
+    0,
+    6,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  "weather_conditions": {
+   "first": "S1 03-24T10:37→03-24T11:09",
+   "last": "S4 03-24T12:00→03-24T13:24",
+   "n_slices": 4,
+   "threads": [
+    1,
+    12,
+    1,
+    2,
+    0,
+    0
+   ]
+  },
+  "aircraft_crash": {
+   "first": "S1 03-24T10:37→03-24T11:09",
+   "last": "S6 03-26T16:35→03-27T20:17",
+   "n_slices": 6,
+   "threads": [
+    40,
+    15,
+    11,
+    28,
+    11,
+    29
+   ]
+  },
+  "other": {
+   "first": "S2 03-24T11:10→03-24T11:32",
+   "last": "S2 03-24T11:10→03-24T11:32",
+   "n_slices": 1,
+   "threads": [
+    0,
+    7,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "deaths_and_survivors": {
+   "first": "S1 03-24T10:37→03-24T11:09",
+   "last": "S6 03-26T16:35→03-27T20:17",
+   "n_slices": 6,
+   "threads": [
+    13,
+    11,
+    8,
+    6,
+    14,
+    12
+   ]
+  },
+  "co_pilot_action": {
+   "first": "S1 03-24T10:37→03-24T11:09",
+   "last": "S6 03-26T16:35→03-27T20:17",
+   "n_slices": 5,
+   "threads": [
+    4,
+    0,
+    6,
+    13,
+    15,
+    14
+   ]
+  },
+  "flight_details": {
+   "first": "S1 03-24T10:37→03-24T11:09",
+   "last": "S4 03-24T12:00→03-24T13:24",
+   "n_slices": 2,
+   "threads": [
+    4,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "public_reactions": {
+   "first": "S1 03-24T10:37→03-24T11:09",
+   "last": "S5 03-24T13:25→03-26T14:57",
+   "n_slices": 5,
+   "threads": [
+    1,
+    9,
+    19,
+    8,
+    4,
+    0
+   ]
+  },
+  "pilot_and_crew": {
+   "first": "S1 03-24T10:37→03-24T11:09",
+   "last": "S5 03-24T13:25→03-26T14:57",
+   "n_slices": 3,
+   "threads": [
+    2,
+    0,
+    0,
+    1,
+    15,
+    0
+   ]
+  },
+  "location_and_route": {
+   "first": "S1 03-24T10:37→03-24T11:09",
+   "last": "S6 03-26T16:35→03-27T20:17",
+   "n_slices": 6,
+   "threads": [
+    12,
+    11,
+    15,
+    8,
+    6,
+    5
+   ]
+  },
+  "regulatory_reactions": {
+   "first": "S2 03-24T11:10→03-24T11:32",
+   "last": "S5 03-24T13:25→03-26T14:57",
+   "n_slices": 4,
+   "threads": [
+    0,
+    4,
+    2,
+    9,
+    1,
+    0
+   ]
+  }
+ },
+ "anchor": {
+  "born_nodes": [
+   "co_pilot_action",
+   "flight_details",
+   "other",
+   "pilot_and_crew",
+   "regulatory_reactions",
+   "survivor_details"
+  ],
+  "continue_nodes": [
+   "aircraft_crash",
+   "co_pilot_action",
+   "deaths_and_survivors",
+   "flight_details",
+   "location_and_route",
+   "media_coverage",
+   "pilot_and_crew",
+   "public_reactions",
+   "regulatory_reactions",
+   "survivor_details",
+   "weather_conditions"
+  ],
+  "ver_born": {
+   "1": 28,
+   "2": 9,
+   "null": 33,
+   "0": 35
+  },
+  "ver_continue": {
+   "0": 90,
+   "2": 33,
+   "1": 92,
+   "null": 209
+  }
+ },
+ "veracity_anchor": {
+  "S1 03-24T10:37→03-24T11:09": {
+   "aircraft_crash": {
+    "0": 23,
+    "2": 6,
+    "1": 8,
+    "null": 3
+   },
+   "deaths_and_survivors": {
+    "1": 6,
+    "null": 1,
+    "2": 4,
+    "0": 2
+   },
+   "location_and_route": {
+    "2": 2,
+    "0": 2,
+    "null": 8
+   },
+   "co_pilot_action": {
+    "1": 4
+   },
+   "flight_details": {
+    "2": 4
+   },
+   "media_coverage": {
+    "0": 1,
+    "null": 1
+   },
+   "public_reactions": {
+    "null": 1
+   },
+   "pilot_and_crew": {
+    "null": 2
+   },
+   "weather_conditions": {
+    "2": 1
+   }
+  },
+  "S2 03-24T11:10→03-24T11:32": {
+   "aircraft_crash": {
+    "1": 6,
+    "0": 2,
+    "null": 7
+   },
+   "deaths_and_survivors": {
+    "0": 7,
+    "1": 3,
+    "null": 1
+   },
+   "public_reactions": {
+    "null": 9
+   },
+   "weather_conditions": {
+    "0": 3,
+    "null": 5,
+    "1": 3,
+    "2": 1
+   },
+   "other": {
+    "null": 7
+   },
+   "location_and_route": {
+    "2": 1,
+    "1": 1,
+    "null": 9
+   },
+   "survivor_details": {
+    "null": 6
+   },
+   "regulatory_reactions": {
+    "null": 3,
+    "1": 1
+   },
+   "media_coverage": {
+    "null": 3
+   }
+  },
+  "S3 03-24T11:32→03-24T11:59": {
+   "public_reactions": {
+    "null": 19
+   },
+   "aircraft_crash": {
+    "null": 8,
+    "1": 3
+   },
+   "deaths_and_survivors": {
+    "1": 4,
+    "0": 2,
+    "null": 2
+   },
+   "location_and_route": {
+    "null": 15
+   },
+   "co_pilot_action": {
+    "2": 1,
+    "null": 2,
+    "1": 1,
+    "0": 2
+   },
+   "survivor_details": {
+    "null": 2
+   },
+   "regulatory_reactions": {
+    "null": 1,
+    "1": 1
+   },
+   "weather_conditions": {
+    "null": 1
+   },
+   "media_coverage": {
+    "null": 9
+   }
+  },
+  "S4 03-24T12:00→03-24T13:24": {
+   "regulatory_reactions": {
+    "1": 5,
+    "0": 4
+   },
+   "public_reactions": {
+    "null": 8
+   },
+   "location_and_route": {
+    "1": 3,
+    "null": 5
+   },
+   "deaths_and_survivors": {
+    "null": 2,
+    "1": 2,
+    "0": 2
+   },
+   "co_pilot_action": {
+    "1": 7,
+    "null": 4,
+    "0": 1,
+    "2": 1
+   },
+   "weather_conditions": {
+    "null": 2
+   },
+   "aircraft_crash": {
+    "null": 24,
+    "0": 4
+   },
+   "pilot_and_crew": {
+    "null": 1
+   },
+   "flight_details": {}
+  },
+  "S5 03-24T13:25→03-26T14:57": {
+   "aircraft_crash": {
+    "1": 10,
+    "null": 1
+   },
+   "deaths_and_survivors": {
+    "null": 4,
+    "1": 5,
+    "0": 5
+   },
+   "co_pilot_action": {
+    "0": 15
+   },
+   "pilot_and_crew": {
+    "null": 1,
+    "0": 13,
+    "2": 1
+   },
+   "public_reactions": {
+    "null": 4
+   },
+   "location_and_route": {
+    "null": 4,
+    "0": 2
+   },
+   "regulatory_reactions": {
+    "1": 1
+   }
+  },
+  "S6 03-26T16:35→03-27T20:17": {
+   "co_pilot_action": {
+    "2": 2,
+    "null": 4,
+    "1": 8
+   },
+   "location_and_route": {
+    "null": 4,
+    "1": 1
+   },
+   "deaths_and_survivors": {
+    "1": 8,
+    "null": 1,
+    "2": 3
+   },
+   "aircraft_crash": {
+    "2": 6,
+    "null": 22,
+    "1": 1
+   }
+  }
+ }
+}

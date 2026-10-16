@@ -1,0 +1,35 @@
+事件流 N = 1278493 ｜ 每配置重复 3 次取中位数
+
+[0] 忠实性自检（与 E1 逐 cell 比对 + cells 外部对标）
+    内部：13 个检查点全部 0 差异 = True
+    外部：E1 total_cells=4626 vs E16=4626 -> True
+
+[A] 稳态增量吞吐（全流单次通过）×3
+    第1次 1.958s  1.53 µs/event  峰值RSS 347 MB
+    第2次 1.952s  1.53 µs/event  峰值RSS 347 MB
+    第3次 1.962s  1.53 µs/event  峰值RSS 347 MB
+    ⇒ median 1.958s ｜ min 1.952s
+
+[B] 重建标度律 ×3
+       10% N=127849    median 0.194s (min 0.191s)  峰值RSS 173 MB
+       25% N=319623    median 0.475s (min 0.471s)  峰值RSS 201 MB
+       50% N=639246    median 0.973s (min 0.971s)  峰值RSS 251 MB
+       75% N=958869    median 1.482s (min 1.475s)  峰值RSS 307 MB
+      100% N=1278493   median 1.965s (min 1.946s)  峰值RSS 346 MB
+
+[C] 增量 vs 重建：固定追加比 Δ=1%N ×3
+    P=127849    Δ=12784  inc 0.0170s vs rebuild 0.192s = 11.2× (单元 11.0×)
+    P=319623    Δ=12784  inc 0.0196s vs rebuild 0.462s = 23.5× (单元 26.0×)
+    P=639246    Δ=12784  inc 0.0201s vs rebuild 0.938s = 46.6× (单元 51.0×)
+    P=958869    Δ=12784  inc 0.0195s vs rebuild 1.491s = 78.2× (单元 76.0×)
+
+[D] 峰值 Python 堆（tracemalloc，独立一遍）
+    25% 峰值堆 48 MB  cells=1237
+    100% 峰值堆 190 MB  cells=4626
+
+[E] 归因：为什么 E16 的绝对耗时低于 E1 的原始读数 ×3
+    ab_interned_1cube      median 2.033s (min 2.020s)  峰值RSS 347 MB
+    ab_fresh_1cube         median 2.178s (min 2.117s)  峰值RSS 721 MB
+    ab_interned_2cube      median 2.169s (min 2.053s)  峰值RSS 542 MB
+
+DONE -> E16_报告.md / e16_results.json / e16_scaling.csv

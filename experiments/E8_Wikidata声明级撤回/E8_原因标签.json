@@ -1,0 +1,1170 @@
+{
+ "http://www.wikidata.org/entity/Q104172943": [
+  "person died before they were born",
+  "在出生前就去世之人"
+ ],
+ "http://www.wikidata.org/entity/Q11184": [
+  "Julian calendar",
+  "儒略曆"
+ ],
+ "http://www.wikidata.org/entity/Q104378399": [
+  "dubious",
+  "存疑"
+ ],
+ "http://www.wikidata.org/entity/Q104671559": [
+  "statement refers to status when the source was printed",
+  "只適用於參考來源出版時的當下"
+ ],
+ "http://www.wikidata.org/entity/Q105675146": [
+  "misattribution",
+  "归属错误"
+ ],
+ "http://www.wikidata.org/entity/Q105709687": [
+  "imprecise value",
+  "值欠精準"
+ ],
+ "http://www.wikidata.org/entity/Q105812742": [
+  "incorrect identification",
+  "识别错误"
+ ],
+ "http://www.wikidata.org/entity/Q106860610": [
+  "wrong reconciliation of a text string",
+  "文本字符串匹配错误"
+ ],
+ "http://www.wikidata.org/entity/Q107217620": [
+  "unsubstantiated",
+  "缺乏实据"
+ ],
+ "http://www.wikidata.org/entity/Q107278014": [
+  "improper use of Wikidata property",
+  "维基数据属性使用错误"
+ ],
+ "http://www.wikidata.org/entity/Q107356532": [
+  "obsolete",
+  "已废弃"
+ ],
+ "http://www.wikidata.org/entity/Q108180274": [
+  "marking inconsistent with the registered/official identifier/name",
+  "標記與官方或註冊標識符/名稱不一致"
+ ],
+ "http://www.wikidata.org/entity/Q110646418": [
+  "wrong property",
+  "错误属性"
+ ],
+ "http://www.wikidata.org/entity/Q112619903": [
+  "non-standard format",
+  "非标准格式"
+ ],
+ "http://www.wikidata.org/entity/Q112943271": [
+  "disfavored",
+  "不推荐使用"
+ ],
+ "http://www.wikidata.org/entity/Q113202767": [
+  "at the specified time, this entity may or may not have existed",
+  "在指定时间点，该实体可能尚不存在（或已不存在）"
+ ],
+ "http://www.wikidata.org/entity/Q100148250": [
+  "located outside borders",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q103841141": [
+  "statement no longer current",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q104976733": [
+  "did not take office",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q106466760": [
+  "manipulation",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q106980928": [
+  "refers to narrower subject",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q107379991": [
+  "identifier not suitable for entity",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q107661232": [
+  "data import into Wikidata",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q107710355": [
+  "refutes",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q107724711": [
+  "minority claim",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q107745632": [
+  "cancelled event due World War II",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q107883259": [
+  "",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q108673994": [
+  "resigned before taking office",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q108698260": [
+  "life sign of author",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q109324480": [
+  "not married",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q110161795": [
+  "conversion error from Japanese calendar to Gregorian calendar",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q110723780": [
+  "former quality",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q110770329": [
+  "former entity",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q110825039": [
+  "found dead",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q111149276": [
+  "not confirmed by birth records",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q111189544": [
+  "not confirmed by death records",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q111472389": [
+  "the person mentioned on the tombstone in memoriam only",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q111949588": [
+  "retconning",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q112658223": [
+  "unreliability",
+  ""
+ ],
+ "http://www.wikidata.org/entity/8715111bcea8f93b9df0f46da7ef1fc8": [
+  "",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q11471": [
+  "time",
+  "时间"
+ ],
+ "http://www.wikidata.org/entity/Q1136723": [
+  "usurper",
+  "篡位"
+ ],
+ "http://www.wikidata.org/entity/Q12143": [
+  "time zone",
+  "时区"
+ ],
+ "http://www.wikidata.org/entity/Q1193907": [
+  "link rot",
+  "失效連結"
+ ],
+ "http://www.wikidata.org/entity/Q1263068": [
+  "duplicate entry",
+  "重複款目"
+ ],
+ "http://www.wikidata.org/entity/Q1282201": [
+  "stepfather",
+  "繼父"
+ ],
+ "http://www.wikidata.org/entity/Q114342413": [
+  "cancelled event",
+  "取消的活动"
+ ],
+ "http://www.wikidata.org/entity/Q116865917": [
+  "identifier transferred to another (newer) object",
+  "标识符已转移到另一个（较新的）对象"
+ ],
+ "http://www.wikidata.org/entity/Q12780996": [
+  "disestablishment",
+  "废除"
+ ],
+ "http://www.wikidata.org/entity/Q13002315": [
+  "legendary figure",
+  "传奇人物"
+ ],
+ "http://www.wikidata.org/entity/Q1140419": [
+  "ambiguity",
+  "模棱两可"
+ ],
+ "http://www.wikidata.org/entity/Q118134102": [
+  "not all instances of the item are instances of the value class",
+  "项目并非所有实例皆属目標分类"
+ ],
+ "http://www.wikidata.org/entity/Q120142975": [
+  "not confirmed by source",
+  "来源中未提及"
+ ],
+ "http://www.wikidata.org/entity/Q124405743": [
+  "self reported data",
+  "自我报告数据"
+ ],
+ "http://www.wikidata.org/entity/Q126598282": [
+  "cannot be confirmed by the authoritative source",
+  "无法得到权威来源证实"
+ ],
+ "http://www.wikidata.org/entity/Q126720803": [
+  "AI slop",
+  "AI垃圾"
+ ],
+ "http://www.wikidata.org/entity/Q113446310": [
+  "USPS recommended city name",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q113973409": [
+  "lying",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q113989762": [
+  "no primary source",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q115910133": [
+  "restricted validity",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q116604938": [
+  "date incompletely specified (ICZN)",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q116728848": [
+  "",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q116783102": [
+  "closed",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q117259237": [
+  "deprecated by source",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q117360096": [
+  "strikethrough",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q117456886": [
+  "not necessarily the place of death, but where the person was registered at the time of death",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q117804062": [
+  "inversion between day and month in date",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q120542878": [
+  "true only for parts of this item",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q121085832": [
+  "oversimplification",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q122413235": [
+  "not confirmed by Swedish household records",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q122893363": [
+  "needs references",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q123219796": [
+  "not necessarily the place of birth, but where the person was registered at the time of birth",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q123502599": [
+  "not confirmed by estate inventory",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q124173200": [
+  "source is not considered canonical",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q124302134": [
+  "approximation",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q125352119": [
+  "denial of paternity",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q126101554": [
+  "use of too unspecific value for this item",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q126366708": [
+  "misinterpretation",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q126370941": [
+  "fictional value",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q127499774": [
+  "at the specified time, this entity did not contain the more specific item/place",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q1713": [
+  "citation",
+  "参考文献"
+ ],
+ "http://www.wikidata.org/entity/Q132555": [
+  "de jure",
+  "de jure"
+ ],
+ "http://www.wikidata.org/entity/Q170028": [
+  "deception",
+  "欺骗"
+ ],
+ "http://www.wikidata.org/entity/Q170306": [
+  "German Revolution of 1918–1919",
+  "德国十一月革命"
+ ],
+ "http://www.wikidata.org/entity/Q1302249": [
+  "cross-reference",
+  "交互参照"
+ ],
+ "http://www.wikidata.org/entity/Q1332286": [
+  "forgery",
+  "偽造"
+ ],
+ "http://www.wikidata.org/entity/Q1361583": [
+  "goof",
+  "穿幫"
+ ],
+ "http://www.wikidata.org/entity/Q13168732": [
+  "transposition",
+  "转座"
+ ],
+ "http://www.wikidata.org/entity/Q13579947": [
+  "misinformation",
+  "錯誤資訊"
+ ],
+ "http://www.wikidata.org/entity/Q13649246": [
+  "uncertainty",
+  "不确定"
+ ],
+ "http://www.wikidata.org/entity/Q14820227": [
+  "circular reporting",
+  "循环报道"
+ ],
+ "http://www.wikidata.org/entity/Q14946528": [
+  "conflation",
+  "混淆"
+ ],
+ "http://www.wikidata.org/entity/Q15893266": [
+  "former entity",
+  "前实体"
+ ],
+ "http://www.wikidata.org/entity/Q16886573": [
+  "implausibility",
+  "不可信"
+ ],
+ "http://www.wikidata.org/entity/Q17024293": [
+  "misunderstanding",
+  "误解"
+ ],
+ "http://www.wikidata.org/entity/Q17276484": [
+  "later homonym",
+  "晚出同名"
+ ],
+ "http://www.wikidata.org/entity/Q130572475": [
+  "imprecise identification",
+  "不精确的识别"
+ ],
+ "http://www.wikidata.org/entity/Q136467612": [
+  "did not play",
+  "沒有出賽紀錄"
+ ],
+ "http://www.wikidata.org/entity/Q140641": [
+  "transposition error",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q130285291": [
+  "source is unclear",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q130552635": [
+  "false belief",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q131438897": [
+  "the estimate of merit can be replaced by a more accurate indication of a reliable source",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q132239553": [
+  "information in source does not directly imply this statement",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q133801556": [
+  "not confirm by marriage register",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q134581413": [
+  "more precise property available",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q135375933": [
+  "mistaken inference",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q135656121": [
+  "incorrect transposition of date elements",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q135668071": [
+  "date with year precision imported or interpreted with false precision",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q136036732": [
+  "based on source(s) with ambiguous information",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q136231056": [
+  "conversion error from Islamic calendar to Julian calendar",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q136719448": [
+  "accepted by the educational institution, but did not attend",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q137210569": [
+  "invalid date",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q138081522": [
+  "post town does not match geographical location",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q138605352": [
+  "place of residence before death is not necessarily the place of death",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q139008438": [
+  "birthplace versus hometown",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q139854683": [
+  "withdrawn statement",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q140763818": [
+  "better source needed",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q141102376": [
+  "Wikimedia Volunteer Response Team System",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q141129710": [
+  "conversion error from Buddhist to Gregorian calendar",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q141519488": [
+  "confusion between vitals dates and period of activity",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q186150": [
+  "fallacy",
+  "謬誤"
+ ],
+ "http://www.wikidata.org/entity/Q189203": [
+  "anachronism",
+  "时代错置"
+ ],
+ "http://www.wikidata.org/entity/Q17949": [
+  "false statement",
+  "虛假陳述"
+ ],
+ "http://www.wikidata.org/entity/Q190084": [
+  "hoax",
+  "惡作劇"
+ ],
+ "http://www.wikidata.org/entity/Q202722": [
+  "consensus",
+  "共識"
+ ],
+ "http://www.wikidata.org/entity/Q180472": [
+  "adoption",
+  "收養"
+ ],
+ "http://www.wikidata.org/entity/Q1922815": [
+  "Old Style and New Style dates",
+  "旧历和新历"
+ ],
+ "http://www.wikidata.org/entity/Q1984758": [
+  "misspelling",
+  "拼写错误"
+ ],
+ "http://www.wikidata.org/entity/Q203443": [
+  "tombstone",
+  "墓碑"
+ ],
+ "http://www.wikidata.org/entity/Q220888": [
+  "falsifiability",
+  "可证伪性"
+ ],
+ "http://www.wikidata.org/entity/Q2478595": [
+  "conversion between Julian and Gregorian calendars",
+  "儒略曆與公曆之間的轉換"
+ ],
+ "http://www.wikidata.org/entity/Q2492572": [
+  "uncitedness",
+  "缺少參考文獻"
+ ],
+ "http://www.wikidata.org/entity/Q2496920": [
+  "uncertain knowledge",
+  "不确定的知识"
+ ],
+ "http://www.wikidata.org/entity/Q17362920": [
+  "Wikimedia duplicated page",
+  "維基媒體重複頁面"
+ ],
+ "http://www.wikidata.org/entity/Q2389905": [
+  "date of birth",
+  "出生日期"
+ ],
+ "http://www.wikidata.org/entity/Q2438528": [
+  "death notice",
+  "死亡告知"
+ ],
+ "http://www.wikidata.org/entity/Q18912752": [
+  "disputed",
+  "有争议"
+ ],
+ "http://www.wikidata.org/entity/Q19357621": [
+  "impossibility",
+  "不可能性"
+ ],
+ "http://www.wikidata.org/entity/Q20734200": [
+  "not completed",
+  "未完成"
+ ],
+ "http://www.wikidata.org/entity/Q2051704": [
+  "false memory",
+  "虛假記憶"
+ ],
+ "http://www.wikidata.org/entity/Q18195782": [
+  "unspecified calendar",
+  "未指定历法"
+ ],
+ "http://www.wikidata.org/entity/Q18674452": [
+  "cancellation",
+  "解約"
+ ],
+ "http://www.wikidata.org/entity/Q21096955": [
+  "misprint",
+  "印刷错误"
+ ],
+ "http://www.wikidata.org/entity/Q21097017": [
+  "possibly approximate value",
+  "可能是近似值"
+ ],
+ "http://www.wikidata.org/entity/Q21097088": [
+  "misassociation",
+  "错误关联"
+ ],
+ "http://www.wikidata.org/entity/Q21124171": [
+  "person found to be alive",
+  "發現該人還活著"
+ ],
+ "http://www.wikidata.org/entity/Q21655367": [
+  "not been able to confirm this claim",
+  "无法证实该说法"
+ ],
+ "http://www.wikidata.org/entity/Q21683863": [
+  "obsolete version",
+  "过时版本"
+ ],
+ "http://www.wikidata.org/entity/Q21701659": [
+  "homonymy",
+  "同音或同形异义"
+ ],
+ "http://www.wikidata.org/entity/Q22296213": [
+  "algorithmic failure",
+  "算法出错"
+ ],
+ "http://www.wikidata.org/entity/Q20746725": [
+  "adopted son",
+  "養子"
+ ],
+ "http://www.wikidata.org/entity/Q20990956": [
+  "two persons with the same name or a similar name",
+  "姓名相同或相似之两人"
+ ],
+ "http://www.wikidata.org/entity/Q21441764": [
+  "withdrawn identifier value",
+  "已撤销的标识符值"
+ ],
+ "http://www.wikidata.org/entity/Q21514702": [
+  "abandoned project",
+  "廢棄計畫"
+ ],
+ "http://www.wikidata.org/entity/Q22979588": [
+  "source known to be unreliable",
+  "已知来源不可靠"
+ ],
+ "http://www.wikidata.org/entity/Q23009439": [
+  "replacement",
+  "替换"
+ ],
+ "http://www.wikidata.org/entity/Q24238356": [
+  "unknown",
+  "不明"
+ ],
+ "http://www.wikidata.org/entity/Q1759270": [
+  "speculation",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q1898510": [
+  "exhumation",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q21557777": [
+  "announcement of death",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q25245": [
+  "2016",
+  "2016年"
+ ],
+ "http://www.wikidata.org/entity/Q28813": [
+  "fraud",
+  "詐騙"
+ ],
+ "http://www.wikidata.org/entity/Q29485": [
+  "error",
+  "錯誤"
+ ],
+ "http://www.wikidata.org/entity/Q272035": [
+  "accuracy and precision",
+  "準確與精密"
+ ],
+ "http://www.wikidata.org/entity/Q41719": [
+  "hypothesis",
+  "假說"
+ ],
+ "http://www.wikidata.org/entity/Q321053": [
+  "cenotaph",
+  "慰靈碑"
+ ],
+ "http://www.wikidata.org/entity/Q325026": [
+  "Anacharsis",
+  "阿纳卡哈尔西斯"
+ ],
+ "http://www.wikidata.org/entity/Q331055": [
+  "burial",
+  "土葬"
+ ],
+ "http://www.wikidata.org/entity/Q363948": [
+  "logical contradiction",
+  "矛盾"
+ ],
+ "http://www.wikidata.org/entity/Q393148": [
+  "aggadah",
+  "阿加達"
+ ],
+ "http://www.wikidata.org/entity/Q2918584": [
+  "relocation",
+  "動遷"
+ ],
+ "http://www.wikidata.org/entity/Q3245245": [
+  "Data Deficient",
+  "数据缺乏"
+ ],
+ "http://www.wikidata.org/entity/Q3467464": [
+  "false precision",
+  "虚假精度"
+ ],
+ "http://www.wikidata.org/entity/Q3497674": [
+  "redshirt",
+  "紅衫球員"
+ ],
+ "http://www.wikidata.org/entity/Q3544030": [
+  "citation needed",
+  "來源請求"
+ ],
+ "http://www.wikidata.org/entity/Q3962655": [
+  "opinion",
+  "意見"
+ ],
+ "http://www.wikidata.org/entity/Q4146861": [
+  "Hijri year",
+  "Hijri曆"
+ ],
+ "http://www.wikidata.org/entity/Q25235916": [
+  "election result invalidated",
+  "选举结果无效"
+ ],
+ "http://www.wikidata.org/entity/Q25796498": [
+  "contemporary constraint",
+  "当代约束"
+ ],
+ "http://www.wikidata.org/entity/Q25895909": [
+  "cannot be confirmed by other sources",
+  "无法通过其他来源证实"
+ ],
+ "http://www.wikidata.org/entity/Q26256296": [
+  "rectification",
+  "校正"
+ ],
+ "http://www.wikidata.org/entity/Q27055388": [
+  "specified date of both Julian and Gregorian calendar",
+  "同时符合儒略历和格里历的指定日期"
+ ],
+ "http://www.wikidata.org/entity/Q27988255": [
+  "concerns a superclass of this item",
+  "该项目涉及一个超类"
+ ],
+ "http://www.wikidata.org/entity/Q28091153": [
+  "refers to different subject",
+  "指向了不同的主体"
+ ],
+ "http://www.wikidata.org/entity/Q28831311": [
+  "unconfirmed",
+  "未经证实"
+ ],
+ "http://www.wikidata.org/entity/Q29509080": [
+  "unofficial",
+  "非官方"
+ ],
+ "http://www.wikidata.org/entity/Q29569274": [
+  "former name",
+  "曾用名"
+ ],
+ "http://www.wikidata.org/entity/Q29998666": [
+  "error in referenced source or sources",
+  "参考来源有错"
+ ],
+ "http://www.wikidata.org/entity/Q41755623": [
+  "incorrect value",
+  "錯誤值"
+ ],
+ "http://www.wikidata.org/entity/Q30108381": [
+  "cancelled",
+  "已取消"
+ ],
+ "http://www.wikidata.org/entity/Q35773207": [
+  "refers to different person",
+  "指的是其他人"
+ ],
+ "http://www.wikidata.org/entity/Q35779580": [
+  "possibly invalid entry requiring further references",
+  "可能无效且需要进一步参考资料证明的实体"
+ ],
+ "http://www.wikidata.org/entity/Q35966949": [
+  "date of baptism",
+  "受洗日期"
+ ],
+ "http://www.wikidata.org/entity/Q2920228": [
+  "not proven",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q3346484": [
+  "nonformal learning",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q3847033": [
+  "error",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q25345174": [
+  "common misconception",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q26252351": [
+  "nomination declined",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q27229605": [
+  "moved",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q28846358": [
+  "project cancellation",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q6160": [
+  "vandalism",
+  "財產破坏"
+ ],
+ "http://www.wikidata.org/entity/Q44342": [
+  "legend",
+  "傳說"
+ ],
+ "http://www.wikidata.org/entity/Q428632": [
+  "scientific misconduct",
+  "科學不端行為"
+ ],
+ "http://www.wikidata.org/entity/Q464858": [
+  "demotion",
+  "降職"
+ ],
+ "http://www.wikidata.org/entity/Q483454": [
+  "Anachronox",
+  "星际之门"
+ ],
+ "http://www.wikidata.org/entity/Q47307": [
+  "genealogy",
+  "系譜學"
+ ],
+ "http://www.wikidata.org/entity/Q504703": [
+  "seminar",
+  "講座"
+ ],
+ "http://www.wikidata.org/entity/Q600499": [
+  "nonsense",
+  "廢話"
+ ],
+ "http://www.wikidata.org/entity/Q560361": [
+  "draft document",
+  "草稿"
+ ],
+ "http://www.wikidata.org/entity/Q579716": [
+  "user-generated content",
+  "用户生成内容"
+ ],
+ "http://www.wikidata.org/entity/Q557945": [
+  "mental confusion",
+  "神智混亂"
+ ],
+ "http://www.wikidata.org/entity/Q559618": [
+  "fictional universe",
+  "虛構世界"
+ ],
+ "http://www.wikidata.org/entity/Q4663389": [
+  "policy on material about living persons on a Wikimedia content project",
+  "Wikipedia:生者傳記"
+ ],
+ "http://www.wikidata.org/entity/Q4663914": [
+  "Wikipedia:Reliable sources",
+  "Wikipedia:可靠来源"
+ ],
+ "http://www.wikidata.org/entity/Q4691861": [
+  "age fabrication",
+  "年齡造假"
+ ],
+ "http://www.wikidata.org/entity/Q4695151": [
+  "ahistoricism",
+  "非歷史主義"
+ ],
+ "http://www.wikidata.org/entity/Q4925193": [
+  "lie",
+  "谎言"
+ ],
+ "http://www.wikidata.org/entity/Q5428139": [
+  "fabrication of data",
+  "捏造数据"
+ ],
+ "http://www.wikidata.org/entity/Q5431499": [
+  "faked death",
+  "偽造的死亡"
+ ],
+ "http://www.wikidata.org/entity/Q6022092": [
+  "Template:Failed verification",
+  "Template:Failed verification"
+ ],
+ "http://www.wikidata.org/entity/Q42415624": [
+  "does not exactly match",
+  "不完全匹配"
+ ],
+ "http://www.wikidata.org/entity/Q42727519": [
+  "item/value with less precision and/or accuracy",
+  "精度和/或准确度较低的项目/值"
+ ],
+ "http://www.wikidata.org/entity/Q5432619": [
+  "false",
+  "假 (邏輯)"
+ ],
+ "http://www.wikidata.org/entity/Q5432682": [
+  "false attribution",
+  "假資訊來源"
+ ],
+ "http://www.wikidata.org/entity/Q54975531": [
+  "incorrect identifier value",
+  "不正确的标识符值"
+ ],
+ "http://www.wikidata.org/entity/Q54976355": [
+  "unrecognized identifier value",
+  "无法识别的标识符值"
+ ],
+ "http://www.wikidata.org/entity/Q57495609": [
+  "old-fashioned",
+  "舊時用語"
+ ],
+ "http://www.wikidata.org/entity/Q58439442": [
+  "misreading of source",
+  "误读"
+ ],
+ "http://www.wikidata.org/entity/Q59237924": [
+  "debunked",
+  "揭穿"
+ ],
+ "http://www.wikidata.org/entity/Q63077779": [
+  "fictional speculation",
+  "虚构的推测"
+ ],
+ "http://www.wikidata.org/entity/Q4315826": [
+  "impossible event",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q5131849": [
+  "clerical error",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q5801916": [
+  "putative",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q6008367": [
+  "inconsistency",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q6136054": [
+  "guess",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q45025362": [
+  "replaced entity",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q50379085": [
+  "age at death",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q55383893": [
+  "unaccredited academic degree",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q60311385": [
+  "announced only",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q62391983": [
+  "refusal of donation",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q8078": [
+  "logic",
+  "邏輯學"
+ ],
+ "http://www.wikidata.org/entity/Q8454": [
+  "capital punishment",
+  "死刑"
+ ],
+ "http://www.wikidata.org/entity/Q693988": [
+  "forgery of documents",
+  "不正當手法引誘"
+ ],
+ "http://www.wikidata.org/entity/Q696606": [
+  "void",
+  "無法律效力"
+ ],
+ "http://www.wikidata.org/entity/Q734832": [
+  "typographical error",
+  "印刷错误"
+ ],
+ "http://www.wikidata.org/entity/Q796919": [
+  "resignation",
+  "辭職"
+ ],
+ "http://www.wikidata.org/entity/Q780562": [
+  "dropped out of school",
+  "肄業"
+ ],
+ "http://www.wikidata.org/entity/Q791801": [
+  "estimation",
+  "估計"
+ ],
+ "http://www.wikidata.org/entity/Q7313594": [
+  "renunciation",
+  "棄絕"
+ ],
+ "http://www.wikidata.org/entity/Q7313593": [
+  "renunciation of citizenship",
+  "放棄國籍"
+ ],
+ "http://www.wikidata.org/entity/Q7523885": [
+  "single source of truth",
+  "单一事实来源"
+ ],
+ "http://www.wikidata.org/entity/Q7533476": [
+  "siège social réel",
+  "实际总部所在地"
+ ],
+ "http://www.wikidata.org/entity/Q873222": [
+  "expulsion",
+  "开除学籍"
+ ],
+ "http://www.wikidata.org/entity/Q878352": [
+  "rumor",
+  "谣言"
+ ],
+ "http://www.wikidata.org/entity/Q7806612": [
+  "timestream",
+  "時間流"
+ ],
+ "http://www.wikidata.org/entity/Q7958155": [
+  "literary forgery",
+  "文学造假"
+ ],
+ "http://www.wikidata.org/entity/Q64643615": [
+  "prosopographical phantom",
+  "人物志幻影"
+ ],
+ "http://www.wikidata.org/entity/Q64728694": [
+  "proposed entity",
+  "計劃中實體"
+ ],
+ "http://www.wikidata.org/entity/Q64728935": [
+  "future event",
+  "未来事件"
+ ],
+ "http://www.wikidata.org/entity/Q67203058": [
+  "unconfirmed hypothesis",
+  "未经证实的假设"
+ ],
+ "http://www.wikidata.org/entity/Q70390311": [
+  "office refused",
+  "官方拒绝"
+ ],
+ "http://www.wikidata.org/entity/Q71536040": [
+  "most precise value",
+  "最精确值"
+ ],
+ "http://www.wikidata.org/entity/Q76449977": [
+  "explicitly designated as wrong in other source",
+  "在其他来源中明确指定为错误"
+ ],
+ "http://www.wikidata.org/entity/Q84590041": [
+  "name change",
+  "名称变更"
+ ],
+ "http://www.wikidata.org/entity/Q86191979": [
+  "property is not suitable for entity",
+  "属性不适合实体"
+ ],
+ "http://www.wikidata.org/entity/Q87346598": [
+  "entity is a class, not an instance",
+  "該实体為「类」，而非实例"
+ ],
+ "http://www.wikidata.org/entity/Q80122004": [
+  "superseded by later scholarship or research",
+  "被后来的学术研究或调查取代"
+ ],
+ "http://www.wikidata.org/entity/Q80833195": [
+  "work period dates imported or interpreted as birth/death dates",
+  "导入或理解为出生/死亡日期，而实际上是工作日期"
+ ],
+ "http://www.wikidata.org/entity/Q80996755": [
+  "baptism date imported or interpreted as birth date",
+  "将洗礼日期导入或理解成出生日期"
+ ],
+ "http://www.wikidata.org/entity/Q80997055": [
+  "burial date imported or interpreted as death date",
+  "导入或理解成死亡日期的埋葬日期"
+ ],
+ "http://www.wikidata.org/entity/Q83708009": [
+  "civil registration",
+  "民事登记"
+ ],
+ "http://www.wikidata.org/entity/Q87524790": [
+  "⊭",
+  "⊭"
+ ],
+ "http://www.wikidata.org/entity/Q680007": [
+  "descent",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q759734": [
+  "annulment",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q7833925": [
+  "transcription error",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q65068984": [
+  "Legality of polygamy in the United States",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q65088633": [
+  "mismatch",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q73290844": [
+  "speculation",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q74557669": [
+  "contemporary constraint issue",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q80765736": [
+  "historic term",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q95074": [
+  "character",
+  "虚构角色"
+ ],
+ "http://www.wikidata.org/entity/Q99496317": [
+  "withdrawal",
+  "撤销"
+ ],
+ "http://www.wikidata.org/entity/Q90399975": [
+  "imprecise or incorrect values should be deprecated but not deleted",
+  "不精确或错误的值应予以弃用而非删除"
+ ],
+ "http://www.wikidata.org/entity/Q97498056": [
+  "fictional person",
+  "虛構人"
+ ],
+ "http://www.wikidata.org/entity/Q98537072": [
+  "transposed birth and death dates",
+  "出生日期和死亡日期颠倒"
+ ],
+ "http://www.wikidata.org/entity/Q90177495": [
+  "does not always apply",
+  "并非总是适用"
+ ],
+ "http://www.wikidata.org/entity/Q91135299": [
+  "statement refers to an old reality",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q95968315": [
+  "date of burial or cremation",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q98052232": [
+  "unfinished course",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q98271705": [
+  "mistaken identity",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q99539439": [
+  "not approved",
+  ""
+ ],
+ "http://www.wikidata.org/entity/Q93190": [
+  "divorce",
+  "离婚"
+ ]
+}

@@ -1,0 +1,129 @@
+{
+  "events_total": 1278493,
+  "seeds": 3387,
+  "reposts": 1275106,
+  "cuboids": [
+    "day_level",
+    "month_level",
+    "month_all",
+    "all_all"
+  ],
+  "checkpoints": [
+    {
+      "k": 1,
+      "prefix": 12784,
+      "t_inc": 0.06299066543579102,
+      "t_rebuild": 0.18906760215759277,
+      "diffs": 0,
+      "inc_cells": 114
+    },
+    {
+      "k": 2,
+      "prefix": 25569,
+      "t_inc": 0.17060089111328125,
+      "t_rebuild": 0.10215091705322266,
+      "diffs": 0,
+      "inc_cells": 187
+    },
+    {
+      "k": 3,
+      "prefix": 63924,
+      "t_inc": 0.19101738929748535,
+      "t_rebuild": 0.3211960792541504,
+      "diffs": 0,
+      "inc_cells": 364
+    },
+    {
+      "k": 4,
+      "prefix": 127849,
+      "t_inc": 0.35616254806518555,
+      "t_rebuild": 0.6606659889221191,
+      "diffs": 0,
+      "inc_cells": 697
+    },
+    {
+      "k": 5,
+      "prefix": 255698,
+      "t_inc": 0.7199232578277588,
+      "t_rebuild": 1.302614688873291,
+      "diffs": 0,
+      "inc_cells": 1089
+    },
+    {
+      "k": 6,
+      "prefix": 383547,
+      "t_inc": 0.7073321342468262,
+      "t_rebuild": 2.0257182121276855,
+      "diffs": 0,
+      "inc_cells": 1341
+    },
+    {
+      "k": 7,
+      "prefix": 511397,
+      "t_inc": 0.7621092796325684,
+      "t_rebuild": 2.7133586406707764,
+      "diffs": 0,
+      "inc_cells": 1542
+    },
+    {
+      "k": 8,
+      "prefix": 639246,
+      "t_inc": 0.7487599849700928,
+      "t_rebuild": 3.4418230056762695,
+      "diffs": 0,
+      "inc_cells": 1775
+    },
+    {
+      "k": 9,
+      "prefix": 767095,
+      "t_inc": 0.7842867374420166,
+      "t_rebuild": 4.072319746017456,
+      "diffs": 0,
+      "inc_cells": 2062
+    },
+    {
+      "k": 10,
+      "prefix": 894945,
+      "t_inc": 0.8459022045135498,
+      "t_rebuild": 4.892751932144165,
+      "diffs": 0,
+      "inc_cells": 2288
+    },
+    {
+      "k": 11,
+      "prefix": 1022794,
+      "t_inc": 0.752159595489502,
+      "t_rebuild": 5.603763818740845,
+      "diffs": 0,
+      "inc_cells": 2654
+    },
+    {
+      "k": 12,
+      "prefix": 1150643,
+      "t_inc": 0.758734941482544,
+      "t_rebuild": 6.6724631786346436,
+      "diffs": 0,
+      "inc_cells": 3199
+    },
+    {
+      "k": 13,
+      "prefix": 1278493,
+      "t_inc": 5.500970840454102,
+      "t_rebuild": 8.957521915435791,
+      "diffs": 0,
+      "inc_cells": 4626
+    }
+  ],
+  "inc_ops": 5113972,
+  "rebuild_ops": 28535936,
+  "cost_ratio_cumulative": 5.579994571734065,
+  "out_of_order_diffs": 0,
+  "retract": {
+    "seed": "AwqYakTJT",
+    "cascade_size": 965,
+    "total_cells": 4626,
+    "affected_cells": 51,
+    "diffs": 0
+  },
+  "all_equivalent": true
+}

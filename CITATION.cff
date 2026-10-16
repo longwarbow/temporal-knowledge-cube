@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use these artefacts, please cite the accompanying paper."
+title: "Artefacts for: Maintaining a Temporal Knowledge Cube over Streaming Short Text: Dimension Evolution and Mergeable Semantic Measures"
+abstract: >-
+  Supplemental material for the ICDE 2027 submission: the compiled supplement
+  (tables and figures omitted from the twelve-page body, plus appendices), the
+  released scripts and raw outputs of twenty-one experiments, and the data
+  manifest.
+type: software
+authors:
+  - family-names: Xie
+    given-names: Xiaodong
+    orcid: "https://orcid.org/0000-0002-5108-0835"
+    affiliation: "School of Computer Science and Technology, Huaqiao University, Xiamen 361021, China"
+  - family-names: Liu
+    given-names: Yan
+    affiliation: "School of Computer Science and Technology, Huaqiao University, Xiamen 361021, China"
+version: "1.0-submission"
+date-released: "2026-10-16"
+license: MIT
+keywords:
+  - temporal knowledge cube
+  - streaming short text
+  - dimension evolution
+  - mergeable measures
+  - claim retraction
+  - lineage

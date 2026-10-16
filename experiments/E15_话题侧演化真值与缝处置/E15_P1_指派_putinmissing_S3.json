@@ -1,0 +1,144 @@
+{
+ "slice": "S3 03-14T10:12→03-14T19:36",
+ "kappa": 0.2045,
+ "kappa_tab": [
+  19,
+  21,
+  66,
+  329
+ ],
+ "po": 0.8,
+ "n_labels": 30,
+ "n_other": 0,
+ "node_threads": {
+  "status_report": 14,
+  "reappearance_report": 6,
+  "location_report": 6,
+  "missing_report": 7,
+  "coup_theory": 5,
+  "indication_of_event": 3,
+  "presence_report": 3,
+  "absence_report": 1,
+  "replacement_theory": 1,
+  "health_condition_report": 2,
+  "reason_speculation": 2
+ },
+ "node_members": {
+  "status_report": [
+   "status",
+   "increase",
+   "concern",
+   "impossibility of lying",
+   "latest",
+   "media silence",
+   "attempted escape"
+  ],
+  "reappearance_report": [
+   "reappearance",
+   "presence/death",
+   "death"
+  ],
+  "location_report": [
+   "location",
+   "return to Moscow",
+   "moving"
+  ],
+  "missing_report": [
+   "disappearance",
+   "Disappearance",
+   "emergence"
+  ],
+  "coup_theory": [
+   "coup",
+   "success",
+   "military coup possibility",
+   "fall"
+  ],
+  "indication_of_event": [
+   "missing",
+   "event"
+  ],
+  "presence_report": [
+   "setting",
+   "presence"
+  ],
+  "absence_report": [
+   "absence"
+  ],
+  "replacement_theory": [
+   "replacement"
+  ],
+  "health_condition_report": [
+   "health condition",
+   "predicted death"
+  ],
+  "reason_speculation": [
+   "speculation",
+   "succession scenarios"
+  ]
+ },
+ "assign_A": {
+  "status": 1,
+  "reappearance": 8,
+  "location": 2,
+  "disappearance": 3,
+  "Disappearance": 3,
+  "coup": 4,
+  "missing": 6,
+  "setting": 7,
+  "presence": 7,
+  "absence": 12,
+  "increase": 1,
+  "concern": 1,
+  "return to Moscow": 2,
+  "success": 4,
+  "presence/death": 8,
+  "death": 8,
+  "impossibility of lying": 1,
+  "event": 6,
+  "latest": 1,
+  "replacement": 14,
+  "health condition": 10,
+  "media silence": 1,
+  "emergence": 3,
+  "predicted death": 10,
+  "moving": 2,
+  "military coup possibility": 4,
+  "fall": 4,
+  "speculation": 9,
+  "attempted escape": 1,
+  "succession scenarios": 9
+ },
+ "assign_B": {
+  "Disappearance": 3,
+  "absence": 1,
+  "attempted escape": 0,
+  "concern": 0,
+  "coup": 4,
+  "death": 5,
+  "disappearance": 3,
+  "emergence": 0,
+  "event": 6,
+  "fall": 0,
+  "health condition": 10,
+  "impossibility of lying": 0,
+  "increase": 0,
+  "latest": 0,
+  "location": 2,
+  "media silence": 0,
+  "military coup possibility": 4,
+  "missing": 3,
+  "moving": 2,
+  "predicted death": 5,
+  "presence": 7,
+  "presence/death": 0,
+  "reappearance": 8,
+  "replacement": 14,
+  "return to Moscow": 0,
+  "setting": 0,
+  "speculation": 9,
+  "status": 1,
+  "success": 0,
+  "succession scenarios": 0
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "event": "charliehebdo",
+ "nodes": [
+  {
+   "node": "public_reaction",
+   "desc": "Public sentiment and responses"
+  },
+  {
+   "node": "death_toll",
+   "desc": "Number of fatalities"
+  },
+  {
+   "node": "hostage_situation",
+   "desc": "Hostage-taking events"
+  },
+  {
+   "node": "police_operation",
+   "desc": "Law enforcement actions"
+  },
+  {
+   "node": "perpetrator_identity",
+   "desc": "Identified attackers"
+  },
+  {
+   "node": "killed_individuals",
+   "desc": "Victims killed"
+  },
+  {
+   "node": "condemnation",
+   "desc": "Public or official denunciation"
+  },
+  {
+   "node": "location",
+   "desc": "Geographical locations involved"
+  },
+  {
+   "node": "solidarity",
+   "desc": "Public displays of support"
+  },
+  {
+   "node": "attack_details",
+   "desc": "Description of the attack"
+  },
+  {
+   "node": "media_coverage",
+   "desc": "Media reporting and analysis"
+  },
+  {
+   "node": "victims",
+   "desc": "Victims of the event"
+  },
+  {
+   "node": "media_coverage",
+   "desc": "Media reporting and analysis"
+  },
+  {
+   "node": "other",
+   "desc": "Other narrative aspects not covered by above nodes"
+  }
+ ],
+ "n_label_used": 612,
+ "coverage_pct": 85.0
+}

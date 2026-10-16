@@ -1,0 +1,782 @@
+##############################################################################################################
+## S6_same_slot_conflicting  (n=97)
+
+====================================================================================================
+E13-0486 | strict | TRUTH=UNRELATED | slot=slot=HOSTAGE 2|5
+  P: @AFP Very grave, two hostage situations.
+  Q: MORE: Official: gunman holding at least five hostages in Paris market has threatened to kill them if police approach: http://t.co/KId3U6zhCK
+====================================================================================================
+E13-0487 | strict | TRUTH=UNRELATED | slot=slot=DEAD 11|4,6
+  P: #CharlieHebdo - 11 dead including 2 police in Paris shooting by @MartinBureau1 #AFP http://t.co/T8HpVdpjjN
+  Q: @Daroff 4 people reported dead of six hostages. Sounding worse . Thnx for updates &amp; links.
+====================================================================================================
+E13-0488 | strict | TRUTH=UNRELATED | slot=slot=HOSTAGE 50|5
+  P: @splashroy @PzFeed No they claimed 50 hostages 2 gun men and other stuff without a source. Not the flag.
+  Q: “@ChrisReason7: When the 5 hostages escaped, the gunman could be seen from here getting extremely agitated, shouting at remaining hostages”
+====================================================================================================
+E13-0489 | strict | TRUTH=-- | slot=slot=SUSPECT 2|1
+  P: Wow. “@nationalpost: Two Tory MPs say gunman at Parliament Hill has been 'shot and killed' http://t.co/oHIuqnVcQf http://t.co/qRuh3vZnet”
+  Q: @BBCWorld an official just confirmed there is definately at least 1 more shooter. But why no more shootings occurring?
+====================================================================================================
+E13-0490 | strict | TRUTH=CONFLICT | slot=slot=HOSTAGE 2|1,6
+  P: &gt; RT “@AP: France faces 2 hostage-taking attacks; Paris kosher market attack has 5 hostages, some wounded: http://t.co/KB7OQuiUXA”
+  Q: “@PzFeed: PARIS HOSTAGE SITUATIONS: -At printing house -Holding 1 hostage -At kosher supermarket -Holding 6 hostages @grace_kress98
+====================================================================================================
+E13-0491 | strict | TRUTH=UNRELATED | slot=slot=SUSPECT 1|96
+  P: “@cnnbrk: There is at least one armed suspect involved in Sydney hostage situation, U.S. officials say. http://t.co/vbROul4MGg
+  Q: Haron Monis,Hostage-taker in #Sydney: Fled #Iran 96,suspect in ex-wife killing,46 sex assaults http://t.co/3caiB9OnFg http://t.co/vfOXjtrGgZ
+====================================================================================================
+E13-0492 | strict | TRUTH=-- | slot=slot=HOSTAGE 13|2
+  P: BREAKING NEWS: RT @Newsweek: 13 hostages being held in a #Sydney store by apparent jihadist supporters http://t.co/YYjB2NG2f1 @DaynaRoselli
+  Q: There's been movement at the cafe, the gunman moving a hostage past the window, two more hostages change positions. Not much sleep in there
+====================================================================================================
+E13-0493 | strict | TRUTH=UNRELATED | slot=slot=DEAD 12|1
+  P: :( "@euronews: 12 confirmed dead in #CharlieHebdo attack (@AFP) http://t.co/GhvWa5kufh”
+  Q: @vicenews Please remove the YouTube Video. It is disrespectful towards the victims family to show how their loved one is being killed!
+====================================================================================================
+E13-0494 | strict | TRUTH=CONFLICT | slot=slot=DEAD 11|12
+  P: Watch LIVE @FRANCE24 - 11 dead in shooting at HQ of satirical weekly @Charlie_Hebdo_ in Paris https://t.co/2QFjOCQ1ZK #CharlieHebdo
+  Q: :( "@euronews: 12 confirmed dead in #CharlieHebdo attack (@AFP) http://t.co/GhvWa5kufh”
+====================================================================================================
+E13-0495 | strict | TRUTH=-- | slot=slot=SUSPECT 1|2
+  P: @AuntyNeville @jonswain715 @MariamVeiszadeh If you're going to compare ALL Islamic attacks to ONE politically backed terrorist outfit...
+  Q: Shit got serious “@BBCBreaking: #CharlieHebdo: - 2 gunmen believed holed up in building - reports of 1 hostage - Shots fired in car chase"
+====================================================================================================
+E13-0496 | strict | TRUTH=UNRELATED | slot=slot=DEAD 4|2
+  P: @SkyNewsAust @SkyBusiness @carsonscottLIVE Police v well prepared. Armour, floodlights, robots, dogs, para's. Bracing 4 fatality anouncement
+  Q: @pipo442 is it turns out the hostage taker and two hostages were killed, does that make Jesus happy?
+====================================================================================================
+E13-0497 | strict | TRUTH=-- | slot=slot=HOSTAGE 1|5
+  P: @BBCBreaking 1 female hostage
+  Q: Minimaal vijf gegijzelden in #Parijs @AFP: #BREAKING At least five hostages in Paris kosher supermarket: source”
+====================================================================================================
+E13-0498 | strict | TRUTH=UNRELATED | slot=slot=SUSPECT 3|1,2
+  P: @AndyBarnett6 Three nut job terrorists cost 12 people their lives - not an issue of a paper.
+  Q: 2 standoffs happening now. Hostages believed involved. 1 gunman in kosher deli in eastern Paris. 2 terror suspects in town near CDG airport
+====================================================================================================
+E13-0499 | strict | TRUTH=SUPPORT | slot=slot=DEAD 12|4
+  P: Horrible: “@TIME: Breaking: Paris police say 12 dead after shooting at Charlie Hebdo http://t.co/7XIPbr7py9”
+  Q: BREAKING NEWS: The 4 French cartoonists killed in #CharlieHebdo terror attack today. RIP http://t.co/CjmNTDWgzP
+====================================================================================================
+E13-0500 | strict | TRUTH=UNRELATED | slot=slot=HOSTAGE 1|2
+  P: @TheAnonMessage hearing one hostage
+  Q: @cnni if we have two hostage situation like this ,I don't see how broadcasting live report will secure the lives of those held hostage
+====================================================================================================
+E13-0501 | strict | TRUTH=CONFLICT | slot=slot=DEAD 10|11
+  P: @jenanmoussa cc @rahulroushan 10 frenchmen killed by follower of Religion of Peace. @afp
+  Q: Awful. "@BreakingNews: 11 dead in Paris shooting at French satirical newspaper Charlie Hebdo, police say - @AP http://t.co/btDUP5Wb6d”
+====================================================================================================
+E13-0502 | strict | TRUTH=-- | slot=slot=DEAD 2|0
+  P: MT @cnni BREAKING: 2 killed and 3 in serious condition as #SydneySiege ends -- Australian broadcaster. http://t.co/PkqRVgxSbc
+  Q: @CarolCNN @CNN no one has been confirmed dead as the Police have not released any statements yet
+====================================================================================================
+E13-0503 | strict | TRUTH=UNRELATED | slot=slot=HOSTAGE 1|2
+  P: @TIME 1 hostage / war zone in Dammartin http://t.co/paiKlpjKiF
+  Q: Police: 2 hostage situations near Paris believed to be related to the #CharlieHebdo attack: http://t.co/IbjiiBfUZ8 https://t.co/tY3VFOtLDQ
+====================================================================================================
+E13-0504 | strict | TRUTH=CONFLICT | slot=slot=DEAD 10|11
+  P: ロケットラウンチャーに自動小銃って。。。 “@Telegraph: 10 people confirmed dead in Paris attack - rocket launcher used in assault, according to reports"
+  Q: “@SkyNewsBreak: 11 people dead at headquarters of satirical Charlie Hebdo after armed gunmen stormed the office in #Paris” ISIS no doubt
+====================================================================================================
+E13-0505 | strict | TRUTH=-- | slot=slot=DEAD 12|1
+  P: “@WSJ: At least 12 dead in the Paris shooting. Updated story and background info:http://t.co/O59EaY27PQ #CharlieHebdo http://t.co/4jD1ySoth8
+  Q: @Reuters This has nothing to do with freedom of the press. There is only ONE group willing to kill over cartoons - Muslims.
+====================================================================================================
+E13-0506 | strict | TRUTH=UNRELATED | slot=slot=HOSTAGE 50|3
+  P: #BREAKING: Flag w/ Islamic writing held up to window of #Sydney cafe. Police say up to 50 hostages. #Australia PM convenes security team.
+  Q: @AJENews @SophiaBush 3 hostages have escape or been let go!
+====================================================================================================
+E13-0507 | strict | TRUTH=-- | slot=slot=HOSTAGE 13|4
+  P: At least 13 people taken hostage in #Sydney café – local reports http://t.co/1ZlzKDjvSf http://t.co/ohR0kNDNFA
+  Q: Thoughts &amp; prayers 4 hostages tonight&gt;MT @Matt_Macklin7 Moment the #sydneysiege started. Praying it ends soon http://t.co/aO4R3ZKIOF
+====================================================================================================
+E13-0508 | strict | TRUTH=-- | slot=slot=HOSTAGE 5|2
+  P: Feared at least 5 hostages are being held in Paris 'kosher' grocery http://t.co/zoafNwyEtr http://t.co/ntDatZ8Pp7
+  Q: #PrayForParis “@ABC: Breaking: Two hostage situations in France are linked, Paris prosecutor says”
+====================================================================================================
+E13-0509 | strict | TRUTH=-- | slot=slot=HOSTAGE 2|15
+  P: “@BBCNewsAus: Fear and relief as these two hostages escape #sydneysiege - LIVE: http://t.co/T3was776Fr http://t.co/4bHPkD13K0”WHATS UP??
+  Q: @FoxNews JIHADIST holding up to 15 people hostage is an Iranian refugee, a sex offender &amp; self-styled sheikh who has sent hate mail
+====================================================================================================
+E13-0510 | strict | TRUTH=UNRELATED | slot=slot=DEAD 2|13
+  P: Photo of the 2 cartoonists killed in the attack on #CharlieHebdo in #Paris today. RIP. via @LePoint. http://t.co/mms8xWU1Ze
+  Q: @BBCBreaking So does that makes it 13 killed?
+====================================================================================================
+E13-0511 | strict | TRUTH=UNRELATED | slot=slot=HOSTAGE 13|3
+  P: @ABC Islamic terrorist holding 13 people hostage in Martin Place Sydney CBD live on every news Chanel. Sydney in total shut down.
+  Q: “@theprojecttv: Vision shows three hostage escaping from the Lindt in #SydneySiege #sad https://t.co/yw8AjcOjTr” @FijiOneNews @RachnaFijiTV
+====================================================================================================
+E13-0512 | strict | TRUTH=-- | slot=slot=DEAD 10|11
+  P: @KarlreMarks With 10 killed this was probably the last edition.
+  Q: “@fgeffardAFP: #CharlieHebdo - 11 dead including 2 police in Paris shooting1” Hoffentl. kein Kulturkrieg-anstachelnder Hintergrund...
+====================================================================================================
+E13-0513 | strict | TRUTH=SUPPORT | slot=slot=DEAD 12|4
+  P: Police say 12 now dead in #CharlieHebdo attack including 2 police officers; prosecutor says gunmen still at large http://t.co/4AaqPAQMOb
+  Q: “@PzFeed: BREAKING NEWS: The 4 French cartoonists killed in #CharlieHebdo terror attack today. RIP http://t.co/mpRKv0JF9Z” So sad!
+====================================================================================================
+E13-0514 | strict | TRUTH=-- | slot=slot=HOSTAGE 1|6
+  P: @tomsteinfort @9NewsSyd if it's 10 onto 1 why don't the hostages rally and take this bloke out?
+  Q: @BobBobbins1 @JihadistJoe @muayfarang555 just read a few, you would think it was a white guy holding 6 Muslims hostage
+====================================================================================================
+E13-0515 | strict | TRUTH=-- | slot=slot=DEAD 10|12
+  P: France: 10 people dead after shooting at HQ of satirical weekly newspaper #CharlieHebdo, according to witnesses http://t.co/FkYxGmuS58
+  Q: @mbcrancher @MadAxes 12 people killed in cold blood for being journalists and policeman is what the "big deal" is. Freedom of speech......
+====================================================================================================
+E13-0516 | strict | TRUTH=UNRELATED | slot=slot=SUSPECT 2|1
+  P: French police release pic of two suspects from Thursday shooting of officer as hostage situation unfolds in Paris: http://t.co/bkWxvLR4Yh
+  Q: @peddoc63 @varvel @indystar I have a better idea than erasing one terrorist at a time... http://t.co/LZwtB1md8z
+====================================================================================================
+E13-0517 | strict | TRUTH=-- | slot=slot=HOSTAGE 13|50
+  P: “@ABCNews24: There are reportedly 13 hostages in the siege at Martin Place, Sydney CBD" Stay home and stay safe Sydney. #peace #Sydneysiege
+  Q: “@mediacrooks: 50 hostages in a cafe... at Sydney... Imagine if @Bdutt were reporting this ugly incident.. You would be dead by now....”
+====================================================================================================
+E13-0518 | strict | TRUTH=-- | slot=slot=DEAD 1|5
+  P: @AndrewMNewby @FoxNews I would have charged him immediately. if one dies, better than theblock is blown up. I would favor a police assault.
+  Q: @BBCBreaking Five people killed in Montgomery County, Pa.; gunman sought, television station reports.
+====================================================================================================
+E13-0519 | strict | TRUTH=UNRELATED | slot=slot=DEAD 2|1
+  P: Photo of the 2 cartoonists killed in the attack on #CharlieHebdo in #Paris today. RIP. via @LePoint. http://t.co/mms8xWU1Ze
+  Q: @Reuters This has nothing to do with freedom of the press. There is only ONE group willing to kill over cartoons - Muslims.
+====================================================================================================
+E13-0520 | strict | TRUTH=-- | slot=slot=DEAD 12|4
+  P: Allah..@BBCBreaking: Police say 12 now dead in #CharlieHebdo attack including 2 police officers; prosecutor says gunmen still at large
+  Q: “@HuffPostUK: 4 #CharlieHebdo cartoonists killed: - Charb - Cabu - Tignous - Georges Wolinski #JeSuisCharlie http://t.co/oN7uKm6ImN” 💔💔
+====================================================================================================
+E13-0521 | strict | TRUTH=SUPPORT | slot=slot=DEAD 11|4
+  P: At least 11 dead in shooting at HQ of #CharlieHebdo in #Paris (police source) https://t.co/e4dBcNVbvD
+  Q: “@HuffPostUK: 4 #CharlieHebdo cartoonists killed: - Charb - Cabu - Tignous - Georges Wolinski #JeSuisCharlie http://t.co/oN7uKm6ImN” 💔💔
+====================================================================================================
+E13-0522 | strict | TRUTH=-- | slot=slot=DEAD 2|1
+  P: “@AusNewsNetwork: #BREAKING: At least two people have died following the #SydneySiege. 5 people are being treated by paramedics.” Please no
+  Q: @emmawwfcx @SkyNewsBreak it's over 1 hostage dead and the camel fucking rag head as well
+====================================================================================================
+E13-0523 | strict | TRUTH=UNRELATED | slot=slot=DEAD 96|2
+  P: @tariqnasheed A black man is 96% likely to die at the hands of another black man, not the cops or a white man. How do we stop that?
+  Q: @LenardSchneider @RealMattKane Youse a damn lie. 2 cops died where I live and the suspects photo was up within the hour
+====================================================================================================
+E13-0524 | strict | TRUTH=-- | slot=slot=DEAD 12|2
+  P: Three gunmen who shot dead 12 people at the HQ of #CharlieHebdo are still on the run in Paris, police say. https://t.co/3QkWHN0kgy
+  Q: okiee time for me to leave paris now RT @FoxNews: BREAKING: At least 2 killed in #Paris hostage situation via @AFP http://t.co/gyJvnVW6pt
+====================================================================================================
+E13-0525 | strict | TRUTH=UNRELATED | slot=slot=DEAD 4|2
+  P: Editor Stephane Charbonnier, 4 cartoonists reported killed in #CharlieHebdo attack (AP photo): http://t.co/qTB7uIurjN http://t.co/GjglEVLmLF
+  Q: “@AFP: #BREAKING At least two killed in hostage drama east of Paris: source” #Vincennes
+====================================================================================================
+E13-0526 | strict | TRUTH=UNRELATED | slot=slot=SUSPECT 0,25|2
+  P: @jonswain715 @WezKing @MariamVeiszadeh Since 9/11 there's been over 25,000 deadly Islamic terrorist attacks. How many from the IRA?
+  Q: Map shows industrial estate where 2 #CharlieHebdo suspects are holed up, surrounded by police http://t.co/hi9g8dxpiR http://t.co/Vw2L6SQcMH
+====================================================================================================
+E13-0527 | strict | TRUTH=-- | slot=slot=SUSPECT 4|1
+  P: @CBCAlerts Cdn PM Harper has blood on his OWN hands 4 provoking terrorist attacks on Canadians by joining US war to fix Iraq mess US created
+  Q: @BBCWorld So this is what it takes for #Canada to get #Britain's attention? A one-man #ISIL terrorist attack? Never mind Afghanistan.
+====================================================================================================
+E13-0528 | strict | TRUTH=-- | slot=slot=HOSTAGE 13|5
+  P: @9NewsSyd @LeeannWright4 @SydOperaHouse LINK TO LIVE VIDEO *** LVIDEO ISIS JIHADIS TAKE 13 HOSTAGES IN SYDNEY http://t.co/4bNMWQVCUK
+  Q: Relief for 5 hostages “@SkyNewsAust: WATCH: The moment two women escaped #sydneysiege. https://t.co/rRf6ru3sDn” #MartinPlace
+====================================================================================================
+E13-0529 | strict | TRUTH=-- | slot=slot=DEAD 10|4
+  P: BREAKING: 10 people shot dead at headquarters of French satirical weekly publication Charlie Hebdo in #Paris after gunmen stormed office.
+  Q: 🙏#WeAreCharlie #RIP! “@PzFeed: BREAKING NEWS: The 4 #French cartoonists killed in #CharlieHebdo terror attack today. http://t.co/IS0Tm2RsGu”
+====================================================================================================
+E13-0530 | strict | TRUTH=UNRELATED | slot=slot=DEAD 11|0
+  P: Et merde. “@AFPphoto: #CharlieHebdo - 11 dead including 2 police in Paris shooting. Photo @MartinBureau1 #AFP http://t.co/MFpQhJPBfz”
+  Q: @timmyconspiracy @LukeReuters @FT No one deserves to be murdered for taking the piss.If anyone can't handle that then fuck off!
+====================================================================================================
+E13-0531 | strict | TRUTH=UNRELATED | slot=slot=DEAD 6|1
+  P: @WagnerTalone44 @AmyMek Christians gassed 6 million Jews....americans kill so many people its beyond counting
+  Q: .@ilerpine @JFXM They already lost one kill shot. Did you see it? I was stunned. You are right. This guy will not surrender.
+====================================================================================================
+E13-0532 | strict | TRUTH=SUPPORT | slot=slot=DEAD 10|2
+  P: ロケットラウンチャーに自動小銃って。。。 “@Telegraph: 10 people confirmed dead in Paris attack - rocket launcher used in assault, according to reports"
+  Q: Of🙏"@rConflictNews: Photo of the 2 cartoonists killed in the attack on #CharlieHebdo in #Paris. RIP. via @LePoint. http://t.co/m7cBbmoXon”
+====================================================================================================
+E13-0533 | strict | TRUTH=-- | slot=slot=DEAD 11|4
+  P: Appalling and so tragic. “@guardian: 11 dead in shooting at Paris offices of satirical magazine Charlie Hebdo http://t.co/KJYnGV41fM”
+  Q: @LisaDaftari #Iran was D 1st country 2call 4 killing of writer,Salman Rushdie. 100rds Bloggers+Journalists are on Death row #JeSuisCharlie
+====================================================================================================
+E13-0534 | strict | TRUTH=UNRELATED | slot=slot=HOSTAGE 20|1
+  P: Sick. "@Independent: Up to 20 held hostage in Sydney Lindt Cafe siege http://t.co/51vlmPCMq0 http://t.co/pvDLnJIV4h”
+  Q: 🙏 4 all“@cnnbrk: Gunfire at Sydney cafe where hostages held; report says at least 1 person shot; more hostages flee http://t.co/qaIn1cRGuE”
+====================================================================================================
+E13-0535 | strict | TRUTH=SUPPORT | slot=slot=SUSPECT 1|2
+  P: In Ottawa. RT @josh_wingrove: So I am locked down in Centre Block on Parliament Hill after at least one shooter burst in and opened fire
+  Q: @matt_nett 2 shooters &amp; no SU 24 can can fly the distance from Syria (IS says they have 3 of them but no pilots yet ) NORAD useless for this
+====================================================================================================
+E13-0536 | strict | TRUTH=SUPPORT | slot=slot=HOSTAGE 5|2
+  P: @Protruth108 not over but 5 hostages escaped ...
+  Q: The emotion RT: @BBCNewsAus: Fear and relief as these two hostages escape #sydneysiege - LIVE: http://t.co/HCdVCnlQLO http://t.co/HGfd8DslI0
+====================================================================================================
+E13-0537 | strict | TRUTH=-- | slot=slot=HOSTAGE 2|6
+  P: Two female hostages have run out of #SydneySiege. 5 in total have escaped http://t.co/isvMtY4oUQ http://t.co/Xv2gJ1Q3zZ
+  Q: #BREAKING: Six hostages have managed to escape from the café in #MartinPl. #SydneySiege #9News http://t.co/y3NDQDS7jh
+====================================================================================================
+E13-0538 | strict | TRUTH=-- | slot=slot=HOSTAGE 20|1
+  P: @iammrrodriguez that's not good..I just saw that it was 1 armed man and 20 hostages
+  Q: @Independent If intel is one hostage taker, next opportunity like the upper right pic should be a sniper's round between his running lights.
+====================================================================================================
+E13-0539 | strict | TRUTH=UNRELATED | slot=slot=HOSTAGE 40,50|1
+  P: #SydneySiegeRT @BBCYaldaHakim: CEO of Lindt cafe says 40-50 hostages held by 2 gunmen. Significantly higher number than initially thought
+  Q: 🙏 4 all“@cnnbrk: Gunfire at Sydney cafe where hostages held; report says at least 1 person shot; more hostages flee http://t.co/qaIn1cRGuE”
+====================================================================================================
+E13-0540 | strict | TRUTH=UNRELATED | slot=slot=HOSTAGE 5|2
+  P: Total 5 hostages have left Lindt #MartinPlace; 3 men, 2 women. LIVE: http://t.co/Ni4ouWAGoO. #SydneySiege #9News http://t.co/CKB2uLPHVd
+  Q: NOWE “@CBSNLive: 2 hostages in Sydney café confirm gunman's demands 1) He wants ISIS flag delivered 2) He wants to speak to Prime Minster”
+====================================================================================================
+E13-0541 | strict | TRUTH=UNRELATED | slot=slot=HOSTAGE 12|6
+  P: “@ComplexMag: BREAKING: More Than a Dozen Hostages Held in Cafe in Sydney; Arabic Flag Placed in Window http://t.co/bmFdijAMdR”
+  Q: #BREAKING: Six hostages have managed to escape from the café in #MartinPl. #SydneySiege #9News http://t.co/y3NDQDS7jh
+====================================================================================================
+E13-0542 | strict | TRUTH=UNRELATED | slot=slot=HOSTAGE 13|5
+  P: At least 13 people taken hostage in #Sydney café – local reports http://t.co/1ZlzKDjvSf http://t.co/ohR0kNDNFA
+  Q: Five hostages have escaped the besieged Lindt Cafe in #Sydney | Our latest update: http://t.co/XJVICQdu0y http://t.co/aNGBZsCmdQ
+====================================================================================================
+E13-0543 | strict | TRUTH=UNRELATED | slot=slot=DEAD 1|3
+  P: CXN: 1 gunman shot dead in Parliament Hill attack, soldier shot in Ottawa http://t.co/pp6hcfWcRw No report soldier dead. #OttawaShooting
+  Q: Senin memlekette sapitti, @melisada @AP: BREAKING: Hospital says it has received 3 victims from Ottawa shootings, 2 are in stable condition.
+====================================================================================================
+E13-0544 | strict | TRUTH=UNRELATED | slot=slot=DEAD 40|1
+  P: In the 12 hours everyone has focused on the hostage situation in Sydney 40 more Americans died from gunshots. @MomsDemand #gunsense
+  Q: .@ilerpine @JFXM They already lost one kill shot. Did you see it? I was stunned. You are right. This guy will not surrender.
+====================================================================================================
+E13-0545 | strict | TRUTH=-- | slot=slot=HOSTAGE 3|2
+  P: “@NBCNews: BREAKING: Three Sydney hostages flee cafe, Australian TV networks report http://t.co/YYwaZBXSpb” @cockatootommy u ok over there?
+  Q: BREAKING UPDATE: 2 more hostages leave #Sydneysiege site http://t.co/m51P8dUPhB http://t.co/nN9oFekgTZ
+====================================================================================================
+E13-0546 | polarity | TRUTH=-- | slot=slot=SUSPECT some|1
+  P: @Nicest_Girl_Evr Norad couldn't even stop 911. How they fuck are they gonna stop some crazed gunman on the ground?
+  Q: @BBCWorld an official just confirmed there is definately at least 1 more shooter. But why no more shootings occurring?
+====================================================================================================
+E13-0547 | polarity | TRUTH=UNRELATED | slot=slot=INJURED many|0
+  P: @SkyNewsAust @SkyBusiness @carsonscottLIVE 12 to 15 hostages got out, many injured, we will b v lucky 2 get all out alive. All over now.
+  Q: @ASHT0NlRWlN @ProDoesWriting @burnie oh OK hope this all sorts out soon and no one gets hurt anymore
+====================================================================================================
+E13-0548 | polarity | TRUTH=UNRELATED | slot=slot=HOSTAGE 5|dozens
+  P: @wikileaks With 5 hostages having been released or escaped. #sydneysiege
+  Q: “@PzFeed: Yes, people are taking selfies as dozens are held hostage at a Sydney cafe nearby http://t.co/Kv6lUD1slQ”what's wrong with people?
+====================================================================================================
+E13-0549 | polarity | TRUTH=-- | slot=slot=DEAD 0|many
+  P: No one is dead, yet - “@JustinTrudeau: Our hearts go out to the people of Australia and all those affected by the #SydneySiege.”
+  Q: @ChuckNellis @brian_roe @Missy10013Kathy nah mate.. If your case was true why are there so many children killed in US schools? #silly
+====================================================================================================
+E13-0550 | polarity | TRUTH=-- | slot=slot=HOSTAGE many|1
+  P: @BBCWorld why exactly did you give misinformation regarding how many hostages there was in the store -bbc? To make the story more
+  Q: @ozchrisrock @Firebomb173 With one hostage taker they just have to wait for him to wear down.
+====================================================================================================
+E13-0551 | polarity | TRUTH=UNRELATED | slot=slot=DEAD many|2
+  P: @EmmaSophieClark @ramblesofpower Haven't heard of many folks killing or taking hostages in the name of the tooth fairy, Have you?
+  Q: “@PoliceAU: Sadly, at this stage, there are two confirmed deaths from what is described as cardiac arrest. Incredibly sad. #SydneySiege” NO
+====================================================================================================
+E13-0552 | polarity | TRUTH=UNRELATED | slot=slot=DEAD many|2
+  P: @BoingBoing @ryanjreilly Remember #RubyRidge #MOVE in Philly #WACO and now #Ferguson! How many will die?
+  Q: @CrystalSaidThat @qb_ramirez @TheBHolland reason nothing changes is 2 many people r 2 busy claiming victim status instead of working hard.
+====================================================================================================
+E13-0553 | polarity | TRUTH=UNRELATED | slot=slot=DEAD 1|many
+  P: .@dave_bradley @mletterle latest update is one soldier shot (maybe dead) and one shooter killed. #ottawa
+  Q: @Telegraph @molodyko It is sad to see this news. However, at least he leaves a son who will honor him. Many soldiers die without children.
+====================================================================================================
+E13-0554 | polarity | TRUTH=SUPPORT | slot=slot=SUSPECT multiple|3
+  P: @CoreyTaylorRock multiple gunmen at the Ottawa Parliament building. One soldier is dead one shooter has been killed by police.
+  Q: @onthemedia @Gabriel_Montoya All true except for number 4. Here in Ottawa, we are looking at at least 2, if not 3 shooters. Still active.
+====================================================================================================
+E13-0555 | polarity | TRUTH=SUPPORT | slot=slot=SUSPECT multiple|1
+  P: @CTVNews @CTVCalgary - Multiple gunmen - no??? So "Shooter is dead" is misleading to say the least...
+  Q: “@AP: BREAKING: Ottawa police say they believe there is more than one shooter.” #Ottawa #CanadaShooting
+====================================================================================================
+E13-0556 | polarity | TRUTH=UNRELATED | slot=slot=SUSPECT few|many
+  P: @ThatKevinSmith thanks Kev, we appreciate the love. Still a few gunmen at large
+  Q: @cnni how many Christian shooters were not reported as "Christian convert"?
+====================================================================================================
+E13-0557 | polarity | TRUTH=UNRELATED | slot=slot=DEAD 5000|many
+  P: @Malt_bia I'm not one of those people but Ill play ball. If roughly 5000 black people are murdered every year by other blacks, that means in
+  Q: @BoingBoing @ryanjreilly Remember #RubyRidge #MOVE in Philly #WACO and now #Ferguson! How many will die?
+====================================================================================================
+E13-0558 | polarity | TRUTH=CONFLICT | slot=slot=SUSPECT multiple|3
+  P: @cnnbrk @DamoSpin Ottawa police have NOT confirmed multiple shooters based on Canadian reporters on scene but they are still looking in case
+  Q: BREAKING NEWS: OTTAWA POLICE CONFIRM TO ABC NEWS THEY ARE LOOKING FOR 3 SUSPECTS, ONE HAS BEEN 'DEALT WITH' - http://t.co/lXFiYaVImZ
+====================================================================================================
+E13-0559 | polarity | TRUTH=-- | slot=slot=SUSPECT few|1
+  P: @ThatKevinSmith thanks Kev, we appreciate the love. Still a few gunmen at large
+  Q: @CTVNews @alixwala There is more than one shooter, not over yet.
+====================================================================================================
+E13-0560 | polarity | TRUTH=-- | slot=slot=SUSPECT multiple|1
+  P: @CoreyTaylorRock multiple gunmen at the Ottawa Parliament building. One soldier is dead one shooter has been killed by police.
+  Q: Ottawa police correct their info. No shooting at the Rideau shopping centre. Everything now points to one gunman in two locations.
+====================================================================================================
+E13-0561 | polarity | TRUTH=UNRELATED | slot=slot=DEAD many|1
+  P: @fishdogdaddy @Malt_bia How many White ppl were killed last year, 86% of those by a White person? Every 28 hrs BP killed by cop/"security".
+  Q: @CallMeLean lots of people were wrong, only one got dead. @SOrtbals
+====================================================================================================
+E13-0562 | polarity | TRUTH=UNRELATED | slot=slot=SUSPECT 1|many
+  P: @cnnbrk @TheCurrentCBC: Police - more than 1 suspect, downtown remains in lockdown. LA http://t.co/TLbGZbQCj3 http://t.co/BkUpSsslXy
+  Q: @cnni how many Christian shooters were not reported as "Christian convert"?
+====================================================================================================
+E13-0563 | polarity | TRUTH=-- | slot=slot=SUSPECT 3|multiple
+  P: “@BCheadle: now police suspect two or three shooters on Parliament Hill. Sergeant at Arms KVickers shot 1assailant.” +shooters @luvlealife
+  Q: @CTVNews @CTVCalgary - Multiple gunmen - no??? So "Shooter is dead" is misleading to say the least...
+====================================================================================================
+E13-0564 | polarity | TRUTH=SUPPORT | slot=slot=SUSPECT multiple|3
+  P: @cnnbrk Respectfully this is not an incident..this is ISIS...POLICY NOW MUST BE CHANGED..THEY ARE HERE..MULTIPLE SHOOTERS..SHOOTING SOLDIERS
+  Q: “@AP: MORE: Canadian soldier shot at war memorial has died; one of three suspected gunmen also dead, police say: http://t.co/uJ7Nk4mTHN”
+====================================================================================================
+E13-0565 | polarity | TRUTH=UNRELATED | slot=slot=DEAD 1|many
+  P: BREAKING: @ottawapolice confirm one death on Parliament Hill. 3 separate shootings: War Memorial, Hill and "near Rideau Centre" @ctvottawa
+  Q: @Telegraph @molodyko It is sad to see this news. However, at least he leaves a son who will honor him. Many soldiers die without children.
+====================================================================================================
+E13-0566 | vague | TRUTH=UNRELATED | slot=slot=DEAD 1|many
+  P: @richardmacbeth @AP is reporting "Police say soldier, 1 suspected gunman dead in Ottawa shootings.”
+  Q: @dezzdancing do you know how many muslims they kill daily?
+====================================================================================================
+E13-0567 | vague | TRUTH=UNRELATED | slot=slot=DEAD 1,2|many
+  P: Black people die 2 deaths: 1) by public execution &amp; 2) an assassination of their character to justify the murder. #Ferguson #MikeBrown
+  Q: @mollycrabapple @PoliticaILine that's terrible but really how many teens kill teens in these cities?
+====================================================================================================
+E13-0568 | vague | TRUTH=-- | slot=slot=SUSPECT multiple|some
+  P: BREAKING: Ottawa police confirm at least 3 separate shooting sites and multiple suspects - http://t.co/H2H6Lg13mh via @PzFeed
+  Q: @KTLA that's some serial killer behavior
+====================================================================================================
+E13-0569 | vague | TRUTH=SUPPORT | slot=slot=SUSPECT multiple|5
+  P: @Breaking911 Plausible. Multiple locations. Multiple gunmen. They've got to be motivated by something.
+  Q: OMG fear-mongering much? “@SunNewsNetwork: Credible sources say there may be as many as 5 active shooters in #Ottawa http://t.co/09X7C6gCGt”
+====================================================================================================
+E13-0570 | vague | TRUTH=SUPPORT | slot=slot=SUSPECT multiple|2,3
+  P: #Ottawa Police say they are dealing with multiple suspects. Cannot confirm whether both/all have guns. Ottawa still pretty much locked down
+  Q: RT @CBSNews: Police believe 3 gunmen were involved in shootings in Ottawa and are looking for two shooters. http://t.co/ezPjE4zAcW
+====================================================================================================
+E13-0571 | vague | TRUTH=SUPPORT | slot=slot=SUSPECT multiple|2,3
+  P: Police confirm multiple suspects involved in shooting incident at Ottawa War Memorial - @VassyKapelos, @amyminsky http://t.co/aF9HyT9BgX
+  Q: MORE: Police believe three gunmen were involved in shootings in Ottawa this morning and are looking for two shooters. http://t.co/IHV4galEtC
+====================================================================================================
+E13-0572 | vague | TRUTH=UNRELATED | slot=slot=SUSPECT 3|multiple
+  P: @FoxNews possibility if three shooters.
+  Q: @bruce_arthur Multiple shooters?
+====================================================================================================
+E13-0573 | vague | TRUTH=UNRELATED | slot=slot=SUSPECT 1|some
+  P: So I am locked down in Centre Block on Parliament Hill after at least one shooter burst in and opened fire
+  Q: @KTLA that's some serial killer behavior
+====================================================================================================
+E13-0574 | vague | TRUTH=UNRELATED | slot=slot=SUSPECT multiple|11,26
+  P: @cnnbrk ISIS IS CHANGING OUR WORLD..AND WE ARE LETTING THEM..OTTAWA CANADA UNDER ATTACK....MULTIPLE SHOOTERS..UNLEASH HELL ON ISIS
+  Q: @CNN Looka like a ISIS / Al-Qaida trying a Mumbai style 26/11 Terrorist Attack.Else can be some pro Nazi group.Former looks more likely.
+====================================================================================================
+E13-0575 | vague | TRUTH=-- | slot=slot=SUSPECT many|1
+  P: @ReutersLive @Reuters This could very well be a "decoy", the first of many more terrorist plots in other Canadian provinces. This is jihad
+  Q: “@AP: BREAKING: Ottawa police say they believe there is more than one shooter.” #uaj307
+====================================================================================================
+E13-0576 | vague | TRUTH=UNRELATED | slot=slot=DEAD 1|many
+  P: @jenanmoussa I don't blame people who do! Second army soldier dead and a half-dead one in three days
+  Q: @zara915 @chrissyteigen ~ The Canadians are embarrassed by it because they are so Anti Gun. Think how many more might've been killed.
+====================================================================================================
+E13-0577 | vague | TRUTH=-- | slot=slot=SUSPECT many|2
+  P: @DavidMuir @WNTonight and in the shopping center a street away. Many gunmen.
+  Q: BREAKING NEWS: Ottawa police now confirm one suspect has been killed. 2 suspects remain at large.
+====================================================================================================
+E13-0578 | vague | TRUTH=SUPPORT | slot=slot=SUSPECT multiple|1
+  P: Good god "@RT_com #OTTAWA SHOOTING: Police claim multiple suspects at large, ask people to avoid Paraliment area http://t.co/mNbMsZr8Zy"
+  Q: @LeslieAllain Apparently more than one shooter.
+====================================================================================================
+E13-0579 | vague | TRUTH=SUPPORT | slot=slot=SUSPECT multiple|1
+  P: “@globeandmail: Police in pursuit of multiple shooters in Ottawa; PM safe; downtown buildings in lockdown” WTF!? This is out of control.
+  Q: “@AP: BREAKING: Ottawa police say they believe there is more than one shooter.” #uaj307
+====================================================================================================
+E13-0580 | vague | TRUTH=UNRELATED | slot=slot=SUSPECT 1|many
+  P: “@josh_wingrove: So I am locked down in Centre Block on Parliament Hill after at least one shooter burst in and opened fire”
+  Q: @ReutersLive @Reuters This could very well be a "decoy", the first of many more terrorist plots in other Canadian provinces. This is jihad
+====================================================================================================
+E13-0581 | vague | TRUTH=UNRELATED | slot=slot=DEAD 1,2|many
+  P: Black people die 2 deaths: 1) by public execution &amp; 2) an assassination of their character to justify the murder. #Ferguson #MikeBrown
+  Q: @kim_tastiic trolling? Funny how black ppl only come together when another being killed by a white. How many blacks kills blacks?
+====================================================================================================
+E13-0582 | vague | TRUTH=UNRELATED | slot=slot=AIRPLANE 6|many
+  P: just as I'm about to get on 6 flights 😰 @NBCNews: #BREAKING: A Germanwings A320 has crashed in France, German officials confirm to @NBCNews
+  Q: @cnnbrk @TVAmy Seems like too many plane crashing. Wondering if someone is behind them crashing. #jf
+##############################################################################################################
+## S5_cross_thread_verbatim  (n=97)
+
+====================================================================================================
+E13-0389 | rt | TRUTH=-- | slot=coverage=1.000 + RT-prefix
+  P: A few of the best cartoons drawn &amp; shared in solidarity with #CharlieHebdo after yesterday's massacre #JeSuisCharlie http://t.co/qLj480gcxd
+  Q: RT @Beltrew: A few of the best cartoons drawn &amp; shared in solidarity with #CharlieHebdo after yesterday's massacre http://t.co/4Dq68GL9mT
+====================================================================================================
+E13-0390 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: The @NewYorker cartoonist's response to the #CharlieHebdo attack: https://t.co/0gseord87R
+  Q: The @NewYorker cartoonist's response to the #CharlieHebdo attack: http://t.co/uxDrVwl4M3
+====================================================================================================
+E13-0391 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @ThePoke Who funded/armed/trained them? https://t.co/iPBkLwhQk8 Jeffrey Epstein also in CFR+Trilateral Commission
+  Q: @RT_com Who funded/armed/trained them? https://t.co/iPBkLwhQk8 Jeffrey Epstein also in CFR+Trilateral Commission
+====================================================================================================
+E13-0392 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @cnni Bury them at sea in pig skin bags #ParisShooting #CharlieHebdo #Muslims #terroistattack
+  Q: @HuffingtonPost Bury them at sea in pig skin bags #ParisShooting #CharlieHebdo #Muslims #terroistattack
+====================================================================================================
+E13-0393 | copy | TRUTH=-- | slot=coverage=1.000
+  P: @AngryBlackLady regardless even if #MikeBrown DID something(as alleged) the price 4 any scuffle shouldn't be being MURDERED by #Ferguson cop
+  Q: @AntonioFrench regardless even if #MikeBrown DID something(as alleged) the price 4 any scuffle shouldn't be being MURDERED by #Ferguson cops
+====================================================================================================
+E13-0394 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: The Gurlitt art collection no one - and everyone - wants - SWI swissinfo.ch http://t.co/rjjy0e4AR4 @swissinfo_en
+  Q: The Gurlitt art collection no one - and everyone - wants - SWI swissinfo.ch http://t.co/iRdYJ2HIrO @swissinfo_en
+====================================================================================================
+E13-0395 | copy | TRUTH=-- | slot=coverage=1.000
+  P: Expert: Vladimir Putin's Disappearance Could Mean Russia's Undergoing a Coup http://t.co/n54TygclBs via @theblaze
+  Q: Expert: #Vladimir #Putin’s #Disappearance Could Mean #Russia’s Undergoing a #Coup http://t.co/rzLhZFdnwy
+====================================================================================================
+E13-0396 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @RealAlexJones @Aethonaia truth u. seals to 911 @ home .. police judges prison guards http://t.co/ohtkC7ghH0 http://t.co/9UGwEo49i4
+  Q: @ReutersUS @Reuters truth u. seals to 911 @ home .. police judges prison guards http://t.co/ohtkC7ghH0 http://t.co/9UGwEo49i4
+====================================================================================================
+E13-0397 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @TarekFatah governments can't protect citizens because they're in denial of the problem. they're appeasers. political disaster.
+  Q: @DouglasKMurray governments can't protect citizens because they're in denial of the problem. they're appeasers. political disaster.
+====================================================================================================
+E13-0398 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: A few of the best cartoons drawn &amp; shared in solidarity with #CharlieHebdo after yesterday's massacre #JeSuisCharlie http://t.co/qLj480gcxd
+  Q: A few of the best cartoons drawn &amp; shared in solidarity with #CharlieHebdo after yesterday's massacre #JeSuisCharlie http://t.co/87et0xpNwr
+====================================================================================================
+E13-0399 | copy | TRUTH=-- | slot=coverage=1.000
+  P: “@WSJ: #SydneySiege is likely being carried out by a 'lone wolf' with minimal links to organized terror groups http://t.co/5Ftx50jDq9”
+  Q: #SydneySiege is likely being carried out by a 'lone wolf' with minimal links to organized terror groups, expert says http://t.co/mFayhCVfpy
+====================================================================================================
+E13-0400 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @AntonioFrench I am a young writer. I wanted to hear REAL ppls views on #MikeBrown #JohnCrawford etc plz Read &amp;RT .http://t.co/886luSRBbK
+  Q: @AntonioFrench I am a young writer. I wanted to hear REAL ppls views on #MikeBrown #JohnCrawford etc plz Read &amp;RT .http://t.co/886luSRBbK 🙏
+====================================================================================================
+E13-0401 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @cnnbrk shameful killers http://t.co/Z4vCEiPGss will never win they are a few, we are many, #JeSuisCharlie #CharlieHebdo
+  Q: @bouckap shameful killers http://t.co/Z4vCEiPGss will never win they are a few, we are many, #JeSuisCharlie #CharlieHebdo
+====================================================================================================
+E13-0402 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @chmayer @SirWilliamD @RteeFufkin Paris victims, we all must stand for charlie. Give your support here : http://t.co/2bILdMPZ1u
+  Q: @Independent Paris victims, we all must stand for charlie. Give your support here : http://t.co/NLySRUk2zb
+====================================================================================================
+E13-0403 | rt | TRUTH=-- | slot=coverage=1.000 + RT-prefix
+  P: Police have asked media outlets not to reveal the demands the hostage taker has made. #SydneySiege
+  Q: @eddiebyun @cnnbrk RT @smh Police have asked media outlets not to reveal the demands the hostage taker has made.
+====================================================================================================
+E13-0404 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: #illridewithyou is the best thing to come out of the #sydneysiege http://t.co/4REoJBzPxD http://t.co/DIiAZNrALl
+  Q: #illridewithyou is the best thing to come out of the #sydneysiege http://t.co/Lq0VjkWreY http://t.co/QU3MKvUNV8
+====================================================================================================
+E13-0405 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @tjholmes We are DONE|. with #FERGUSON Police Chief THOMAS JACKSON http://t.co/gCRXtcsdev #THOMASJACKSONMUSTGONOW http://t.co/RjHB8HRieZ
+  Q: @Lawrence We are DONE|. with #FERGUSON Police Chief THOMAS JACKSON http://t.co/gCRXtcsdev … #THOMASJACKSONMUSTGONOW http://t.co/RjHB8HRieZ
+====================================================================================================
+E13-0406 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @MailOnline FRANCE Votes For Palestinian State - ZIONISTS Stage False Flag Operation.
+  Q: @SkyNews FRANCE Votes For Palestinian State -- ZIONISTS Stage False Flag Operation.
+====================================================================================================
+E13-0407 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: Soldier killed at war memorial identified as Cpl. Nathan Cirillo #ottawashooting http://t.co/jlUKClnuNi http://t.co/GpU2jH26YP
+  Q: Soldier killed at war memorial identified as Cpl. Nathan Cirillo #ottawashooting http://t.co/oSR91Uxgm3 http://t.co/UyftuUod27
+====================================================================================================
+E13-0408 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: RT“@AFPphoto: Several hostages freed at Jewish supermarket in Paris. Photo Thomas Samson #AFP http://t.co/mGDNjUSO48”
+  Q: RT"@AFPphoto: Several hostages freed at Jewish supermarket in Paris. Photo Thomas Samson #AFP http://t.co/eBR3ZMcM7p”
+====================================================================================================
+E13-0409 | copy | TRUTH=-- | slot=coverage=1.000
+  P: Vladimir Putin's Disappearance Could Mean Russia's Undergoing a Coup - http://t.co/a5MSzViuEK: TheBlaze.comVlad... http://t.co/eEgFAWDciv
+  Q: Vladimir Putin’s Disappearance Could Mean Russia’s Undergoing a Coup http://t.co/Gsn5eSJzcf
+====================================================================================================
+E13-0410 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: Flag in window of Sydney Lindt cafe not an ISIS flag. Reads: ‘There is no God but Allah and Muhammad is the messenger of God’ @SkyNewsAust
+  Q: Flag in window of Sydney Lindt cafe not an ISIS flag. Reads: ‘There is no God but Allah and Muhammad is the messenger of God’ (@liztilley84)
+====================================================================================================
+E13-0411 | copy | TRUTH=-- | slot=coverage=1.000
+  P: RT @guardian: Charlie Hebdo: Now is the time to uphold freedoms, not give in to fear, says @simonjenkins4 http://t.co/YY6u1eOrnK
+  Q: #CharlieHebdo: Now is the time to uphold freedoms, not give in to fear - @SimonJenkins4 http://t.co/QM0potblMy http://t.co/sb1rpDjJjv
+====================================================================================================
+E13-0412 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @BBCBreaking We want justice freedom equality and education for all in accordance with the unified global strategy
+  Q: @usembassyottawa We want justice freedom equality and education for all in accordance with the unified global strategy
+====================================================================================================
+E13-0413 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @bastiaanrij @AFP I just took a subscription to @Charlie_Hebdo_ through http://t.co/Jj8YZ0zUiI … Walk the talk, all you #IamCharlie folks!
+  Q: @H_E_Samuel I just took a subscription to @Charlie_Hebdo_ through http://t.co/Jj8YZ0zUiI … Walk the talk, all you #IamCharlie folks!
+====================================================================================================
+E13-0414 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @AP ,...--- ((( O people! Say "No God But Allah" To Obtain Salvation ))) THE MEANING OF LIFE "SPOKEN WORD" https://t.co/YBaU294GFx
+  Q: @BreakingNews ::: ((( O people! Say "No God But Allah" To Obtain Salvation ))) THE MEANING OF LIFE "SPOKEN WORD" https://t.co/YBaU294GFx :
+====================================================================================================
+E13-0415 | copy | TRUTH=-- | slot=coverage=1.000
+  P: @WSJLive @WSJ Lies and propaganda are traditionally the tools of theocracy, fascism, and totalitarianism.
+  Q: @BBCWorld Lies and propaganda are traditionally the tools of theocracy, fascism, and totalitarianism. Stop build terrorism &amp; #Isis's fame
+====================================================================================================
+E13-0416 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @greenhousenyt #SwineFlu a hop hop song actually about police brutality http://t.co/TULBDcPgG1 plz listen, share
+  Q: @garyyounge #SwineFlu a hop hop song actually about police brutality http://t.co/TULBDcPgG1 plz listen, share
+====================================================================================================
+E13-0417 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: #SydneySiege is likely being carried out by a 'lone wolf' with minimal links to organized terror groups, expert says http://t.co/ynPfmQfGMj
+  Q: #SydneySiege is likely being carried out by a 'lone wolf' with minimal links to organized terror groups, expert says http://t.co/mFayhCVfpy
+====================================================================================================
+E13-0418 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @smh Islamic terror now truly global - US, UK, Euro, ME, India, and finally Australia LISTEN LIVE http://t.co/SWIOZkzmYe
+  Q: @BBCWorld Islamic terror now truly global - US, UK, Euro, ME, India, and finally Australia LISTEN LIVE http://t.co/SWIOZkzmYe
+====================================================================================================
+E13-0419 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @kellyyysue @9NewsAUS Heavenly Father, please Heal the wounded Sidney Siege hostages.
+  Q: @AdamBaldwin Heavenly Father, please Heal the wounded Sidney Siege hostages.
+====================================================================================================
+E13-0420 | mention_only | TRUTH=DERIVE | slot=coverage=1.000 + mention-only
+  P: @peoplemag HUSSEIN OBAMA, DEMOCRATS &amp; THEIR MEDIA SAY THEY HAVE NO CONNECTION TO ISLAM - THEY SAY OTHERWISE!
+  Q: @nytimes HUSSEIN OBAMA, DEMOCRATS &amp; THEIR MEDIA SAY THEY HAVE NO CONNECTION TO ISLAM - THEY SAY OTHERWISE!
+====================================================================================================
+E13-0421 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @STcom Sydney police have requested NO Tweets. Lives in danger; don't want to provide gunmen with info they don't have
+  Q: @WSJ Sydney police have requested NO Tweets. Lives in danger; don't want to provide gunmen with info they don't have
+====================================================================================================
+E13-0422 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: Gurlitt press release concludes. Many questions being raised by attendees on state of task force investigation and limbo nazi loot objects.
+  Q: Gurlitt press release concludes. Many questions being raised by attendees on state of task force investigation and limbo nazi loot objects.
+====================================================================================================
+E13-0423 | copy | TRUTH=-- | slot=coverage=1.000
+  P: Prince fans lining up at Massey Hall. Wristbands for surprise show reportedly on sale at 6pm. http://t.co/XDIEmme4QD http://t.co/O0JFvNV6uR
+  Q: Prince fans lining up at Massey Hall. Wristbands for surprise show reportedly on sale at 6pm. #Toronto http://t.co/uZBPGlfyce
+====================================================================================================
+E13-0424 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @ImJustHereLivin @Oreo_Monsterr Please check out this site and support this movement that is going to change OURstory http://t.co/IktfOP65CM
+  Q: @AntonioFrench Please check out this site and support this movement that is going to change OURstory http://t.co/IktfOP65CM
+====================================================================================================
+E13-0425 | rt | TRUTH=-- | slot=coverage=1.000 + RT-prefix
+  P: Overkill in #Ferguson. Officer won't answer my question about why this is needed. http://t.co/iSPsP1Rxa1
+  Q: RT @YourAnonGlobal: Overkill in #Ferguson. Officer won't answer my question about why this is needed. http://t.co/LRT8pov8Z8
+====================================================================================================
+E13-0426 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: ‘The Gurlitt collection should be sold to benefit Jewish organisations’ - The Art Newspaper http://t.co/DZLCSAoGIp
+  Q: ‘The Gurlitt collection should be sold to benefit Jewish organisations’ - The Art Newspaper http://t.co/6pU64J7SUx
+====================================================================================================
+E13-0427 | copy | TRUTH=-- | slot=coverage=1.000
+  P: Australian Muslim community releases statement in response to #sydneysiege. http://t.co/KE9UFxdXuD
+  Q: “@7NewsBrisbane: Australian Muslim community releases statement in response to #sydneysiege. http://t.co/egEBmuMmFp”see this @TelegraphNews
+====================================================================================================
+E13-0428 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: Breaking: Swiss art museum accepts artworks bequeathed by late art dealer Gurlitt http://t.co/9U2VbvB8tz
+  Q: Breaking: Swiss art museum accepts artworks bequeathed by late art dealer Gurlitt http://t.co/tYCeEMKwOo
+====================================================================================================
+E13-0429 | mention_only | TRUTH=DERIVE | slot=coverage=1.000 + mention-only
+  P: @HuffingtonPost BRAHMINOLGY - FATHER OF MODERN REFORM BRAHMANISM IS SRI RODDAM ANANDA VASISTA
+  Q: @Reuters BRAHMINOLGY - FATHER OF MODERN REFORM BRAHMANISM IS SRI RODDAM ANANDA VASISTA
+====================================================================================================
+E13-0430 | mention_only | TRUTH=DERIVE | slot=coverage=1.000 + mention-only
+  P: @nytimes soon Europe and the uk will be an Islamic state......give it time. They are playing the long game. In the end it will be too late.
+  Q: @SkyNews soon Europe and the uk will be an Islamic state... give it time. They are playing the long game. In the end it will be too late.
+====================================================================================================
+E13-0431 | mention_only | TRUTH=DERIVE | slot=coverage=1.000 + mention-only
+  P: Breaking: Swiss art museum accepts artworks bequeathed by late art dealer Gurlitt http://t.co/9U2VbvB8tz
+  Q: Breaking: Swiss art museum accepts artworks bequeathed by late art dealer Gurlitt http://t.co/VA3SagY9We
+====================================================================================================
+E13-0432 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @satishacharya Charlie Hebdo: Norway's Christians didn't have to apologise for Anders Breivik, and it's the same for Muslims now
+  Q: @SkyNewsBreak Charlie Hebdo: Norway's Christians didn't have to apologise for Anders Breivik, and it's the same for Muslims now
+====================================================================================================
+E13-0433 | copy | TRUTH=-- | slot=coverage=1.000
+  P: Vladimir Putin's Disappearance Could Mean Russia's Undergoing a Coup - http://t.co/a5MSzViuEK: TheBlaze.comVlad... http://t.co/eEgFAWDciv
+  Q: Vladimir Putin's Disappearance Could Mean Russia's Undergoing a Coup: “#ПутинУмер” http://t.co/upBdVl0fzm
+====================================================================================================
+E13-0434 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @UncleRUSH #CharlieHebdo: This Attack Was Nothing To Do With Free Speech — It Was About War https://t.co/odHoHQB11a
+  Q: @fatihtezcan Charlie Hebdo: This Attack Was Nothing To Do With Free Speech — It Was About War https://t.co/odHoHQB11a
+====================================================================================================
+E13-0435 | mention_only | TRUTH=DERIVE | slot=coverage=1.000 + mention-only
+  P: Our thoughts are with all those affected by today's events in Ottawa.
+  Q: “@BlueJays: Our thoughts are with all those affected by today’s events in Ottawa.”
+====================================================================================================
+E13-0436 | copy | TRUTH=-- | slot=coverage=1.000
+  P: @virkie56 @ABC @WilliamsJon We did not wanted terrorist in Turkey Kurdish terrorist IRC It is not religious terrorism race bumarang now
+  Q: @washingtonpost We did not wanted terrorist in Turkey Kurdish terrorist IRC It is not religious terrorism race bumarang now returned to @
+====================================================================================================
+E13-0437 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @ReutersLive @Reuters Islamic ideology =ShariaLaw=Hamas=ISIS= Boko Haram=Hezbollah - not a relationship with God http://t.co/iGruhR0p1K
+  Q: @AP Islamic ideology =ShariaLaw=Hamas=ISIS= Boko Haram=Hezbollah - not a relationship with God http://t.co/iGruhR0p1K
+====================================================================================================
+E13-0438 | copy | TRUTH=-- | slot=coverage=1.000
+  P: ‘The Gurlitt collection should be sold to benefit Jewish organisations’ - The Art Newspaper http://t.co/DZLCSAoGIp
+  Q: ‘The Gurlitt collection should be sold to benefit Jewish organisations’ - The Art Newspaper http://t.co/4GJsG8oby7 #artnews #artcrime #art
+====================================================================================================
+E13-0439 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @elonjames #SwineFlu a hop hop song actually about police brutality http://t.co/TULBDcPgG1 plz listen, share
+  Q: @garyyounge #SwineFlu a hop hop song actually about police brutality http://t.co/TULBDcPgG1 plz listen, share
+====================================================================================================
+E13-0440 | copy | TRUTH=-- | slot=coverage=1.000
+  P: You can twist and turn it as you like: Publishing cartoons is not a crime. Using them as an excuse for religious fascism is. #CharlieHebdo
+  Q: @guardiannews You can twist and turn it as you like: Publishing cartoons is not a crime. Using them as an excuse for religious fascism is.
+====================================================================================================
+E13-0441 | copy | TRUTH=DERIVE | slot=coverage=1.000
+  P: RT @guardiannews: #illridewithyou: hashtag offers solidarity with Sydney's Muslims after cafe siege http://t.co/uHUpodZEUu” @MLC_school
+  Q: “@guardian: #illridewithyou: hashtag offers solidarity with Sydney's Muslims after cafe siege http://t.co/fY3QTE6ZTS” Incrível
+====================================================================================================
+E13-0442 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: #CharlieHebdo: If we talk about ‘war’, we fall into the trap set by murderers, @robinlustig http://t.co/AwHoRooAyG http://t.co/kD7XkvUaUV
+  Q: #CharlieHebdo: If we talk about ‘war’, we fall into the trap set by murderers, @robinlustig http://t.co/dbBJUkm0sR http://t.co/IqouaAdFxx
+====================================================================================================
+E13-0443 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @cnnbrk #charliehebdo Most documented false flag shooter ever http://t.co/B5my3mLkul Secret service Intelligence https://t.co/oxXVe3WcaR
+  Q: @WSJ #charliehebdo Most documented false flag shooter ever http://t.co/B5my3mLkul Secret service Intelligence https://t.co/oxXVe3WcaR
+====================================================================================================
+E13-0444 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @cnnbrk All the hallmarks of #OperationChaos #falseflag attk by those who believe"from chaos comes order":USjrno http://t.co/a94wJvDnTL
+  Q: @cnnbrk All the hallmarks of #OperationChaos #falseflag attk by those who believe"from chaos comes order":US jrno http://t.co/a94wJvDnTL
+====================================================================================================
+E13-0445 | rt | TRUTH=-- | slot=coverage=1.000 + RT-prefix
+  P: RT@commentisfree: #CharlieHebdo: Now is the time to uphold freedoms, not give in to fear - @SimonJenkins4 http://t.co/042qk0ciRa
+  Q: RT @guardian: Charlie Hebdo: Now is the time to uphold freedoms, not give in to fear, says @simonjenkins4 http://t.co/YY6u1eOrnK
+====================================================================================================
+E13-0446 | copy | TRUTH=-- | slot=coverage=1.000
+  P: Australian Muslim community releases statement in response to #sydneysiege. http://t.co/KE9UFxdXuD
+  Q: “@7NewsBrisbane: Australian Muslim community releases statement in response to #sydneysiege. http://t.co/onM4AbRnw5” so important to read
+====================================================================================================
+E13-0447 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @OttawaPolice My map app shows tweets from #Ottawa shooting site http://t.co/VlcPC99uBJ … …
+  Q: @RamCNN My map app shows tweets from #Ottawa shooting site http://t.co/VlcPC99uBJ … …
+====================================================================================================
+E13-0448 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @jasian12345 Another Confirmation my readers #SecurityConcerns #Nemstov #Putin Next #Assassination #DrEd https://t.co/n7DQyio1Ej
+  Q: @PatDollard @jasian12345 Another Confirmation my readers #SecurityConcerns #Nemstov #Putin Next #Assassination #DrEd https://t.co/n7DQyio1Ej
+====================================================================================================
+E13-0449 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @Simon_Cullen @billpostmus @LisaMillar I hope this did not interrupt his Sunday Night card game.
+  Q: @ABC @c_good I hope this did not interrupt his Sunday Night Card Game.
+====================================================================================================
+E13-0450 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: Flag in window of Sydney Lindt cafe not an ISIS flag. Reads: ‘There is no God but Allah and Muhammad is the messenger of God’ (@liztilley84)
+  Q: “@liztilley84: Flag in window of Sydney Lindt cafe not an ISIS flag. Reads: ‘There is no God but Allah and Muhammad is the messenger of God’
+====================================================================================================
+E13-0451 | copy | TRUTH=-- | slot=coverage=1.000
+  P: The co-pilot of the Germanwings Airbus was a convert to Islam - http://t.co/7MHPhG5aIR #RedNationRising
+  Q: The co-pilot of the Germanwings Airbus was a convert to Islam http://t.co/Q7yHJ4Ne2d
+====================================================================================================
+E13-0452 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @cnni Looks like Europe has lost its power in every way &amp; soon most of Europe would be worthless countries unless immediate steps taken
+  Q: @SkyNews Looks like Europe has lost its power in every way &amp; soon most of Europe would be worthless countries unless immediate steps taken
+====================================================================================================
+E13-0453 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @MotherJones Wake up &amp; smell the coffee, French press. War profiteers did this, not Islam. BREAKING VIDEO &gt;&gt; http://t.co/d2GGtLsdnJ
+  Q: @cnni Wake up &amp; smell the coffee, French press. War profiteers did this, not Islam. BREAKING VIDEO &gt;&gt; http://t.co/d2GGtLsdnJ
+====================================================================================================
+E13-0454 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @BBCBreaking #JeSuisCharlie #UnsucessfulFrancePolice #DammartinEnGoele #CharlieHebdo #parisisburning 20, dead 12 injured 57 Hostage
+  Q: @SkyNews #JeSuisCharlie #UnsucessfulFrancePolice #DammartinEnGoele #CharlieHebdo #parisisburning 20, dead 12 injured 57 Hostage
+====================================================================================================
+E13-0455 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: Soldier killed at war memorial identified as Cpl. Nathan Cirillo #ottawashooting http://t.co/jlUKClnuNi http://t.co/GpU2jH26YP
+  Q: Soldier killed at war memorial identified as Cpl. Nathan Cirillo #ottawashooting http://t.co/YnM8FvFckL http://t.co/2jhrreIxPu
+====================================================================================================
+E13-0456 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @Channel4News it's a racist colonial outpost that treats its own aboriginals &amp; asylum seekers like second class citizens #dump #apartheid
+  Q: @WSJ it's a racist colonial outpost that treats its own aboriginals &amp; asylum seekers like second class citizens #dump #apartheid
+====================================================================================================
+E13-0457 | copy | TRUTH=-- | slot=coverage=1.000
+  P: ‘The Gurlitt collection should be sold to benefit Jewish organisations’ - The Art Newspaper http://t.co/4GJsG8oby7 #artnews #artcrime #art
+  Q: ‘The Gurlitt collection should be sold to benefit Jewish organisations’ - The Art Newspaper http://t.co/6pU64J7SUx
+====================================================================================================
+E13-0458 | copy | TRUTH=SUPPORT | slot=coverage=1.000
+  P: Expert: Vladimir Putin’s disappearance could mean Russia’s undergoing a coup: http://t.co/7HQsmOJqhw http://t.co/xwqDNUlZFR
+  Q: Expert: Vladimir Putin's Disappearance Could Mean Russia's Undergoing a Coup http://t.co/n54TygclBs via @theblaze
+====================================================================================================
+E13-0459 | mention_only | TRUTH=DERIVE | slot=coverage=1.000 + mention-only
+  P: @SkyNewsBreak Since late 1950s, GENESIS of training of Freedom Fighters was CUBA, USSRs KGB, SYRIA, N. KOREA, AND CHINA
+  Q: @thei100 @Independent Since late 1950s, GENESIS of training of Freedom Fighters was CUBA, USSRs KGB, SYRIA, N. KOREA, AND CHINA
+====================================================================================================
+E13-0460 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: Paris #CharlieHebdo attack: 'This is the worst act of terrorism in France for 50 years' http://t.co/6Cut73pm7O http://t.co/mHK5rUbMTa
+  Q: Paris #CharlieHebdo attack: This is the worst act of terrorism in France for 50 years http://t.co/JO1hyB4vjj http://t.co/GPrxnlMx7a
+====================================================================================================
+E13-0461 | rt | TRUTH=-- | slot=coverage=1.000 + RT-prefix
+  P: RT@commentisfree: #CharlieHebdo: Now is the time to uphold freedoms, not give in to fear - @SimonJenkins4 http://t.co/042qk0ciRa
+  Q: “@guardian: Charlie Hebdo: Now is the time to uphold freedoms, not give in to fear, says @simonjenkins4 http://t.co/VDCxSksl9R” Here here RT
+====================================================================================================
+E13-0462 | copy | TRUTH=-- | slot=coverage=1.000
+  P: @BBCBreaking @BBCWorld BBC calls it a shooting until they know it was brown people, then it will be a terrorist attack
+  Q: @BBCWorld BBC calls it a "shooting" until they know it was brown people, then it will be a "terrorist attack"! #OttawaShooting
+====================================================================================================
+E13-0463 | copy | TRUTH=-- | slot=coverage=1.000
+  P: “@Independent: Why a hostage situation is neither the time nor place for selfies #sydneysiege" that's ridiculous! wtf wrong with people?
+  Q: Why a hostage situation is neither the time nor place for selfies. #sydneysiege http://t.co/HuAR1JBrp2 http://t.co/UXnJUuSABn
+====================================================================================================
+E13-0464 | copy | TRUTH=-- | slot=coverage=1.000
+  P: #illridewithyou: hashtag offers solidarity with Sydney's Muslims after cafe siege http://t.co/ftQXVzjU5U
+  Q: “@guardian: #illridewithyou: hashtag offers solidarity with Sydney's Muslims after cafe siege http://t.co/lmmUF5lDNV” #tolerance anytime
+====================================================================================================
+E13-0465 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @BBCBreaking @BBCWorld Kill those Islamist Terrorist hang them to death
+  Q: @BBCWorld Kill those Islamist Terrorist hang them to death
+====================================================================================================
+E13-0466 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @Breaking911 @pjamesjp1 A car hits people waiting at the Ammunition Hill station of Jerusalem's light rail driver shot trying to flee...
+  Q: @CNN @TattooQ A car hits people waiting at the Ammunition Hill station of Jerusalem's light rail driver shot trying to flee...
+====================================================================================================
+E13-0467 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @Mwforhr @Suntimes Mike Browns MURDER will b ruled "justfied" because NO WAY IN HELL will a judge or D.A. hold any PIG accountable!
+  Q: @blackvoices Mike Browns MURDER will b ruled "justfied" because NO WAY IN HELL will a judge or D.A. hold any PIG accountable!
+====================================================================================================
+E13-0468 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @9NewsAUS Heavenly Father, please heal the wounded Sidney Siege hostages.
+  Q: @AdamBaldwin Heavenly Father, please Heal the wounded Sidney Siege hostages.
+====================================================================================================
+E13-0469 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @HuffPostUKPics Protestamos com arte também. http://t.co/vz33IStpj6 #CharlieHebdo #JeSuisCharlie http://t.co/eid1oMMmjb
+  Q: @AFP @BenoitParayre Protestamos com Arte também http://t.co/vz33IStpj6 #CharlieHebdo #JeSuisCharlie http://t.co/eid1oMMmjb
+====================================================================================================
+E13-0470 | copy | TRUTH=-- | slot=coverage=1.000
+  P: @MsIntervention Aaaaaand cue the 'lone wolf' brigade #CharlieHebdo #france #shooting
+  Q: @Jonathan_Witt Aaaaaaand cue the 'lone wolf' brigade #CharlieHebdo #france #shooting
+====================================================================================================
+E13-0471 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @BBCWorld Kindly call your Army and Navy seals ... these are deadly ISLAMIC terrorists who BLOW themselves ..
+  Q: @cnnbrk Kindly call your Army and Navy seals ... these are deadly ISLAMIC terrorists who BLOW themselves ..
+====================================================================================================
+E13-0472 | copy | TRUTH=DERIVE | slot=coverage=1.000
+  P: @omarsuleiman504 @yaraadee #MillennialTakeOver #AskForPeace #RememberFreedomSummer #Ferguson http://t.co/apT8PPUhFe
+  Q: @Darkside #MillennialTakeOver #AskForPeace #RememberFreedomSummer #Ferguson #JusticeForMikeBrown http://t.co/apT8PPUhFe
+====================================================================================================
+E13-0473 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: The #Ferguson police look more militarized now than the actual National Guard, here from the 1967 Newark riots: http://t.co/qk3CKqSp8o
+  Q: The #Ferguson police look more militarized now than the actual National Guard, here from the 1967 Newark riots: http://t.co/HupsfEWbIJ
+====================================================================================================
+E13-0474 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @denhamsadler, @AdmiralLeviathn wants to send you 1 safe passage (5,719 bits/$2.00) Collect➔http://t.co/y3hkbYWcDy
+  Q: @UnSubtleDesi, @AdmiralLeviathn wants to send you 1 safe passage (5,719 bits/$2.00) Collect➔http://t.co/QFXqW2571j
+====================================================================================================
+E13-0475 | copy | TRUTH=-- | slot=coverage=1.000
+  P: #BREAKING Germanwings says 144 passengers and 6 crew on crashed plane
+  Q: “@airlivenet: BREAKING Germanwings says 144 passengers and 6 crew on crashed plane http://t.co/IwREl0uMdh http://t.co/KiP2LazOJQ” So sad🙏😔
+====================================================================================================
+E13-0476 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @ACLU Don't assault clerk +don't rob store + buy ur cigars + comply to police when questioned= alive + at home + smoking cigar
+  Q: @occbaystreet Don't assault clerk +don't rob store + buy ur cigars + comply to police when questioned= alive + at home + smoking cigar
+====================================================================================================
+E13-0477 | mention_only | TRUTH=DERIVE | slot=coverage=1.000 + mention-only
+  P: @BreakingNews ::: ((( O people! Say "No God But Allah" To Obtain Salvation ))) THE MEANING OF LIFE "SPOKEN WORD" https://t.co/YBaU294GFx :
+  Q: @BreakingNews ,. ((( O people! Say "No God But Allah" To Obtain Salvation ))) THE MEANING OF LIFE "SPOKEN WORD" https://t.co/YBaU294GFx ::
+====================================================================================================
+E13-0478 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @HuffPostCanada @theheraldsun $25,000.00 REWARD For Public Assistance Seeking Criminal Investigation http://t.co/ZTbIcfrNH6
+  Q: @JustinTrudeau $25,000.00 REWARD For Public Assistance Seeking Criminal Investigation http://t.co/dQ6pGhOF28 http://t.co/zMDNbh3Lk4
+====================================================================================================
+E13-0479 | mention_only | TRUTH=DERIVE | slot=coverage=1.000 + mention-only
+  P: @nealcarter @ksdknews Journalists, show up @ #Ferguson PD to express intent to sue re. violation of 1st amend.
+  Q: @AntonioFrench Journalists, show up @ #Ferguson PD to express intent to sue re. violation of 1st amend.
+====================================================================================================
+E13-0480 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @ABC amazing u wont cover Cops being Shot/killed but u cover a different country's news.#CopsLIvesMatter #sidneysiege U should be ashamed
+  Q: @NBCNews amazing u wont cover Cops being Shot/killed but u cover a different country's news.#CopsLIvesMatter #sidneysiege U shouldbe ashamed
+====================================================================================================
+E13-0481 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @cbcjlong My app is mapping tweets from Ottawa shotting area http://t.co/VlcPC99uBJ
+  Q: @ABCNewsLive @Nightline @CTVNews @ABC My app is mapping tweets from Ottawa shotting area http://t.co/VlcPC99uBJ
+====================================================================================================
+E13-0482 | mention_only | TRUTH=DERIVE | slot=coverage=1.000 + mention-only
+  P: A man picks up burning tear gas can and throws it back at police. #ferguson pic by @kodacohen @stltoday http://t.co/IHeGDql4KH @manofsteele
+  Q: “@Copwatch: A man picks up burning tear gas can and throws it back at police. #ferguson pic by @kodacohen http://t.co/X7ITxIDNrI"
+====================================================================================================
+E13-0483 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: @sambonfante PLEASE LISTEN WE NEED WORLD PEACE http://t.co/hJvY8BCnY9 🔥WORLD PEACE💣 Jahmal Brown ft.Jahyda https://t.co/9jQfGnn1KN
+  Q: @TO_sportsgirl PLEASE LISTEN WE NEED WORLD PEACE http://t.co/hJvY8BCnY9 🔥WORLD PEACE💣 Jahmal Brown ft.Jahyda https://t.co/9jQfGnn1KN
+====================================================================================================
+E13-0484 | mention_only | TRUTH=-- | slot=coverage=1.000 + mention-only
+  P: If Islam is a religion of peace why aren't their extremist extremely peaceful? #sydneysiege
+  Q: @masoudtarek @RiskyLiberal If Islam is a religion of peace why aren't their extremist extremely peaceful? #sydneysiege
+====================================================================================================
+E13-0485 | copy | TRUTH=-- | slot=coverage=1.000
+  P: “@RedNationRising: The co-pilot of the Germanwings Airbus was a convert to Islam - http://t.co/hCM3n3qnmo #RedNationRising” #avgeek
+  Q: The co-pilot of the Germanwings Airbus was a convert to Islam http://t.co/cXkX67PYQt

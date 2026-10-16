@@ -1,0 +1,1665 @@
+{
+ "event": "ferguson",
+ "n_claims": 371,
+ "vocab": {
+  "event": "ferguson",
+  "nodes": [
+   {
+    "node": "public_reaction",
+    "desc": "Public sentiment and responses"
+   },
+   {
+    "node": "event_description",
+    "desc": "Details of the event itself"
+   },
+   {
+    "node": "police_action",
+    "desc": "Actions taken by the police"
+   },
+   {
+    "node": "media_coverage",
+    "desc": "Media reporting and presence"
+   },
+   {
+    "node": "protest_and_response",
+    "desc": "Protests and community responses"
+   },
+   {
+    "node": "victims_and_perpetrators",
+    "desc": "Victims and individuals involved"
+   },
+   {
+    "node": "legal_and_political_context",
+    "desc": "Legal and political aspects"
+   },
+   {
+    "node": "social_impact",
+    "desc": "Social and community impact"
+   },
+   {
+    "node": "use_of_force",
+    "desc": "Use of force by police"
+   },
+   {
+    "node": "police_officer_identity",
+    "desc": "Identity of the police officer involved"
+   },
+   {
+    "node": "weapons_and_armaments",
+    "desc": "Weapons and armaments used"
+   },
+   {
+    "node": "geographical_context",
+    "desc": "Geographical context of the event"
+   },
+   {
+    "node": "time_context",
+    "desc": "Temporal context of the event"
+   },
+   {
+    "node": "other",
+    "desc": "Other narrative aspects not covered by above nodes"
+   }
+  ],
+  "n_label_used": 235,
+  "coverage_pct": 85.2
+ },
+ "min_count": 1,
+ "l2_only": true,
+ "slices": {
+  "0": {
+   "label": "S1 08-09T23:24→08-13T03:53",
+   "n_threads": 93,
+   "labels": [
+    "public reaction",
+    "shot",
+    "current year",
+    "shooting",
+    "presence",
+    "execution",
+    "operation",
+    "call to action",
+    "makeup",
+    "type",
+    "mother speaking",
+    "use",
+    "punishment",
+    "operation from fear and prejudice",
+    "description",
+    "march following",
+    "dehumanizing a community",
+    "qualification",
+    "murder",
+    "threatening",
+    "interaction with victim",
+    "impact",
+    "administrative leave",
+    "blockage",
+    "use of force",
+    "use of equipment",
+    "use of tactics",
+    "original",
+    "is target",
+    "event",
+    "news reporting",
+    "protestors",
+    "contact information",
+    "police response",
+    "news coverage",
+    "pressure on head of city",
+    "execution of children",
+    "shot + killed by police",
+    "killed/dead",
+    "witness recording",
+    "police action",
+    "labeling",
+    "drives over guy",
+    "happening now",
+    "courage to write",
+    "crossing",
+    "live coverage",
+    "problem location",
+    "press conference response",
+    "police dogs visible",
+    "protection measures",
+    "for black arming",
+    "confiscation",
+    "location",
+    "attempted action",
+    "comparison",
+    "camera surveillance",
+    "meaning",
+    "intersection shutdown",
+    "situation",
+    "appearance",
+    "marching",
+    "treatment",
+    "racism",
+    "without harassment",
+    "racism in police department",
+    "racial profiling",
+    "militarizing police departments",
+    "origin",
+    "threatens",
+    "media blackout",
+    "behavior",
+    "public stance",
+    "chant",
+    "POC response to racism & oppression",
+    "front line",
+    "current situation",
+    "size"
+   ],
+   "counts": {
+    "mother speaking": 1,
+    "use": 1,
+    "presence": 2,
+    "punishment": 1,
+    "operation from fear and prejudice": 1,
+    "public reaction": 4,
+    "description": 1,
+    "march following": 1,
+    "dehumanizing a community": 1,
+    "execution": 2,
+    "qualification": 1,
+    "murder": 1,
+    "threatening": 1,
+    "interaction with victim": 1,
+    "impact": 1,
+    "administrative leave": 1,
+    "blockage": 1,
+    "shot": 3,
+    "use of force": 1,
+    "use of equipment": 1,
+    "use of tactics": 1,
+    "current year": 3,
+    "operation": 2,
+    "original": 1,
+    "is target": 1,
+    "event": 1,
+    "news reporting": 1,
+    "protestors": 1,
+    "contact information": 1,
+    "shooting": 3,
+    "police response": 1,
+    "news coverage": 1,
+    "pressure on head of city": 1,
+    "execution of children": 1,
+    "shot + killed by police": 1,
+    "killed/dead": 1,
+    "witness recording": 1,
+    "police action": 1,
+    "labeling": 1,
+    "drives over guy": 1,
+    "happening now": 1,
+    "courage to write": 1,
+    "crossing": 1,
+    "live coverage": 1,
+    "problem location": 1,
+    "press conference response": 1,
+    "police dogs visible": 1,
+    "protection measures": 1,
+    "for black arming": 1,
+    "confiscation": 1,
+    "location": 1,
+    "attempted action": 1,
+    "comparison": 1,
+    "camera surveillance": 1,
+    "call to action": 2,
+    "meaning": 1,
+    "intersection shutdown": 1,
+    "situation": 1,
+    "makeup": 2,
+    "appearance": 1,
+    "marching": 1,
+    "treatment": 1,
+    "racism": 1,
+    "without harassment": 1,
+    "racism in police department": 1,
+    "racial profiling": 1,
+    "type": 2,
+    "militarizing police departments": 1,
+    "origin": 1,
+    "threatens": 1,
+    "media blackout": 1,
+    "behavior": 1,
+    "public stance": 1,
+    "chant": 1,
+    "POC response to racism & oppression": 1,
+    "front line": 1,
+    "current situation": 1,
+    "size": 1
+   },
+   "node_members": {
+    "public_reaction": [
+     "public reaction",
+     "public stance"
+    ],
+    "police_action": [
+     "shot",
+     "shooting",
+     "operation",
+     "use",
+     "police response",
+     "shot + killed by police",
+     "police action",
+     "drives over guy",
+     "police dogs visible",
+     "confiscation",
+     "attempted action",
+     "intersection shutdown"
+    ],
+    "time_context": [
+     "current year",
+     "happening now"
+    ],
+    "media_coverage": [
+     "presence",
+     "news reporting",
+     "contact information",
+     "news coverage",
+     "witness recording",
+     "live coverage",
+     "camera surveillance",
+     "media blackout"
+    ],
+    "protest_and_response": [
+     "execution",
+     "call to action",
+     "makeup",
+     "type",
+     "punishment",
+     "march following",
+     "protestors",
+     "execution of children",
+     "press conference response",
+     "protection measures",
+     "for black arming",
+     "marching",
+     "without harassment",
+     "chant",
+     "POC response to racism & oppression",
+     "front line"
+    ],
+    "victims_and_perpetrators": [
+     "mother speaking",
+     "qualification",
+     "murder",
+     "threatening",
+     "interaction with victim",
+     "is target",
+     "killed/dead",
+     "appearance",
+     "treatment",
+     "behavior"
+    ],
+    "legal_and_political_context": [
+     "operation from fear and prejudice",
+     "administrative leave",
+     "pressure on head of city",
+     "labeling",
+     "comparison",
+     "racism in police department",
+     "racial profiling",
+     "militarizing police departments"
+    ],
+    "event_description": [
+     "description",
+     "original",
+     "event"
+    ],
+    "social_impact": [
+     "dehumanizing a community",
+     "impact",
+     "blockage",
+     "meaning",
+     "situation",
+     "racism",
+     "origin",
+     "threatens",
+     "current situation",
+     "size"
+    ],
+    "use_of_force": [
+     "use of force",
+     "use of equipment",
+     "use of tactics"
+    ],
+    "other": [
+     "courage to write"
+    ],
+    "geographical_context": [
+     "crossing",
+     "problem location",
+     "location"
+    ]
+   },
+   "node_threads": {
+    "public_reaction": 5,
+    "police_action": 17,
+    "time_context": 4,
+    "media_coverage": 9,
+    "protest_and_response": 20,
+    "victims_and_perpetrators": 10,
+    "legal_and_political_context": 8,
+    "event_description": 3,
+    "social_impact": 10,
+    "use_of_force": 3,
+    "other": 1,
+    "geographical_context": 3
+   },
+   "kappa": 0.2225,
+   "kappa_tab": [
+    146,
+    197,
+    393,
+    2267
+   ],
+   "po": 0.8035,
+   "n_other": 0
+  },
+  "1": {
+   "label": "S2 08-13T03:59→08-13T23:35",
+   "n_threads": 93,
+   "labels": [
+    "presence",
+    "shot",
+    "weapons drawn",
+    "perpetrator identity",
+    "status",
+    "description",
+    "militarization",
+    "cleaning up",
+    "public reaction",
+    "tense situation",
+    "shutdown",
+    "police interaction",
+    "ending",
+    "storytelling power",
+    "leaving #Ferguson",
+    "organized",
+    "refusal to move",
+    "fatalities",
+    "occurred",
+    "being made",
+    "injury",
+    "occupation",
+    "police action",
+    "incidents",
+    "going to war",
+    "motivation",
+    "use of force",
+    "police killing",
+    "#Ferguson",
+    "role",
+    "militarized police state exercise",
+    "quality",
+    "name",
+    "hiding",
+    "action",
+    "victory",
+    "injured",
+    "on-site presence",
+    "police dispatch and EMS audio",
+    "account of racial politics",
+    "news release",
+    "updates",
+    "police statement",
+    "type of debris",
+    "narrative",
+    "media focus",
+    "age",
+    "militarized force",
+    "eyewitness meeting",
+    "police force",
+    "murder rate",
+    "name release",
+    "property values",
+    "being handed out",
+    "gas exposure",
+    "police investigation",
+    "willingness to die",
+    "request",
+    "content of statement",
+    "ongoing",
+    "resistance",
+    "for ppl arrested",
+    "criminal record",
+    "backed up",
+    "photos",
+    "blockage",
+    "police operation",
+    "compliments",
+    "police presence",
+    "mind tricks",
+    "media presence",
+    "killing",
+    "response",
+    "presence on streets",
+    "heading into",
+    "operation",
+    "use of jammers",
+    "interaction with media",
+    "positioning",
+    "gun possession"
+   ],
+   "counts": {
+    "shutdown": 1,
+    "police interaction": 1,
+    "ending": 1,
+    "storytelling power": 1,
+    "leaving #Ferguson": 1,
+    "organized": 1,
+    "perpetrator identity": 2,
+    "refusal to move": 1,
+    "fatalities": 1,
+    "occurred": 1,
+    "being made": 1,
+    "injury": 1,
+    "occupation": 1,
+    "police action": 1,
+    "presence": 3,
+    "incidents": 1,
+    "going to war": 1,
+    "motivation": 1,
+    "status": 2,
+    "use of force": 1,
+    "police killing": 1,
+    "#Ferguson": 1,
+    "role": 1,
+    "militarized police state exercise": 1,
+    "quality": 1,
+    "name": 1,
+    "hiding": 1,
+    "action": 1,
+    "victory": 1,
+    "injured": 1,
+    "on-site presence": 1,
+    "police dispatch and EMS audio": 1,
+    "account of racial politics": 1,
+    "news release": 1,
+    "description": 2,
+    "updates": 1,
+    "police statement": 1,
+    "type of debris": 1,
+    "narrative": 1,
+    "media focus": 1,
+    "age": 1,
+    "militarization": 2,
+    "militarized force": 1,
+    "eyewitness meeting": 1,
+    "police force": 1,
+    "murder rate": 1,
+    "name release": 1,
+    "property values": 1,
+    "being handed out": 1,
+    "shot": 3,
+    "gas exposure": 1,
+    "police investigation": 1,
+    "willingness to die": 1,
+    "request": 1,
+    "content of statement": 1,
+    "ongoing": 1,
+    "cleaning up": 2,
+    "resistance": 1,
+    "for ppl arrested": 1,
+    "criminal record": 1,
+    "backed up": 1,
+    "photos": 1,
+    "public reaction": 2,
+    "blockage": 1,
+    "weapons drawn": 3,
+    "police operation": 1,
+    "tense situation": 2,
+    "compliments": 1,
+    "police presence": 1,
+    "mind tricks": 1,
+    "media presence": 1,
+    "killing": 1,
+    "response": 1,
+    "presence on streets": 1,
+    "heading into": 1,
+    "operation": 1,
+    "use of jammers": 1,
+    "interaction with media": 1,
+    "positioning": 1,
+    "gun possession": 1
+   },
+   "node_members": {
+    "police_action": [
+     "presence",
+     "shot",
+     "weapons drawn",
+     "police interaction",
+     "police action",
+     "incidents",
+     "action",
+     "on-site presence",
+     "militarized force",
+     "police force",
+     "backed up",
+     "police operation",
+     "police presence",
+     "operation",
+     "use of jammers",
+     "positioning"
+    ],
+    "victims_and_perpetrators": [
+     "perpetrator identity",
+     "status",
+     "fatalities",
+     "injury",
+     "occupation",
+     "role",
+     "name",
+     "injured",
+     "age",
+     "name release",
+     "gas exposure",
+     "willingness to die",
+     "criminal record",
+     "gun possession"
+    ],
+    "event_description": [
+     "description",
+     "occurred",
+     "being made",
+     "killing"
+    ],
+    "social_impact": [
+     "militarization",
+     "cleaning up",
+     "tense situation",
+     "storytelling power",
+     "going to war",
+     "motivation",
+     "militarized police state exercise",
+     "quality",
+     "hiding",
+     "victory",
+     "murder rate",
+     "property values",
+     "being handed out"
+    ],
+    "public_reaction": [
+     "public reaction",
+     "compliments"
+    ],
+    "protest_and_response": [
+     "shutdown",
+     "ending",
+     "leaving #Ferguson",
+     "organized",
+     "refusal to move",
+     "eyewitness meeting",
+     "resistance",
+     "for ppl arrested",
+     "response",
+     "presence on streets"
+    ],
+    "use_of_force": [
+     "use of force",
+     "police killing"
+    ],
+    "geographical_context": [
+     "#Ferguson",
+     "blockage",
+     "heading into"
+    ],
+    "media_coverage": [
+     "police dispatch and EMS audio",
+     "news release",
+     "updates",
+     "police statement",
+     "type of debris",
+     "media focus",
+     "photos",
+     "media presence",
+     "interaction with media"
+    ],
+    "legal_and_political_context": [
+     "account of racial politics",
+     "police investigation",
+     "request",
+     "content of statement",
+     "mind tricks"
+    ],
+    "other": [
+     "narrative"
+    ],
+    "time_context": [
+     "ongoing"
+    ]
+   },
+   "node_threads": {
+    "police_action": 22,
+    "victims_and_perpetrators": 16,
+    "event_description": 5,
+    "social_impact": 16,
+    "public_reaction": 3,
+    "protest_and_response": 10,
+    "use_of_force": 2,
+    "geographical_context": 3,
+    "media_coverage": 9,
+    "legal_and_political_context": 5,
+    "other": 1,
+    "time_context": 1
+   },
+   "kappa": 0.1619,
+   "kappa_tab": [
+    220,
+    171,
+    800,
+    1969
+   ],
+   "po": 0.6927,
+   "n_other": 0
+  },
+  "2": {
+   "label": "S3 08-13T23:37→08-15T15:50",
+   "n_threads": 93,
+   "labels": [
+    "public reaction",
+    "gas exposure",
+    "custody held",
+    "location",
+    "solidarity",
+    "charge",
+    "officer identity",
+    "report release",
+    "beat a man",
+    "use of apps to prevent deletion",
+    "right to assemble",
+    "facing protesters",
+    "demanding movement",
+    "going down",
+    "blockage",
+    "aimed at",
+    "prevents deletion",
+    "dancing/chanting",
+    "dressing",
+    "tear gas use",
+    "武装程度",
+    "police behavior",
+    "Justice",
+    "signs held",
+    "participants",
+    "current event",
+    "support for Ferguson",
+    "number arrested",
+    "training",
+    "media blackout",
+    "militarization",
+    "topic of discussion",
+    "release of officer name",
+    "Solidarity",
+    "martial law",
+    "peaceful night",
+    "march",
+    "final statement",
+    "last words",
+    "name release",
+    "event",
+    "difference",
+    "event significance",
+    "Twitter quality",
+    "named/identified",
+    "identified",
+    "cartoon representation",
+    "named",
+    "dispatch call",
+    "response",
+    "approach",
+    "frequency",
+    "death",
+    "police description",
+    "memory of victim",
+    "consistency",
+    "lied",
+    "fit description",
+    "is the robber",
+    "lying",
+    "presence",
+    "arrest status",
+    "account of incident",
+    "approached officer",
+    "credibility",
+    "performance",
+    "beat man",
+    "need",
+    "situation",
+    "time before shooting",
+    "murdered unarmed teen",
+    "alleged accomplice arrest",
+    "response time",
+    "equipment source",
+    "police request",
+    "shutdown",
+    "report content",
+    "attempted character assassination",
+    "police operation",
+    "trial deserved"
+   ],
+   "counts": {
+    "use of apps to prevent deletion": 1,
+    "custody held": 2,
+    "right to assemble": 1,
+    "location": 2,
+    "facing protesters": 1,
+    "gas exposure": 3,
+    "demanding movement": 1,
+    "going down": 1,
+    "blockage": 1,
+    "aimed at": 1,
+    "prevents deletion": 1,
+    "dancing/chanting": 1,
+    "dressing": 1,
+    "tear gas use": 1,
+    "武装程度": 1,
+    "police behavior": 1,
+    "Justice": 1,
+    "public reaction": 5,
+    "signs held": 1,
+    "participants": 1,
+    "current event": 1,
+    "support for Ferguson": 1,
+    "number arrested": 1,
+    "training": 1,
+    "media blackout": 1,
+    "militarization": 1,
+    "topic of discussion": 1,
+    "release of officer name": 1,
+    "Solidarity": 1,
+    "martial law": 1,
+    "peaceful night": 1,
+    "march": 1,
+    "final statement": 1,
+    "last words": 1,
+    "solidarity": 2,
+    "name release": 1,
+    "event": 1,
+    "difference": 1,
+    "event significance": 1,
+    "charge": 2,
+    "Twitter quality": 1,
+    "officer identity": 2,
+    "named/identified": 1,
+    "identified": 1,
+    "cartoon representation": 1,
+    "named": 1,
+    "dispatch call": 1,
+    "response": 1,
+    "approach": 1,
+    "frequency": 1,
+    "death": 1,
+    "police description": 1,
+    "memory of victim": 1,
+    "consistency": 1,
+    "lied": 1,
+    "fit description": 1,
+    "is the robber": 1,
+    "lying": 1,
+    "presence": 1,
+    "arrest status": 1,
+    "account of incident": 1,
+    "approached officer": 1,
+    "credibility": 1,
+    "performance": 1,
+    "beat man": 1,
+    "need": 1,
+    "situation": 1,
+    "report release": 2,
+    "time before shooting": 1,
+    "murdered unarmed teen": 1,
+    "alleged accomplice arrest": 1,
+    "response time": 1,
+    "equipment source": 1,
+    "police request": 1,
+    "beat a man": 2,
+    "shutdown": 1,
+    "report content": 1,
+    "attempted character assassination": 1,
+    "police operation": 1,
+    "trial deserved": 1
+   },
+   "node_members": {
+    "public_reaction": [
+     "public reaction"
+    ],
+    "police_action": [
+     "gas exposure",
+     "custody held",
+     "beat a man",
+     "going down",
+     "blockage",
+     "aimed at",
+     "tear gas use",
+     "police behavior",
+     "peaceful night",
+     "dispatch call",
+     "response",
+     "approach",
+     "frequency",
+     "police description",
+     "presence",
+     "account of incident",
+     "time before shooting",
+     "response time",
+     "equipment source",
+     "police request",
+     "shutdown",
+     "police operation"
+    ],
+    "geographical_context": [
+     "location"
+    ],
+    "protest_and_response": [
+     "solidarity",
+     "right to assemble",
+     "facing protesters",
+     "demanding movement",
+     "dancing/chanting",
+     "dressing",
+     "signs held",
+     "support for Ferguson",
+     "Solidarity",
+     "march"
+    ],
+    "victims_and_perpetrators": [
+     "charge",
+     "participants",
+     "number arrested",
+     "named/identified",
+     "identified",
+     "named",
+     "death",
+     "memory of victim",
+     "is the robber",
+     "arrest status",
+     "approached officer",
+     "beat man",
+     "murdered unarmed teen",
+     "alleged accomplice arrest"
+    ],
+    "police_officer_identity": [
+     "officer identity",
+     "release of officer name",
+     "name release"
+    ],
+    "media_coverage": [
+     "report release",
+     "media blackout",
+     "Twitter quality",
+     "cartoon representation",
+     "report content"
+    ],
+    "other": [
+     "use of apps to prevent deletion",
+     "prevents deletion"
+    ],
+    "weapons_and_armaments": [
+     "武装程度"
+    ],
+    "legal_and_political_context": [
+     "Justice",
+     "training",
+     "militarization",
+     "topic of discussion",
+     "martial law",
+     "difference",
+     "event significance",
+     "consistency",
+     "lied",
+     "fit description",
+     "lying",
+     "credibility",
+     "performance",
+     "need",
+     "situation",
+     "attempted character assassination",
+     "trial deserved"
+    ],
+    "event_description": [
+     "current event",
+     "final statement",
+     "last words",
+     "event"
+    ]
+   },
+   "node_threads": {
+    "public_reaction": 5,
+    "police_action": 26,
+    "geographical_context": 2,
+    "protest_and_response": 11,
+    "victims_and_perpetrators": 15,
+    "police_officer_identity": 4,
+    "media_coverage": 6,
+    "other": 2,
+    "weapons_and_armaments": 1,
+    "legal_and_political_context": 17,
+    "event_description": 4
+   },
+   "kappa": 0.0345,
+   "kappa_tab": [
+    179,
+    344,
+    781,
+    1856
+   ],
+   "po": 0.644,
+   "n_other": 0
+  },
+  "3": {
+   "label": "S4 08-15T15:51→08-15T23:38",
+   "n_threads": 92,
+   "labels": [
+    "public reaction",
+    "reason",
+    "live tweeting",
+    "comparison",
+    "killed",
+    "death",
+    "constitutional violation",
+    "suspected of robbing",
+    "proposed legislation",
+    "beat up suspect",
+    "consultation",
+    "spiritual uplift",
+    "reaction to Ferguson",
+    "investigation intent",
+    "right to bear arms",
+    "release time",
+    "interviewed",
+    "media focus",
+    "expression of support & solidarity",
+    "death penalty",
+    "robbery linked to",
+    "military-like",
+    "release",
+    "protest",
+    "beat innocent man",
+    "pulled over by a cop",
+    "treatment",
+    "support activities",
+    "character assassination",
+    "dilemma in US",
+    "anti-human rights act",
+    "initial",
+    "awareness",
+    "need for federal government",
+    "reason for stop",
+    "endangerment",
+    "point of release",
+    "termination",
+    "intention",
+    "role in problem",
+    "attempted smear",
+    "knowledge of store robbery",
+    "knowledge of suspect status",
+    "killed by cop",
+    "inspiration",
+    "stop for robbery",
+    "description",
+    "live-tweeted",
+    "police operation",
+    "knowledge",
+    "desecration",
+    "KKK membership",
+    "cover-up attempt",
+    "dispersion",
+    "robbery relation",
+    "devastated",
+    "shot to death",
+    "connection to Brown's stop",
+    "conduct",
+    "police statement",
+    "media coverage",
+    "size",
+    "inclusion",
+    "journalists arrested",
+    "FergusonShooting",
+    "beauty",
+    "victims behavior",
+    "press conference behavior",
+    "protest letter",
+    "identification",
+    "officers' safety",
+    "police contact",
+    "story change",
+    "journalism need",
+    "comments",
+    "suit filed",
+    "impact",
+    "charge",
+    "is poisoning",
+    "background",
+    "ceremonial act",
+    "hero status",
+    "number of shots fired",
+    "fatalities",
+    "murdered"
+   ],
+   "counts": {
+    "death": 1,
+    "constitutional violation": 1,
+    "suspected of robbing": 1,
+    "proposed legislation": 1,
+    "beat up suspect": 1,
+    "consultation": 1,
+    "public reaction": 3,
+    "spiritual uplift": 1,
+    "reaction to Ferguson": 1,
+    "investigation intent": 1,
+    "right to bear arms": 1,
+    "release time": 1,
+    "interviewed": 1,
+    "media focus": 1,
+    "expression of support & solidarity": 1,
+    "death penalty": 1,
+    "robbery linked to": 1,
+    "reason": 3,
+    "military-like": 1,
+    "release": 1,
+    "protest": 1,
+    "beat innocent man": 1,
+    "pulled over by a cop": 1,
+    "treatment": 1,
+    "support activities": 1,
+    "character assassination": 1,
+    "dilemma in US": 1,
+    "anti-human rights act": 1,
+    "initial": 1,
+    "awareness": 1,
+    "live tweeting": 2,
+    "need for federal government": 1,
+    "reason for stop": 1,
+    "endangerment": 1,
+    "point of release": 1,
+    "termination": 1,
+    "intention": 1,
+    "role in problem": 1,
+    "attempted smear": 1,
+    "knowledge of store robbery": 1,
+    "comparison": 2,
+    "knowledge of suspect status": 1,
+    "killed by cop": 1,
+    "inspiration": 1,
+    "stop for robbery": 1,
+    "description": 1,
+    "live-tweeted": 1,
+    "police operation": 1,
+    "knowledge": 1,
+    "desecration": 1,
+    "KKK membership": 1,
+    "cover-up attempt": 1,
+    "dispersion": 1,
+    "robbery relation": 1,
+    "devastated": 1,
+    "shot to death": 1,
+    "connection to Brown's stop": 1,
+    "conduct": 1,
+    "police statement": 1,
+    "media coverage": 1,
+    "size": 1,
+    "inclusion": 1,
+    "journalists arrested": 1,
+    "FergusonShooting": 1,
+    "beauty": 1,
+    "victims behavior": 1,
+    "press conference behavior": 1,
+    "protest letter": 1,
+    "identification": 1,
+    "officers' safety": 1,
+    "police contact": 1,
+    "story change": 1,
+    "journalism need": 1,
+    "comments": 1,
+    "suit filed": 1,
+    "impact": 1,
+    "charge": 1,
+    "is poisoning": 1,
+    "background": 1,
+    "killed": 2,
+    "ceremonial act": 1,
+    "hero status": 1,
+    "number of shots fired": 1,
+    "fatalities": 1,
+    "murdered": 1
+   },
+   "node_members": {
+    "public_reaction": [
+     "public reaction",
+     "comments"
+    ],
+    "event_description": [
+     "reason",
+     "stop for robbery",
+     "description",
+     "robbery relation",
+     "connection to Brown's stop",
+     "FergusonShooting"
+    ],
+    "media_coverage": [
+     "live tweeting",
+     "comparison",
+     "media focus",
+     "live-tweeted",
+     "media coverage",
+     "inclusion"
+    ],
+    "victims_and_perpetrators": [
+     "killed",
+     "death",
+     "suspected of robbing",
+     "interviewed",
+     "robbery linked to",
+     "release",
+     "beat innocent man",
+     "pulled over by a cop",
+     "treatment",
+     "reason for stop",
+     "endangerment",
+     "termination",
+     "knowledge of store robbery",
+     "knowledge of suspect status",
+     "killed by cop",
+     "KKK membership",
+     "shot to death",
+     "victims behavior",
+     "press conference behavior",
+     "identification",
+     "background",
+     "fatalities",
+     "murdered"
+    ],
+    "legal_and_political_context": [
+     "constitutional violation",
+     "proposed legislation",
+     "consultation",
+     "investigation intent",
+     "right to bear arms",
+     "death penalty",
+     "character assassination",
+     "anti-human rights act",
+     "need for federal government",
+     "intention",
+     "role in problem",
+     "attempted smear",
+     "cover-up attempt",
+     "police statement",
+     "story change",
+     "suit filed",
+     "charge"
+    ],
+    "police_action": [
+     "beat up suspect",
+     "military-like",
+     "police operation",
+     "conduct",
+     "officers' safety",
+     "police contact",
+     "number of shots fired"
+    ],
+    "social_impact": [
+     "spiritual uplift",
+     "reaction to Ferguson",
+     "dilemma in US",
+     "awareness",
+     "inspiration",
+     "desecration",
+     "devastated",
+     "journalism need",
+     "impact"
+    ],
+    "time_context": [
+     "release time",
+     "initial",
+     "point of release"
+    ],
+    "protest_and_response": [
+     "expression of support & solidarity",
+     "protest",
+     "support activities",
+     "dispersion",
+     "size",
+     "journalists arrested",
+     "protest letter"
+    ]
+   },
+   "node_threads": {
+    "public_reaction": 4,
+    "event_description": 8,
+    "media_coverage": 8,
+    "victims_and_perpetrators": 24,
+    "legal_and_political_context": 17,
+    "police_action": 7,
+    "social_impact": 9,
+    "time_context": 3,
+    "protest_and_response": 7
+   },
+   "kappa": 0.344,
+   "kappa_tab": [
+    207,
+    304,
+    241,
+    2818
+   ],
+   "po": 0.8473,
+   "n_other": 5
+  }
+ },
+ "kappa_mean": 0.1907,
+ "po_mean": 0.7469,
+ "transitions": [],
+ "ops_llm": {},
+ "det_ops_total": {
+  "CONTINUE": 28,
+  "BIRTH": 4,
+  "RETIRE": 7
+ },
+ "det_per_trans": [
+  {
+   "d1": "S1 08-09T23:24→08-13T03:53",
+   "d2": "S2 08-13T03:59→08-13T23:35",
+   "det": {
+    "CONTINUE": 12,
+    "BIRTH": 0,
+    "RETIRE": 0
+   },
+   "born": [],
+   "retired": []
+  },
+  {
+   "d1": "S2 08-13T03:59→08-13T23:35",
+   "d2": "S3 08-13T23:37→08-15T15:50",
+   "det": {
+    "CONTINUE": 9,
+    "BIRTH": 2,
+    "RETIRE": 3
+   },
+   "born": [
+    "police_officer_identity",
+    "weapons_and_armaments"
+   ],
+   "retired": [
+    "social_impact",
+    "time_context",
+    "use_of_force"
+   ]
+  },
+  {
+   "d1": "S3 08-13T23:37→08-15T15:50",
+   "d2": "S4 08-15T15:51→08-15T23:38",
+   "det": {
+    "CONTINUE": 7,
+    "BIRTH": 2,
+    "RETIRE": 4
+   },
+   "born": [
+    "social_impact",
+    "time_context"
+   ],
+   "retired": [
+    "geographical_context",
+    "other",
+    "police_officer_identity",
+    "weapons_and_armaments"
+   ]
+  }
+ ],
+ "node_lifespan": {
+  "public_reaction": {
+   "first": "S1 08-09T23:24→08-13T03:53",
+   "last": "S4 08-15T15:51→08-15T23:38",
+   "n_slices": 4,
+   "threads": [
+    5,
+    3,
+    5,
+    4
+   ]
+  },
+  "protest_and_response": {
+   "first": "S1 08-09T23:24→08-13T03:53",
+   "last": "S4 08-15T15:51→08-15T23:38",
+   "n_slices": 4,
+   "threads": [
+    20,
+    10,
+    11,
+    7
+   ]
+  },
+  "police_officer_identity": {
+   "first": "S3 08-13T23:37→08-15T15:50",
+   "last": "S3 08-13T23:37→08-15T15:50",
+   "n_slices": 1,
+   "threads": [
+    0,
+    0,
+    4,
+    0
+   ]
+  },
+  "police_action": {
+   "first": "S1 08-09T23:24→08-13T03:53",
+   "last": "S4 08-15T15:51→08-15T23:38",
+   "n_slices": 4,
+   "threads": [
+    17,
+    22,
+    26,
+    7
+   ]
+  },
+  "legal_and_political_context": {
+   "first": "S1 08-09T23:24→08-13T03:53",
+   "last": "S4 08-15T15:51→08-15T23:38",
+   "n_slices": 4,
+   "threads": [
+    8,
+    5,
+    17,
+    17
+   ]
+  },
+  "event_description": {
+   "first": "S1 08-09T23:24→08-13T03:53",
+   "last": "S4 08-15T15:51→08-15T23:38",
+   "n_slices": 4,
+   "threads": [
+    3,
+    5,
+    4,
+    8
+   ]
+  },
+  "use_of_force": {
+   "first": "S1 08-09T23:24→08-13T03:53",
+   "last": "S2 08-13T03:59→08-13T23:35",
+   "n_slices": 2,
+   "threads": [
+    3,
+    2,
+    0,
+    0
+   ]
+  },
+  "other": {
+   "first": "S1 08-09T23:24→08-13T03:53",
+   "last": "S3 08-13T23:37→08-15T15:50",
+   "n_slices": 3,
+   "threads": [
+    1,
+    1,
+    2,
+    0
+   ]
+  },
+  "time_context": {
+   "first": "S1 08-09T23:24→08-13T03:53",
+   "last": "S4 08-15T15:51→08-15T23:38",
+   "n_slices": 3,
+   "threads": [
+    4,
+    1,
+    0,
+    3
+   ]
+  },
+  "media_coverage": {
+   "first": "S1 08-09T23:24→08-13T03:53",
+   "last": "S4 08-15T15:51→08-15T23:38",
+   "n_slices": 4,
+   "threads": [
+    9,
+    9,
+    6,
+    8
+   ]
+  },
+  "weapons_and_armaments": {
+   "first": "S3 08-13T23:37→08-15T15:50",
+   "last": "S3 08-13T23:37→08-15T15:50",
+   "n_slices": 1,
+   "threads": [
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  "victims_and_perpetrators": {
+   "first": "S1 08-09T23:24→08-13T03:53",
+   "last": "S4 08-15T15:51→08-15T23:38",
+   "n_slices": 4,
+   "threads": [
+    10,
+    16,
+    15,
+    24
+   ]
+  },
+  "social_impact": {
+   "first": "S1 08-09T23:24→08-13T03:53",
+   "last": "S4 08-15T15:51→08-15T23:38",
+   "n_slices": 3,
+   "threads": [
+    10,
+    16,
+    0,
+    9
+   ]
+  },
+  "geographical_context": {
+   "first": "S1 08-09T23:24→08-13T03:53",
+   "last": "S3 08-13T23:37→08-15T15:50",
+   "n_slices": 3,
+   "threads": [
+    3,
+    3,
+    2,
+    0
+   ]
+  }
+ },
+ "anchor": {
+  "born_nodes": [
+   "police_officer_identity",
+   "social_impact",
+   "time_context",
+   "weapons_and_armaments"
+  ],
+  "continue_nodes": [
+   "event_description",
+   "geographical_context",
+   "legal_and_political_context",
+   "media_coverage",
+   "other",
+   "police_action",
+   "protest_and_response",
+   "public_reaction",
+   "social_impact",
+   "time_context",
+   "use_of_force",
+   "victims_and_perpetrators"
+  ],
+  "ver_born": {
+   "null": 37,
+   "2": 11
+  },
+  "ver_continue": {
+   "null": 282,
+   "2": 74,
+   "1": 3,
+   "0": 2
+  }
+ },
+ "veracity_anchor": {
+  "S1 08-09T23:24→08-13T03:53": {
+   "public_reaction": {
+    "null": 5
+   },
+   "police_action": {
+    "null": 14,
+    "1": 2,
+    "2": 1
+   },
+   "time_context": {
+    "null": 4
+   },
+   "media_coverage": {
+    "null": 7,
+    "2": 2
+   },
+   "protest_and_response": {
+    "null": 20
+   },
+   "victims_and_perpetrators": {
+    "null": 10
+   },
+   "legal_and_political_context": {
+    "null": 8
+   },
+   "event_description": {
+    "null": 3
+   },
+   "social_impact": {
+    "null": 10
+   },
+   "use_of_force": {
+    "null": 3
+   },
+   "other": {
+    "null": 1
+   },
+   "geographical_context": {
+    "null": 3
+   }
+  },
+  "S2 08-13T03:59→08-13T23:35": {
+   "police_action": {
+    "null": 21,
+    "2": 1
+   },
+   "victims_and_perpetrators": {
+    "null": 14,
+    "2": 2
+   },
+   "event_description": {
+    "2": 1,
+    "null": 4
+   },
+   "social_impact": {
+    "null": 14,
+    "2": 2
+   },
+   "public_reaction": {
+    "null": 3
+   },
+   "protest_and_response": {
+    "2": 1,
+    "null": 9
+   },
+   "use_of_force": {
+    "null": 2
+   },
+   "geographical_context": {
+    "null": 3
+   },
+   "media_coverage": {
+    "2": 3,
+    "null": 6
+   },
+   "legal_and_political_context": {
+    "null": 5
+   },
+   "other": {
+    "null": 1
+   },
+   "time_context": {
+    "null": 1
+   }
+  },
+  "S3 08-13T23:37→08-15T15:50": {
+   "public_reaction": {
+    "null": 5
+   },
+   "police_action": {
+    "null": 19,
+    "2": 7
+   },
+   "geographical_context": {
+    "null": 1,
+    "2": 1
+   },
+   "protest_and_response": {
+    "null": 11
+   },
+   "victims_and_perpetrators": {
+    "null": 6,
+    "2": 9
+   },
+   "police_officer_identity": {
+    "2": 4
+   },
+   "media_coverage": {
+    "null": 3,
+    "2": 3
+   },
+   "other": {
+    "null": 2
+   },
+   "weapons_and_armaments": {
+    "null": 1
+   },
+   "legal_and_political_context": {
+    "null": 9,
+    "2": 8
+   },
+   "event_description": {
+    "null": 4
+   }
+  },
+  "S4 08-15T15:51→08-15T23:38": {
+   "public_reaction": {
+    "null": 3,
+    "2": 1
+   },
+   "event_description": {
+    "2": 6,
+    "0": 1,
+    "null": 1
+   },
+   "media_coverage": {
+    "2": 1,
+    "null": 7
+   },
+   "victims_and_perpetrators": {
+    "null": 15,
+    "2": 8,
+    "0": 1
+   },
+   "legal_and_political_context": {
+    "null": 8,
+    "2": 9
+   },
+   "police_action": {
+    "2": 2,
+    "null": 4,
+    "1": 1
+   },
+   "social_impact": {
+    "null": 7,
+    "2": 2
+   },
+   "time_context": {
+    "2": 3
+   },
+   "protest_and_response": {
+    "null": 6,
+    "2": 1
+   }
+  }
+ }
+}

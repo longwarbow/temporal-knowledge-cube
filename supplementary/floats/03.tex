@@ -1,0 +1,21 @@
+\subsection*{S3 · $Q_3$ alert criterion, out of sample (E11)}
+\addcontentsline{toc}{subsection}{S3 · $Q_3$ alert criterion, out of sample (E11)}
+\noindent\emph{Referred to from the main paper, \S7.4.3.}
+
+\begin{table}[htbp]
+\caption{$Q_3$ alert criterion out of sample (E11, CED 3,387 trees).}
+\label{stab:alert}
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{1.14}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+\textbf{Model (features)} & \textbf{ROC-AUC} & \textbf{PR-AUC} & \textbf{F1 (rumour)}\\
+\midrule
+naive source-diversity ratio & \textbf{0.448} & 0.421 & 0.626\\
+$M_1$ data plane only & 0.669 & 0.563 & 0.653\\
+$M_2$ knowledge plane only & 0.685 & 0.676 & 0.632\\
+$M_3$ \textbf{coupled} & \textbf{0.745} & \textbf{0.686} & \textbf{0.674}\\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,35 @@
+{
+  "N": 150,
+  "M": 30,
+  "phaseA": {
+    "docs": 150,
+    "leaves": 150,
+    "internal": 22,
+    "wall_s": 28.65,
+    "prompt_tokens": 5522,
+    "completion_tokens": 1120,
+    "total_tokens": 6642
+  },
+  "phaseB": {
+    "new_chunks": 30,
+    "leaves_after": 180,
+    "internal_after": 21,
+    "wall_s": 85.09,
+    "prompt_tokens": 5345,
+    "completion_tokens": 1006,
+    "total_tokens": 6351
+  },
+  "full_rebuild_NpM": {
+    "docs": 180,
+    "leaves": 180,
+    "internal": 26,
+    "wall_s": 35.3,
+    "prompt_tokens": 6578,
+    "completion_tokens": 1322,
+    "total_tokens": 7900
+  },
+  "incremental_value": {
+    "phaseB_tokens_over_full": 0.804,
+    "phaseB_sec_over_full": 2.41
+  }
+}

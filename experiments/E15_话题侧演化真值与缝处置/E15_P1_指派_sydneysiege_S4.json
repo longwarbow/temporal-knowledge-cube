@@ -1,0 +1,81 @@
+{
+ "slice": "S4 12-15T12:11→12-15T15:58",
+ "kappa": 0.121,
+ "kappa_tab": [
+  3,
+  11,
+  8,
+  69
+ ],
+ "po": 0.7912,
+ "n_labels": 14,
+ "n_other": 0,
+ "node_threads": {
+  "public_reaction": 48,
+  "police_operation": 43,
+  "perpetrator_identity": 36,
+  "status_update": 22,
+  "hostage_count": 11,
+  "hostage_situation": 17
+ },
+ "node_members": {
+  "public_reaction": [
+   "public reaction"
+  ],
+  "police_operation": [
+   "police operation",
+   "gunfire",
+   "force shots",
+   "police confirmation"
+  ],
+  "perpetrator_identity": [
+   "perpetrator identity",
+   "gunman identity",
+   "identity",
+   "identified"
+  ],
+  "status_update": [
+   "status",
+   "end"
+  ],
+  "hostage_count": [
+   "death toll"
+  ],
+  "hostage_situation": [
+   "escaped",
+   "hostage situation"
+  ]
+ },
+ "assign_A": {
+  "public reaction": 1,
+  "police operation": 4,
+  "perpetrator identity": 3,
+  "status": 6,
+  "death toll": 5,
+  "gunman identity": 3,
+  "escaped": 2,
+  "end": 6,
+  "hostage situation": 2,
+  "identity": 3,
+  "gunfire": 4,
+  "identified": 3,
+  "force shots": 4,
+  "police confirmation": 4
+ },
+ "assign_B": {
+  "death toll": 0,
+  "end": 0,
+  "escaped": 0,
+  "force shots": 4,
+  "gunfire": 7,
+  "gunman identity": 5,
+  "hostage situation": 6,
+  "identified": 4,
+  "identity": 7,
+  "perpetrator identity": 3,
+  "police confirmation": 4,
+  "police operation": 4,
+  "public reaction": 1,
+  "status": 6
+ }
+}

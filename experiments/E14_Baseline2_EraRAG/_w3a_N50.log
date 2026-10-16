@@ -1,0 +1,472 @@
+D:\WSPforWB\10.keyan\.venv_e14\lib\site-packages\pydantic\_internal\_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'validate_default' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'validate_default' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+[nltk_data] Error loading stopwords: <urlopen error [Errno 2] No such
+[nltk_data]     file or directory>
+[准备] N=50 M=10 pool=60
+####################################################################################################
+ _____ _____ _____ _____ __  __  ____  _   _ 
+|  __ \_   _/ ____|_   _|  \/  |/ __ \| \ | |
+| |  | || || |  __  | | | \  / | |  | |  \| |
+| |  | || || | |_ | | | | |\/| | |  | | . ` |
+| |__| || || |__| |_| |_| |  | | |__| | |\  |
+|_____/_____\_____|_____|_|  |_|\____/|_| \_|
+                                             
+                                             
+
+╔════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Welcome to DIGIMON: Deep Analysis of Graph-Based RAG Systems.                                          ║
+║                                                                                                        ║
+║ Unlock advanced insights with our comprehensive tool for evaluating and optimizing RAG models.         ║
+║                                                                                                        ║
+║ You can freely combine any graph-based RAG algorithms you desire. We hope this will be helpful to you! ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+####################################################################################################
+[32m2026-10-15 17:54:32.097[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36mget_hyperplanes[0m:[36m74[0m - [1m
+❌ No existing hyperplane! Regenerated hyperplane![0m
+[32m2026-10-15 17:54:32.217[0m | [1mINFO    [0m | [36mCore.Chunk.DocChunk[0m:[36mbuild_chunks[0m:[36m27[0m - [1mStarting chunk the given documents[0m
+[32m2026-10-15 17:54:32.257[0m | [1mINFO    [0m | [36mCore.Storage.ChunkKVStorage[0m:[36m_persist[0m:[36m105[0m - [1mWriting data into D:\WSPforWB\10.keyan\_e14_run\_w3a_N50\tree_graph_dynamic\chunk_storage_chunk_data_idx.pkl and D:\WSPforWB\10.keyan\_e14_run\_w3a_N50\tree_graph_dynamic\chunk_storage_chunk_data_key.pkl[0m
+[32m2026-10-15 17:54:32.258[0m | [1mINFO    [0m | [36mCore.Chunk.DocChunk[0m:[36mbuild_chunks[0m:[36m74[0m - [1m✅ Finished the chunking stage[0m
+[32m2026-10-15 17:54:32.258[0m | [1mINFO    [0m | [36mCore.GraphRAG[0m:[36m_update_costs_info[0m:[36m205[0m - [1mChunking stage cost: Total prompt token: 0, Total completeion token: 0, Total cost: 0[0m
+[32m2026-10-15 17:54:32.260[0m | [1mINFO    [0m | [36mCore.GraphRAG[0m:[36m_update_costs_info[0m:[36m207[0m - [1mChunking time(s): 0.04[0m
+[32m2026-10-15 17:54:32.260[0m | [1mINFO    [0m | [36mCore.Graph.BaseGraph[0m:[36mbuild_graph[0m:[36m41[0m - [1mStarting build graph for the given documents[0m
+[32m2026-10-15 17:54:32.260[0m | [1mINFO    [0m | [36mCore.Storage.TreeGraphStorage[0m:[36mload_tree_graph[0m:[36m43[0m - [1mForce flag is set. Rebuilding tree from scratch.[0m
+[32m2026-10-15 17:54:32.263[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 0, children = None[0m
+[32m2026-10-15 17:54:32.264[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 1, children = None[0m
+[32m2026-10-15 17:54:32.265[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 2, children = None[0m
+[32m2026-10-15 17:54:32.265[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 3, children = None[0m
+[32m2026-10-15 17:54:32.267[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 4, children = None[0m
+[32m2026-10-15 17:54:32.267[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 4, children = None[0m
+[32m2026-10-15 17:54:32.269[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 6, children = None[0m
+[32m2026-10-15 17:54:32.270[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 7, children = None[0m
+[32m2026-10-15 17:54:32.271[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 7, children = None[0m
+[32m2026-10-15 17:54:32.272[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 9, children = None[0m
+[32m2026-10-15 17:54:32.272[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 9, children = None[0m
+[32m2026-10-15 17:54:32.272[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 11, children = None[0m
+[32m2026-10-15 17:54:32.274[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 12, children = None[0m
+[32m2026-10-15 17:54:32.275[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 13, children = None[0m
+[32m2026-10-15 17:54:32.276[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 14, children = None[0m
+[32m2026-10-15 17:54:32.277[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 14, children = None[0m
+[32m2026-10-15 17:54:32.278[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 16, children = None[0m
+[32m2026-10-15 17:54:32.278[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 16, children = None[0m
+[32m2026-10-15 17:54:32.279[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 18, children = None[0m
+[32m2026-10-15 17:54:32.280[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 19, children = None[0m
+[32m2026-10-15 17:54:32.280[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 19, children = None[0m
+[32m2026-10-15 17:54:32.281[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 21, children = None[0m
+[32m2026-10-15 17:54:32.281[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 21, children = None[0m
+[32m2026-10-15 17:54:32.282[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 22, children = None[0m
+[32m2026-10-15 17:54:32.284[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 24, children = None[0m
+[32m2026-10-15 17:54:32.284[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 25, children = None[0m
+[32m2026-10-15 17:54:32.285[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 25, children = None[0m
+[32m2026-10-15 17:54:32.287[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 27, children = None[0m
+[32m2026-10-15 17:54:32.287[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 28, children = None[0m
+[32m2026-10-15 17:54:32.288[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 29, children = None[0m
+[32m2026-10-15 17:54:32.288[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 29, children = None[0m
+[32m2026-10-15 17:54:32.289[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 29, children = None[0m
+[32m2026-10-15 17:54:32.290[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 31, children = None[0m
+[32m2026-10-15 17:54:32.290[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 31, children = None[0m
+[32m2026-10-15 17:54:32.290[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 31, children = None[0m
+[32m2026-10-15 17:54:32.291[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 32, children = None[0m
+[32m2026-10-15 17:54:32.291[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 32, children = None[0m
+[32m2026-10-15 17:54:32.292[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 33, children = None[0m
+[32m2026-10-15 17:54:32.292[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 35, children = None[0m
+[32m2026-10-15 17:54:32.292[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 35, children = None[0m
+[32m2026-10-15 17:54:32.294[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 35, children = None[0m
+[32m2026-10-15 17:54:32.294[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 36, children = None[0m
+[32m2026-10-15 17:54:32.295[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 39, children = None[0m
+[32m2026-10-15 17:54:32.296[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 40, children = None[0m
+[32m2026-10-15 17:54:32.296[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 40, children = None[0m
+[32m2026-10-15 17:54:32.296[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 40, children = None[0m
+[32m2026-10-15 17:54:32.297[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 40, children = None[0m
+[32m2026-10-15 17:54:32.298[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 42, children = None[0m
+[32m2026-10-15 17:54:32.299[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 42, children = None[0m
+[32m2026-10-15 17:54:32.299[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 42, children = None[0m
+[32m2026-10-15 17:54:32.302[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_graph[0m:[36m673[0m - [1m50[0m
+[32m2026-10-15 17:54:32.302[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_graph[0m:[36m674[0m - [1mTo batch embed leaves[0m
+[32m2026-10-15 17:54:32.515[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_graph[0m:[36m676[0m - [1mCreated 50 Leaf Embeddings[0m
+[32m2026-10-15 17:54:32.518[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_tree_from_leaves[0m:[36m339[0m - [1mlength of layer: 50[0m
+[32m2026-10-15 17:54:32.519[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_perform_clustering[0m:[36m192[0m - [1mPerform Clustering: n_samples = 50[0m
+[32m2026-10-15 17:54:32.520[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m163[0m - [1m
+=== LSH Bucket Distribution Analysis ===[0m
+[32m2026-10-15 17:54:32.520[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m164[0m - [1mTotal Buckets: 49[0m
+[32m2026-10-15 17:54:32.520[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m165[0m - [1mBiggest Buckets: 2 Elements[0m
+[32m2026-10-15 17:54:32.520[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m166[0m - [1mSmallest Buckets: 1 Elements[0m
+[32m2026-10-15 17:54:32.520[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m167[0m - [1mAverage Size: 1.02 Elements[0m
+[32m2026-10-15 17:54:32.520[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m168[0m - [1m
+Bucket Size:[0m
+[32m2026-10-15 17:54:32.520[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m169[0m - [1mSize     | Count    | Percentage[0m
+[32m2026-10-15 17:54:32.520[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m175[0m - [1m1        | 48       |     98.0%[0m
+[32m2026-10-15 17:54:32.520[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m175[0m - [1m2        | 1        |    100.0%[0m
+[32m2026-10-15 17:54:32.520[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m178[0m - [1m
+=== Clustering Result ===[0m
+[32m2026-10-15 17:54:32.520[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m179[0m - [1mTotal Clusters: 7[0m
+[32m2026-10-15 17:54:32.520[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m181[0m - [1mCluster Distribution: Biggest 8, Smallest 2, Average 7.1[0m
+[32m2026-10-15 17:54:34.062[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 240, completion_tokens: 28[0m
+[32m2026-10-15 17:54:34.062[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 50, children = {42, 10, 12, 43, 14, 49, 22, 31}[0m
+[32m2026-10-15 17:54:34.078[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 237, completion_tokens: 27[0m
+[32m2026-10-15 17:54:34.078[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 51, children = {33, 7, 40, 41, 47, 18, 26, 29}[0m
+[32m2026-10-15 17:54:34.520[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 240, completion_tokens: 38[0m
+[32m2026-10-15 17:54:34.520[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 52, children = {1, 35, 37, 38, 5, 44, 46, 21}[0m
+[32m2026-10-15 17:54:34.594[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 262, completion_tokens: 38[0m
+[32m2026-10-15 17:54:34.594[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 53, children = {34, 36, 6, 13, 45, 48, 17, 23}[0m
+[32m2026-10-15 17:54:34.625[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 288, completion_tokens: 39[0m
+[32m2026-10-15 17:54:34.625[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 54, children = {3, 39, 15, 19, 24, 25, 27, 30}[0m
+[32m2026-10-15 17:54:35.621[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 82, completion_tokens: 17[0m
+[32m2026-10-15 17:54:35.622[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 55, children = {0, 9}[0m
+[32m2026-10-15 17:54:36.097[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 188, completion_tokens: 40[0m
+[32m2026-10-15 17:54:36.098[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 56, children = {32, 2, 4, 8, 11, 16, 20, 28}[0m
+[32m2026-10-15 17:54:36.098[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_tree_from_leaves[0m:[36m352[0m - [1mTo batch embed current layer[0m
+[32m2026-10-15 17:54:36.151[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_tree_from_leaves[0m:[36m355[0m - [1mLayer: 0[0m
+[32m2026-10-15 17:54:36.151[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_tree_from_leaves[0m:[36m339[0m - [1mlength of layer: 7[0m
+[32m2026-10-15 17:54:36.151[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_tree_from_leaves[0m:[36m357[0m - [1m2[0m
+[32m2026-10-15 17:54:36.151[0m | [1mINFO    [0m | [36mCore.Storage.TreeGraphStorage[0m:[36m_persist[0m:[36m33[0m - [1mWriting graph into D:\WSPforWB\10.keyan\_e14_run\_w3a_N50\tree_graph_dynamic\graph_storage_tree_data.pkl[0m
+[32m2026-10-15 17:54:36.154[0m | [1mINFO    [0m | [36mCore.Graph.BaseGraph[0m:[36mbuild_graph[0m:[36m57[0m - [1m✅ Finished the graph building stage[0m
+[32m2026-10-15 17:54:36.154[0m | [1mINFO    [0m | [36mCore.GraphRAG[0m:[36m_update_costs_info[0m:[36m205[0m - [1mBuild Graph stage cost: Total prompt token: 1537, Total completeion token: 227, Total cost: 0[0m
+[32m2026-10-15 17:54:36.154[0m | [1mINFO    [0m | [36mCore.GraphRAG[0m:[36m_update_costs_info[0m:[36m207[0m - [1mBuild Graph time(s): 3.89[0m
+[32m2026-10-15 17:54:36.154[0m | [1mINFO    [0m | [36mCore.Index.BaseIndex[0m:[36mbuild_index[0m:[36m13[0m - [1mStarting insert elements of the given graph into vector database[0m
+The path D:\WSPforWB\10.keyan\_e14_run\_w3a_N50\tree_graph_dynamic\entities_vdb does not exist.
+[32m2026-10-15 17:54:36.180[0m | [1mINFO    [0m | [36mCore.Index.BaseIndex[0m:[36mbuild_index[0m:[36m25[0m - [1mBuilding index for input elements[0m
+[32m2026-10-15 17:54:36.410[0m | [1mINFO    [0m | [36mCore.Index.FaissIndex[0m:[36m_update_index[0m:[36m106[0m - [1mrefresh index size is 57[0m
+[32m2026-10-15 17:54:36.418[0m | [1mINFO    [0m | [36mCore.Index.BaseIndex[0m:[36mbuild_index[0m:[36m28[0m - [1mIndex successfully built and stored.[0m
+[32m2026-10-15 17:54:36.418[0m | [1mINFO    [0m | [36mCore.Index.BaseIndex[0m:[36mbuild_index[0m:[36m29[0m - [1m✅ Finished starting insert entities of the given graph into vector database[0m
+[32m2026-10-15 17:54:36.418[0m | [1mINFO    [0m | [36mCore.GraphRAG[0m:[36m_update_costs_info[0m:[36m205[0m - [1mIndex Building stage cost: Total prompt token: 0, Total completeion token: 0, Total cost: 0[0m
+[32m2026-10-15 17:54:36.418[0m | [1mINFO    [0m | [36mCore.GraphRAG[0m:[36m_update_costs_info[0m:[36m207[0m - [1mIndex Building time(s): 0.26[0m
+[32m2026-10-15 17:54:36.418[0m | [1mINFO    [0m | [36mCore.GraphRAG[0m:[36m_build_retriever_context[0m:[36m176[0m - [1mBuilding retriever context for the current execution[0m
+####################################################################################################
+ _____ _____ _____ _____ __  __  ____  _   _ 
+|  __ \_   _/ ____|_   _|  \/  |/ __ \| \ | |
+| |  | || || |  __  | | | \  / | |  | |  \| |
+| |  | || || | |_ | | | | |\/| | |  | | . ` |
+| |__| || || |__| |_| |_| |  | | |__| | |\  |
+|_____/_____\_____|_____|_|  |_|\____/|_| \_|
+                                             
+                                             
+
+╔════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Welcome to DIGIMON: Deep Analysis of Graph-Based RAG Systems.                                          ║
+║                                                                                                        ║
+║ Unlock advanced insights with our comprehensive tool for evaluating and optimizing RAG models.         ║
+║                                                                                                        ║
+║ You can freely combine any graph-based RAG algorithms you desire. We hope this will be helpful to you! ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+####################################################################################################
+[32m2026-10-15 17:54:36.516[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36mget_hyperplanes[0m:[36m74[0m - [1m
+❌ No existing hyperplane! Regenerated hyperplane![0m
+[32m2026-10-15 17:54:36.615[0m | [1mINFO    [0m | [36mCore.Chunk.DocChunk[0m:[36mbuild_chunks[0m:[36m27[0m - [1mStarting chunk the given documents[0m
+[32m2026-10-15 17:54:36.622[0m | [1mINFO    [0m | [36mCore.Storage.ChunkKVStorage[0m:[36m_persist[0m:[36m105[0m - [1mWriting data into D:\WSPforWB\10.keyan\_e14_run\_w3a_N50\_b_tmp\w3a_N50_b\chunk_storage_chunk_data_idx.pkl and D:\WSPforWB\10.keyan\_e14_run\_w3a_N50\_b_tmp\w3a_N50_b\chunk_storage_chunk_data_key.pkl[0m
+[32m2026-10-15 17:54:36.625[0m | [1mINFO    [0m | [36mCore.Chunk.DocChunk[0m:[36mbuild_chunks[0m:[36m74[0m - [1m✅ Finished the chunking stage[0m
+[32m2026-10-15 17:54:36.625[0m | [1mINFO    [0m | [36mCore.Graph.BaseGraph[0m:[36mbuild_graph[0m:[36m41[0m - [1mStarting build graph for the given documents[0m
+[32m2026-10-15 17:54:36.625[0m | [1mINFO    [0m | [36mCore.Storage.TreeGraphStorage[0m:[36mload_tree_graph[0m:[36m47[0m - [1mAttempting to load the tree from: D:\WSPforWB\10.keyan\_e14_run\_w3a_N50\tree_graph_dynamic\graph_storage_tree_data.pkl[0m
+[32m2026-10-15 17:54:36.636[0m | [1mINFO    [0m | [36mCore.Storage.TreeGraphStorage[0m:[36mload_tree_graph[0m:[36m53[0m - [1mSuccessfully loaded tree from: D:\WSPforWB\10.keyan\_e14_run\_w3a_N50\tree_graph_dynamic\graph_storage_tree_data.pkl with 57 nodes and 2 layers[0m
+[32m2026-10-15 17:54:36.636[0m | [1mINFO    [0m | [36mCore.Storage.TreeGraphStorage[0m:[36mload_full_tree_graph[0m:[36m100[0m - [1mAttempting to load the full tree from: D:\WSPforWB\10.keyan\_e14_run\_w3a_N50\tree_graph_dynamic\graph_storage_tree_data.pkl[0m
+[32m2026-10-15 17:54:36.637[0m | [1mINFO    [0m | [36mCore.Storage.TreeGraphStorage[0m:[36mload_full_tree_graph[0m:[36m116[0m - [1mSuccessfully loaded full tree with 50 leaves and 2 layers.[0m
+[32m2026-10-15 17:54:36.637[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 57, children = None[0m
+[32m2026-10-15 17:54:36.637[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m626[0m - [1mnew_node.parent: None[0m
+[32m2026-10-15 17:54:36.637[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 58, children = None[0m
+[32m2026-10-15 17:54:36.637[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m626[0m - [1mnew_node.parent: None[0m
+[32m2026-10-15 17:54:36.637[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 59, children = None[0m
+[32m2026-10-15 17:54:36.637[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m626[0m - [1mnew_node.parent: None[0m
+[32m2026-10-15 17:54:36.637[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 60, children = None[0m
+[32m2026-10-15 17:54:36.637[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m626[0m - [1mnew_node.parent: None[0m
+[32m2026-10-15 17:54:36.637[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 61, children = None[0m
+[32m2026-10-15 17:54:36.637[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m626[0m - [1mnew_node.parent: None[0m
+[32m2026-10-15 17:54:36.637[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 62, children = None[0m
+[32m2026-10-15 17:54:36.637[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m626[0m - [1mnew_node.parent: None[0m
+[32m2026-10-15 17:54:36.637[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 63, children = None[0m
+[32m2026-10-15 17:54:36.637[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m626[0m - [1mnew_node.parent: None[0m
+[32m2026-10-15 17:54:36.637[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 64, children = None[0m
+[32m2026-10-15 17:54:36.637[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m626[0m - [1mnew_node.parent: None[0m
+[32m2026-10-15 17:54:36.638[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 65, children = None[0m
+[32m2026-10-15 17:54:36.638[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m626[0m - [1mnew_node.parent: None[0m
+[32m2026-10-15 17:54:36.638[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 66, children = None[0m
+[32m2026-10-15 17:54:36.638[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m626[0m - [1mnew_node.parent: None[0m
+[32m2026-10-15 17:54:36.638[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m632[0m - [1mRefining graph with 10 new chunks[0m
+[32m2026-10-15 17:54:36.638[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m634[0m - [1mlength of layer: 60[0m
+[32m2026-10-15 17:54:36.638[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m459[0m - [1mrefine layer: 0[0m
+[32m2026-10-15 17:54:36.638[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m471[0m - [1m✅Layer 0 split&merge completed in 0.00 seconds[0m
+[32m2026-10-15 17:54:36.638[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m480[0m - [1maffected node.index: 57[0m
+[32m2026-10-15 17:54:36.638[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m480[0m - [1maffected node.index: 58[0m
+[32m2026-10-15 17:54:36.638[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m480[0m - [1maffected node.index: 59[0m
+[32m2026-10-15 17:54:36.638[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m480[0m - [1maffected node.index: 60[0m
+[32m2026-10-15 17:54:36.638[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m480[0m - [1maffected node.index: 61[0m
+[32m2026-10-15 17:54:36.638[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m480[0m - [1maffected node.index: 62[0m
+[32m2026-10-15 17:54:36.638[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m480[0m - [1maffected node.index: 63[0m
+[32m2026-10-15 17:54:36.638[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m480[0m - [1maffected node.index: 64[0m
+[32m2026-10-15 17:54:36.638[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m480[0m - [1maffected node.index: 65[0m
+[32m2026-10-15 17:54:36.638[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m480[0m - [1maffected node.index: 66[0m
+[32m2026-10-15 17:54:36.638[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m486[0m - [1mlen of current affected entities: 10[0m
+[32m2026-10-15 17:54:36.638[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m520[0m - [1m✅Layer 0 resummarize completed in 0.00 seconds[0m
+[32m2026-10-15 17:54:36.638[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m525[0m - [1mlen of texts: 10[0m
+[32m2026-10-15 17:54:36.689[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m530[0m - [1m✅Layer 0 embedding_update completed in 0.05 seconds[0m
+[32m2026-10-15 17:54:36.691[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m541[0m - [1mlen of current layer signatures: 60[0m
+[32m2026-10-15 17:54:36.691[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m543[0m - [1m✅Layer 0 signature_update completed in 0.00 seconds[0m
+[32m2026-10-15 17:54:36.692[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m582[0m - [1mrecord_parent_idx: [51, 56, 51, 52, 51, 53, None, 52, 54, 52, 52, 51, None, 51, 53, 54, 53, 53, 55, 51, 50, 54, 51, None, 50, None, None, 55, 56, 56, 50, 54, 50, 53, 50, 53, None, 52, 50, None, 53, None, 56, 56, 54, 50, None, 50, 56, 52, 56, 51, 54, 54, 54, 52, 56, 52, None, 53][0m
+[32m2026-10-15 17:54:36.692[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m585[0m - [1mLayer 0 refinement completed in 0.05 seconds[0m
+[32m2026-10-15 17:54:36.692[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m634[0m - [1mlength of layer: 7[0m
+[32m2026-10-15 17:54:36.692[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m459[0m - [1mrefine layer: 1[0m
+[32m2026-10-15 17:54:36.692[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m466[0m - [1mtotal children: 60[0m
+[32m2026-10-15 17:54:36.692[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_merge_node[0m:[36m403[0m - [1mmerge node: 54 and 55[0m
+[32m2026-10-15 17:54:36.692[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m471[0m - [1m✅Layer 1 split&merge completed in 0.00 seconds[0m
+[32m2026-10-15 17:54:36.692[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m480[0m - [1maffected node.index: 50[0m
+[32m2026-10-15 17:54:36.692[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m480[0m - [1maffected node.index: 51[0m
+[32m2026-10-15 17:54:36.692[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m480[0m - [1maffected node.index: 52[0m
+[32m2026-10-15 17:54:36.692[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m480[0m - [1maffected node.index: 53[0m
+[32m2026-10-15 17:54:36.692[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m480[0m - [1maffected node.index: 54[0m
+[32m2026-10-15 17:54:36.692[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m486[0m - [1mlen of current affected entities: 5[0m
+[32m2026-10-15 17:54:36.692[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m501[0m - [1mProcessing node 50 with 12 children[0m
+[32m2026-10-15 17:54:39.198[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 337, completion_tokens: 58[0m
+[32m2026-10-15 17:54:39.199[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m515[0m - [1mUpdated summary for node 50[0m
+[32m2026-10-15 17:54:39.199[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m501[0m - [1mProcessing node 51 with 10 children[0m
+[32m2026-10-15 17:54:41.239[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 271, completion_tokens: 39[0m
+[32m2026-10-15 17:54:41.239[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m515[0m - [1mUpdated summary for node 51[0m
+[32m2026-10-15 17:54:41.239[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m501[0m - [1mProcessing node 52 with 9 children[0m
+[32m2026-10-15 17:54:45.024[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 273, completion_tokens: 62[0m
+[32m2026-10-15 17:54:45.024[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m515[0m - [1mUpdated summary for node 52[0m
+[32m2026-10-15 17:54:45.025[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m501[0m - [1mProcessing node 53 with 11 children[0m
+[32m2026-10-15 17:54:47.983[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 333, completion_tokens: 42[0m
+[32m2026-10-15 17:54:47.983[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m515[0m - [1mUpdated summary for node 53[0m
+[32m2026-10-15 17:54:47.983[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m501[0m - [1mProcessing node 54 with 10 children[0m
+[32m2026-10-15 17:54:50.586[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 331, completion_tokens: 36[0m
+[32m2026-10-15 17:54:50.586[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m515[0m - [1mUpdated summary for node 54[0m
+[32m2026-10-15 17:54:50.587[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m520[0m - [1m✅Layer 1 resummarize completed in 13.89 seconds[0m
+[32m2026-10-15 17:54:50.587[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m525[0m - [1mlen of texts: 5[0m
+[32m2026-10-15 17:54:50.635[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m530[0m - [1m✅Layer 1 embedding_update completed in 0.05 seconds[0m
+[32m2026-10-15 17:54:50.635[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m541[0m - [1mlen of current layer signatures: 6[0m
+[32m2026-10-15 17:54:50.635[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m543[0m - [1m✅Layer 1 signature_update completed in 0.00 seconds[0m
+[32m2026-10-15 17:54:50.635[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_reorder_node_id[0m:[36m611[0m - [1mlen of new_all_nodes: 66[0m
+[32m2026-10-15 17:54:50.635[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_reorder_node_id[0m:[36m612[0m - [1mlen of original nodes: 67[0m
+[32m2026-10-15 17:54:50.635[0m | [1mINFO    [0m | [36mCore.Storage.TreeGraphStorage[0m:[36m_persist[0m:[36m33[0m - [1mWriting graph into D:\WSPforWB\10.keyan\_e14_run\_w3a_N50\tree_graph_dynamic\graph_storage_tree_data.pkl[0m
+[32m2026-10-15 17:54:50.637[0m | [1mINFO    [0m | [36mCore.Graph.BaseGraph[0m:[36mbuild_graph[0m:[36m48[0m - [1m✅ Finished adding additional info to the tree[0m
+[32m2026-10-15 17:54:50.637[0m | [1mINFO    [0m | [36mCore.Graph.BaseGraph[0m:[36mbuild_graph[0m:[36m57[0m - [1m✅ Finished the graph building stage[0m
+  PhaseA: docs=50 leaves=50 wall=4.2s tokens=1764
+  PhaseB: new=10 leaves=60 wall=14.01s tokens=1782
+####################################################################################################
+ _____ _____ _____ _____ __  __  ____  _   _ 
+|  __ \_   _/ ____|_   _|  \/  |/ __ \| \ | |
+| |  | || || |  __  | | | \  / | |  | |  \| |
+| |  | || || | |_ | | | | |\/| | |  | | . ` |
+| |__| || || |__| |_| |_| |  | | |__| | |\  |
+|_____/_____\_____|_____|_|  |_|\____/|_| \_|
+                                             
+                                             
+
+╔════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Welcome to DIGIMON: Deep Analysis of Graph-Based RAG Systems.                                          ║
+║                                                                                                        ║
+║ Unlock advanced insights with our comprehensive tool for evaluating and optimizing RAG models.         ║
+║                                                                                                        ║
+║ You can freely combine any graph-based RAG algorithms you desire. We hope this will be helpful to you! ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+####################################################################################################
+[32m2026-10-15 17:54:51.784[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36mget_hyperplanes[0m:[36m74[0m - [1m
+❌ No existing hyperplane! Regenerated hyperplane![0m
+[32m2026-10-15 17:54:51.893[0m | [1mINFO    [0m | [36mCore.Chunk.DocChunk[0m:[36mbuild_chunks[0m:[36m27[0m - [1mStarting chunk the given documents[0m
+[32m2026-10-15 17:54:51.937[0m | [1mINFO    [0m | [36mCore.Storage.ChunkKVStorage[0m:[36m_persist[0m:[36m105[0m - [1mWriting data into D:\WSPforWB\10.keyan\_e14_run\_w3a_full_60\tree_graph_dynamic\chunk_storage_chunk_data_idx.pkl and D:\WSPforWB\10.keyan\_e14_run\_w3a_full_60\tree_graph_dynamic\chunk_storage_chunk_data_key.pkl[0m
+[32m2026-10-15 17:54:51.939[0m | [1mINFO    [0m | [36mCore.Chunk.DocChunk[0m:[36mbuild_chunks[0m:[36m74[0m - [1m✅ Finished the chunking stage[0m
+[32m2026-10-15 17:54:51.939[0m | [1mINFO    [0m | [36mCore.GraphRAG[0m:[36m_update_costs_info[0m:[36m205[0m - [1mChunking stage cost: Total prompt token: 0, Total completeion token: 0, Total cost: 0[0m
+[32m2026-10-15 17:54:51.939[0m | [1mINFO    [0m | [36mCore.GraphRAG[0m:[36m_update_costs_info[0m:[36m207[0m - [1mChunking time(s): 0.05[0m
+[32m2026-10-15 17:54:51.939[0m | [1mINFO    [0m | [36mCore.Graph.BaseGraph[0m:[36mbuild_graph[0m:[36m41[0m - [1mStarting build graph for the given documents[0m
+[32m2026-10-15 17:54:51.939[0m | [1mINFO    [0m | [36mCore.Storage.TreeGraphStorage[0m:[36mload_tree_graph[0m:[36m43[0m - [1mForce flag is set. Rebuilding tree from scratch.[0m
+[32m2026-10-15 17:54:51.942[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 0, children = None[0m
+[32m2026-10-15 17:54:51.942[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 0, children = None[0m
+[32m2026-10-15 17:54:51.943[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 2, children = None[0m
+[32m2026-10-15 17:54:51.945[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 3, children = None[0m
+[32m2026-10-15 17:54:51.946[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 4, children = None[0m
+[32m2026-10-15 17:54:51.947[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 5, children = None[0m
+[32m2026-10-15 17:54:51.947[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 6, children = None[0m
+[32m2026-10-15 17:54:51.949[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 7, children = None[0m
+[32m2026-10-15 17:54:51.949[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 7, children = None[0m
+[32m2026-10-15 17:54:51.950[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 7, children = None[0m
+[32m2026-10-15 17:54:51.950[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 8, children = None[0m
+[32m2026-10-15 17:54:51.951[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 11, children = None[0m
+[32m2026-10-15 17:54:51.952[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 11, children = None[0m
+[32m2026-10-15 17:54:51.952[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 12, children = None[0m
+[32m2026-10-15 17:54:51.954[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 14, children = None[0m
+[32m2026-10-15 17:54:51.954[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 14, children = None[0m
+[32m2026-10-15 17:54:51.956[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 16, children = None[0m
+[32m2026-10-15 17:54:51.956[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 17, children = None[0m
+[32m2026-10-15 17:54:51.957[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 18, children = None[0m
+[32m2026-10-15 17:54:51.958[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 19, children = None[0m
+[32m2026-10-15 17:54:51.959[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 20, children = None[0m
+[32m2026-10-15 17:54:51.959[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 20, children = None[0m
+[32m2026-10-15 17:54:51.959[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 20, children = None[0m
+[32m2026-10-15 17:54:51.959[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 20, children = None[0m
+[32m2026-10-15 17:54:51.960[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 20, children = None[0m
+[32m2026-10-15 17:54:51.961[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 24, children = None[0m
+[32m2026-10-15 17:54:51.963[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 26, children = None[0m
+[32m2026-10-15 17:54:51.963[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 26, children = None[0m
+[32m2026-10-15 17:54:51.963[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 26, children = None[0m
+[32m2026-10-15 17:54:51.965[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 27, children = None[0m
+[32m2026-10-15 17:54:51.966[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 29, children = None[0m
+[32m2026-10-15 17:54:51.966[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 29, children = None[0m
+[32m2026-10-15 17:54:51.968[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 32, children = None[0m
+[32m2026-10-15 17:54:51.968[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 33, children = None[0m
+[32m2026-10-15 17:54:51.969[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 34, children = None[0m
+[32m2026-10-15 17:54:51.970[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 34, children = None[0m
+[32m2026-10-15 17:54:51.971[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 36, children = None[0m
+[32m2026-10-15 17:54:51.971[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 37, children = None[0m
+[32m2026-10-15 17:54:51.971[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 37, children = None[0m
+[32m2026-10-15 17:54:51.972[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 39, children = None[0m
+[32m2026-10-15 17:54:51.972[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 39, children = None[0m
+[32m2026-10-15 17:54:51.973[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 40, children = None[0m
+[32m2026-10-15 17:54:51.973[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 41, children = None[0m
+[32m2026-10-15 17:54:51.974[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 41, children = None[0m
+[32m2026-10-15 17:54:51.974[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 41, children = None[0m
+[32m2026-10-15 17:54:51.976[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 42, children = None[0m
+[32m2026-10-15 17:54:51.976[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 43, children = None[0m
+[32m2026-10-15 17:54:51.976[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 43, children = None[0m
+[32m2026-10-15 17:54:51.977[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 43, children = None[0m
+[32m2026-10-15 17:54:51.977[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 44, children = None[0m
+[32m2026-10-15 17:54:51.978[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 44, children = None[0m
+[32m2026-10-15 17:54:51.978[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 44, children = None[0m
+[32m2026-10-15 17:54:51.978[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 45, children = None[0m
+[32m2026-10-15 17:54:51.979[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 47, children = None[0m
+[32m2026-10-15 17:54:51.979[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 48, children = None[0m
+[32m2026-10-15 17:54:51.980[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 49, children = None[0m
+[32m2026-10-15 17:54:51.980[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 49, children = None[0m
+[32m2026-10-15 17:54:51.981[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 51, children = None[0m
+[32m2026-10-15 17:54:51.982[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 58, children = None[0m
+[32m2026-10-15 17:54:51.984[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 58, children = None[0m
+[32m2026-10-15 17:54:51.985[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_graph[0m:[36m673[0m - [1m60[0m
+[32m2026-10-15 17:54:51.985[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_graph[0m:[36m674[0m - [1mTo batch embed leaves[0m
+[32m2026-10-15 17:54:52.215[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_graph[0m:[36m676[0m - [1mCreated 60 Leaf Embeddings[0m
+[32m2026-10-15 17:54:52.216[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_tree_from_leaves[0m:[36m339[0m - [1mlength of layer: 60[0m
+[32m2026-10-15 17:54:52.217[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_perform_clustering[0m:[36m192[0m - [1mPerform Clustering: n_samples = 60[0m
+[32m2026-10-15 17:54:52.218[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m163[0m - [1m
+=== LSH Bucket Distribution Analysis ===[0m
+[32m2026-10-15 17:54:52.218[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m164[0m - [1mTotal Buckets: 59[0m
+[32m2026-10-15 17:54:52.218[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m165[0m - [1mBiggest Buckets: 2 Elements[0m
+[32m2026-10-15 17:54:52.218[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m166[0m - [1mSmallest Buckets: 1 Elements[0m
+[32m2026-10-15 17:54:52.218[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m167[0m - [1mAverage Size: 1.02 Elements[0m
+[32m2026-10-15 17:54:52.218[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m168[0m - [1m
+Bucket Size:[0m
+[32m2026-10-15 17:54:52.218[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m169[0m - [1mSize     | Count    | Percentage[0m
+[32m2026-10-15 17:54:52.218[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m175[0m - [1m1        | 58       |     98.3%[0m
+[32m2026-10-15 17:54:52.218[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m175[0m - [1m2        | 1        |    100.0%[0m
+[32m2026-10-15 17:54:52.218[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m178[0m - [1m
+=== Clustering Result ===[0m
+[32m2026-10-15 17:54:52.218[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m179[0m - [1mTotal Clusters: 8[0m
+[32m2026-10-15 17:54:52.218[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m181[0m - [1mCluster Distribution: Biggest 9, Smallest 3, Average 7.5[0m
+[32m2026-10-15 17:54:53.897[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 198, completion_tokens: 38[0m
+[32m2026-10-15 17:54:53.897[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 60, children = {34, 2, 38, 39, 10, 11, 48, 18, 59}[0m
+[32m2026-10-15 17:54:54.349[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 131, completion_tokens: 31[0m
+[32m2026-10-15 17:54:54.349[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 61, children = {0, 13, 47}[0m
+[32m2026-10-15 17:54:54.702[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 256, completion_tokens: 59[0m
+[32m2026-10-15 17:54:54.702[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 62, children = {35, 40, 44, 19, 52, 56, 28, 30}[0m
+[32m2026-10-15 17:54:54.729[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 272, completion_tokens: 59[0m
+[32m2026-10-15 17:54:54.729[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 63, children = {32, 33, 36, 23, 24, 57, 26, 27}[0m
+[32m2026-10-15 17:54:55.010[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 251, completion_tokens: 38[0m
+[32m2026-10-15 17:54:55.011[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 64, children = {3, 8, 43, 12, 45, 49, 50, 58}[0m
+[32m2026-10-15 17:54:55.014[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 226, completion_tokens: 38[0m
+[32m2026-10-15 17:54:55.015[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 65, children = {5, 6, 41, 14, 16, 22, 29, 31}[0m
+[32m2026-10-15 17:54:55.426[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 225, completion_tokens: 45[0m
+[32m2026-10-15 17:54:55.426[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 66, children = {1, 7, 9, 51, 21, 53, 55, 25}[0m
+[32m2026-10-15 17:54:56.506[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 252, completion_tokens: 48[0m
+[32m2026-10-15 17:54:56.506[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m285[0m - [1mCreate node_id = 67, children = {4, 37, 42, 46, 15, 17, 20, 54}[0m
+[32m2026-10-15 17:54:56.507[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_tree_from_leaves[0m:[36m352[0m - [1mTo batch embed current layer[0m
+[32m2026-10-15 17:54:56.574[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_tree_from_leaves[0m:[36m355[0m - [1mLayer: 0[0m
+[32m2026-10-15 17:54:56.574[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_tree_from_leaves[0m:[36m339[0m - [1mlength of layer: 8[0m
+[32m2026-10-15 17:54:56.574[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_tree_from_leaves[0m:[36m357[0m - [1m2[0m
+[32m2026-10-15 17:54:56.574[0m | [1mINFO    [0m | [36mCore.Storage.TreeGraphStorage[0m:[36m_persist[0m:[36m33[0m - [1mWriting graph into D:\WSPforWB\10.keyan\_e14_run\_w3a_full_60\tree_graph_dynamic\graph_storage_tree_data.pkl[0m
+[32m2026-10-15 17:54:56.576[0m | [1mINFO    [0m | [36mCore.Graph.BaseGraph[0m:[36mbuild_graph[0m:[36m57[0m - [1m✅ Finished the graph building stage[0m
+[32m2026-10-15 17:54:56.576[0m | [1mINFO    [0m | [36mCore.GraphRAG[0m:[36m_update_costs_info[0m:[36m205[0m - [1mBuild Graph stage cost: Total prompt token: 1811, Total completeion token: 356, Total cost: 0[0m
+[32m2026-10-15 17:54:56.576[0m | [1mINFO    [0m | [36mCore.GraphRAG[0m:[36m_update_costs_info[0m:[36m207[0m - [1mBuild Graph time(s): 4.64[0m
+[32m2026-10-15 17:54:56.576[0m | [1mINFO    [0m | [36mCore.Index.BaseIndex[0m:[36mbuild_index[0m:[36m13[0m - [1mStarting insert elements of the given graph into vector database[0m
+The path D:\WSPforWB\10.keyan\_e14_run\_w3a_full_60\tree_graph_dynamic\entities_vdb does not exist.
+[32m2026-10-15 17:54:56.602[0m | [1mINFO    [0m | [36mCore.Index.BaseIndex[0m:[36mbuild_index[0m:[36m25[0m - [1mBuilding index for input elements[0m
+[32m2026-10-15 17:54:56.940[0m | [1mINFO    [0m | [36mCore.Index.FaissIndex[0m:[36m_update_index[0m:[36m106[0m - [1mrefresh index size is 68[0m
+[32m2026-10-15 17:54:56.957[0m | [1mINFO    [0m | [36mCore.Index.BaseIndex[0m:[36mbuild_index[0m:[36m28[0m - [1mIndex successfully built and stored.[0m
+[32m2026-10-15 17:54:56.957[0m | [1mINFO    [0m | [36mCore.Index.BaseIndex[0m:[36mbuild_index[0m:[36m29[0m - [1m✅ Finished starting insert entities of the given graph into vector database[0m
+[32m2026-10-15 17:54:56.957[0m | [1mINFO    [0m | [36mCore.GraphRAG[0m:[36m_update_costs_info[0m:[36m205[0m - [1mIndex Building stage cost: Total prompt token: 0, Total completeion token: 0, Total cost: 0[0m
+[32m2026-10-15 17:54:56.957[0m | [1mINFO    [0m | [36mCore.GraphRAG[0m:[36m_update_costs_info[0m:[36m207[0m - [1mIndex Building time(s): 0.38[0m
+[32m2026-10-15 17:54:56.957[0m | [1mINFO    [0m | [36mCore.GraphRAG[0m:[36m_build_retriever_context[0m:[36m176[0m - [1mBuilding retriever context for the current execution[0m
+  FullRebuild(N+M=60): leaves=60 wall=5.06s tokens=2167
+  ★ Incremental value: token_ratio=0.822 sec_ratio=2.769
+[报告] 写入 D:\WSPforWB\10.keyan\场景1-海量短文本\实验\E14_Baseline2_EraRAG\W3a_scale50.json
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000022D406D0280>
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "D:\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "D:\Programs\Python\Python39\lib\asyncio\base_events.py", line 751, in call_soon
+    self._check_closed()
+  File "D:\Programs\Python\Python39\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000022D406D0280>
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "D:\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "D:\Programs\Python\Python39\lib\asyncio\base_events.py", line 751, in call_soon
+    self._check_closed()
+  File "D:\Programs\Python\Python39\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000022D406D0280>
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "D:\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "D:\Programs\Python\Python39\lib\asyncio\base_events.py", line 751, in call_soon
+    self._check_closed()
+  File "D:\Programs\Python\Python39\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000022D406D0280>
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "D:\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "D:\Programs\Python\Python39\lib\asyncio\base_events.py", line 751, in call_soon
+    self._check_closed()
+  File "D:\Programs\Python\Python39\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000022D406D0280>
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "D:\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "D:\Programs\Python\Python39\lib\asyncio\base_events.py", line 751, in call_soon
+    self._check_closed()
+  File "D:\Programs\Python\Python39\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000022D406D0280>
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "D:\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "D:\Programs\Python\Python39\lib\asyncio\base_events.py", line 751, in call_soon
+    self._check_closed()
+  File "D:\Programs\Python\Python39\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000022D406D0280>
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "D:\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "D:\Programs\Python\Python39\lib\asyncio\base_events.py", line 751, in call_soon
+    self._check_closed()
+  File "D:\Programs\Python\Python39\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000022D406D0280>
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "D:\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "D:\Programs\Python\Python39\lib\asyncio\base_events.py", line 751, in call_soon
+    self._check_closed()
+  File "D:\Programs\Python\Python39\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed

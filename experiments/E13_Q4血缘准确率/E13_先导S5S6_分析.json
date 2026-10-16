@@ -1,0 +1,190 @@
+{
+  "n": 60,
+  "agreement": {
+    "p_o": 0.9,
+    "p_e": 0.2917,
+    "kappa": 0.8588,
+    "kappa_ci95": [
+      0.7387,
+      0.9531
+    ],
+    "gwet_ac1": 0.8691,
+    "n_disagreement": 6,
+    "disagreement_ids": [
+      "E13-0558",
+      "E13-0491",
+      "E13-0503",
+      "E13-0472",
+      "E13-0482",
+      "E13-0536"
+    ]
+  },
+  "channel_dist": {
+    "G": {
+      "SUPPORT": 16,
+      "DERIVE": 17,
+      "UNRELATED": 22,
+      "CONFLICT": 5
+    },
+    "H": {
+      "SUPPORT": 15,
+      "DERIVE": 19,
+      "UNRELATED": 21,
+      "CONFLICT": 5
+    }
+  },
+  "consensus_dist": {
+    "SUPPORT": 13,
+    "DERIVE": 17,
+    "UNRELATED": 20,
+    "CONFLICT": 4
+  },
+  "yield": {
+    "S5_all": {
+      "n_labelled_agree": 18,
+      "hit": 17,
+      "yield": 0.9444,
+      "yield_ci95_wilson": [
+        0.7424,
+        0.9901
+      ],
+      "dist": {
+        "DERIVE": 17,
+        "SUPPORT": 1
+      }
+    },
+    "S6_all": {
+      "n_labelled_agree": 36,
+      "hit": 4,
+      "yield": 0.1111,
+      "yield_ci95_wilson": [
+        0.0441,
+        0.2532
+      ],
+      "dist": {
+        "SUPPORT": 12,
+        "UNRELATED": 20,
+        "CONFLICT": 4
+      }
+    },
+    "S6_strict": {
+      "n_labelled_agree": 17,
+      "hit": 3,
+      "yield": 0.1765,
+      "yield_ci95_wilson": [
+        0.0619,
+        0.4103
+      ],
+      "dist": {
+        "SUPPORT": 4,
+        "UNRELATED": 10,
+        "CONFLICT": 3
+      }
+    },
+    "S6_polarity": {
+      "n_labelled_agree": 11,
+      "hit": 1,
+      "yield": 0.0909,
+      "yield_ci95_wilson": [
+        0.0162,
+        0.3774
+      ],
+      "dist": {
+        "UNRELATED": 6,
+        "SUPPORT": 4,
+        "CONFLICT": 1
+      }
+    },
+    "S6_vague_NEGCTRL": {
+      "n_labelled_agree": 8,
+      "hit": 0,
+      "yield": 0.0,
+      "yield_ci95_wilson": [
+        0.0,
+        0.3244
+      ],
+      "dist": {
+        "SUPPORT": 4,
+        "UNRELATED": 4
+      }
+    }
+  },
+  "baseline_conflict_density": {
+    "note": "S1–S4 随机式分层（先导 50 条）上 CONFLICT 密度仅 1/50 = 2%，作为密度基线",
+    "conflict_density": 0.02
+  },
+  "S5_sensitivity_mention_only": {
+    "S5_n": 18,
+    "n_mention_only_variants": 14,
+    "mention_only_ids": [
+      "E13-0429",
+      "E13-0431",
+      "E13-0398",
+      "E13-0422",
+      "E13-0477",
+      "E13-0435",
+      "E13-0455",
+      "E13-0471",
+      "E13-0459",
+      "E13-0479",
+      "E13-0428",
+      "E13-0420",
+      "E13-0439",
+      "E13-0430"
+    ],
+    "yield_if_mention_only_is_DERIVE": 0.9444,
+    "yield_if_mention_only_is_SUPPORT": 0.1667,
+    "note": "冻结判据 §2.1 规定覆盖率在去掉 @/URL 后计算 ⇒ 正解为 DERIVE；此处给出\"若改判 SUPPORT\"的下界。两名通道**各自独立**点名了这条缝。"
+  },
+  "system_v2_vs_consensus": {
+    "DERIVE": {
+      "n_true": 17,
+      "n_pred": 18,
+      "P": 0.9444,
+      "R": 1.0,
+      "F1": 0.9714
+    },
+    "SUPPORT": {
+      "n_true": 13,
+      "n_pred": 0,
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0
+    },
+    "CONFLICT": {
+      "n_true": 4,
+      "n_pred": 5,
+      "P": 0.4,
+      "R": 0.5,
+      "F1": 0.4444
+    },
+    "UNRELATED": {
+      "n_true": 20,
+      "n_pred": 31,
+      "P": 0.5806,
+      "R": 0.9,
+      "F1": 0.7059
+    },
+    "macro_F1": 0.5304,
+    "confusion": {
+      "DERIVE": {
+        "DERIVE": 17
+      },
+      "SUPPORT": {
+        "UNRELATED": 11,
+        "CONFLICT": 1,
+        "DERIVE": 1
+      },
+      "CONFLICT": {
+        "CONFLICT": 2,
+        "UNRELATED": 2
+      },
+      "UNRELATED": {
+        "UNRELATED": 18,
+        "CONFLICT": 2
+      }
+    },
+    "n": 54
+  },
+  "caveat": "通道同源（同一模型）⇒ 误差相关 ⇒ κ 偏乐观；合法用法是\"否决性检验\"。本样本未参与判据迭代（冻结版 v1.3 事前固定）⇒ 产量测量是**样本外**的。"
+}

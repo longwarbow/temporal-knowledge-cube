@@ -1,0 +1,200 @@
+{
+  "data": {
+    "n_posts": 105747,
+    "hour_cells": 1021,
+    "R_decls": 393,
+    "affected": 224,
+    "invalid_true": 28,
+    "partial": 196
+  },
+  "metrics": {
+    "S0 perfect（本方法·精确血缘）": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "tn": 993,
+      "pred_size": 28
+    },
+    "S1 head_only（只记首帖）": {
+      "precision": 0.09090909090909091,
+      "recall": 0.03571428571428571,
+      "f1": 0.05128205128205127,
+      "accuracy": 0.9637610186092067,
+      "tp": 1,
+      "fp": 10,
+      "fn": 27,
+      "tn": 983,
+      "pred_size": 11
+    },
+    "S2 day_coarse（粒度粗一级）": {
+      "precision": 1.0,
+      "recall": 0.03571428571428571,
+      "f1": 0.0689655172413793,
+      "accuracy": 0.9735553379040157,
+      "tp": 1,
+      "fp": 0,
+      "fn": 27,
+      "tn": 993,
+      "pred_size": 1
+    },
+    "S3 baseline#4（不处理失效）": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.9725759059745348,
+      "tp": 0,
+      "fp": 0,
+      "fn": 28,
+      "tn": 993,
+      "pred_size": 0
+    }
+  },
+  "m_dist": {
+    "m=2–3": 25,
+    "m>100": 59,
+    "m=11–100": 83,
+    "m=4–10": 40,
+    "m=1（唯一支撑）": 17
+  },
+  "layered": {
+    "S0 perfect（本方法·精确血缘）": {
+      "m=1（唯一支撑）": {
+        "cells": 17,
+        "true_invalid": 17,
+        "pred_invalid": 17,
+        "recall": 1.0
+      },
+      "m=2–3": {
+        "cells": 25,
+        "true_invalid": 10,
+        "pred_invalid": 10,
+        "recall": 1.0
+      },
+      "m=4–10": {
+        "cells": 40,
+        "true_invalid": 1,
+        "pred_invalid": 1,
+        "recall": 1.0
+      },
+      "m=11–100": {
+        "cells": 83,
+        "true_invalid": 0,
+        "pred_invalid": 0,
+        "recall": null
+      },
+      "m>100": {
+        "cells": 59,
+        "true_invalid": 0,
+        "pred_invalid": 0,
+        "recall": null
+      }
+    },
+    "S1 head_only（只记首帖）": {
+      "m=1（唯一支撑）": {
+        "cells": 17,
+        "true_invalid": 17,
+        "pred_invalid": 0,
+        "recall": 0.0
+      },
+      "m=2–3": {
+        "cells": 25,
+        "true_invalid": 10,
+        "pred_invalid": 0,
+        "recall": 0.0
+      },
+      "m=4–10": {
+        "cells": 40,
+        "true_invalid": 1,
+        "pred_invalid": 7,
+        "recall": 1.0
+      },
+      "m=11–100": {
+        "cells": 83,
+        "true_invalid": 0,
+        "pred_invalid": 4,
+        "recall": null
+      },
+      "m>100": {
+        "cells": 59,
+        "true_invalid": 0,
+        "pred_invalid": 0,
+        "recall": null
+      }
+    },
+    "S2 day_coarse（粒度粗一级）": {
+      "m=1（唯一支撑）": {
+        "cells": 17,
+        "true_invalid": 17,
+        "pred_invalid": 1,
+        "recall": 0.058823529411764705
+      },
+      "m=2–3": {
+        "cells": 25,
+        "true_invalid": 10,
+        "pred_invalid": 0,
+        "recall": 0.0
+      },
+      "m=4–10": {
+        "cells": 40,
+        "true_invalid": 1,
+        "pred_invalid": 0,
+        "recall": 0.0
+      },
+      "m=11–100": {
+        "cells": 83,
+        "true_invalid": 0,
+        "pred_invalid": 0,
+        "recall": null
+      },
+      "m>100": {
+        "cells": 59,
+        "true_invalid": 0,
+        "pred_invalid": 0,
+        "recall": null
+      }
+    },
+    "S3 baseline#4（不处理失效）": {
+      "m=1（唯一支撑）": {
+        "cells": 17,
+        "true_invalid": 17,
+        "pred_invalid": 0,
+        "recall": 0.0
+      },
+      "m=2–3": {
+        "cells": 25,
+        "true_invalid": 10,
+        "pred_invalid": 0,
+        "recall": 0.0
+      },
+      "m=4–10": {
+        "cells": 40,
+        "true_invalid": 1,
+        "pred_invalid": 0,
+        "recall": 0.0
+      },
+      "m=11–100": {
+        "cells": 83,
+        "true_invalid": 0,
+        "pred_invalid": 0,
+        "recall": null
+      },
+      "m>100": {
+        "cells": 59,
+        "true_invalid": 0,
+        "pred_invalid": 0,
+        "recall": null
+      }
+    }
+  },
+  "crosscheck": {
+    "affected_vs_E5_union": {
+      "here": 224,
+      "E5": 224
+    }
+  },
+  "elapsed_s": 1.4
+}

@@ -1,0 +1,75 @@
+{
+ "slice": "S2 12-15T02:09→12-15T07:00",
+ "kappa": 0.122,
+ "kappa_tab": [
+  7,
+  9,
+  15,
+  35
+ ],
+ "po": 0.6364,
+ "n_labels": 12,
+ "n_other": 0,
+ "node_threads": {
+  "public_reaction": 61,
+  "hostage_situation": 44,
+  "hostage_count": 9,
+  "economic_impact": 4,
+  "evacuation": 4,
+  "police_operation": 4
+ },
+ "node_members": {
+  "public_reaction": [
+   "public reaction",
+   "hostage situation"
+  ],
+  "hostage_situation": [
+   "escaped",
+   "islamic flag",
+   "escape",
+   "exit",
+   "hostage escape",
+   "custody exited"
+  ],
+  "hostage_count": [
+   "hostage count"
+  ],
+  "economic_impact": [
+   "surge pricing"
+  ],
+  "evacuation": [
+   "evacuated"
+  ],
+  "police_operation": [
+   "police operation"
+  ]
+ },
+ "assign_A": {
+  "public reaction": 1,
+  "hostage situation": 1,
+  "escaped": 2,
+  "islamic flag": 2,
+  "hostage count": 5,
+  "escape": 2,
+  "surge pricing": 13,
+  "evacuated": 7,
+  "police operation": 4,
+  "exit": 2,
+  "hostage escape": 2,
+  "custody exited": 2
+ },
+ "assign_B": {
+  "custody exited": 4,
+  "escape": 8,
+  "escaped": 4,
+  "evacuated": 4,
+  "exit": 4,
+  "hostage count": 5,
+  "hostage escape": 4,
+  "hostage situation": 2,
+  "islamic flag": 8,
+  "police operation": 4,
+  "public reaction": 1,
+  "surge pricing": 4
+ }
+}

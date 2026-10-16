@@ -1,0 +1,129 @@
+{
+ "a5_recheck": {
+  "E13-0197": {
+   "v1.6": "SUPPORT",
+   "v1.7": "DERIVE",
+   "v1.7r": "DERIVE",
+   "rerecheck": "DERIVE"
+  },
+  "E13-0203": {
+   "v1.6": "SUPPORT",
+   "v1.7": "DERIVE",
+   "v1.7r": "DERIVE",
+   "rerecheck": "DERIVE"
+  },
+  "E13-0410": {
+   "v1.6": "SUPPORT",
+   "v1.7": "DERIVE",
+   "v1.7r": "DERIVE",
+   "rerecheck": "DERIVE"
+  },
+  "E13-0433": {
+   "v1.6": "SUPPORT",
+   "v1.7": "DERIVE",
+   "v1.7r": "DERIVE",
+   "rerecheck": "DERIVE"
+  },
+  "E13-0427": {
+   "v1.6": "DERIVE",
+   "v1.7": "SUPPORT",
+   "v1.7r": "DERIVE",
+   "rerecheck": "DERIVE"
+  },
+  "E13-0446": {
+   "v1.6": "DERIVE",
+   "v1.7": "SUPPORT",
+   "v1.7r": "DERIVE",
+   "rerecheck": "DERIVE"
+  },
+  "E13-0464": {
+   "v1.6": "DERIVE",
+   "v1.7": "SUPPORT",
+   "v1.7r": "DERIVE",
+   "rerecheck": "DERIVE"
+  },
+  "E13-0482": {
+   "v1.6": "DERIVE",
+   "v1.7": "SUPPORT",
+   "v1.7r": "DERIVE",
+   "rerecheck": "DERIVE"
+  }
+ },
+ "conflict_recheck": {
+  "E13-0070": {
+   "v1.6": "CONFLICT",
+   "v1.7": "UNRELATED",
+   "rerecheck": "UNRELATED",
+   "still_not_conflict": true
+  },
+  "E13-0334": {
+   "v1.6": "CONFLICT",
+   "v1.7": "UNRELATED",
+   "rerecheck": "UNRELATED",
+   "still_not_conflict": true
+  },
+  "E13-0596": {
+   "v1.6": "CONFLICT",
+   "v1.7": "SUPPORT",
+   "rerecheck": "SUPPORT",
+   "still_not_conflict": true
+  },
+  "E13-0601": {
+   "v1.6": "CONFLICT",
+   "v1.7": "SUPPORT",
+   "rerecheck": "SUPPORT",
+   "still_not_conflict": true
+  },
+  "E13-0607": {
+   "v1.6": "CONFLICT",
+   "v1.7": "UNRELATED",
+   "rerecheck": "UNRELATED",
+   "still_not_conflict": true
+  },
+  "E13-0612": {
+   "v1.6": "CONFLICT",
+   "v1.7": "SUPPORT",
+   "rerecheck": "SUPPORT",
+   "still_not_conflict": true
+  },
+  "E13-0687": {
+   "v1.6": "CONFLICT",
+   "v1.7": "SUPPORT",
+   "rerecheck": "SUPPORT",
+   "still_not_conflict": true
+  },
+  "E13-0728": {
+   "v1.6": "CONFLICT",
+   "v1.7": "UNRELATED",
+   "rerecheck": "SUPPORT",
+   "still_not_conflict": true
+  },
+  "E13-0753": {
+   "v1.6": "CONFLICT",
+   "v1.7": "UNRELATED",
+   "rerecheck": "UNRELATED",
+   "still_not_conflict": true
+  }
+ },
+ "summary": {
+  "a5_over_applied": [
+   "E13-0427",
+   "E13-0446",
+   "E13-0464",
+   "E13-0482"
+  ],
+  "n_a5_over": 4,
+  "conflict_removed_n": 9,
+  "conflict_confirmed_not_conflict": 9,
+  "conflict_label_diff": [
+   [
+    "E13-0728",
+    "UNRELATED",
+    "SUPPORT"
+   ]
+  ],
+  "n_relabel_changed_total": 21,
+  "n_corrected": 4,
+  "n_confirmed": 17
+ }
+}

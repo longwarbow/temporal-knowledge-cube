@@ -1,0 +1,927 @@
+{
+ "event": "putinmissing",
+ "n_claims": 200,
+ "vocab": {
+  "event": "putinmissing",
+  "nodes": [
+   {
+    "node": "status_report",
+    "desc": "Reports on Putin's current status"
+   },
+   {
+    "node": "location_report",
+    "desc": "Reports on Putin's location"
+   },
+   {
+    "node": "missing_report",
+    "desc": "Reports on Putin being missing"
+   },
+   {
+    "node": "coup_theory",
+    "desc": "Theories about a coup"
+   },
+   {
+    "node": "disappearance_theory",
+    "desc": "Theories about disappearance"
+   },
+   {
+    "node": "indication_of_event",
+    "desc": "Indications of an event"
+   },
+   {
+    "node": "presence_report",
+    "desc": "Reports on Putin's presence"
+   },
+   {
+    "node": "reappearance_report",
+    "desc": "Reports on Putin's reappearance"
+   },
+   {
+    "node": "reason_speculation",
+    "desc": "Speculations on reasons"
+   },
+   {
+    "node": "health_condition_report",
+    "desc": "Reports on Putin's health condition"
+   },
+   {
+    "node": "rumour_report",
+    "desc": "Reports of rumours"
+   },
+   {
+    "node": "absence_report",
+    "desc": "Reports of absence"
+   },
+   {
+    "node": "mastermind_theory",
+    "desc": "Theories about masterminds behind a coup"
+   },
+   {
+    "node": "replacement_theory",
+    "desc": "Theories about a replacement"
+   }
+  ],
+  "n_label_used": 52,
+  "coverage_pct": 85.0
+ },
+ "min_count": 1,
+ "l2_only": true,
+ "slices": {
+  "0": {
+   "label": "S1 03-13T00:19→03-13T17:07",
+   "n_threads": 50,
+   "labels": [
+    "status",
+    "indication",
+    "reason",
+    "rumour",
+    "missing",
+    "coup",
+    "death",
+    "birth date",
+    "location",
+    "AWOL",
+    "paternity leave",
+    "childbirth",
+    "birth",
+    "health speculation",
+    "rumoured",
+    "affection",
+    "mission details",
+    "health condition",
+    "number",
+    "reason for absence",
+    "gender",
+    "greeting",
+    "birth of daughter",
+    "potential occurrence",
+    "birthplace",
+    "overthrown",
+    "absence",
+    "baby rumours",
+    "seen",
+    "date of image",
+    "condition",
+    "absorption of South Ossetia"
+   ],
+   "counts": {
+    "rumour": 3,
+    "missing": 2,
+    "status": 6,
+    "indication": 6,
+    "death": 1,
+    "reason": 5,
+    "birth date": 1,
+    "coup": 2,
+    "location": 1,
+    "AWOL": 1,
+    "paternity leave": 1,
+    "childbirth": 1,
+    "birth": 1,
+    "health speculation": 1,
+    "rumoured": 1,
+    "affection": 1,
+    "mission details": 1,
+    "health condition": 1,
+    "number": 1,
+    "reason for absence": 1,
+    "gender": 1,
+    "greeting": 1,
+    "birth of daughter": 1,
+    "potential occurrence": 1,
+    "birthplace": 1,
+    "overthrown": 1,
+    "absence": 1,
+    "baby rumours": 1,
+    "seen": 1,
+    "date of image": 1,
+    "condition": 1,
+    "absorption of South Ossetia": 1
+   },
+   "node_members": {
+    "status_report": [
+     "status"
+    ],
+    "indication_of_event": [
+     "indication",
+     "death"
+    ],
+    "reason_speculation": [
+     "reason",
+     "AWOL",
+     "paternity leave",
+     "childbirth",
+     "reason for absence"
+    ],
+    "rumour_report": [
+     "rumour"
+    ],
+    "missing_report": [
+     "missing",
+     "rumoured"
+    ],
+    "coup_theory": [
+     "coup"
+    ],
+    "presence_report": [
+     "birth date"
+    ],
+    "location_report": [
+     "location"
+    ],
+    "absence_report": [
+     "birth"
+    ],
+    "health_condition_report": [
+     "health speculation",
+     "health condition"
+    ]
+   },
+   "node_threads": {
+    "status_report": 6,
+    "indication_of_event": 7,
+    "reason_speculation": 9,
+    "rumour_report": 3,
+    "missing_report": 3,
+    "coup_theory": 2,
+    "presence_report": 1,
+    "location_report": 1,
+    "absence_report": 1,
+    "health_condition_report": 2
+   },
+   "kappa": -0.0125,
+   "kappa_tab": [
+    6,
+    10,
+    225,
+    255
+   ],
+   "po": 0.5262,
+   "n_other": 3
+  },
+  "1": {
+   "label": "S2 03-13T17:32→03-14T09:11",
+   "n_threads": 50,
+   "labels": [
+    "status",
+    "location",
+    "missing",
+    "disappearance",
+    "presence",
+    "death",
+    "reappearance",
+    "appearance",
+    "rumours",
+    "extremism investigation",
+    "indication",
+    "charisma",
+    "perpetrator identity",
+    "birth of a boy",
+    "suggestion",
+    "is a lie",
+    "removal",
+    "killed",
+    "confirmation",
+    "escaped",
+    "return",
+    "public appearance"
+   ],
+   "counts": {
+    "status": 16,
+    "appearance": 1,
+    "rumours": 1,
+    "disappearance": 3,
+    "extremism investigation": 1,
+    "death": 2,
+    "missing": 4,
+    "location": 5,
+    "indication": 1,
+    "charisma": 1,
+    "perpetrator identity": 1,
+    "birth of a boy": 1,
+    "suggestion": 1,
+    "presence": 3,
+    "is a lie": 1,
+    "removal": 1,
+    "killed": 1,
+    "reappearance": 2,
+    "confirmation": 1,
+    "escaped": 1,
+    "return": 1,
+    "public appearance": 1
+   },
+   "node_members": {
+    "status_report": [
+     "status"
+    ],
+    "location_report": [
+     "location"
+    ],
+    "missing_report": [
+     "missing"
+    ],
+    "disappearance_theory": [
+     "disappearance",
+     "death"
+    ],
+    "presence_report": [
+     "presence"
+    ],
+    "reappearance_report": [
+     "reappearance",
+     "appearance"
+    ],
+    "rumour_report": [
+     "rumours"
+    ],
+    "indication_of_event": [
+     "indication"
+    ],
+    "mastermind_theory": [
+     "perpetrator identity"
+    ]
+   },
+   "node_threads": {
+    "status_report": 16,
+    "location_report": 5,
+    "missing_report": 4,
+    "disappearance_theory": 5,
+    "presence_report": 3,
+    "reappearance_report": 3,
+    "rumour_report": 1,
+    "indication_of_event": 1,
+    "mastermind_theory": 1
+   },
+   "kappa": 0.2903,
+   "kappa_tab": [
+    15,
+    42,
+    6,
+    168
+   ],
+   "po": 0.7922,
+   "n_other": 11
+  },
+  "2": {
+   "label": "S3 03-14T10:12→03-14T19:36",
+   "n_threads": 50,
+   "labels": [
+    "status",
+    "reappearance",
+    "location",
+    "disappearance",
+    "Disappearance",
+    "coup",
+    "missing",
+    "setting",
+    "presence",
+    "absence",
+    "increase",
+    "concern",
+    "return to Moscow",
+    "success",
+    "presence/death",
+    "death",
+    "impossibility of lying",
+    "event",
+    "latest",
+    "replacement",
+    "health condition",
+    "media silence",
+    "emergence",
+    "predicted death",
+    "moving",
+    "military coup possibility",
+    "fall",
+    "speculation",
+    "attempted escape",
+    "succession scenarios"
+   ],
+   "counts": {
+    "status": 8,
+    "presence": 1,
+    "coup": 2,
+    "absence": 1,
+    "reappearance": 4,
+    "increase": 1,
+    "location": 4,
+    "concern": 1,
+    "return to Moscow": 1,
+    "success": 1,
+    "presence/death": 1,
+    "death": 1,
+    "missing": 2,
+    "impossibility of lying": 1,
+    "event": 1,
+    "latest": 1,
+    "replacement": 1,
+    "health condition": 1,
+    "media silence": 1,
+    "emergence": 1,
+    "setting": 2,
+    "predicted death": 1,
+    "moving": 1,
+    "military coup possibility": 1,
+    "fall": 1,
+    "disappearance": 3,
+    "Disappearance": 3,
+    "speculation": 1,
+    "attempted escape": 1,
+    "succession scenarios": 1
+   },
+   "node_members": {
+    "status_report": [
+     "status",
+     "increase",
+     "concern",
+     "impossibility of lying",
+     "latest",
+     "media silence",
+     "attempted escape"
+    ],
+    "reappearance_report": [
+     "reappearance",
+     "presence/death",
+     "death"
+    ],
+    "location_report": [
+     "location",
+     "return to Moscow",
+     "moving"
+    ],
+    "missing_report": [
+     "disappearance",
+     "Disappearance",
+     "emergence"
+    ],
+    "coup_theory": [
+     "coup",
+     "success",
+     "military coup possibility",
+     "fall"
+    ],
+    "indication_of_event": [
+     "missing",
+     "event"
+    ],
+    "presence_report": [
+     "setting",
+     "presence"
+    ],
+    "absence_report": [
+     "absence"
+    ],
+    "replacement_theory": [
+     "replacement"
+    ],
+    "health_condition_report": [
+     "health condition",
+     "predicted death"
+    ],
+    "reason_speculation": [
+     "speculation",
+     "succession scenarios"
+    ]
+   },
+   "node_threads": {
+    "status_report": 14,
+    "reappearance_report": 6,
+    "location_report": 6,
+    "missing_report": 7,
+    "coup_theory": 5,
+    "indication_of_event": 3,
+    "presence_report": 3,
+    "absence_report": 1,
+    "replacement_theory": 1,
+    "health_condition_report": 2,
+    "reason_speculation": 2
+   },
+   "kappa": 0.2045,
+   "kappa_tab": [
+    19,
+    21,
+    66,
+    329
+   ],
+   "po": 0.8,
+   "n_other": 0
+  },
+  "3": {
+   "label": "S4 03-14T19:45→03-16T05:36",
+   "n_threads": 50,
+   "labels": [
+    "status",
+    "coup",
+    "missing",
+    "Disappearance",
+    "location",
+    "presence",
+    "disappearance",
+    "pregnancy status",
+    "staged event",
+    "masterminds behind Ukraine coup",
+    "power status",
+    "residence",
+    "reappearance",
+    "Could Mean",
+    "replacement",
+    "growth in interest",
+    "coup rumors",
+    "searchability",
+    "neutralisation",
+    "organization",
+    "coup signs",
+    "existence"
+   ],
+   "counts": {
+    "disappearance": 2,
+    "Disappearance": 4,
+    "coup": 5,
+    "pregnancy status": 2,
+    "missing": 5,
+    "presence": 3,
+    "status": 9,
+    "power status": 1,
+    "residence": 1,
+    "reappearance": 1,
+    "Could Mean": 1,
+    "location": 4,
+    "replacement": 1,
+    "growth in interest": 1,
+    "coup rumors": 1,
+    "searchability": 1,
+    "neutralisation": 1,
+    "organization": 1,
+    "staged event": 2,
+    "masterminds behind Ukraine coup": 2,
+    "coup signs": 1,
+    "existence": 1
+   },
+   "node_members": {
+    "disappearance_theory": [
+     "coup",
+     "missing"
+    ],
+    "coup_theory": [
+     "Disappearance",
+     "location"
+    ],
+    "missing_report": [
+     "presence"
+    ],
+    "location_report": [
+     "disappearance",
+     "pregnancy status",
+     "staged event",
+     "masterminds behind Ukraine coup"
+    ],
+    "status_report": [
+     "power status",
+     "residence",
+     "reappearance",
+     "Could Mean",
+     "replacement",
+     "growth in interest",
+     "coup rumors",
+     "searchability",
+     "neutralisation",
+     "organization",
+     "coup signs",
+     "existence"
+    ]
+   },
+   "node_threads": {
+    "disappearance_theory": 10,
+    "coup_theory": 8,
+    "missing_report": 3,
+    "location_report": 8,
+    "status_report": 12
+   },
+   "kappa": 0.2697,
+   "kappa_tab": [
+    31,
+    43,
+    26,
+    131
+   ],
+   "po": 0.7013,
+   "n_other": 1
+  }
+ },
+ "kappa_mean": 0.188,
+ "po_mean": 0.7049,
+ "transitions": [],
+ "ops_llm": {},
+ "det_ops_total": {
+  "CONTINUE": 16,
+  "BIRTH": 9,
+  "RETIRE": 14
+ },
+ "det_per_trans": [
+  {
+   "d1": "S1 03-13T00:19→03-13T17:07",
+   "d2": "S2 03-13T17:32→03-14T09:11",
+   "det": {
+    "CONTINUE": 6,
+    "BIRTH": 3,
+    "RETIRE": 4
+   },
+   "born": [
+    "disappearance_theory",
+    "mastermind_theory",
+    "reappearance_report"
+   ],
+   "retired": [
+    "absence_report",
+    "coup_theory",
+    "health_condition_report",
+    "reason_speculation"
+   ]
+  },
+  {
+   "d1": "S2 03-13T17:32→03-14T09:11",
+   "d2": "S3 03-14T10:12→03-14T19:36",
+   "det": {
+    "CONTINUE": 6,
+    "BIRTH": 5,
+    "RETIRE": 3
+   },
+   "born": [
+    "absence_report",
+    "coup_theory",
+    "health_condition_report",
+    "reason_speculation",
+    "replacement_theory"
+   ],
+   "retired": [
+    "disappearance_theory",
+    "mastermind_theory",
+    "rumour_report"
+   ]
+  },
+  {
+   "d1": "S3 03-14T10:12→03-14T19:36",
+   "d2": "S4 03-14T19:45→03-16T05:36",
+   "det": {
+    "CONTINUE": 4,
+    "BIRTH": 1,
+    "RETIRE": 7
+   },
+   "born": [
+    "disappearance_theory"
+   ],
+   "retired": [
+    "absence_report",
+    "health_condition_report",
+    "indication_of_event",
+    "presence_report",
+    "reappearance_report",
+    "reason_speculation",
+    "replacement_theory"
+   ]
+  }
+ ],
+ "node_lifespan": {
+  "absence_report": {
+   "first": "S1 03-13T00:19→03-13T17:07",
+   "last": "S3 03-14T10:12→03-14T19:36",
+   "n_slices": 2,
+   "threads": [
+    1,
+    0,
+    1,
+    0
+   ]
+  },
+  "reason_speculation": {
+   "first": "S1 03-13T00:19→03-13T17:07",
+   "last": "S3 03-14T10:12→03-14T19:36",
+   "n_slices": 2,
+   "threads": [
+    9,
+    0,
+    2,
+    0
+   ]
+  },
+  "presence_report": {
+   "first": "S1 03-13T00:19→03-13T17:07",
+   "last": "S3 03-14T10:12→03-14T19:36",
+   "n_slices": 3,
+   "threads": [
+    1,
+    3,
+    3,
+    0
+   ]
+  },
+  "rumour_report": {
+   "first": "S1 03-13T00:19→03-13T17:07",
+   "last": "S2 03-13T17:32→03-14T09:11",
+   "n_slices": 2,
+   "threads": [
+    3,
+    1,
+    0,
+    0
+   ]
+  },
+  "reappearance_report": {
+   "first": "S2 03-13T17:32→03-14T09:11",
+   "last": "S3 03-14T10:12→03-14T19:36",
+   "n_slices": 2,
+   "threads": [
+    0,
+    3,
+    6,
+    0
+   ]
+  },
+  "disappearance_theory": {
+   "first": "S2 03-13T17:32→03-14T09:11",
+   "last": "S4 03-14T19:45→03-16T05:36",
+   "n_slices": 2,
+   "threads": [
+    0,
+    5,
+    0,
+    10
+   ]
+  },
+  "mastermind_theory": {
+   "first": "S2 03-13T17:32→03-14T09:11",
+   "last": "S2 03-13T17:32→03-14T09:11",
+   "n_slices": 1,
+   "threads": [
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  "indication_of_event": {
+   "first": "S1 03-13T00:19→03-13T17:07",
+   "last": "S3 03-14T10:12→03-14T19:36",
+   "n_slices": 3,
+   "threads": [
+    7,
+    1,
+    3,
+    0
+   ]
+  },
+  "replacement_theory": {
+   "first": "S3 03-14T10:12→03-14T19:36",
+   "last": "S3 03-14T10:12→03-14T19:36",
+   "n_slices": 1,
+   "threads": [
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  "status_report": {
+   "first": "S1 03-13T00:19→03-13T17:07",
+   "last": "S4 03-14T19:45→03-16T05:36",
+   "n_slices": 4,
+   "threads": [
+    6,
+    16,
+    14,
+    12
+   ]
+  },
+  "coup_theory": {
+   "first": "S1 03-13T00:19→03-13T17:07",
+   "last": "S4 03-14T19:45→03-16T05:36",
+   "n_slices": 3,
+   "threads": [
+    2,
+    0,
+    5,
+    8
+   ]
+  },
+  "location_report": {
+   "first": "S1 03-13T00:19→03-13T17:07",
+   "last": "S4 03-14T19:45→03-16T05:36",
+   "n_slices": 4,
+   "threads": [
+    1,
+    5,
+    6,
+    8
+   ]
+  },
+  "health_condition_report": {
+   "first": "S1 03-13T00:19→03-13T17:07",
+   "last": "S3 03-14T10:12→03-14T19:36",
+   "n_slices": 2,
+   "threads": [
+    2,
+    0,
+    2,
+    0
+   ]
+  },
+  "missing_report": {
+   "first": "S1 03-13T00:19→03-13T17:07",
+   "last": "S4 03-14T19:45→03-16T05:36",
+   "n_slices": 4,
+   "threads": [
+    3,
+    4,
+    7,
+    3
+   ]
+  }
+ },
+ "anchor": {
+  "born_nodes": [
+   "absence_report",
+   "coup_theory",
+   "disappearance_theory",
+   "health_condition_report",
+   "mastermind_theory",
+   "reappearance_report",
+   "reason_speculation",
+   "replacement_theory"
+  ],
+  "continue_nodes": [
+   "absence_report",
+   "coup_theory",
+   "disappearance_theory",
+   "health_condition_report",
+   "indication_of_event",
+   "location_report",
+   "missing_report",
+   "presence_report",
+   "reappearance_report",
+   "reason_speculation",
+   "rumour_report",
+   "status_report"
+  ],
+  "ver_born": {
+   "null": 58
+  },
+  "ver_continue": {
+   "null": 163
+  }
+ },
+ "veracity_anchor": {
+  "S1 03-13T00:19→03-13T17:07": {
+   "status_report": {
+    "null": 6
+   },
+   "indication_of_event": {
+    "null": 7
+   },
+   "reason_speculation": {
+    "null": 9
+   },
+   "rumour_report": {
+    "null": 3
+   },
+   "missing_report": {
+    "null": 3
+   },
+   "coup_theory": {
+    "null": 2
+   },
+   "presence_report": {
+    "null": 1
+   },
+   "location_report": {
+    "null": 1
+   },
+   "absence_report": {
+    "null": 1
+   },
+   "health_condition_report": {
+    "null": 2
+   }
+  },
+  "S2 03-13T17:32→03-14T09:11": {
+   "status_report": {
+    "null": 16
+   },
+   "location_report": {
+    "null": 5
+   },
+   "missing_report": {
+    "null": 4
+   },
+   "disappearance_theory": {
+    "null": 5
+   },
+   "presence_report": {
+    "null": 3
+   },
+   "reappearance_report": {
+    "null": 3
+   },
+   "rumour_report": {
+    "null": 1
+   },
+   "indication_of_event": {
+    "null": 1
+   },
+   "mastermind_theory": {
+    "null": 1
+   }
+  },
+  "S3 03-14T10:12→03-14T19:36": {
+   "status_report": {
+    "null": 14
+   },
+   "reappearance_report": {
+    "null": 6
+   },
+   "location_report": {
+    "null": 6
+   },
+   "missing_report": {
+    "null": 7
+   },
+   "coup_theory": {
+    "null": 5
+   },
+   "indication_of_event": {
+    "null": 3
+   },
+   "presence_report": {
+    "null": 3
+   },
+   "absence_report": {
+    "null": 1
+   },
+   "replacement_theory": {
+    "null": 1
+   },
+   "health_condition_report": {
+    "null": 2
+   },
+   "reason_speculation": {
+    "null": 2
+   }
+  },
+  "S4 03-14T19:45→03-16T05:36": {
+   "disappearance_theory": {
+    "null": 10
+   },
+   "coup_theory": {
+    "null": 8
+   },
+   "missing_report": {
+    "null": 3
+   },
+   "location_report": {
+    "null": 8
+   },
+   "status_report": {
+    "null": 12
+   }
+  }
+ }
+}

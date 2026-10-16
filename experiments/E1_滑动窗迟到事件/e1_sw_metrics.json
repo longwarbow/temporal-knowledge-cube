@@ -1,0 +1,98 @@
+{
+  "N": 1278493,
+  "windows": 6179,
+  "W_h": 24,
+  "S_h": 6,
+  "delay_median_h": 12.014783399547307,
+  "tumbling_diffs": 0,
+  "main_scan_dmax24h": [
+    {
+      "tol": "0h（假定准时）",
+      "dw_h": 0.0,
+      "bad_windows": 5588,
+      "bad_pct": 90.43534552516589,
+      "rel_err_pct": 49.78056195849332,
+      "reopen_work": 5113070,
+      "reopen_pct": 99.98236204656577,
+      "cost_ratio": 0.9998236204656576
+    },
+    {
+      "tol": "1h",
+      "dw_h": 1.0,
+      "bad_windows": 5516,
+      "bad_pct": 89.27010843178508,
+      "rel_err_pct": 45.72275718365294,
+      "reopen_work": 5112915,
+      "reopen_pct": 99.97933113439025,
+      "cost_ratio": 0.9997933113439026
+    },
+    {
+      "tol": "6h",
+      "dw_h": 6.0,
+      "bad_windows": 5104,
+      "bad_pct": 82.6023628418838,
+      "rel_err_pct": 27.958913345634276,
+      "reopen_work": 5111688,
+      "reopen_pct": 99.95533804252351,
+      "cost_ratio": 0.999553380425235
+    },
+    {
+      "tol": "12h",
+      "dw_h": 12.0,
+      "bad_windows": 4529,
+      "bad_pct": 73.29664994335653,
+      "rel_err_pct": 12.377795576510783,
+      "reopen_work": 5108525,
+      "reopen_pct": 99.89348787987106,
+      "cost_ratio": 0.9989348787987107
+    },
+    {
+      "tol": "24h（=Δmax，正确配置）",
+      "dw_h": 24.0,
+      "bad_windows": 0,
+      "bad_pct": 0.0,
+      "rel_err_pct": 0.0,
+      "reopen_work": 0,
+      "reopen_pct": 0.0,
+      "cost_ratio": 0.0
+    }
+  ],
+  "sub_scan_dw6h": [
+    {
+      "dmax_h": 1,
+      "bad_pct": 0.0,
+      "rel_err_pct": 0.0,
+      "reopen_pct": 0.0
+    },
+    {
+      "dmax_h": 6,
+      "bad_pct": 0.0,
+      "rel_err_pct": 0.0,
+      "reopen_pct": 0.0
+    },
+    {
+      "dmax_h": 12,
+      "bad_pct": 66.515617413821,
+      "rel_err_pct": 6.118081991845086,
+      "reopen_pct": 99.52262155522166
+    },
+    {
+      "dmax_h": 24,
+      "bad_pct": 82.73183363003723,
+      "rel_err_pct": 27.959050225538974,
+      "reopen_pct": 99.9560811048633
+    },
+    {
+      "dmax_h": 48,
+      "bad_pct": 94.10907913901926,
+      "rel_err_pct": 62.33790486142669,
+      "reopen_pct": 99.99065305793619
+    },
+    {
+      "dmax_h": 168,
+      "bad_pct": 98.52726978475482,
+      "rel_err_pct": 89.25379333324469,
+      "reopen_pct": 99.9981423441505
+    }
+  ]
+}

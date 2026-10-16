@@ -1,0 +1,168 @@
+{
+ "slice": "S4 11-04T20:24→11-05T03:00",
+ "kappa": 0.266,
+ "kappa_tab": [
+  48,
+  109,
+  46,
+  538
+ ],
+ "po": 0.7908,
+ "n_labels": 39,
+ "n_other": 0,
+ "node_threads": {
+  "event_cancellation": 10,
+  "public_reaction": 6,
+  "performance_event": 6,
+  "event_details": 21,
+  "event_status": 5,
+  "event_location": 3,
+  "rumours": 2,
+  "event_schedule": 2,
+  "event_announcement": 2,
+  "event_occurrence": 1
+ },
+ "node_members": {
+  "event_cancellation": [
+   "event occurrence",
+   "event cancellation",
+   "cancellation",
+   "cancelled"
+  ],
+  "public_reaction": [
+   "public reaction",
+   "fan reaction",
+   "reaction"
+  ],
+  "performance_event": [
+   "performance",
+   "playing",
+   "event",
+   "playing show"
+  ],
+  "event_details": [
+   "reason for cancellation",
+   "setup",
+   "presence",
+   "concludes",
+   "lineup",
+   "hope",
+   "secret show",
+   "insult",
+   "change in plans",
+   "waiting line",
+   "event outcome",
+   "win",
+   "line status",
+   "is a joke",
+   "apology",
+   "report",
+   "production rehearsal"
+  ],
+  "event_status": [
+   "confirmation",
+   "status",
+   "event status"
+  ],
+  "event_location": [
+   "location",
+   "event location"
+  ],
+  "rumours": [
+   "rumours"
+  ],
+  "event_schedule": [
+   "scheduled",
+   "duration"
+  ],
+  "event_announcement": [
+   "announcement",
+   "event announcement"
+  ],
+  "event_occurrence": [
+   "occurrence"
+  ]
+ },
+ "assign_A": {
+  "event occurrence": 4,
+  "event cancellation": 4,
+  "public reaction": 6,
+  "performance": 1,
+  "reason for cancellation": 11,
+  "confirmation": 5,
+  "setup": 11,
+  "location": 9,
+  "fan reaction": 6,
+  "rumours": 7,
+  "presence": 11,
+  "status": 5,
+  "scheduled": 10,
+  "cancellation": 4,
+  "concludes": 11,
+  "announcement": 2,
+  "lineup": 11,
+  "hope": 11,
+  "cancelled": 4,
+  "secret show": 11,
+  "insult": 11,
+  "playing": 1,
+  "change in plans": 11,
+  "reaction": 6,
+  "event": 1,
+  "waiting line": 11,
+  "duration": 10,
+  "event outcome": 11,
+  "playing show": 1,
+  "event announcement": 2,
+  "win": 11,
+  "event status": 5,
+  "occurrence": 3,
+  "line status": 11,
+  "is a joke": 11,
+  "apology": 11,
+  "report": 11,
+  "event location": 9,
+  "production rehearsal": 11
+ },
+ "assign_B": {
+  "announcement": 2,
+  "apology": 6,
+  "cancellation": 4,
+  "cancelled": 4,
+  "change in plans": 10,
+  "concludes": 3,
+  "confirmation": 2,
+  "duration": 10,
+  "event": 8,
+  "event announcement": 2,
+  "event cancellation": 4,
+  "event location": 9,
+  "event occurrence": 3,
+  "event outcome": 5,
+  "event status": 5,
+  "fan reaction": 6,
+  "hope": 6,
+  "insult": 6,
+  "is a joke": 6,
+  "line status": 10,
+  "lineup": 11,
+  "location": 9,
+  "occurrence": 3,
+  "performance": 1,
+  "playing": 3,
+  "playing show": 3,
+  "presence": 6,
+  "production rehearsal": 10,
+  "public reaction": 6,
+  "reaction": 6,
+  "reason for cancellation": 10,
+  "report": 6,
+  "rumours": 7,
+  "scheduled": 10,
+  "secret show": 11,
+  "setup": 10,
+  "status": 5,
+  "waiting line": 10,
+  "win": 6
+ }
+}

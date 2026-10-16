@@ -1,0 +1,15 @@
+[INFO] 候选 120 条声明（来自 2946 条 E8 样本，属性分布 ['P108', 'P26', 'P39', 'P569', 'P570', 'P69']）
+[RESUME] 已完成 57 条，本次重跑 63 条
+    [START] Q155493 P26
+    [START] Q1448476 P39
+    [START] Q15446516 P108
+    [START] Q1419 P569
+    [START] Q191039 P570
+    [START] Q18223052 P26
+[  1/ 63] Q1419 P569 revs= flip=- status=error: api fail: HTTP=000 '' calls=20 retries=30 91.0s
+    [START] Q15735571 P108
+[  2/ 63] Q191039 P570 revs=569 flip=- status=error: api fail: HTTP=000 '' calls=20 retries=30 91.6s
+    [START] Q123536880 P69
+[  3/ 63] Q1448476 P39 revs=120 flip=- status=error: api fail: HTTP=000 '' calls=20 retries=30 92.0s
+    [START] Q15810672 P39
+[  4/ 63] Q15446516 P108 revs=150 flip=2021-02-18T11:31:17Z status=ok calls=21 retries=35 102.1s

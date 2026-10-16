@@ -1,0 +1,892 @@
+{
+  "seed": 20261012,
+  "n": 76,
+  "design": {
+    "A_target": "上一轮 60 条中触及边界者（含 6 条分歧：E13-0558,E13-0491,E13-0503,E13-0536,E13-0472,E13-0482）",
+    "B_control": "上一轮 60 条中本已一致者，随机抽等量 |A|",
+    "C_fresh": "S6 候选池排除上一轮 60 条后按子型配额再抽 40（用于样本外重测产量）",
+    "quota_fresh": {
+      "strict": 20,
+      "polarity": 12,
+      "vague": 8
+    }
+  },
+  "map": {
+    "E13-0542": {
+      "block": "A_target",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "UNRELATED",
+      "prev_H": "UNRELATED",
+      "prev_consensus": "UNRELATED",
+      "prev_agree": "1",
+      "hit_keywords": [
+        "谓词不同"
+      ]
+    },
+    "E13-0472": {
+      "block": "A_target",
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "copy",
+      "system_pred_v2": "DERIVE",
+      "prev_G": "UNRELATED",
+      "prev_H": "DERIVE",
+      "prev_consensus": "",
+      "prev_agree": "0",
+      "hit_keywords": [
+        "照抄"
+      ]
+    },
+    "E13-0491": {
+      "block": "A_target",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "CONFLICT",
+      "prev_G": "SUPPORT",
+      "prev_H": "UNRELATED",
+      "prev_consensus": "",
+      "prev_agree": "0",
+      "hit_keywords": [
+        "谓词不同"
+      ]
+    },
+    "E13-0551": {
+      "block": "A_target",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "UNRELATED",
+      "prev_H": "UNRELATED",
+      "prev_consensus": "UNRELATED",
+      "prev_agree": "1",
+      "hit_keywords": [
+        "非命题"
+      ]
+    },
+    "E13-0477": {
+      "block": "A_target",
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "system_pred_v2": "DERIVE",
+      "prev_G": "DERIVE",
+      "prev_H": "DERIVE",
+      "prev_consensus": "DERIVE",
+      "prev_agree": "1",
+      "hit_keywords": [
+        "照抄"
+      ]
+    },
+    "E13-0503": {
+      "block": "A_target",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "CONFLICT",
+      "prev_G": "UNRELATED",
+      "prev_H": "SUPPORT",
+      "prev_consensus": "",
+      "prev_agree": "0",
+      "hit_keywords": [
+        "范围不同"
+      ]
+    },
+    "E13-0536": {
+      "block": "A_target",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "CONFLICT",
+      "prev_G": "CONFLICT",
+      "prev_H": "SUPPORT",
+      "prev_consensus": "",
+      "prev_agree": "0",
+      "hit_keywords": [
+        "子集"
+      ]
+    },
+    "E13-0435": {
+      "block": "A_target",
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "system_pred_v2": "DERIVE",
+      "prev_G": "DERIVE",
+      "prev_H": "DERIVE",
+      "prev_consensus": "DERIVE",
+      "prev_agree": "1",
+      "hit_keywords": [
+        "照抄"
+      ]
+    },
+    "E13-0558": {
+      "block": "A_target",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "SUPPORT",
+      "prev_H": "CONFLICT",
+      "prev_consensus": "",
+      "prev_agree": "0",
+      "hit_keywords": []
+    },
+    "E13-0567": {
+      "block": "A_target",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "UNRELATED",
+      "prev_H": "UNRELATED",
+      "prev_consensus": "UNRELATED",
+      "prev_agree": "1",
+      "hit_keywords": [
+        "非命题"
+      ]
+    },
+    "E13-0506": {
+      "block": "A_target",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "CONFLICT",
+      "prev_G": "UNRELATED",
+      "prev_H": "UNRELATED",
+      "prev_consensus": "UNRELATED",
+      "prev_agree": "1",
+      "hit_keywords": [
+        "总数"
+      ]
+    },
+    "E13-0482": {
+      "block": "A_target",
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "system_pred_v2": "DERIVE",
+      "prev_G": "SUPPORT",
+      "prev_H": "DERIVE",
+      "prev_consensus": "",
+      "prev_agree": "0",
+      "hit_keywords": [
+        "归因"
+      ]
+    },
+    "E13-0566": {
+      "block": "A_target",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "UNRELATED",
+      "prev_H": "UNRELATED",
+      "prev_consensus": "UNRELATED",
+      "prev_agree": "1",
+      "hit_keywords": [
+        "非命题"
+      ]
+    },
+    "E13-0548": {
+      "block": "A_target",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "UNRELATED",
+      "prev_H": "UNRELATED",
+      "prev_consensus": "UNRELATED",
+      "prev_agree": "1",
+      "hit_keywords": [
+        "谓词不同"
+      ]
+    },
+    "E13-0532": {
+      "block": "A_target",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "CONFLICT",
+      "prev_G": "SUPPORT",
+      "prev_H": "SUPPORT",
+      "prev_consensus": "SUPPORT",
+      "prev_agree": "1",
+      "hit_keywords": [
+        "⊂"
+      ]
+    },
+    "E13-0479": {
+      "block": "A_target",
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "system_pred_v2": "DERIVE",
+      "prev_G": "DERIVE",
+      "prev_H": "DERIVE",
+      "prev_consensus": "DERIVE",
+      "prev_agree": "1",
+      "hit_keywords": [
+        "照抄"
+      ]
+    },
+    "E13-0539": {
+      "block": "A_target",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "CONFLICT",
+      "prev_G": "UNRELATED",
+      "prev_H": "UNRELATED",
+      "prev_consensus": "UNRELATED",
+      "prev_agree": "1",
+      "hit_keywords": [
+        "谓词不同"
+      ]
+    },
+    "E13-0499": {
+      "block": "A_target",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "SUPPORT",
+      "prev_H": "SUPPORT",
+      "prev_consensus": "SUPPORT",
+      "prev_agree": "1",
+      "hit_keywords": [
+        "⊂"
+      ]
+    },
+    "E13-0521": {
+      "block": "A_target",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "SUPPORT",
+      "prev_H": "SUPPORT",
+      "prev_consensus": "SUPPORT",
+      "prev_agree": "1",
+      "hit_keywords": [
+        "子集"
+      ]
+    },
+    "E13-0553": {
+      "block": "A_target",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "UNRELATED",
+      "prev_H": "UNRELATED",
+      "prev_consensus": "UNRELATED",
+      "prev_agree": "1",
+      "hit_keywords": [
+        "谓词不同"
+      ]
+    },
+    "E13-0555": {
+      "block": "B_control",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "SUPPORT",
+      "prev_H": "SUPPORT",
+      "prev_consensus": "SUPPORT",
+      "prev_agree": "1",
+      "hit_keywords": []
+    },
+    "E13-0569": {
+      "block": "B_control",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "SUPPORT",
+      "prev_H": "SUPPORT",
+      "prev_consensus": "SUPPORT",
+      "prev_agree": "1",
+      "hit_keywords": []
+    },
+    "E13-0523": {
+      "block": "B_control",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "UNRELATED",
+      "prev_H": "UNRELATED",
+      "prev_consensus": "UNRELATED",
+      "prev_agree": "1",
+      "hit_keywords": []
+    },
+    "E13-0430": {
+      "block": "B_control",
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "system_pred_v2": "DERIVE",
+      "prev_G": "DERIVE",
+      "prev_H": "DERIVE",
+      "prev_consensus": "DERIVE",
+      "prev_agree": "1",
+      "hit_keywords": []
+    },
+    "E13-0570": {
+      "block": "B_control",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "SUPPORT",
+      "prev_H": "SUPPORT",
+      "prev_consensus": "SUPPORT",
+      "prev_agree": "1",
+      "hit_keywords": []
+    },
+    "E13-0582": {
+      "block": "B_control",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "UNRELATED",
+      "prev_H": "UNRELATED",
+      "prev_consensus": "UNRELATED",
+      "prev_agree": "1",
+      "hit_keywords": []
+    },
+    "E13-0420": {
+      "block": "B_control",
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "system_pred_v2": "DERIVE",
+      "prev_G": "DERIVE",
+      "prev_H": "DERIVE",
+      "prev_consensus": "DERIVE",
+      "prev_agree": "1",
+      "hit_keywords": []
+    },
+    "E13-0458": {
+      "block": "B_control",
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "copy",
+      "system_pred_v2": "DERIVE",
+      "prev_G": "SUPPORT",
+      "prev_H": "SUPPORT",
+      "prev_consensus": "SUPPORT",
+      "prev_agree": "1",
+      "hit_keywords": []
+    },
+    "E13-0554": {
+      "block": "B_control",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "SUPPORT",
+      "prev_H": "SUPPORT",
+      "prev_consensus": "SUPPORT",
+      "prev_agree": "1",
+      "hit_keywords": []
+    },
+    "E13-0459": {
+      "block": "B_control",
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "system_pred_v2": "DERIVE",
+      "prev_G": "DERIVE",
+      "prev_H": "DERIVE",
+      "prev_consensus": "DERIVE",
+      "prev_agree": "1",
+      "hit_keywords": []
+    },
+    "E13-0490": {
+      "block": "B_control",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "CONFLICT",
+      "prev_G": "CONFLICT",
+      "prev_H": "CONFLICT",
+      "prev_consensus": "CONFLICT",
+      "prev_agree": "1",
+      "hit_keywords": []
+    },
+    "E13-0487": {
+      "block": "B_control",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "UNRELATED",
+      "prev_H": "UNRELATED",
+      "prev_consensus": "UNRELATED",
+      "prev_agree": "1",
+      "hit_keywords": []
+    },
+    "E13-0519": {
+      "block": "B_control",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "UNRELATED",
+      "prev_H": "UNRELATED",
+      "prev_consensus": "UNRELATED",
+      "prev_agree": "1",
+      "hit_keywords": []
+    },
+    "E13-0496": {
+      "block": "B_control",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "UNRELATED",
+      "prev_H": "UNRELATED",
+      "prev_consensus": "UNRELATED",
+      "prev_agree": "1",
+      "hit_keywords": []
+    },
+    "E13-0494": {
+      "block": "B_control",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "CONFLICT",
+      "prev_G": "CONFLICT",
+      "prev_H": "CONFLICT",
+      "prev_consensus": "CONFLICT",
+      "prev_agree": "1",
+      "hit_keywords": []
+    },
+    "E13-0579": {
+      "block": "B_control",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "SUPPORT",
+      "prev_H": "SUPPORT",
+      "prev_consensus": "SUPPORT",
+      "prev_agree": "1",
+      "hit_keywords": []
+    },
+    "E13-0441": {
+      "block": "B_control",
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "copy",
+      "system_pred_v2": "DERIVE",
+      "prev_G": "DERIVE",
+      "prev_H": "DERIVE",
+      "prev_consensus": "DERIVE",
+      "prev_agree": "1",
+      "hit_keywords": []
+    },
+    "E13-0429": {
+      "block": "B_control",
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "system_pred_v2": "DERIVE",
+      "prev_G": "DERIVE",
+      "prev_H": "DERIVE",
+      "prev_consensus": "DERIVE",
+      "prev_agree": "1",
+      "hit_keywords": []
+    },
+    "E13-0431": {
+      "block": "B_control",
+      "stratum": "S5_cross_thread_verbatim",
+      "subtype": "mention_only",
+      "system_pred_v2": "DERIVE",
+      "prev_G": "DERIVE",
+      "prev_H": "DERIVE",
+      "prev_consensus": "DERIVE",
+      "prev_agree": "1",
+      "hit_keywords": []
+    },
+    "E13-0530": {
+      "block": "B_control",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "UNRELATED",
+      "prev_H": "UNRELATED",
+      "prev_consensus": "UNRELATED",
+      "prev_agree": "1",
+      "hit_keywords": []
+    },
+    "E13-0516": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0526": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0504": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "CONFLICT",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0501": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0488": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0544": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0535": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0500": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "CONFLICT",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0498": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0493": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0513": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0540": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0531": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0525": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0486": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0511": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0510": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "DERIVE",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0543": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0541": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "CONFLICT",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0534": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "strict",
+      "system_pred_v2": "CONFLICT",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0564": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0556": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0557": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0562": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0552": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0547": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0561": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0565": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "polarity",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0574": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0580": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0581": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0576": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0578": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0573": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0571": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "system_pred_v2": "UNRELATED",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    },
+    "E13-0572": {
+      "block": "C_fresh",
+      "stratum": "S6_same_slot_conflicting",
+      "subtype": "vague",
+      "system_pred_v2": "SUPPORT",
+      "prev_G": "",
+      "prev_H": "",
+      "prev_consensus": "",
+      "prev_agree": "",
+      "hit_keywords": []
+    }
+  },
+  "leakage_note": "盲版只含 pair_id/event/p_text/q_text + 待填列；block/stratum/subtype/量槽/系统预测/上一轮真值 全部剔除",
+  "warning": "本索引含分层与上一轮真值，**不得**交给标注员"
+}

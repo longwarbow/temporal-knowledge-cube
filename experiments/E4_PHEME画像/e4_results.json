@@ -1,0 +1,139 @@
+{
+  "n_threads": 6425,
+  "events": {
+    "ferguson-all-rnr-threads": 1143,
+    "ottawashooting-all-rnr-threads": 890,
+    "gurlitt-all-rnr-threads": 138,
+    "prince-toronto-all-rnr-threads": 233,
+    "germanwings-crash-all-rnr-threads": 469,
+    "ebola-essien-all-rnr-threads": 14,
+    "charliehebdo-all-rnr-threads": 2079,
+    "sydneysiege-all-rnr-threads": 1221,
+    "putinmissing-all-rnr-threads": 238
+  },
+  "event_label": {
+    "ferguson-all-rnr-threads": {
+      "1": 284,
+      "0": 859
+    },
+    "ottawashooting-all-rnr-threads": {
+      "1": 470,
+      "0": 420
+    },
+    "gurlitt-all-rnr-threads": {
+      "1": 61,
+      "0": 77
+    },
+    "prince-toronto-all-rnr-threads": {
+      "1": 229,
+      "0": 4
+    },
+    "germanwings-crash-all-rnr-threads": {
+      "1": 238,
+      "0": 231
+    },
+    "ebola-essien-all-rnr-threads": {
+      "1": 14
+    },
+    "charliehebdo-all-rnr-threads": {
+      "1": 458,
+      "0": 1621
+    },
+    "sydneysiege-all-rnr-threads": {
+      "1": 522,
+      "0": 699
+    },
+    "putinmissing-all-rnr-threads": {
+      "1": 126,
+      "0": 112
+    }
+  },
+  "total_tweets": 105747,
+  "total_edges": 98929,
+  "tweets_per_thread": {
+    "mean": 16.46,
+    "median": 12,
+    "p90": 32,
+    "p99": 100,
+    "max": 346,
+    "min": 1
+  },
+  "root_unique_ok": 5653,
+  "root_unique_bad": 772,
+  "is_source_nodes": 5653,
+  "depth": {
+    "median": 2,
+    "p90": 7,
+    "max": 33
+  },
+  "text": {
+    "nonempty": 104582,
+    "empty": 1165,
+    "len_median": 104.0,
+    "len_p90": 139,
+    "len_max": 187,
+    "url_rate_pct": 16.4,
+    "hashtag_rate_pct": 19.4,
+    "non_ascii_heavy_pct": 0.4
+  },
+  "followers": {
+    "median": 434,
+    "mean": 75742.3,
+    "p99": 1380509,
+    "max": 25303087,
+    "zero_rate_pct": 1.2
+  },
+  "verified_users": 4699,
+  "veracity": {
+    "annotated_threads": 1972,
+    "matched_in_gpickle": 1972,
+    "dist": {
+      "unverified": 571,
+      "false": 393,
+      "true": 1008
+    },
+    "in_rumour_threads": {
+      "unverified": 571,
+      "false": 393,
+      "true": 1008
+    },
+    "in_nonrumour_threads": {},
+    "per_event": {
+      "ferguson-all-rnr-threads": {
+        "unverified": 266,
+        "false": 8,
+        "true": 10
+      },
+      "ottawashooting-all-rnr-threads": {
+        "true": 329,
+        "unverified": 69,
+        "false": 72
+      },
+      "germanwings-crash-all-rnr-threads": {
+        "true": 94,
+        "false": 111,
+        "unverified": 33
+      },
+      "charliehebdo-all-rnr-threads": {
+        "false": 116,
+        "unverified": 149,
+        "true": 193
+      },
+      "sydneysiege-all-rnr-threads": {
+        "true": 382,
+        "unverified": 54,
+        "false": 86
+      }
+    }
+  },
+  "stance": {
+    "annotated": 4082,
+    "dist": {
+      "comment": 2660,
+      "appeal-for-more-info": 320,
+      "agreed": 711,
+      "disagreed": 391
+    }
+  },
+  "elapsed_s": 2.2
+}

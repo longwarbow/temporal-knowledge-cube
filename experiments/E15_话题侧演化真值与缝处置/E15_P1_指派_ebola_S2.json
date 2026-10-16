@@ -1,0 +1,42 @@
+{
+ "slice": "S2 10-12T18:00→10-12T18:37",
+ "kappa": 1.0,
+ "kappa_tab": [
+  1,
+  0,
+  0,
+  5
+ ],
+ "po": 1.0,
+ "n_labels": 4,
+ "n_other": 0,
+ "node_threads": {
+  "ebola_status": 3,
+  "ebola_diagnosis": 1,
+  "ebola_rumours": 1
+ },
+ "node_members": {
+  "ebola_status": [
+   "Ebola status",
+   "status"
+  ],
+  "ebola_diagnosis": [
+   "diagnosis"
+  ],
+  "ebola_rumours": [
+   "Ebola rumours"
+  ]
+ },
+ "assign_A": {
+  "Ebola status": 2,
+  "diagnosis": 3,
+  "status": 2,
+  "Ebola rumours": 4
+ },
+ "assign_B": {
+  "Ebola rumours": 4,
+  "Ebola status": 2,
+  "diagnosis": 3,
+  "status": 2
+ }
+}

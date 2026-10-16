@@ -1,0 +1,1311 @@
+{
+  "meta": {
+    "model": "glm-4-flash",
+    "top_k": 5,
+    "thread_ids": [
+      5027,
+      1358,
+      145,
+      5000
+    ],
+    "main_thread": 5027,
+    "N_tweets": 139,
+    "threads": {
+      "145": {
+        "label": 2,
+        "n": 28
+      },
+      "1358": {
+        "label": 1,
+        "n": 46
+      },
+      "5000": {
+        "label": 0,
+        "n": 32
+      },
+      "5027": {
+        "label": 1,
+        "n": 33
+      }
+    }
+  },
+  "A_struct_scan": {
+    "retriever_enum_values": [
+      "entity",
+      "relationship",
+      "chunk",
+      "community",
+      "subgraph"
+    ],
+    "entity_retriever_modes": [
+      "ppr",
+      "vdb",
+      "from_relation",
+      "tf_df",
+      "all",
+      "by_neighbors",
+      "link_entity",
+      "get_all",
+      "from_relation_by_agent"
+    ],
+    "context_metakey": "index",
+    "predicate_dimensions": {
+      "time (时间/区间/时序)": {
+        "supported": false,
+        "probe": "Retriever 枚举 + EntityRetriever.mode_list + 向量索引元数据(get_node_metadata→['index'])"
+      },
+      "space (地点/行政区)": {
+        "supported": false,
+        "probe": "Retriever 枚举 + EntityRetriever.mode_list + 向量索引元数据(get_node_metadata→['index'])"
+      },
+      "event/thread (事件/线程归属)": {
+        "supported": false,
+        "probe": "Retriever 枚举 + EntityRetriever.mode_list + 向量索引元数据(get_node_metadata→['index'])"
+      },
+      "claim_status (真伪/立场/状态迁移)": {
+        "supported": false,
+        "probe": "Retriever 枚举 + EntityRetriever.mode_list + 向量索引元数据(get_node_metadata→['index'])"
+      },
+      "lineage (血缘/来源/引用链)": {
+        "supported": false,
+        "probe": "Retriever 枚举 + EntityRetriever.mode_list + 向量索引元数据(get_node_metadata→['index'])"
+      },
+      "aggregation (计数/可合并度量)": {
+        "supported": false,
+        "probe": "Retriever 枚举 + EntityRetriever.mode_list + 向量索引元数据(get_node_metadata→['index'])"
+      }
+    },
+    "verdict": "EraRAG 检索原语仅『语义 top-k』(vdb/ppr/tf_df/neighbors…)；索引元数据仅含 index（无 id/时间/地点/标签/引用），六类结构化谓词入口全部缺失。",
+    "evidence_sources": [
+      "Core/Common/Constants.py :: class Retriever(Enum) = entity/relationship/chunk/community/subgraph",
+      "Core/Retriever/EntitiyRetriever.py :: self.mode_list = ['ppr', 'vdb', 'from_relation', 'tf_df', 'all', 'by_neighbors', 'link_entity', 'get_all', 'from_relation_by_agent']",
+      "Core/Storage/TreeGraphStorage.py :: get_node_metadata() -> ['index']",
+      "Core/Retriever/MixRetriever.py :: retrieve_relevant_content(type, mode, **kwargs)；唯一注入通道 seed"
+    ]
+  },
+  "truth": {
+    "disagreed_main": [
+      "544309563848003584",
+      "544309882673844224",
+      "544310719965970432",
+      "544311269533437952",
+      "544311849794023424",
+      "544312149846151168",
+      "544312720984915968",
+      "544333302761402369",
+      "544334599342784512",
+      "544335029149900800",
+      "544335993977847808",
+      "544336231358664704",
+      "544338052244840448",
+      "544338807038824449",
+      "544339122463453185",
+      "544360294752190464"
+    ],
+    "n_disagreed": 16,
+    "n_agreed": 3,
+    "n_comment": 12,
+    "main_label": 1
+  },
+  "phase1": {
+    "docs": 123,
+    "wall_s": 41.08,
+    "leaves": 123,
+    "internal": 18,
+    "map_coverage": 1.0,
+    "probes": [
+      {
+        "query": "Which reply in this discussion came first, and at what exact time was it posted?",
+        "ctx_texts": [
+          "@RT_com I thought it was only 1 from the beginning",
+          "@larryelder @KLSouth I don't believe that was his \"point\" at all.",
+          "@ian_swann @Wossyboo92 @SkyNews I know that. Perhaps Islam reacts very very late on everything the Catholic Church has done centuries ago",
+          "NickMargerrison & SkyNews discuss Neanderthal #echochambermedia. Mention past humanitarian aid efforts under liberals. Criticize NDTV for military and civilian casualties. Call for decisive action against a specific issue. Discuss Chicago's gun and shooting problem. Australia's gun and video game ban mentioned. Munich72 referenced.",
+          "@larryelder\nhttp://t.co/uKh3BlcQyn"
+        ],
+        "flags": {
+          "has_snowflake": false,
+          "has_iso_date": false,
+          "has_clock": false,
+          "has_location_token": false,
+          "ctx_chars": 623,
+          "n_ctx_items": 5
+        },
+        "leaf_tweets": [
+          "499691100370911232",
+          "499691687326007296",
+          "499752447930155008",
+          "499990307291664384",
+          "524973750710591490",
+          "524973940343840768",
+          "544309574107693056",
+          "544313221180833792",
+          "544477669216505857",
+          "544482468410044417",
+          "544501573624545280",
+          "545017860754792448"
+        ],
+        "thread_dist": {
+          "145": 4,
+          "5000": 4,
+          "5027": 2,
+          "1358": 2
+        },
+        "thread_purity": 0.333,
+        "n_threads_touched": 4,
+        "class": "T",
+        "prf": {
+          "n_retrieved": 12,
+          "n_target": 10,
+          "n_hit": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "chance_precision": 0.081
+        }
+      },
+      {
+        "query": "Summarize the reactions strictly in chronological order with timestamps.",
+        "ctx_texts": [
+          "@Wossyboo92 @SkyNews It's all over now, but I would think those hostages were too traumatised to remember any details.",
+          "Hostage situation, prayer for safety and release, criticism of police standards, shooter blamed for preventing future mass shootings, lack of financial motive, uncertainty about booby trap, false inference in media, 50 hostages, disagreement on point made.",
+          "Summary: Discussions on peaceful religions, Quran's influence on terrorism, TV channel decisions regarding #sydneysiege coverage, effectiveness of bans, silence on Chicago crimes, and black abortion statistics.",
+          "NickMargerrison & SkyNews discuss Neanderthal #echochambermedia. Mention past humanitarian aid efforts under liberals. Criticize NDTV for military and civilian casualties. Call for decisive action against a specific issue. Discuss Chicago's gun and shooting problem. Australia's gun and video game ban mentioned. Munich72 referenced.",
+          "@RT_com I thought it was only 1 from the beginning"
+        ],
+        "flags": {
+          "has_snowflake": false,
+          "has_iso_date": false,
+          "has_clock": false,
+          "has_location_token": true,
+          "ctx_chars": 971,
+          "n_ctx_items": 5
+        },
+        "leaf_tweets": [
+          "499688811300151297",
+          "499691100370911232",
+          "499691687326007296",
+          "499692380296318976",
+          "499692801274441729",
+          "499693411130429443",
+          "499694054226284544",
+          "499990307291664384",
+          "524973750710591490",
+          "524973940343840768",
+          "524974420428075009",
+          "544309574107693056",
+          "544309589575864320",
+          "544309667099181056",
+          "544311902755889153",
+          "544313221180833792",
+          "544318148162244610",
+          "544331613807849472",
+          "544476808566276097",
+          "544477669216505857",
+          "544478273238212608",
+          "544482468410044417",
+          "544501573624545280",
+          "544531648742973440",
+          "544996807324213249"
+        ],
+        "thread_dist": {
+          "5000": 7,
+          "145": 8,
+          "5027": 7,
+          "1358": 3
+        },
+        "thread_purity": 0.32,
+        "n_threads_touched": 4,
+        "class": "T",
+        "prf": {
+          "n_retrieved": 25,
+          "n_target": 10,
+          "n_hit": 1,
+          "precision": 0.04,
+          "recall": 0.1,
+          "chance_precision": 0.081
+        }
+      },
+      {
+        "query": "How many hours passed between the first and the last post?",
+        "ctx_texts": [
+          "@RT_com I thought it was only 1 from the beginning",
+          "@SkyNews whats the waste of time about? put a bullet through the f***ing fanatic's head and bring this thing to an end..",
+          "@CBCAlerts That's two terrorist attacks under Harper and counting!",
+          "Approx. 50 hostages held at #Lindt café in Sydney siege; no confirmation of Islamic attack; debate on religious extremism.",
+          "@DaryusAzad @CBCAlerts @CBCNews @JustinTrudeau Justins' new book spoiler alert. \"My dad was famous...the end\""
+        ],
+        "flags": {
+          "has_snowflake": false,
+          "has_iso_date": false,
+          "has_clock": false,
+          "has_location_token": true,
+          "ctx_chars": 471,
+          "n_ctx_items": 5
+        },
+        "leaf_tweets": [
+          "524965523470434305",
+          "524969798170869761",
+          "524971348469510145",
+          "524972276345622528",
+          "524973370677690368",
+          "544309275141885952",
+          "544309574107693056",
+          "544311680893583360",
+          "544477705316880384",
+          "544482919595511808",
+          "544991347304714240",
+          "544996195949871104"
+        ],
+        "thread_dist": {
+          "1358": 5,
+          "5027": 3,
+          "5000": 4
+        },
+        "thread_purity": 0.417,
+        "n_threads_touched": 3,
+        "class": "T",
+        "prf": {
+          "n_retrieved": 12,
+          "n_target": 10,
+          "n_hit": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "chance_precision": 0.081
+        }
+      },
+      {
+        "query": "Which posts are about the Lindt café in Martin Place, Sydney?",
+        "ctx_texts": [
+          "Summary: Sydney cafe terror situation, black on black crime, Ottawa police seeking suspects, Islam vs Catholic Church reaction, chocolate warning.",
+          "Summary: Sydney cafe terror, black crime, Ottawa police investigation, Islam vs Catholic Church, chocolate CEO praised, Obama defense, hostage intel, Trudeau leadership critique, Islam and media discussion, Ottawa shootings, armed kid case, choking incident, Muslim blame denial, CPC criticism, ISIS speculation, change need, Ottawa police suspect search.",
+          "Approximately 50 hostages may be held captive at #Lindt café – local reports http://t.co/1ZlzKDjvSf #sydneysiege http://t.co/NvLr5kyQG8",
+          "Via \"@RT_com: Approximately 50 hostages may be held captive at #Lindt café –  http://t.co/Zc86kcYoH3 #sydneysiege http://t.co/WrxP2c3FoC\"",
+          "Approx. 50 hostages held at #Lindt café in Sydney siege; no confirmation of Islamic attack; debate on religious extremism."
+        ],
+        "flags": {
+          "has_snowflake": false,
+          "has_iso_date": false,
+          "has_clock": false,
+          "has_location_token": true,
+          "ctx_chars": 899,
+          "n_ctx_items": 5
+        },
+        "leaf_tweets": [
+          "499612667430977536",
+          "499613890171662336",
+          "499619405576544256",
+          "499688811300151297",
+          "499691339995709440",
+          "499691687326007296",
+          "499692380296318976",
+          "499692833121783809",
+          "499694054226284544",
+          "499759387657764864",
+          "499773548202688512",
+          "499919010625253376",
+          "499921932645433344",
+          "524964948683005952",
+          "524965868305141760",
+          "524969503499616256",
+          "524969798170869761",
+          "524971210275565568",
+          "524971348469510145",
+          "524971397488336897",
+          "524971955381092353",
+          "524972665564835841",
+          "524972859714981889",
+          "524972933652185089",
+          "524972964052103169",
+          "524973155014946816",
+          "524973370677690368",
+          "524973597467901952",
+          "524973649527193601",
+          "524973817219653633",
+          "524974054957002752",
+          "524974118614347776",
+          "524974290115244032",
+          "524974938256457729",
+          "524976005564215296",
+          "524976953707999232",
+          "524977054178353154",
+          "524977699584897024",
+          "525011846164938752",
+          "525029545540612096",
+          "544309275141885952",
+          "544309589575864320",
+          "544309653266386944",
+          "544309667099181056",
+          "544309904992108545",
+          "544311680893583360",
+          "544311985999867905",
+          "544312916410114048",
+          "544318148162244610",
+          "544343843731034114",
+          "544477183851630592",
+          "544478273238212608",
+          "544478315604881408",
+          "544480107872915456",
+          "544480133466574848",
+          "544480379147542528",
+          "544480465982611458",
+          "544482919595511808",
+          "544483799174627329",
+          "544484075994509312",
+          "544485799149187072",
+          "544500025016197121",
+          "544501395219808256",
+          "544505605567041536",
+          "544991347304714240",
+          "544996195949871104",
+          "545017860754792448"
+        ],
+        "thread_dist": {
+          "1358": 27,
+          "5000": 17,
+          "145": 13,
+          "5027": 10
+        },
+        "thread_purity": 0.403,
+        "n_threads_touched": 4,
+        "class": "S",
+        "prf": {
+          "n_retrieved": 67,
+          "n_target": 2,
+          "n_hit": 2,
+          "precision": 0.03,
+          "recall": 1.0,
+          "chance_precision": 0.016
+        }
+      },
+      {
+        "query": "List every distinct location mentioned across these posts.",
+        "ctx_texts": [
+          "Summary: Sydney cafe terror, black crime, Ottawa police investigation, Islam vs Catholic Church, chocolate CEO praised, Obama defense, hostage intel, Trudeau leadership critique, Islam and media discussion, Ottawa shootings, armed kid case, choking incident, Muslim blame denial, CPC criticism, ISIS speculation, change need, Ottawa police suspect search.",
+          "#Ottawa police confirm to #CBCNews they are still seeking 1 or more suspects after shootings on Parliament Hill, War Memorial, nearby mall.",
+          "@CBCAlerts That's two terrorist attacks under Harper and counting!",
+          "@rikermacdaniels @CBCAlerts @CBCNews @JustinTrudeau they don't give a shit about Islam they care about regional tensions",
+          "@Cdn_Bowhunter @CBCAlerts @CBCNews @JustinTrudeau #Afghanistan is the only country needed help"
+        ],
+        "flags": {
+          "has_snowflake": false,
+          "has_iso_date": false,
+          "has_clock": false,
+          "has_location_token": true,
+          "ctx_chars": 778,
+          "n_ctx_items": 5
+        },
+        "leaf_tweets": [
+          "499612667430977536",
+          "499613890171662336",
+          "499619405576544256",
+          "499688811300151297",
+          "499691339995709440",
+          "499691687326007296",
+          "499692380296318976",
+          "499692833121783809",
+          "499694054226284544",
+          "499759387657764864",
+          "499773548202688512",
+          "499919010625253376",
+          "499921932645433344",
+          "524964948683005952",
+          "524965523470434305",
+          "524965868305141760",
+          "524969503499616256",
+          "524971210275565568",
+          "524971348469510145",
+          "524971397488336897",
+          "524971804096737280",
+          "524971955381092353",
+          "524972665564835841",
+          "524972859714981889",
+          "524972933652185089",
+          "524972964052103169",
+          "524973155014946816",
+          "524973597467901952",
+          "524973649527193601",
+          "524973817219653633",
+          "524974054957002752",
+          "524974118614347776",
+          "524974290115244032",
+          "524974938256457729",
+          "524976005564215296",
+          "524976953707999232",
+          "524977054178353154",
+          "524977699584897024",
+          "525011846164938752",
+          "525029545540612096",
+          "544309589575864320",
+          "544309653266386944",
+          "544309667099181056",
+          "544309904992108545",
+          "544311985999867905",
+          "544312916410114048",
+          "544318148162244610",
+          "544343843731034114",
+          "544477183851630592",
+          "544478273238212608",
+          "544478315604881408",
+          "544480107872915456",
+          "544480133466574848",
+          "544480379147542528",
+          "544480465982611458",
+          "544483799174627329",
+          "544484075994509312",
+          "544485799149187072",
+          "544500025016197121",
+          "544501395219808256",
+          "544505605567041536",
+          "545017860754792448"
+        ],
+        "thread_dist": {
+          "1358": 27,
+          "5000": 14,
+          "145": 13,
+          "5027": 8
+        },
+        "thread_purity": 0.435,
+        "n_threads_touched": 4,
+        "class": "S",
+        "prf": {
+          "n_retrieved": 62,
+          "n_target": 2,
+          "n_hit": 2,
+          "precision": 0.032,
+          "recall": 1.0,
+          "chance_precision": 0.016
+        }
+      },
+      {
+        "query": "Which posts concern Ottawa, Canada?",
+        "ctx_texts": [
+          "Summary: Sydney cafe terror, black crime, Ottawa police investigation, Islam vs Catholic Church, chocolate CEO praised, Obama defense, hostage intel, Trudeau leadership critique, Islam and media discussion, Ottawa shootings, armed kid case, choking incident, Muslim blame denial, CPC criticism, ISIS speculation, change need, Ottawa police suspect search.",
+          "Canada's safety concerns, Harper administration's role, extremism, Trudeau criticism, Afghanistan's improvement with Canadian help, defense of Islamic terrorism, fanaticism, and potential future attacks under Harper administration leadership.",
+          "@rikermacdaniels @CBCAlerts @CBCNews @JustinTrudeau canada has never been this dangerous before until #harperadminstration changed their #FP",
+          "@mythos_man @CBCAlerts @CBCNews @JustinTrudeau wow you are dumber that I thought. Haven't you asked why Canada want in danger before?",
+          "@DaryusAzad @CBCAlerts @CBCNews @JustinTrudeau Rather then point fingers, why don't you stand united with the rest of Canadians."
+        ],
+        "flags": {
+          "has_snowflake": false,
+          "has_iso_date": false,
+          "has_clock": false,
+          "has_location_token": true,
+          "ctx_chars": 1002,
+          "n_ctx_items": 5
+        },
+        "leaf_tweets": [
+          "499612667430977536",
+          "499612832363581440",
+          "499613890171662336",
+          "499619405576544256",
+          "499688811300151297",
+          "499691339995709440",
+          "499691687326007296",
+          "499692380296318976",
+          "499692833121783809",
+          "499694054226284544",
+          "499759387657764864",
+          "499773548202688512",
+          "499919010625253376",
+          "499921932645433344",
+          "524964948683005952",
+          "524965868305141760",
+          "524967686284255232",
+          "524969503499616256",
+          "524970031856488448",
+          "524970201503526912",
+          "524970424246226945",
+          "524971210275565568",
+          "524971397488336897",
+          "524971522126270464",
+          "524971955381092353",
+          "524972665564835841",
+          "524972859714981889",
+          "524972933652185089",
+          "524972964052103169",
+          "524973155014946816",
+          "524973312901132288",
+          "524973597467901952",
+          "524973649527193601",
+          "524973817219653633",
+          "524974054957002752",
+          "524974118614347776",
+          "524974290115244032",
+          "524974938256457729",
+          "524976005564215296",
+          "524976953707999232",
+          "524977054178353154",
+          "524977699584897024",
+          "525011846164938752",
+          "525029545540612096",
+          "544309589575864320",
+          "544309653266386944",
+          "544309667099181056",
+          "544309904992108545",
+          "544311985999867905",
+          "544312916410114048",
+          "544318148162244610",
+          "544343843731034114",
+          "544477183851630592",
+          "544477705316880384",
+          "544478273238212608",
+          "544478315604881408",
+          "544480107872915456",
+          "544480133466574848",
+          "544480379147542528",
+          "544480465982611458",
+          "544483799174627329",
+          "544484075994509312",
+          "544485799149187072",
+          "544500025016197121",
+          "544501395219808256",
+          "544505605567041536",
+          "545017860754792448"
+        ],
+        "thread_dist": {
+          "1358": 30,
+          "5000": 15,
+          "145": 14,
+          "5027": 8
+        },
+        "thread_purity": 0.448,
+        "n_threads_touched": 4,
+        "class": "S",
+        "prf": {
+          "n_retrieved": 67,
+          "n_target": 2,
+          "n_hit": 2,
+          "precision": 0.03,
+          "recall": 1.0,
+          "chance_precision": 0.016
+        }
+      },
+      {
+        "query": "Which posts belong to the Sydney hostage siege discussion?",
+        "ctx_texts": [
+          "TV channels have chosen not to show videos of hostages relaying #sydneysiege gunman's demands. http://t.co/5jtd36wFOU http://t.co/oKJPRv40l3",
+          "Approx. 50 hostages held at #Lindt café in Sydney siege; no confirmation of Islamic attack; debate on religious extremism.",
+          ". @tikikate has claimed @CBSThisMorning aired one of the hostage videos. #SydneySiege #MartinPlace",
+          "Approximately 50 hostages may be held captive at #Lindt café – local reports http://t.co/1ZlzKDjvSf #sydneysiege http://t.co/NvLr5kyQG8",
+          "Good thing Australia has strict gun laws. \"@RT_com: Approximately 50 hostages may be held captive at #Lindt café http://t.co/1RFsbJWl7h”"
+        ],
+        "flags": {
+          "has_snowflake": false,
+          "has_iso_date": false,
+          "has_clock": false,
+          "has_location_token": true,
+          "ctx_chars": 635,
+          "n_ctx_items": 5
+        },
+        "leaf_tweets": [
+          "524969798170869761",
+          "524971348469510145",
+          "524973370677690368",
+          "544309275141885952",
+          "544309904992108545",
+          "544311680893583360",
+          "544476808566276097",
+          "544482919595511808",
+          "544991347304714240",
+          "544996195949871104"
+        ],
+        "thread_dist": {
+          "1358": 3,
+          "5027": 3,
+          "5000": 4
+        },
+        "thread_purity": 0.4,
+        "n_threads_touched": 3,
+        "class": "E",
+        "prf": {
+          "n_retrieved": 10,
+          "n_target": 17,
+          "n_hit": 3,
+          "precision": 0.3,
+          "recall": 0.176,
+          "chance_precision": 0.138
+        }
+      },
+      {
+        "query": "Group these posts by the incident each one refers to.",
+        "ctx_texts": [
+          "NickMargerrison & SkyNews discuss Neanderthal #echochambermedia. Mention past humanitarian aid efforts under liberals. Criticize NDTV for military and civilian casualties. Call for decisive action against a specific issue. Discuss Chicago's gun and shooting problem. Australia's gun and video game ban mentioned. Munich72 referenced.",
+          "Hostage situation, prayer for safety and release, criticism of police standards, shooter blamed for preventing future mass shootings, lack of financial motive, uncertainty about booby trap, false inference in media, 50 hostages, disagreement on point made.",
+          "Summary: Sydney cafe terror, black crime, Ottawa police investigation, Islam vs Catholic Church, chocolate CEO praised, Obama defense, hostage intel, Trudeau leadership critique, Islam and media discussion, Ottawa shootings, armed kid case, choking incident, Muslim blame denial, CPC criticism, ISIS speculation, change need, Ottawa police suspect search.",
+          "Key Details:\n- Jury still out on armed kid case.\n- Concerns about choking incident in NY.\n- Denial of blaming Muslims for recent events.\n- Criticism of #cpc for pushing too far.\n- Dismissal of Islam connection to ISIS.\n- Speculation and speculation criticism.\n- Need for change mentioned.\n- Ottawa police seek suspects after Parliament Hill, War Memorial, and mall shootings.",
+          "@larryelder : fk yr derailment. This is about the blatant and often sanctioned murder of black men (and women) by cops."
+        ],
+        "flags": {
+          "has_snowflake": false,
+          "has_iso_date": false,
+          "has_clock": false,
+          "has_location_token": true,
+          "ctx_chars": 1442,
+          "n_ctx_items": 5
+        },
+        "leaf_tweets": [
+          "499612667430977536",
+          "499613561044598785",
+          "499613890171662336",
+          "499619405576544256",
+          "499688811300151297",
+          "499691100370911232",
+          "499691339995709440",
+          "499691687326007296",
+          "499692380296318976",
+          "499692833121783809",
+          "499694054226284544",
+          "499759387657764864",
+          "499773548202688512",
+          "499919010625253376",
+          "499921932645433344",
+          "499990307291664384",
+          "524964948683005952",
+          "524965868305141760",
+          "524969503499616256",
+          "524971210275565568",
+          "524971397488336897",
+          "524971955381092353",
+          "524972665564835841",
+          "524972859714981889",
+          "524972933652185089",
+          "524972964052103169",
+          "524973155014946816",
+          "524973597467901952",
+          "524973649527193601",
+          "524973750710591490",
+          "524973817219653633",
+          "524973940343840768",
+          "524974054957002752",
+          "524974118614347776",
+          "524974290115244032",
+          "524974938256457729",
+          "524976005564215296",
+          "524976953707999232",
+          "524977054178353154",
+          "524977699584897024",
+          "525011846164938752",
+          "525029545540612096",
+          "544309589575864320",
+          "544309653266386944",
+          "544309667099181056",
+          "544309904992108545",
+          "544311985999867905",
+          "544312916410114048",
+          "544313221180833792",
+          "544318148162244610",
+          "544343843731034114",
+          "544477183851630592",
+          "544477669216505857",
+          "544478273238212608",
+          "544478315604881408",
+          "544480107872915456",
+          "544480133466574848",
+          "544480379147542528",
+          "544480465982611458",
+          "544482468410044417",
+          "544483799174627329",
+          "544484075994509312",
+          "544485799149187072",
+          "544500025016197121",
+          "544501395219808256",
+          "544501573624545280",
+          "544505605567041536",
+          "545017860754792448"
+        ],
+        "thread_dist": {
+          "1358": 26,
+          "5000": 17,
+          "145": 16,
+          "5027": 9
+        },
+        "thread_purity": 0.382,
+        "n_threads_touched": 4,
+        "class": "E",
+        "prf": {
+          "n_retrieved": 68,
+          "n_target": 17,
+          "n_hit": 9,
+          "precision": 0.132,
+          "recall": 0.529,
+          "chance_precision": 0.138
+        }
+      },
+      {
+        "query": "Is this collection about a single event or several different events?",
+        "ctx_texts": [
+          "@CBCAlerts That's two terrorist attacks under Harper and counting!",
+          "Hostage situation, prayer for safety and release, criticism of police standards, shooter blamed for preventing future mass shootings, lack of financial motive, uncertainty about booby trap, false inference in media, 50 hostages, disagreement on point made.",
+          "@RT_com I thought it was only 1 from the beginning",
+          "Approximately 50 hostages may be held captive at #Lindt café – local reports http://t.co/1ZlzKDjvSf #sydneysiege http://t.co/NvLr5kyQG8",
+          "@Wossyboo92 @SkyNews It's all over now, but I would think those hostages were too traumatised to remember any details."
+        ],
+        "flags": {
+          "has_snowflake": false,
+          "has_iso_date": false,
+          "has_clock": false,
+          "has_location_token": true,
+          "ctx_chars": 629,
+          "n_ctx_items": 5
+        },
+        "leaf_tweets": [
+          "499688811300151297",
+          "499691687326007296",
+          "499692380296318976",
+          "499694054226284544",
+          "524965523470434305",
+          "544309275141885952",
+          "544309574107693056",
+          "544309589575864320",
+          "544309667099181056",
+          "544318148162244610",
+          "544478273238212608",
+          "544531648742973440"
+        ],
+        "thread_dist": {
+          "145": 4,
+          "5027": 5,
+          "1358": 1,
+          "5000": 2
+        },
+        "thread_purity": 0.417,
+        "n_threads_touched": 4,
+        "class": "E",
+        "prf": {
+          "n_retrieved": 12,
+          "n_target": 17,
+          "n_hit": 5,
+          "precision": 0.417,
+          "recall": 0.294,
+          "chance_precision": 0.138
+        }
+      },
+      {
+        "query": "Which replies dispute or refute the original claim?",
+        "ctx_texts": [
+          "@PhilSerrin \"Jury still out.\" Yet, you made a direct inference that was recklessly false in MO. Misrepresentation serves no one. @larryelder",
+          "The text discusses Islam, contrasts it with Jehovah's Witnesses, criticizes the media, and implies violence against someone.",
+          ".@PhilSerrin Has that been proven? I haven't heard your news account. Isn't the investigation of account still ongoing? @larryelder",
+          "@larryelder : fk yr derailment. This is about the blatant and often sanctioned murder of black men (and women) by cops.",
+          "@DaryusAzad @CBCAlerts @CBCNews @JustinTrudeau you did, you blamed our foreign policy to start with..."
+        ],
+        "flags": {
+          "has_snowflake": false,
+          "has_iso_date": false,
+          "has_clock": false,
+          "has_location_token": false,
+          "ctx_chars": 620,
+          "n_ctx_items": 5
+        },
+        "leaf_tweets": [
+          "499613561044598785",
+          "499690552821284864",
+          "499694054226284544",
+          "524974938256457729",
+          "544309653266386944",
+          "544501395219808256",
+          "544505605567041536"
+        ],
+        "thread_dist": {
+          "5000": 2,
+          "145": 3,
+          "5027": 1,
+          "1358": 1
+        },
+        "thread_purity": 0.429,
+        "n_threads_touched": 4,
+        "class": "C",
+        "note": "Phase1 树中不含反驳贴（真值 recall 必为 0），此处仅测『是否幻觉出反驳』",
+        "prf": {
+          "n_retrieved": 7,
+          "n_target": 16,
+          "n_hit": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "chance_precision": 0.13
+        }
+      },
+      {
+        "query": "Is the claim made in the source post confirmed or refuted by the replies?",
+        "ctx_texts": [
+          "@PhilSerrin \"Jury still out.\" Yet, you made a direct inference that was recklessly false in MO. Misrepresentation serves no one. @larryelder",
+          ".@PhilSerrin Has that been proven? I haven't heard your news account. Isn't the investigation of account still ongoing? @larryelder",
+          "@larryelder There's no $$ in it for them. @KLSouth",
+          "@SkyNews @nitingokhale wish NDTV &amp; other can learn even 1% from this, NDTV costed soldiers' lives in kargil and lives in 26/11 too, Said SC",
+          "@DaryusAzad @CBCAlerts @CBCNews @JustinTrudeau No ones even confirmed this was an Islamic attack yet."
+        ],
+        "flags": {
+          "has_snowflake": false,
+          "has_iso_date": false,
+          "has_clock": false,
+          "has_location_token": false,
+          "ctx_chars": 569,
+          "n_ctx_items": 5
+        },
+        "leaf_tweets": [
+          "499688811300151297",
+          "499690552821284864",
+          "499694054226284544",
+          "524973370677690368",
+          "544482468410044417"
+        ],
+        "thread_dist": {
+          "145": 3,
+          "1358": 1,
+          "5000": 1
+        },
+        "thread_purity": 0.6,
+        "n_threads_touched": 3,
+        "class": "C",
+        "note": "Phase1 树中不含反驳贴（真值 recall 必为 0），此处仅测『是否幻觉出反驳』",
+        "prf": {
+          "n_retrieved": 5,
+          "n_target": 16,
+          "n_hit": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "chance_precision": 0.13
+        }
+      },
+      {
+        "query": "List the replies that question the original post.",
+        "ctx_texts": [
+          "@larryelder\nhttp://t.co/uKh3BlcQyn",
+          "@larryelder @KLSouth I don't believe that was his \"point\" at all.",
+          "@PhilSerrin Me thinks you like to emote in suppositions. Truth is, you don't know what happened, but want to speculate. @larryelder",
+          "@SkyNews http://t.co/dOq8DjGHly",
+          "@larryelder @adagioforstring Indeed where?"
+        ],
+        "flags": {
+          "has_snowflake": false,
+          "has_iso_date": false,
+          "has_clock": false,
+          "has_location_token": false,
+          "ctx_chars": 307,
+          "n_ctx_items": 5
+        },
+        "leaf_tweets": [
+          "499691687326007296",
+          "499692833121783809",
+          "499752447930155008",
+          "499990307291664384",
+          "544480456478314496"
+        ],
+        "thread_dist": {
+          "145": 4,
+          "5000": 1
+        },
+        "thread_purity": 0.8,
+        "n_threads_touched": 2,
+        "class": "C",
+        "note": "Phase1 树中不含反驳贴（真值 recall 必为 0），此处仅测『是否幻觉出反驳』",
+        "prf": {
+          "n_retrieved": 5,
+          "n_target": 16,
+          "n_hit": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "chance_precision": 0.13
+        }
+      },
+      {
+        "query": "How many distinct posts are in this collection, and how many of them dispute the claim?",
+        "ctx_texts": [
+          ".@PhilSerrin Has that been proven? I haven't heard your news account. Isn't the investigation of account still ongoing? @larryelder",
+          "@CBCAlerts That's two terrorist attacks under Harper and counting!",
+          "@PhilSerrin \"Jury still out.\" Yet, you made a direct inference that was recklessly false in MO. Misrepresentation serves no one. @larryelder",
+          "@RT_com I thought it was only 1 from the beginning",
+          "Given amount: SkyNews criticized Daily Mail, discussing Harper government's military shift, Canadian-Afghan support, Harper's foreign policy consequences, and Harper's role in terrorist attacks."
+        ],
+        "flags": {
+          "has_snowflake": false,
+          "has_iso_date": false,
+          "has_clock": false,
+          "has_location_token": false,
+          "ctx_chars": 585,
+          "n_ctx_items": 5
+        },
+        "leaf_tweets": [
+          "499690552821284864",
+          "499694054226284544",
+          "524965523470434305",
+          "524968014484365313",
+          "524973904969093120",
+          "524974795503726593",
+          "544309574107693056",
+          "544310817521696769",
+          "544342454938243072",
+          "544476993039785984",
+          "544480395585392641"
+        ],
+        "thread_dist": {
+          "1358": 4,
+          "145": 2,
+          "5027": 3,
+          "5000": 2
+        },
+        "thread_purity": 0.364,
+        "n_threads_touched": 4,
+        "class": "G",
+        "prf": {
+          "n_retrieved": 11,
+          "n_target": null,
+          "n_hit": null,
+          "precision": null,
+          "recall": null,
+          "chance_precision": null
+        }
+      }
+    ],
+    "answers": {
+      "T": {
+        "query": "Which reply in this discussion came first, and at what exact time was it posted?",
+        "answer": "The best full answer to the question \"Which reply in this discussion came first, and at what exact time was it posted?\" would be:\n\nUnfortunately, the provided context does not include the exact timestamps for each reply. To determine which reply was posted first and the exact time it was posted, we would need additional information such as the timestamps associated with each tweet. Without this information, it is impossible to accurately answer the question."
+      },
+      "E": {
+        "query": "Which posts belong to the Sydney hostage siege discussion?",
+        "answer": "The posts that belong to the Sydney hostage siege discussion are:\n\n1. \"TV channels have chosen not to show videos of hostages relaying #sydneysiege gunman's demands. http://t.co/5jtd36wFOU http://t.co/oKJPRv40l3\"\n2. 'Approx. 50 hostages held at #Lindt café in Sydney siege; no confirmation of Islamic attack; debate on religious extremism.'\n3. '. @tikikate has claimed @CBSThisMorning aired one of the hostage videos. #SydneySiege #MartinPlace'\n4. 'Approximately 50 hostages may be held captive at #Lindt café – local reports http://t.co/1ZlzKDjvSf #sydneysiege http://t.co/NvLr5kyQG8'\n5. 'Good thing Australia has strict gun laws. \"@RT_com: Approximately 50 hostages may be held captive at #Lindt café http://t.co/1RFsbJWl7h”'\n\nThese posts discuss the Sydney siege at the Lindt café, the number of hostages involved, the media's handling of the situation, and the context of strict gun laws in Australia."
+      },
+      "C": {
+        "query": "Which replies dispute or refute the original claim?",
+        "answer": "The replies that dispute or refute the original claim are:\n\n1. \"@larryelder Has that been proven? I haven't heard your news account. Isn't the investigation of account still ongoing?\"\n2. \"@DaryusAzad @CBCAlerts @CBCNews @JustinTrudeau you did, you blamed our foreign policy to start with...\"\n\nThese replies challenge the accuracy of the claim made by the original poster by questioning the evidence and suggesting that the claim is based on an incomplete understanding or misinterpretation of the situation. The first reply specifically asks for proof and points out that an investigation is still ongoing, implying that the claim has not been conclusively proven. The second reply shifts the focus to a different topic, suggesting that the original claim is not relevant to the discussion at hand."
+      },
+      "G": {
+        "query": "How many distinct posts are in this collection, and how many of them dispute the claim?",
+        "answer": "The collection of posts consists of five distinct messages. Here's a breakdown of each post and whether it disputes the claim:\n\n1. \"@PhilSerrin Has that been proven? I haven't heard your news account. Isn't the investigation of account still ongoing? @larryelder\" - This post questions the validity of the claim and the ongoing investigation, indicating a level of skepticism.\n\n2. \"@CBCAlerts That's two terrorist attacks under Harper and counting!\" - This post disputes the claim by stating that there have been two terrorist attacks under Harper's leadership.\n\n3. '@PhilSerrin \"Jury still out.\" Yet, you made a direct inference that was recklessly false in MO. Misrepresentation serves no one. @larryelder' - This post disputes the claim by suggesting that the inference made by @PhilSerrin was recklessly false and that misrepresentation serves no one.\n\n4. '@RT_com I thought it was only 1 from the beginning' - This post disputes the claim by stating that the information was initially believed to be about only one terrorist attack.\n\n5. \"Given amount: SkyNews criticized Daily Mail, discussing Harper government's military shift, Canadian-Afghan support, Harper's foreign policy consequences, and Harper's role in terrorist attacks.\" - This post provides context and a summary of the issues being discussed, which includes the claim about Harper's role in terrorist attacks.\n\nOut of the five distinct posts, four of them dispute the claim in some form, either by questioning its validity, directly stating that there have been multiple attacks, or by pointing out that the inference was false."
+      }
+    }
+  },
+  "phase2": {
+    "injected": 16,
+    "wall_s": 71.22,
+    "map_size": 139,
+    "leaves": 139,
+    "internal": 17,
+    "probes": [
+      {
+        "query": "Which replies dispute or refute the original claim?",
+        "ctx_texts": [
+          "@PhilSerrin \"Jury still out.\" Yet, you made a direct inference that was recklessly false in MO. Misrepresentation serves no one. @larryelder",
+          ".@PhilSerrin Has that been proven? I haven't heard your news account. Isn't the investigation of account still ongoing? @larryelder",
+          "@larryelder : fk yr derailment. This is about the blatant and often sanctioned murder of black men (and women) by cops.",
+          "Key Details:\n- Disagreement about the intended point of a statement.\n- Call for higher standards for cops.\n- Prayer for hostages' safety and release.\n- Questioning why the perpetrator is not being blamed.\n- Concern about the potential for another mass shooting.\n- Criticism of a false inference made.\n- Uncertainty about a suspect's potential danger.\n- Acknowledgment that there's no financial gain for those involved.\n- Update on the number of hostages.",
+          "@RT_com That's an exaggeration, get your facts right."
+        ],
+        "flags": {
+          "has_snowflake": false,
+          "has_iso_date": false,
+          "has_clock": false,
+          "has_location_token": false,
+          "ctx_chars": 901,
+          "n_ctx_items": 5
+        },
+        "leaf_tweets": [
+          "499613561044598785",
+          "499688811300151297",
+          "499690552821284864",
+          "499691687326007296",
+          "499692380296318976",
+          "499694054226284544",
+          "544309563848003584",
+          "544309589575864320",
+          "544309667099181056",
+          "544312720984915968",
+          "544318148162244610",
+          "544478273238212608"
+        ],
+        "thread_dist": {
+          "145": 6,
+          "5027": 5,
+          "5000": 1
+        },
+        "thread_purity": 0.5,
+        "n_threads_touched": 3,
+        "class": "C",
+        "prf": {
+          "n_retrieved": 12,
+          "n_target": 16,
+          "n_hit": 2,
+          "precision": 0.167,
+          "recall": 0.125,
+          "chance_precision": 0.115
+        }
+      },
+      {
+        "query": "Is the claim made in the source post confirmed or refuted by the replies?",
+        "ctx_texts": [
+          "@PhilSerrin \"Jury still out.\" Yet, you made a direct inference that was recklessly false in MO. Misrepresentation serves no one. @larryelder",
+          ".@PhilSerrin Has that been proven? I haven't heard your news account. Isn't the investigation of account still ongoing? @larryelder",
+          "@RT_com That's an exaggeration, get your facts right.",
+          "@NijatK @VegasRebs No, it hasn't. http://t.co/l738rb0YBI",
+          "@larryelder There's no $$ in it for them. @KLSouth"
+        ],
+        "flags": {
+          "has_snowflake": false,
+          "has_iso_date": false,
+          "has_clock": false,
+          "has_location_token": false,
+          "ctx_chars": 434,
+          "n_ctx_items": 5
+        },
+        "leaf_tweets": [
+          "499688811300151297",
+          "499690552821284864",
+          "499694054226284544",
+          "544309563848003584",
+          "544339122463453185"
+        ],
+        "thread_dist": {
+          "5027": 2,
+          "145": 3
+        },
+        "thread_purity": 0.6,
+        "n_threads_touched": 2,
+        "class": "C",
+        "prf": {
+          "n_retrieved": 5,
+          "n_target": 16,
+          "n_hit": 2,
+          "precision": 0.4,
+          "recall": 0.125,
+          "chance_precision": 0.115
+        }
+      },
+      {
+        "query": "List the replies that question the original post.",
+        "ctx_texts": [
+          "@larryelder\nhttp://t.co/uKh3BlcQyn",
+          "@larryelder @KLSouth I don't believe that was his \"point\" at all.",
+          "@PhilSerrin Me thinks you like to emote in suppositions. Truth is, you don't know what happened, but want to speculate. @larryelder",
+          "@SkyNews http://t.co/dOq8DjGHly",
+          "@larryelder @adagioforstring Indeed where?"
+        ],
+        "flags": {
+          "has_snowflake": false,
+          "has_iso_date": false,
+          "has_clock": false,
+          "has_location_token": false,
+          "ctx_chars": 307,
+          "n_ctx_items": 5
+        },
+        "leaf_tweets": [
+          "499691687326007296",
+          "499692833121783809",
+          "499752447930155008",
+          "499990307291664384",
+          "544480456478314496"
+        ],
+        "thread_dist": {
+          "145": 4,
+          "5000": 1
+        },
+        "thread_purity": 0.8,
+        "n_threads_touched": 2,
+        "class": "C",
+        "prf": {
+          "n_retrieved": 5,
+          "n_target": 16,
+          "n_hit": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "chance_precision": 0.115
+        }
+      }
+    ],
+    "answers": {
+      "T": {
+        "query": "Which reply in this discussion came first, and at what exact time was it posted?",
+        "answer": "The best full answer to the question \"Which reply in this discussion came first, and at what exact time was it posted?\" would be:\n\nUnfortunately, the provided context does not include any timestamps or specific information about the order in which the replies were posted. To determine which reply came first and the exact time it was posted, we would need additional information such as timestamps on the tweets or a chronological sequence of the posts. Without this information, it is impossible to accurately answer the question."
+      },
+      "E": {
+        "query": "Which posts belong to the Sydney hostage siege discussion?",
+        "answer": "The posts that belong to the Sydney hostage siege discussion are:\n\n1. \"Approx. 50 hostages held at #Lindt café in Sydney siege; no confirmation of Islamic attack; debate on religious extremism.\"\n2. '. @tikikate has claimed @CBSThisMorning aired one of the hostage videos. #SydneySiege #MartinPlace'\n3. \"@RT_com There are not 50 hostages, don't know really know if terrorist or not, stop spreading speculation as Fact. #sydneyseige\"\n\nThese posts specifically mention the Sydney siege, the number of hostages, and the debate surrounding the event, including the potential involvement of religious extremism."
+      },
+      "C": {
+        "query": "Which replies dispute or refute the original claim?",
+        "answer": "The replies that dispute or refute the original claim are:\n\n1. \"@RT_com That's an exaggeration, get your facts right.\"\nThis reply directly challenges the accuracy of the statement made by \"@RT_com,\" suggesting that the information provided is exaggerated and incorrect.\n\nThe other replies in the context do not directly dispute or refute the original claim but rather address different aspects of the conversation, such as questioning the validity of the information, expressing concern about the situation, and calling for higher standards for law enforcement."
+      },
+      "G": {
+        "query": "How many distinct posts are in this collection, and how many of them dispute the claim?",
+        "answer": "The collection of posts consists of five distinct messages. Here's a breakdown of the posts and their content:\n\n1. \"@PhilSerrin Has that been proven? I haven't heard your news account. Isn't the investigation of account still ongoing? @larryelder\" - This post questions the accuracy of the information provided by PhilSerrin and suggests that the investigation is still ongoing.\n\n2. \"@CBCAlerts That's two terrorist attacks under Harper and counting!\" - This post makes a claim about the number of terrorist attacks under Harper's leadership.\n\n3. '@PhilSerrin \"Jury still out.\" Yet, you made a direct inference that was recklessly false in MO. Misrepresentation serves no one. @larryelder' - This post disputes the claim made by PhilSerrin, stating that it was recklessly false and serves no one.\n\n4. \"@RT_com That's an exaggeration, get your facts right.\" - This post disputes the claim made by @CBCAlerts, suggesting that the statement is an exaggeration and that the facts should be corrected.\n\n5. '@RT_com I thought it was only 1 from the beginning' - This post also disputes the claim made by @CBCAlerts, indicating that the number of attacks was previously believed to be one.\n\nOut of the five distinct posts, four of them dispute the claim made by either @CBCAlerts or @PhilSerrin."
+      }
+    }
+  },
+  "summary": {
+    "fact_survival_rate": {
+      "snowflake_id": 0.0,
+      "iso_date": 0.0,
+      "clock_time": 0.0,
+      "location_token": 0.615
+    },
+    "mean_ctx_chars": 733.2,
+    "phase1": {
+      "T": [
+        {
+          "query": "Which reply in this discussion came first, and at what exact time was it posted?",
+          "precision": 0.0,
+          "recall": 0.0,
+          "chance": 0.081,
+          "n_retrieved": 12,
+          "thread_purity": 0.333,
+          "n_threads_touched": 4
+        },
+        {
+          "query": "Summarize the reactions strictly in chronological order with timestamps.",
+          "precision": 0.04,
+          "recall": 0.1,
+          "chance": 0.081,
+          "n_retrieved": 25,
+          "thread_purity": 0.32,
+          "n_threads_touched": 4
+        },
+        {
+          "query": "How many hours passed between the first and the last post?",
+          "precision": 0.0,
+          "recall": 0.0,
+          "chance": 0.081,
+          "n_retrieved": 12,
+          "thread_purity": 0.417,
+          "n_threads_touched": 3
+        }
+      ],
+      "S": [
+        {
+          "query": "Which posts are about the Lindt café in Martin Place, Sydney?",
+          "precision": 0.03,
+          "recall": 1.0,
+          "chance": 0.016,
+          "n_retrieved": 67,
+          "thread_purity": 0.403,
+          "n_threads_touched": 4
+        },
+        {
+          "query": "List every distinct location mentioned across these posts.",
+          "precision": 0.032,
+          "recall": 1.0,
+          "chance": 0.016,
+          "n_retrieved": 62,
+          "thread_purity": 0.435,
+          "n_threads_touched": 4
+        },
+        {
+          "query": "Which posts concern Ottawa, Canada?",
+          "precision": 0.03,
+          "recall": 1.0,
+          "chance": 0.016,
+          "n_retrieved": 67,
+          "thread_purity": 0.448,
+          "n_threads_touched": 4
+        }
+      ],
+      "E": [
+        {
+          "query": "Which posts belong to the Sydney hostage siege discussion?",
+          "precision": 0.3,
+          "recall": 0.176,
+          "chance": 0.138,
+          "n_retrieved": 10,
+          "thread_purity": 0.4,
+          "n_threads_touched": 3
+        },
+        {
+          "query": "Group these posts by the incident each one refers to.",
+          "precision": 0.132,
+          "recall": 0.529,
+          "chance": 0.138,
+          "n_retrieved": 68,
+          "thread_purity": 0.382,
+          "n_threads_touched": 4
+        },
+        {
+          "query": "Is this collection about a single event or several different events?",
+          "precision": 0.417,
+          "recall": 0.294,
+          "chance": 0.138,
+          "n_retrieved": 12,
+          "thread_purity": 0.417,
+          "n_threads_touched": 4
+        }
+      ],
+      "C": [
+        {
+          "query": "Which replies dispute or refute the original claim?",
+          "precision": 0.0,
+          "recall": 0.0,
+          "chance": 0.13,
+          "n_retrieved": 7,
+          "thread_purity": 0.429,
+          "n_threads_touched": 4
+        },
+        {
+          "query": "Is the claim made in the source post confirmed or refuted by the replies?",
+          "precision": 0.0,
+          "recall": 0.0,
+          "chance": 0.13,
+          "n_retrieved": 5,
+          "thread_purity": 0.6,
+          "n_threads_touched": 3
+        },
+        {
+          "query": "List the replies that question the original post.",
+          "precision": 0.0,
+          "recall": 0.0,
+          "chance": 0.13,
+          "n_retrieved": 5,
+          "thread_purity": 0.8,
+          "n_threads_touched": 2
+        }
+      ],
+      "G": [
+        {
+          "query": "How many distinct posts are in this collection, and how many of them dispute the claim?",
+          "precision": null,
+          "recall": null,
+          "chance": null,
+          "n_retrieved": 11,
+          "thread_purity": 0.364,
+          "n_threads_touched": 4
+        }
+      ]
+    },
+    "phase2_C": [
+      {
+        "query": "Which replies dispute or refute the original claim?",
+        "precision": 0.167,
+        "recall": 0.125,
+        "chance": 0.115,
+        "n_retrieved": 12,
+        "thread_purity": 0.5,
+        "thread_dist": {
+          "145": 6,
+          "5027": 5,
+          "5000": 1
+        }
+      },
+      {
+        "query": "Is the claim made in the source post confirmed or refuted by the replies?",
+        "precision": 0.4,
+        "recall": 0.125,
+        "chance": 0.115,
+        "n_retrieved": 5,
+        "thread_purity": 0.6,
+        "thread_dist": {
+          "5027": 2,
+          "145": 3
+        }
+      },
+      {
+        "query": "List the replies that question the original post.",
+        "precision": 0.0,
+        "recall": 0.0,
+        "chance": 0.115,
+        "n_retrieved": 5,
+        "thread_purity": 0.8,
+        "thread_dist": {
+          "145": 4,
+          "5000": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+﻿pair_id,label_relation,label_confidence,label_notes
+E13-0042,UNRELATED,3,"T1: p 为悼念/祈祷('Hearts and prayers go out to…')，非事实命题；q 亦为悼念祈祷，双方均无事实命题 -> UNRELATED"
+E13-0083,UNRELATED,3,"T2: p 为'Watch live'邀请，不得由该祈使推出其断言'该链接是直播源'；q 否认该链接为直播源，与 p 的显式断言不冲突 -> UNRELATED"
+E13-0098,UNRELATED,3,"T3: p 说'为何被拦'=堵路，q 说'为何被开枪'=涉嫌盗窃，是两个不同动作的理由，槽位不同 -> UNRELATED"
+E13-0105,UNRELATED,2,"T3: 两条仅共享'警方在搜捕嫌犯'这一事件细节，p 主语题为'士兵死亡'、q 主语题为'3名嫌犯'，未断言同一命题 -> UNRELATED（临界：共享细节按 T3 归 UNRELATED）"
+E13-0307,UNRELATED,3,"T1: p 仅由话题标签+反问'America Justice?!'构成，无可判真假的陈述，非事实命题 -> UNRELATED"
+E13-0204,SUPPORT,2,"2.1: 同一命题(副驾有严重抑郁发作)，但归因/措辞细节不同('Bild newspaper' vs 'German media report')，去 URL 后逐字覆盖<90%，且无 RT/via 引用痕迹 -> SUPPORT（临界，接近 DERIVE，按 2.1 '拿不准判 SUPPORT'）"
+E13-0231,SUPPORT,2,"2.1/T1: p 断言'渥太华遇害士兵被认出为 Cpl. Nathan Cirillo'，q 以'Killed today in #OttawaShooting'独立重述同一命题，措辞不同、无引用痕迹 -> SUPPORT"
+E13-0141,UNRELATED,3,"T3: p 谈坠机上乘客/机组人数(144+6)，q 谈飞行员未发 mayday 信号，主体-谓词-量各不同，槽位不同 -> UNRELATED"
+E13-0027,DERIVE,3,"2.1 / T1例外: q 显式 'RT @CTVNews' 且照抄 p 原文('#BREAKING: Ottawa police confirm there were at least three separate shootings')，属文本引用/转发关系 -> DERIVE"
+E13-0181,UNRELATED,2,"T3: p 断言'嫌犯藏匿于建筑公司场所'，q 断言'警方与嫌犯对峙、疑有人质被挟持'，谓词与主体不同，仅共享'嫌犯仍在现场'这一事件背景 -> UNRELATED（临界：可从 SUPPORT 角度看成同一对峙情形的不同侧面）"

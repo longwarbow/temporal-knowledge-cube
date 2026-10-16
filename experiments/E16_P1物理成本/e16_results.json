@@ -1,0 +1,1041 @@
+{
+  "N": 1278493,
+  "cuboids": [
+    "day_level",
+    "month_level",
+    "month_all",
+    "all_all"
+  ],
+  "python": "3.9.13",
+  "runs": [
+    {
+      "config": "verify_vs_e1",
+      "kind": "verify",
+      "N": 1278493,
+      "checkpoints": [
+        {
+          "prefix": 12784,
+          "diffs": 0,
+          "inc_cells": 114
+        },
+        {
+          "prefix": 25569,
+          "diffs": 0,
+          "inc_cells": 187
+        },
+        {
+          "prefix": 63924,
+          "diffs": 0,
+          "inc_cells": 364
+        },
+        {
+          "prefix": 127849,
+          "diffs": 0,
+          "inc_cells": 697
+        },
+        {
+          "prefix": 255698,
+          "diffs": 0,
+          "inc_cells": 1089
+        },
+        {
+          "prefix": 383547,
+          "diffs": 0,
+          "inc_cells": 1341
+        },
+        {
+          "prefix": 511397,
+          "diffs": 0,
+          "inc_cells": 1542
+        },
+        {
+          "prefix": 639246,
+          "diffs": 0,
+          "inc_cells": 1775
+        },
+        {
+          "prefix": 767095,
+          "diffs": 0,
+          "inc_cells": 2062
+        },
+        {
+          "prefix": 894945,
+          "diffs": 0,
+          "inc_cells": 2288
+        },
+        {
+          "prefix": 1022794,
+          "diffs": 0,
+          "inc_cells": 2654
+        },
+        {
+          "prefix": 1150643,
+          "diffs": 0,
+          "inc_cells": 3199
+        },
+        {
+          "prefix": 1278493,
+          "diffs": 0,
+          "inc_cells": 4626
+        }
+      ],
+      "all_zero": true,
+      "e1_total_cells": 4626,
+      "e16_total_cells": 4626,
+      "cells_match": true,
+      "e1_inc_cells_last": 4626,
+      "_reps": [
+        {
+          "config": "verify_vs_e1",
+          "kind": "verify",
+          "N": 1278493,
+          "checkpoints": [
+            {
+              "prefix": 12784,
+              "diffs": 0,
+              "inc_cells": 114
+            },
+            {
+              "prefix": 25569,
+              "diffs": 0,
+              "inc_cells": 187
+            },
+            {
+              "prefix": 63924,
+              "diffs": 0,
+              "inc_cells": 364
+            },
+            {
+              "prefix": 127849,
+              "diffs": 0,
+              "inc_cells": 697
+            },
+            {
+              "prefix": 255698,
+              "diffs": 0,
+              "inc_cells": 1089
+            },
+            {
+              "prefix": 383547,
+              "diffs": 0,
+              "inc_cells": 1341
+            },
+            {
+              "prefix": 511397,
+              "diffs": 0,
+              "inc_cells": 1542
+            },
+            {
+              "prefix": 639246,
+              "diffs": 0,
+              "inc_cells": 1775
+            },
+            {
+              "prefix": 767095,
+              "diffs": 0,
+              "inc_cells": 2062
+            },
+            {
+              "prefix": 894945,
+              "diffs": 0,
+              "inc_cells": 2288
+            },
+            {
+              "prefix": 1022794,
+              "diffs": 0,
+              "inc_cells": 2654
+            },
+            {
+              "prefix": 1150643,
+              "diffs": 0,
+              "inc_cells": 3199
+            },
+            {
+              "prefix": 1278493,
+              "diffs": 0,
+              "inc_cells": 4626
+            }
+          ],
+          "all_zero": true,
+          "e1_total_cells": 4626,
+          "e16_total_cells": 4626,
+          "cells_match": true,
+          "e1_inc_cells_last": 4626
+        }
+      ],
+      "reps": 1
+    },
+    {
+      "config": "stream_full",
+      "kind": "stream",
+      "N": 1278493,
+      "wall": 1.958277,
+      "cells": 4626,
+      "rels": 4759522,
+      "peak_rss": 346796032,
+      "floor_rss": 151924736,
+      "_reps": [
+        {
+          "config": "stream_full",
+          "kind": "stream",
+          "N": 1278493,
+          "wall": 1.958277,
+          "cells": 4626,
+          "rels": 4759522,
+          "peak_rss": 346796032,
+          "floor_rss": 151924736
+        },
+        {
+          "config": "stream_full",
+          "kind": "stream",
+          "N": 1278493,
+          "wall": 1.95212,
+          "cells": 4626,
+          "rels": 4759522,
+          "peak_rss": 346861568,
+          "floor_rss": 152027136
+        },
+        {
+          "config": "stream_full",
+          "kind": "stream",
+          "N": 1278493,
+          "wall": 1.9621975999999999,
+          "cells": 4626,
+          "rels": 4759522,
+          "peak_rss": 346599424,
+          "floor_rss": 151769088
+        }
+      ],
+      "reps": 3
+    },
+    {
+      "config": "rebuild_10",
+      "kind": "rebuild",
+      "N": 1278493,
+      "prefix": 127849,
+      "wall": 0.19092580000000003,
+      "cells": 697,
+      "rels": 478963,
+      "peak_rss": 172761088,
+      "floor_rss": 151924736,
+      "_reps": [
+        {
+          "config": "rebuild_10",
+          "kind": "rebuild",
+          "N": 1278493,
+          "prefix": 127849,
+          "wall": 0.19092580000000003,
+          "cells": 697,
+          "rels": 478963,
+          "peak_rss": 172761088,
+          "floor_rss": 151924736
+        },
+        {
+          "config": "rebuild_10",
+          "kind": "rebuild",
+          "N": 1278493,
+          "prefix": 127849,
+          "wall": 0.1941215,
+          "cells": 697,
+          "rels": 478963,
+          "peak_rss": 172756992,
+          "floor_rss": 151773184
+        },
+        {
+          "config": "rebuild_10",
+          "kind": "rebuild",
+          "N": 1278493,
+          "prefix": 127849,
+          "wall": 0.19665590000000005,
+          "cells": 697,
+          "rels": 478963,
+          "peak_rss": 172920832,
+          "floor_rss": 151990272
+        }
+      ],
+      "reps": 3
+    },
+    {
+      "config": "rebuild_25",
+      "kind": "rebuild",
+      "N": 1278493,
+      "prefix": 319623,
+      "wall": 0.4751767,
+      "cells": 1237,
+      "rels": 1208361,
+      "peak_rss": 201039872,
+      "floor_rss": 151728128,
+      "_reps": [
+        {
+          "config": "rebuild_25",
+          "kind": "rebuild",
+          "N": 1278493,
+          "prefix": 319623,
+          "wall": 0.4751767,
+          "cells": 1237,
+          "rels": 1208361,
+          "peak_rss": 201039872,
+          "floor_rss": 151728128
+        },
+        {
+          "config": "rebuild_25",
+          "kind": "rebuild",
+          "N": 1278493,
+          "prefix": 319623,
+          "wall": 0.47134970000000004,
+          "cells": 1237,
+          "rels": 1208361,
+          "peak_rss": 201375744,
+          "floor_rss": 151883776
+        },
+        {
+          "config": "rebuild_25",
+          "kind": "rebuild",
+          "N": 1278493,
+          "prefix": 319623,
+          "wall": 0.4948328,
+          "cells": 1237,
+          "rels": 1208361,
+          "peak_rss": 201023488,
+          "floor_rss": 151719936
+        }
+      ],
+      "reps": 3
+    },
+    {
+      "config": "rebuild_50",
+      "kind": "rebuild",
+      "N": 1278493,
+      "prefix": 639246,
+      "wall": 0.9725951999999999,
+      "cells": 1775,
+      "rels": 2408994,
+      "peak_rss": 250658816,
+      "floor_rss": 151932928,
+      "_reps": [
+        {
+          "config": "rebuild_50",
+          "kind": "rebuild",
+          "N": 1278493,
+          "prefix": 639246,
+          "wall": 0.9725951999999999,
+          "cells": 1775,
+          "rels": 2408994,
+          "peak_rss": 250658816,
+          "floor_rss": 151932928
+        },
+        {
+          "config": "rebuild_50",
+          "kind": "rebuild",
+          "N": 1278493,
+          "prefix": 639246,
+          "wall": 0.9816757999999999,
+          "cells": 1775,
+          "rels": 2408994,
+          "peak_rss": 250445824,
+          "floor_rss": 151846912
+        },
+        {
+          "config": "rebuild_50",
+          "kind": "rebuild",
+          "N": 1278493,
+          "prefix": 639246,
+          "wall": 0.9713880000000001,
+          "cells": 1775,
+          "rels": 2408994,
+          "peak_rss": 250368000,
+          "floor_rss": 151818240
+        }
+      ],
+      "reps": 3
+    },
+    {
+      "config": "rebuild_75",
+      "kind": "rebuild",
+      "N": 1278493,
+      "prefix": 958869,
+      "wall": 1.475147,
+      "cells": 2428,
+      "rels": 3586827,
+      "peak_rss": 307331072,
+      "floor_rss": 151863296,
+      "_reps": [
+        {
+          "config": "rebuild_75",
+          "kind": "rebuild",
+          "N": 1278493,
+          "prefix": 958869,
+          "wall": 1.475147,
+          "cells": 2428,
+          "rels": 3586827,
+          "peak_rss": 307331072,
+          "floor_rss": 151863296
+        },
+        {
+          "config": "rebuild_75",
+          "kind": "rebuild",
+          "N": 1278493,
+          "prefix": 958869,
+          "wall": 1.4819627,
+          "cells": 2428,
+          "rels": 3586827,
+          "peak_rss": 307220480,
+          "floor_rss": 151937024
+        },
+        {
+          "config": "rebuild_75",
+          "kind": "rebuild",
+          "N": 1278493,
+          "prefix": 958869,
+          "wall": 1.4851736,
+          "cells": 2428,
+          "rels": 3586827,
+          "peak_rss": 307605504,
+          "floor_rss": 151928832
+        }
+      ],
+      "reps": 3
+    },
+    {
+      "config": "rebuild_100",
+      "kind": "rebuild",
+      "N": 1278493,
+      "prefix": 1278493,
+      "wall": 1.9647107000000001,
+      "cells": 4626,
+      "rels": 4759522,
+      "peak_rss": 346480640,
+      "floor_rss": 151691264,
+      "_reps": [
+        {
+          "config": "rebuild_100",
+          "kind": "rebuild",
+          "N": 1278493,
+          "prefix": 1278493,
+          "wall": 1.9647107000000001,
+          "cells": 4626,
+          "rels": 4759522,
+          "peak_rss": 346480640,
+          "floor_rss": 151691264
+        },
+        {
+          "config": "rebuild_100",
+          "kind": "rebuild",
+          "N": 1278493,
+          "prefix": 1278493,
+          "wall": 1.9464028999999998,
+          "cells": 4626,
+          "rels": 4759522,
+          "peak_rss": 346955776,
+          "floor_rss": 151973888
+        },
+        {
+          "config": "rebuild_100",
+          "kind": "rebuild",
+          "N": 1278493,
+          "prefix": 1278493,
+          "wall": 2.0045606,
+          "cells": 4626,
+          "rels": 4759522,
+          "peak_rss": 346796032,
+          "floor_rss": 151855104
+        }
+      ],
+      "reps": 3
+    },
+    {
+      "config": "incdelta_10",
+      "kind": "incdelta",
+      "N": 1278493,
+      "prefix": 127849,
+      "delta": 12784,
+      "prefix_plus": 140633,
+      "t_inc": 0.016978200000000054,
+      "t_reb": 0.18436219999999992,
+      "ratio": 10.85876005701425,
+      "inc_units": 51136,
+      "reb_units": 562532,
+      "unit_ratio": 11.000704005006257,
+      "peak_rss_inc": 174477312,
+      "base_rss": 172867584,
+      "cells": 732,
+      "_reps": [
+        {
+          "config": "incdelta_10",
+          "kind": "incdelta",
+          "N": 1278493,
+          "prefix": 127849,
+          "delta": 12784,
+          "prefix_plus": 140633,
+          "t_inc": 0.016978200000000054,
+          "t_reb": 0.18436219999999992,
+          "ratio": 10.85876005701425,
+          "inc_units": 51136,
+          "reb_units": 562532,
+          "unit_ratio": 11.000704005006257,
+          "peak_rss_inc": 174477312,
+          "base_rss": 172867584,
+          "cells": 732
+        },
+        {
+          "config": "incdelta_10",
+          "kind": "incdelta",
+          "N": 1278493,
+          "prefix": 127849,
+          "delta": 12784,
+          "prefix_plus": 140633,
+          "t_inc": 0.01718109999999995,
+          "t_reb": 0.19218519999999994,
+          "ratio": 11.185849567257074,
+          "inc_units": 51136,
+          "reb_units": 562532,
+          "unit_ratio": 11.000704005006257,
+          "peak_rss_inc": 174514176,
+          "base_rss": 172847104,
+          "cells": 732
+        },
+        {
+          "config": "incdelta_10",
+          "kind": "incdelta",
+          "N": 1278493,
+          "prefix": 127849,
+          "delta": 12784,
+          "prefix_plus": 140633,
+          "t_inc": 0.01696819999999999,
+          "t_reb": 0.19990470000000005,
+          "ratio": 11.781137657500512,
+          "inc_units": 51136,
+          "reb_units": 562532,
+          "unit_ratio": 11.000704005006257,
+          "peak_rss_inc": 174669824,
+          "base_rss": 172994560,
+          "cells": 732
+        }
+      ],
+      "reps": 3
+    },
+    {
+      "config": "incdelta_25",
+      "kind": "incdelta",
+      "N": 1278493,
+      "prefix": 319623,
+      "delta": 12784,
+      "prefix_plus": 332407,
+      "t_inc": 0.019201399999999924,
+      "t_reb": 0.45260619999999996,
+      "ratio": 23.571520826606484,
+      "inc_units": 51136,
+      "reb_units": 1329628,
+      "unit_ratio": 26.00179912390488,
+      "peak_rss_inc": 202108928,
+      "base_rss": 200765440,
+      "cells": 1259,
+      "_reps": [
+        {
+          "config": "incdelta_25",
+          "kind": "incdelta",
+          "N": 1278493,
+          "prefix": 319623,
+          "delta": 12784,
+          "prefix_plus": 332407,
+          "t_inc": 0.019201399999999924,
+          "t_reb": 0.45260619999999996,
+          "ratio": 23.571520826606484,
+          "inc_units": 51136,
+          "reb_units": 1329628,
+          "unit_ratio": 26.00179912390488,
+          "peak_rss_inc": 202108928,
+          "base_rss": 200765440,
+          "cells": 1259
+        },
+        {
+          "config": "incdelta_25",
+          "kind": "incdelta",
+          "N": 1278493,
+          "prefix": 319623,
+          "delta": 12784,
+          "prefix_plus": 332407,
+          "t_inc": 0.01964509999999997,
+          "t_reb": 0.46150099999999994,
+          "ratio": 23.491914014181685,
+          "inc_units": 51136,
+          "reb_units": 1329628,
+          "unit_ratio": 26.00179912390488,
+          "peak_rss_inc": 202326016,
+          "base_rss": 200941568,
+          "cells": 1259
+        },
+        {
+          "config": "incdelta_25",
+          "kind": "incdelta",
+          "N": 1278493,
+          "prefix": 319623,
+          "delta": 12784,
+          "prefix_plus": 332407,
+          "t_inc": 0.020592900000000025,
+          "t_reb": 0.4634452,
+          "ratio": 22.505096416726126,
+          "inc_units": 51136,
+          "reb_units": 1329628,
+          "unit_ratio": 26.00179912390488,
+          "peak_rss_inc": 202162176,
+          "base_rss": 200794112,
+          "cells": 1259
+        }
+      ],
+      "reps": 3
+    },
+    {
+      "config": "incdelta_50",
+      "kind": "incdelta",
+      "N": 1278493,
+      "prefix": 639246,
+      "delta": 12784,
+      "prefix_plus": 652030,
+      "t_inc": 0.022077399999999914,
+      "t_reb": 0.9601868999999998,
+      "ratio": 43.49184686602605,
+      "inc_units": 51136,
+      "reb_units": 2608120,
+      "unit_ratio": 51.00359824780976,
+      "peak_rss_inc": 250519552,
+      "base_rss": 250486784,
+      "cells": 1808,
+      "_reps": [
+        {
+          "config": "incdelta_50",
+          "kind": "incdelta",
+          "N": 1278493,
+          "prefix": 639246,
+          "delta": 12784,
+          "prefix_plus": 652030,
+          "t_inc": 0.022077399999999914,
+          "t_reb": 0.9601868999999998,
+          "ratio": 43.49184686602605,
+          "inc_units": 51136,
+          "reb_units": 2608120,
+          "unit_ratio": 51.00359824780976,
+          "peak_rss_inc": 250519552,
+          "base_rss": 250486784,
+          "cells": 1808
+        },
+        {
+          "config": "incdelta_50",
+          "kind": "incdelta",
+          "N": 1278493,
+          "prefix": 639246,
+          "delta": 12784,
+          "prefix_plus": 652030,
+          "t_inc": 0.02011810000000014,
+          "t_reb": 0.9383639000000001,
+          "ratio": 46.64276944641858,
+          "inc_units": 51136,
+          "reb_units": 2608120,
+          "unit_ratio": 51.00359824780976,
+          "peak_rss_inc": 250372096,
+          "base_rss": 250294272,
+          "cells": 1808
+        },
+        {
+          "config": "incdelta_50",
+          "kind": "incdelta",
+          "N": 1278493,
+          "prefix": 639246,
+          "delta": 12784,
+          "prefix_plus": 652030,
+          "t_inc": 0.01988309999999993,
+          "t_reb": 0.9346746999999997,
+          "ratio": 47.00849968063345,
+          "inc_units": 51136,
+          "reb_units": 2608120,
+          "unit_ratio": 51.00359824780976,
+          "peak_rss_inc": 250458112,
+          "base_rss": 250425344,
+          "cells": 1808
+        }
+      ],
+      "reps": 3
+    },
+    {
+      "config": "incdelta_75",
+      "kind": "incdelta",
+      "N": 1278493,
+      "prefix": 958869,
+      "delta": 12784,
+      "prefix_plus": 971653,
+      "t_inc": 0.018877899999999892,
+      "t_reb": 1.4911073999999997,
+      "ratio": 78.98693180915294,
+      "inc_units": 51136,
+      "reb_units": 3886612,
+      "unit_ratio": 76.00539737171464,
+      "peak_rss_inc": 308318208,
+      "base_rss": 307044352,
+      "cells": 2473,
+      "_reps": [
+        {
+          "config": "incdelta_75",
+          "kind": "incdelta",
+          "N": 1278493,
+          "prefix": 958869,
+          "delta": 12784,
+          "prefix_plus": 971653,
+          "t_inc": 0.018877899999999892,
+          "t_reb": 1.4911073999999997,
+          "ratio": 78.98693180915294,
+          "inc_units": 51136,
+          "reb_units": 3886612,
+          "unit_ratio": 76.00539737171464,
+          "peak_rss_inc": 308318208,
+          "base_rss": 307044352,
+          "cells": 2473
+        },
+        {
+          "config": "incdelta_75",
+          "kind": "incdelta",
+          "N": 1278493,
+          "prefix": 958869,
+          "delta": 12784,
+          "prefix_plus": 971653,
+          "t_inc": 0.019482800000000022,
+          "t_reb": 1.5242385000000003,
+          "ratio": 78.23508427946695,
+          "inc_units": 51136,
+          "reb_units": 3886612,
+          "unit_ratio": 76.00539737171464,
+          "peak_rss_inc": 308137984,
+          "base_rss": 306806784,
+          "cells": 2473
+        },
+        {
+          "config": "incdelta_75",
+          "kind": "incdelta",
+          "N": 1278493,
+          "prefix": 958869,
+          "delta": 12784,
+          "prefix_plus": 971653,
+          "t_inc": 0.019672400000000145,
+          "t_reb": 1.4638898999999999,
+          "ratio": 74.4133862670538,
+          "inc_units": 51136,
+          "reb_units": 3886612,
+          "unit_ratio": 76.00539737171464,
+          "peak_rss_inc": 308547584,
+          "base_rss": 307392512,
+          "cells": 2473
+        }
+      ],
+      "reps": 3
+    },
+    {
+      "config": "trace_25",
+      "kind": "trace",
+      "N": 1278493,
+      "prefix": 319623,
+      "peak_heap": 47937594,
+      "cur_heap": 47803082,
+      "cells": 1237,
+      "rels": 1208361,
+      "_reps": [
+        {
+          "config": "trace_25",
+          "kind": "trace",
+          "N": 1278493,
+          "prefix": 319623,
+          "peak_heap": 47937594,
+          "cur_heap": 47803082,
+          "cells": 1237,
+          "rels": 1208361
+        }
+      ],
+      "reps": 1
+    },
+    {
+      "config": "trace_100",
+      "kind": "trace",
+      "N": 1278493,
+      "prefix": 1278493,
+      "peak_heap": 190305794,
+      "cur_heap": 190305658,
+      "cells": 4626,
+      "rels": 4759522,
+      "_reps": [
+        {
+          "config": "trace_100",
+          "kind": "trace",
+          "N": 1278493,
+          "prefix": 1278493,
+          "peak_heap": 190305794,
+          "cur_heap": 190305658,
+          "cells": 4626,
+          "rels": 4759522
+        }
+      ],
+      "reps": 1
+    },
+    {
+      "config": "ab_interned_1cube",
+      "kind": "ablate",
+      "N": 1278493,
+      "keys": "interned",
+      "resident": 1,
+      "wall": 2.032525,
+      "cells": 4626,
+      "rels": 4759522,
+      "peak_rss": 346755072,
+      "floor_rss": 151810048,
+      "_reps": [
+        {
+          "config": "ab_interned_1cube",
+          "kind": "ablate",
+          "N": 1278493,
+          "keys": "interned",
+          "resident": 1,
+          "wall": 2.032525,
+          "cells": 4626,
+          "rels": 4759522,
+          "peak_rss": 346755072,
+          "floor_rss": 151810048
+        },
+        {
+          "config": "ab_interned_1cube",
+          "kind": "ablate",
+          "N": 1278493,
+          "keys": "interned",
+          "resident": 1,
+          "wall": 2.0399625,
+          "cells": 4626,
+          "rels": 4759522,
+          "peak_rss": 346861568,
+          "floor_rss": 151896064
+        },
+        {
+          "config": "ab_interned_1cube",
+          "kind": "ablate",
+          "N": 1278493,
+          "keys": "interned",
+          "resident": 1,
+          "wall": 2.0200926999999997,
+          "cells": 4626,
+          "rels": 4759522,
+          "peak_rss": 346693632,
+          "floor_rss": 151834624
+        }
+      ],
+      "reps": 3
+    },
+    {
+      "config": "ab_fresh_1cube",
+      "kind": "ablate",
+      "N": 1278493,
+      "keys": "fresh",
+      "resident": 1,
+      "wall": 2.1775238,
+      "cells": 4626,
+      "rels": 4759522,
+      "peak_rss": 720850944,
+      "floor_rss": 525688832,
+      "_reps": [
+        {
+          "config": "ab_fresh_1cube",
+          "kind": "ablate",
+          "N": 1278493,
+          "keys": "fresh",
+          "resident": 1,
+          "wall": 2.1775238,
+          "cells": 4626,
+          "rels": 4759522,
+          "peak_rss": 720850944,
+          "floor_rss": 525688832
+        },
+        {
+          "config": "ab_fresh_1cube",
+          "kind": "ablate",
+          "N": 1278493,
+          "keys": "fresh",
+          "resident": 1,
+          "wall": 2.11671,
+          "cells": 4626,
+          "rels": 4759522,
+          "peak_rss": 720588800,
+          "floor_rss": 525594624
+        },
+        {
+          "config": "ab_fresh_1cube",
+          "kind": "ablate",
+          "N": 1278493,
+          "keys": "fresh",
+          "resident": 1,
+          "wall": 2.1989552,
+          "cells": 4626,
+          "rels": 4759522,
+          "peak_rss": 720490496,
+          "floor_rss": 525570048
+        }
+      ],
+      "reps": 3
+    },
+    {
+      "config": "ab_interned_2cube",
+      "kind": "ablate",
+      "N": 1278493,
+      "keys": "interned",
+      "resident": 2,
+      "wall": 2.0534366,
+      "cells": 4626,
+      "rels": 4759522,
+      "peak_rss": 541659136,
+      "floor_rss": 346742784,
+      "_reps": [
+        {
+          "config": "ab_interned_2cube",
+          "kind": "ablate",
+          "N": 1278493,
+          "keys": "interned",
+          "resident": 2,
+          "wall": 2.0534366,
+          "cells": 4626,
+          "rels": 4759522,
+          "peak_rss": 541659136,
+          "floor_rss": 346742784
+        },
+        {
+          "config": "ab_interned_2cube",
+          "kind": "ablate",
+          "N": 1278493,
+          "keys": "interned",
+          "resident": 2,
+          "wall": 2.3161818999999997,
+          "cells": 4626,
+          "rels": 4759522,
+          "peak_rss": 542003200,
+          "floor_rss": 346980352
+        },
+        {
+          "config": "ab_interned_2cube",
+          "kind": "ablate",
+          "N": 1278493,
+          "keys": "interned",
+          "resident": 2,
+          "wall": 2.1689556999999997,
+          "cells": 4626,
+          "rels": 4759522,
+          "peak_rss": 541614080,
+          "floor_rss": 346714112
+        }
+      ],
+      "reps": 3
+    }
+  ],
+  "parse_seconds": 19.4218199,
+  "repeats": 3,
+  "_derived": {
+    "stream_wall_median": 1.958277,
+    "stream_wall_min": 1.95212,
+    "stream_peak_rss_median": 346796032,
+    "rebuild_wall_loglog_slope": 1.0095533726051955,
+    "rebuild_wall_loglog_r2": 0.9998360521546945,
+    "rebuild_rss_affine": {
+      "intercept_mb": 152.94420362833728,
+      "slope_b_per_event": 0.00015452482186298575,
+      "r2": 0.997328929507137
+    },
+    "rebuild_curve": [
+      {
+        "prefix": 127849,
+        "wall_median": 0.1941215,
+        "wall_min": 0.19092580000000003,
+        "peak_rss_median": 172761088,
+        "cells": 697
+      },
+      {
+        "prefix": 319623,
+        "wall_median": 0.4751767,
+        "wall_min": 0.47134970000000004,
+        "peak_rss_median": 201039872,
+        "cells": 1237
+      },
+      {
+        "prefix": 639246,
+        "wall_median": 0.9725951999999999,
+        "wall_min": 0.9713880000000001,
+        "peak_rss_median": 250445824,
+        "cells": 1775
+      },
+      {
+        "prefix": 958869,
+        "wall_median": 1.4819627,
+        "wall_min": 1.475147,
+        "peak_rss_median": 307331072,
+        "cells": 2428
+      },
+      {
+        "prefix": 1278493,
+        "wall_median": 1.9647107000000001,
+        "wall_min": 1.9464028999999998,
+        "peak_rss_median": 346796032,
+        "cells": 4626
+      }
+    ],
+    "incdelta": [
+      {
+        "prefix": 127849,
+        "delta": 12784,
+        "t_inc_median": 0.016978200000000054,
+        "t_reb_median": 0.19218519999999994,
+        "ratio_median": 11.185849567257074,
+        "unit_ratio": 11.000704005006257
+      },
+      {
+        "prefix": 319623,
+        "delta": 12784,
+        "t_inc_median": 0.01964509999999997,
+        "t_reb_median": 0.46150099999999994,
+        "ratio_median": 23.491914014181685,
+        "unit_ratio": 26.00179912390488
+      },
+      {
+        "prefix": 639246,
+        "delta": 12784,
+        "t_inc_median": 0.02011810000000014,
+        "t_reb_median": 0.9383639000000001,
+        "ratio_median": 46.64276944641858,
+        "unit_ratio": 51.00359824780976
+      },
+      {
+        "prefix": 958869,
+        "delta": 12784,
+        "t_inc_median": 0.019482800000000022,
+        "t_reb_median": 1.4911073999999997,
+        "ratio_median": 78.23508427946695,
+        "unit_ratio": 76.00539737171464
+      }
+    ],
+    "attribution": [
+      {
+        "config": "ab_interned_1cube",
+        "keys": "interned",
+        "resident": 1,
+        "wall_median": 2.032525,
+        "wall_min": 2.0200926999999997,
+        "peak_rss_median": 346755072
+      },
+      {
+        "config": "ab_fresh_1cube",
+        "keys": "fresh",
+        "resident": 1,
+        "wall_median": 2.1775238,
+        "wall_min": 2.11671,
+        "peak_rss_median": 720588800
+      },
+      {
+        "config": "ab_interned_2cube",
+        "keys": "interned",
+        "resident": 2,
+        "wall_median": 2.1689556999999997,
+        "wall_min": 2.0534366,
+        "peak_rss_median": 541659136
+      }
+    ]
+  }
+}

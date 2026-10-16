@@ -1,0 +1,61 @@
+﻿pair_id,stratum,subtype,system_pred,G,H,consensus_label,agree,p_note_G,p_note_H
+E13-0521,S6_same_slot_conflicting,strict,UNRELATED,SUPPORT,SUPPORT,SUPPORT,1,T5: 4漫画家被杀⊂至少11死，可兼容->SUPPORT,T4/T5: 至少11死与4名画师死可同时为真(后者是子集)
+E13-0499,S6_same_slot_conflicting,strict,UNRELATED,SUPPORT,SUPPORT,SUPPORT,1,T5: 4漫画家被杀⊂12死，可兼容->SUPPORT,"T5: 12死与4名画师死,可兼容"
+E13-0429,S5_cross_thread_verbatim,mention_only,DERIVE,DERIVE,DERIVE,DERIVE,1,仅@账号不同，近乎逐字->DERIVE,"2.1: 仅前导@提及变化,正文同文复制"
+E13-0542,S6_same_slot_conflicting,strict,UNRELATED,UNRELATED,UNRELATED,UNRELATED,1,T3: 谓词不同(被劫持 vs 逃脱)->UNRELATED,"T3: 被劫持 vs 逃脱,谓词不同"
+E13-0431,S5_cross_thread_verbatim,mention_only,DERIVE,DERIVE,DERIVE,DERIVE,1,仅URL不同，逐字->DERIVE,"2.1: 文本相同,仅URL不同"
+E13-0558,S6_same_slot_conflicting,polarity,UNRELATED,SUPPORT,CONFLICT,,0,同槽位(渥太华嫌犯数)；未证实多名 vs 证实找3嫌犯 可兼容->SUPPORT,"T5: p否认同为多名枪手 vs q确认寻找3名(多名)嫌犯,不能同时为真"
+E13-0398,S5_cross_thread_verbatim,mention_only,DERIVE,DERIVE,DERIVE,DERIVE,1,仅URL不同，逐字->DERIVE,"2.1: 文本相同,仅URL不同"
+E13-0533,S6_same_slot_conflicting,strict,UNRELATED,UNRELATED,UNRELATED,UNRELATED,1,T3: 主体不同(伊朗/拉什迪 vs 枪击)->UNRELATED,T3: 议题不同(查理周刊 vs 伊朗/拉什迪)
+E13-0551,S6_same_slot_conflicting,polarity,UNRELATED,UNRELATED,UNRELATED,UNRELATED,1,T1: p为反问/嘲讽，非命题->UNRELATED,T1: p为反问(无命题);且议题不同
+E13-0422,S5_cross_thread_verbatim,mention_only,DERIVE,DERIVE,DERIVE,DERIVE,1,p q 逐字相同->DERIVE,2.1: 逐字完全相同
+E13-0477,S5_cross_thread_verbatim,mention_only,DERIVE,DERIVE,DERIVE,DERIVE,1,T1例外: 内容为祈使非命题但q照抄p->DERIVE,"T1例外: 非命题但q照抄p,仅标点异"
+E13-0550,S6_same_slot_conflicting,polarity,UNRELATED,UNRELATED,UNRELATED,UNRELATED,1,T1: p为质问句；主体亦不同->UNRELATED,T1: p为质问(无命题);且议题不同
+E13-0494,S6_same_slot_conflicting,strict,CONFLICT,CONFLICT,CONFLICT,CONFLICT,1,T5: 11死 vs 12死 互斥->CONFLICT,"T5: 11死 vs 12死,互斥"
+E13-0522,S6_same_slot_conflicting,strict,UNRELATED,SUPPORT,SUPPORT,SUPPORT,1,T5: ≥2死 vs 1人质+枪手=2 可兼容->SUPPORT,"T5: 至少2死 vs 1人质+枪手死(=2),可兼容"
+E13-0563,S6_same_slot_conflicting,polarity,UNRELATED,SUPPORT,SUPPORT,SUPPORT,1,同槽位(枪手数)；q讽multiple gunmen 与 p的2-3名 可兼容->SUPPORT,"T5: 警方疑2-3名枪手 vs 多名枪手,可兼容"
+E13-0435,S5_cross_thread_verbatim,mention_only,DERIVE,DERIVE,DERIVE,DERIVE,1,T1例外: 致哀非命题但q照抄p->DERIVE,T1例外: 悼念(非命题)但q逐字照抄p
+E13-0577,S6_same_slot_conflicting,vague,UNRELATED,SUPPORT,SUPPORT,SUPPORT,1,T5: 多名枪手 vs 1死2在逃 可兼容->SUPPORT,"T5: many gunmen vs 3名(1毙+2在逃),可兼容"
+E13-0455,S5_cross_thread_verbatim,mention_only,DERIVE,DERIVE,DERIVE,DERIVE,1,仅URL不同，逐字->DERIVE,"2.1: 文本相同,仅URL不同"
+E13-0569,S6_same_slot_conflicting,vague,UNRELATED,SUPPORT,SUPPORT,SUPPORT,1,混合语力: 忽略嘲讽 up to 5 shooters 与 多名 可兼容->SUPPORT,"T5: 多名枪手 vs 引用称至多5名,可兼容"
+E13-0491,S6_same_slot_conflicting,strict,CONFLICT,SUPPORT,UNRELATED,,0,T4: 同一情形(悉尼劫持者)；≥1嫌犯 vs 劫持者为Monis->SUPPORT,"T3: 存在武装嫌犯 vs 嫌犯身份背景,谓词不同"
+E13-0532,S6_same_slot_conflicting,strict,CONFLICT,SUPPORT,SUPPORT,SUPPORT,1,T5: 2漫画家被杀⊂10死 可兼容->SUPPORT,"T5: 10死 vs 2名画师死,可兼容"
+E13-0503,S6_same_slot_conflicting,strict,CONFLICT,UNRELATED,SUPPORT,,0,T3: 单位不同(1名@Dammartin vs 2起劫持事件)->UNRELATED,"T5: 达马尔坦1处 vs 巴黎周边2处,范围不同可兼容"
+E13-0575,S6_same_slot_conflicting,vague,UNRELATED,UNRELATED,UNRELATED,UNRELATED,1,T1: p为推测；主体不同->UNRELATED,T1/T3: p为主观臆测;议题不同
+E13-0555,S6_same_slot_conflicting,polarity,UNRELATED,SUPPORT,SUPPORT,SUPPORT,1,T5: 多名枪手 vs 不止一名 可兼容->SUPPORT,"T5: 多名枪手 vs 不止1名枪手,可兼容"
+E13-0471,S5_cross_thread_verbatim,mention_only,DERIVE,DERIVE,DERIVE,DERIVE,1,仅@账号不同，近乎逐字->DERIVE,"2.1: 仅前导@提及变化,正文同文复制"
+E13-0506,S6_same_slot_conflicting,strict,CONFLICT,UNRELATED,UNRELATED,UNRELATED,1,T3: 谓词不同(被扣押 vs 逃脱)->UNRELATED,"T3: 人质总数 vs 3人逃出,谓词不同"
+E13-0582,S6_same_slot_conflicting,vague,UNRELATED,UNRELATED,UNRELATED,UNRELATED,1,T1: q为猜测；主体不同(航班总论)->UNRELATED,"T3: 坠机 vs 阴谋臆测,议题不同"
+E13-0519,S6_same_slot_conflicting,strict,UNRELATED,UNRELATED,UNRELATED,UNRELATED,1,T3: 主体不同(穆斯林/媒体观点)->UNRELATED,"T3: 2名画师死 vs 言论观点,议题不同"
+E13-0546,S6_same_slot_conflicting,polarity,UNRELATED,UNRELATED,UNRELATED,UNRELATED,1,T1: p为反问；主体不同(Norad)->UNRELATED,T1: p为反问(无命题);议题不同
+E13-0458,S5_cross_thread_verbatim,copy,DERIVE,SUPPORT,SUPPORT,SUPPORT,1,§2.6: 近乎逐字但新增 via @theblaze 来源->SUPPORT,2.1: 正文同但q新增来源(via @theblaze)
+E13-0530,S6_same_slot_conflicting,strict,UNRELATED,UNRELATED,UNRELATED,UNRELATED,1,T3: 主体不同(言论表达)->UNRELATED,"T3: 11死 vs 言论观点,议题不同"
+E13-0441,S5_cross_thread_verbatim,copy,DERIVE,DERIVE,DERIVE,DERIVE,1,近乎逐字(同一guardian文本)->DERIVE,"2.1: 文本相同,来源同为卫报(@guardiannews/@guardian)"
+E13-0512,S6_same_slot_conflicting,strict,UNRELATED,CONFLICT,CONFLICT,CONFLICT,1,T5: 10死 vs 11死 互斥->CONFLICT,"T5: 10 killed vs 11 dead,互斥"
+E13-0472,S5_cross_thread_verbatim,copy,DERIVE,UNRELATED,DERIVE,,0,T1: 纯话题标签+链接非命题；非干净照抄->UNRELATED,"T1例外: 纯话题标签,但q照抄p标签+URL(仅@异/增1标签)"
+E13-0566,S6_same_slot_conflicting,vague,UNRELATED,UNRELATED,UNRELATED,UNRELATED,1,T1: q为反问，非命题->UNRELATED,T1/T3: q为反问;议题不同
+E13-0462,S5_cross_thread_verbatim,copy,DERIVE,DERIVE,DERIVE,DERIVE,1,仅@账号/标签不同，近乎逐字->DERIVE,"2.1: 文本相同,仅@/引号/#异"
+E13-0553,S6_same_slot_conflicting,polarity,UNRELATED,UNRELATED,UNRELATED,UNRELATED,1,T3: 主体不同(士兵之子)->UNRELATED,"T3: 士兵中弹/枪手毙 vs 悼念其子,谓词不同"
+E13-0482,S5_cross_thread_verbatim,mention_only,DERIVE,SUPPORT,DERIVE,,0,§2.6: 近乎逐字但归因变了(嵌@Copwatch 删@stltoday)->SUPPORT,2.1: 文本相同(引号式转发)
+E13-0549,S6_same_slot_conflicting,polarity,UNRELATED,UNRELATED,UNRELATED,UNRELATED,1,T3: 主体不同(美国校园枪击)->UNRELATED,T3: 无人死亡+悼念 vs 反问美校园枪击
+E13-0567,S6_same_slot_conflicting,vague,UNRELATED,UNRELATED,UNRELATED,UNRELATED,1,T1: q为反问，非命题->UNRELATED,"T3: 修辞性断言 vs 反问,议题不同"
+E13-0536,S6_same_slot_conflicting,strict,CONFLICT,CONFLICT,SUPPORT,,0,T5: 5名逃脱 vs 2名逃脱 互斥->CONFLICT,"T5: 5名逃出 vs 这2名逃出,可兼容(子集)"
+E13-0459,S5_cross_thread_verbatim,mention_only,DERIVE,DERIVE,DERIVE,DERIVE,1,仅@账号不同，近乎逐字->DERIVE,"2.1: 仅前导@提及变化,正文同文复制"
+E13-0479,S5_cross_thread_verbatim,mention_only,DERIVE,DERIVE,DERIVE,DERIVE,1,T1例外: 祈使非命题但q照抄p->DERIVE,"2.1: 仅前导@提及变化,正文同文复制"
+E13-0523,S6_same_slot_conflicting,strict,UNRELATED,UNRELATED,UNRELATED,UNRELATED,1,T3: 主体不同(统计+反例)->UNRELATED,"T3: 统计学命题 vs 反驳(2警死),议题不同"
+E13-0560,S6_same_slot_conflicting,polarity,UNRELATED,CONFLICT,CONFLICT,CONFLICT,1,T5: 多名枪手 vs 一名枪手 互斥->CONFLICT,"T5: 多名枪手 vs 一名枪手(两处),互斥"
+E13-0428,S5_cross_thread_verbatim,mention_only,DERIVE,DERIVE,DERIVE,DERIVE,1,仅URL不同，逐字->DERIVE,"2.1: 文本相同,仅URL不同"
+E13-0415,S5_cross_thread_verbatim,copy,DERIVE,DERIVE,DERIVE,DERIVE,1,近乎逐字；新增Stop build terrorism为祈使非事实->DERIVE,"2.1: 核心文本相同,仅@+增非事实口号"
+E13-0420,S5_cross_thread_verbatim,mention_only,DERIVE,DERIVE,DERIVE,DERIVE,1,仅@账号不同，近乎逐字->DERIVE,"2.1: 仅前导@提及变化,正文同文复制"
+E13-0524,S6_same_slot_conflicting,strict,UNRELATED,UNRELATED,UNRELATED,UNRELATED,1,T3: 不同事件(枪击12死 vs 劫持≥2死)->UNRELATED,"T3: 总部枪击12死 vs 人质事件死2,情形不同"
+E13-0579,S6_same_slot_conflicting,vague,UNRELATED,SUPPORT,SUPPORT,SUPPORT,1,T5: 多名枪手 vs 不止一名 可兼容->SUPPORT,"T5: 多名枪手 vs 不止1名枪手,可兼容"
+E13-0570,S6_same_slot_conflicting,vague,UNRELATED,SUPPORT,SUPPORT,SUPPORT,1,T5: 多名嫌犯 vs 3枪手 可兼容->SUPPORT,"T5: 多名嫌犯 vs 3名枪手(2名在追),可兼容"
+E13-0559,S6_same_slot_conflicting,polarity,UNRELATED,SUPPORT,SUPPORT,SUPPORT,1,T5: 数名枪手 vs 不止一名 可兼容->SUPPORT,"T5: 数名在逃 vs 不止1名枪手,可兼容"
+E13-0439,S5_cross_thread_verbatim,mention_only,DERIVE,DERIVE,DERIVE,DERIVE,1,仅@账号不同，近乎逐字->DERIVE,"2.1: 仅前导@提及变化,正文同文复制"
+E13-0496,S6_same_slot_conflicting,strict,UNRELATED,UNRELATED,UNRELATED,UNRELATED,1,T3: 主体不同(关于耶稣的反问)->UNRELATED,T1: q为反问(无命题);议题不同
+E13-0539,S6_same_slot_conflicting,strict,CONFLICT,UNRELATED,UNRELATED,UNRELATED,1,T3: 谓词不同(人质数 vs 中枪/逃离)->UNRELATED,"T3: 人质数 vs 枪声/逃出,谓词不同"
+E13-0487,S6_same_slot_conflicting,strict,UNRELATED,UNRELATED,UNRELATED,UNRELATED,1,T3: 不同事件(枪击死 vs 人质死)->UNRELATED,"T3: 总部11死 vs 人质事件4死,情形不同"
+E13-0490,S6_same_slot_conflicting,strict,CONFLICT,CONFLICT,CONFLICT,CONFLICT,1,T5: 犹太超市5名人质 vs 6名人质 互斥->CONFLICT,"T5: 犹太超市5名 vs 6名人质,互斥"
+E13-0548,S6_same_slot_conflicting,polarity,UNRELATED,UNRELATED,UNRELATED,UNRELATED,1,T3: 谓词不同(获释/逃脱 vs 被扣押)->UNRELATED,"T3: 5人获释 vs 数十被扣,谓词不同"
+E13-0554,S6_same_slot_conflicting,polarity,UNRELATED,SUPPORT,SUPPORT,SUPPORT,1,T5: 多名枪手 vs ≥2-3名 可兼容->SUPPORT,"T5: 多名枪手 vs 至少2-3名,可兼容"
+E13-0430,S5_cross_thread_verbatim,mention_only,DERIVE,DERIVE,DERIVE,DERIVE,1,仅@账号不同，近乎逐字->DERIVE,"2.1: 仅前导@提及变化,正文同文复制"

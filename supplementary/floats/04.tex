@@ -1,0 +1,27 @@
+\subsection*{S4 · The seven independent cross-checks (E7)}
+\addcontentsline{toc}{subsection}{S4 · The seven independent cross-checks (E7)}
+\noindent\emph{Referred to from the main paper, \S7.5.}
+
+\begin{table}[htbp]
+\caption{The seven independent cross-checks attempted in the end-to-end
+pipeline (E7): quantities computed by two different mechanisms, months apart.
+Six reproduce bit-for-bit; the seventh is a cost ratio that agrees to the same
+order under a different cell definition.}
+\label{stab:crosscheck}
+\centering
+\small
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}p{0.30\textwidth}p{0.26\textwidth}p{0.38\textwidth}@{}}
+\toprule
+\textbf{Cross-check} & \textbf{Independently measured} & \textbf{Reproduced in the pipeline}\\
+\midrule
+E1 equivalence (13 checkpoints) & 0 differences & 0 differences\\
+E1 cost ratio & 5.6$\times$ & 7.0$\times$ (same order; different cell definition)\\
+E2 city-level $\rho$ & 0.0045 & \textbf{0.0045, digit-for-digit} (hit the same 4 tokens)\\
+E2 province-level $\rho$ & 0 & 0\\
+E5 $|\mathrm{Affect}|$ (hour) & 224 & 224\\
+E6 fully invalid cells & 28 & 28\\
+Baseline \#4 maximum bias & 23.9\% (germanwings) & 23.9\% (germanwings)\\
+\bottomrule
+\end{tabular}
+\end{table}

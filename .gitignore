@@ -1,0 +1,30 @@
+# ---- caches and build products -------------------------------------------
+__pycache__/
+*.py[cod]
+*.pkl
+*.log~
+
+# ---- downloaded model weights and third-party checkouts -------------------
+_hf_cache/
+_repo/
+**/_hf_cache/
+**/_repo/
+
+# ---- credentials and runtime configuration --------------------------------
+# The committed _cfgroot/ holds a stub key only; the live one must never be
+# tracked.
+**/_cfgroot_real/
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+
+# ---- editor / OS noise -----------------------------------------------------
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*~
+*.orig
+*.bak

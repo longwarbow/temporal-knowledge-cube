@@ -1,0 +1,11 @@
+﻿family_id,attribute,value,priority,n_single_forms,n_phrases,single_forms,phrases,note
+FATALITY,生命状态,死亡,0,27,7,bodies body corpse corpses dead death deaths die died dies dying fatal fatalities fatality kill killed killing kills massacre massacred murder murdered murders perished slain succumbed toll,confirmed dead | found dead | lost her | lost his | lost their | pronounced dead | shot dead,
+INJURY,生命状态,受伤,1,21,2,condition critical hospital hospitalised hospitalized hurt hurting injure injured injures injuries injury medics paramedics recovering stable treated treatment wound wounded wounds,serious condition | stable condition,
+AMBIG_PERSON,生命状态,存殁未定,2,5,0,affected casualties casualty victim victims,,上位词：victim/casualty 未说明死活 —— **已登记的缝**
+CUSTODY_EXITED,拘押状态,脱离拘押,3,17,1,escape escaped escapes escaping exit exited exiting fled flee fleeing flees freed left released rescue rescued walked,let go,状态转移：逃离/获释/被救
+CUSTODY_HELD,拘押状态,被扣押,4,14,6,abducted abduction captive captives captured custody detained detention hostage hostages kidnap kidnapped kidnapping seized,held hostage | hostage situation | hostage situations | hostage taking | taken hostage | taking hostage,静态
+PERPETRATOR_IDENTITY,施害者,身份/背景/动机,5,17,0,background convert history identified identity known linked motive motives named offender profile radicalised radicalized record refugee tied,,
+PERPETRATOR_EXISTS,施害者,存在/数量,6,28,0,accomplice accomplices assailant assailants attacker attackers bomber bombers extremist extremists gunman gunmen hostage-taker hostage-takers jihadist jihadists killer killers militant militants perpetrator perpetrators shooter shooters suspect suspects terrorist terrorists,,
+FORCE_SHOTS,武力,枪击/开枪,7,8,3,gunfire gunshot gunshots shooting shootings shootout shot shots,burst in | opened fire | opening fire,
+FORCE_EXPLOSION,武力,爆炸,8,13,0,airstrike airstrikes blast blasts bomb bombing bombings bombs detonated explosion explosions grenade shelling,,
+POLICE_OPERATION,处置,警方行动/围困,9,17,1,besieged cordon cordoned deployed evacuate evacuated evacuation lockdown raid raids siege sieges standoff standoffs stormed surround surrounded,holed up,

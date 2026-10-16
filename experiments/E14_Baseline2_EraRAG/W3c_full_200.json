@@ -1,0 +1,9 @@
+{
+  "docs": 200,
+  "leaves": 200,
+  "internal": 23,
+  "wall_s": 102.37,
+  "prompt_tokens": 5814,
+  "completion_tokens": 1101,
+  "total_tokens": 6915
+}

@@ -1,0 +1,52 @@
+{
+  "N_total": 200,
+  "N0": 40,
+  "delta": 80,
+  "phase0": {
+    "docs": 40,
+    "leaves": 40,
+    "internal": 5,
+    "wall_s": 5.31,
+    "prompt_tokens": 1097,
+    "completion_tokens": 253,
+    "total_tokens": 1350
+  },
+  "batches": [
+    {
+      "b": 1,
+      "n": 80,
+      "cum_docs": 120,
+      "leaves": 120,
+      "internal": 11,
+      "wall_s": 46.51,
+      "batch_tokens": 4021,
+      "batch_tokens_per_doc": 50.26,
+      "cum_wall_s": 51.82,
+      "cum_tokens": 5371
+    },
+    {
+      "b": 2,
+      "n": 80,
+      "cum_docs": 200,
+      "leaves": 200,
+      "internal": 17,
+      "wall_s": 106.25,
+      "batch_tokens": 6714,
+      "batch_tokens_per_doc": 83.92,
+      "cum_wall_s": 158.07,
+      "cum_tokens": 12085
+    }
+  ],
+  "summary": {
+    "batch_count": 2,
+    "final_leaves": 200,
+    "final_internal": 17,
+    "total_wall_s": 158.07,
+    "total_tokens": 12085,
+    "increment_tokens": 10735,
+    "increment_wall_s": 152.76,
+    "tokens_per_doc": 60.42,
+    "wall_per_doc": 0.79,
+    "avg_batch_tokens_per_doc": 67.09
+  }
+}

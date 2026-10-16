@@ -1,0 +1,294 @@
+{
+  "n": 76,
+  "guide": "v1.4-candidate-frozen",
+  "overall": {
+    "n": 76,
+    "p_o": 0.9211,
+    "kappa": 0.8708,
+    "gwet_ac1": 0.9009,
+    "n_disagree": 6,
+    "disagree_ids": [
+      "E13-0503",
+      "E13-0539",
+      "E13-0458",
+      "E13-0487",
+      "E13-0543",
+      "E13-0534"
+    ],
+    "kappa_ci95": [
+      0.7636,
+      0.9579
+    ]
+  },
+  "per_block": {
+    "A_target": {
+      "n": 20,
+      "p_o": 0.9,
+      "kappa": 0.8519,
+      "gwet_ac1": 0.8712,
+      "n_disagree": 2,
+      "disagree_ids": [
+        "E13-0503",
+        "E13-0539"
+      ]
+    },
+    "B_control": {
+      "n": 20,
+      "p_o": 0.9,
+      "kappa": 0.8611,
+      "gwet_ac1": 0.8685,
+      "n_disagree": 2,
+      "disagree_ids": [
+        "E13-0458",
+        "E13-0487"
+      ]
+    },
+    "C_fresh": {
+      "n": 36,
+      "p_o": 0.9444,
+      "kappa": 0.8481,
+      "gwet_ac1": 0.9368,
+      "n_disagree": 2,
+      "disagree_ids": [
+        "E13-0543",
+        "E13-0534"
+      ]
+    }
+  },
+  "target_convergence": {
+    "n_prev_disagree": 6,
+    "n_converged": 5,
+    "detail": [
+      {
+        "pair_id": "E13-0472",
+        "prev_G": "UNRELATED",
+        "prev_H": "DERIVE",
+        "v14_I": "DERIVE",
+        "v14_J": "DERIVE",
+        "converged": 1
+      },
+      {
+        "pair_id": "E13-0491",
+        "prev_G": "SUPPORT",
+        "prev_H": "UNRELATED",
+        "v14_I": "UNRELATED",
+        "v14_J": "UNRELATED",
+        "converged": 1
+      },
+      {
+        "pair_id": "E13-0503",
+        "prev_G": "UNRELATED",
+        "prev_H": "SUPPORT",
+        "v14_I": "UNRELATED",
+        "v14_J": "SUPPORT",
+        "converged": 0
+      },
+      {
+        "pair_id": "E13-0536",
+        "prev_G": "CONFLICT",
+        "prev_H": "SUPPORT",
+        "v14_I": "SUPPORT",
+        "v14_J": "SUPPORT",
+        "converged": 1
+      },
+      {
+        "pair_id": "E13-0558",
+        "prev_G": "SUPPORT",
+        "prev_H": "CONFLICT",
+        "v14_I": "CONFLICT",
+        "v14_J": "CONFLICT",
+        "converged": 1
+      },
+      {
+        "pair_id": "E13-0482",
+        "prev_G": "SUPPORT",
+        "prev_H": "DERIVE",
+        "v14_I": "DERIVE",
+        "v14_J": "DERIVE",
+        "converged": 1
+      }
+    ]
+  },
+  "control_integrity": {
+    "n": 20,
+    "still_agree": 18,
+    "same_label": 18,
+    "broken": [],
+    "A_block_label_drift": []
+  },
+  "yield_fresh_v14": {
+    "S6_all_fresh": {
+      "n_agree": 34,
+      "hit": 2,
+      "yield": 0.0588,
+      "ci95_wilson": [
+        0.0163,
+        0.1909
+      ],
+      "dist": {
+        "UNRELATED": 27,
+        "CONFLICT": 2,
+        "SUPPORT": 5
+      }
+    },
+    "S6_strict_fresh": {
+      "n_agree": 18,
+      "hit": 2,
+      "yield": 0.1111,
+      "ci95_wilson": [
+        0.031,
+        0.328
+      ],
+      "dist": {
+        "UNRELATED": 14,
+        "CONFLICT": 2,
+        "SUPPORT": 2
+      }
+    },
+    "S6_polarity_fresh": {
+      "n_agree": 8,
+      "hit": 0,
+      "yield": 0.0,
+      "ci95_wilson": [
+        0.0,
+        0.3244
+      ],
+      "dist": {
+        "SUPPORT": 1,
+        "UNRELATED": 7
+      }
+    },
+    "S6_vague_fresh_NEG": {
+      "n_agree": 8,
+      "hit": 0,
+      "yield": 0.0,
+      "ci95_wilson": [
+        0.0,
+        0.3244
+      ],
+      "dist": {
+        "UNRELATED": 6,
+        "SUPPORT": 2
+      }
+    }
+  },
+  "yield_fresh_v13_reference": {
+    "S6_all": 0.111,
+    "strict": 0.176,
+    "polarity": 0.091,
+    "vague": 0.0
+  },
+  "yield_all_s6_in_76_reference": {
+    "n_agree": 59,
+    "hit": 5,
+    "yield": 0.0847,
+    "ci95_wilson": [
+      0.0367,
+      0.1835
+    ],
+    "dist": {
+      "UNRELATED": 40,
+      "SUPPORT": 14,
+      "CONFLICT": 5
+    }
+  },
+  "ruling_cases": [
+    {
+      "pair_id": "E13-0536",
+      "ruling": "A3-① 显式部分标记 \"these two\"",
+      "expected": "SUPPORT",
+      "I": "SUPPORT",
+      "J": "SUPPORT",
+      "consensus": "SUPPORT",
+      "match": 1
+    },
+    {
+      "pair_id": "E13-0503",
+      "ruling": "A3-③ 量纲不同（人数 vs 事件数）",
+      "expected": "UNRELATED",
+      "I": "UNRELATED",
+      "J": "SUPPORT",
+      "consensus": "(分歧)",
+      "match": 0
+    },
+    {
+      "pair_id": "E13-0491",
+      "ruling": "A4-不可归并（存在 ↔ 身份背景）",
+      "expected": "UNRELATED",
+      "I": "UNRELATED",
+      "J": "UNRELATED",
+      "consensus": "UNRELATED",
+      "match": 1
+    },
+    {
+      "pair_id": "E13-0521",
+      "ruling": "A3-② 下界\"至少11死\" + 具体子项",
+      "expected": "SUPPORT",
+      "I": "SUPPORT",
+      "J": "SUPPORT",
+      "consensus": "SUPPORT",
+      "match": 1
+    },
+    {
+      "pair_id": "E13-0542",
+      "ruling": "A4-不可归并（被扣押 ↔ 逃脱）",
+      "expected": "UNRELATED",
+      "I": "UNRELATED",
+      "J": "UNRELATED",
+      "consensus": "UNRELATED",
+      "match": 1
+    }
+  ],
+  "system_v2_vs_consensus_v14": {
+    "DERIVE": {
+      "n_true": 11,
+      "n_pred": 12,
+      "P": 0.9167,
+      "R": 1.0,
+      "F1": 0.9565
+    },
+    "SUPPORT": {
+      "n_true": 14,
+      "n_pred": 1,
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0
+    },
+    "CONFLICT": {
+      "n_true": 5,
+      "n_pred": 9,
+      "P": 0.3333,
+      "R": 0.6,
+      "F1": 0.4286
+    },
+    "UNRELATED": {
+      "n_true": 40,
+      "n_pred": 48,
+      "P": 0.7083,
+      "R": 0.85,
+      "F1": 0.7727
+    },
+    "macro_F1": 0.5394,
+    "confusion": {
+      "DERIVE": {
+        "DERIVE": 11
+      },
+      "SUPPORT": {
+        "CONFLICT": 2,
+        "UNRELATED": 12
+      },
+      "CONFLICT": {
+        "UNRELATED": 2,
+        "CONFLICT": 3
+      },
+      "UNRELATED": {
+        "UNRELATED": 34,
+        "CONFLICT": 4,
+        "DERIVE": 1,
+        "SUPPORT": 1
+      }
+    },
+    "n": 70
+  },
+  "caveat": "通道同源（同一模型）⇒ 误差相关 ⇒ κ 偏乐观；合法用法是否决性检验。A/B 块为 in-sample（上一轮判据在同一批样本上迭代过），C 块为样本外（本轮首次使用）⇒ 产量只以 C 块为准。"
+}

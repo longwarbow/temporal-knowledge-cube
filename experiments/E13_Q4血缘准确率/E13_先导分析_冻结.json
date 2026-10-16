@@ -1,0 +1,311 @@
+{
+  "n_pilot": 50,
+  "caveat": "两轮用的是同一批 50 条 ⇒ 这是 **in-sample 判据校准**，轮 2 的 κ 提升含\"对样本过拟合\"成分，不能当作泛化性能；冻结判据的人类 κ 必须在**独立样本**上测。",
+  "round1_guide_v1.0": {
+    "kappa": {
+      "po": 0.92,
+      "pe": 0.5152,
+      "kappa": 0.835,
+      "se": 0.0791,
+      "ci95": [
+        0.6799,
+        0.9901
+      ],
+      "gwet_ac1": 0.9046,
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          13,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          31
+        ]
+      ],
+      "labels": [
+        "DERIVE",
+        "SUPPORT",
+        "CONFLICT",
+        "UNRELATED"
+      ]
+    },
+    "n_disagree": 4,
+    "disagree_ids": [
+      "E13-0042",
+      "E13-0083",
+      "E13-0098",
+      "E13-0105"
+    ]
+  },
+  "round2_guide_v1.3_frozen": {
+    "kappa": {
+      "po": 0.98,
+      "pe": 0.5236,
+      "kappa": 0.958,
+      "se": 0.0416,
+      "ci95": [
+        0.8766,
+        1.0395
+      ],
+      "gwet_ac1": 0.9762,
+      "matrix": [
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          13,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          33
+        ]
+      ],
+      "labels": [
+        "DERIVE",
+        "SUPPORT",
+        "CONFLICT",
+        "UNRELATED"
+      ]
+    },
+    "n_disagree": 1,
+    "disagree_ids": [
+      "E13-0370"
+    ]
+  },
+  "gate": {
+    "target": 0.7,
+    "round1": 0.835,
+    "round2": 0.958,
+    "pass_round2": true
+  },
+  "consensus": {
+    "n_resolved": 50,
+    "source": {
+      "agree_v1.3": 49,
+      "arbitration": 1
+    },
+    "distribution": {
+      "UNRELATED": 33,
+      "DERIVE": 2,
+      "SUPPORT": 14,
+      "CONFLICT": 1
+    }
+  },
+  "system_scores": {
+    "S_plus_structural": {
+      "per_class": {
+        "DERIVE": {
+          "support": 2,
+          "tp": 2,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1": 0.8
+        },
+        "SUPPORT": {
+          "support": 14,
+          "tp": 8,
+          "fp": 0,
+          "fn": 6,
+          "precision": 1.0,
+          "recall": 0.5714,
+          "f1": 0.7273
+        },
+        "CONFLICT": {
+          "support": 1,
+          "tp": 1,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.3333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "UNRELATED": {
+          "support": 33,
+          "tp": 31,
+          "fp": 5,
+          "fn": 2,
+          "precision": 0.8611,
+          "recall": 0.9394,
+          "f1": 0.8986
+        }
+      },
+      "accuracy_NOT_a_result": 0.84,
+      "macro_f1": 0.7315,
+      "n": 50
+    },
+    "S_minus_content_only": {
+      "per_class": {
+        "DERIVE": {
+          "support": 2,
+          "tp": 2,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1": 0.8
+        },
+        "SUPPORT": {
+          "support": 14,
+          "tp": 8,
+          "fp": 0,
+          "fn": 6,
+          "precision": 1.0,
+          "recall": 0.5714,
+          "f1": 0.7273
+        },
+        "CONFLICT": {
+          "support": 1,
+          "tp": 1,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.3333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "UNRELATED": {
+          "support": 33,
+          "tp": 31,
+          "fp": 5,
+          "fn": 2,
+          "precision": 0.8611,
+          "recall": 0.9394,
+          "f1": 0.8986
+        }
+      },
+      "accuracy_NOT_a_result": 0.84,
+      "macro_f1": 0.7315,
+      "n": 50
+    },
+    "null_all_UNRELATED": {
+      "per_class": {
+        "DERIVE": {
+          "support": 2,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "SUPPORT": {
+          "support": 14,
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CONFLICT": {
+          "support": 1,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "UNRELATED": {
+          "support": 33,
+          "tp": 33,
+          "fp": 17,
+          "fn": 0,
+          "precision": 0.66,
+          "recall": 1.0,
+          "f1": 0.7952
+        }
+      },
+      "accuracy_NOT_a_result": 0.66,
+      "macro_f1": 0.1988,
+      "n": 50
+    }
+  },
+  "stratum_diagnostics": {
+    "S1_same_thread_reply": {
+      "n": 13,
+      "dist": {
+        "UNRELATED": 12,
+        "DERIVE": 1
+      },
+      "P_UNRELATED": 0.9231,
+      "P_SUPPORT": 0.0,
+      "P_CONFLICT": 0.0,
+      "P_DERIVE": 0.0769
+    },
+    "S2_cross_thread_high_sim": {
+      "n": 12,
+      "dist": {
+        "DERIVE": 1,
+        "CONFLICT": 1,
+        "SUPPORT": 10
+      },
+      "P_UNRELATED": 0.0,
+      "P_SUPPORT": 0.8333,
+      "P_CONFLICT": 0.0833,
+      "P_DERIVE": 0.0833
+    },
+    "S3_cross_thread_opposite_veracity": {
+      "n": 12,
+      "dist": {
+        "UNRELATED": 10,
+        "SUPPORT": 2
+      },
+      "P_UNRELATED": 0.8333,
+      "P_SUPPORT": 0.1667,
+      "P_CONFLICT": 0.0,
+      "P_DERIVE": 0.0
+    },
+    "S4_cross_thread_random": {
+      "n": 13,
+      "dist": {
+        "UNRELATED": 11,
+        "SUPPORT": 2
+      },
+      "P_UNRELATED": 0.8462,
+      "P_SUPPORT": 0.1538,
+      "P_CONFLICT": 0.0,
+      "P_DERIVE": 0.0
+    }
+  },
+  "design_priors_vs_observed": {
+    "P_CONFLICT_given_veracity_opposite": 0.0,
+    "P_UNRELATED_given_veracity_opposite": 0.8333,
+    "P_UNRELATED_given_random": 0.8462,
+    "P_SUPPORT_given_high_sim": 0.8333,
+    "P_DERIVE_given_high_sim": 0.0833,
+    "P_UNRELATED_given_same_thread_reply": 0.9231
+  },
+  "conclusion_headline": "结构回复边 ≠ 语义关系（S1 同线程回复 0.9231 判 UNRELATED）；veracity 相反 ≠ CONFLICT（S3 的 CONFLICT 率 0.0）；高相似对 SUPPORT 率 0.8333、DERIVE 率 0.0833（同命题层，但多为独立同命题）。"
+}

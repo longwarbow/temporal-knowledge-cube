@@ -1,0 +1,61 @@
+﻿pair_id,label_relation,label_confidence,label_notes
+E13-0521,SUPPORT,2,T5: 4漫画家被杀⊂至少11死，可兼容->SUPPORT
+E13-0499,SUPPORT,2,T5: 4漫画家被杀⊂12死，可兼容->SUPPORT
+E13-0429,DERIVE,2,仅@账号不同，近乎逐字->DERIVE
+E13-0542,UNRELATED,2,T3: 谓词不同(被劫持 vs 逃脱)->UNRELATED
+E13-0431,DERIVE,3,仅URL不同，逐字->DERIVE
+E13-0558,SUPPORT,1,同槽位(渥太华嫌犯数)；未证实多名 vs 证实找3嫌犯 可兼容->SUPPORT
+E13-0398,DERIVE,3,仅URL不同，逐字->DERIVE
+E13-0533,UNRELATED,3,T3: 主体不同(伊朗/拉什迪 vs 枪击)->UNRELATED
+E13-0551,UNRELATED,2,T1: p为反问/嘲讽，非命题->UNRELATED
+E13-0422,DERIVE,3,p q 逐字相同->DERIVE
+E13-0477,DERIVE,2,T1例外: 内容为祈使非命题但q照抄p->DERIVE
+E13-0550,UNRELATED,2,T1: p为质问句；主体亦不同->UNRELATED
+E13-0494,CONFLICT,3,T5: 11死 vs 12死 互斥->CONFLICT
+E13-0522,SUPPORT,2,T5: ≥2死 vs 1人质+枪手=2 可兼容->SUPPORT
+E13-0563,SUPPORT,1,同槽位(枪手数)；q讽multiple gunmen 与 p的2-3名 可兼容->SUPPORT
+E13-0435,DERIVE,3,T1例外: 致哀非命题但q照抄p->DERIVE
+E13-0577,SUPPORT,2,T5: 多名枪手 vs 1死2在逃 可兼容->SUPPORT
+E13-0455,DERIVE,3,仅URL不同，逐字->DERIVE
+E13-0569,SUPPORT,1,混合语力: 忽略嘲讽 up to 5 shooters 与 多名 可兼容->SUPPORT
+E13-0491,SUPPORT,2,T4: 同一情形(悉尼劫持者)；≥1嫌犯 vs 劫持者为Monis->SUPPORT
+E13-0532,SUPPORT,2,T5: 2漫画家被杀⊂10死 可兼容->SUPPORT
+E13-0503,UNRELATED,2,T3: 单位不同(1名@Dammartin vs 2起劫持事件)->UNRELATED
+E13-0575,UNRELATED,2,T1: p为推测；主体不同->UNRELATED
+E13-0555,SUPPORT,2,T5: 多名枪手 vs 不止一名 可兼容->SUPPORT
+E13-0471,DERIVE,2,仅@账号不同，近乎逐字->DERIVE
+E13-0506,UNRELATED,2,T3: 谓词不同(被扣押 vs 逃脱)->UNRELATED
+E13-0582,UNRELATED,2,T1: q为猜测；主体不同(航班总论)->UNRELATED
+E13-0519,UNRELATED,3,T3: 主体不同(穆斯林/媒体观点)->UNRELATED
+E13-0546,UNRELATED,2,T1: p为反问；主体不同(Norad)->UNRELATED
+E13-0458,SUPPORT,2,§2.6: 近乎逐字但新增 via @theblaze 来源->SUPPORT
+E13-0530,UNRELATED,3,T3: 主体不同(言论表达)->UNRELATED
+E13-0441,DERIVE,2,近乎逐字(同一guardian文本)->DERIVE
+E13-0512,CONFLICT,3,T5: 10死 vs 11死 互斥->CONFLICT
+E13-0472,UNRELATED,2,T1: 纯话题标签+链接非命题；非干净照抄->UNRELATED
+E13-0566,UNRELATED,3,T1: q为反问，非命题->UNRELATED
+E13-0462,DERIVE,2,仅@账号/标签不同，近乎逐字->DERIVE
+E13-0553,UNRELATED,3,T3: 主体不同(士兵之子)->UNRELATED
+E13-0482,SUPPORT,2,§2.6: 近乎逐字但归因变了(嵌@Copwatch 删@stltoday)->SUPPORT
+E13-0549,UNRELATED,3,T3: 主体不同(美国校园枪击)->UNRELATED
+E13-0567,UNRELATED,3,T1: q为反问，非命题->UNRELATED
+E13-0536,CONFLICT,2,T5: 5名逃脱 vs 2名逃脱 互斥->CONFLICT
+E13-0459,DERIVE,2,仅@账号不同，近乎逐字->DERIVE
+E13-0479,DERIVE,2,T1例外: 祈使非命题但q照抄p->DERIVE
+E13-0523,UNRELATED,2,T3: 主体不同(统计+反例)->UNRELATED
+E13-0560,CONFLICT,3,T5: 多名枪手 vs 一名枪手 互斥->CONFLICT
+E13-0428,DERIVE,3,仅URL不同，逐字->DERIVE
+E13-0415,DERIVE,2,近乎逐字；新增Stop build terrorism为祈使非事实->DERIVE
+E13-0420,DERIVE,2,仅@账号不同，近乎逐字->DERIVE
+E13-0524,UNRELATED,2,T3: 不同事件(枪击12死 vs 劫持≥2死)->UNRELATED
+E13-0579,SUPPORT,3,T5: 多名枪手 vs 不止一名 可兼容->SUPPORT
+E13-0570,SUPPORT,2,T5: 多名嫌犯 vs 3枪手 可兼容->SUPPORT
+E13-0559,SUPPORT,2,T5: 数名枪手 vs 不止一名 可兼容->SUPPORT
+E13-0439,DERIVE,2,仅@账号不同，近乎逐字->DERIVE
+E13-0496,UNRELATED,3,T3: 主体不同(关于耶稣的反问)->UNRELATED
+E13-0539,UNRELATED,2,T3: 谓词不同(人质数 vs 中枪/逃离)->UNRELATED
+E13-0487,UNRELATED,2,T3: 不同事件(枪击死 vs 人质死)->UNRELATED
+E13-0490,CONFLICT,2,T5: 犹太超市5名人质 vs 6名人质 互斥->CONFLICT
+E13-0548,UNRELATED,2,T3: 谓词不同(获释/逃脱 vs 被扣押)->UNRELATED
+E13-0554,SUPPORT,2,T5: 多名枪手 vs ≥2-3名 可兼容->SUPPORT
+E13-0430,DERIVE,2,仅@账号不同，近乎逐字->DERIVE

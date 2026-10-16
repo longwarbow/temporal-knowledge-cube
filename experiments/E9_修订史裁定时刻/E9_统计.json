@@ -1,0 +1,51 @@
+{
+ "n_total": 62,
+ "n_usable_flip": 60,
+ "n_full_lifetime": 59,
+ "n_ok": 60,
+ "status": {
+  "ok": 59,
+  "error: api fail: HTTP=429 rc=0 'You are making too many requ": 3
+ },
+ "flip_years": {
+  "2016": 1,
+  "2017": 1,
+  "2020": 7,
+  "2021": 6,
+  "2022": 4,
+  "2023": 8,
+  "2024": 13,
+  "2025": 14,
+  "2026": 6
+ },
+ "flip_ge_2017_pct": 98.3,
+ "lifetime_days": {
+  "n": 59,
+  "median": 766.112,
+  "p90": 3450.913,
+  "min": 0.0,
+  "max": 4329.697
+ },
+ "lifetime_le1d_pct": 22.0,
+ "edit_tags": {
+  "wbsetclaim-update": 55,
+  "wbsetclaim-create": 5
+ },
+ "mechanism": {
+  "RANK_ONLY": 54,
+  "CREATE_DEPRECATED": 5,
+  "n_active_after_0_pct": 49.2
+ },
+ "p813_vs_flip": {
+  "comparable": 5,
+  "retrieved_lt_flip": 4,
+  "retrieved_ge_flip": 1,
+  "from_flip_json": {
+   "with_p813": 5,
+   "comparable": 5,
+   "retrieved_lt_flip": 5
+  }
+ },
+ "api_calls_median": 9.0,
+ "api_calls_total": 851
+}

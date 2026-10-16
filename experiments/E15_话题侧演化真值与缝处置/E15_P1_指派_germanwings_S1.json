@@ -1,0 +1,147 @@
+{
+ "slice": "S1 03-24T10:37→03-24T11:09",
+ "kappa": 0.3346,
+ "kappa_tab": [
+  40,
+  34,
+  66,
+  388
+ ],
+ "po": 0.8106,
+ "n_labels": 33,
+ "n_other": 0,
+ "node_threads": {
+  "aircraft_crash": 40,
+  "deaths_and_survivors": 13,
+  "location_and_route": 12,
+  "co_pilot_action": 4,
+  "flight_details": 4,
+  "media_coverage": 2,
+  "public_reactions": 1,
+  "pilot_and_crew": 2,
+  "weather_conditions": 1
+ },
+ "node_members": {
+  "aircraft_crash": [
+   "crash",
+   "crashes",
+   "occurrence",
+   "accident",
+   "crashed",
+   "confirmed",
+   "plane crash",
+   "confirmation",
+   "plane crashing"
+  ],
+  "deaths_and_survivors": [
+   "passenger count",
+   "loss",
+   "death toll",
+   "survivors expected"
+  ],
+  "location_and_route": [
+   "last position",
+   "crash location",
+   "positions",
+   "route map",
+   "position reports",
+   "flight tracking data",
+   "flight path"
+  ],
+  "co_pilot_action": [
+   "distress call",
+   "SOS message",
+   "distress signal"
+  ],
+  "flight_details": [
+   "possible aircraft",
+   "schedule and status",
+   "disappeared",
+   "flight number"
+  ],
+  "media_coverage": [
+   "latest info",
+   "video playback"
+  ],
+  "public_reactions": [
+   "public reaction"
+  ],
+  "pilot_and_crew": [
+   "age and delivery date",
+   "jet ownership"
+  ],
+  "weather_conditions": [
+   "flight altitude"
+  ]
+ },
+ "assign_A": {
+  "crash": 1,
+  "crashes": 1,
+  "passenger count": 3,
+  "loss": 3,
+  "last position": 5,
+  "death toll": 3,
+  "crash location": 5,
+  "positions": 5,
+  "distress call": 2,
+  "possible aircraft": 4,
+  "occurrence": 1,
+  "accident": 1,
+  "crashed": 1,
+  "confirmed": 1,
+  "schedule and status": 4,
+  "disappeared": 4,
+  "flight number": 4,
+  "plane crash": 1,
+  "route map": 5,
+  "latest info": 6,
+  "position reports": 5,
+  "confirmation": 1,
+  "public reaction": 8,
+  "flight tracking data": 5,
+  "plane crashing": 1,
+  "age and delivery date": 7,
+  "SOS message": 2,
+  "video playback": 6,
+  "survivors expected": 3,
+  "jet ownership": 7,
+  "distress signal": 2,
+  "flight path": 5,
+  "flight altitude": 11
+ },
+ "assign_B": {
+  "SOS message": 0,
+  "accident": 0,
+  "age and delivery date": 4,
+  "confirmation": 0,
+  "confirmed": 0,
+  "crash": 5,
+  "crash location": 6,
+  "crashed": 5,
+  "crashes": 5,
+  "death toll": 3,
+  "disappeared": 0,
+  "distress call": 6,
+  "distress signal": 6,
+  "flight altitude": 4,
+  "flight number": 4,
+  "flight path": 5,
+  "flight tracking data": 4,
+  "jet ownership": 4,
+  "last position": 5,
+  "latest info": 0,
+  "loss": 3,
+  "occurrence": 5,
+  "passenger count": 3,
+  "plane crash": 5,
+  "plane crashing": 5,
+  "position reports": 5,
+  "positions": 5,
+  "possible aircraft": 4,
+  "public reaction": 8,
+  "route map": 5,
+  "schedule and status": 4,
+  "survivors expected": 3,
+  "video playback": 0
+ }
+}

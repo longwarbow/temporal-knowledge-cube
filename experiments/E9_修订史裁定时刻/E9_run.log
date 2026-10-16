@@ -1,0 +1,125 @@
+[INFO] 候选 120 条声明（来自 2946 条 E8 样本，属性分布 ['P108', 'P26', 'P39', 'P569', 'P570', 'P69']）
+    [START] Q113845832 P569
+    [START] Q102076066 P570
+    [START] Q1036526 P26
+    [START] Q102867418 P108
+    [START] Q102234654 P69
+[  1/120] Q113845832 P569 revs=13 flip=2022-09-10T22:37:02Z status=ok calls=6
+    [START] Q101564259 P39
+[  2/120] Q102076066 P570 revs=27 flip=2020-12-09T18:20:20Z status=ok calls=7
+    [START] Q11943248 P569
+[  3/120] Q102867418 P108 revs=49 flip=2025-06-08T16:57:05Z status=ok calls=8
+    [START] Q106491379 P570
+[  4/120] Q1036526 P26 revs=107 flip=2021-04-05T15:42:20Z status=ok calls=12
+    [START] Q107472006 P26
+[  5/120] Q106491379 P570 revs=18 flip=2021-04-14T07:22:15Z status=ok calls=2
+    [START] Q109498395 P108
+[  6/120] Q107472006 P26 revs=60 flip=2025-10-07T06:47:26Z status=ok calls=3
+    [START] Q102255087 P69
+[  7/120] Q109498395 P108 revs=14 flip=2023-06-13T11:47:57Z status=ok calls=2
+    [START] Q104772317 P39
+[  8/120] Q101564259 P39 revs=41 flip=- status=error: api fail: HTTP=429 'You are making too many requests to the API.\nPlease follow the best practices at <https://www.mediaw' calls=14
+    [START] Q1195050 P569
+[  9/120] Q102234654 P69 revs=15 flip=- status=error: api fail: HTTP=429 'You are making too many requests to the API.\nPlease follow the best practices at <https://www.mediaw' calls=16
+    [START] Q112107281 P570
+[ 10/120] Q11943248 P569 revs= flip=- status=error: api fail: HTTP=429 'You are making too many requests to the API.\nPlease follow the best practices at <https://www.mediaw' calls=14
+    [START] Q111304346 P26
+[ 11/120] Q112107281 P570 revs=47 flip=2025-06-03T13:48:23Z status=ok calls=4
+    [START] Q11947904 P108
+[ 12/120] Q104772317 P39 revs=79 flip=2026-07-22T07:50:17Z status=ok calls=6
+    [START] Q104531094 P69
+[ 13/120] Q1195050 P569 revs=92 flip=2021-09-29T14:56:00Z status=ok calls=9
+    [START] Q1081793 P39
+[ 14/120] Q102255087 P69 revs=65 flip=- status=error: api fail: HTTP=429 'You are making too many requests to the API.\nPlease follow the best practices at <https://www.mediaw' calls=12
+    [START] Q1235522 P569
+[ 15/120] Q111304346 P26 revs=42 flip=2024-09-01T21:11:38Z status=ok calls=6
+    [START] Q115625386 P570
+[ 16/120] Q104531094 P69 revs=63 flip=2024-03-18T13:48:54Z status=ok calls=8
+    [START] Q11946288 P26
+[ 17/120] Q11947904 P108 revs=124 flip=2017-10-08T13:45:20Z status=ok calls=14
+    [START] Q1230528 P108
+[ 18/120] Q115625386 P570 revs=7 flip=2023-10-02T11:41:57Z status=ok calls=4
+    [START] Q107297915 P69
+[ 19/120] Q1235522 P569 revs=127 flip=2020-05-14T10:38:41Z status=ok calls=13
+    [START] Q11949813 P39
+[ 20/120] Q1081793 P39 revs= flip=- status=error: api fail: HTTP=429 'You are making too many requests to the API.\nPlease follow the best practices at <https://www.mediaw' calls=18
+    [START] Q125579302 P569
+[ 21/120] Q11949813 P39 revs=43 flip=2025-07-01T22:16:10Z status=ok calls=4
+    [START] Q1284910 P570
+[ 22/120] Q125579302 P569 revs=8 flip=2024-04-27T16:25:12Z status=ok calls=4
+    [START] Q1252904 P26
+[ 23/120] Q107297915 P69 revs=114 flip=2022-03-05T20:13:23Z status=ok calls=15
+    [START] Q123982 P108
+[ 24/120] Q11946288 P26 revs=177 flip=2020-10-27T09:38:47Z status=ok calls=23
+    [START] Q11308254 P69
+[ 25/120] Q1284910 P570 revs=164 flip=2025-01-16T18:49:51Z status=ok calls=19
+    [START] Q12310409 P39
+[ 26/120] Q11308254 P69 revs=112 flip=2024-04-04T03:42:31Z status=ok calls=10
+    [START] Q1284890 P569
+[ 27/120] Q123982 P108 revs=265 flip=2025-03-06T18:33:24Z status=ok calls=27
+    [START] Q1382490 P570
+[ 28/120] Q1230528 P108 revs=418 flip=- status=error: api fail: HTTP=429 'You are making too many requests to the API.\nPlease follow the best practices at <https://www.mediaw' calls=48
+    [START] Q1275943 P26
+[ 29/120] Q1382490 P570 revs=116 flip=2023-04-10T02:04:12Z status=ok calls=4
+    [START] Q127537468 P108
+[ 30/120] Q12310409 P39 revs=54 flip=2022-11-27T05:59:39Z status=ok calls=12
+    [START] Q113734907 P69
+[ 31/120] Q1252904 P26 revs=373 flip=2024-11-25T09:32:53Z status=ok calls=40
+    [START] Q123464602 P39
+[ 32/120] Q1284890 P569 revs= flip=- status=error: api fail: HTTP=429 'You are making too many requests to the API.\nPlease follow the best practices at <https://www.mediaw' calls=10
+    [START] Q1291301 P569
+[ 33/120] Q127537468 P108 revs=67 flip=2024-07-17T20:45:13Z status=ok calls=6
+    [START] Q1433 P570
+[ 34/120] Q1291301 P569 revs=38 flip=2025-05-21T18:40:16Z status=ok calls=4
+    [START] Q1286436 P26
+[ 35/120] Q113734907 P69 revs=45 flip=2023-05-27T10:59:26Z status=ok calls=9
+    [START] Q12950107 P108
+[ 36/120] Q123464602 P39 revs=38 flip=2026-09-15T18:22:41Z status=ok calls=10
+    [START] Q11391693 P69
+[ 37/120] Q1286436 P26 revs=90 flip=2025-09-23T09:33:30Z status=ok calls=11
+    [START] Q134817 P39
+[ 38/120] Q12950107 P108 revs=63 flip=2023-07-15T21:23:10Z status=ok calls=13
+    [START] Q131612868 P569
+[ 39/120] Q11391693 P69 revs=86 flip=2025-07-21T05:35:53Z status=ok calls=8
+    [START] Q1554946 P570
+[ 40/120] Q1275943 P26 revs=394 flip=2020-08-12T10:49:49Z status=ok calls=38
+    [START] Q1344534 P26
+[ 41/120] Q1554946 P570 revs=80 flip=2023-09-01T15:13:15Z status=ok calls=5
+    [START] Q1324252 P108
+[ 42/120] Q131612868 P569 revs= flip=- status=error: api fail: HTTP=429 'You are making too many requests to the API.\nPlease follow the best practices at <https://www.mediaw' calls=13
+    [START] Q11542483 P69
+[ 43/120] Q1324252 P108 revs=138 flip=2020-11-20T18:33:59Z status=ok calls=7
+    [START] Q1433434 P39
+[ 44/120] Q11542483 P69 revs=108 flip=2025-03-21T02:09:28Z status=ok calls=8
+    [START] Q1376948 P569
+[ 45/120] Q1344534 P26 revs=156 flip=2021-10-30T13:41:05Z status=ok calls=20
+    [START] Q170547 P570
+[ 46/120] Q1376948 P569 revs=61 flip=2020-04-19T16:42:42Z status=ok calls=8
+    [START] Q155493 P26
+[ 47/120] Q1433434 P39 revs=122 flip=2026-07-22T07:54:16Z status=ok calls=12
+    [START] Q1394680 P108
+[ 48/120] Q1433 P570 revs=503 flip=2024-11-09T19:46:43Z status=ok calls=62
+    [START] Q116759326 P69
+[ 49/120] Q1394680 P108 revs=183 flip=2024-11-15T09:35:31Z status=ok calls=8
+    [START] Q1448476 P39
+[ 50/120] Q116759326 P69 revs=37 flip=2023-02-12T01:36:57Z status=ok calls=2
+    [START] Q1385977 P569
+[ 51/120] Q155493 P26 revs= flip=- status=error: api fail: HTTP=429 'You are making too many requests to the API.\nPlease follow the best practices at <https://www.mediaw' calls=13
+    [START] Q186544 P570
+[ 52/120] Q170547 P570 revs= flip=- status=error: api fail: HTTP=429 'You are making too many requests to the API.\nPlease follow the best practices at <https://www.mediaw' calls=15
+    [START] Q1691444 P26
+[ 53/120] Q186544 P570 revs=117 flip=2021-09-29T14:45:52Z status=ok calls=6
+    [START] Q15446516 P108
+[ 54/120] Q1448476 P39 revs= flip=- status=error: api fail: HTTP=429 'You are making too many requests to the API.\nPlease follow the best practices at <https://www.mediaw' calls=11
+    [START] Q11818098 P69
+[ 55/120] Q134817 P39 revs=800 flip=- status=error: api fail: HTTP=429 'You are making too many requests to the API.\nPlease follow the best practices at <https://www.mediaw' calls=67
+    [START] Q15810578 P39
+[ 56/120] Q11818098 P69 revs=81 flip=2022-08-11T21:27:40Z status=ok calls=3
+    [START] Q1419 P569
+[ 57/120] Q1385977 P569 revs=164 flip=2024-05-03T09:32:48Z status=ok calls=17
+    [START] Q191039 P570
+[ 58/120] Q1691444 P26 revs=140 flip=2025-05-10T20:18:19Z status=ok calls=14
+    [START] Q18223052 P26
+[ 59/120] Q15810578 P39 revs=115 flip=2026-07-22T08:07:40Z status=ok calls=9
+    [START] Q15735571 P108
+[ 60/120] Q15446516 P108 revs= flip=- status=error: api fail: HTTP=429 'You are making too many requests to the API.\nPlease follow the best practices at <https://www.mediaw' calls=16

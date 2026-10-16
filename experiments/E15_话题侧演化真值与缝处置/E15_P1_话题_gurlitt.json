@@ -1,0 +1,741 @@
+{
+ "event": "gurlitt",
+ "n_claims": 138,
+ "vocab": {
+  "event": "gurlitt",
+  "nodes": [
+   {
+    "node": "artwork_acceptance",
+    "desc": "Acceptance of artworks by an entity"
+   },
+   {
+    "node": "bequest_management",
+    "desc": "Management of bequest acceptance or denial"
+   },
+   {
+    "node": "challenge_action",
+    "desc": "Action of challenging a decision or ownership"
+   },
+   {
+    "node": "control_of_art",
+    "desc": "Control or management of art pieces"
+   },
+   {
+    "node": "decision_announcement",
+    "desc": "Announcement of a decision or conclusion"
+   },
+   {
+    "node": "event_update",
+    "desc": "Update on the event or its status"
+   },
+   {
+    "node": "litigation_process",
+    "desc": "Process or outcome of legal litigation"
+   },
+   {
+    "node": "public_reaction",
+    "desc": "Public response or reaction to the event"
+   },
+   {
+    "node": "other",
+    "desc": "Other narrative aspects not covered by the above nodes"
+   }
+  ],
+  "n_label_used": 64,
+  "coverage_pct": 85.5
+ },
+ "min_count": 1,
+ "l2_only": true,
+ "slices": {
+  "0": {
+   "label": "S1 11-20T01:20→11-21T22:43",
+   "n_threads": 35,
+   "labels": [
+    "acceptance",
+    "public reaction",
+    "future decision",
+    "sale benefit",
+    "challenged",
+    "fitness to write will",
+    "mental fitness",
+    "is all wrong",
+    "story",
+    "Responsibility",
+    "return to museums",
+    "sale proposal",
+    "museum placement",
+    "museum ownership",
+    "handling",
+    "fraud charges",
+    "announcement",
+    "press conference",
+    "decision announcement",
+    "resolution",
+    "artworks collection acceptance",
+    "benefit",
+    "Nazi-looted art",
+    "litigation",
+    "update",
+    "twist",
+    "formal challenge"
+   ],
+   "counts": {
+    "acceptance": 4,
+    "fitness to write will": 1,
+    "public reaction": 3,
+    "mental fitness": 1,
+    "is all wrong": 1,
+    "story": 1,
+    "Responsibility": 1,
+    "return to museums": 1,
+    "sale proposal": 1,
+    "museum placement": 1,
+    "museum ownership": 1,
+    "handling": 1,
+    "fraud charges": 1,
+    "announcement": 1,
+    "future decision": 2,
+    "press conference": 1,
+    "sale benefit": 2,
+    "decision announcement": 1,
+    "resolution": 1,
+    "artworks collection acceptance": 1,
+    "benefit": 1,
+    "Nazi-looted art": 1,
+    "litigation": 1,
+    "update": 1,
+    "twist": 1,
+    "formal challenge": 1,
+    "challenged": 2
+   },
+   "node_members": {
+    "artwork_acceptance": [
+     "acceptance",
+     "artworks collection acceptance"
+    ],
+    "public_reaction": [
+     "public reaction"
+    ],
+    "bequest_management": [
+     "future decision",
+     "sale benefit",
+     "benefit"
+    ],
+    "challenge_action": [
+     "challenged",
+     "formal challenge"
+    ],
+    "decision_announcement": [
+     "fitness to write will",
+     "mental fitness",
+     "announcement",
+     "press conference",
+     "decision announcement",
+     "resolution"
+    ],
+    "other": [
+     "is all wrong",
+     "story",
+     "Responsibility",
+     "Nazi-looted art"
+    ],
+    "control_of_art": [
+     "return to museums",
+     "sale proposal",
+     "museum placement",
+     "museum ownership",
+     "handling"
+    ],
+    "litigation_process": [
+     "fraud charges",
+     "litigation"
+    ],
+    "event_update": [
+     "update",
+     "twist"
+    ]
+   },
+   "node_threads": {
+    "artwork_acceptance": 5,
+    "public_reaction": 3,
+    "bequest_management": 5,
+    "challenge_action": 3,
+    "decision_announcement": 6,
+    "other": 4,
+    "control_of_art": 5,
+    "litigation_process": 2,
+    "event_update": 2
+   },
+   "kappa": 0.195,
+   "kappa_tab": [
+    17,
+    21,
+    55,
+    258
+   ],
+   "po": 0.7835,
+   "n_other": 0
+  },
+  "1": {
+   "label": "S2 11-21T23:21→11-24T09:11",
+   "n_threads": 34,
+   "labels": [
+    "will challenge",
+    "challenges",
+    "Nazi-era art hoard",
+    "location",
+    "control of art",
+    "decision",
+    "challenged",
+    "sale proceeds",
+    "lawsuit",
+    "last-minute",
+    "decision announcement",
+    "litigation",
+    "challenge",
+    "Update",
+    "paintings hidden",
+    "destination",
+    "sale and distribution",
+    "lodges claim",
+    "Swiss museum",
+    "fate",
+    "inheritance claim",
+    "interview",
+    "update twist",
+    "control by heirs",
+    "commenting on",
+    "deciding",
+    "Germany's handling"
+   ],
+   "counts": {
+    "challenged": 1,
+    "challenges": 2,
+    "will challenge": 3,
+    "sale proceeds": 1,
+    "lawsuit": 1,
+    "last-minute": 1,
+    "decision announcement": 1,
+    "litigation": 1,
+    "challenge": 1,
+    "Update": 1,
+    "paintings hidden": 1,
+    "Nazi-era art hoard": 2,
+    "destination": 1,
+    "sale and distribution": 1,
+    "lodges claim": 1,
+    "Swiss museum": 1,
+    "fate": 1,
+    "inheritance claim": 1,
+    "interview": 1,
+    "location": 2,
+    "update twist": 1,
+    "control of art": 2,
+    "decision": 2,
+    "control by heirs": 1,
+    "commenting on": 1,
+    "deciding": 1,
+    "Germany's handling": 1
+   },
+   "node_members": {
+    "challenge_action": [
+     "will challenge",
+     "challenges",
+     "challenged",
+     "challenge",
+     "lodges claim",
+     "inheritance claim"
+    ],
+    "control_of_art": [
+     "Nazi-era art hoard",
+     "location",
+     "control of art",
+     "sale proceeds",
+     "paintings hidden",
+     "destination",
+     "sale and distribution",
+     "Swiss museum",
+     "fate",
+     "control by heirs"
+    ],
+    "decision_announcement": [
+     "decision",
+     "decision announcement",
+     "deciding"
+    ],
+    "litigation_process": [
+     "lawsuit",
+     "litigation"
+    ],
+    "event_update": [
+     "last-minute",
+     "Update",
+     "update twist"
+    ],
+    "public_reaction": [
+     "interview",
+     "commenting on",
+     "Germany's handling"
+    ]
+   },
+   "node_threads": {
+    "challenge_action": 9,
+    "control_of_art": 13,
+    "decision_announcement": 4,
+    "litigation_process": 2,
+    "event_update": 3,
+    "public_reaction": 3
+   },
+   "kappa": 0.085,
+   "kappa_tab": [
+    5,
+    65,
+    4,
+    277
+   ],
+   "po": 0.8034,
+   "n_other": 0
+  },
+  "2": {
+   "label": "S3 11-24T09:15→11-24T10:50",
+   "n_threads": 35,
+   "labels": [
+    "accepts artworks",
+    "acceptance",
+    "acceptance of art",
+    "accepts",
+    "decision",
+    "Nazi-looted art",
+    "fate announcement",
+    "museum decision",
+    "press conference",
+    "museum confirmation",
+    "decision influence",
+    "agrees to take",
+    "research and restitution",
+    "looted works",
+    "research centre responsibility",
+    "provenance research",
+    "destination",
+    "controversial #gurlitt collection",
+    "acceptance of artworks",
+    "work ownership",
+    "Nazi-loot identification",
+    "acceptance investigation",
+    "management agreement",
+    "Switzerland's role"
+   ],
+   "counts": {
+    "fate announcement": 1,
+    "museum decision": 1,
+    "press conference": 1,
+    "museum confirmation": 1,
+    "decision influence": 1,
+    "accepts": 2,
+    "agrees to take": 1,
+    "accepts artworks": 4,
+    "research and restitution": 1,
+    "looted works": 1,
+    "acceptance": 4,
+    "research centre responsibility": 1,
+    "acceptance of art": 3,
+    "provenance research": 1,
+    "destination": 1,
+    "controversial #gurlitt collection": 1,
+    "acceptance of artworks": 1,
+    "work ownership": 1,
+    "Nazi-loot identification": 1,
+    "acceptance investigation": 1,
+    "decision": 2,
+    "management agreement": 1,
+    "Nazi-looted art": 2,
+    "Switzerland's role": 1
+   },
+   "node_members": {
+    "artwork_acceptance": [
+     "accepts artworks",
+     "acceptance",
+     "acceptance of art",
+     "accepts",
+     "acceptance of artworks"
+    ],
+    "decision_announcement": [
+     "decision",
+     "Nazi-looted art"
+    ],
+    "event_update": [
+     "fate announcement",
+     "museum decision"
+    ],
+    "public_reaction": [
+     "press conference",
+     "museum confirmation",
+     "decision influence",
+     "agrees to take",
+     "research and restitution",
+     "looted works",
+     "research centre responsibility",
+     "provenance research",
+     "destination",
+     "controversial #gurlitt collection",
+     "work ownership",
+     "Nazi-loot identification",
+     "acceptance investigation",
+     "management agreement",
+     "Switzerland's role"
+    ]
+   },
+   "node_threads": {
+    "artwork_acceptance": 14,
+    "decision_announcement": 4,
+    "event_update": 2,
+    "public_reaction": 15
+   },
+   "kappa": 0.5883,
+   "kappa_tab": [
+    108,
+    9,
+    49,
+    110
+   ],
+   "po": 0.7899,
+   "n_other": 0
+  },
+  "3": {
+   "label": "S4 11-24T10:53→11-24T11:49",
+   "n_threads": 34,
+   "labels": [
+    "acceptance",
+    "accepts bequest",
+    "conclusion",
+    "confirmation",
+    "accepts looted Nazi art",
+    "accord signed",
+    "acceptance of art trove",
+    "accepts art",
+    "acceptance by Bern museum",
+    "accepts art trove",
+    "collection",
+    "Obtains Trove",
+    "accepts part of",
+    "transparency",
+    "summary",
+    "management agreement"
+   ],
+   "counts": {
+    "acceptance": 14,
+    "accord signed": 1,
+    "conclusion": 2,
+    "confirmation": 2,
+    "acceptance of art trove": 1,
+    "accepts art": 1,
+    "accepts bequest": 3,
+    "acceptance by Bern museum": 1,
+    "accepts art trove": 1,
+    "accepts looted Nazi art": 2,
+    "collection": 1,
+    "Obtains Trove": 1,
+    "accepts part of": 1,
+    "transparency": 1,
+    "summary": 1,
+    "management agreement": 1
+   },
+   "node_members": {
+    "artwork_acceptance": [
+     "acceptance",
+     "accepts looted Nazi art",
+     "acceptance of art trove",
+     "accepts art",
+     "acceptance by Bern museum",
+     "accepts art trove",
+     "collection",
+     "Obtains Trove",
+     "accepts part of",
+     "transparency",
+     "summary"
+    ],
+    "bequest_management": [
+     "accepts bequest",
+     "management agreement"
+    ],
+    "decision_announcement": [
+     "conclusion",
+     "confirmation",
+     "accord signed"
+    ]
+   },
+   "node_threads": {
+    "artwork_acceptance": 25,
+    "bequest_management": 4,
+    "decision_announcement": 5
+   },
+   "kappa": 0.4118,
+   "kappa_tab": [
+    27,
+    32,
+    3,
+    58
+   ],
+   "po": 0.7083,
+   "n_other": 0
+  }
+ },
+ "kappa_mean": 0.32,
+ "po_mean": 0.7713,
+ "transitions": [],
+ "ops_llm": {},
+ "det_ops_total": {
+  "CONTINUE": 11,
+  "BIRTH": 2,
+  "RETIRE": 8
+ },
+ "det_per_trans": [
+  {
+   "d1": "S1 11-20T01:20→11-21T22:43",
+   "d2": "S2 11-21T23:21→11-24T09:11",
+   "det": {
+    "CONTINUE": 6,
+    "BIRTH": 0,
+    "RETIRE": 3
+   },
+   "born": [],
+   "retired": [
+    "artwork_acceptance",
+    "bequest_management",
+    "other"
+   ]
+  },
+  {
+   "d1": "S2 11-21T23:21→11-24T09:11",
+   "d2": "S3 11-24T09:15→11-24T10:50",
+   "det": {
+    "CONTINUE": 3,
+    "BIRTH": 1,
+    "RETIRE": 3
+   },
+   "born": [
+    "artwork_acceptance"
+   ],
+   "retired": [
+    "challenge_action",
+    "control_of_art",
+    "litigation_process"
+   ]
+  },
+  {
+   "d1": "S3 11-24T09:15→11-24T10:50",
+   "d2": "S4 11-24T10:53→11-24T11:49",
+   "det": {
+    "CONTINUE": 2,
+    "BIRTH": 1,
+    "RETIRE": 2
+   },
+   "born": [
+    "bequest_management"
+   ],
+   "retired": [
+    "event_update",
+    "public_reaction"
+   ]
+  }
+ ],
+ "node_lifespan": {
+  "bequest_management": {
+   "first": "S1 11-20T01:20→11-21T22:43",
+   "last": "S4 11-24T10:53→11-24T11:49",
+   "n_slices": 2,
+   "threads": [
+    5,
+    0,
+    0,
+    4
+   ]
+  },
+  "decision_announcement": {
+   "first": "S1 11-20T01:20→11-21T22:43",
+   "last": "S4 11-24T10:53→11-24T11:49",
+   "n_slices": 4,
+   "threads": [
+    6,
+    4,
+    4,
+    5
+   ]
+  },
+  "public_reaction": {
+   "first": "S1 11-20T01:20→11-21T22:43",
+   "last": "S3 11-24T09:15→11-24T10:50",
+   "n_slices": 3,
+   "threads": [
+    3,
+    3,
+    15,
+    0
+   ]
+  },
+  "other": {
+   "first": "S1 11-20T01:20→11-21T22:43",
+   "last": "S1 11-20T01:20→11-21T22:43",
+   "n_slices": 1,
+   "threads": [
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  "challenge_action": {
+   "first": "S1 11-20T01:20→11-21T22:43",
+   "last": "S2 11-21T23:21→11-24T09:11",
+   "n_slices": 2,
+   "threads": [
+    3,
+    9,
+    0,
+    0
+   ]
+  },
+  "control_of_art": {
+   "first": "S1 11-20T01:20→11-21T22:43",
+   "last": "S2 11-21T23:21→11-24T09:11",
+   "n_slices": 2,
+   "threads": [
+    5,
+    13,
+    0,
+    0
+   ]
+  },
+  "litigation_process": {
+   "first": "S1 11-20T01:20→11-21T22:43",
+   "last": "S2 11-21T23:21→11-24T09:11",
+   "n_slices": 2,
+   "threads": [
+    2,
+    2,
+    0,
+    0
+   ]
+  },
+  "artwork_acceptance": {
+   "first": "S1 11-20T01:20→11-21T22:43",
+   "last": "S4 11-24T10:53→11-24T11:49",
+   "n_slices": 3,
+   "threads": [
+    5,
+    0,
+    14,
+    25
+   ]
+  },
+  "event_update": {
+   "first": "S1 11-20T01:20→11-21T22:43",
+   "last": "S3 11-24T09:15→11-24T10:50",
+   "n_slices": 3,
+   "threads": [
+    2,
+    3,
+    2,
+    0
+   ]
+  }
+ },
+ "anchor": {
+  "born_nodes": [
+   "artwork_acceptance",
+   "bequest_management"
+  ],
+  "continue_nodes": [
+   "artwork_acceptance",
+   "bequest_management",
+   "challenge_action",
+   "control_of_art",
+   "decision_announcement",
+   "event_update",
+   "litigation_process",
+   "public_reaction"
+  ],
+  "ver_born": {
+   "null": 53
+  },
+  "ver_continue": {
+   "null": 134
+  }
+ },
+ "veracity_anchor": {
+  "S1 11-20T01:20→11-21T22:43": {
+   "artwork_acceptance": {
+    "null": 5
+   },
+   "public_reaction": {
+    "null": 3
+   },
+   "bequest_management": {
+    "null": 5
+   },
+   "challenge_action": {
+    "null": 3
+   },
+   "decision_announcement": {
+    "null": 6
+   },
+   "other": {
+    "null": 4
+   },
+   "control_of_art": {
+    "null": 5
+   },
+   "litigation_process": {
+    "null": 2
+   },
+   "event_update": {
+    "null": 2
+   }
+  },
+  "S2 11-21T23:21→11-24T09:11": {
+   "challenge_action": {
+    "null": 9
+   },
+   "control_of_art": {
+    "null": 13
+   },
+   "decision_announcement": {
+    "null": 4
+   },
+   "litigation_process": {
+    "null": 2
+   },
+   "event_update": {
+    "null": 3
+   },
+   "public_reaction": {
+    "null": 3
+   }
+  },
+  "S3 11-24T09:15→11-24T10:50": {
+   "artwork_acceptance": {
+    "null": 14
+   },
+   "decision_announcement": {
+    "null": 4
+   },
+   "event_update": {
+    "null": 2
+   },
+   "public_reaction": {
+    "null": 15
+   }
+  },
+  "S4 11-24T10:53→11-24T11:49": {
+   "artwork_acceptance": {
+    "null": 25
+   },
+   "bequest_management": {
+    "null": 4
+   },
+   "decision_announcement": {
+    "null": 5
+   }
+  }
+ }
+}

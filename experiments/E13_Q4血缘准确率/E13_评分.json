@@ -1,0 +1,19 @@
+{
+  "file": "E13_标注集.csv",
+  "n_rows": 388,
+  "progress": {
+    "total": 388,
+    "labelled": 0,
+    "pct": 0.0,
+    "by_stratum": {}
+  },
+  "label_distribution": {},
+  "inter_annotator": {
+    "n_overlap": 0,
+    "cohen_kappa": null,
+    "note": "尚无重叠标注（需 label_relation_2）"
+  },
+  "system_scores": {
+    "note": "system_pred 尚未填写——系统产出后重跑本脚本"
+  }
+}

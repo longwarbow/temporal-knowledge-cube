@@ -1,0 +1,260 @@
+{
+ "metrics": {
+  "v4": 0.7247,
+  "v5": 0.7278,
+  "v6": 0.7521,
+  "delta_v6_v5": 0.0243
+ },
+ "per_class": {
+  "v5": {
+   "DERIVE": {
+    "n_true": 108,
+    "P": 0.9811,
+    "R": 0.963,
+    "F1": 0.972
+   },
+   "SUPPORT": {
+    "n_true": 144,
+    "P": 0.7812,
+    "R": 0.5208,
+    "F1": 0.625
+   },
+   "CONFLICT": {
+    "n_true": 34,
+    "P": 0.3108,
+    "R": 0.6765,
+    "F1": 0.4259
+   },
+   "UNRELATED": {
+    "n_true": 469,
+    "P": 0.8789,
+    "R": 0.8977,
+    "F1": 0.8882
+   }
+  },
+  "v6": {
+   "DERIVE": {
+    "n_true": 108,
+    "P": 0.9811,
+    "R": 0.963,
+    "F1": 0.972
+   },
+   "SUPPORT": {
+    "n_true": 144,
+    "P": 0.7881,
+    "R": 0.6458,
+    "F1": 0.7099
+   },
+   "CONFLICT": {
+    "n_true": 34,
+    "P": 0.3108,
+    "R": 0.6765,
+    "F1": 0.4259
+   },
+   "UNRELATED": {
+    "n_true": 469,
+    "P": 0.9125,
+    "R": 0.8891,
+    "F1": 0.9006
+   }
+  }
+ },
+ "n_flips": 26,
+ "flip_audit": {
+  "correct": 20,
+  "broke": 6
+ },
+ "flips": [
+  {
+   "pair_id": "E13-0086",
+   "v5": "SUPPORT",
+   "v6": "UNRELATED",
+   "truth": "UNRELATED",
+   "v6_rule": "53"
+  },
+  {
+   "pair_id": "E13-0093",
+   "v5": "SUPPORT",
+   "v6": "UNRELATED",
+   "truth": "UNRELATED",
+   "v6_rule": "53"
+  },
+  {
+   "pair_id": "E13-0143",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "UNRELATED",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0229",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "SUPPORT",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0251",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "UNRELATED",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0255",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "SUPPORT",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0256",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "SUPPORT",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0260",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "SUPPORT",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0261",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "SUPPORT",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0262",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "SUPPORT",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0263",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "SUPPORT",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0267",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "SUPPORT",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0269",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "SUPPORT",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0279",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "SUPPORT",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0281",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "UNRELATED",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0285",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "SUPPORT",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0288",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "UNRELATED",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0289",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "SUPPORT",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0291",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "SUPPORT",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0336",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "UNRELATED",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0346",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "SUPPORT",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0380",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "SUPPORT",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0385",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "SUPPORT",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0542",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "UNRELATED",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0545",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "SUPPORT",
+   "v6_rule": "39"
+  },
+  {
+   "pair_id": "E13-0738",
+   "v5": "UNRELATED",
+   "v6": "SUPPORT",
+   "truth": "SUPPORT",
+   "v6_rule": "39"
+  }
+ ],
+ "targets": {
+  "ok": 20,
+  "bad": 0
+ },
+ "controls": {
+  "ok": 13,
+  "bad": 0
+ },
+ "control_drift": []
+}

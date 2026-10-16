@@ -1,0 +1,75 @@
+事件 sydneysiege：1220 条声明 / 4 切片
+   S1 12-14T23:02→12-15T02:08 n=305
+   S2 12-15T02:09→12-15T07:00 n=305
+   S3 12-15T07:04→12-15T12:11 n=305
+   S4 12-15T12:11→12-15T15:58 n=305
+
+[A0] 复用已冻结词表：14 节点 ← E15_P1_词表_sydneysiege.json
+      1 public_reaction              Public sentiment and responses
+      2 hostage_situation            Details of the hostage-taking event
+      3 perpetrator_identity         Information about the attacker
+      4 police_operation             Actions taken by law enforcement
+      5 hostage_count                Number of hostages involved
+      6 status_update                Changes in the situation's status
+      7 evacuation                   Evacuation procedures and outcomes
+      8 media_coverage               Media reporting and analysis
+      9 public_behavior              Public behavior and reactions
+     10 demand_statement             Demands made by the perpetrator
+     11 religion_politics            Religious and political aspects
+     12 safety_measures              Safety and security measures
+     13 economic_impact              Economic and business impact
+     14 other                        Other relevant aspects not covered by above
+
+[A1] 指派（aspect → 冻结节点；通道 A/B 两遍）
+   S1 12-14T23:02→12-15T02:08 8 标签 → 5 活跃节点 (+2 OTHER) | κ=-0.077 一致率=0.857
+   S2 12-15T02:09→12-15T07:00 12 标签 → 6 活跃节点 (+0 OTHER) | κ=0.122 一致率=0.636
+   S3 12-15T07:04→12-15T12:11 11 标签 → 6 活跃节点 (+3 OTHER) | κ=0.247 一致率=0.909
+   S4 12-15T12:11→12-15T15:58 14 标签 → 6 活跃节点 (+0 OTHER) | κ=0.121 一致率=0.791
+
+[B/C] 跨切片对齐（双通道：模型只给匹配，操作机械推导）
+   S1 12-14T23:02→12-15T02:08 → S2 12-15T02:09→12-15T07:00 | 前 5 后 6 节点 | 边 A=4 B=4 一致=4 争议=0
+       通道A 操作 {'CONTINUE': 4, 'BIRTH': 2, 'RETIRE': 1} | 通道B 操作 {'CONTINUE': 4, 'BIRTH': 2, 'RETIRE': 1}
+       BIRTH    economic_impact <- []
+       CONTINUE evacuation <- ['evacuation']
+       BIRTH    hostage_count <- []
+       CONTINUE hostage_situation <- ['hostage_situation']
+       CONTINUE police_operation <- ['police_operation']
+       CONTINUE public_reaction <- ['public_reaction']
+   S2 12-15T02:09→12-15T07:00 → S3 12-15T07:04→12-15T12:11 | 前 6 后 6 节点 | 边 A=3 B=3 一致=3 争议=0
+       通道A 操作 {'CONTINUE': 3, 'BIRTH': 3, 'RETIRE': 3} | 通道B 操作 {'CONTINUE': 3, 'BIRTH': 3, 'RETIRE': 3}
+       BIRTH    demand_statement <- []
+       CONTINUE hostage_count <- ['hostage_count']
+       BIRTH    perpetrator_identity <- []
+       CONTINUE police_operation <- ['police_operation']
+       BIRTH    public_behavior <- []
+       CONTINUE public_reaction <- ['public_reaction']
+   S3 12-15T07:04→12-15T12:11 → S4 12-15T12:11→12-15T15:58 | 前 6 后 6 节点 | 边 A=4 B=5 一致=4 争议=1
+       通道A 操作 {'CONTINUE': 4, 'BIRTH': 2, 'RETIRE': 2} | 通道B 操作 {'MERGE': 1, 'CONTINUE': 3, 'BIRTH': 2, 'RETIRE': 1}
+       CONTINUE hostage_count <- ['hostage_count']
+       BIRTH    hostage_situation <- []
+       CONTINUE perpetrator_identity <- ['perpetrator_identity']
+       CONTINUE police_operation <- ['police_operation']
+       CONTINUE public_reaction <- ['public_reaction']
+       BIRTH    status_update <- []
+
+[B2] 确定性操作（节点在场/缺席，可完全复现）
+   S1 12-14T23:02→12-15T02:08 → S2 12-15T02:09→12-15T07:00 | CONTINUE 4 | BIRTH 2 ['economic_impact', 'hostage_count'] | RETIRE 1 ['perpetrator_identity']
+   S2 12-15T02:09→12-15T07:00 → S3 12-15T07:04→12-15T12:11 | CONTINUE 3 | BIRTH 3 ['demand_statement', 'perpetrator_identity', 'public_behavior'] | RETIRE 3 ['economic_impact', 'evacuation', 'hostage_situation']
+   S3 12-15T07:04→12-15T12:11 → S4 12-15T12:11→12-15T15:58 | CONTINUE 4 | BIRTH 2 ['hostage_situation', 'status_update'] | RETIRE 2 ['demand_statement', 'public_behavior']
+   节点寿命（threads 逐切片）：
+     public_reaction          [27, 61, 87, 48]
+     hostage_situation        [32, 44, 0, 17]
+     police_operation         [10, 4, 7, 43]
+     perpetrator_identity     [15, 0, 7, 36]
+     hostage_count            [0, 9, 5, 11]
+     status_update            [0, 0, 0, 22]
+     evacuation               [15, 4, 0, 0]
+     demand_statement         [0, 0, 11, 0]
+     public_behavior          [0, 0, 9, 0]
+     economic_impact          [0, 4, 0, 0]
+   客观锚 veracity：BIRTH 节点 {0: 118, 1: 24, 2: 11, None: 69} | 持续节点 {1: 31, 2: 23, 0: 167, None: 261}
+
+κ 均值 = 0.103 | 一致率均值 = 0.798
+LLM 归因操作 = {'CONTINUE': 11, 'BIRTH': 7, 'RETIRE': 6}
+确定性操作 = {'CONTINUE': 11, 'BIRTH': 7, 'RETIRE': 6}
+→ E15_P1_话题_sydneysiege_head.json

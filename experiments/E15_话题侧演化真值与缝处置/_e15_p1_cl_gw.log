@@ -1,0 +1,97 @@
+事件 germanwings：469 条声明 / 6 切片
+   S1 03-24T10:37→03-24T11:09 n=79
+   S2 03-24T11:10→03-24T11:32 n=78
+   S3 03-24T11:32→03-24T11:59 n=78
+   S4 03-24T12:00→03-24T13:24 n=78
+   S5 03-24T13:25→03-26T14:57 n=78
+   S6 03-26T16:35→03-27T20:17 n=78
+
+[A0] 词表归纳（一次，冻结）
+   → 12 节点（标签覆盖 85%）冻结于 E15_P1_词表_germanwings.json
+      1 aircraft_crash               Description of the aircraft crash event.
+      2 co_pilot_action              Actions taken by the co-pilot.
+      3 deaths_and_survivors         Number of deaths and survivors.
+      4 flight_details               Details about the flight.
+      5 location_and_route           Location and route of the flight.
+      6 media_coverage               Media coverage and reactions.
+      7 pilot_and_crew               Information about the pilot and crew.
+      8 public_reactions             Public reactions to the event.
+      9 regulatory_reactions         Regulatory and legal reactions.
+     10 survivor_details             Details about the survivors.
+     11 weather_conditions           Weather conditions at the time of the crash.
+     12 other                        Other narrative aspects not covered by the above nodes.
+
+[A1] 指派（aspect → 冻结节点；通道 A/B 两遍）
+   S1 03-24T10:37→03-24T11:09 33 标签 → 9 活跃节点 (+0 OTHER) | κ=0.335 一致率=0.811
+   S2 03-24T11:10→03-24T11:32 44 标签 → 9 活跃节点 (+0 OTHER) | κ=0.338 一致率=0.837
+   S3 03-24T11:32→03-24T11:59 47 标签 → 9 活跃节点 (+5 OTHER) | κ=0.030 一致率=0.475
+   S4 03-24T12:00→03-24T13:24 48 标签 → 9 活跃节点 (+3 OTHER) | κ=0.172 一致率=0.667
+   S5 03-24T13:25→03-26T14:57 48 标签 → 7 活跃节点 (+12 OTHER) | κ=0.367 一致率=0.848
+   S6 03-26T16:35→03-27T20:17 46 标签 → 4 活跃节点 (+5 OTHER) | κ=-0.090 一致率=0.496
+
+[B/C] 跨切片对齐（双通道：模型只给匹配，操作机械推导）
+   S1 03-24T10:37→03-24T11:09 → S2 03-24T11:10→03-24T11:32 | 前 9 后 9 节点 | 边 A=0 B=6 一致=0 争议=6
+       通道A 操作 {'BIRTH': 9, 'RETIRE': 9} | 通道B 操作 {'CONTINUE': 6, 'BIRTH': 3, 'RETIRE': 3}
+   S2 03-24T11:10→03-24T11:32 → S3 03-24T11:32→03-24T11:59 | 前 9 后 9 节点 | 边 A=6 B=4 一致=4 争议=2
+       通道A 操作 {'MERGE': 1, 'CONTINUE': 4, 'BIRTH': 4, 'RETIRE': 3} | 通道B 操作 {'CONTINUE': 4, 'BIRTH': 5, 'RETIRE': 5}
+       CONTINUE aircraft_crash <- ['aircraft_crash']
+       BIRTH    co_pilot_action <- []
+       CONTINUE deaths_and_survivors <- ['deaths_and_survivors']
+       CONTINUE location_and_route <- ['location_and_route']
+       CONTINUE media_coverage <- ['media_coverage']
+       MERGE    public_reactions <- ['public_reactions', 'other']
+       BIRTH    regulatory_reactions <- []
+       BIRTH    survivor_details <- []
+       BIRTH    weather_conditions <- []
+   S3 03-24T11:32→03-24T11:59 → S4 03-24T12:00→03-24T13:24 | 前 9 后 9 节点 | 边 A=8 B=8 一致=8 争议=0
+       通道A 操作 {'MERGE': 1, 'CONTINUE': 5, 'SPLIT': 1, 'BIRTH': 2, 'RETIRE': 2} | 通道B 操作 {'MERGE': 1, 'CONTINUE': 5, 'SPLIT': 1, 'BIRTH': 2, 'RETIRE': 2}
+       MERGE    aircraft_crash <- ['aircraft_crash', 'location_and_route']
+       CONTINUE co_pilot_action <- ['co_pilot_action']
+       CONTINUE deaths_and_survivors <- ['deaths_and_survivors']
+       BIRTH    flight_details <- []
+       CONTINUE location_and_route <- ['location_and_route']
+       BIRTH    pilot_and_crew <- []
+       CONTINUE public_reactions <- ['public_reactions']
+       CONTINUE regulatory_reactions <- ['regulatory_reactions']
+       CONTINUE weather_conditions <- ['weather_conditions']
+   S4 03-24T12:00→03-24T13:24 → S5 03-24T13:25→03-26T14:57 | 前 9 后 7 节点 | 边 A=5 B=6 一致=5 争议=1
+       通道A 操作 {'CONTINUE': 5, 'BIRTH': 2, 'RETIRE': 4} | 通道B 操作 {'CONTINUE': 6, 'BIRTH': 1, 'RETIRE': 3}
+       CONTINUE aircraft_crash <- ['aircraft_crash']
+       CONTINUE co_pilot_action <- ['co_pilot_action']
+       CONTINUE deaths_and_survivors <- ['deaths_and_survivors']
+       CONTINUE location_and_route <- ['location_and_route']
+       CONTINUE pilot_and_crew <- ['pilot_and_crew']
+       BIRTH    public_reactions <- []
+       BIRTH    regulatory_reactions <- []
+   S5 03-24T13:25→03-26T14:57 → S6 03-26T16:35→03-27T20:17 | 前 7 后 4 节点 | 边 A=5 B=2 一致=1 争议=5
+       通道A 操作 {'MERGE': 1, 'CONTINUE': 3, 'RETIRE': 2} | 通道B 操作 {'MERGE': 1, 'BIRTH': 3, 'RETIRE': 5}
+       MERGE    aircraft_crash <- ['aircraft_crash', 'pilot_and_crew']
+       CONTINUE co_pilot_action <- ['co_pilot_action']
+       CONTINUE deaths_and_survivors <- ['deaths_and_survivors']
+       CONTINUE location_and_route <- ['location_and_route']
+
+[B2] 确定性操作（节点在场/缺席，可完全复现）
+   S1 03-24T10:37→03-24T11:09 → S2 03-24T11:10→03-24T11:32 | CONTINUE 6 | BIRTH 3 ['other', 'regulatory_reactions', 'survivor_details'] | RETIRE 3 ['co_pilot_action', 'flight_details', 'pilot_and_crew']
+   S2 03-24T11:10→03-24T11:32 → S3 03-24T11:32→03-24T11:59 | CONTINUE 8 | BIRTH 1 ['co_pilot_action'] | RETIRE 1 ['other']
+   S3 03-24T11:32→03-24T11:59 → S4 03-24T12:00→03-24T13:24 | CONTINUE 7 | BIRTH 2 ['flight_details', 'pilot_and_crew'] | RETIRE 2 ['media_coverage', 'survivor_details']
+   S4 03-24T12:00→03-24T13:24 → S5 03-24T13:25→03-26T14:57 | CONTINUE 7 | BIRTH 0  | RETIRE 2 ['flight_details', 'weather_conditions']
+   S5 03-24T13:25→03-26T14:57 → S6 03-26T16:35→03-27T20:17 | CONTINUE 4 | BIRTH 0  | RETIRE 3 ['pilot_and_crew', 'public_reactions', 'regulatory_reactions']
+   节点寿命（threads 逐切片）：
+     aircraft_crash           [40, 15, 11, 28, 11, 29]
+     deaths_and_survivors     [13, 11, 8, 6, 14, 12]
+     location_and_route       [12, 11, 15, 8, 6, 5]
+     co_pilot_action          [4, 0, 6, 13, 15, 14]
+     public_reactions         [1, 9, 19, 8, 4, 0]
+     pilot_and_crew           [2, 0, 0, 1, 15, 0]
+     weather_conditions       [1, 12, 1, 2, 0, 0]
+     regulatory_reactions     [0, 4, 2, 9, 1, 0]
+     media_coverage           [2, 3, 9, 0, 0, 0]
+     survivor_details         [0, 6, 2, 0, 0, 0]
+     other                    [0, 7, 0, 0, 0, 0]
+     flight_details           [4, 0, 0, 0, 0, 0]
+   客观锚 veracity：BIRTH 节点 {1: 28, 2: 9, None: 33, 0: 35} | 持续节点 {0: 90, 2: 33, 1: 92, None: 209}
+
+κ 均值 = 0.192 | 一致率均值 = 0.689
+LLM 归因操作 = {'BIRTH': 17, 'RETIRE': 20, 'MERGE': 3, 'CONTINUE': 17, 'SPLIT': 1}
+确定性操作 = {'CONTINUE': 32, 'BIRTH': 6, 'RETIRE': 11}
+→ E15_P1_话题_germanwings.json

@@ -1,0 +1,180 @@
+{
+  "n": 12,
+  "overall": {
+    "p_o": 1.0,
+    "kappa": 1.0,
+    "gwet_ac1": 1.0,
+    "n_disagree": 0,
+    "disagree_ids": []
+  },
+  "R1_target": {
+    "n": 6,
+    "n_converged": 6,
+    "n_matches_ruling": 6,
+    "detail": [
+      {
+        "pair_id": "E13-0543",
+        "rule": "A4-反例清单 不同谓词（枪手被毙/中枪↔收治伤者）",
+        "expected": "UNRELATED",
+        "K": "UNRELATED",
+        "L": "UNRELATED",
+        "converged": 1,
+        "matches_ruling": 1,
+        "note_K": "A4-反例清单 枪手被击毙/士兵中枪 ↔ 医院收治伤者⇒UNRELATED",
+        "note_L": "A4-反例清单 枪手被击毙/士兵中枪↔医院收治3伤者⇒UNRELATED"
+      },
+      {
+        "pair_id": "E13-0539",
+        "rule": "A4-反例清单 被扣押↔枪击/逃离",
+        "expected": "UNRELATED",
+        "K": "UNRELATED",
+        "L": "UNRELATED",
+        "converged": 1,
+        "matches_ruling": 1,
+        "note_K": "A4-反例清单 被扣押 ↔ 枪击/人质逃离⇒UNRELATED",
+        "note_L": "A4-反例清单 被扣押↔枪击/逃离⇒UNRELATED"
+      },
+      {
+        "pair_id": "E13-0487",
+        "rule": "A3-ⓐ限定 / 不同事件（枪击死者 vs 人质）",
+        "expected": "UNRELATED",
+        "K": "UNRELATED",
+        "L": "UNRELATED",
+        "converged": 1,
+        "matches_ruling": 1,
+        "note_K": "A3-①限定 of six hostages 非 p 所量总体(枪击死者)⇒UNRELATED",
+        "note_L": "A3-ⓐ①限定 of six hostages非p所量总体(枪击死者)⇒UNRELATED"
+      },
+      {
+        "pair_id": "E13-0534",
+        "rule": "A4-反例清单 被扣押↔逃离",
+        "expected": "UNRELATED",
+        "K": "UNRELATED",
+        "L": "UNRELATED",
+        "converged": 1,
+        "matches_ruling": 1,
+        "note_K": "A4-反例清单 被扣押 ↔ 枪击/人质逃离⇒UNRELATED",
+        "note_L": "A4-反例清单 被扣押↔枪击/逃离⇒UNRELATED"
+      },
+      {
+        "pair_id": "E13-0458",
+        "rule": "A5 via @X 是归因 ⇒ SUPPORT",
+        "expected": "SUPPORT",
+        "K": "SUPPORT",
+        "L": "SUPPORT",
+        "converged": 1,
+        "matches_ruling": 1,
+        "note_K": "A5 via @theblaze 为归因新增来源细节⇒SUPPORT",
+        "note_L": "A5 via@theblaze为归因(新增事实性细节)⇒SUPPORT"
+      },
+      {
+        "pair_id": "E13-0503",
+        "rule": "A3-ⓠ 计量对象不同（人数 vs 起数）",
+        "expected": "UNRELATED",
+        "K": "UNRELATED",
+        "L": "UNRELATED",
+        "converged": 1,
+        "matches_ruling": 1,
+        "note_K": "A3-ⓠ 1 hostage(人数) vs 2 hostage situations(起数)计量对象不同⇒UNRELATED",
+        "note_L": "A3-ⓠ 1 hostage(人数)vs 2 hostage situations(起数)⇒UNRELATED"
+      }
+    ]
+  },
+  "R2_control": {
+    "n": 6,
+    "n_still_agree": 6,
+    "n_same_label": 6,
+    "detail": [
+      {
+        "pair_id": "E13-0570",
+        "v14": "SUPPORT",
+        "K": "SUPPORT",
+        "L": "SUPPORT",
+        "still_agree": 1,
+        "same_label": 1
+      },
+      {
+        "pair_id": "E13-0513",
+        "v14": "SUPPORT",
+        "K": "SUPPORT",
+        "L": "SUPPORT",
+        "still_agree": 1,
+        "same_label": 1
+      },
+      {
+        "pair_id": "E13-0499",
+        "v14": "SUPPORT",
+        "K": "SUPPORT",
+        "L": "SUPPORT",
+        "still_agree": 1,
+        "same_label": 1
+      },
+      {
+        "pair_id": "E13-0540",
+        "v14": "UNRELATED",
+        "K": "UNRELATED",
+        "L": "UNRELATED",
+        "still_agree": 1,
+        "same_label": 1
+      },
+      {
+        "pair_id": "E13-0566",
+        "v14": "UNRELATED",
+        "K": "UNRELATED",
+        "L": "UNRELATED",
+        "still_agree": 1,
+        "same_label": 1
+      },
+      {
+        "pair_id": "E13-0556",
+        "v14": "UNRELATED",
+        "K": "UNRELATED",
+        "L": "UNRELATED",
+        "still_agree": 1,
+        "same_label": 1
+      }
+    ]
+  },
+  "merged_76_disagreements": {
+    "v14": 6,
+    "v15": 0
+  },
+  "yield_sensitivity_rerun_items": [
+    {
+      "pair_id": "E13-0543",
+      "v14": "UNRELATED",
+      "v15_K": "UNRELATED",
+      "v15_L": "UNRELATED",
+      "is_CONFLICT_any": 0
+    },
+    {
+      "pair_id": "E13-0539",
+      "v14": "UNRELATED",
+      "v15_K": "UNRELATED",
+      "v15_L": "UNRELATED",
+      "is_CONFLICT_any": 0
+    },
+    {
+      "pair_id": "E13-0487",
+      "v14": "SUPPORT",
+      "v15_K": "UNRELATED",
+      "v15_L": "UNRELATED",
+      "is_CONFLICT_any": 0
+    },
+    {
+      "pair_id": "E13-0534",
+      "v14": "UNRELATED",
+      "v15_K": "UNRELATED",
+      "v15_L": "UNRELATED",
+      "is_CONFLICT_any": 0
+    },
+    {
+      "pair_id": "E13-0503",
+      "v14": "UNRELATED",
+      "v15_K": "UNRELATED",
+      "v15_L": "UNRELATED",
+      "is_CONFLICT_any": 0
+    }
+  ],
+  "caveat": "复审集 = v1.4 全部分歧项 + 等量对照 ⇒ v1.5 的收敛是 **in-sample** 的靶向结果；对照项通过只能说明\"没打散\"，不能证明判据好。独立证据 = 全量标注的人类 κ。"
+}

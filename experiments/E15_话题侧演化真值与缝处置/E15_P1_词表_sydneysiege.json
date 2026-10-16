@@ -1,0 +1,63 @@
+{
+ "event": "sydneysiege",
+ "nodes": [
+  {
+   "node": "public_reaction",
+   "desc": "Public sentiment and responses"
+  },
+  {
+   "node": "hostage_situation",
+   "desc": "Details of the hostage-taking event"
+  },
+  {
+   "node": "perpetrator_identity",
+   "desc": "Information about the attacker"
+  },
+  {
+   "node": "police_operation",
+   "desc": "Actions taken by law enforcement"
+  },
+  {
+   "node": "hostage_count",
+   "desc": "Number of hostages involved"
+  },
+  {
+   "node": "status_update",
+   "desc": "Changes in the situation's status"
+  },
+  {
+   "node": "evacuation",
+   "desc": "Evacuation procedures and outcomes"
+  },
+  {
+   "node": "media_coverage",
+   "desc": "Media reporting and analysis"
+  },
+  {
+   "node": "public_behavior",
+   "desc": "Public behavior and reactions"
+  },
+  {
+   "node": "demand_statement",
+   "desc": "Demands made by the perpetrator"
+  },
+  {
+   "node": "religion_politics",
+   "desc": "Religious and political aspects"
+  },
+  {
+   "node": "safety_measures",
+   "desc": "Safety and security measures"
+  },
+  {
+   "node": "economic_impact",
+   "desc": "Economic and business impact"
+  },
+  {
+   "node": "other",
+   "desc": "Other relevant aspects not covered by above"
+  }
+ ],
+ "n_label_used": 306,
+ "coverage_pct": 85.0
+}

@@ -1,0 +1,47 @@
+﻿pair_id,stratum,subtype,label_M,label_N,note_M,note_N
+E13-0018,S1_same_thread_reply,,DERIVE,SUPPORT,引号转推近逐字（仅链接不同）,A5 引用@globeandmail 归因→SUPPORT
+E13-0020,S1_same_thread_reply,,DERIVE,SUPPORT,引号转推逐字,A5 引用@metpoliceuk 归因→SUPPORT
+E13-0027,S1_same_thread_reply,,DERIVE,SUPPORT,RT 转发近逐字（前缀语气词非事实细节）,A5 RT@CTVNews 归因→SUPPORT
+E13-0037,S1_same_thread_reply,,DERIVE,SUPPORT,引号转推近逐字,A5 引用@PzFeed 归因→SUPPORT
+E13-0064,S1_same_thread_reply,,DERIVE,SUPPORT,引号转推近逐字（前缀情绪语忽略）,A5 引用@MarkDiStef 归因→SUPPORT
+E13-0070,S1_same_thread_reply,,UNRELATED,CONFLICT,⑤ 兜底（摧毁中 vs 仍在，非严格矛盾，槽位不同）,§2.8 极性: q 明确否定金字塔被毁
+E13-0080,S1_same_thread_reply,,UNRELATED,CONFLICT,⑤ 兜底（增援时点/理由论点不同，非同槽位）,同槽位(增援召集时点)相斥: since day 1 vs 因纵火才召唤
+E13-0083,S1_same_thread_reply,,UNRELATED,CONFLICT,⑤ 兜底,§2.8 极性: q 否定 p 链接为直播
+E13-0102,S3_cross_thread_opposite_veracity,,SUPPORT,UNRELATED,A3-ⓐ 枪击起数：q 枚举（国会山/纪念碑/Rideau）涵盖 p 所报两处，兼容,不同命题(士兵中弹/枪手在逃↔三处枪击)
+E13-0139,S3_cross_thread_opposite_veracity,,SUPPORT,CONFLICT,同命题（坠机）+新增乘员数 142+2+4,A3-ⓑ 同计量对象(机上人数)总数互斥 150 vs 142+2+4=148
+E13-0143,S3_cross_thread_opposite_veracity,,SUPPORT,UNRELATED,同命题（坠机）+新增 142 名乘客细节,A3-ⓠ 计量对象不同(死者数↔乘客数)
+E13-0146,S3_cross_thread_opposite_veracity,,UNRELATED,SUPPORT,⑤ 兜底,同命题(坠机) 不同细节(锁外↔低高度mayday)
+E13-0166,S3_cross_thread_opposite_veracity,,SUPPORT,UNRELATED,A3-③ 具指子项（首个遇难者）隶属同事件死者总体（至少10）,上位词缝 AMBIG_PERSON(victim)↔FATALITY 保守判U
+E13-0200,S2_cross_thread_high_sim,,DERIVE,SUPPORT,近似逐字（onboard→people，无新增细节）,同命题 措辞不同（passenger plane/onboard）
+E13-0210,S2_cross_thread_high_sim,,SUPPORT,DERIVE,同命题；q 新增反问（非事实性）⇒ 非逐字,A5 事实核心逐字复制；新增仅修辞性问句
+E13-0224,S2_cross_thread_high_sim,,DERIVE,SUPPORT,近似逐字（144 passengers and 6 crew，A4 数值表外不适用）,同命题 转述（144+6）
+E13-0229,S2_cross_thread_high_sim,,SUPPORT,UNRELATED,A4-同族 CUSTODY_EXITED；A2 模糊量 another vs two ⇒ 兼容,A4-同族 CUSTODY_EXITED；递增计数 two more<->another 时点不明，非同一完整计数，兜底
+E13-0282,S2_cross_thread_high_sim,,SUPPORT,UNRELATED,同命题（人质被扣押）；q 新增警方带离细节,A4-不同族 CUSTODY_HELD<->CUSTODY_EXITED/POLICE_OPERATION
+E13-0290,S2_cross_thread_high_sim,,UNRELATED,SUPPORT,T1 q 通篇反问非命题,T1 修辞性问句含事实核心，与 p 相同
+E13-0301,S4_cross_thread_random,,SUPPORT,UNRELATED,同向命题（拦停非因抢劫）；q 给出另一理由，相容,不同命题（不知情抢劫 vs 拦停理由）
+E13-0324,S4_cross_thread_random,,SUPPORT,UNRELATED,同向命题（枪手身份/在逃）相容,不同命题（身份指认 vs 嫌疑人在逃）
+E13-0338,S4_cross_thread_random,,CONFLICT,UNRELATED,状态不相容：shooter on the loose ↔ gunman 已被击毙（§2.8）,不同时点状态（在逃 vs 已死），无同时点真值约束
+E13-0347,S4_cross_thread_random,,UNRELATED,SUPPORT,A4-不同族 FATALITY(死亡)↔枪击(中弹)；q 不约束 p 的死亡断言,同核心（纪念碑士兵中枪）；q 为弱版本无死讯
+E13-0491,S6_same_slot_conflicting,strict,UNRELATED,SUPPORT,A4-不同族 PERPETRATOR_EXISTS↔PERPETRATOR_IDENTITY ⇒UNRELATED,PERPETRATOR 同向更强（身份具体化）；A4表外→④
+E13-0497,S6_same_slot_conflicting,strict,UNRELATED,SUPPORT,T3 不同场所/情形（1名女人质 vs 超市至少5人质）；且该行含未引号逗号致字段歧义⇒低置信,A3-ⓐ② q下界≥5人质 vs p具指1名人质（女）；场所未明
+E13-0588,S6_same_slot_conflicting,strict,UNRELATED,SUPPORT,T1 p 非命题(评论),A4-同族 PERPETRATOR_EXISTS；数量模糊相容(A2)
+E13-0591,S6_same_slot_conflicting,strict,UNRELATED,SUPPORT,A4-不同族 FATALITY↔PERPETRATOR_EXISTS,A4-同族 PERPETRATOR_EXISTS；1 killed⊂3 suspects 相容
+E13-0595,S6_same_slot_conflicting,strict,CONFLICT,UNRELATED,A4-同族 FATALITY; A3-ⓑ 2 vs 3(p为反事实嵌入拿不准),T3 主体不同/信息不足
+E13-0596,S6_same_slot_conflicting,strict,CONFLICT,UNRELATED,A4-同族 CUSTODY_HELD; A3-ⓑ 1 vs ≥5,T3 主体不同（不同人质事件 1↔5）
+E13-0601,S6_same_slot_conflicting,strict,CONFLICT,UNRELATED,A4-同族 CUSTODY_HELD; A3-ⓑ 1 vs ≥5,T3 主体不同（不同人质事件 1↔5）
+E13-0607,S6_same_slot_conflicting,strict,CONFLICT,UNRELATED,A4-同族 PERPETRATOR_EXISTS; A3-ⓑ 2 vs 1,T3 主体不同（枪手数量 vs 悉尼枪手旗帜要求）
+E13-0624,S6_same_slot_conflicting,strict,UNRELATED,CONFLICT,兜底 q 仅否定'6人质'与p的13无真值约束,A3-ⓑ 总数13↔6
+E13-0630,S6_same_slot_conflicting,strict,UNRELATED,CONFLICT,T3 主体不同(CH总部↔Dammartin围捕),A3-ⓑ 总数11↔20(q 语义不清)
+E13-0634,S6_same_slot_conflicting,strict,SUPPORT,UNRELATED,A4 不适用(p无数值); 同向 CUSTODY_HELD 存在vs2人具体,T1 非命题（祈愿）
+E13-0652,S6_same_slot_conflicting,strict,SUPPORT,CONFLICT,A4-同族 CUSTODY_HELD; A3-ⓐ② 具体数11在上界≤20内,A3-ⓑ 总数11↔20
+E13-0661,S6_same_slot_conflicting,strict,SUPPORT,CONFLICT,A4-同族 CUSTODY_EXITED; A3-ⓐ 阶段3 vs 累计5 兼容,A4-同族 CUSTODY_EXITED；A3-ⓑ 3↔5
+E13-0671,S6_same_slot_conflicting,strict,UNRELATED,SUPPORT,A4-不同族 FATALITY↔PERPETRATOR_EXISTS,A4-同族 PERPETRATOR_EXISTS；1 killed⊂3 suspects 相容
+E13-0672,S6_same_slot_conflicting,strict,UNRELATED,SUPPORT,T3 主体不同(Saint-Jean RCMP↔两起袭击士兵),A3-ⓐ 部分(1 RCMP)⊂总数(2 soldiers)
+E13-0673,S6_same_slot_conflicting,strict,UNRELATED,SUPPORT,A4-不同族 INJURY↔PERPETRATOR_EXISTS(q否定2+枪手),A4-同族 PERPETRATOR_EXISTS；同为单一枪手
+E13-0687,S6_same_slot_conflicting,strict,UNRELATED,SUPPORT,A4-不同族 FATALITY↔PERPETRATOR_EXISTS,A4-同族 PERPETRATOR_EXISTS；1 shot⊂5 相容
+E13-0690,S6_same_slot_conflicting,strict,UNRELATED,SUPPORT,A4-不同族 FATALITY↔PERPETRATOR_EXISTS,A4-同族 PERPETRATOR_EXISTS；1 killed⊂3 suspects 相容
+E13-0692,S6_same_slot_conflicting,strict,UNRELATED,SUPPORT,A4-不同族 FATALITY↔PERPETRATOR_EXISTS,A4-同族 PERPETRATOR_EXISTS；1 killed⊂3 suspects 相容
+E13-0694,S6_same_slot_conflicting,strict,UNRELATED,SUPPORT,A4-不同族 FATALITY↔PERPETRATOR_EXISTS,A4-同族 PERPETRATOR_EXISTS；2 shot⊂up to 5 相容
+E13-0701,S6_same_slot_conflicting,strict,UNRELATED,SUPPORT,A4-不同族 FATALITY↔PERPETRATOR_EXISTS,A4-同族 PERPETRATOR_EXISTS；1 shot⊂2 相容
+E13-0739,S6_same_slot_conflicting,strict,SUPPORT,UNRELATED,"A4-同族 FATALITY; 同向兼容(1人死亡=Brown,q措辞含糊)",T3/T1 主体不同
+E13-0753,S6_same_slot_conflicting,strict,CONFLICT,UNRELATED,A4-同族 PERPETRATOR_EXISTS; A3-ⓑ 4–5 vs 2(q为反讽存疑),T1/T3 主体不同

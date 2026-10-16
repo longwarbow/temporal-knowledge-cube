@@ -1,0 +1,815 @@
+D:\WSPforWB\10.keyan\.venv_e14\lib\site-packages\pydantic\_internal\_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'validate_default' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'validate_default' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+[nltk_data] Error loading stopwords: <urlopen error [Errno 2] No such
+[nltk_data]     file or directory>
+[准备] N_total=200 N0=40 delta=80 batches=2 pool=200
+####################################################################################################
+ _____ _____ _____ _____ __  __  ____  _   _ 
+|  __ \_   _/ ____|_   _|  \/  |/ __ \| \ | |
+| |  | || || |  __  | | | \  / | |  | |  \| |
+| |  | || || | |_ | | | | |\/| | |  | | . ` |
+| |__| || || |__| |_| |_| |  | | |__| | |\  |
+|_____/_____\_____|_____|_|  |_|\____/|_| \_|
+                                             
+                                             
+
+╔════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Welcome to DIGIMON: Deep Analysis of Graph-Based RAG Systems.                                          ║
+║                                                                                                        ║
+║ Unlock advanced insights with our comprehensive tool for evaluating and optimizing RAG models.         ║
+║                                                                                                        ║
+║ You can freely combine any graph-based RAG algorithms you desire. We hope this will be helpful to you! ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+####################################################################################################
+[32m2026-10-16 07:31:49.107[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36mget_hyperplanes[0m:[36m74[0m - [1m
+❌ No existing hyperplane! Regenerated hyperplane![0m
+[32m2026-10-16 07:31:49.215[0m | [1mINFO    [0m | [36mCore.Chunk.DocChunk[0m:[36mbuild_chunks[0m:[36m27[0m - [1mStarting chunk the given documents[0m
+[32m2026-10-16 07:31:49.242[0m | [1mINFO    [0m | [36mCore.Storage.ChunkKVStorage[0m:[36m_persist[0m:[36m105[0m - [1mWriting data into D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_80\tree_graph_dynamic\chunk_storage_chunk_data_idx.pkl and D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_80\tree_graph_dynamic\chunk_storage_chunk_data_key.pkl[0m
+[32m2026-10-16 07:31:49.246[0m | [1mINFO    [0m | [36mCore.Chunk.DocChunk[0m:[36mbuild_chunks[0m:[36m74[0m - [1m✅ Finished the chunking stage[0m
+[32m2026-10-16 07:31:49.246[0m | [1mINFO    [0m | [36mCore.GraphRAG[0m:[36m_update_costs_info[0m:[36m205[0m - [1mChunking stage cost: Total prompt token: 0, Total completeion token: 0, Total cost: 0[0m
+[32m2026-10-16 07:31:49.246[0m | [1mINFO    [0m | [36mCore.GraphRAG[0m:[36m_update_costs_info[0m:[36m207[0m - [1mChunking time(s): 0.03[0m
+[32m2026-10-16 07:31:49.246[0m | [1mINFO    [0m | [36mCore.Graph.BaseGraph[0m:[36mbuild_graph[0m:[36m41[0m - [1mStarting build graph for the given documents[0m
+[32m2026-10-16 07:31:49.246[0m | [1mINFO    [0m | [36mCore.Storage.TreeGraphStorage[0m:[36mload_tree_graph[0m:[36m43[0m - [1mForce flag is set. Rebuilding tree from scratch.[0m
+[32m2026-10-16 07:31:49.250[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 0, children = None[0m
+[32m2026-10-16 07:31:49.251[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 1, children = None[0m
+[32m2026-10-16 07:31:49.252[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 2, children = None[0m
+[32m2026-10-16 07:31:49.253[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 3, children = None[0m
+[32m2026-10-16 07:31:49.255[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 4, children = None[0m
+[32m2026-10-16 07:31:49.255[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 5, children = None[0m
+[32m2026-10-16 07:31:49.256[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 6, children = None[0m
+[32m2026-10-16 07:31:49.257[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 6, children = None[0m
+[32m2026-10-16 07:31:49.258[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 7, children = None[0m
+[32m2026-10-16 07:31:49.258[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 9, children = None[0m
+[32m2026-10-16 07:31:49.258[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 10, children = None[0m
+[32m2026-10-16 07:31:49.260[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 11, children = None[0m
+[32m2026-10-16 07:31:49.262[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 12, children = None[0m
+[32m2026-10-16 07:31:49.262[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 13, children = None[0m
+[32m2026-10-16 07:31:49.264[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 14, children = None[0m
+[32m2026-10-16 07:31:49.264[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 14, children = None[0m
+[32m2026-10-16 07:31:49.266[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 14, children = None[0m
+[32m2026-10-16 07:31:49.267[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 17, children = None[0m
+[32m2026-10-16 07:31:49.268[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 17, children = None[0m
+[32m2026-10-16 07:31:49.268[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 17, children = None[0m
+[32m2026-10-16 07:31:49.268[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 18, children = None[0m
+[32m2026-10-16 07:31:49.270[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 18, children = None[0m
+[32m2026-10-16 07:31:49.271[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 20, children = None[0m
+[32m2026-10-16 07:31:49.271[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 20, children = None[0m
+[32m2026-10-16 07:31:49.272[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 20, children = None[0m
+[32m2026-10-16 07:31:49.273[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 20, children = None[0m
+[32m2026-10-16 07:31:49.276[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 25, children = None[0m
+[32m2026-10-16 07:31:49.276[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 26, children = None[0m
+[32m2026-10-16 07:31:49.278[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 28, children = None[0m
+[32m2026-10-16 07:31:49.278[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 29, children = None[0m
+[32m2026-10-16 07:31:49.279[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 30, children = None[0m
+[32m2026-10-16 07:31:49.279[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 31, children = None[0m
+[32m2026-10-16 07:31:49.280[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 31, children = None[0m
+[32m2026-10-16 07:31:49.280[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 32, children = None[0m
+[32m2026-10-16 07:31:49.280[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 32, children = None[0m
+[32m2026-10-16 07:31:49.281[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 34, children = None[0m
+[32m2026-10-16 07:31:49.282[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 36, children = None[0m
+[32m2026-10-16 07:31:49.282[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 36, children = None[0m
+[32m2026-10-16 07:31:49.283[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 38, children = None[0m
+[32m2026-10-16 07:31:49.283[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 39, children = None[0m
+[32m2026-10-16 07:31:49.284[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_graph[0m:[36m677[0m - [1m40[0m
+[32m2026-10-16 07:31:49.284[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_graph[0m:[36m678[0m - [1mTo batch embed leaves[0m
+[32m2026-10-16 07:31:49.431[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_graph[0m:[36m680[0m - [1mCreated 40 Leaf Embeddings[0m
+[32m2026-10-16 07:31:49.433[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_tree_from_leaves[0m:[36m343[0m - [1mlength of layer: 40[0m
+[32m2026-10-16 07:31:49.434[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_perform_clustering[0m:[36m196[0m - [1mPerform Clustering: n_samples = 40[0m
+[32m2026-10-16 07:31:49.434[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m167[0m - [1m
+=== LSH Bucket Distribution Analysis ===[0m
+[32m2026-10-16 07:31:49.434[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m168[0m - [1mTotal Buckets: 40[0m
+[32m2026-10-16 07:31:49.434[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m169[0m - [1mBiggest Buckets: 1 Elements[0m
+[32m2026-10-16 07:31:49.434[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m170[0m - [1mSmallest Buckets: 1 Elements[0m
+[32m2026-10-16 07:31:49.434[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m171[0m - [1mAverage Size: 1.0 Elements[0m
+[32m2026-10-16 07:31:49.434[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m172[0m - [1m
+Bucket Size:[0m
+[32m2026-10-16 07:31:49.434[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m173[0m - [1mSize     | Count    | Percentage[0m
+[32m2026-10-16 07:31:49.434[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m179[0m - [1m1        | 40       |    100.0%[0m
+[32m2026-10-16 07:31:49.434[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m182[0m - [1m
+=== Clustering Result ===[0m
+[32m2026-10-16 07:31:49.434[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m183[0m - [1mTotal Clusters: 5[0m
+[32m2026-10-16 07:31:49.434[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_print_bucket_stats[0m:[36m185[0m - [1mCluster Distribution: Biggest 8, Smallest 8, Average 8.0[0m
+[32m2026-10-16 07:31:51.126[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 203, completion_tokens: 25[0m
+[32m2026-10-16 07:31:51.126[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 40, children = {0, 2, 37, 6, 11, 15, 19, 25}[0m
+[32m2026-10-16 07:31:51.677[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 214, completion_tokens: 47[0m
+[32m2026-10-16 07:31:51.678[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 41, children = {34, 36, 39, 12, 14, 18, 22, 28}[0m
+[32m2026-10-16 07:31:52.096[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 263, completion_tokens: 47[0m
+[32m2026-10-16 07:31:52.096[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 42, children = {32, 1, 3, 5, 7, 10, 16, 29}[0m
+[32m2026-10-16 07:31:53.574[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 207, completion_tokens: 68[0m
+[32m2026-10-16 07:31:53.574[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 43, children = {33, 35, 4, 8, 9, 23, 26, 27}[0m
+[32m2026-10-16 07:31:54.004[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 210, completion_tokens: 66[0m
+[32m2026-10-16 07:31:54.144[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 44, children = {38, 13, 17, 20, 21, 24, 30, 31}[0m
+[32m2026-10-16 07:31:54.144[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_tree_from_leaves[0m:[36m356[0m - [1mTo batch embed current layer[0m
+[32m2026-10-16 07:31:54.197[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_tree_from_leaves[0m:[36m359[0m - [1mLayer: 0[0m
+[32m2026-10-16 07:31:54.197[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_tree_from_leaves[0m:[36m343[0m - [1mlength of layer: 5[0m
+[32m2026-10-16 07:31:54.197[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_build_tree_from_leaves[0m:[36m361[0m - [1m2[0m
+[32m2026-10-16 07:31:54.198[0m | [1mINFO    [0m | [36mCore.Storage.TreeGraphStorage[0m:[36m_persist[0m:[36m33[0m - [1mWriting graph into D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_80\tree_graph_dynamic\graph_storage_tree_data.pkl[0m
+[32m2026-10-16 07:31:54.199[0m | [1mINFO    [0m | [36mCore.Graph.BaseGraph[0m:[36mbuild_graph[0m:[36m57[0m - [1m✅ Finished the graph building stage[0m
+[32m2026-10-16 07:31:54.199[0m | [1mINFO    [0m | [36mCore.GraphRAG[0m:[36m_update_costs_info[0m:[36m205[0m - [1mBuild Graph stage cost: Total prompt token: 1097, Total completeion token: 253, Total cost: 0[0m
+[32m2026-10-16 07:31:54.199[0m | [1mINFO    [0m | [36mCore.GraphRAG[0m:[36m_update_costs_info[0m:[36m207[0m - [1mBuild Graph time(s): 4.95[0m
+[32m2026-10-16 07:31:54.199[0m | [1mINFO    [0m | [36mCore.Index.BaseIndex[0m:[36mbuild_index[0m:[36m13[0m - [1mStarting insert elements of the given graph into vector database[0m
+The path D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_80\tree_graph_dynamic\entities_vdb does not exist.
+[32m2026-10-16 07:31:54.220[0m | [1mINFO    [0m | [36mCore.Index.BaseIndex[0m:[36mbuild_index[0m:[36m25[0m - [1mBuilding index for input elements[0m
+[32m2026-10-16 07:31:54.464[0m | [1mINFO    [0m | [36mCore.Index.FaissIndex[0m:[36m_update_index[0m:[36m106[0m - [1mrefresh index size is 45[0m
+[32m2026-10-16 07:31:54.524[0m | [1mINFO    [0m | [36mCore.Index.BaseIndex[0m:[36mbuild_index[0m:[36m28[0m - [1mIndex successfully built and stored.[0m
+[32m2026-10-16 07:31:54.525[0m | [1mINFO    [0m | [36mCore.Index.BaseIndex[0m:[36mbuild_index[0m:[36m29[0m - [1m✅ Finished starting insert entities of the given graph into vector database[0m
+[32m2026-10-16 07:31:54.525[0m | [1mINFO    [0m | [36mCore.GraphRAG[0m:[36m_update_costs_info[0m:[36m205[0m - [1mIndex Building stage cost: Total prompt token: 0, Total completeion token: 0, Total cost: 0[0m
+[32m2026-10-16 07:31:54.525[0m | [1mINFO    [0m | [36mCore.GraphRAG[0m:[36m_update_costs_info[0m:[36m207[0m - [1mIndex Building time(s): 0.33[0m
+[32m2026-10-16 07:31:54.525[0m | [1mINFO    [0m | [36mCore.GraphRAG[0m:[36m_build_retriever_context[0m:[36m176[0m - [1mBuilding retriever context for the current execution[0m
+[32m2026-10-16 07:31:54.526[0m | [1mINFO    [0m | [36mCore.Chunk.DocChunk[0m:[36mbuild_chunks[0m:[36m27[0m - [1mStarting chunk the given documents[0m
+[32m2026-10-16 07:31:54.579[0m | [1mINFO    [0m | [36mCore.Storage.ChunkKVStorage[0m:[36m_persist[0m:[36m105[0m - [1mWriting data into D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_80\_c_b1\w3c_d80_b1\chunk_storage_chunk_data_idx.pkl and D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_80\_c_b1\w3c_d80_b1\chunk_storage_chunk_data_key.pkl[0m
+[32m2026-10-16 07:31:54.582[0m | [1mINFO    [0m | [36mCore.Chunk.DocChunk[0m:[36mbuild_chunks[0m:[36m74[0m - [1m✅ Finished the chunking stage[0m
+[32m2026-10-16 07:31:54.582[0m | [1mINFO    [0m | [36mCore.Graph.BaseGraph[0m:[36mbuild_graph[0m:[36m41[0m - [1mStarting build graph for the given documents[0m
+[32m2026-10-16 07:31:54.582[0m | [1mINFO    [0m | [36mCore.Storage.TreeGraphStorage[0m:[36mload_tree_graph[0m:[36m47[0m - [1mAttempting to load the tree from: D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_80\tree_graph_dynamic\graph_storage_tree_data.pkl[0m
+[32m2026-10-16 07:31:54.596[0m | [1mINFO    [0m | [36mCore.Storage.TreeGraphStorage[0m:[36mload_tree_graph[0m:[36m53[0m - [1mSuccessfully loaded tree from: D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_80\tree_graph_dynamic\graph_storage_tree_data.pkl with 45 nodes and 2 layers[0m
+[32m2026-10-16 07:31:54.597[0m | [1mINFO    [0m | [36mCore.Storage.TreeGraphStorage[0m:[36mload_full_tree_graph[0m:[36m100[0m - [1mAttempting to load the full tree from: D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_80\tree_graph_dynamic\graph_storage_tree_data.pkl[0m
+[32m2026-10-16 07:31:54.597[0m | [1mINFO    [0m | [36mCore.Storage.TreeGraphStorage[0m:[36mload_full_tree_graph[0m:[36m116[0m - [1mSuccessfully loaded full tree with 40 leaves and 2 layers.[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 45, children = None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 46, children = None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 47, children = None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 48, children = None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 49, children = None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 50, children = None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 51, children = None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 52, children = None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 53, children = None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 54, children = None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 55, children = None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 56, children = None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 57, children = None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 58, children = None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 59, children = None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 60, children = None[0m
+[32m2026-10-16 07:31:54.598[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 61, children = None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 62, children = None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 63, children = None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 64, children = None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 65, children = None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 66, children = None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 67, children = None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 68, children = None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 69, children = None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 70, children = None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 71, children = None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 72, children = None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 73, children = None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 74, children = None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 75, children = None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 76, children = None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 77, children = None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 78, children = None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 79, children = None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.599[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 80, children = None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 81, children = None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 82, children = None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 83, children = None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 84, children = None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 85, children = None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 86, children = None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 87, children = None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 88, children = None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 89, children = None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 90, children = None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 91, children = None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 92, children = None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 93, children = None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 94, children = None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 95, children = None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 96, children = None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 97, children = None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 98, children = None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 99, children = None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 100, children = None[0m
+[32m2026-10-16 07:31:54.600[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 101, children = None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 102, children = None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 103, children = None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 104, children = None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 105, children = None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 106, children = None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 107, children = None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 108, children = None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 109, children = None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 110, children = None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 111, children = None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 112, children = None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 113, children = None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 114, children = None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 115, children = None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 116, children = None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 117, children = None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 118, children = None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 119, children = None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 120, children = None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 121, children = None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.601[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 122, children = None[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 123, children = None[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 124, children = None[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m636[0m - [1mRefining graph with 80 new chunks[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m638[0m - [1mlength of layer: 120[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m463[0m - [1mrefine layer: 0[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m475[0m - [1m✅Layer 0 split&merge completed in 0.00 seconds[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 45[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 46[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 47[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 48[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 49[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 50[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 51[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 52[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 53[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 54[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 55[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 56[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 57[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 58[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 59[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 60[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 61[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 62[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 63[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 64[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 65[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 66[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 67[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 68[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 69[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 70[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 71[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 72[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 73[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 74[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 75[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 76[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 77[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 78[0m
+[32m2026-10-16 07:31:54.602[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 79[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 80[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 81[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 82[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 83[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 84[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 85[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 86[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 87[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 88[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 89[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 90[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 91[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 92[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 93[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 94[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 95[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 96[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 97[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 98[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 99[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 100[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 101[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 102[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 103[0m
+[32m2026-10-16 07:31:54.603[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 104[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 105[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 106[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 107[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 108[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 109[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 110[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 111[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 112[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 113[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 114[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 115[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 116[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 117[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 118[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 119[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 120[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 121[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 122[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 123[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 124[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m490[0m - [1mlen of current affected entities: 80[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m524[0m - [1m✅Layer 0 resummarize completed in 0.00 seconds[0m
+[32m2026-10-16 07:31:54.604[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m529[0m - [1mlen of texts: 80[0m
+[32m2026-10-16 07:31:55.111[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m534[0m - [1m✅Layer 0 embedding_update completed in 0.51 seconds[0m
+[32m2026-10-16 07:31:55.113[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m545[0m - [1mlen of current layer signatures: 120[0m
+[32m2026-10-16 07:31:55.113[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m547[0m - [1m✅Layer 0 signature_update completed in 0.00 seconds[0m
+[32m2026-10-16 07:31:55.113[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m586[0m - [1mrecord_parent_idx: [None, 42, 42, None, 42, 42, None, None, None, None, 42, None, None, None, None, None, None, 42, None, None, 42, None, None, 42, None, 40, None, None, 40, 40, None, 40, None, 40, None, None, None, None, 40, 40, 40, 43, None, None, 43, None, 43, 43, None, None, None, None, None, None, 43, None, None, None, 43, None, None, None, None, None, None, 43, 43, None, None, None, 41, 41, 41, None, None, None, 41, None, None, None, 41, 41, 41, None, 41, None, None, None, None, None, 44, None, None, None, 44, None, 44, None, None, None, None, None, 44, None, None, None, None, None, None, None, None, None, 44, 44, 44, None, None, None, 44, None][0m
+[32m2026-10-16 07:31:55.113[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m589[0m - [1mLayer 0 refinement completed in 0.51 seconds[0m
+[32m2026-10-16 07:31:55.114[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m638[0m - [1mlength of layer: 5[0m
+[32m2026-10-16 07:31:55.114[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m463[0m - [1mrefine layer: 1[0m
+[32m2026-10-16 07:31:55.114[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m470[0m - [1mtotal children: 120[0m
+[32m2026-10-16 07:31:55.114[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_split_node[0m:[36m364[0m - [1msplit node: 40 with num of children: 17[0m
+[32m2026-10-16 07:31:55.114[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_split_node[0m:[36m364[0m - [1msplit node: 41 with num of children: 20[0m
+[32m2026-10-16 07:31:55.114[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 125, children = {39, 107, 12, 76, 14, 108, 18, 121, 92, 93}[0m
+[32m2026-10-16 07:31:55.114[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_split_node[0m:[36m364[0m - [1msplit node: 42 with num of children: 24[0m
+[32m2026-10-16 07:31:55.114[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 126, children = {1, 66, 3, 98, 72, 79, 16, 81, 53, 56, 57, 122}[0m
+[32m2026-10-16 07:31:55.114[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_split_node[0m:[36m364[0m - [1msplit node: 43 with num of children: 29[0m
+[32m2026-10-16 07:31:55.114[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 127, children = {97, 99, 100, 70, 106, 123, 83, 118, 26, 27}[0m
+[32m2026-10-16 07:31:55.114[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 128, children = {33, 4, 68, 69, 102, 73, 111, 85, 94}[0m
+[32m2026-10-16 07:31:55.114[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_split_node[0m:[36m364[0m - [1msplit node: 44 with num of children: 30[0m
+[32m2026-10-16 07:31:55.114[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 129, children = {90, 71, 112, 49, 21, 87, 120, 58, 88, 63}[0m
+[32m2026-10-16 07:31:55.114[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 130, children = {96, 38, 80, 17, 82, 20, 24, 89, 59, 62}[0m
+[32m2026-10-16 07:31:55.114[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m475[0m - [1m✅Layer 1 split&merge completed in 0.00 seconds[0m
+[32m2026-10-16 07:31:55.114[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 40[0m
+[32m2026-10-16 07:31:55.115[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 41[0m
+[32m2026-10-16 07:31:55.115[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 42[0m
+[32m2026-10-16 07:31:55.115[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 43[0m
+[32m2026-10-16 07:31:55.115[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 44[0m
+[32m2026-10-16 07:31:55.115[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 125[0m
+[32m2026-10-16 07:31:55.115[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 126[0m
+[32m2026-10-16 07:31:55.115[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 127[0m
+[32m2026-10-16 07:31:55.115[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 128[0m
+[32m2026-10-16 07:31:55.115[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 129[0m
+[32m2026-10-16 07:31:55.115[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 130[0m
+[32m2026-10-16 07:31:55.115[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m490[0m - [1mlen of current affected entities: 11[0m
+[32m2026-10-16 07:31:55.115[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 40 with 17 children[0m
+[32m2026-10-16 07:31:57.566[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 388, completion_tokens: 38[0m
+[32m2026-10-16 07:31:57.568[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 40[0m
+[32m2026-10-16 07:31:57.568[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 41 with 10 children[0m
+[32m2026-10-16 07:32:05.516[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 270, completion_tokens: 143[0m
+[32m2026-10-16 07:32:05.517[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 41[0m
+[32m2026-10-16 07:32:05.517[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 42 with 12 children[0m
+[32m2026-10-16 07:32:07.752[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 369, completion_tokens: 29[0m
+[32m2026-10-16 07:32:07.753[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 42[0m
+[32m2026-10-16 07:32:07.753[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 43 with 10 children[0m
+[32m2026-10-16 07:32:15.385[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 246, completion_tokens: 83[0m
+[32m2026-10-16 07:32:15.386[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 43[0m
+[32m2026-10-16 07:32:15.386[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 44 with 10 children[0m
+[32m2026-10-16 07:32:17.411[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 305, completion_tokens: 42[0m
+[32m2026-10-16 07:32:17.413[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 44[0m
+[32m2026-10-16 07:32:17.414[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 125 with 10 children[0m
+[32m2026-10-16 07:32:22.028[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 267, completion_tokens: 97[0m
+[32m2026-10-16 07:32:22.028[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 125[0m
+[32m2026-10-16 07:32:22.028[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 126 with 12 children[0m
+[32m2026-10-16 07:32:27.584[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 348, completion_tokens: 47[0m
+[32m2026-10-16 07:32:27.585[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 126[0m
+[32m2026-10-16 07:32:27.585[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 127 with 10 children[0m
+[32m2026-10-16 07:32:31.591[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 292, completion_tokens: 56[0m
+[32m2026-10-16 07:32:31.592[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 127[0m
+[32m2026-10-16 07:32:31.592[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 128 with 9 children[0m
+[32m2026-10-16 07:32:34.517[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 238, completion_tokens: 41[0m
+[32m2026-10-16 07:32:34.518[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 128[0m
+[32m2026-10-16 07:32:34.518[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 129 with 10 children[0m
+[32m2026-10-16 07:32:38.650[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 315, completion_tokens: 78[0m
+[32m2026-10-16 07:32:38.651[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 129[0m
+[32m2026-10-16 07:32:38.651[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 130 with 10 children[0m
+[32m2026-10-16 07:32:40.936[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 279, completion_tokens: 50[0m
+[32m2026-10-16 07:32:40.937[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 130[0m
+[32m2026-10-16 07:32:40.938[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m524[0m - [1m✅Layer 1 resummarize completed in 45.82 seconds[0m
+[32m2026-10-16 07:32:40.938[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m529[0m - [1mlen of texts: 11[0m
+[32m2026-10-16 07:32:41.085[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m534[0m - [1m✅Layer 1 embedding_update completed in 0.15 seconds[0m
+[32m2026-10-16 07:32:41.086[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m545[0m - [1mlen of current layer signatures: 11[0m
+[32m2026-10-16 07:32:41.086[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m547[0m - [1m✅Layer 1 signature_update completed in 0.00 seconds[0m
+[32m2026-10-16 07:32:41.086[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_reorder_node_id[0m:[36m615[0m - [1mlen of new_all_nodes: 131[0m
+[32m2026-10-16 07:32:41.086[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_reorder_node_id[0m:[36m616[0m - [1mlen of original nodes: 131[0m
+[32m2026-10-16 07:32:41.087[0m | [1mINFO    [0m | [36mCore.Storage.TreeGraphStorage[0m:[36m_persist[0m:[36m33[0m - [1mWriting graph into D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_80\tree_graph_dynamic\graph_storage_tree_data.pkl[0m
+[32m2026-10-16 07:32:41.089[0m | [1mINFO    [0m | [36mCore.Graph.BaseGraph[0m:[36mbuild_graph[0m:[36m48[0m - [1m✅ Finished adding additional info to the tree[0m
+[32m2026-10-16 07:32:41.090[0m | [1mINFO    [0m | [36mCore.Graph.BaseGraph[0m:[36mbuild_graph[0m:[36m57[0m - [1m✅ Finished the graph building stage[0m
+  batch 1 n= 80 leaves= 120 internal= 11 wall= 46.51s tok=   4021
+[32m2026-10-16 07:32:41.091[0m | [1mINFO    [0m | [36mCore.Chunk.DocChunk[0m:[36mbuild_chunks[0m:[36m27[0m - [1mStarting chunk the given documents[0m
+[32m2026-10-16 07:32:41.164[0m | [1mINFO    [0m | [36mCore.Storage.ChunkKVStorage[0m:[36m_persist[0m:[36m105[0m - [1mWriting data into D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_80\_c_b2\w3c_d80_b2\chunk_storage_chunk_data_idx.pkl and D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_80\_c_b2\w3c_d80_b2\chunk_storage_chunk_data_key.pkl[0m
+[32m2026-10-16 07:32:41.175[0m | [1mINFO    [0m | [36mCore.Chunk.DocChunk[0m:[36mbuild_chunks[0m:[36m74[0m - [1m✅ Finished the chunking stage[0m
+[32m2026-10-16 07:32:41.175[0m | [1mINFO    [0m | [36mCore.Graph.BaseGraph[0m:[36mbuild_graph[0m:[36m41[0m - [1mStarting build graph for the given documents[0m
+[32m2026-10-16 07:32:41.175[0m | [1mINFO    [0m | [36mCore.Storage.TreeGraphStorage[0m:[36mload_tree_graph[0m:[36m47[0m - [1mAttempting to load the tree from: D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_80\tree_graph_dynamic\graph_storage_tree_data.pkl[0m
+[32m2026-10-16 07:32:41.188[0m | [1mINFO    [0m | [36mCore.Storage.TreeGraphStorage[0m:[36mload_tree_graph[0m:[36m53[0m - [1mSuccessfully loaded tree from: D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_80\tree_graph_dynamic\graph_storage_tree_data.pkl with 131 nodes and 2 layers[0m
+[32m2026-10-16 07:32:41.188[0m | [1mINFO    [0m | [36mCore.Storage.TreeGraphStorage[0m:[36mload_full_tree_graph[0m:[36m100[0m - [1mAttempting to load the full tree from: D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_80\tree_graph_dynamic\graph_storage_tree_data.pkl[0m
+[32m2026-10-16 07:32:41.190[0m | [1mINFO    [0m | [36mCore.Storage.TreeGraphStorage[0m:[36mload_full_tree_graph[0m:[36m116[0m - [1mSuccessfully loaded full tree with 120 leaves and 2 layers.[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 131, children = None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 132, children = None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 133, children = None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 134, children = None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 135, children = None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 136, children = None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 137, children = None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 138, children = None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 139, children = None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 140, children = None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 141, children = None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 142, children = None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 143, children = None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 144, children = None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 145, children = None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 146, children = None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 147, children = None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 148, children = None[0m
+[32m2026-10-16 07:32:41.191[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 149, children = None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 150, children = None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 151, children = None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 152, children = None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 153, children = None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 154, children = None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 155, children = None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 156, children = None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 157, children = None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 158, children = None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 159, children = None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 160, children = None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 161, children = None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 162, children = None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 163, children = None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 164, children = None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 165, children = None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 166, children = None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 167, children = None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 168, children = None[0m
+[32m2026-10-16 07:32:41.192[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 169, children = None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 170, children = None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 171, children = None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 172, children = None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 173, children = None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 174, children = None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 175, children = None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 176, children = None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 177, children = None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 178, children = None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 179, children = None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 180, children = None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 181, children = None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 182, children = None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 183, children = None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 184, children = None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 185, children = None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 186, children = None[0m
+[32m2026-10-16 07:32:41.193[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 187, children = None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 188, children = None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 189, children = None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 190, children = None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 191, children = None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 192, children = None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 193, children = None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 194, children = None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 195, children = None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 196, children = None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 197, children = None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 198, children = None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 199, children = None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 200, children = None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 201, children = None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 202, children = None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 203, children = None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 204, children = None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 205, children = None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 206, children = None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.194[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 207, children = None[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 208, children = None[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 209, children = None[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 210, children = None[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m630[0m - [1mnew_node.parent: None[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m636[0m - [1mRefining graph with 80 new chunks[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m638[0m - [1mlength of layer: 200[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m463[0m - [1mrefine layer: 0[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m475[0m - [1m✅Layer 0 split&merge completed in 0.00 seconds[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 131[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 132[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 133[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 134[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 135[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 136[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 137[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 138[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 139[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 140[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 141[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 142[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 143[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 144[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 145[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 146[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 147[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 148[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 149[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 150[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 151[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 152[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 153[0m
+[32m2026-10-16 07:32:41.195[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 154[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 155[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 156[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 157[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 158[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 159[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 160[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 161[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 162[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 163[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 164[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 165[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 166[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 167[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 168[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 169[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 170[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 171[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 172[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 173[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 174[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 175[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 176[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 177[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 178[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 179[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 180[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 181[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 182[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 183[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 184[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 185[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 186[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 187[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 188[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 189[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 190[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 191[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 192[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 193[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 194[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 195[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 196[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 197[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 198[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 199[0m
+[32m2026-10-16 07:32:41.196[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 200[0m
+[32m2026-10-16 07:32:41.197[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 201[0m
+[32m2026-10-16 07:32:41.197[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 202[0m
+[32m2026-10-16 07:32:41.197[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 203[0m
+[32m2026-10-16 07:32:41.197[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 204[0m
+[32m2026-10-16 07:32:41.197[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 205[0m
+[32m2026-10-16 07:32:41.197[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 206[0m
+[32m2026-10-16 07:32:41.197[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 207[0m
+[32m2026-10-16 07:32:41.197[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 208[0m
+[32m2026-10-16 07:32:41.197[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 209[0m
+[32m2026-10-16 07:32:41.197[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 210[0m
+[32m2026-10-16 07:32:41.197[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m490[0m - [1mlen of current affected entities: 80[0m
+[32m2026-10-16 07:32:41.197[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m524[0m - [1m✅Layer 0 resummarize completed in 0.00 seconds[0m
+[32m2026-10-16 07:32:41.197[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m529[0m - [1mlen of texts: 80[0m
+[32m2026-10-16 07:32:41.784[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m534[0m - [1m✅Layer 0 embedding_update completed in 0.59 seconds[0m
+[32m2026-10-16 07:32:41.786[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m545[0m - [1mlen of current layer signatures: 200[0m
+[32m2026-10-16 07:32:41.786[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m547[0m - [1m✅Layer 0 signature_update completed in 0.00 seconds[0m
+[32m2026-10-16 07:32:41.786[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m586[0m - [1mrecord_parent_idx: [None, 40, 42, None, 42, 42, 42, 42, 42, 42, None, 42, 42, None, None, 42, 42, 42, None, 126, 126, 126, 126, 126, 126, 126, 126, 126, 126, 126, None, None, None, 126, 40, 40, None, None, None, 40, 40, 40, None, 40, 40, None, 40, 40, 40, 40, 40, 40, None, None, None, None, 40, 40, None, 40, None, 43, None, None, None, 43, None, 43, 43, None, None, 43, 43, 43, None, None, None, None, 43, None, 43, 43, None, 127, 127, 127, 127, 127, 127, None, 127, None, 127, 127, 127, 128, None, None, 128, None, None, 128, 128, None, 128, None, 128, None, None, 128, None, 128, None, 128, None, None, 41, None, None, 41, 41, 41, 41, None, None, None, None, None, None, 41, 41, None, None, 41, 41, 41, 125, 125, 125, 125, None, 125, 125, None, 125, 125, 125, None, None, 125, 44, 44, 44, None, None, 44, None, 44, 44, None, None, None, None, None, None, 44, None, None, None, None, 44, 44, 44, 129, 129, 129, 129, 129, None, 129, None, 129, 129, 129, None, 129, None, 130, 130, 130, 130, 130, 130, None, 130, 130, 130, 130, None, None][0m
+[32m2026-10-16 07:32:41.786[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m589[0m - [1mLayer 0 refinement completed in 0.59 seconds[0m
+[32m2026-10-16 07:32:41.786[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_graph[0m:[36m638[0m - [1mlength of layer: 11[0m
+[32m2026-10-16 07:32:41.786[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m463[0m - [1mrefine layer: 1[0m
+[32m2026-10-16 07:32:41.786[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m470[0m - [1mtotal children: 200[0m
+[32m2026-10-16 07:32:41.786[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_split_node[0m:[36m364[0m - [1msplit node: 40 with num of children: 29[0m
+[32m2026-10-16 07:32:41.786[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 211, children = {0, 65, 64, 200, 11, 77, 47, 182, 60, 61}[0m
+[32m2026-10-16 07:32:41.786[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 212, children = {2, 164, 165, 166, 167, 6, 169, 170, 25}[0m
+[32m2026-10-16 07:32:41.786[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_split_node[0m:[36m364[0m - [1msplit node: 41 with num of children: 20[0m
+[32m2026-10-16 07:32:41.786[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 213, children = {194, 163, 36, 136, 174, 143, 115, 116, 91, 124}[0m
+[32m2026-10-16 07:32:41.786[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_split_node[0m:[36m364[0m - [1msplit node: 42 with num of children: 17[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_split_node[0m:[36m364[0m - [1msplit node: 43 with num of children: 22[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 214, children = {8, 9, 171, 78, 148, 52, 86, 154, 187, 157, 158}[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_split_node[0m:[36m364[0m - [1msplit node: 44 with num of children: 23[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 215, children = {185, 133, 199, 105, 202, 75, 13, 179, 84, 153, 156}[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_split_node[0m:[36m364[0m - [1msplit node: 125 with num of children: 14[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_split_node[0m:[36m364[0m - [1msplit node: 126 with num of children: 15[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_split_node[0m:[36m364[0m - [1msplit node: 128 with num of children: 21[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 216, children = {192, 161, 4, 69, 73, 137, 203, 139, 142, 85}[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_split_node[0m:[36m364[0m - [1msplit node: 129 with num of children: 14[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_split_node[0m:[36m364[0m - [1msplit node: 130 with num of children: 13[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m475[0m - [1m✅Layer 1 split&merge completed in 0.00 seconds[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 40[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 41[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 42[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 43[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 44[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 125[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 126[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 127[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 128[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 129[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 130[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 211[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 212[0m
+[32m2026-10-16 07:32:41.787[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 213[0m
+[32m2026-10-16 07:32:41.788[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 214[0m
+[32m2026-10-16 07:32:41.788[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 215[0m
+[32m2026-10-16 07:32:41.788[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m484[0m - [1maffected node.index: 216[0m
+[32m2026-10-16 07:32:41.788[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m490[0m - [1mlen of current affected entities: 17[0m
+[32m2026-10-16 07:32:41.788[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 40 with 10 children[0m
+[32m2026-10-16 07:32:41.789[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 216 with 10 children[0m
+[32m2026-10-16 07:32:43.911[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 312, completion_tokens: 34[0m
+[32m2026-10-16 07:33:04.275[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 243, completion_tokens: 36[0m
+[32m2026-10-16 07:33:04.276[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 40[0m
+[32m2026-10-16 07:33:04.276[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 216[0m
+[32m2026-10-16 07:33:04.276[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 41 with 10 children[0m
+[32m2026-10-16 07:33:10.022[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 230, completion_tokens: 95[0m
+[32m2026-10-16 07:33:10.023[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 41[0m
+[32m2026-10-16 07:33:10.023[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 42 with 17 children[0m
+[32m2026-10-16 07:33:32.791[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 529, completion_tokens: 53[0m
+[32m2026-10-16 07:33:32.792[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 42[0m
+[32m2026-10-16 07:33:32.792[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 43 with 11 children[0m
+[32m2026-10-16 07:33:37.288[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 255, completion_tokens: 95[0m
+[32m2026-10-16 07:33:37.289[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 43[0m
+[32m2026-10-16 07:33:37.289[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 44 with 12 children[0m
+[32m2026-10-16 07:33:40.165[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 413, completion_tokens: 57[0m
+[32m2026-10-16 07:33:40.166[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 44[0m
+[32m2026-10-16 07:33:40.166[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 125 with 14 children[0m
+[32m2026-10-16 07:33:44.740[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 368, completion_tokens: 84[0m
+[32m2026-10-16 07:33:44.741[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 125[0m
+[32m2026-10-16 07:33:44.741[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 126 with 15 children[0m
+[32m2026-10-16 07:33:47.093[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 440, completion_tokens: 45[0m
+[32m2026-10-16 07:33:47.094[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 126[0m
+[32m2026-10-16 07:33:47.094[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 127 with 12 children[0m
+[32m2026-10-16 07:33:50.946[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 339, completion_tokens: 75[0m
+[32m2026-10-16 07:33:50.947[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 127[0m
+[32m2026-10-16 07:33:50.947[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 128 with 11 children[0m
+[32m2026-10-16 07:33:53.391[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 294, completion_tokens: 34[0m
+[32m2026-10-16 07:33:53.391[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 128[0m
+[32m2026-10-16 07:33:53.392[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 129 with 14 children[0m
+[32m2026-10-16 07:33:56.958[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 400, completion_tokens: 38[0m
+[32m2026-10-16 07:33:56.959[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 129[0m
+[32m2026-10-16 07:33:56.959[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 130 with 13 children[0m
+[32m2026-10-16 07:34:01.877[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 368, completion_tokens: 64[0m
+[32m2026-10-16 07:34:01.878[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 130[0m
+[32m2026-10-16 07:34:01.878[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 211 with 10 children[0m
+[32m2026-10-16 07:34:04.294[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 243, completion_tokens: 35[0m
+[32m2026-10-16 07:34:04.295[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 211[0m
+[32m2026-10-16 07:34:04.295[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 212 with 9 children[0m
+[32m2026-10-16 07:34:07.843[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 314, completion_tokens: 37[0m
+[32m2026-10-16 07:34:07.844[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 212[0m
+[32m2026-10-16 07:34:07.844[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 213 with 10 children[0m
+[32m2026-10-16 07:34:13.344[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 297, completion_tokens: 60[0m
+[32m2026-10-16 07:34:13.345[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 213[0m
+[32m2026-10-16 07:34:13.345[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 214 with 11 children[0m
+[32m2026-10-16 07:34:20.426[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 336, completion_tokens: 104[0m
+[32m2026-10-16 07:34:20.426[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 214[0m
+[32m2026-10-16 07:34:20.426[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m505[0m - [1mProcessing node 215 with 11 children[0m
+[32m2026-10-16 07:34:27.267[0m | [1mINFO    [0m | [36mCore.Common.CostManager[0m:[36mupdate_cost[0m:[36m136[0m - [1mprompt_tokens: 328, completion_tokens: 59[0m
+[32m2026-10-16 07:34:27.267[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m519[0m - [1mUpdated summary for node 215[0m
+[32m2026-10-16 07:34:27.268[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m524[0m - [1m✅Layer 1 resummarize completed in 105.48 seconds[0m
+[32m2026-10-16 07:34:27.268[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m529[0m - [1mlen of texts: 17[0m
+[32m2026-10-16 07:34:27.420[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m534[0m - [1m✅Layer 1 embedding_update completed in 0.15 seconds[0m
+[32m2026-10-16 07:34:27.421[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m545[0m - [1mlen of current layer signatures: 17[0m
+[32m2026-10-16 07:34:27.421[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m547[0m - [1m✅Layer 1 signature_update completed in 0.00 seconds[0m
+[32m2026-10-16 07:34:27.421[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_create_node_without_embedding[0m:[36m289[0m - [1mCreate node_id = 217, children = {128, 129, 130, 40, 41, 42, 43, 44, 211, 212, 213, 214, 215, 216, 125, 126, 127}[0m
+[32m2026-10-16 07:34:27.421[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m565[0m - [1mcurrent layer signatures: [(34754, 212), (266986, 40), (267514, 127), (395001, 126), (407294, 215), (464639, 130), (471531, 129), (472831, 42), (800200, 41), (832227, 125), (832835, 211), (833518, 216), (849122, 213), (931450, 128), (931534, 214), (963231, 43), (996602, 44)][0m
+[32m2026-10-16 07:34:27.421[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m586[0m - [1mrecord_parent_idx: [217, 217, 217, 217, 217, 217, 217, 217, 217, 217, 217, 217, 217, 217, 217, 217, 217][0m
+[32m2026-10-16 07:34:27.421[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_refine_one_layer[0m:[36m589[0m - [1mLayer 1 refinement completed in 105.64 seconds[0m
+[32m2026-10-16 07:34:27.422[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_reorder_node_id[0m:[36m615[0m - [1mlen of new_all_nodes: 217[0m
+[32m2026-10-16 07:34:27.422[0m | [1mINFO    [0m | [36mCore.Graph.TreeGraphDynamic[0m:[36m_reorder_node_id[0m:[36m616[0m - [1mlen of original nodes: 218[0m
+[32m2026-10-16 07:34:27.422[0m | [1mINFO    [0m | [36mCore.Storage.TreeGraphStorage[0m:[36m_persist[0m:[36m33[0m - [1mWriting graph into D:\WSPforWB\10.keyan\_e14_run\_w3c_d200_80\tree_graph_dynamic\graph_storage_tree_data.pkl[0m
+[32m2026-10-16 07:34:27.425[0m | [1mINFO    [0m | [36mCore.Graph.BaseGraph[0m:[36mbuild_graph[0m:[36m48[0m - [1m✅ Finished adding additional info to the tree[0m
+[32m2026-10-16 07:34:27.425[0m | [1mINFO    [0m | [36mCore.Graph.BaseGraph[0m:[36mbuild_graph[0m:[36m57[0m - [1m✅ Finished the graph building stage[0m
+  batch 2 n= 80 leaves= 200 internal= 17 wall=106.25s tok=   6714
+  ★ Δ=80: batches=2 final_leaves=200 final_internal=17 wall=158.07s tokens=12085
+[报告] 写入 D:\WSPforWB\10.keyan\场景1-海量短文本\实验\E14_Baseline2_EraRAG\W3c_delta80.json

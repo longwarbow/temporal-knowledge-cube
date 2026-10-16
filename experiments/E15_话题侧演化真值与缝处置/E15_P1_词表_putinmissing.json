@@ -1,0 +1,63 @@
+{
+ "event": "putinmissing",
+ "nodes": [
+  {
+   "node": "status_report",
+   "desc": "Reports on Putin's current status"
+  },
+  {
+   "node": "location_report",
+   "desc": "Reports on Putin's location"
+  },
+  {
+   "node": "missing_report",
+   "desc": "Reports on Putin being missing"
+  },
+  {
+   "node": "coup_theory",
+   "desc": "Theories about a coup"
+  },
+  {
+   "node": "disappearance_theory",
+   "desc": "Theories about disappearance"
+  },
+  {
+   "node": "indication_of_event",
+   "desc": "Indications of an event"
+  },
+  {
+   "node": "presence_report",
+   "desc": "Reports on Putin's presence"
+  },
+  {
+   "node": "reappearance_report",
+   "desc": "Reports on Putin's reappearance"
+  },
+  {
+   "node": "reason_speculation",
+   "desc": "Speculations on reasons"
+  },
+  {
+   "node": "health_condition_report",
+   "desc": "Reports on Putin's health condition"
+  },
+  {
+   "node": "rumour_report",
+   "desc": "Reports of rumours"
+  },
+  {
+   "node": "absence_report",
+   "desc": "Reports of absence"
+  },
+  {
+   "node": "mastermind_theory",
+   "desc": "Theories about masterminds behind a coup"
+  },
+  {
+   "node": "replacement_theory",
+   "desc": "Theories about a replacement"
+  }
+ ],
+ "n_label_used": 52,
+ "coverage_pct": 85.0
+}

@@ -1,0 +1,35 @@
+{
+ "event": "ebola",
+ "nodes": [
+  {
+   "node": "ebola_infection",
+   "desc": "Reports of Ebola virus infection cases"
+  },
+  {
+   "node": "ebola_status",
+   "desc": "Information about the status of Ebola virus affected individuals"
+  },
+  {
+   "node": "ebola_diagnosis",
+   "desc": "Diagnosis processes and outcomes related to Ebola"
+  },
+  {
+   "node": "ebola_rumours",
+   "desc": "Rumours or false information about Ebola"
+  },
+  {
+   "node": "ebola_virus",
+   "desc": "General information about the Ebola virus"
+  },
+  {
+   "node": "accuracy",
+   "desc": "Accuracy of information regarding Ebola"
+  },
+  {
+   "node": "consideration",
+   "desc": "Considerations or opinions on Ebola"
+  }
+ ],
+ "n_label_used": 8,
+ "coverage_pct": 85.7
+}

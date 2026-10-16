@@ -1,0 +1,72 @@
+{
+  "n": 755,
+  "resolution": {
+    "M=N": 709,
+    "majority(M,N,O)": 41,
+    "all_distinct": 5
+  },
+  "n_tie": 5,
+  "ties": [
+    "E13-0102",
+    "E13-0139",
+    "E13-0596",
+    "E13-0601",
+    "E13-0687"
+  ],
+  "truth_dist": {
+    "UNRELATED": 461,
+    "DERIVE": 105,
+    "SUPPORT": 145,
+    "CONFLICT": 39
+  },
+  "per_stratum_truth": {
+    "S1_same_thread_reply": {
+      "n": 97,
+      "dist": {
+        "UNRELATED": 87,
+        "DERIVE": 6,
+        "SUPPORT": 2,
+        "CONFLICT": 2
+      }
+    },
+    "S2_cross_thread_high_sim": {
+      "n": 97,
+      "dist": {
+        "DERIVE": 7,
+        "SUPPORT": 77,
+        "CONFLICT": 6,
+        "UNRELATED": 7
+      }
+    },
+    "S3_cross_thread_opposite_veracity": {
+      "n": 95,
+      "dist": {
+        "UNRELATED": 88,
+        "SUPPORT": 7
+      }
+    },
+    "S4_cross_thread_random": {
+      "n": 97,
+      "dist": {
+        "UNRELATED": 86,
+        "SUPPORT": 10,
+        "CONFLICT": 1
+      }
+    },
+    "S5_cross_thread_verbatim": {
+      "n": 97,
+      "dist": {
+        "DERIVE": 92,
+        "SUPPORT": 5
+      }
+    },
+    "S6_same_slot_conflicting": {
+      "n": 267,
+      "dist": {
+        "UNRELATED": 193,
+        "CONFLICT": 30,
+        "SUPPORT": 44
+      }
+    }
+  }
+}

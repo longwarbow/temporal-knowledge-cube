@@ -1,0 +1,77 @@
+{
+ "n": 755,
+ "relabeled": 238,
+ "unchanged": 517,
+ "channel_A_B_kappa": 0.8937,
+ "channel_po": 0.9286,
+ "n_disagree": 17,
+ "disagree": [
+  "E13-0018",
+  "E13-0020",
+  "E13-0037",
+  "E13-0064",
+  "E13-0212",
+  "E13-0399",
+  "E13-0454",
+  "E13-0463",
+  "E13-0475",
+  "E13-0555",
+  "E13-0563",
+  "E13-0624",
+  "E13-0650",
+  "E13-0692",
+  "E13-0701",
+  "E13-0728",
+  "E13-0753"
+ ],
+ "n_tie": 2,
+ "ties": [
+  "E13-0692",
+  "E13-0701"
+ ],
+ "n_label_changed": 21,
+ "changed": [
+  "E13-0070",
+  "E13-0197",
+  "E13-0203",
+  "E13-0334",
+  "E13-0410",
+  "E13-0427",
+  "E13-0433",
+  "E13-0446",
+  "E13-0463",
+  "E13-0464",
+  "E13-0482",
+  "E13-0555",
+  "E13-0563",
+  "E13-0596",
+  "E13-0601",
+  "E13-0607",
+  "E13-0612",
+  "E13-0687",
+  "E13-0694",
+  "E13-0728",
+  "E13-0753"
+ ],
+ "dist_full": {
+  "UNRELATED": 469,
+  "DERIVE": 104,
+  "SUPPORT": 148,
+  "CONFLICT": 34
+ },
+ "dist_relabel_set": {
+  "DERIVE": 93,
+  "UNRELATED": 93,
+  "SUPPORT": 42,
+  "CONFLICT": 10
+ },
+ "changed_matrix": {
+  "CONFLICT->UNRELATED": 5,
+  "SUPPORT->DERIVE": 4,
+  "DERIVE->SUPPORT": 4,
+  "DERIVE->UNRELATED": 1,
+  "SUPPORT->UNRELATED": 2,
+  "CONFLICT->SUPPORT": 4,
+  "UNRELATED->SUPPORT": 1
+ }
+}

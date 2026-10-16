@@ -1,0 +1,11 @@
+﻿pair_id,label_relation,label_confidence,label_notes
+E13-0042,UNRELATED,2,"T1: p 全篇为祝愿/祈祷（Hearts and prayers go out to...），无事实命题，触发非命题源规则 ⇒ UNRELATED；q 虽夹带事实从句(guard from Hamilton armoury)，但因 p 侧无事实断言，T1-补 无从匹配，仍判 UNRELATED"
+E13-0083,UNRELATED,3,"T2: p 为祈使/邀请（Watch live @ 链接），不得读作断言''该链接是直播源''；q 显式否定该隐含命题，非否定 p 的显式断言 ⇒ UNRELATED"
+E13-0098,UNRELATED,2,"T3: 不同槽位——p 槽位=''为何被拦(stop)=堵路''，q 槽位=''为何被开枪/中弹次数=涉嫌盗窃、被打十枪''；谓词不同 ⇒ 非同一槽位，即便同属一事件也判 UNRELATED"
+E13-0105,SUPPORT,2,"T4: 同一主体(Ottawa police)、同一情形(搜捕多名嫌犯)的粗细不同描述，q 把 multiple 细化为 3 且补 one dealt with，无逆向/不相容 ⇒ 同命题 ⇒ SUPPORT"
+E13-0307,UNRELATED,2,"T1/2.2: p 仅为感叹+话题标签（American Justice?! + hashtags），无事实命题；q 转述''发布视频只为羞辱受害者''属另一子话题的意见，对 p 命题无真值约束 ⇒ UNRELATED"
+E13-0204,SUPPORT,3,"§2.1-补(细节优先): 命题相同(co-pilot had serious depressive episode)，但归因/来源由 p 的 Bild newspaper 变为 q 的 German media，属新增/改变的事实细节 ⇒ 不判 DERIVE，判 SUPPORT"
+E13-0231,SUPPORT,2,"T1-补(混合语力): q 前半为悼念(Rest in Peace)，忽略情绪部分；其事实从句''Cpl. Nathan Cirillo. Killed today in #OttawaShooting''与 p 命题(被确认遇难士兵=Cpl. Nathan Cirillo)同向一致 ⇒ SUPPORT"
+E13-0141,UNRELATED,2,"T3/2.2: p 命题=''机上有144乘客+6机组''，q 命题=''飞行员未发mayday、由ATC宣布紧急状态''，主体/谓词均不同，属同一事件的不同子话题 ⇒ UNRELATED"
+E13-0027,DERIVE,3,"§2.1/T1例外: q 以 RT @CTVNews 近似逐字照抄 p 的同文（''Ottawa police confirm there were at least three separate shootings''），显式引用痕迹 ⇒ DERIVE；前缀 Jesus. 为情绪，不影响"
+E13-0181,SUPPORT,2,"T4(情形同一性): p=嫌犯藏身于某建筑、q=警方与其对峙/疑有人质，同一主体(CharlieHebdo 嫌犯)、同一时间窗内的同一情形(被围困)之粗细不同描述 ⇒ 视为同命题、极性同向 ⇒ SUPPORT"

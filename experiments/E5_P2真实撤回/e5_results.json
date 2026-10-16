@@ -1,0 +1,274 @@
+{
+  "data": {
+    "n_posts": 105747,
+    "n_threads": 6425,
+    "nid_skipped": 0,
+    "veracity_coverage": 1972,
+    "veracity_dist": {
+      "unverified": 571,
+      "false": 393,
+      "true": 1008
+    },
+    "R_retracted_threads": 393,
+    "R_retracted_posts": 5508,
+    "events_with_criteria": {
+      "charliehebdo-all-rnr-threads": 116,
+      "sydneysiege-all-rnr-threads": 86,
+      "germanwings-crash-all-rnr-threads": 111,
+      "ferguson-all-rnr-threads": 8,
+      "ottawashooting-all-rnr-threads": 72
+    }
+  },
+  "snowflake_check": {
+    "ferguson-all-rnr-threads": [
+      "2014-08-09",
+      "2014-09-14",
+      "2014-08-09"
+    ],
+    "charliehebdo-all-rnr-threads": [
+      "2015-01-07",
+      "2015-01-22",
+      "2015-01-07"
+    ],
+    "sydneysiege-all-rnr-threads": [
+      "2014-12-14",
+      "2014-12-18",
+      "2014-12-15"
+    ],
+    "germanwings-crash-all-rnr-threads": [
+      "2015-03-24",
+      "2015-04-01",
+      "2015-03-24"
+    ],
+    "ottawashooting-all-rnr-threads": [
+      "2014-10-22",
+      "2014-10-26",
+      "2014-10-22"
+    ]
+  },
+  "retraction_load": {
+    "thread_size": {
+      "min": 1,
+      "p25": 5,
+      "median": 11,
+      "p75": 20,
+      "p90": 26,
+      "max": 178,
+      "mean": 14.02
+    },
+    "span_hours": {
+      "median": 1.93,
+      "p90": 25.45,
+      "max": 201.0,
+      "mean": 10.09
+    },
+    "days_covered": {
+      "median": 1,
+      "max": 6
+    },
+    "by_event": {
+      "charliehebdo-all-rnr-threads": 116,
+      "sydneysiege-all-rnr-threads": 86,
+      "germanwings-crash-all-rnr-threads": 111,
+      "ferguson-all-rnr-threads": 8,
+      "ottawashooting-all-rnr-threads": 72
+    }
+  },
+  "p2_affect": {
+    "day": {
+      "total_cells": 84,
+      "sum_independent": 501,
+      "union": 30,
+      "overlap_gain_x": 16.7,
+      "affected_ratio_pct": 35.714285714285715,
+      "cost_ratio_full_over_inc": 2.8
+    },
+    "hour": {
+      "total_cells": 1021,
+      "sum_independent": 1154,
+      "union": 224,
+      "overlap_gain_x": 5.151785714285714,
+      "affected_ratio_pct": 21.939275220372185,
+      "cost_ratio_full_over_inc": 4.558035714285714
+    },
+    "10min": {
+      "total_cells": 3693,
+      "sum_independent": 2179,
+      "union": 671,
+      "overlap_gain_x": 3.247391952309985,
+      "affected_ratio_pct": 18.1695098835635,
+      "cost_ratio_full_over_inc": 5.503725782414307
+    }
+  },
+  "p2_curves": {
+    "day": [
+      {
+        "n_decls": 3,
+        "cells": 14,
+        "pct_of_union": 46.666666666666664
+      },
+      {
+        "n_decls": 19,
+        "cells": 24,
+        "pct_of_union": 80.0
+      },
+      {
+        "n_decls": 39,
+        "cells": 24,
+        "pct_of_union": 80.0
+      },
+      {
+        "n_decls": 98,
+        "cells": 29,
+        "pct_of_union": 96.66666666666667
+      },
+      {
+        "n_decls": 196,
+        "cells": 29,
+        "pct_of_union": 96.66666666666667
+      },
+      {
+        "n_decls": 294,
+        "cells": 29,
+        "pct_of_union": 96.66666666666667
+      },
+      {
+        "n_decls": 393,
+        "cells": 30,
+        "pct_of_union": 100.0
+      }
+    ],
+    "hour": [
+      {
+        "n_decls": 3,
+        "cells": 41,
+        "pct_of_union": 18.303571428571427
+      },
+      {
+        "n_decls": 19,
+        "cells": 106,
+        "pct_of_union": 47.32142857142857
+      },
+      {
+        "n_decls": 39,
+        "cells": 144,
+        "pct_of_union": 64.28571428571429
+      },
+      {
+        "n_decls": 98,
+        "cells": 190,
+        "pct_of_union": 84.82142857142857
+      },
+      {
+        "n_decls": 196,
+        "cells": 214,
+        "pct_of_union": 95.53571428571429
+      },
+      {
+        "n_decls": 294,
+        "cells": 223,
+        "pct_of_union": 99.55357142857143
+      },
+      {
+        "n_decls": 393,
+        "cells": 224,
+        "pct_of_union": 100.0
+      }
+    ],
+    "10min": [
+      {
+        "n_decls": 3,
+        "cells": 69,
+        "pct_of_union": 10.283159463487332
+      },
+      {
+        "n_decls": 19,
+        "cells": 263,
+        "pct_of_union": 39.195230998509686
+      },
+      {
+        "n_decls": 39,
+        "cells": 386,
+        "pct_of_union": 57.52608047690015
+      },
+      {
+        "n_decls": 98,
+        "cells": 529,
+        "pct_of_union": 78.83755588673621
+      },
+      {
+        "n_decls": 196,
+        "cells": 629,
+        "pct_of_union": 93.74068554396423
+      },
+      {
+        "n_decls": 294,
+        "cells": 661,
+        "pct_of_union": 98.50968703427719
+      },
+      {
+        "n_decls": 393,
+        "cells": 671,
+        "pct_of_union": 100.0
+      }
+    ]
+  },
+  "p2_consistency": {
+    "day": {
+      "cells_total": 84,
+      "recompute_scope": 30,
+      "mismatch": 0,
+      "consistent": true
+    },
+    "hour": {
+      "cells_total": 1021,
+      "recompute_scope": 224,
+      "mismatch": 0,
+      "consistent": true
+    },
+    "10min": {
+      "cells_total": 3693,
+      "recompute_scope": 671,
+      "mismatch": 0,
+      "consistent": true
+    }
+  },
+  "baseline4_asof": [
+    {
+      "event": "charliehebdo-all-rnr-threads",
+      "final_correct": 36849,
+      "final_baseline": 38670,
+      "final_overcount_pct": 4.709076803723817,
+      "worst_checkpoint_pct": 4.720918777383144
+    },
+    {
+      "event": "ferguson-all-rnr-threads",
+      "final_correct": 23614,
+      "final_baseline": 23748,
+      "final_overcount_pct": 0.5642580427825501,
+      "worst_checkpoint_pct": 2.6989426822481914
+    },
+    {
+      "event": "germanwings-crash-all-rnr-threads",
+      "final_correct": 3444,
+      "final_baseline": 4524,
+      "final_overcount_pct": 23.872679045092838,
+      "worst_checkpoint_pct": 23.664967870596055
+    },
+    {
+      "event": "ottawashooting-all-rnr-threads",
+      "final_correct": 11557,
+      "final_baseline": 12402,
+      "final_overcount_pct": 6.813417190775682,
+      "worst_checkpoint_pct": 6.82001614205004
+    },
+    {
+      "event": "sydneysiege-all-rnr-threads",
+      "final_correct": 22600,
+      "final_baseline": 24228,
+      "final_overcount_pct": 6.7194981013703154,
+      "worst_checkpoint_pct": 10.431080361894624
+    }
+  ],
+  "elapsed_s": 6.82
+}

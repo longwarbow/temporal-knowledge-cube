@@ -1,0 +1,551 @@
+{
+  "n_pairs_scanned": 194,
+  "n_labelled": 76,
+  "applicability": {
+    "labelled_total": 76,
+    "applicable": 63,
+    "not_applicable": 2
+  },
+  "dir1_false_negative": {
+    "case": "真值∈{SUPPORT,CONFLICT}（人工判同一槽位）",
+    "n_applicable": 19,
+    "n_passed": 19,
+    "recall": 1.0,
+    "items": []
+  },
+  "dir2_false_positive": {
+    "case": "真值=UNRELATED 且 A4 适用",
+    "n_applicable": 44,
+    "n_blocked": 12,
+    "precision": 0.2727272727272727,
+    "items": [
+      {
+        "pair_id": "E13-0486",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "strict",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "CUSTODY_HELD",
+        "fam_q": "CUSTODY_HELD",
+        "inter": "CUSTODY_HELD"
+      },
+      {
+        "pair_id": "E13-0487",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "strict",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "FATALITY+FORCE_SHOTS",
+        "fam_q": "FATALITY",
+        "inter": "FATALITY"
+      },
+      {
+        "pair_id": "E13-0493",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "strict",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "FATALITY",
+        "fam_q": "FATALITY",
+        "inter": "FATALITY"
+      },
+      {
+        "pair_id": "E13-0496",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "strict",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "FATALITY",
+        "fam_q": "FATALITY",
+        "inter": "FATALITY"
+      },
+      {
+        "pair_id": "E13-0498",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "strict",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "PERPETRATOR_EXISTS",
+        "fam_q": "CUSTODY_HELD+PERPETRATOR_EXISTS",
+        "inter": "PERPETRATOR_EXISTS"
+      },
+      {
+        "pair_id": "E13-0500",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "strict",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "CUSTODY_HELD",
+        "fam_q": "CUSTODY_HELD",
+        "inter": "CUSTODY_HELD"
+      },
+      {
+        "pair_id": "E13-0503",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "strict",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "CUSTODY_HELD",
+        "fam_q": "CUSTODY_HELD",
+        "inter": "CUSTODY_HELD"
+      },
+      {
+        "pair_id": "E13-0510",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "strict",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "FATALITY",
+        "fam_q": "FATALITY",
+        "inter": "FATALITY"
+      },
+      {
+        "pair_id": "E13-0516",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "strict",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "PERPETRATOR_EXISTS",
+        "fam_q": "PERPETRATOR_EXISTS",
+        "inter": "PERPETRATOR_EXISTS"
+      },
+      {
+        "pair_id": "E13-0519",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "strict",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "FATALITY",
+        "fam_q": "FATALITY",
+        "inter": "FATALITY"
+      },
+      {
+        "pair_id": "E13-0523",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "strict",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "FATALITY",
+        "fam_q": "FATALITY",
+        "inter": "FATALITY"
+      },
+      {
+        "pair_id": "E13-0525",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "strict",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "FATALITY",
+        "fam_q": "FATALITY",
+        "inter": "FATALITY"
+      },
+      {
+        "pair_id": "E13-0526",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "strict",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "PERPETRATOR_EXISTS",
+        "fam_q": "PERPETRATOR_EXISTS",
+        "inter": "PERPETRATOR_EXISTS"
+      },
+      {
+        "pair_id": "E13-0530",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "strict",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "FATALITY+FORCE_SHOTS",
+        "fam_q": "FATALITY",
+        "inter": "FATALITY"
+      },
+      {
+        "pair_id": "E13-0531",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "strict",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "FATALITY",
+        "fam_q": "FATALITY",
+        "inter": "FATALITY"
+      },
+      {
+        "pair_id": "E13-0544",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "strict",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "FATALITY",
+        "fam_q": "FATALITY",
+        "inter": "FATALITY"
+      },
+      {
+        "pair_id": "E13-0547",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "polarity",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "CUSTODY_HELD+INJURY",
+        "fam_q": "INJURY",
+        "inter": "INJURY"
+      },
+      {
+        "pair_id": "E13-0551",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "polarity",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "FATALITY",
+        "fam_q": "FATALITY",
+        "inter": "FATALITY"
+      },
+      {
+        "pair_id": "E13-0553",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "polarity",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "FATALITY",
+        "fam_q": "FATALITY",
+        "inter": "FATALITY"
+      },
+      {
+        "pair_id": "E13-0556",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "polarity",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "PERPETRATOR_EXISTS",
+        "fam_q": "PERPETRATOR_EXISTS",
+        "inter": "PERPETRATOR_EXISTS"
+      },
+      {
+        "pair_id": "E13-0557",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "polarity",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "FATALITY",
+        "fam_q": "FATALITY",
+        "inter": "FATALITY"
+      },
+      {
+        "pair_id": "E13-0561",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "polarity",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "FATALITY",
+        "fam_q": "FATALITY",
+        "inter": "FATALITY"
+      },
+      {
+        "pair_id": "E13-0562",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "polarity",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "PERPETRATOR_EXISTS",
+        "fam_q": "PERPETRATOR_EXISTS",
+        "inter": "PERPETRATOR_EXISTS"
+      },
+      {
+        "pair_id": "E13-0565",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "polarity",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "FATALITY+FORCE_SHOTS",
+        "fam_q": "FATALITY",
+        "inter": "FATALITY"
+      },
+      {
+        "pair_id": "E13-0566",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "vague",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "FATALITY",
+        "fam_q": "FATALITY",
+        "inter": "FATALITY"
+      },
+      {
+        "pair_id": "E13-0567",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "vague",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "FATALITY",
+        "fam_q": "FATALITY",
+        "inter": "FATALITY"
+      },
+      {
+        "pair_id": "E13-0572",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "vague",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "PERPETRATOR_EXISTS",
+        "fam_q": "PERPETRATOR_EXISTS",
+        "inter": "PERPETRATOR_EXISTS"
+      },
+      {
+        "pair_id": "E13-0573",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "vague",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "PERPETRATOR_EXISTS",
+        "fam_q": "PERPETRATOR_EXISTS",
+        "inter": "PERPETRATOR_EXISTS"
+      },
+      {
+        "pair_id": "E13-0574",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "vague",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "PERPETRATOR_EXISTS",
+        "fam_q": "PERPETRATOR_EXISTS",
+        "inter": "PERPETRATOR_EXISTS"
+      },
+      {
+        "pair_id": "E13-0576",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "vague",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "FATALITY",
+        "fam_q": "FATALITY",
+        "inter": "FATALITY"
+      },
+      {
+        "pair_id": "E13-0580",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "vague",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "PERPETRATOR_EXISTS",
+        "fam_q": "PERPETRATOR_EXISTS",
+        "inter": "PERPETRATOR_EXISTS"
+      },
+      {
+        "pair_id": "E13-0581",
+        "stratum": "S6_same_slot_conflicting",
+        "subtype": "vague",
+        "truth": "UNRELATED",
+        "pred_rel": "same_family",
+        "gate": "pass",
+        "pred_reason": "",
+        "fam_p": "FATALITY",
+        "fam_q": "FATALITY",
+        "inter": "FATALITY"
+      }
+    ]
+  },
+  "unrelated_decomposition": {
+    "需其它条款：A3-ⓠ 计量对象": 3,
+    "需其它条款：A3-① 总体限定": 1,
+    "A4_block（谓词不可归并，机械可决）": 12,
+    "需其它条款：T1 非命题": 21,
+    "需其它条款：T3 情形不同": 6,
+    "需其它条款：T2 隐含": 1,
+    "A4_not_applicable（无数值族）": 1
+  },
+  "unrelated_decomposition_note": "人工归因（单编、可复核，逐条 pair_id 见 CLAUSE_ATTRIB）；未归因 0 条",
+  "named_boundary_families": [
+    {
+      "pair_id": "E13-0488",
+      "case": "被扣押 ↔ 逃离",
+      "ok": true,
+      "gate": "block",
+      "pred_rel": "diff_family",
+      "truth": "UNRELATED",
+      "fam_p": "CUSTODY_HELD",
+      "fam_q": "CUSTODY_EXITED"
+    },
+    {
+      "pair_id": "E13-0506",
+      "case": "被扣押 ↔ 逃离",
+      "ok": true,
+      "gate": "block",
+      "pred_rel": "diff_family",
+      "truth": "UNRELATED",
+      "fam_p": "CUSTODY_HELD",
+      "fam_q": "CUSTODY_EXITED"
+    },
+    {
+      "pair_id": "E13-0511",
+      "case": "被扣押 ↔ 逃离",
+      "ok": true,
+      "gate": "block",
+      "pred_rel": "diff_family",
+      "truth": "UNRELATED",
+      "fam_p": "CUSTODY_HELD",
+      "fam_q": "CUSTODY_EXITED"
+    },
+    {
+      "pair_id": "E13-0540",
+      "case": "被扣押 ↔ 离开",
+      "ok": true,
+      "gate": "block",
+      "pred_rel": "diff_family",
+      "truth": "UNRELATED",
+      "fam_p": "CUSTODY_EXITED",
+      "fam_q": "CUSTODY_HELD"
+    },
+    {
+      "pair_id": "E13-0541",
+      "case": "被扣押 ↔ 逃离",
+      "ok": true,
+      "gate": "block",
+      "pred_rel": "diff_family",
+      "truth": "UNRELATED",
+      "fam_p": "CUSTODY_HELD",
+      "fam_q": "CUSTODY_EXITED"
+    },
+    {
+      "pair_id": "E13-0542",
+      "case": "被扣押 ↔ 逃离",
+      "ok": true,
+      "gate": "block",
+      "pred_rel": "diff_family",
+      "truth": "UNRELATED",
+      "fam_p": "CUSTODY_HELD",
+      "fam_q": "CUSTODY_EXITED"
+    },
+    {
+      "pair_id": "E13-0491",
+      "case": "存在嫌犯 ↔ 嫌犯身份/背景",
+      "ok": true,
+      "gate": "block",
+      "pred_rel": "diff_family",
+      "truth": "UNRELATED",
+      "fam_p": "PERPETRATOR_EXISTS",
+      "fam_q": "FATALITY"
+    },
+    {
+      "pair_id": "E13-0543",
+      "case": "死亡 ↔ 医院收治",
+      "ok": true,
+      "gate": "block",
+      "pred_rel": "diff_family",
+      "truth": "UNRELATED",
+      "fam_p": "FATALITY",
+      "fam_q": "AMBIG_PERSON+INJURY"
+    },
+    {
+      "pair_id": "E13-0534",
+      "case": "被扣押 ↔ 枪击/逃离",
+      "ok": true,
+      "gate": "block",
+      "pred_rel": "diff_family",
+      "truth": "UNRELATED",
+      "fam_p": "CUSTODY_HELD",
+      "fam_q": "CUSTODY_EXITED"
+    }
+  ],
+  "coverage": {
+    "one_side_no_family": 95,
+    "both_sides_have_family": 99
+  },
+  "by_stratum": {
+    "S5_cross_thread_verbatim": {
+      "n": 97,
+      "pred_rel": {
+        "not_applicable": 94,
+        "same_family": 3
+      }
+    },
+    "S6_same_slot_conflicting": {
+      "n": 97,
+      "pred_rel": {
+        "same_family": 82,
+        "diff_family": 14,
+        "not_applicable": 1
+      }
+    }
+  },
+  "gate_on_v3": {
+    "n_changed": 2,
+    "changes": [
+      {
+        "pair_id": "E13-0491",
+        "truth": "UNRELATED",
+        "v3": "CONFLICT",
+        "after_gate": "UNRELATED",
+        "pred_rel": "diff_family"
+      },
+      {
+        "pair_id": "E13-0539",
+        "truth": "UNRELATED",
+        "v3": "CONFLICT",
+        "after_gate": "UNRELATED",
+        "pred_rel": "diff_family"
+      }
+    ]
+  },
+  "note": "真值取自 v1.5 合并真值（其中 6 条为 v1.5 复审裁定 ⇒ in-sample）；A4 门只在\"两侧都带数值族\"时适用"
+}

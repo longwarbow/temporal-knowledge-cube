@@ -1,0 +1,58 @@
+{
+ "slice": "S1 12-14T23:02→12-15T02:08",
+ "kappa": -0.0769,
+ "kappa_tab": [
+  0,
+  2,
+  2,
+  24
+ ],
+ "po": 0.8571,
+ "n_labels": 8,
+ "n_other": 2,
+ "node_threads": {
+  "hostage_situation": 32,
+  "public_reaction": 27,
+  "perpetrator_identity": 15,
+  "evacuation": 15,
+  "police_operation": 10
+ },
+ "node_members": {
+  "hostage_situation": [
+   "hostage situation"
+  ],
+  "public_reaction": [
+   "public reaction"
+  ],
+  "perpetrator_identity": [
+   "hostage count"
+  ],
+  "evacuation": [
+   "evacuated",
+   "evacuation"
+  ],
+  "police_operation": [
+   "police operation"
+  ]
+ },
+ "assign_A": {
+  "hostage situation": 2,
+  "islamic flag": 0,
+  "public reaction": 1,
+  "hostage count": 3,
+  "evacuated": 7,
+  "police operation": 4,
+  "shutdown": 0,
+  "evacuation": 7
+ },
+ "assign_B": {
+  "evacuated": 0,
+  "evacuation": 1,
+  "hostage count": 2,
+  "hostage situation": 3,
+  "islamic flag": 0,
+  "police operation": 5,
+  "public reaction": 6,
+  "shutdown": 1
+ }
+}

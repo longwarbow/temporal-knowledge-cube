@@ -1,0 +1,33 @@
+模型：glm-4-flash @ https://open.bigmodel.cn/api/paas/v4
+
+[1] 合成探针试错
+  合成探针（want = 设计答案；binary_ok = 判定口径是否正确）
+    SAME_PROPOSITION         A1:SAME_PROPOSITION      Y B1:SAME_PROPOSITION      Y A2:SAME_PROPOSITION      Y B2:SAME_PROPOSITION      Y
+    SAME_PROPOSITION         A1:SAME_PROPOSITION      Y B1:SAME_PROPOSITION      Y A2:SAME_PROPOSITION      Y B2:SAME_PROPOSITION      Y
+    SAME_PROPOSITION         A1:SAME_PROPOSITION      Y B1:SAME_PROPOSITION      Y A2:SAME_PROPOSITION      Y B2:SAME_PROPOSITION      Y
+    SAME_EVENT_DIFF_FACET    A1:SAME_EVENT_DIFF_FACET Y B1:NOT_SAME_PROPOSITION  Y A2:SAME_PROPOSITION      n B2:SAME_PROPOSITION      n
+    SAME_EVENT_DIFF_FACET    A1:SAME_EVENT_DIFF_FACET Y B1:NOT_SAME_PROPOSITION  Y A2:SAME_PROPOSITION      n B2:SAME_PROPOSITION      n
+    SAME_EVENT_DIFF_FACET    A1:UNRELATED             Y B1:NOT_SAME_PROPOSITION  Y A2:UNRELATED             Y B2:NOT_SAME_PROPOSITION  Y
+    DIFF_REFERENT_SAME_SLOT  A1:DIFF_REFERENT_SAME_SLOTY B1:NOT_SAME_PROPOSITION  Y A2:SAME_EVENT_DIFF_FACET Y B2:SAME_PROPOSITION      n
+    DIFF_REFERENT_SAME_SLOT  A1:SAME_EVENT_DIFF_FACET Y B1:NOT_SAME_PROPOSITION  Y A2:SAME_EVENT_DIFF_FACET Y B2:SAME_PROPOSITION      n
+    UNRELATED                A1:UNRELATED             Y B1:NOT_SAME_PROPOSITION  Y A2:UNRELATED             Y B2:NOT_SAME_PROPOSITION  Y
+    UNRELATED                A1:UNRELATED             Y B1:NOT_SAME_PROPOSITION  Y A2:UNRELATED             Y B2:NOT_SAME_PROPOSITION  Y
+  —— {'A1': '精确8/10 二值10/10', 'B1': '精确3/10 二值10/10', 'A2': '精确5/10 二值8/10', 'B2': '精确3/10 二值6/10'}
+
+[2] 真实缝集 / 对照集
+  集合规模： {'R2B_SEAM': 6, 'R2B_CTRL': 18, 'R4_SEAM': 27, 'R4_CTRL': 17}
+  R2B_SEAM  n=6   A1判同=3   B1判同=4   A2判同=5   B2判同=6  
+  R2B_CTRL  n=18  A1判同=18  B1判同=18  A2判同=18  B2判同=18 
+  R4_SEAM   n=27  A1判同=5   B1判同=2   A2判同=15  B2判同=24 
+  R4_CTRL   n=17  A1判同=11  B1判同=8   A2判同=16  B2判同=17 
+
+  【每通道度量】缝判别率（越高越好） / 对照保真率（越高越好） / Youden J / 平衡准确率
+    A1 四分类·口径v1                | R2-b 缝 50% 对照100% J=0.50 BA=0.75 | R4 缝 81% 对照 65% J=0.46 BA=0.73 | 保持标界
+    B1 二值直问·口径v1               | R2-b 缝 33% 对照100% J=0.33 BA=0.67 | R4 缝 93% 对照 47% J=0.40 BA=0.70 | 保持标界
+    A2 四分类·口径v2(极性修正)          | R2-b 缝 17% 对照100% J=0.17 BA=0.58 | R4 缝 44% 对照 94% J=0.39 BA=0.69 | 保持标界
+    B2 二值直问·口径v2(极性修正)         | R2-b 缝  0% 对照100% J=0.00 BA=0.50 | R4 缝 11% 对照100% J=0.11 BA=0.56 | 保持标界
+
+  两遍都判对： {'口径v1|R2B_SEAM': 33.3, '口径v1|R4_SEAM': 77.8, '口径v1|R2B_CTRL': 100.0, '口径v1|R4_CTRL': 47.1, '口径v2|R2B_SEAM': 0.0, '口径v2|R4_SEAM': 11.1, '口径v2|R2B_CTRL': 100.0, '口径v2|R4_CTRL': 94.1}
+
+  ===> 结论：保持标界（负结果）
+→  D:\WSPforWB\10.keyan\场景1-海量短文本\实验\E15_话题侧演化真值与缝处置\E15_P0_缝探针.json

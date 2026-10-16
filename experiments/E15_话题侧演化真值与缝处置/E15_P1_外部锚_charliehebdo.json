@@ -1,0 +1,44 @@
+{
+ "_note": "E15 话题侧确定性层 —— 唯一有功效的外部锚（Charlie Hebdo 第二起劫持）。全部数字由 e15_p1_extract.py + e15_p1_cluster_evolve.py 产出，纯数据排序 + 在场/缺席判定，无 LLM 判断。",
+ "event": "charliehebdo-all-rnr-threads",
+ "anchor_type": "narrative BIRTH aligned with a documented real-world turning point",
+ "node": "hostage_situation",
+ "threads_per_slice": [0, 0, 0, 0, 40, 68],
+ "op_vs_prev": "BIRTH (S4 -> S5)",
+ "slice_labels": [
+  "S1 01-07T11:06→01-07T13:20",
+  "S2 01-07T13:20→01-07T14:54",
+  "S3 01-07T14:54→01-08T10:27",
+  "S4 01-08T10:28→01-08T15:47",
+  "S5 01-08T15:47→01-09T13:16",
+  "S6 01-09T13:16→01-09T16:40"
+ ],
+ "first_declaration_iso_utc": "2015-01-09T08:20:07Z",
+ "first_declaration_text": "Hostages are taken at a business in DAMMARTIN-EN-GOELE.",
+ "n_declarations_in_S5_S6_with_aspect_hostage": 95,
+ "all_hostage_declarations_on_day": {"2015-01-09": 95},
+ "external_fact": "On the morning of 2015-01-09 the Kouachi brothers were cornered at a printing works in Dammartin-en-Goële and took a hostage; a separate hostage crisis at the Hyper Cacher supermarket followed that afternoon.",
+ "co_present_nodes_full_span": [
+  {"node": "public_reaction", "threads": [47, 83, 118, 83, 93, 26], "note": "peaks S3"},
+  {"node": "attack_details", "threads": [80, 48, 2, 4, 4, 3], "note": "initial-attack narrative decays"},
+  {"node": "police_operation", "threads": [3, 5, 4, 14, 49, 37], "note": "manhunt takes over late"},
+  {"node": "death_toll", "threads": [56, 12, 14, 4, 15, 13], "note": ""},
+  {"node": "media_coverage", "threads": [6, 21, 23, 44, 7, 14], "note": ""},
+  {"node": "perpetrator_identity", "threads": [16, 11, 8, 12, 9, 22], "note": ""},
+  {"node": "killed_individuals", "threads": [1, 5, 16, 7, 5, 41], "note": "rises to 41 in S6 (final assault)"},
+  {"node": "solidarity", "threads": [12, 9, 10, 31, 6, 2], "note": ""},
+  {"node": "location", "threads": [5, 1, 2, 13, 8, 12], "note": ""},
+  {"node": "condemnation", "threads": [6, 6, 7, 13, 4, 4], "note": ""}
+ ],
+ "counterpart_from_llm_attribution": {
+  "note": "同一次运行中 LLM 对齐通道的读数，与确定性层冲突",
+  "llm_ops": {"BIRTH": 21, "RETIRE": 19, "MERGE": 12, "SPLIT": 2, "CONTINUE": 26},
+  "deterministic_ops": {"BIRTH": 3, "RETIRE": 1, "CONTINUE": 58},
+  "inflation_birth": "7.0x"
+ },
+ "limitations": [
+  "n=1 qualitative match, not statistical power",
+  "S5 is an equal-count slice spanning 01-08T15:47 to 01-09T13:16, so the first appearance localises the birth to that interval only, not to an exact instant",
+  "the node assignment itself (which aspect labels land in hostage_situation) comes from an LLM channel that failed the kappa gate; only the presence/absence and the derived BIRTH are deterministic"
+ ]
+}

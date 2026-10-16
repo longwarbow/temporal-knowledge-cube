@@ -1,0 +1,77 @@
+﻿pair_id,block,stratum,subtype,prev_consensus,prev_agree,v14_I,v14_J,v14_consensus,agree,note_I,note_J
+E13-0542,A_target,S6_same_slot_conflicting,strict,UNRELATED,1,UNRELATED,UNRELATED,UNRELATED,1,A4-不可归并 被扣押(13人质)↔逃脱(5人质)⇒UNRELATED,A4-不可归并（被扣押↔逃脱）⇒UNRELATED
+E13-0472,A_target,S5_cross_thread_verbatim,copy,,0,DERIVE,DERIVE,DERIVE,1,§2.1/A1 同URL同标签近逐字复制⇒DERIVE,§2.1 近似逐字（同 URL+同标签；A1 @去除）⇒DERIVE
+E13-0491,A_target,S6_same_slot_conflicting,strict,,0,UNRELATED,UNRELATED,UNRELATED,1,A4-不可归并 存在武装嫌犯↔嫌犯身份背景⇒UNRELATED,A4-不可归并（存在武装嫌犯↔该嫌犯身份背景）⇒UNRELATED
+E13-0551,A_target,S6_same_slot_conflicting,polarity,UNRELATED,1,UNRELATED,UNRELATED,UNRELATED,1,T1 p为反问/调侃非命题⇒UNRELATED,T1 反问非命题⇒UNRELATED
+E13-0477,A_target,S5_cross_thread_verbatim,mention_only,DERIVE,1,DERIVE,DERIVE,DERIVE,1,§2.1/A1 近似逐字(同URL)⇒DERIVE,§2.1 近似逐字（仅标点差异）⇒DERIVE
+E13-0503,A_target,S6_same_slot_conflicting,strict,,0,UNRELATED,SUPPORT,,0,A3-量纲不同 1 hostage(人数)↔2 hostage situations(事件数)⇒UNRELATED,A3-③ 具指子项（Dammartin 1 起）vs 总量（2 起）⇒SUPPORT
+E13-0536,A_target,S6_same_slot_conflicting,strict,,0,SUPPORT,SUPPORT,SUPPORT,1,A3-① these部分标记 5 hostages↔these two⇒SUPPORT,A3-① 显式部分标记 these⇒SUPPORT
+E13-0435,A_target,S5_cross_thread_verbatim,mention_only,DERIVE,1,DERIVE,DERIVE,DERIVE,1,T1例外 q显式引用p原句⇒DERIVE,T1 例外：近似照抄（带引号）⇒DERIVE
+E13-0558,A_target,S6_same_slot_conflicting,polarity,,0,CONFLICT,CONFLICT,CONFLICT,1,§2.8极性 警方未证实多名↔确认3名嫌犯⇒CONFLICT,§2.8 极性（未确认多名枪手 vs 确认 3 名嫌犯）⇒CONFLICT
+E13-0567,A_target,S6_same_slot_conflicting,vague,UNRELATED,1,UNRELATED,UNRELATED,UNRELATED,1,T1 q为提问非命题⇒UNRELATED,T1 q 反问非命题⇒UNRELATED
+E13-0506,A_target,S6_same_slot_conflicting,strict,UNRELATED,1,UNRELATED,UNRELATED,UNRELATED,1,A4-不可归并 被扣押↔逃脱⇒UNRELATED,A4-不可归并（被扣押↔逃脱）⇒UNRELATED
+E13-0482,A_target,S5_cross_thread_verbatim,mention_only,,0,DERIVE,DERIVE,DERIVE,1,§2.1 q为引用照抄p文本⇒DERIVE,§2.1 近似逐字（A1 @/URL 去除后同文本）⇒DERIVE
+E13-0566,A_target,S6_same_slot_conflicting,vague,UNRELATED,1,UNRELATED,UNRELATED,UNRELATED,1,T1 q为提问非命题⇒UNRELATED,T1 q 反问非命题⇒UNRELATED
+E13-0548,A_target,S6_same_slot_conflicting,polarity,UNRELATED,1,UNRELATED,UNRELATED,UNRELATED,1,A4-不可归并 被扣押↔获释/逃脱⇒UNRELATED,A4-不可归并（获释/逃脱↔被扣押）⇒UNRELATED
+E13-0532,A_target,S6_same_slot_conflicting,strict,SUPPORT,1,SUPPORT,SUPPORT,SUPPORT,1,A3-③ 10 dead↔the 2 cartoonists killed具指子集⇒SUPPORT,A3-③ 具指子项（2 名漫画家）vs 总量（10 死）⇒SUPPORT
+E13-0479,A_target,S5_cross_thread_verbatim,mention_only,DERIVE,1,DERIVE,DERIVE,DERIVE,1,A1 仅前导@账号不同=逐字相同⇒DERIVE,T1 例外：近似照抄（A1 @去除）⇒DERIVE
+E13-0539,A_target,S6_same_slot_conflicting,strict,UNRELATED,1,UNRELATED,SUPPORT,,0,A4-不可归并 人质被扣押↔枪击/人质逃脱⇒UNRELATED,T4 可归并（均断言人质被扣押）⇒SUPPORT
+E13-0499,A_target,S6_same_slot_conflicting,strict,SUPPORT,1,SUPPORT,SUPPORT,SUPPORT,1,A3-③ 12 dead↔the 4 cartoonists killed具指子集⇒SUPPORT,A3-③ 具指子项（4 名漫画家）vs 总量（12 死）⇒SUPPORT
+E13-0521,A_target,S6_same_slot_conflicting,strict,SUPPORT,1,SUPPORT,SUPPORT,SUPPORT,1,A3-②/③ at least 11 dead↔4 cartoonists killed⇒SUPPORT,A3-③ 具指子项 vs 总量（≥11 死）⇒SUPPORT
+E13-0553,A_target,S6_same_slot_conflicting,polarity,UNRELATED,1,UNRELATED,UNRELATED,UNRELATED,1,A4-不可归并 伤亡↔悼念/家庭⇒UNRELATED,A4-不可归并（伤亡↔悼念感怀）⇒UNRELATED
+E13-0555,B_control,S6_same_slot_conflicting,polarity,SUPPORT,1,SUPPORT,SUPPORT,SUPPORT,1,A4同一情形 多名枪手 双方同向⇒SUPPORT,T4 可归并（均涉多名枪手）；p 含反问但有事实从句⇒SUPPORT
+E13-0569,B_control,S6_same_slot_conflicting,vague,SUPPORT,1,SUPPORT,SUPPORT,SUPPORT,1,A2 模糊multiple↔as many as 5兼容⇒SUPPORT,A2 模糊量（multiple）vs 具体数（5）⇒SUPPORT
+E13-0523,B_control,S6_same_slot_conflicting,strict,UNRELATED,1,UNRELATED,UNRELATED,UNRELATED,1,③a主体不同 黑人伤亡统计↔本地警察死亡⇒UNRELATED,T3 主体不同⇒UNRELATED
+E13-0430,B_control,S5_cross_thread_verbatim,mention_only,DERIVE,1,DERIVE,DERIVE,DERIVE,1,A1 仅前导@账号不同=逐字相同⇒DERIVE,§2.1 近似逐字（A1 @去除）⇒DERIVE
+E13-0570,B_control,S6_same_slot_conflicting,vague,SUPPORT,1,SUPPORT,SUPPORT,SUPPORT,1,A2 模糊multiple suspects↔3 gunmen兼容⇒SUPPORT,A2 模糊量（multiple suspects）vs 具体数（3 名枪手）⇒SUPPORT
+E13-0582,B_control,S6_same_slot_conflicting,vague,UNRELATED,1,UNRELATED,UNRELATED,UNRELATED,1,T1 q为泛化猜测非命题⇒UNRELATED,T3 主体不同 + q 推测非命题⇒UNRELATED
+E13-0420,B_control,S5_cross_thread_verbatim,mention_only,DERIVE,1,DERIVE,DERIVE,DERIVE,1,A1 仅前导@账号不同=逐字相同⇒DERIVE,§2.1 近似逐字（A1 @去除）⇒DERIVE
+E13-0458,B_control,S5_cross_thread_verbatim,copy,SUPPORT,1,DERIVE,SUPPORT,,0,§2.1/A1 同题近似逐字⇒DERIVE,§2.6 高相似但新增归因（via @theblaze）⇒SUPPORT
+E13-0554,B_control,S6_same_slot_conflicting,polarity,SUPPORT,1,SUPPORT,SUPPORT,SUPPORT,1,A2 多名枪手兼容 仍有2-3名在逃⇒SUPPORT,A2/A3-② 模糊量（multiple）vs 下界（at least 2-3）⇒SUPPORT
+E13-0459,B_control,S5_cross_thread_verbatim,mention_only,DERIVE,1,DERIVE,DERIVE,DERIVE,1,A1 仅前导@账号不同=逐字相同⇒DERIVE,§2.1 近似逐字（A1 @去除）⇒DERIVE
+E13-0490,B_control,S6_same_slot_conflicting,strict,CONFLICT,1,CONFLICT,CONFLICT,CONFLICT,1,A3-总数vs总数 5 hostages↔6 hostages⇒CONFLICT,A3 总数 vs 总数（5 vs 6 名人质）⇒CONFLICT
+E13-0487,B_control,S6_same_slot_conflicting,strict,UNRELATED,1,SUPPORT,UNRELATED,,0,A3-① of six hostages部分⇒SUPPORT(存疑),T3 情形不同（Charlie Hebdo 枪击↔人质死亡）⇒UNRELATED
+E13-0519,B_control,S6_same_slot_conflicting,strict,UNRELATED,1,UNRELATED,UNRELATED,UNRELATED,1,③a/③b不同 遇难者↔穆斯林泛论⇒UNRELATED,T1 q 为观点非命题⇒UNRELATED
+E13-0496,B_control,S6_same_slot_conflicting,strict,UNRELATED,1,UNRELATED,UNRELATED,UNRELATED,1,T1 q为反问非命题⇒UNRELATED,T1 q 反问非命题 + T3 主体不同⇒UNRELATED
+E13-0494,B_control,S6_same_slot_conflicting,strict,CONFLICT,1,CONFLICT,CONFLICT,CONFLICT,1,A3-总数vs总数 11 dead↔12 confirmed dead⇒CONFLICT,A3 总数 vs 总数（11 vs 12 死）⇒CONFLICT
+E13-0579,B_control,S6_same_slot_conflicting,vague,SUPPORT,1,SUPPORT,SUPPORT,SUPPORT,1,同一命题多源独立报道⇒SUPPORT,T4 可归并（multiple shooters ≈ more than one shooter）⇒SUPPORT
+E13-0441,B_control,S5_cross_thread_verbatim,copy,DERIVE,1,DERIVE,DERIVE,DERIVE,1,§2.1 同文近似逐字引用⇒DERIVE,§2.1 近似逐字（A1 @去除）⇒DERIVE
+E13-0429,B_control,S5_cross_thread_verbatim,mention_only,DERIVE,1,DERIVE,DERIVE,DERIVE,1,A1 仅前导@账号不同=逐字相同⇒DERIVE,§2.1 近似逐字（A1 @去除）⇒DERIVE
+E13-0431,B_control,S5_cross_thread_verbatim,mention_only,DERIVE,1,DERIVE,DERIVE,DERIVE,1,A1 同文仅URL不同=逐字相同⇒DERIVE,§2.1 近似逐字（仅 URL 不同）⇒DERIVE
+E13-0530,B_control,S6_same_slot_conflicting,strict,UNRELATED,1,UNRELATED,UNRELATED,UNRELATED,1,T1 q为规范/情绪表达非命题⇒UNRELATED,T1 q 价值判断非命题⇒UNRELATED
+E13-0516,C_fresh,S6_same_slot_conflicting,strict,,,UNRELATED,UNRELATED,UNRELATED,1,T1 q为观点/调侃非命题⇒UNRELATED,T1 q 观点非命题⇒UNRELATED
+E13-0526,C_fresh,S6_same_slot_conflicting,strict,,,UNRELATED,UNRELATED,UNRELATED,1,③a主体不同 伊斯兰恐袭统计↔嫌犯藏匿⇒UNRELATED,T3 主体不同⇒UNRELATED
+E13-0504,C_fresh,S6_same_slot_conflicting,strict,,,CONFLICT,CONFLICT,CONFLICT,1,A3-总数vs总数 10 dead↔11 dead⇒CONFLICT,A3 总数 vs 总数（10 vs 11 死）⇒CONFLICT
+E13-0501,C_fresh,S6_same_slot_conflicting,strict,,,CONFLICT,CONFLICT,CONFLICT,1,A3-总数vs总数 10 killed↔11 dead⇒CONFLICT,A3 总数 vs 总数（10 vs 11 死）⇒CONFLICT
+E13-0488,C_fresh,S6_same_slot_conflicting,strict,,,UNRELATED,UNRELATED,UNRELATED,1,A4-不可归并 人质被扣押↔人质逃脱⇒UNRELATED,A4-不可归并（来源质疑↔人质逃脱情形）⇒UNRELATED
+E13-0544,C_fresh,S6_same_slot_conflicting,strict,,,UNRELATED,UNRELATED,UNRELATED,1,③a主体不同 美枪击死亡↔悉尼事件评论⇒UNRELATED,T3 主体不同⇒UNRELATED
+E13-0535,C_fresh,S6_same_slot_conflicting,strict,,,SUPPORT,SUPPORT,SUPPORT,1,A2 至少1名↔2名枪手兼容⇒SUPPORT,A3-② 下界（at least one）vs 具体数（2）⇒SUPPORT
+E13-0500,C_fresh,S6_same_slot_conflicting,strict,,,UNRELATED,UNRELATED,UNRELATED,1,A3-量纲不同 1 hostage(人数)↔2 hostage situations(事件数)⇒UNRELATED,T1 q 观点推测非命题⇒UNRELATED
+E13-0498,C_fresh,S6_same_slot_conflicting,strict,,,UNRELATED,UNRELATED,UNRELATED,1,③b谓词不同 12人遇难↔2起对峙/嫌犯⇒UNRELATED,A4-不可归并（袭击伤亡↔对峙/嫌犯位置）⇒UNRELATED
+E13-0493,C_fresh,S6_same_slot_conflicting,strict,,,UNRELATED,UNRELATED,UNRELATED,1,T1 q为请求/观点非命题⇒UNRELATED,T1/T2 q 为请求非命题⇒UNRELATED
+E13-0513,C_fresh,S6_same_slot_conflicting,strict,,,SUPPORT,SUPPORT,SUPPORT,1,A3-③ 12 dead↔the 4 French cartoonists killed⇒SUPPORT,A3-③ 具指子项（4 名漫画家）vs 总量（12 死）⇒SUPPORT
+E13-0540,C_fresh,S6_same_slot_conflicting,strict,,,UNRELATED,UNRELATED,UNRELATED,1,A4-不可归并 人质离开↔人质确认诉求⇒UNRELATED,A4-不可归并（离开↔传达要求）⇒UNRELATED
+E13-0531,C_fresh,S6_same_slot_conflicting,strict,,,UNRELATED,UNRELATED,UNRELATED,1,③a主体不同 历史暴行↔悉尼事件评论⇒UNRELATED,T3 主体不同⇒UNRELATED
+E13-0525,C_fresh,S6_same_slot_conflicting,strict,,,UNRELATED,UNRELATED,UNRELATED,1,③a不同场所 CharlieHebdo遇难↔Paris东部人质事件⇒UNRELATED,T3 情形不同（Charlie Hebdo 袭击↔东巴黎人质事件）⇒UNRELATED
+E13-0486,C_fresh,S6_same_slot_conflicting,strict,,,UNRELATED,UNRELATED,UNRELATED,1,A3-量纲不同 2 hostage situations(事件数)↔5 hostages(人数)⇒UNRELATED,A3 量纲不同（事件数 vs 人数）⇒UNRELATED
+E13-0511,C_fresh,S6_same_slot_conflicting,strict,,,UNRELATED,UNRELATED,UNRELATED,1,A4-不可归并 13人被扣押↔3人质逃脱⇒UNRELATED,A4-不可归并（扣押↔逃脱）⇒UNRELATED
+E13-0510,C_fresh,S6_same_slot_conflicting,strict,,,UNRELATED,UNRELATED,UNRELATED,1,T1 q为提问非命题⇒UNRELATED,T1 q 为提问非命题⇒UNRELATED
+E13-0543,C_fresh,S6_same_slot_conflicting,strict,,,UNRELATED,SUPPORT,,0,③b谓词不同 枪手死亡/士兵中枪↔医院3名伤者⇒UNRELATED,T4 可归并（同一枪击事件伤亡）；量不冲突⇒SUPPORT
+E13-0541,C_fresh,S6_same_slot_conflicting,strict,,,UNRELATED,UNRELATED,UNRELATED,1,A4-不可归并 十几人被扣押↔6人质逃脱⇒UNRELATED,A4-不可归并（扣押↔逃脱）⇒UNRELATED
+E13-0534,C_fresh,S6_same_slot_conflicting,strict,,,UNRELATED,SUPPORT,,0,A4-不可归并 20人被扣押↔枪击/人质逃离⇒UNRELATED,T4 可归并（均断言人质被扣押）⇒SUPPORT
+E13-0564,C_fresh,S6_same_slot_conflicting,polarity,,,SUPPORT,SUPPORT,SUPPORT,1,A2 多名枪手↔3名嫌犯;士兵中枪同向⇒SUPPORT,A2 模糊量（multiple）vs 具体数（3 名嫌犯）⇒SUPPORT
+E13-0556,C_fresh,S6_same_slot_conflicting,polarity,,,UNRELATED,UNRELATED,UNRELATED,1,T1 q为反问非命题⇒UNRELATED,T1 q 反问非命题⇒UNRELATED
+E13-0557,C_fresh,S6_same_slot_conflicting,polarity,,,UNRELATED,UNRELATED,UNRELATED,1,T1 q为提问/呼喊非命题⇒UNRELATED,T3 主体不同 + T1 反问⇒UNRELATED
+E13-0562,C_fresh,S6_same_slot_conflicting,polarity,,,UNRELATED,UNRELATED,UNRELATED,1,T1 q为反问非命题⇒UNRELATED,T1 q 反问非命题 + T3 主体不同⇒UNRELATED
+E13-0552,C_fresh,S6_same_slot_conflicting,polarity,,,UNRELATED,UNRELATED,UNRELATED,1,T1 双方均非命题⇒UNRELATED,T3 主体不同 + q 观点非命题⇒UNRELATED
+E13-0547,C_fresh,S6_same_slot_conflicting,polarity,,,UNRELATED,UNRELATED,UNRELATED,1,T1 q为祝愿非命题⇒UNRELATED,T1 q 为祝愿非命题⇒UNRELATED
+E13-0561,C_fresh,S6_same_slot_conflicting,polarity,,,UNRELATED,UNRELATED,UNRELATED,1,③a/③b不同 种族统计↔个案评论⇒UNRELATED,T3 主体不同⇒UNRELATED
+E13-0565,C_fresh,S6_same_slot_conflicting,polarity,,,UNRELATED,UNRELATED,UNRELATED,1,A4-不可归并 伤亡数↔悼念⇒UNRELATED,A4-不可归并（伤亡↔悼念）⇒UNRELATED
+E13-0574,C_fresh,S6_same_slot_conflicting,vague,,,UNRELATED,UNRELATED,UNRELATED,1,③b不同 袭击事实↔幕后猜测⇒UNRELATED,T1 q 推测非命题⇒UNRELATED
+E13-0580,C_fresh,S6_same_slot_conflicting,vague,,,UNRELATED,UNRELATED,UNRELATED,1,T1 q为猜测非命题⇒UNRELATED,T1 q 推测非命题⇒UNRELATED
+E13-0581,C_fresh,S6_same_slot_conflicting,vague,,,UNRELATED,UNRELATED,UNRELATED,1,T1 双方均非命题⇒UNRELATED,T3 主体不同 + T1 反问⇒UNRELATED
+E13-0576,C_fresh,S6_same_slot_conflicting,vague,,,UNRELATED,UNRELATED,UNRELATED,1,③a主体不同 士兵阵亡↔控枪泛论⇒UNRELATED,T3 主体不同 + q 观点⇒UNRELATED
+E13-0578,C_fresh,S6_same_slot_conflicting,vague,,,SUPPORT,SUPPORT,SUPPORT,1,同一命题 多名嫌犯/多名枪手⇒SUPPORT,T4 可归并（multiple suspects ≈ more than one shooter）⇒SUPPORT
+E13-0573,C_fresh,S6_same_slot_conflicting,vague,,,UNRELATED,UNRELATED,UNRELATED,1,T1 q为观点非命题⇒UNRELATED,T3 主体不同 + q 评论⇒UNRELATED
+E13-0571,C_fresh,S6_same_slot_conflicting,vague,,,SUPPORT,SUPPORT,SUPPORT,1,A2 多名嫌犯↔3名枪手兼容⇒SUPPORT,A2 模糊量（multiple）vs 具体数（3 名枪手）⇒SUPPORT
+E13-0572,C_fresh,S6_same_slot_conflicting,vague,,,UNRELATED,UNRELATED,UNRELATED,1,T1 双方均无完整命题/信息不足⇒UNRELATED,T1 双方均无事实命题（片段/提问）⇒UNRELATED

@@ -1,0 +1,13 @@
+﻿pair_id,role,v14_I,v14_J,v15_K,v15_L,v15_agree,expected,matches_ruling,note_K,note_L
+E13-0570,R2_control,SUPPORT,SUPPORT,SUPPORT,SUPPORT,1,,0,A2 模糊量 multiple suspects 与具体 3 gunmen 可兼容⇒SUPPORT,A2 模糊量词multiple suspects与具体数3 gunmen同为人数⇒SUPPORT
+E13-0513,R2_control,SUPPORT,SUPPORT,SUPPORT,SUPPORT,1,,0,A3-ⓐ③ 总数12死 vs 具指子项4名法国漫画家⇒SUPPORT,A3-ⓐ③ 具指子项(4 French cartoonists)⊂同类总量(12 dead)⇒SUPPORT
+E13-0543,R1_disagree,UNRELATED,SUPPORT,UNRELATED,UNRELATED,1,UNRELATED,1,A4-反例清单 枪手被击毙/士兵中枪 ↔ 医院收治伤者⇒UNRELATED,A4-反例清单 枪手被击毙/士兵中枪↔医院收治3伤者⇒UNRELATED
+E13-0499,R2_control,SUPPORT,SUPPORT,SUPPORT,SUPPORT,1,,0,A3-ⓐ③ 总数12死 vs 具指子项4名法国漫画家⇒SUPPORT,A3-ⓐ③ 4 cartoonists为具指子项⊂同类总量12 dead⇒SUPPORT
+E13-0539,R1_disagree,UNRELATED,SUPPORT,UNRELATED,UNRELATED,1,UNRELATED,1,A4-反例清单 被扣押 ↔ 枪击/人质逃离⇒UNRELATED,A4-反例清单 被扣押↔枪击/逃离⇒UNRELATED
+E13-0487,R1_disagree,SUPPORT,UNRELATED,UNRELATED,UNRELATED,1,UNRELATED,1,A3-①限定 of six hostages 非 p 所量总体(枪击死者)⇒UNRELATED,A3-ⓐ①限定 of six hostages非p所量总体(枪击死者)⇒UNRELATED
+E13-0540,R2_control,UNRELATED,UNRELATED,UNRELATED,UNRELATED,1,,0,A4 人质离开(状态转移) ↔ 人质确认枪手诉求(另一动作)⇒UNRELATED,A4 谓词不同 人质离开↔人质确认要求⇒UNRELATED
+E13-0534,R1_disagree,UNRELATED,SUPPORT,UNRELATED,UNRELATED,1,UNRELATED,1,A4-反例清单 被扣押 ↔ 枪击/人质逃离⇒UNRELATED,A4-反例清单 被扣押↔枪击/逃离⇒UNRELATED
+E13-0458,R1_disagree,DERIVE,SUPPORT,SUPPORT,SUPPORT,1,SUPPORT,1,A5 via @theblaze 为归因新增来源细节⇒SUPPORT,A5 via@theblaze为归因(新增事实性细节)⇒SUPPORT
+E13-0566,R2_control,UNRELATED,UNRELATED,UNRELATED,UNRELATED,1,,0,T1 q 为纯提问非事实命题⇒UNRELATED,T1 q为纯提问无事实命题⇒UNRELATED
+E13-0503,R1_disagree,UNRELATED,SUPPORT,UNRELATED,UNRELATED,1,UNRELATED,1,A3-ⓠ 1 hostage(人数) vs 2 hostage situations(起数)计量对象不同⇒UNRELATED,A3-ⓠ 1 hostage(人数)vs 2 hostage situations(起数)⇒UNRELATED
+E13-0556,R2_control,UNRELATED,UNRELATED,UNRELATED,UNRELATED,1,,0,T1 q 为纯提问非事实命题⇒UNRELATED,T1 q为纯提问无事实命题⇒UNRELATED

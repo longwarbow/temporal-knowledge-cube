@@ -1,0 +1,12 @@
+{
+  "N_total": 200,
+  "N0": 40,
+  "delta": 32,
+  "b": 2,
+  "n": 32,
+  "leaves": 104,
+  "internal": 9,
+  "wall_s": 36.57,
+  "batch_tokens": 3367,
+  "batch_tokens_per_doc": 105.22
+}

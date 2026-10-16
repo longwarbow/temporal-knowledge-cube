@@ -1,0 +1,315 @@
+{
+  "n_texts": 104321,
+  "n_with_any_slot": 13983,
+  "n_with_numeric_slot": 10741,
+  "pct_with_any_slot": 13.4,
+  "pct_with_numeric_slot": 10.3,
+  "mean_slots_per_text": 1.183,
+  "canonical_class_counts": {
+    "DEAD": 1073,
+    "PERSON": 857,
+    "HOSTAGE": 577,
+    "SUSPECT": 403,
+    "YEAR": 362,
+    "POLICE": 232,
+    "INJURED": 175,
+    "AIRPLANE": 27,
+    "BUILDING": 16
+  },
+  "raw_class_top20": {
+    "DEAD": 1073,
+    "PERSON": 857,
+    "HOSTAGE": 577,
+    "SUSPECT": 403,
+    "YEAR": 362,
+    "RAW:time": 300,
+    "POLICE": 232,
+    "RAW:tweet": 197,
+    "INJURED": 175,
+    "RAW:muslim": 136,
+    "RAW:days": 120,
+    "RAW:thing": 120,
+    "RAW:shooting": 103,
+    "RAW:day": 82,
+    "RAW:shot": 81,
+    "RAW:like": 76,
+    "RAW:know": 71,
+    "RAW:passenger": 68,
+    "RAW:good": 63,
+    "RAW:black": 61
+  },
+  "events": {
+    "charliehebdo-all-rnr-threads": 38144,
+    "sydneysiege-all-rnr-threads": 23932,
+    "ferguson-all-rnr-threads": 23393,
+    "ottawashooting-all-rnr-threads": 12242,
+    "germanwings-crash-all-rnr-threads": 4469,
+    "prince-toronto-all-rnr-threads": 901,
+    "putinmissing-all-rnr-threads": 835,
+    "ebola-essien-all-rnr-threads": 226,
+    "gurlitt-all-rnr-threads": 179
+  },
+  "examples": [
+    {
+      "event": "ferguson-all-rnr-threads",
+      "text": "@Malt_bia the 48 hours since his murder approx 28 blacks have been killed by other blacks. Just playing devils advocate.",
+      "slots": {
+        "DEAD": [
+          "28"
+        ]
+      }
+    },
+    {
+      "event": "ferguson-all-rnr-threads",
+      "text": "@fishdogdaddy @Malt_bia How many White ppl were killed last year, 86% of those by a White person? Every 28 hrs BP killed by cop/\"security\".",
+      "slots": {
+        "DEAD": [
+          "many"
+        ]
+      }
+    },
+    {
+      "event": "ferguson-all-rnr-threads",
+      "text": "@Malt_bia I'm not one of those people but Ill play ball. If roughly 5000 black people are murdered every year by other blacks, that means in",
+      "slots": {
+        "RAW:people": [
+          "0"
+        ],
+        "DEAD": [
+          "5000"
+        ]
+      }
+    },
+    {
+      "event": "ferguson-all-rnr-threads",
+      "text": "@keithboykin @BigBoi 2 senseless deaths over cigarets #RIPMikeBrown #RIPEricGarner land of the free is a joke",
+      "slots": {
+        "DEAD": [
+          "2"
+        ]
+      }
+    },
+    {
+      "event": "ferguson-all-rnr-threads",
+      "text": "@ZerlinaMaxwell &amp; that a jaywalking incidence lead to a dead 18 y/o is beyond all understanding.",
+      "slots": {
+        "DEAD": [
+          "18"
+        ]
+      }
+    },
+    {
+      "event": "ferguson-all-rnr-threads",
+      "text": "@WSJ NOTE TO SELF: Actions of committing amy crime, no matter how misqal may justify my death to some, regardless to how unwarranted.",
+      "slots": {
+        "DEAD": [
+          "some"
+        ]
+      }
+    },
+    {
+      "event": "ferguson-all-rnr-threads",
+      "text": "@elonjames @DNLee5 When 3 isreali kids were killed, the IDF leveled much of Gaza...I don't recall conservatives calling for calm then.",
+      "slots": {
+        "DEAD": [
+          "3"
+        ]
+      }
+    },
+    {
+      "event": "ferguson-all-rnr-threads",
+      "text": "@angryblackpat @Coslopuss 2. victims portray weakness and really are repulsive.",
+      "slots": {
+        "DEAD": [
+          "2"
+        ]
+      }
+    },
+    {
+      "event": "ferguson-all-rnr-threads",
+      "text": "@AntonioFrench find it peculiar that the theft police report naming #Mikebrown &amp; Johnson as suspects dated 8/9. Brown died 10 min later?",
+      "slots": {
+        "DEAD": [
+          "8",
+          "9"
+        ],
+        "RAW:min": [
+          "10"
+        ]
+      }
+    },
+    {
+      "event": "ferguson-all-rnr-threads",
+      "text": "@obe1obryant @TheAnonMessage2 He no more deserved 2 die than city deserved 2b razed &amp; looted. Why not cover Chicago killings? #tcot",
+      "slots": {
+        "DEAD": [
+          "2"
+        ]
+      }
+    },
+    {
+      "event": "ferguson-all-rnr-threads",
+      "text": "@QuadCityPat @NBCNews Blacks beat Matthew Boorujuy to death while calling him a cracker May 4, 2014. NO KILLING IS RIGHT..W/BLACK.BLK/WHITE",
+      "slots": {
+        "DEAD": [
+          "4"
+        ]
+      }
+    },
+    {
+      "event": "ferguson-all-rnr-threads",
+      "text": "@mitchelldavenpo @Heritage How many cops have been killed with they're own gun? If you don't know the answer, shut up.",
+      "slots": {
+        "DEAD": [
+          "many"
+        ]
+      }
+    }
+  ],
+  "definition": "量槽 = (量纲 head-class, 取值集合)，是标注指南 v1.3 槽位键 (主体×谓词×时点) 在 T5「量的兼容性」作用层上的**可机械化投影**；本库不声称完成完整 (s,p,t) 抽取。",
+  "params": {
+    "window": 4,
+    "num_words": 31,
+    "vague": [
+      "couple",
+      "dozens",
+      "few",
+      "hundreds",
+      "many",
+      "multiple",
+      "numerous",
+      "plenty",
+      "scores",
+      "several",
+      "some",
+      "thousands",
+      "various"
+    ],
+    "canonical_classes": {
+      "DEAD": [
+        "bodies",
+        "body",
+        "casualties",
+        "casualty",
+        "corpse",
+        "corpses",
+        "dead",
+        "death",
+        "deaths",
+        "die",
+        "died",
+        "dies",
+        "fatal",
+        "fatalities",
+        "fatality",
+        "kill",
+        "killed",
+        "killing",
+        "kills",
+        "murdered",
+        "slain",
+        "toll",
+        "victim",
+        "victims"
+      ],
+      "INJURED": [
+        "critical",
+        "hospital",
+        "hospitalised",
+        "hospitalized",
+        "hurt",
+        "hurting",
+        "injure",
+        "injured",
+        "injuries",
+        "injury",
+        "wound",
+        "wounded",
+        "wounds"
+      ],
+      "HOSTAGE": [
+        "abducted",
+        "abduction",
+        "captive",
+        "captives",
+        "detained",
+        "hostage",
+        "hostages",
+        "seized"
+      ],
+      "SUSPECT": [
+        "accomplice",
+        "accomplices",
+        "assailant",
+        "assailants",
+        "attacker",
+        "attackers",
+        "bomber",
+        "bombers",
+        "gunman",
+        "gunmen",
+        "killer",
+        "killers",
+        "perpetrator",
+        "perpetrators",
+        "shooter",
+        "shooters",
+        "suspect",
+        "suspects",
+        "terrorist",
+        "terrorists"
+      ],
+      "PERSON": [
+        "citizen",
+        "citizens",
+        "individual",
+        "individuals",
+        "man",
+        "men",
+        "people",
+        "person",
+        "persons",
+        "student",
+        "students",
+        "user",
+        "users",
+        "woman",
+        "women"
+      ],
+      "POLICE": [
+        "agent",
+        "agents",
+        "cop",
+        "cops",
+        "officer",
+        "officers",
+        "police",
+        "trooper",
+        "troopers"
+      ],
+      "YEAR": [
+        "year",
+        "years"
+      ],
+      "AIRPLANE": [
+        "aircraft",
+        "flight",
+        "flights",
+        "jet",
+        "jets",
+        "plane",
+        "planes"
+      ],
+      "BUILDING": [
+        "building",
+        "buildings",
+        "floor",
+        "floors",
+        "house",
+        "houses",
+        "storey",
+        "storeys"
+      ]
+    }
+  }
+}

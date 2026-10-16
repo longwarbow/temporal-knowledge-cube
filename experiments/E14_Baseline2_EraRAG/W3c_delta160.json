@@ -1,0 +1,49 @@
+{
+  "N_total": 200,
+  "N0": 40,
+  "delta": 160,
+  "phase0": {
+    "docs": 40,
+    "leaves": 40,
+    "internal": 5,
+    "wall_s": 9.5,
+    "prompt_tokens": 1098,
+    "completion_tokens": 252,
+    "total_tokens": 1350
+  },
+  "batches": [
+    {
+      "b": 1,
+      "n": 160,
+      "cum_docs": 200,
+      "leaves": 200,
+      "internal": 18,
+      "wall_s": 120.76,
+      "batch_tokens": 6882,
+      "batch_tokens_per_doc": 43.01,
+      "cum_wall_s": 130.26,
+      "cum_tokens": 8232
+    }
+  ],
+  "summary": {
+    "batch_count": 1,
+    "final_leaves": 200,
+    "final_internal": 18,
+    "total_wall_s": 130.26,
+    "total_tokens": 8232,
+    "increment_tokens": 6882,
+    "increment_wall_s": 120.76,
+    "tokens_per_doc": 41.16,
+    "wall_per_doc": 0.651,
+    "avg_batch_tokens_per_doc": 43.01
+  },
+  "full_rebuild": {
+    "docs": 200,
+    "leaves": 200,
+    "internal": 23,
+    "wall_s": 102.37,
+    "prompt_tokens": 5814,
+    "completion_tokens": 1101,
+    "total_tokens": 6915
+  }
+}

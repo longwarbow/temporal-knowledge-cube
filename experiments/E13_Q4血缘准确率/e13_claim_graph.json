@@ -1,0 +1,106 @@
+{
+  "n_pairs": 388,
+  "params": {
+    "rt_containment": 0.5,
+    "char3_jaccard": 0.85,
+    "contain_derive": 0.85,
+    "contain_conflict": 0.25,
+    "contain_conflict_struct": 0.15,
+    "contain_numeric_conflict": 0.3,
+    "contain_support_hi": 0.6,
+    "contain_support_lo": 0.4,
+    "jaccard_support_lo": 0.25,
+    "contain_support_lo_struct": 0.3
+  },
+  "rule_hits": {
+    "rule8": 291,
+    "rule2": 4,
+    "rule1": 10,
+    "rule3": 11,
+    "rule4": 5,
+    "rule6": 30,
+    "rule7": 31,
+    "rule5": 6
+  },
+  "pred_distribution": {
+    "DERIVE": {
+      "2": 4,
+      "1": 10,
+      "3": 11
+    },
+    "SUPPORT": {
+      "6": 30,
+      "7": 31
+    },
+    "CONFLICT": {
+      "4": 5,
+      "5": 6
+    },
+    "UNRELATED": {
+      "8": 291
+    }
+  },
+  "by_stratum": {
+    "S1_same_thread_reply": {
+      "UNRELATED": 85,
+      "DERIVE": 9,
+      "CONFLICT": 2,
+      "SUPPORT": 1
+    },
+    "S3_cross_thread_opposite_veracity": {
+      "UNRELATED": 95,
+      "SUPPORT": 2
+    },
+    "S2_cross_thread_high_sim": {
+      "DERIVE": 16,
+      "CONFLICT": 8,
+      "SUPPORT": 56,
+      "UNRELATED": 17
+    },
+    "S4_cross_thread_random": {
+      "UNRELATED": 94,
+      "CONFLICT": 1,
+      "SUPPORT": 2
+    }
+  },
+  "feature_profile_by_stratum": {
+    "S1_same_thread_reply": {
+      "n": 97,
+      "contain_mean": 0.1557,
+      "j_tok_mean": 0.1011,
+      "char3_mean": 0.1115,
+      "pol_opposite_rate": 0.0928,
+      "rt_rate": 0.0412
+    },
+    "S2_cross_thread_high_sim": {
+      "n": 97,
+      "contain_mean": 0.5948,
+      "j_tok_mean": 0.3817,
+      "char3_mean": 0.3469,
+      "pol_opposite_rate": 0.0206,
+      "rt_rate": 0.0722
+    },
+    "S3_cross_thread_opposite_veracity": {
+      "n": 97,
+      "contain_mean": 0.1273,
+      "j_tok_mean": 0.0612,
+      "char3_mean": 0.0867,
+      "pol_opposite_rate": 0.0309,
+      "rt_rate": 0.0619
+    },
+    "S4_cross_thread_random": {
+      "n": 97,
+      "contain_mean": 0.1615,
+      "j_tok_mean": 0.0781,
+      "char3_mean": 0.0969,
+      "pol_opposite_rate": 0.0515,
+      "rt_rate": 0.0619
+    }
+  },
+  "S_plus_vs_S_minus": {
+    "n_differ": 0,
+    "pct_differ": 0.0,
+    "by_stratum": {}
+  },
+  "note": "规则式声明图构造器。S+ = 使用真实回复树边（仅放宽阈值 4/7），S- = 完全不用平台结构。与 E13 协议 §5 接口对应。"
+}

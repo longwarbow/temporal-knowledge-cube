@@ -1,0 +1,15 @@
+{
+  "N_total": 200,
+  "N0": 40,
+  "delta": 32,
+  "mode": "per_batch_process",
+  "phase0": {
+    "docs": 40,
+    "leaves": 40,
+    "internal": 5,
+    "wall_s": 3.53,
+    "prompt_tokens": 1096,
+    "completion_tokens": 183,
+    "total_tokens": 1279
+  }
+}

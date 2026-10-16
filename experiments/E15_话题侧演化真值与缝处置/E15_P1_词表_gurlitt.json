@@ -1,0 +1,43 @@
+{
+ "event": "gurlitt",
+ "nodes": [
+  {
+   "node": "artwork_acceptance",
+   "desc": "Acceptance of artworks by an entity"
+  },
+  {
+   "node": "bequest_management",
+   "desc": "Management of bequest acceptance or denial"
+  },
+  {
+   "node": "challenge_action",
+   "desc": "Action of challenging a decision or ownership"
+  },
+  {
+   "node": "control_of_art",
+   "desc": "Control or management of art pieces"
+  },
+  {
+   "node": "decision_announcement",
+   "desc": "Announcement of a decision or conclusion"
+  },
+  {
+   "node": "event_update",
+   "desc": "Update on the event or its status"
+  },
+  {
+   "node": "litigation_process",
+   "desc": "Process or outcome of legal litigation"
+  },
+  {
+   "node": "public_reaction",
+   "desc": "Public response or reaction to the event"
+  },
+  {
+   "node": "other",
+   "desc": "Other narrative aspects not covered by the above nodes"
+  }
+ ],
+ "n_label_used": 64,
+ "coverage_pct": 85.5
+}

@@ -1,0 +1,252 @@
+{
+ "seed": 20261012,
+ "n": 48,
+ "target": {
+  "DERIVE": 10,
+  "SUPPORT": 12,
+  "CONFLICT": 12,
+  "UNRELATED": 14
+ },
+ "index": {
+  "Q01": {
+   "pair_id": "E13-0064",
+   "stratum": "S1_same_thread_reply",
+   "subtype": ""
+  },
+  "Q02": {
+   "pair_id": "E13-0282",
+   "stratum": "S2_cross_thread_high_sim",
+   "subtype": ""
+  },
+  "Q03": {
+   "pair_id": "E13-0698",
+   "stratum": "S6_same_slot_conflicting",
+   "subtype": "strict"
+  },
+  "Q04": {
+   "pair_id": "E13-0339",
+   "stratum": "S4_cross_thread_random",
+   "subtype": ""
+  },
+  "Q05": {
+   "pair_id": "E13-0735",
+   "stratum": "S6_same_slot_conflicting",
+   "subtype": "strict"
+  },
+  "Q06": {
+   "pair_id": "E13-0086",
+   "stratum": "S1_same_thread_reply",
+   "subtype": ""
+  },
+  "Q07": {
+   "pair_id": "E13-0385",
+   "stratum": "S4_cross_thread_random",
+   "subtype": ""
+  },
+  "Q08": {
+   "pair_id": "E13-0281",
+   "stratum": "S2_cross_thread_high_sim",
+   "subtype": ""
+  },
+  "Q09": {
+   "pair_id": "E13-0297",
+   "stratum": "S4_cross_thread_random",
+   "subtype": ""
+  },
+  "Q10": {
+   "pair_id": "E13-0227",
+   "stratum": "S2_cross_thread_high_sim",
+   "subtype": ""
+  },
+  "Q11": {
+   "pair_id": "E13-0753",
+   "stratum": "S6_same_slot_conflicting",
+   "subtype": "strict"
+  },
+  "Q12": {
+   "pair_id": "E13-0102",
+   "stratum": "S3_cross_thread_opposite_veracity",
+   "subtype": ""
+  },
+  "Q13": {
+   "pair_id": "E13-0200",
+   "stratum": "S2_cross_thread_high_sim",
+   "subtype": ""
+  },
+  "Q14": {
+   "pair_id": "E13-0465",
+   "stratum": "S5_cross_thread_verbatim",
+   "subtype": "mention_only"
+  },
+  "Q15": {
+   "pair_id": "E13-0323",
+   "stratum": "S4_cross_thread_random",
+   "subtype": ""
+  },
+  "Q16": {
+   "pair_id": "E13-0245",
+   "stratum": "S2_cross_thread_high_sim",
+   "subtype": ""
+  },
+  "Q17": {
+   "pair_id": "E13-0109",
+   "stratum": "S3_cross_thread_opposite_veracity",
+   "subtype": ""
+  },
+  "Q18": {
+   "pair_id": "E13-0080",
+   "stratum": "S1_same_thread_reply",
+   "subtype": ""
+  },
+  "Q19": {
+   "pair_id": "E13-0579",
+   "stratum": "S6_same_slot_conflicting",
+   "subtype": "vague"
+  },
+  "Q20": {
+   "pair_id": "E13-0630",
+   "stratum": "S6_same_slot_conflicting",
+   "subtype": "strict"
+  },
+  "Q21": {
+   "pair_id": "E13-0110",
+   "stratum": "S3_cross_thread_opposite_veracity",
+   "subtype": ""
+  },
+  "Q22": {
+   "pair_id": "E13-0070",
+   "stratum": "S1_same_thread_reply",
+   "subtype": ""
+  },
+  "Q23": {
+   "pair_id": "E13-0560",
+   "stratum": "S6_same_slot_conflicting",
+   "subtype": "polarity"
+  },
+  "Q24": {
+   "pair_id": "E13-0219",
+   "stratum": "S2_cross_thread_high_sim",
+   "subtype": ""
+  },
+  "Q25": {
+   "pair_id": "E13-0037",
+   "stratum": "S1_same_thread_reply",
+   "subtype": ""
+  },
+  "Q26": {
+   "pair_id": "E13-0018",
+   "stratum": "S1_same_thread_reply",
+   "subtype": ""
+  },
+  "Q27": {
+   "pair_id": "E13-0224",
+   "stratum": "S2_cross_thread_high_sim",
+   "subtype": ""
+  },
+  "Q28": {
+   "pair_id": "E13-0651",
+   "stratum": "S6_same_slot_conflicting",
+   "subtype": "strict"
+  },
+  "Q29": {
+   "pair_id": "E13-0203",
+   "stratum": "S2_cross_thread_high_sim",
+   "subtype": ""
+  },
+  "Q30": {
+   "pair_id": "E13-0357",
+   "stratum": "S4_cross_thread_random",
+   "subtype": ""
+  },
+  "Q31": {
+   "pair_id": "E13-0093",
+   "stratum": "S1_same_thread_reply",
+   "subtype": ""
+  },
+  "Q32": {
+   "pair_id": "E13-0334",
+   "stratum": "S4_cross_thread_random",
+   "subtype": ""
+  },
+  "Q33": {
+   "pair_id": "E13-0275",
+   "stratum": "S2_cross_thread_high_sim",
+   "subtype": ""
+  },
+  "Q34": {
+   "pair_id": "E13-0412",
+   "stratum": "S5_cross_thread_verbatim",
+   "subtype": "mention_only"
+  },
+  "Q35": {
+   "pair_id": "E13-0008",
+   "stratum": "S1_same_thread_reply",
+   "subtype": ""
+  },
+  "Q36": {
+   "pair_id": "E13-0270",
+   "stratum": "S2_cross_thread_high_sim",
+   "subtype": ""
+  },
+  "Q37": {
+   "pair_id": "E13-0105",
+   "stratum": "S3_cross_thread_opposite_veracity",
+   "subtype": ""
+  },
+  "Q38": {
+   "pair_id": "E13-0019",
+   "stratum": "S1_same_thread_reply",
+   "subtype": ""
+  },
+  "Q39": {
+   "pair_id": "E13-0399",
+   "stratum": "S5_cross_thread_verbatim",
+   "subtype": "copy"
+  },
+  "Q40": {
+   "pair_id": "E13-0195",
+   "stratum": "S2_cross_thread_high_sim",
+   "subtype": ""
+  },
+  "Q41": {
+   "pair_id": "E13-0421",
+   "stratum": "S5_cross_thread_verbatim",
+   "subtype": "mention_only"
+  },
+  "Q42": {
+   "pair_id": "E13-0537",
+   "stratum": "S6_same_slot_conflicting",
+   "subtype": "strict"
+  },
+  "Q43": {
+   "pair_id": "E13-0088",
+   "stratum": "S1_same_thread_reply",
+   "subtype": ""
+  },
+  "Q44": {
+   "pair_id": "E13-0140",
+   "stratum": "S3_cross_thread_opposite_veracity",
+   "subtype": ""
+  },
+  "Q45": {
+   "pair_id": "E13-0050",
+   "stratum": "S1_same_thread_reply",
+   "subtype": ""
+  },
+  "Q46": {
+   "pair_id": "E13-0127",
+   "stratum": "S3_cross_thread_opposite_veracity",
+   "subtype": ""
+  },
+  "Q47": {
+   "pair_id": "E13-0226",
+   "stratum": "S2_cross_thread_high_sim",
+   "subtype": ""
+  },
+  "Q48": {
+   "pair_id": "E13-0415",
+   "stratum": "S5_cross_thread_verbatim",
+   "subtype": "copy"
+  }
+ }
+}

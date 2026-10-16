@@ -1,0 +1,142 @@
+{
+ "slice": "S1 11-03T22:29→11-04T15:45",
+ "kappa": 0.3826,
+ "kappa_tab": [
+  34,
+  39,
+  37,
+  386
+ ],
+ "po": 0.8468,
+ "n_labels": 32,
+ "n_other": 1,
+ "node_threads": {
+  "performance_event": 7,
+  "event_announcement": 3,
+  "event_occurrence": 20,
+  "public_reaction": 3,
+  "event_location": 2,
+  "other": 1,
+  "event_details": 6,
+  "event_schedule": 2,
+  "ticket_price": 1,
+  "event_status": 1
+ },
+ "node_members": {
+  "performance_event": [
+   "event announcement"
+  ],
+  "event_announcement": [
+   "event"
+  ],
+  "event_occurrence": [
+   "playing",
+   "surprise show",
+   "lining up",
+   "happening",
+   "rumoured performance",
+   "pop up show",
+   "event happening",
+   "performing",
+   "playing show",
+   "secret performance",
+   "event occurrence"
+  ],
+  "public_reaction": [
+   "rumours"
+  ],
+  "event_location": [
+   "performance venue",
+   "location"
+  ],
+  "other": [
+   "reason"
+  ],
+  "event_details": [
+   "stage clothes origin",
+   "Prince performance",
+   "content",
+   "rumoured show",
+   "show",
+   "event details"
+  ],
+  "event_schedule": [
+   "performance date",
+   "event schedule"
+  ],
+  "ticket_price": [
+   "ticket price"
+  ],
+  "event_status": [
+   "performance status"
+  ]
+ },
+ "assign_A": {
+  "performance": 0,
+  "event announcement": 1,
+  "event": 2,
+  "playing": 3,
+  "surprise show": 3,
+  "lining up": 3,
+  "rumours": 6,
+  "happening": 3,
+  "rumoured performance": 3,
+  "pop up show": 3,
+  "performance venue": 9,
+  "reason": 12,
+  "event happening": 3,
+  "number": 13,
+  "stage clothes origin": 11,
+  "Prince performance": 11,
+  "content": 11,
+  "rumoured show": 11,
+  "show": 11,
+  "performance date": 10,
+  "location": 9,
+  "reportedly": 26,
+  "event schedule": 10,
+  "performing": 3,
+  "event details": 11,
+  "forecasted": 25,
+  "knowledge": 26,
+  "playing show": 3,
+  "ticket price": 8,
+  "performance status": 5,
+  "secret performance": 3,
+  "event occurrence": 3
+ },
+ "assign_B": {
+  "Prince performance": 1,
+  "content": 0,
+  "event": 3,
+  "event announcement": 2,
+  "event details": 11,
+  "event happening": 3,
+  "event occurrence": 3,
+  "event schedule": 10,
+  "forecasted": 0,
+  "happening": 3,
+  "knowledge": 0,
+  "lining up": 3,
+  "location": 9,
+  "number": 0,
+  "performance": 1,
+  "performance date": 10,
+  "performance status": 5,
+  "performance venue": 9,
+  "performing": 1,
+  "playing": 3,
+  "playing show": 3,
+  "pop up show": 3,
+  "reason": 0,
+  "reportedly": 0,
+  "rumoured performance": 7,
+  "rumoured show": 7,
+  "rumours": 7,
+  "secret performance": 7,
+  "show": 1,
+  "stage clothes origin": 0,
+  "surprise show": 3,
+  "ticket price": 8
+ }
+}

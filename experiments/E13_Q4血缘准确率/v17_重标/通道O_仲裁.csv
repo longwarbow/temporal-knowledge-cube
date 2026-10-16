@@ -1,0 +1,18 @@
+﻿pair_id,label_relation,label_confidence,label_notes
+E13-0018,DERIVE,2,A5 逐字引用/RT、仅URL与来源@差异
+E13-0020,DERIVE,2,A5-② 逐字RT、hashtag/@不计新增
+E13-0037,DERIVE,2,A5 逐字引用/RT、仅URL与来源@差异
+E13-0064,DERIVE,2,A5 逐字引用、情绪词Just horrible不计
+E13-0212,SUPPORT,3,④同命题独立复述、无p引用痕迹
+E13-0399,SUPPORT,2,A5 同句、归因改为expert says
+E13-0454,DERIVE,2,①照抄例外+同文复制
+E13-0463,UNRELATED,2,②评论对守卫 主观评论无事实命题
+E13-0475,DERIVE,2,A5-② 逐字引用、情绪词不计
+E13-0555,UNRELATED,2,①/T2 疑问+评论无事实命题
+E13-0563,UNRELATED,2,①/T2 疑问+评论无事实命题
+E13-0624,CONFLICT,1,A3-ⓑ 同槽人质数13vs6互斥
+E13-0650,UNRELATED,3,③a 场所不同 超市vs印刷厂
+E13-0692,UNRELATED,2,A4 不同族 FATALITY↔PERPETRATOR
+E13-0701,UNRELATED,2,A4 不同族 死者↔2枪手
+E13-0728,UNRELATED,1,① 他事(录音带)与p断言不同
+E13-0753,UNRELATED,1,① 评论/反问+指称不同

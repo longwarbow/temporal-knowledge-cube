@@ -1,0 +1,98 @@
+{
+  "seed": 20261012,
+  "n": 12,
+  "design": {
+    "R1_prev_disagree": [
+      "E13-0503",
+      "E13-0539",
+      "E13-0458",
+      "E13-0487",
+      "E13-0543",
+      "E13-0534"
+    ],
+    "R2_control": [
+      "E13-0540",
+      "E13-0566",
+      "E13-0556",
+      "E13-0499",
+      "E13-0513",
+      "E13-0570"
+    ],
+    "note": "对照 = 从 v1.4 下两通道已一致的 70 条中随机抽等量"
+  },
+  "map": {
+    "E13-0570": {
+      "role": "R2_control",
+      "v14_I": "SUPPORT",
+      "v14_J": "SUPPORT",
+      "prev_consensus": "SUPPORT"
+    },
+    "E13-0513": {
+      "role": "R2_control",
+      "v14_I": "SUPPORT",
+      "v14_J": "SUPPORT",
+      "prev_consensus": ""
+    },
+    "E13-0543": {
+      "role": "R1_disagree",
+      "v14_I": "UNRELATED",
+      "v14_J": "SUPPORT",
+      "prev_consensus": ""
+    },
+    "E13-0499": {
+      "role": "R2_control",
+      "v14_I": "SUPPORT",
+      "v14_J": "SUPPORT",
+      "prev_consensus": "SUPPORT"
+    },
+    "E13-0539": {
+      "role": "R1_disagree",
+      "v14_I": "UNRELATED",
+      "v14_J": "SUPPORT",
+      "prev_consensus": "UNRELATED"
+    },
+    "E13-0487": {
+      "role": "R1_disagree",
+      "v14_I": "SUPPORT",
+      "v14_J": "UNRELATED",
+      "prev_consensus": "UNRELATED"
+    },
+    "E13-0540": {
+      "role": "R2_control",
+      "v14_I": "UNRELATED",
+      "v14_J": "UNRELATED",
+      "prev_consensus": ""
+    },
+    "E13-0534": {
+      "role": "R1_disagree",
+      "v14_I": "UNRELATED",
+      "v14_J": "SUPPORT",
+      "prev_consensus": ""
+    },
+    "E13-0458": {
+      "role": "R1_disagree",
+      "v14_I": "DERIVE",
+      "v14_J": "SUPPORT",
+      "prev_consensus": "SUPPORT"
+    },
+    "E13-0566": {
+      "role": "R2_control",
+      "v14_I": "UNRELATED",
+      "v14_J": "UNRELATED",
+      "prev_consensus": "UNRELATED"
+    },
+    "E13-0503": {
+      "role": "R1_disagree",
+      "v14_I": "UNRELATED",
+      "v14_J": "SUPPORT",
+      "prev_consensus": ""
+    },
+    "E13-0556": {
+      "role": "R2_control",
+      "v14_I": "UNRELATED",
+      "v14_J": "UNRELATED",
+      "prev_consensus": ""
+    }
+  },
+  "warning": "含 v1.4 真值，**不得**交给标注员"
+}

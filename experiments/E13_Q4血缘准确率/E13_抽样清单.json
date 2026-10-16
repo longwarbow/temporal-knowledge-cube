@@ -1,0 +1,29 @@
+{
+  "n_per_stratum": 97,
+  "cap_per_event": 30,
+  "total": 388,
+  "strata": {
+    "S1_same_thread_reply": 97,
+    "S2_cross_thread_high_sim": 97,
+    "S3_cross_thread_opposite_veracity": 97,
+    "S4_cross_thread_random": 97
+  },
+  "event_distribution": {
+    "ottawashooting-all-rnr-threads": 101,
+    "germanwings-crash-all-rnr-threads": 93,
+    "charliehebdo-all-rnr-threads": 82,
+    "ferguson-all-rnr-threads": 66,
+    "sydneysiege-all-rnr-threads": 45,
+    "prince-toronto-all-rnr-threads": 1
+  },
+  "label_set": [
+    "DERIVE",
+    "SUPPORT",
+    "CONFLICT",
+    "UNRELATED"
+  ],
+  "sample_size_rationale": "n=97 取自 E12/D8-rev1「比例·精」档 (n_min≈0.96/eps^2, eps=0.10)，按层独立估计比例",
+  "overlap_for_IAA": "前 20%（≈78 对）由第二标注员独立标注，用于 Cohen kappa",
+  "text_truncation_chars": 320,
+  "note": "system_pred 留空，由系统填写；label_* 由人工填写。见 E13_标注协议.md"
+}

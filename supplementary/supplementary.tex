@@ -1,0 +1,94 @@
+% ---------------------------------------------------------------------------
+%  Supplementary material for:
+%    "Maintaining a Temporal Knowledge Cube over Streaming Short Text:
+%     Dimension Evolution and Mergeable Semantic Measures"
+%  Companion to the ICDE 2027 submission (12-page body, no appendix allowed).
+%
+%  Contents
+%    - the six tables and three figures omitted from the body for space
+%      (numbers summarised inline in the main paper)
+%    - Appendix A (design decisions), Appendix B (reproducibility checklist),
+%      Appendix C (the E13 annotation programme in full)
+%  Citation numbers are identical to the main paper (same \bibitem keys r1..r67).
+%
+%  Build:  tectonic -X compile supplementary.tex
+% ---------------------------------------------------------------------------
+\documentclass[10pt]{article}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{url}
+\usepackage{newtxtext,newtxmath}
+% CJK only for the Chinese-language entries in the reference list.
+\usepackage{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}
+\setCJKsansfont{FandolHei-Regular.otf}
+
+\graphicspath{{figures/}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\arraystretch}{1.15}
+\setlength{\parskip}{0.35em}
+
+\title{\vspace{-2.6em}Supplementary Material\\[0.45em]
+       \large Maintaining a Temporal Knowledge Cube over Streaming Short Text:\\
+       \large Dimension Evolution and Mergeable Semantic Measures}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\vspace{-3.2em}
+
+{\small\tableofcontents}
+
+\section*{What is in this document}
+\addcontentsline{toc}{section}{What is in this document}
+
+The main paper is limited to twelve pages and is not allowed an appendix, so the
+material below is hosted separately and pointed to from the text. It adds detail;
+it does not add claims. Specifically:
+
+\begin{itemize}
+\item \textbf{Omitted tables and figures (S1--S6, S1--S3).} Six tables and three
+figures that were dropped from the evaluation for space. Every number they carry
+is summarised inline in the main paper (\S7.1--\S7.8); the tables are reproduced
+here in full so that the numbers can be checked rather than taken on trust.
+\item \textbf{Appendix A --- design decisions behind the artefacts.} The subset of
+the system's 27 recorded design decisions that shape the paper.
+\item \textbf{Appendix B --- reproducibility checklist.} Data sources and licences,
+the retrieval channel, the per-experiment artefact protocol, the baseline protocol,
+the evaluation and calibration protocols, the annotation protocol, and the
+snapshot caveat that applies to every Wikidata count.
+\item \textbf{Appendix C --- the E13 annotation programme in full.} The procedural
+history of the $Q_4$ semantic layer, moved out of \S7.4 so that the body reports
+outcomes rather than protocol history. It is included because the failures are as
+informative as the successes: the four codebook revisions, the two targeted
+generators' out-of-sample yields, the full-set channel execution, the human test
+that disqualified a frozen codebook, and the independent re-judging that
+quantified the resulting score circularity.
+\end{itemize}
+
+\noindent References keep the numbering of the main paper, so \cite{r5} here is
+the same work as \cite{r5} there.
+
+\section*{Omitted tables and figures}
+\addcontentsline{toc}{section}{Omitted tables and figures}
+
+\input{floats/01.tex}
+\input{floats/02.tex}
+\input{floats/03.tex}
+\input{floats/04.tex}
+\input{floats/05.tex}
+\input{floats/06.tex}
+\input{floats/07.tex}
+\input{floats/08.tex}
+\input{floats/09.tex}
+
+\input{appendix_src.tex}
+
+\input{refs_icde.tex}
+
+\end{document}

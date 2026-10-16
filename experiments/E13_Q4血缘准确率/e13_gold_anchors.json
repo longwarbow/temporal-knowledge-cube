@@ -1,0 +1,83 @@
+{
+  "A1_lineage_ground_truth": {
+    "n_threads": 6425,
+    "n_nodes": 105747,
+    "n_edges": 98929,
+    "edges_with_mention_pct": 99.16,
+    "thread_size_median": 12,
+    "thread_size_p90": 32,
+    "thread_size_max": 346,
+    "depth_median": 1,
+    "depth_p90": 7,
+    "depth_max": 33,
+    "mentions_per_post_median": 2,
+    "mentions_per_post_p90": 3
+  },
+  "A2_content_recovery": {
+    "n_pos": 98929,
+    "n_neg": 43071,
+    "cos_pos_mean": 0.4193,
+    "cos_neg_mean": 0.4069,
+    "auc_cos": 0.5005,
+    "a3_nearest_earlier_accuracy": 0.1987,
+    "a3_n": 98157
+  },
+  "A3_temporal_baseline": {
+    "nearest_earlier_accuracy": 0.1987,
+    "n": 98157
+  },
+  "A4_wikidata_coupled_edges": {
+    "available": true,
+    "n_spouse_statements_in_sample": 500,
+    "n_distinct_edges": 483,
+    "n_reciprocal_pairs": 94,
+    "same_reason_pairs_E8_criterion": 46,
+    "both_reason_empty_pairs": 43,
+    "one_reason_missing_pairs": 5,
+    "same_endtime_pairs": 9,
+    "criterion_note": "E8 口径：同因要求双方 reason 均非空且相同；本表额外披露“双空”计数以消除歧义",
+    "examples": [
+      {
+        "a": "Q18223052",
+        "b": "Q93119",
+        "reason_a": "http://www.wikidata.org/entity/Q2492572",
+        "reason_b": "http://www.wikidata.org/entity/Q2492572",
+        "end_a": "1950-01-01T00:00:00Z",
+        "end_b": "1959-01-01T00:00:00Z"
+      },
+      {
+        "a": "Q1930497",
+        "b": "Q29073",
+        "reason_a": "",
+        "reason_b": "",
+        "end_a": "",
+        "end_b": ""
+      },
+      {
+        "a": "Q206774",
+        "b": "Q48735",
+        "reason_a": "http://www.wikidata.org/entity/Q67203058",
+        "reason_b": "http://www.wikidata.org/entity/Q67203058",
+        "end_a": "",
+        "end_b": ""
+      },
+      {
+        "a": "Q22673603",
+        "b": "Q62975",
+        "reason_a": "http://www.wikidata.org/entity/Q13579947",
+        "reason_b": "http://www.wikidata.org/entity/Q13579947",
+        "end_a": "",
+        "end_b": ""
+      },
+      {
+        "a": "Q3784903",
+        "b": "Q80261",
+        "reason_a": "",
+        "reason_b": "",
+        "end_a": "",
+        "end_b": ""
+      }
+    ]
+  },
+  "note": "A1/A2/A3 = document→claim 层血缘（客观可判定）；claim 层的语义边（DERIVE/SUPPORT/CONFLICT）需人工标注，见 E13_标注协议.md"
+}

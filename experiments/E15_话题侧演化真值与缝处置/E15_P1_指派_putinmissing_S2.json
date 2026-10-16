@@ -1,0 +1,103 @@
+{
+ "slice": "S2 03-13T17:32→03-14T09:11",
+ "kappa": 0.2903,
+ "kappa_tab": [
+  15,
+  42,
+  6,
+  168
+ ],
+ "po": 0.7922,
+ "n_labels": 22,
+ "n_other": 11,
+ "node_threads": {
+  "status_report": 16,
+  "location_report": 5,
+  "missing_report": 4,
+  "disappearance_theory": 5,
+  "presence_report": 3,
+  "reappearance_report": 3,
+  "rumour_report": 1,
+  "indication_of_event": 1,
+  "mastermind_theory": 1
+ },
+ "node_members": {
+  "status_report": [
+   "status"
+  ],
+  "location_report": [
+   "location"
+  ],
+  "missing_report": [
+   "missing"
+  ],
+  "disappearance_theory": [
+   "disappearance",
+   "death"
+  ],
+  "presence_report": [
+   "presence"
+  ],
+  "reappearance_report": [
+   "reappearance",
+   "appearance"
+  ],
+  "rumour_report": [
+   "rumours"
+  ],
+  "indication_of_event": [
+   "indication"
+  ],
+  "mastermind_theory": [
+   "perpetrator identity"
+  ]
+ },
+ "assign_A": {
+  "status": 1,
+  "location": 2,
+  "missing": 3,
+  "disappearance": 5,
+  "presence": 7,
+  "death": 5,
+  "reappearance": 8,
+  "appearance": 8,
+  "rumours": 11,
+  "extremism investigation": 0,
+  "indication": 6,
+  "charisma": 0,
+  "perpetrator identity": 13,
+  "birth of a boy": 0,
+  "suggestion": 0,
+  "is a lie": 0,
+  "removal": 0,
+  "killed": 0,
+  "confirmation": 0,
+  "escaped": 0,
+  "return": 0,
+  "public appearance": 0
+ },
+ "assign_B": {
+  "appearance": 0,
+  "birth of a boy": 0,
+  "charisma": 0,
+  "confirmation": 0,
+  "death": 4,
+  "disappearance": 5,
+  "escaped": 6,
+  "extremism investigation": 0,
+  "indication": 8,
+  "is a lie": 0,
+  "killed": 10,
+  "location": 11,
+  "missing": 12,
+  "perpetrator identity": 13,
+  "presence": 14,
+  "public appearance": 0,
+  "reappearance": 16,
+  "removal": 17,
+  "return": 18,
+  "rumours": 19,
+  "status": 20,
+  "suggestion": 21
+ }
+}

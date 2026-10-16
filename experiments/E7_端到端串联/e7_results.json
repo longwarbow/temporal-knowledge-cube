@@ -1,0 +1,366 @@
+{
+ "fpost": {
+  "n_events": 1278493,
+  "n_seed": 3387,
+  "n_repost": 1275106,
+  "bad": 2,
+  "seed_missing_t": 87,
+  "n_cells": 12839,
+  "prov_mapped_seeds": 2886,
+  "prov_coverage_pct": 85.2,
+  "checkpoints": [
+   {
+    "checkpoint": 1,
+    "n_events": 98345,
+    "cells": 913,
+    "inc_ops": 98345,
+    "rebuild_ops": 98345,
+    "diff": 0,
+    "rebuild_s": 0.19
+   },
+   {
+    "checkpoint": 2,
+    "n_events": 196691,
+    "cells": 1804,
+    "inc_ops": 196691,
+    "rebuild_ops": 196691,
+    "diff": 0,
+    "rebuild_s": 0.16
+   },
+   {
+    "checkpoint": 3,
+    "n_events": 295036,
+    "cells": 2570,
+    "inc_ops": 295036,
+    "rebuild_ops": 295036,
+    "diff": 0,
+    "rebuild_s": 0.25
+   },
+   {
+    "checkpoint": 4,
+    "n_events": 393382,
+    "cells": 3099,
+    "inc_ops": 393382,
+    "rebuild_ops": 393382,
+    "diff": 0,
+    "rebuild_s": 0.33
+   },
+   {
+    "checkpoint": 5,
+    "n_events": 491728,
+    "cells": 3667,
+    "inc_ops": 491728,
+    "rebuild_ops": 491728,
+    "diff": 0,
+    "rebuild_s": 0.42
+   },
+   {
+    "checkpoint": 6,
+    "n_events": 590073,
+    "cells": 4364,
+    "inc_ops": 590073,
+    "rebuild_ops": 590073,
+    "diff": 0,
+    "rebuild_s": 0.48
+   },
+   {
+    "checkpoint": 7,
+    "n_events": 688419,
+    "cells": 5196,
+    "inc_ops": 688419,
+    "rebuild_ops": 688419,
+    "diff": 0,
+    "rebuild_s": 0.53
+   },
+   {
+    "checkpoint": 8,
+    "n_events": 786764,
+    "cells": 6313,
+    "inc_ops": 786764,
+    "rebuild_ops": 786764,
+    "diff": 0,
+    "rebuild_s": 0.61
+   },
+   {
+    "checkpoint": 9,
+    "n_events": 885110,
+    "cells": 7211,
+    "inc_ops": 885110,
+    "rebuild_ops": 885110,
+    "diff": 0,
+    "rebuild_s": 0.71
+   },
+   {
+    "checkpoint": 10,
+    "n_events": 983456,
+    "cells": 8186,
+    "inc_ops": 983456,
+    "rebuild_ops": 983456,
+    "diff": 0,
+    "rebuild_s": 0.94
+   },
+   {
+    "checkpoint": 11,
+    "n_events": 1081801,
+    "cells": 9357,
+    "inc_ops": 1081801,
+    "rebuild_ops": 1081801,
+    "diff": 0,
+    "rebuild_s": 0.87
+   },
+   {
+    "checkpoint": 12,
+    "n_events": 1180147,
+    "cells": 10735,
+    "inc_ops": 1180147,
+    "rebuild_ops": 1180147,
+    "diff": 0,
+    "rebuild_s": 0.95
+   },
+   {
+    "checkpoint": 13,
+    "n_events": 1278493,
+    "cells": 12839,
+    "inc_ops": 1278493,
+    "rebuild_ops": 1278493,
+    "diff": 0,
+    "rebuild_s": 1.15
+   }
+  ],
+  "total_diff": 0,
+  "cost_ratio": 7.0
+ },
+ "spatial": {
+  "n_events": 450,
+  "n_evo": 338,
+  "op_hist": {
+   "RENAME": 39,
+   "MERGE": 321,
+   "BIRTH": 28,
+   "RETIRE": 26,
+   "REPARENT": 31,
+   "REVISE": 5
+  },
+  "province_events": 0,
+  "prov_mismatch": 0,
+  "city_posts": 2339,
+  "city_diff_abs": 30,
+  "rho_city": 0.0045,
+  "n_seed_time": 3300,
+  "changed_tokens": [
+   {
+    "city": "静安区",
+    "month": "2012-11",
+    "asof": 1,
+    "static": 3
+   },
+   {
+    "city": "江北区",
+    "month": "2013-05",
+    "asof": 2,
+    "static": 0
+   },
+   {
+    "city": "闸北区",
+    "month": "2012-11",
+    "asof": 2,
+    "static": 0
+   },
+   {
+    "city": "两江新区",
+    "month": "2013-05",
+    "asof": 0,
+    "static": 2
+   },
+   {
+    "city": "江北区",
+    "month": "2013-02",
+    "asof": 1,
+    "static": 0
+   },
+   {
+    "city": "闸北区",
+    "month": "2011-06",
+    "asof": 1,
+    "static": 0
+   },
+   {
+    "city": "静安区",
+    "month": "2012-04",
+    "asof": 0,
+    "static": 1
+   },
+   {
+    "city": "闸北区",
+    "month": "2013-04",
+    "asof": 1,
+    "static": 0
+   },
+   {
+    "city": "两江新区",
+    "month": "2012-05",
+    "asof": 0,
+    "static": 1
+   },
+   {
+    "city": "闸北区",
+    "month": "2013-06",
+    "asof": 1,
+    "static": 0
+   },
+   {
+    "city": "江北区",
+    "month": "2013-04",
+    "asof": 1,
+    "static": 0
+   },
+   {
+    "city": "静安区",
+    "month": "2013-04",
+    "asof": 1,
+    "static": 2
+   }
+  ]
+ },
+ "fclaim": {
+  "universe": 1021,
+  "affected": 224,
+  "invalid_true": 28,
+  "cross_check_e5_affected_224": true,
+  "cross_check_e6_invalid_28": true,
+  "n_claim_threads": 2402,
+  "n_false": 393,
+  "per_event": [
+   {
+    "event": "germanwings-crash-all-rnr-threads",
+    "support_total": 4524,
+    "support_valid": 3444,
+    "bias_pct": 23.9
+   },
+   {
+    "event": "ottawashooting-all-rnr-threads",
+    "support_total": 12402,
+    "support_valid": 11557,
+    "bias_pct": 6.8
+   },
+   {
+    "event": "sydneysiege-all-rnr-threads",
+    "support_total": 24228,
+    "support_valid": 22600,
+    "bias_pct": 6.7
+   },
+   {
+    "event": "charliehebdo-all-rnr-threads",
+    "support_total": 38670,
+    "support_valid": 36849,
+    "bias_pct": 4.7
+   },
+   {
+    "event": "ferguson-all-rnr-threads",
+    "support_total": 23748,
+    "support_valid": 23614,
+    "bias_pct": 0.6
+   },
+   {
+    "event": "ebola-essien-all-rnr-threads",
+    "support_total": 227,
+    "support_valid": 227,
+    "bias_pct": 0.0
+   },
+   {
+    "event": "prince-toronto-all-rnr-threads",
+    "support_total": 923,
+    "support_valid": 923,
+    "bias_pct": 0.0
+   },
+   {
+    "event": "gurlitt-all-rnr-threads",
+    "support_total": 179,
+    "support_valid": 179,
+    "bias_pct": 0.0
+   },
+   {
+    "event": "putinmissing-all-rnr-threads",
+    "support_total": 846,
+    "support_valid": 846,
+    "bias_pct": 0.0
+   }
+  ],
+  "max_bias_event": "germanwings-crash-all-rnr-threads",
+  "max_bias_pct": 23.9,
+  "consistency_diff": 0
+ },
+ "constellation_top_days": [
+  {
+   "day": "2012-08-08",
+   "ced_posts": 8964,
+   "ced_reposts": 8934,
+   "pheme_tweets": 0,
+   "pheme_valid_share": null
+  },
+  {
+   "day": "2013-04-20",
+   "ced_posts": 7294,
+   "ced_reposts": 7261,
+   "pheme_tweets": 0,
+   "pheme_valid_share": null
+  },
+  {
+   "day": "2013-04-21",
+   "ced_posts": 7319,
+   "ced_reposts": 7296,
+   "pheme_tweets": 0,
+   "pheme_valid_share": null
+  },
+  {
+   "day": "2014-03-31",
+   "ced_posts": 7475,
+   "ced_reposts": 7454,
+   "pheme_tweets": 0,
+   "pheme_valid_share": null
+  },
+  {
+   "day": "2014-08-15",
+   "ced_posts": 7,
+   "ced_reposts": 7,
+   "pheme_tweets": 9272,
+   "pheme_valid_share": 0.997
+  },
+  {
+   "day": "2014-10-22",
+   "ced_posts": 1,
+   "ced_reposts": 1,
+   "pheme_tweets": 11355,
+   "pheme_valid_share": 0.927
+  },
+  {
+   "day": "2014-12-15",
+   "ced_posts": 5,
+   "ced_reposts": 5,
+   "pheme_tweets": 22615,
+   "pheme_valid_share": 0.944
+  },
+  {
+   "day": "2015-01-07",
+   "ced_posts": 5,
+   "ced_reposts": 5,
+   "pheme_tweets": 14922,
+   "pheme_valid_share": 0.979
+  },
+  {
+   "day": "2015-01-08",
+   "ced_posts": 1,
+   "ced_reposts": 1,
+   "pheme_tweets": 11544,
+   "pheme_valid_share": 0.928
+  },
+  {
+   "day": "2015-01-09",
+   "ced_posts": 0,
+   "ced_reposts": 0,
+   "pheme_tweets": 10888,
+   "pheme_valid_share": 0.94
+  }
+ ],
+ "conformed_dim": "day（同一 bucket 函数同时切 F_post 与 F_claim）"
+}

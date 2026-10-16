@@ -1,0 +1,198 @@
+diff --git a/Core/Common/Utils.py b/Core/Common/Utils.py
+index f29f07f..622eaab 100755
+--- a/Core/Common/Utils.py
++++ b/Core/Common/Utils.py
+@@ -1,3 +1,4 @@
++from __future__ import annotations  # E14-compat: PEP604 注解 (list[int] | list[list[int]]) 在 Py3.9 下需延迟求值
+ from hashlib import md5
+ import html
+ from itertools import chain
+diff --git a/Core/Graph/TreeGraphDynamic.py b/Core/Graph/TreeGraphDynamic.py
+index 8d5f5b7..3e22974 100755
+--- a/Core/Graph/TreeGraphDynamic.py
++++ b/Core/Graph/TreeGraphDynamic.py
+@@ -76,12 +76,16 @@ class DynAux:
+     
+     def init_tree_aux(self, tree: TreeSchema):
+         self.NodeAux = [DynTreeNodeAux(node.index, node.children) for node in tree.all_nodes]
+-        for layer in tree.layer_to_nodes: 
++        for layer in tree.layer_to_nodes:
+             layer_index = tree.layer_to_nodes.index(layer)
+             for node in layer:
+                 self.NodeAux[node.index].layer = layer_index
+                 for child in node.children or []:
+                     self.NodeAux[child].parent = node.index
++        # E14 fix (#11): reset per-refinement state — _refine_graph may be called
++        # multiple times in streaming mode; stale affected_entities from a previous
++        # batch made the size assertion on the second call fail.
++        self.affected_entities = set()
+     
+     def add_node_aux(self, node: TreeNode, layer: int):
+         self.NodeAux.append(DynTreeNodeAux(node.index, layer))
+@@ -158,27 +162,27 @@ class TreeGraphDynamic(BaseGraph):
+             'avg_size': round(total_items / len(buckets), 2) if buckets else 0
+         }
+ 
+-    # def _print_bucket_stats(self, buckets, clusters):
+-    #     stats = self._analyze_bucket_distribution(buckets)
+-    #     logger.info("\n=== LSH Bucket Distribution Analysis ===")
+-    #     logger.info(f"Total Buckets: {stats['total_buckets']}")
+-    #     logger.info(f"Biggest Buckets: {stats['max_size']} Elements")
+-    #     logger.info(f"Smallest Buckets: {stats['min_size']} Elements")
+-    #     logger.info(f"Average Size: {stats['avg_size']} Elements")
+-    #     logger.info("\nBucket Size:")
+-    #     logger.info(f"{'Size':<8} | {'Count':<8} | {'Percentage':<10}")
+-    #     cumulative = 0
+-    #     total = stats['total_buckets']
+-    #     for size, count in stats['size_distribution'].items():
+-    #         percent = count / total * 100
+-    #         cumulative += percent
+-    #         logger.info(f"{size:<8} | {count:<8} | {cumulative:>8.1f}%")
+-        
+-    #     # Check point for each layer of clustering
+-    #     logger.info("\n=== Clustering Result ===")
+-    #     logger.info(f"Total Clusters: {len(clusters)}")
+-    #     sizes = [len(c) for c in clusters]
+-    #     logger.info(f"Cluster Distribution: Biggest {max(sizes)}, Smallest {min(sizes)}, Average {np.mean(sizes):.1f}")
++    def _print_bucket_stats(self, buckets, clusters):
++        stats = self._analyze_bucket_distribution(buckets)
++        logger.info("\n=== LSH Bucket Distribution Analysis ===")
++        logger.info(f"Total Buckets: {stats['total_buckets']}")
++        logger.info(f"Biggest Buckets: {stats['max_size']} Elements")
++        logger.info(f"Smallest Buckets: {stats['min_size']} Elements")
++        logger.info(f"Average Size: {stats['avg_size']} Elements")
++        logger.info("\nBucket Size:")
++        logger.info(f"{'Size':<8} | {'Count':<8} | {'Percentage':<10}")
++        cumulative = 0
++        total = stats['total_buckets']
++        for size, count in stats['size_distribution'].items():
++            percent = count / total * 100
++            cumulative += percent
++            logger.info(f"{size:<8} | {count:<8} | {cumulative:>8.1f}%")
++
++        # Check point for each layer of clustering
++        logger.info("\n=== Clustering Result ===")
++        logger.info(f"Total Clusters: {len(clusters)}")
++        sizes = [len(c) for c in clusters]
++        logger.info(f"Cluster Distribution: Biggest {max(sizes)}, Smallest {min(sizes)}, Average {np.mean(sizes):.1f}")
+ 
+ 
+     # hyper plain realization
+@@ -611,6 +615,15 @@ class TreeGraphDynamic(BaseGraph):
+         logger.info("len of new_all_nodes: {length}".format(length=len(new_all_nodes)))
+         logger.info("len of original nodes: {length}".format(length=len(self._graph.nodes)))
+         self._graph._tree.all_nodes = new_all_nodes
++        # E14 fix (#12): layer_to_nodes still references dropped nodes (stale large
++        # indices) — the next refinement pass iterates layer_to_nodes in
++        # init_tree_aux and indexes NodeAux out of range. Rebuild the layer lists
++        # from the reordered nodes (identity-based: a dropped node's stale index
++        # may collide with a surviving node's new index).
++        valid_objs = {id(n) for n in new_all_nodes}
++        tree = self._graph._tree
++        for li in range(len(tree.layer_to_nodes)):
++            tree.layer_to_nodes[li] = [n for n in tree.layer_to_nodes[li] if id(n) in valid_objs]
+ 
+     # Add information to the tree given the additional dynamic chunks
+     async def _refine_graph(self, new_chunks: List[Any]): 
+diff --git a/Core/Graph/TreeGraphLSH.py b/Core/Graph/TreeGraphLSH.py
+index fa3f017..b39c41a 100755
+--- a/Core/Graph/TreeGraphLSH.py
++++ b/Core/Graph/TreeGraphLSH.py
+@@ -15,8 +15,8 @@ from collections import defaultdict, deque
+ from typing import List, Set, Any
+ 
+ Embedding = List[float]
+-BUCKET_MAP_FILE = Your Bucket Map File
+-EMBEDDINGS_FILE = Your Embeddings File
++BUCKET_MAP_FILE = "Your Bucket Map File"  # E14-compat: 官方发布件此处为未加引号的占位符（SyntaxError），补引号，不改语义
++EMBEDDINGS_FILE = "Your Embeddings File"  # E14-compat: 同上
+ 
+ class TreeGraphLSH(BaseGraph):
+     max_workers: int = 16
+diff --git a/Core/Index/FaissIndex.py b/Core/Index/FaissIndex.py
+index f230caa..11b37c9 100755
+--- a/Core/Index/FaissIndex.py
++++ b/Core/Index/FaissIndex.py
+@@ -25,6 +25,17 @@ class FaissIndex(BaseIndex):
+     def __init__(self, config):
+         super().__init__(config)
+         self.embedding_model =config.embed_model
++        self._embed_dim = None
++
++    def _faiss_dim(self):
++        # The official repo hard-coded IndexHNSWFlat(1024, 32), which only
++        # matches OpenAI text-embedding-3 models. For any other embedding
++        # backend (e.g. local MiniLM = 384-d) the dimension must be derived
++        # from the actual model to avoid `assert d == self.d` in faiss.
++        if self._embed_dim is None:
++            probe = self.embedding_model._get_text_embedding("dimension probe")
++            self._embed_dim = len(probe)
++        return self._embed_dim
+     async def retrieval(self, query, top_k):
+         if top_k is None:
+             top_k = self._get_retrieve_top_k()
+@@ -71,7 +82,7 @@ class FaissIndex(BaseIndex):
+         text_embeddings = self.embedding_model._get_text_embeddings(texts)
+ 
+   
+-        vector_store = FaissVectorStore(faiss_index=faiss.IndexHNSWFlat(1024, 32))
++        vector_store = FaissVectorStore(faiss_index=faiss.IndexHNSWFlat(self._faiss_dim(), 32))
+         storage_context = StorageContext.from_defaults(vector_store=vector_store)
+ 
+         self._index =  VectorStoreIndex([], storage_context=storage_context,
+@@ -119,6 +130,10 @@ class FaissIndex(BaseIndex):
+         return self.config.retrieve_top_k
+ 
+     def _storage_index(self):
++        # The official repo relied on the workspace namespace having already
++        # created this directory, but on a fresh run it does not exist and
++        # faiss.write_index fails with "could not open ... for writing".
++        os.makedirs(self.config.persist_path, exist_ok=True)
+         self._index.storage_context.persist(persist_dir=self.config.persist_path)
+ 
+     async def _update_index_from_documents(self, docs: list[Document]):
+@@ -130,7 +145,7 @@ class FaissIndex(BaseIndex):
+     def _get_index(self):
+         Settings.embed_model = self.config.embed_model
+         #TODO: config the faiss index config
+-        vector_store = FaissVectorStore(faiss_index=faiss.IndexHNSWFlat(1024, 32))
++        vector_store = FaissVectorStore(faiss_index=faiss.IndexHNSWFlat(self._faiss_dim(), 32))
+         storage_context = StorageContext.from_defaults(vector_store=vector_store)
+ 
+         return  VectorStoreIndex(
+diff --git a/Option/Config2.py b/Option/Config2.py
+index b190715..f858916 100755
+--- a/Option/Config2.py
++++ b/Option/Config2.py
+@@ -106,7 +106,22 @@ class Config(WorkingParams, YamlModel):
+         dicts += [Config.read_yaml(path) for path in default_config_paths]
+ 
+         final = merge_dict(dicts)
+-   
++
++        # 移植补丁（2026-10-15）：官方仓库缺陷 —— 当未提供真实 llm / 外部
++        # `Option/Config2.yaml` 时，`final` 会缺失 `llm` 字段，导致 pydantic 在
++        # 导入期（Core.Common.Context / Core.Common.Logger / Core.Utils.Evaluation）
++        # 抛出验证错误，连带整条 import 链失败。此处注入最小回落配置，保证
++        # default() 在任何环境下都可构造；真实 GraphRAG 实例由调用方自行构造。
++        if "llm" not in final:
++            final["llm"] = {
++                "api_type": "open_llm",
++                "model": os.environ.get("E14_LLM_MODEL", "glm-4-flash"),
++                "base_url": os.environ.get(
++                    "E14_LLM_BASE_URL", "https://open.bigmodel.cn/api/paas/v4"
++                ),
++                "api_key": os.environ.get("E14_LLM_API_KEY", "placeholder"),
++            }
++
+         return Config(**final)
+ 
+     @property
+@@ -135,4 +150,4 @@ def merge_dict(dicts: Iterable[Dict]) -> Dict:
+     return result
+ 
+ 
+-default_config = Config.default() 
+\ No newline at end of file
++default_config = Config.default()
+\ No newline at end of file

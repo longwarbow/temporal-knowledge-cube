@@ -1,0 +1,63 @@
+{
+ "event": "ferguson",
+ "nodes": [
+  {
+   "node": "public_reaction",
+   "desc": "Public sentiment and responses"
+  },
+  {
+   "node": "event_description",
+   "desc": "Details of the event itself"
+  },
+  {
+   "node": "police_action",
+   "desc": "Actions taken by the police"
+  },
+  {
+   "node": "media_coverage",
+   "desc": "Media reporting and presence"
+  },
+  {
+   "node": "protest_and_response",
+   "desc": "Protests and community responses"
+  },
+  {
+   "node": "victims_and_perpetrators",
+   "desc": "Victims and individuals involved"
+  },
+  {
+   "node": "legal_and_political_context",
+   "desc": "Legal and political aspects"
+  },
+  {
+   "node": "social_impact",
+   "desc": "Social and community impact"
+  },
+  {
+   "node": "use_of_force",
+   "desc": "Use of force by police"
+  },
+  {
+   "node": "police_officer_identity",
+   "desc": "Identity of the police officer involved"
+  },
+  {
+   "node": "weapons_and_armaments",
+   "desc": "Weapons and armaments used"
+  },
+  {
+   "node": "geographical_context",
+   "desc": "Geographical context of the event"
+  },
+  {
+   "node": "time_context",
+   "desc": "Temporal context of the event"
+  },
+  {
+   "node": "other",
+   "desc": "Other narrative aspects not covered by above nodes"
+  }
+ ],
+ "n_label_used": 235,
+ "coverage_pct": 85.2
+}

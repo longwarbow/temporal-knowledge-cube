@@ -1,0 +1,188 @@
+{
+  "n_pairs": 582,
+  "guards": {
+    "A4_block_pairs": 22,
+    "A4_suppressed": 2,
+    "A4_not_applicable": 459
+  },
+  "v3_vs_v4": {
+    "n_changed": 2,
+    "changed_ids": [
+      "E13-0491",
+      "E13-0539"
+    ],
+    "v4_distribution_on_388": {
+      "UNRELATED": 291,
+      "DERIVE": 20,
+      "SUPPORT": 68,
+      "CONFLICT": 9
+    },
+    "v3_distribution_on_388": {
+      "DERIVE": 20,
+      "SUPPORT": 68,
+      "CONFLICT": 9,
+      "UNRELATED": 291
+    },
+    "note": "唯一变量 = A4 谓词门（其余全部 import v3）"
+  },
+  "truth_v15_merged": {
+    "v4": {
+      "DERIVE": {
+        "n_true": 11,
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0
+      },
+      "SUPPORT": {
+        "n_true": 15,
+        "P": 0.5,
+        "R": 0.0667,
+        "F1": 0.1176
+      },
+      "CONFLICT": {
+        "n_true": 5,
+        "P": 1.0,
+        "R": 0.6,
+        "F1": 0.75
+      },
+      "UNRELATED": {
+        "n_true": 45,
+        "P": 0.7333,
+        "R": 0.9778,
+        "F1": 0.8381
+      },
+      "macro_F1": 0.6764,
+      "confusion": {
+        "DERIVE": {
+          "DERIVE": 11
+        },
+        "SUPPORT": {
+          "SUPPORT": 1,
+          "UNRELATED": 14
+        },
+        "CONFLICT": {
+          "CONFLICT": 3,
+          "UNRELATED": 2
+        },
+        "UNRELATED": {
+          "UNRELATED": 44,
+          "SUPPORT": 1
+        }
+      },
+      "n": 76
+    },
+    "v3": {
+      "DERIVE": {
+        "n_true": 11,
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0
+      },
+      "SUPPORT": {
+        "n_true": 15,
+        "P": 0.5,
+        "R": 0.0667,
+        "F1": 0.1176
+      },
+      "CONFLICT": {
+        "n_true": 5,
+        "P": 0.6,
+        "R": 0.6,
+        "F1": 0.6
+      },
+      "UNRELATED": {
+        "n_true": 45,
+        "P": 0.7241,
+        "R": 0.9333,
+        "F1": 0.8155
+      },
+      "macro_F1": 0.6333,
+      "confusion": {
+        "DERIVE": {
+          "DERIVE": 11
+        },
+        "SUPPORT": {
+          "SUPPORT": 1,
+          "UNRELATED": 14
+        },
+        "CONFLICT": {
+          "CONFLICT": 3,
+          "UNRELATED": 2
+        },
+        "UNRELATED": {
+          "UNRELATED": 42,
+          "CONFLICT": 2,
+          "SUPPORT": 1
+        }
+      },
+      "n": 76
+    },
+    "v2": {
+      "DERIVE": {
+        "n_true": 11,
+        "P": 0.8462,
+        "R": 1.0,
+        "F1": 0.9167
+      },
+      "SUPPORT": {
+        "n_true": 15,
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0
+      },
+      "CONFLICT": {
+        "n_true": 5,
+        "P": 0.25,
+        "R": 0.6,
+        "F1": 0.3529
+      },
+      "UNRELATED": {
+        "n_true": 45,
+        "P": 0.72,
+        "R": 0.8,
+        "F1": 0.7579
+      },
+      "macro_F1": 0.5069,
+      "confusion": {
+        "DERIVE": {
+          "DERIVE": 11
+        },
+        "SUPPORT": {
+          "DERIVE": 1,
+          "UNRELATED": 12,
+          "CONFLICT": 2
+        },
+        "CONFLICT": {
+          "CONFLICT": 3,
+          "UNRELATED": 2
+        },
+        "UNRELATED": {
+          "UNRELATED": 36,
+          "CONFLICT": 7,
+          "DERIVE": 1,
+          "SUPPORT": 1
+        }
+      },
+      "n": 76
+    },
+    "note": "真值 = v1.4 的 76 条一致项 + v1.5 复审对 6 条分歧的裁定（in-sample）"
+  },
+  "rule_hits": {
+    "rule10": 380,
+    "rule2": 84,
+    "rule30": 2,
+    "rule1": 9,
+    "rule3": 23,
+    "rule4": 5,
+    "rule8": 34,
+    "rule9": 34,
+    "rule5": 9,
+    "rule51": 2
+  },
+  "pred_distribution": {
+    "UNRELATED": 382,
+    "DERIVE": 116,
+    "SUPPORT": 70,
+    "CONFLICT": 14
+  }
+}
