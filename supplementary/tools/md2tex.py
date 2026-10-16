@@ -32,6 +32,37 @@ SYM = {'\u2014': '---', '\u2013': '--', '\u2026': '\\ldots{}',
        '\u2032': "$'$", '\u2033': "''"}
 
 
+DEDASH_TITLE = re.compile(r'(Appendix [A-Z]) --- ')
+DEDASH_SENT = re.compile(r' --- ([A-Z])')
+DEDASH_REST = re.compile(r' --- ')
+
+# 降噪后少数会被逗号读乱的结构：把定义列表/解释从句改用括号、冒号或分号。
+SPECIAL = [
+    ("non-propositionality, questions, imperatives, opinion, speculation, accounts",
+     "non-propositionality (questions, imperatives, opinion, speculation) accounts"),
+    ("write the clause down explicitly, a leading mention",
+     "write the clause down explicitly: a leading mention"),
+    ("Combined with A2, content cannot recover the edge, this is a complete irreducibility",
+     "Combined with A2 (content cannot recover the edge), this is a complete irreducibility"),
+    ("with respect to the second, macro-F1 on the annotated set rises",
+     "with respect to the second; macro-F1 on the annotated set rises"),
+    ("mergeability was worth doing, it removes the last unclosed clause",
+     "mergeability was worth doing: it removes the last unclosed clause"),
+]
+
+
+def dedash(s):
+    """em-dash 降噪：把格式化的破折号换成学术写作常用标点。
+       标题分隔 (Appendix X --- T) -> 冒号；后接独立分句 -> 分号；其余 -> 逗号。
+       只改标点，不动任何词、数字与引用。"""
+    s = DEDASH_TITLE.sub(r'\1: ', s)
+    s = DEDASH_SENT.sub(r'; \1', s)
+    s = DEDASH_REST.sub(', ', s)
+    for a, b in SPECIAL:
+        s = s.replace(a, b)
+    return s
+
+
 def mk(s):
     out, i, n = [], 0, len(s)
     while i < n:
@@ -129,6 +160,7 @@ if in_list:
 
 tex = '\n'.join(res)
 tex = re.sub(r'\n{3,}', '\n\n', tex)
+tex = dedash(tex)
 io.open(OUT, 'w', encoding='utf-8').write(tex)
 
 # 体检：残留未转义危险字符
