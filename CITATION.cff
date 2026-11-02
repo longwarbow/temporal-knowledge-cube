@@ -17,7 +17,7 @@ authors:
     orcid: "https://orcid.org/0000-0002-5108-0835"
     affiliation: "School of Computer Science and Technology, Huaqiao University, Xiamen 361021, China"
     email: "xiaodongxie@hqu.edu.cn"
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-11-02"
 license: MIT
 keywords:

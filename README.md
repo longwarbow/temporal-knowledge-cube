@@ -1,5 +1,7 @@
 # Artefacts — Maintaining a Temporal Knowledge Cube over Streaming Short Text
 
+Archived snapshot: DOI [10.5281/zenodo.23880308](https://doi.org/10.5281/zenodo.23880308) (concept DOI; always resolves to the latest version).
+
 **Dimension Evolution and Mergeable Semantic Measures**
 
 This repository is the **supplemental material and artefact** for the ICDE 2027
