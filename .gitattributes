@@ -1,0 +1,15 @@
+* text=auto eol=lf
+
+# frozen results are byte-exact: never rewrite their line endings
+*.json  -text
+*.jsonl -text
+*.csv   -text
+*.gpickle -text
+
+# binary artefacts
+*.pdf   binary
+*.png   binary
+*.docx  binary
+*.xlsx  binary
+*.pkl   binary
+*.gpickle binary

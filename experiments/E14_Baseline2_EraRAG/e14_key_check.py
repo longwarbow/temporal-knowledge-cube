@@ -5,7 +5,7 @@
 
 用法：
     cd 实验/E14_Baseline2_EraRAG
-    D:/WSPforWB/10.keyan/.venv_e14/Scripts/python.exe e14_key_check.py
+    ${KB_ROOT}/.venv_e14/Scripts/python.exe e14_key_check.py
 
 安全性：本脚本只打印 key 的前 8 位与长度，不打印明文，不写入任何日志文件。
 """
@@ -18,7 +18,7 @@ import time
 from pathlib import Path
 
 E14_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = E14_DIR.parents[2]            # D:/WSPforWB/10.keyan
+PROJECT_ROOT = E14_DIR.parents[2]            # ${KB_ROOT}
 ENV_FILE = PROJECT_ROOT / ".env_e14"
 
 

@@ -11,9 +11,25 @@ E7: 端到端串联 —— E1 立方体 × E2 版本化空间维 × E5/E6 声明
 
 输出：E7_报告.md + e7_results.json
 """
+
+# --- path resolution (released artifact) -----------------------------------
+# No absolute path is baked in.  KB_ROOT points at the directory holding the
+# experiment folders; it defaults to this repository's root and can be
+# overridden with an environment variable.
+import os as _os
+_KB_ROOT = _os.environ.get(
+    "KB_ROOT",
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))),
+)
+
+
+def _KB(*parts):
+    """Join *parts* onto the knowledge-base root."""
+    return _os.path.join(_KB_ROOT, *parts)
+# ---------------------------------------------------------------------------
 import os, io, json, csv, time as _time, pickle, collections, datetime
 
-ROOT = r"D:\WSPforWB\10.keyan\场景1-海量短文本"
+ROOT = _KB_ROOT
 CED  = os.path.join(ROOT, r"数据\CED\Chinese_Rumor_Dataset-master\CED_Dataset")
 RUM  = os.path.join(CED, "rumor-repost")
 NON  = os.path.join(CED, "non-rumor-repost")

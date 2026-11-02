@@ -2,20 +2,25 @@
 __pycache__/
 *.py[cod]
 *.pkl
+*.log
 *.log~
 
 # ---- downloaded model weights and third-party checkouts -------------------
 _hf_cache/
 _repo/
+runs/
+**/runs/
 **/_hf_cache/
 **/_repo/
 
 # ---- credentials and runtime configuration --------------------------------
-# The committed _cfgroot/ holds a stub key only; the live one must never be
-# tracked.
+# Generated run configuration is never tracked: the generators rebuild it from
+# .env at run time, and .env.example shows the three fields that matter.
+**/_cfgroot/
 **/_cfgroot_real/
 .env
 .env.*
+!.env.example
 *.key
 *.pem
 credentials.json

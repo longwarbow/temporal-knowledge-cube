@@ -1,6 +1,0 @@
-D:\WSPforWB\10.keyan\.venv_e14\lib\site-packages\pydantic\_internal\_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'validate_default' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'validate_default' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
-  warnings.warn(
-[nltk_data] Error loading stopwords: <urlopen error [Errno 2] No such
-[nltk_data]     file or directory>
-[准备] N_total=200 N0=40 delta=16 batches=10 pool=200
-[safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {"count":54,"threshold":50,"scope":"turn","targets":["D:\\WSPforWB\\10.keyan\\_e14_run\\_w3c_d200_16"],"targetCount":1}

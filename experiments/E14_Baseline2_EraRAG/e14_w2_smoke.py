@@ -7,12 +7,28 @@ E14 / W2 冒烟：PHEME → EraRAG chunk 流适配器
 - --mode erarag   端到端：取前 N 条 PHEME 贴，喂给 EraRAG，验证 chunk 流与
                    chunk 摘要可被 insert 路径消化（沿用 W1 的 CPU/ASCII 保护）
 """
+
+# --- path resolution (released artifact) -----------------------------------
+# No absolute path is baked in.  KB_ROOT points at the directory holding the
+# experiment folders; it defaults to this repository's root and can be
+# overridden with an environment variable.
+import os as _os
+_KB_ROOT = _os.environ.get(
+    "KB_ROOT",
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))),
+)
+
+
+def _KB(*parts):
+    """Join *parts* onto the knowledge-base root."""
+    return _os.path.join(_KB_ROOT, *parts)
+# ---------------------------------------------------------------------------
 import os, sys, json, time, argparse
 from pathlib import Path
 
 # ----- 路径（必须 ASCII 给 faiss，详见 E14_repo_compat.md #8） -----
-ROOT = Path("D:/WSPforWB/10.keyan/场景1-海量短文本/实验/E14_Baseline2_EraRAG").resolve()
-ASCII_BASE = "D:/WSPforWB/10.keyan/_e14_run"
+ROOT = Path(_KB('experiments', 'E14_Baseline2_EraRAG')).resolve()
+ASCII_BASE = _KB('_e14_run')
 W2WORK = str(Path(ASCII_BASE) / "_w2work")
 W2DATA = str(Path(ASCII_BASE) / "_w2data")
 
@@ -140,7 +156,7 @@ def mode_erarag(args):
     from Core.GraphRAG import GraphRAG
 
     # 读 key
-    ENV_FILE = Path("D:/WSPforWB/10.keyan/.env_e14")
+    ENV_FILE = Path(_KB('.env_e14'))
     env = {}
     for line in ENV_FILE.read_text(encoding="utf-8").splitlines():
         line = line.strip()

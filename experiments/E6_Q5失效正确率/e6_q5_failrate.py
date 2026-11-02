@@ -22,10 +22,26 @@ E6 —— $Q_5$（失效影响分析 / 失效正确率）的真实数据评测
 
 评测：以「应失效 cell 集」为正类，报 P / R / F1 / Accuracy，并按 cell 支撑数 m 分层。
 """
+
+# --- path resolution (released artifact) -----------------------------------
+# No absolute path is baked in.  KB_ROOT points at the directory holding the
+# experiment folders; it defaults to this repository's root and can be
+# overridden with an environment variable.
+import os as _os
+_KB_ROOT = _os.environ.get(
+    "KB_ROOT",
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))),
+)
+
+
+def _KB(*parts):
+    """Join *parts* onto the knowledge-base root."""
+    return _os.path.join(_KB_ROOT, *parts)
+# ---------------------------------------------------------------------------
 import pickle, os, json, collections, datetime, time
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-DATA = r'D:\WSPforWB\10.keyan\场景1-海量短文本\数据\PHEME'
+DATA = _KB('数据', 'PHEME')
 
 TW_SNOW = 1288834974657
 EPOCH = datetime.datetime(1970, 1, 1)

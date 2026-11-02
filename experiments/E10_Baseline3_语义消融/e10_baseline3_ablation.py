@@ -23,10 +23,26 @@ E10 —— Baseline #3：语义消融的数值流立方体（numeric stream cube
 数据：CED（3,389 原帖 × 级联转发，中文）+ PHEME 9-event（6,425 线程，英文，三值真值）
 输出：e10_results.json + E10_报告.md
 """
+
+# --- path resolution (released artifact) -----------------------------------
+# No absolute path is baked in.  KB_ROOT points at the directory holding the
+# experiment folders; it defaults to this repository's root and can be
+# overridden with an environment variable.
+import os as _os
+_KB_ROOT = _os.environ.get(
+    "KB_ROOT",
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))),
+)
+
+
+def _KB(*parts):
+    """Join *parts* onto the knowledge-base root."""
+    return _os.path.join(_KB_ROOT, *parts)
+# ---------------------------------------------------------------------------
 import os, json, pickle, collections, datetime, math, time
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-ROOT = r'D:\WSPforWB\10.keyan\场景1-海量短文本'
+ROOT = _KB_ROOT
 CED = os.path.join(ROOT, '数据', 'CED', 'Chinese_Rumor_Dataset-master', 'CED_Dataset')
 PHEME = os.path.join(ROOT, '数据', 'PHEME')
 

@@ -1,0 +1,115 @@
+{
+  "dirs": {
+    "e01a_incremental_vs_full": {
+      "source": "E1_增量vs全量重建",
+      "title": "E1  incremental == full rebuild (0 diff, 5.6x cost)",
+      "n_files": 4
+    },
+    "e01b_sliding_window": {
+      "source": "E1_滑动窗迟到事件",
+      "title": "E1  sliding window, late events (90.4% windows breached at dw=0)",
+      "n_files": 3
+    },
+    "e01c_dimension_evolution": {
+      "source": "E1_维度演化注入",
+      "title": "E1  dimension-evolution injection (1.10-4.79% cells touched)",
+      "n_files": 3
+    },
+    "e02a_spatial_disambiguation": {
+      "source": "E2_空间维消歧",
+      "title": "E2  CED location -> province code (85.2%)",
+      "n_files": 5
+    },
+    "e02b_cross_period": {
+      "source": "E2_跨期正确性",
+      "title": "E2  as-of vs static across periods",
+      "n_files": 4
+    },
+    "e03_source_independence": {
+      "source": "E3_源独立性验收",
+      "title": "E3  source-independence acceptance (D2-r1(b), AUC .651)",
+      "n_files": 3
+    },
+    "e04_pheme_profile": {
+      "source": "E4_PHEME画像",
+      "title": "E4  PHEME dataset profile",
+      "n_files": 3
+    },
+    "e05_real_retraction": {
+      "source": "E5_P2真实撤回",
+      "title": "E5  393 real retractions, incremental == full",
+      "n_files": 3
+    },
+    "e06_invalidation_accuracy": {
+      "source": "E6_Q5失效正确率",
+      "title": "E6  lineage P=R=F1=1.000; head-post-only 0.051",
+      "n_files": 3
+    },
+    "e07_end_to_end": {
+      "source": "E7_端到端串联",
+      "title": "E7  end-to-end constellation, 7 cross-checks",
+      "n_files": 3
+    },
+    "e08_wikidata_retraction": {
+      "source": "E8_Wikidata声明级撤回",
+      "title": "E8  10,970,321 deprecated declarations",
+      "n_files": 10
+    },
+    "e09_revision_ruling": {
+      "source": "E9_修订史裁定时刻",
+      "title": "E9  ruling moment from revision history (n=62, 96.8%)",
+      "n_files": 7
+    },
+    "e10_semantic_ablation": {
+      "source": "E10_Baseline3_语义消融",
+      "title": "E10 baseline #3: semantic ablation, 377.5x amplification",
+      "n_files": 3
+    },
+    "e11_anomaly_alert": {
+      "source": "E11_Q3异常预警",
+      "title": "E11 anomaly alert on CED, M3 coupled AUC 0.745",
+      "n_files": 3
+    },
+    "e12_threshold_calibration": {
+      "source": "E12_D8样本量重定",
+      "title": "E12 threshold vs measure type, eps=0.15 sweep",
+      "n_files": 3
+    },
+    "e13_lineage_accuracy": {
+      "source": "E13_Q4血缘准确率",
+      "title": "E13 lineage construction accuracy, 3-version truth",
+      "n_files": 188
+    },
+    "e14_erarag_baseline": {
+      "source": "E14_Baseline2_EraRAG",
+      "title": "E14 baseline #2: EraRAG on its own incremental path",
+      "n_files": 81
+    },
+    "e15_topic_evolution": {
+      "source": "E15_话题侧演化真值与缝处置",
+      "title": "E15 topic-side evolution truth and residual seams",
+      "n_files": 83
+    },
+    "e16_physical_cost": {
+      "source": "E16_P1物理成本",
+      "title": "E16 physical cost: 1.53 us/event, affine memory",
+      "n_files": 5
+    },
+    "e17_rebuild_baseline": {
+      "source": "E17_Baseline4_常规RAG重建",
+      "title": "E17 baseline #4: rebuild-everything practice",
+      "n_files": 6
+    },
+    "m03_measure_representation": {
+      "source": "决策点3_度量表示",
+      "title": "decision point 3: measure representation",
+      "n_files": 2
+    },
+    "algebra_mergeable": {
+      "source": "可合并度量代数",
+      "title": "T1-T6 mergeable measure algebra",
+      "n_files": 2
+    }
+  },
+  "files": []
+}

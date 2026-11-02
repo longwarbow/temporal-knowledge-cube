@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # E15 聚类批驱动：charliehebdo 深做（全链），其余 6 事件浅做（--l2-only）
 cd "$(dirname "$0")" || exit 1
-PY="D:/WSPforWB/10.keyan/.venv_e14/Scripts/python.exe"
+PY=${KB_ROOT}/.venv_e14/Scripts/python.exe
 
 step () {
   local tag="$1"; local log="$2"; shift 2

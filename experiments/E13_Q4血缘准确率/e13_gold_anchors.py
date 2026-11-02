@@ -19,6 +19,22 @@ E13 — $Q_4$（血缘回溯）准确率：**客观锚点**（无需人工标注
 
 输出：e13_gold_anchors.json
 """
+
+# --- path resolution (released artifact) -----------------------------------
+# No absolute path is baked in.  KB_ROOT points at the directory holding the
+# experiment folders; it defaults to this repository's root and can be
+# overridden with an environment variable.
+import os as _os
+_KB_ROOT = _os.environ.get(
+    "KB_ROOT",
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))),
+)
+
+
+def _KB(*parts):
+    """Join *parts* onto the knowledge-base root."""
+    return _os.path.join(_KB_ROOT, *parts)
+# ---------------------------------------------------------------------------
 import os
 import json
 import math
@@ -28,8 +44,8 @@ import collections
 import datetime
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-DATA = r'D:\WSPforWB\10.keyan\场景1-海量短文本\数据\PHEME'
-E8_SAMPLE = r'D:\WSPforWB\10.keyan\场景1-海量短文本\实验\E8_Wikidata声明级撤回\E8_声明级样本.csv'
+DATA = _KB('数据', 'PHEME')
+E8_SAMPLE = _KB('experiments', 'E8_Wikidata声明级撤回', 'E8_声明级样本.csv')
 
 TW_SNOW = 1288834974657
 EPOCH = datetime.datetime(1970, 1, 1)

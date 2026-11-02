@@ -2,11 +2,11 @@
 
 **Dimension Evolution and Mergeable Semantic Measures**
 
-This repository is the **supplemental material** for the ICDE 2027 research-track
-submission. It holds three things:
+This repository is the **supplemental material and artefact** for the ICDE 2027
+research-track submission. It holds five things:
 
-1. **`supplementary/`** — the compiled supplement (14 pp.), containing the six
-   tables and three figures omitted from the twelve-page body for space, plus
+1. **`supplementary/`** — the compiled supplement (15 pp.), containing the six
+   tables and four figures omitted from the twelve-page body for space, plus
    Appendix A (design decisions), Appendix B (reproducibility checklist) and
    Appendix C (the E13 annotation programme in full). Citation numbers in the
    supplement are identical to the main paper.
@@ -15,6 +15,13 @@ submission. It holds three things:
    discrepancy checks that were run.
 3. **`data/`** — the data manifest: where each public dataset came from, its
    licence, and the date each query was issued.
+4. **`audit/`** — the human-in-the-loop audit behind the numbers the paper
+   reports as manually verified: the ten-item sampling worksheet, the filled
+   answers, the per-item verdicts, and screenshots of the checking procedure.
+5. **`docs/experiment_index.json`** — machine-readable index mapping each
+   directory to its paper section and to the claims it supports.
+
+**Repository:** <https://github.com/longwarbow/temporal-knowledge-cube>
 
 Nothing here is new evidence relative to the paper. Every result appears in the
 paper in summarised form; the artefacts exist so the numbers can be
@@ -29,15 +36,20 @@ paper in summarised form; the artefacts exist so the numbers can be
 ├── README.md                    this file
 ├── LICENSE                      MIT (code); datasets keep their own licences
 ├── CITATION.cff                 machine-readable citation
+├── requirements.txt             Python 3.9+, CPU only
+├── .env.example                 copy to .env and fill in the E14/E17 key
 ├── supplementary/
-│   ├── supplementary.pdf        compiled supplement (14 pp.)
+│   ├── supplementary.pdf        compiled supplement (15 pp.)
 │   ├── supplementary.tex        source of the above
 │   ├── appendix_src.tex         Appendix A/B/C source
-│   ├── floats/01..09.tex        the nine omitted tables/figures, one file each
-│   ├── figures/                 the three figures referenced by the supplement
+│   ├── floats/01..10.tex        the ten omitted tables/figures, one file each
+│   ├── figures/                 the four figures referenced by the supplement
 │   ├── refs_icde.tex            reference list (numbers identical to the paper)
 │   └── tools/                   the two build scripts (need the paper source)
 ├── experiments/                 one directory per experiment
+├── audit/                       human sampling review (P0-10): worksheet,
+│                                answers, verdicts, 25 screenshots
+├── docs/experiment_index.json   directory → paper section → claims
 └── data/README.md               data manifest, licences, snapshot dates
 ```
 
@@ -65,6 +77,7 @@ the table below. Section numbers refer to the main paper.
 | `E14_Baseline2_EraRAG` (published RAG baseline) | §7.7, E14 | cost/structure/stability, patch file |
 | `E15_话题侧演化真值与缝处置` (topic-side ground truth) | §7.9 / §8 | the negative result on topic granularity |
 | `E16_P1物理成本` (physical cost of P1) | §7.2, E16 | wall-clock, affine memory, repeatability |
+| `E17_Baseline4_常规RAG重建` (the rebuild-everything practice) | §7.7, E17 | full-rebuild RAG vs. incremental: cost, staleness window, probe citation |
 | `决策点3_度量表示` (measure representation decision) | §5 | the layered-representation argument |
 | `可合并度量代数` (mergeable measure algebra) | §5 | T1–T6 statements and proofs |
 
@@ -81,12 +94,19 @@ outputs (`*.json` / `*.csv`) they produced. **The report is the entry point.**
   deliberately run in the same configuration.
 * Dependencies are the standard library plus `requests` / `pandas` /
   `scikit-learn` per script; each script states its own imports at the top.
+  `requirements.txt` pins the versions used for the reported runs.
+* **No absolute path is baked into the code.** Every script resolves its data
+  and run directories through `KB_ROOT`: an environment variable that defaults
+  to the repository root. Paths that appear in reports are written as
+  `${KB_ROOT}/…`; set `KB_ROOT` (and drop the datasets listed in
+  `data/README.md` next to `experiments/`) before running anything.
 * Network access is needed only for the Wikidata experiments (E8/E9), which
   query the public SPARQL endpoint. Everything else runs on the downloaded
   snapshots listed in `data/README.md`.
-* An LLM API key is needed only for E14, and the experiment is designed so that
-  **no absolute token or wall-clock figure is claimed**: every cost is a ratio
-  to a full rebuild measured on the same host in the same run.
+* An LLM API key is needed only for E14 and E17 (`cp .env.example .env`), and
+  both experiments are designed so that **no absolute token or wall-clock figure
+  is claimed**: every cost is a ratio to a full rebuild measured on the same
+  host in the same run.
 
 ---
 
@@ -106,7 +126,7 @@ failing means the reproduction has not succeeded.
 
 ---
 
-## 4. The published baseline (E14, EraRAG) and its patch
+## 4. The two baselines: E14 (EraRAG, patched) and E17 (rebuild everything)
 
 E14 exercises the public `EraRAG-Official` checkout on its own incremental path.
 **The released code contained 13 defects that had to be repaired locally before
@@ -123,6 +143,16 @@ result means:
 * The stability result is re-tested in a **process-per-batch** mode in which each
   batch reloads the persisted tree before refining, so a crash cannot be
   attributed to in-memory state.
+
+**E17** covers the opposite practice: a plain RAG index that is rebuilt on a
+schedule and never maintained incrementally. It is reproduced with the same
+corpus slice, the same 384-d sentence encoder and the same LLM endpoint as E14,
+and it reports three things — the cost of one rebuild per 10k documents, the
+share of queries against a retracted claim that the stale index keeps answering,
+and the share of probes that cite the retracted post at all. The tombstone
+variant is included so that the comparison separates "the index can be patched"
+from "the measures and the lineage exist", which is the distinction the paper
+argues for.
 
 ---
 

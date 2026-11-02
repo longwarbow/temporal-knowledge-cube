@@ -1,0 +1,207 @@
+{
+  "n_docs": 300,
+  "half": 150,
+  "rebuild_after": 1,
+  "victim": {
+    "doc_id": "498341675476217856",
+    "iso": "2014-08-10T05:34:48Z",
+    "text_head": "St. Louis: Unarmed teenager #MikeBrown was shot ten times by a #Ferguson police ",
+    "label": 1,
+    "topk_hit_queries": 2,
+    "n_queries": 8
+  },
+  "window_probes": [
+    {
+      "tag": "window",
+      "query": "What did the original post claim, and do the replies support it?",
+      "naive_ctx_has_retracted": false,
+      "naive_cited_retracted": false,
+      "naive_answer_head": "The original post claimed that there is a \"blatant and often sanctioned murder of black men (and women) by cops.\" The replies do not directly support or contradict this claim. The first reply by @larr",
+      "hist_ctx_has_retracted": false,
+      "hist_answer_head": "The original post claimed that there is a \"blatant and often sanctioned murder of black men (and women) by cops.\" The replies do not directly support or contradict this claim. The first reply by @larr",
+      "ours_answer_head": "The original post claimed that the Ferguson Police are hiding information about a \"drive-by\" shooting of a black woman who was recording the action last night. The post includes a link to a tweet with",
+      "ours_n_context": 3
+    },
+    {
+      "tag": "window",
+      "query": "Summarise the main claim being discussed in these posts.",
+      "naive_ctx_has_retracted": false,
+      "naive_cited_retracted": false,
+      "naive_answer_head": "The main claim being discussed in these posts is the issue of systemic violence and injustice, particularly focusing on the murder of black men and women by police officers, and the suggestion that th",
+      "hist_ctx_has_retracted": false,
+      "hist_answer_head": "The main claim being discussed in these posts is the issue of systemic violence and injustice, particularly focusing on the murder of black men and women by police officers, and the suggestion that th",
+      "ours_answer_head": "The main claim being discussed in these posts is the concern over the #Ferguson Police Department's handling of a recent drive-by shooting involving a black woman who was recording the action, with pa",
+      "ours_n_context": 3
+    },
+    {
+      "tag": "window",
+      "query": "Is there any post contradicting the source claim?",
+      "naive_ctx_has_retracted": true,
+      "naive_cited_retracted": true,
+      "naive_answer_head": "No [1], [2], or [3] provide any posts that contradict the source claim.",
+      "hist_ctx_has_retracted": false,
+      "hist_answer_head": "[3] @KUHU45 I just watched that video &amp; if it was a drive-by he'd have said so bc it's a public safety concern @occbaystreet @Dreamdefenders\n\nThis post seems to be contradicting the source claim m",
+      "ours_answer_head": "[1] The post by the #Ferguson PD account suggests that they are not trustworthy due to their actions of confiscating all video evidence beforehand. This implies that there may be a contradiction to th",
+      "ours_n_context": 3
+    },
+    {
+      "tag": "window",
+      "query": "What is the overall verdict on the rumour in this collection?",
+      "naive_ctx_has_retracted": false,
+      "naive_cited_retracted": false,
+      "naive_answer_head": "The context provided does not contain any information about a rumour or its overall verdict. Therefore, I cannot provide an answer to the question.",
+      "hist_ctx_has_retracted": false,
+      "hist_answer_head": "The context provided does not contain any information about a rumour or its overall verdict. Therefore, I cannot provide an answer to the question.",
+      "ours_answer_head": "The context items provided do not contain an overall verdict on the rumour. They present various claims and statements about the situation in Ferguson, but do not offer a conclusion or assessment of t",
+      "ours_n_context": 3
+    },
+    {
+      "tag": "window",
+      "query": "Which posts dispute or refute the original claim?",
+      "naive_ctx_has_retracted": true,
+      "naive_cited_retracted": false,
+      "naive_answer_head": "[2] The post by @larryelder disputes or refutes the original claim by mentioning the \"blatant and often sanctioned murder of black men (and women) by cops.\"",
+      "hist_ctx_has_retracted": false,
+      "hist_answer_head": "[3] @occbaystreet @IMShawnAndrews told story many times. once got beat by cops just 4 being w/ buddy who was buying cheeseburger while black.",
+      "ours_answer_head": "[1] disputes the credibility of the #Ferguson PD account due to their actions of confiscating all video evidence beforehand.",
+      "ours_n_context": 3
+    },
+    {
+      "tag": "window",
+      "query": "Do the replies confirm the rumour or debunk it?",
+      "naive_ctx_has_retracted": false,
+      "naive_cited_retracted": false,
+      "naive_answer_head": "The replies do not confirm or debunk the rumour. They are a discussion about the nature of @FoxNews and whether it should be considered a news network or not. [1], [2], and [3] are comments on the nat",
+      "hist_ctx_has_retracted": false,
+      "hist_answer_head": "The replies do not confirm or debunk the rumour. They are a discussion about the nature of @FoxNews and whether it should be considered a news network or not. [1], [2], and [3] are comments on the nat",
+      "ours_answer_head": "The context items provided do not contain any replies or information that would confirm or debunk the rumour. Therefore, it is not possible to determine whether the replies confirm the rumour or debun",
+      "ours_n_context": 3
+    },
+    {
+      "tag": "window",
+      "query": "What is being alleged, and by whom?",
+      "naive_ctx_has_retracted": false,
+      "naive_cited_retracted": false,
+      "naive_answer_head": "The allegation is that there is a pattern of \"blatant and often sanctioned murder of black men (and women) by cops,\" and this is being alleged by @larryelder [2].",
+      "hist_ctx_has_retracted": false,
+      "hist_answer_head": "The allegation is that there is a pattern of \"blatant and often sanctioned murder of black men (and women) by cops,\" and this is being alleged by @larryelder [2].",
+      "ours_answer_head": "The allegation is that the #Ferguson Police Department is hiding information about a \"drive by\" shooting of a black woman who was recording the action at the time. This claim is being made by the user",
+      "ours_n_context": 3
+    },
+    {
+      "tag": "window",
+      "query": "Has anyone challenged the accuracy of the original post?",
+      "naive_ctx_has_retracted": false,
+      "naive_cited_retracted": false,
+      "naive_answer_head": "Yes, @AntonioFrench has challenged the accuracy of the original post [2].",
+      "hist_ctx_has_retracted": false,
+      "hist_answer_head": "Yes, @AntonioFrench has challenged the accuracy of the original post [2].",
+      "ours_answer_head": "[2] White man aiming down on police...nothing happens. Unarmed black kid walking back from store shot 10 times. #Ferguson http://t.co/48EcUF2Bwa\n\nThe context does not provide information on anyone cha",
+      "ours_n_context": 3
+    }
+  ],
+  "after_probes": [
+    {
+      "tag": "after_rebuild",
+      "query": "What did the original post claim, and do the replies support it?",
+      "naive_ctx_has_retracted": false,
+      "naive_cited_retracted": false,
+      "naive_answer_head": "The original post claimed that there is a \"blatant and often sanctioned murder of black men (and women) by cops.\" The replies do not directly support or contradict this claim. The first reply by @larr",
+      "hist_ctx_has_retracted": false,
+      "hist_answer_head": "The original post claimed that there is a \"blatant and often sanctioned murder of black men (and women) by cops.\" The replies do not directly support or contradict this claim. The first reply by @larr",
+      "ours_answer_head": "The original post claimed that the Ferguson Police are hiding information about a \"drive-by\" shooting of a black woman who was recording the action last night. The post includes a link to a tweet with",
+      "ours_n_context": 3
+    },
+    {
+      "tag": "after_rebuild",
+      "query": "Summarise the main claim being discussed in these posts.",
+      "naive_ctx_has_retracted": false,
+      "naive_cited_retracted": false,
+      "naive_answer_head": "The main claim being discussed in these posts is the issue of systemic violence and injustice, particularly focusing on the murder of black men and women by police officers, and the suggestion that th",
+      "hist_ctx_has_retracted": false,
+      "hist_answer_head": "The main claim being discussed in these posts is the issue of systemic violence and injustice, particularly focusing on the murder of black men and women by police officers, and the suggestion that th",
+      "ours_answer_head": "The main claim being discussed in these posts is the concern over the #Ferguson Police Department's handling of a recent drive-by shooting involving a black woman who was recording the action, with pa",
+      "ours_n_context": 3
+    },
+    {
+      "tag": "after_rebuild",
+      "query": "Is there any post contradicting the source claim?",
+      "naive_ctx_has_retracted": true,
+      "naive_cited_retracted": true,
+      "naive_answer_head": "No [1], [2], or [3] provide any posts that contradict the source claim.",
+      "hist_ctx_has_retracted": false,
+      "hist_answer_head": "[3] @KUHU45 I just watched that video &amp; if it was a drive-by he'd have said so bc it's a public safety concern @occbaystreet @Dreamdefenders\n\nThis post seems to be contradicting the source claim m",
+      "ours_answer_head": "[1] The post by the #Ferguson PD account suggests that they are not trustworthy due to their actions of confiscating all video evidence beforehand. This implies that there may be a contradiction to th",
+      "ours_n_context": 3
+    },
+    {
+      "tag": "after_rebuild",
+      "query": "What is the overall verdict on the rumour in this collection?",
+      "naive_ctx_has_retracted": false,
+      "naive_cited_retracted": false,
+      "naive_answer_head": "The context provided does not contain any information about a rumour or its overall verdict. Therefore, I cannot provide an answer to the question.",
+      "hist_ctx_has_retracted": false,
+      "hist_answer_head": "The context provided does not contain any information about a rumour or its overall verdict. Therefore, I cannot provide an answer to the question.",
+      "ours_answer_head": "The context items provided do not contain an overall verdict on the rumour. They present various claims and statements about the situation in Ferguson, but do not offer a conclusion or assessment of t",
+      "ours_n_context": 3
+    },
+    {
+      "tag": "after_rebuild",
+      "query": "Which posts dispute or refute the original claim?",
+      "naive_ctx_has_retracted": true,
+      "naive_cited_retracted": false,
+      "naive_answer_head": "[2] The post by @larryelder disputes or refutes the original claim by emphasizing the issue of the \"blatant and often sanctioned murder of black men (and women) by cops.\"",
+      "hist_ctx_has_retracted": false,
+      "hist_answer_head": "[3] @occbaystreet @IMShawnAndrews told story many times. once got beat by cops just 4 being w/ buddy who was buying cheeseburger while black.",
+      "ours_answer_head": "[1] disputes the credibility of the #Ferguson PD account due to their actions of confiscating all video evidence beforehand.",
+      "ours_n_context": 3
+    },
+    {
+      "tag": "after_rebuild",
+      "query": "Do the replies confirm the rumour or debunk it?",
+      "naive_ctx_has_retracted": false,
+      "naive_cited_retracted": false,
+      "naive_answer_head": "The replies do not confirm or debunk the rumour. They are more about a humorous and sarcastic commentary on the suggestion that @FoxNews should remove the word 'news' from its name, implying that if t",
+      "hist_ctx_has_retracted": false,
+      "hist_answer_head": "The replies do not confirm or debunk the rumour. They are more about a humorous and sarcastic commentary on the suggestion that @FoxNews should remove the word 'news' from its name, implying that if t",
+      "ours_answer_head": "The context items provided do not contain any replies or information that would confirm or debunk the rumour. Therefore, it is not possible to determine whether the replies confirm the rumour or debun",
+      "ours_n_context": 3
+    },
+    {
+      "tag": "after_rebuild",
+      "query": "What is being alleged, and by whom?",
+      "naive_ctx_has_retracted": false,
+      "naive_cited_retracted": false,
+      "naive_answer_head": "The allegation is that there is a pattern of \"blatant and often sanctioned murder of black men (and women) by cops,\" and this is being alleged by @larryelder [2].",
+      "hist_ctx_has_retracted": false,
+      "hist_answer_head": "The allegation is that there is a pattern of \"blatant and often sanctioned murder of black men (and women) by cops,\" and this is being alleged by @larryelder [2].",
+      "ours_answer_head": "The allegation is that the #Ferguson Police Department is hiding information about a \"drive by\" shooting of a black woman who was recording the action at the time. This claim is being made by the user",
+      "ours_n_context": 3
+    },
+    {
+      "tag": "after_rebuild",
+      "query": "Has anyone challenged the accuracy of the original post?",
+      "naive_ctx_has_retracted": false,
+      "naive_cited_retracted": false,
+      "naive_answer_head": "Yes, @AntonioFrench has challenged the accuracy of the original post [2].",
+      "hist_ctx_has_retracted": false,
+      "hist_answer_head": "Yes, @AntonioFrench has challenged the accuracy of the original post [2].",
+      "ours_answer_head": "[2] White man aiming down on police...nothing happens. Unarmed black kid walking back from store shot 10 times. #Ferguson http://t.co/48EcUF2Bwa\n\nThe context does not provide information on anyone cha",
+      "ours_n_context": 3
+    }
+  ],
+  "naive_window": {
+    "n_queries": 8,
+    "retracted_served": 2,
+    "retracted_cited": 1
+  },
+  "history_window_clean": true,
+  "cube_retract": {
+    "claim": "498341675476217856",
+    "affected_cells": 1,
+    "recomputed": 1,
+    "cells_total": 13,
+    "wall_s": 0.0,
+    "applied_immediately": true
+  }
+}

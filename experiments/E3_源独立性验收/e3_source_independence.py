@@ -18,13 +18,29 @@ E3: D2-rev1 验收实验 —— CED 传播树上结构化「源独立性」S1/S2
 
 输出：E3_报告.md + e3_metrics.json
 """
+
+# --- path resolution (released artifact) -----------------------------------
+# No absolute path is baked in.  KB_ROOT points at the directory holding the
+# experiment folders; it defaults to this repository's root and can be
+# overridden with an environment variable.
+import os as _os
+_KB_ROOT = _os.environ.get(
+    "KB_ROOT",
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))),
+)
+
+
+def _KB(*parts):
+    """Join *parts* onto the knowledge-base root."""
+    return _os.path.join(_KB_ROOT, *parts)
+# ---------------------------------------------------------------------------
 import os, io, json, math, time as _time, collections, datetime, statistics
 
-BASE = r"D:\WSPforWB\10.keyan\场景1-海量短文本\数据\CED\Chinese_Rumor_Dataset-master\CED_Dataset"
+BASE = _KB('数据', 'CED', 'Chinese_Rumor_Dataset-master', 'CED_Dataset')
 RUM  = os.path.join(BASE, "rumor-repost")
 NON  = os.path.join(BASE, "non-rumor-repost")
 ORIG = os.path.join(BASE, "original-microblog")
-OUT  = r"D:\WSPforWB\10.keyan\场景1-海量短文本\实验\E3_源独立性验收"
+OUT  = _KB('experiments', 'E3_源独立性验收')
 os.makedirs(OUT, exist_ok=True)
 
 LOG = []

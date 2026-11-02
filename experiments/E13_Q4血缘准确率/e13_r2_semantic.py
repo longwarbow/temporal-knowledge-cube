@@ -7,6 +7,22 @@
 
 产出：E13_r2_semantic.json
 """
+
+# --- path resolution (released artifact) -----------------------------------
+# No absolute path is baked in.  KB_ROOT points at the directory holding the
+# experiment folders; it defaults to this repository's root and can be
+# overridden with an environment variable.
+import os as _os
+_KB_ROOT = _os.environ.get(
+    "KB_ROOT",
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))),
+)
+
+
+def _KB(*parts):
+    """Join *parts* onto the knowledge-base root."""
+    return _os.path.join(_KB_ROOT, *parts)
+# ---------------------------------------------------------------------------
 import os
 import io
 import csv
@@ -17,7 +33,7 @@ import sys
 
 sys.stdout.reconfigure(encoding='utf-8')
 BASE = os.path.dirname(os.path.abspath(__file__))
-PHEME = r'D:\WSPforWB\10.keyan\场景1-海量短文本\数据\PHEME\pheme_cascades.gpickle'
+PHEME = _KB('数据', 'PHEME', 'pheme_cascades.gpickle')
 
 
 def load_emb():

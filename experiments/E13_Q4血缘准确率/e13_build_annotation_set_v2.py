@@ -22,6 +22,22 @@ E13 — $Q_4$ 血缘准确率：**6 层标注集构造 v2**（S5 / S6 落地）
   E13_盲版标注表_v2.csv    去泄露盲版（仅 pair_id/event/p_text/q_text + 待填列）
   E13_抽样清单_v2.json     抽样参数、层统计、子型分布（可复现）
 """
+
+# --- path resolution (released artifact) -----------------------------------
+# No absolute path is baked in.  KB_ROOT points at the directory holding the
+# experiment folders; it defaults to this repository's root and can be
+# overridden with an environment variable.
+import os as _os
+_KB_ROOT = _os.environ.get(
+    "KB_ROOT",
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))),
+)
+
+
+def _KB(*parts):
+    """Join *parts* onto the knowledge-base root."""
+    return _os.path.join(_KB_ROOT, *parts)
+# ---------------------------------------------------------------------------
 import os
 import re
 import csv
@@ -34,7 +50,7 @@ import collections
 import e13_slot_extract as S
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-DATA = r'D:\WSPforWB\10.keyan\场景1-海量短文本\数据\PHEME'
+DATA = _KB('数据', 'PHEME')
 
 RNG = random.Random(20261011)
 N_PER_STRATUM = 97

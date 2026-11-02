@@ -6,8 +6,8 @@
 
 用法：
     cd 实验/E14_Baseline2_EraRAG
-    D:/WSPforWB/10.keyan/.venv_e14/Scripts/python.exe e14_make_cfg.py            # 真 API
-    D:/WSPforWB/10.keyan/.venv_e14/Scripts/python.exe e14_make_cfg.py --stub     # 本地 stub
+    ${KB_ROOT}/.venv_e14/Scripts/python.exe e14_make_cfg.py            # 真 API
+    ${KB_ROOT}/.venv_e14/Scripts/python.exe e14_make_cfg.py --stub     # 本地 stub
 
 生成后运行 EraRAG 时：
     set METAGPT_PROJECT_ROOT=<E14>/_cfgroot[_real]

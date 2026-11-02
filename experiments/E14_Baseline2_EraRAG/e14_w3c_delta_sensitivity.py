@@ -22,11 +22,27 @@ E14 / W3c  Δ 敏感性：批大小对流式增量插入的影响
   python e14_w3c_delta_sensitivity.py --delta 32
   python e14_w3c_delta_sensitivity.py --delta 32 --with_full
 """
+
+# --- path resolution (released artifact) -----------------------------------
+# No absolute path is baked in.  KB_ROOT points at the directory holding the
+# experiment folders; it defaults to this repository's root and can be
+# overridden with an environment variable.
+import os as _os
+_KB_ROOT = _os.environ.get(
+    "KB_ROOT",
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))),
+)
+
+
+def _KB(*parts):
+    """Join *parts* onto the knowledge-base root."""
+    return _os.path.join(_KB_ROOT, *parts)
+# ---------------------------------------------------------------------------
 import os, sys, json, time, asyncio, argparse, shutil, threading
 from pathlib import Path
 
-ROOT = Path("D:/WSPforWB/10.keyan/场景1-海量短文本/实验/E14_Baseline2_EraRAG").resolve()
-ASCII_BASE = "D:/WSPforWB/10.keyan/_e14_run"
+ROOT = Path(_KB('experiments', 'E14_Baseline2_EraRAG')).resolve()
+ASCII_BASE = _KB('_e14_run')
 
 # ---------------- CPU 强制（同 W1/W2/W3a） ----------------
 import torch
@@ -94,7 +110,7 @@ async def _guarded_aask(self, *a, **k):
     return await asyncio.wait_for(_orig_aask(self, *a, **k), timeout=PER_CALL_TIMEOUT)
 BaseLLM.aask = _guarded_aask
 
-ENV_FILE = Path("D:/WSPforWB/10.keyan/.env_e14")
+ENV_FILE = Path(_KB('.env_e14'))
 env = {}
 for line in ENV_FILE.read_text(encoding="utf-8").splitlines():
     line = line.strip()

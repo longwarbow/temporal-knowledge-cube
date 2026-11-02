@@ -1,8 +1,0 @@
-事件 gurlitt-all-rnr-threads：待抽取线程 138（labeled_only=False）
-  50/138  0.4 min
-  100/138  0.8 min
-完成：新增 138，总 138 条 → D:\WSPforWB\10.keyan\场景1-海量短文本\实验\E15_话题侧演化真值与缝处置\E15_P1_声明_gurlitt.jsonl（1.0 min）
-
-族分布： {'AMBIG_PERSON': 66, 'NONE': 63, 'PERPETRATOR_EXISTS': 5, 'PERPETRATOR_IDENTITY': 4}
-日分布： {'2014-11-20': 23, '2014-11-21': 14, '2014-11-22': 11, '2014-11-23': 10, '2014-11-24': 80}
-aspect top12： [('acceptance', 22), ('decision', 4), ('accepts artworks', 4), ('public reaction', 3), ('Nazi-looted art', 3), ('challenged', 3), ('will challenge', 3), ('acceptance of art', 3), ('accepts bequest', 3), ('future decision', 2), ('sale benefit', 2), ('press conference', 2)]

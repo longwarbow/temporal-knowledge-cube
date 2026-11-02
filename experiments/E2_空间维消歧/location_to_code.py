@@ -4,10 +4,26 @@ E2 地基（P0-②）：CED user.location -> 行政区划码 消歧
 - 粒度按 D11-rev1 默认 = 省级（属地为用户自填、只做省级可信层）
 - 产出：省码映射表.csv / location_映射结果.csv / E2_消歧报告.md
 """
+
+# --- path resolution (released artifact) -----------------------------------
+# No absolute path is baked in.  KB_ROOT points at the directory holding the
+# experiment folders; it defaults to this repository's root and can be
+# overridden with an environment variable.
+import os as _os
+_KB_ROOT = _os.environ.get(
+    "KB_ROOT",
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))),
+)
+
+
+def _KB(*parts):
+    """Join *parts* onto the knowledge-base root."""
+    return _os.path.join(_KB_ROOT, *parts)
+# ---------------------------------------------------------------------------
 import os, io, json, re, collections
 
-ORIG = r"D:\WSPforWB\10.keyan\场景1-海量短文本\数据\CED\Chinese_Rumor_Dataset-master\CED_Dataset\original-microblog"
-OUT  = r"D:\WSPforWB\10.keyan\场景1-海量短文本\实验\E2_空间维消歧"
+ORIG = _KB('数据', 'CED', 'Chinese_Rumor_Dataset-master', 'CED_Dataset', 'original-microblog')
+OUT  = _KB('experiments', 'E2_空间维消歧')
 os.makedirs(OUT, exist_ok=True)
 
 # GB/T 2260 省级码（36 省级单元 + 港澳台）；需在拿到 CTAmap 快照后交叉核对

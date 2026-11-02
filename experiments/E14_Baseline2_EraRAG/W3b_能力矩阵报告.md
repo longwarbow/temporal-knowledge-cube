@@ -167,8 +167,8 @@ W3b 从**基线一侧**给出对称证据——EraRAG 同样**不保留时间与
 
 ```bash
 cd "场景1-海量短文本/实验/E14_Baseline2_EraRAG"
-rm -rf D:/WSPforWB/10.keyan/_e14_run/_w3b_p1*
-D:/WSPforWB/10.keyan/.venv_e14/Scripts/python.exe e14_w3b_capability.py --watchdog 1800
+rm -rf ${KB_ROOT}/_e14_run/_w3b_p1*
+${KB_ROOT}/.venv_e14/Scripts/python.exe e14_w3b_capability.py --watchdog 1800
 # 前置（筛线程）：python e14_w3b_probe_threads.py
 ```
 

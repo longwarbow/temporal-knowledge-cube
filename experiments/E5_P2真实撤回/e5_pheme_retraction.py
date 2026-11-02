@@ -12,10 +12,26 @@ E5 —— RQ1 §4.3 问题 2（失效传播的最小代价 / P2）的真实数�
   §4 P2-B 一致性（增量 ≡ 全量）  §5 P2-C Baseline#4 的 as-of 偏差
   §6 与 E1 对照                 §7 局限
 """
+
+# --- path resolution (released artifact) -----------------------------------
+# No absolute path is baked in.  KB_ROOT points at the directory holding the
+# experiment folders; it defaults to this repository's root and can be
+# overridden with an environment variable.
+import os as _os
+_KB_ROOT = _os.environ.get(
+    "KB_ROOT",
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))),
+)
+
+
+def _KB(*parts):
+    """Join *parts* onto the knowledge-base root."""
+    return _os.path.join(_KB_ROOT, *parts)
+# ---------------------------------------------------------------------------
 import pickle, os, json, collections, datetime, math, time
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-DATA = r'D:\WSPforWB\10.keyan\场景1-海量短文本\数据\PHEME'
+DATA = _KB('数据', 'PHEME')
 
 TW_SNOW = 1288834974657
 EPOCH = datetime.datetime(1970, 1, 1)

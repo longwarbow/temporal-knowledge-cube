@@ -3,8 +3,8 @@
 这是 EraRAG 实际建树/检索时会走的路径。通过即说明配置接线无误。
 
 用法：
-    D:/WSPforWB/10.keyan/.venv_e14/Scripts/python.exe e14_e2e_check.py           # 真 API
-    D:/WSPforWB/10.keyan/.venv_e14/Scripts/python.exe e14_e2e_check.py --stub    # 本地 stub
+    ${KB_ROOT}/.venv_e14/Scripts/python.exe e14_e2e_check.py           # 真 API
+    ${KB_ROOT}/.venv_e14/Scripts/python.exe e14_e2e_check.py --stub    # 本地 stub
 """
 from __future__ import annotations
 

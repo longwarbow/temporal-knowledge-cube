@@ -13,9 +13,25 @@ E2 跨期正确性实验 v3  —— 版本化空间维（as-of） vs 静态空�
 
 输出：geo_dim_versions.csv / e2_results.json / E2_跨期正确性报告.md
 """
+
+# --- path resolution (released artifact) -----------------------------------
+# No absolute path is baked in.  KB_ROOT points at the directory holding the
+# experiment folders; it defaults to this repository's root and can be
+# overridden with an environment variable.
+import os as _os
+_KB_ROOT = _os.environ.get(
+    "KB_ROOT",
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))),
+)
+
+
+def _KB(*parts):
+    """Join *parts* onto the knowledge-base root."""
+    return _os.path.join(_KB_ROOT, *parts)
+# ---------------------------------------------------------------------------
 import os, io, json, csv, re, collections, datetime
 
-ROOT = r"D:\WSPforWB\10.keyan\场景1-海量短文本"
+ROOT = _KB_ROOT
 EV_CSV = os.path.join(ROOT, r"数据\CTAmap\tables\change_events_v2.csv")
 CED_LOC = os.path.join(ROOT, r"实验\E2_空间维消歧\location_映射结果.csv")
 CED_ORIG = os.path.join(ROOT, r"数据\CED\Chinese_Rumor_Dataset-master\CED_Dataset\original-microblog")

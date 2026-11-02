@@ -16,13 +16,29 @@ E1-SW: 滑动窗 + 迟到事件 —— 双时态必要性的量化（E1 报告�
 
 输出：E1_SW_报告.md + e1_sw_metrics.json
 """
+
+# --- path resolution (released artifact) -----------------------------------
+# No absolute path is baked in.  KB_ROOT points at the directory holding the
+# experiment folders; it defaults to this repository's root and can be
+# overridden with an environment variable.
+import os as _os
+_KB_ROOT = _os.environ.get(
+    "KB_ROOT",
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))),
+)
+
+
+def _KB(*parts):
+    """Join *parts* onto the knowledge-base root."""
+    return _os.path.join(_KB_ROOT, *parts)
+# ---------------------------------------------------------------------------
 import os, io, json, time as _time, random, collections, datetime
 
-BASE = r"D:\WSPforWB\10.keyan\场景1-海量短文本\数据\CED\Chinese_Rumor_Dataset-master\CED_Dataset"
+BASE = _KB('数据', 'CED', 'Chinese_Rumor_Dataset-master', 'CED_Dataset')
 RUM  = os.path.join(BASE, "rumor-repost")
 NON  = os.path.join(BASE, "non-rumor-repost")
 ORIG = os.path.join(BASE, "original-microblog")
-OUT  = r"D:\WSPforWB\10.keyan\场景1-海量短文本\实验\E1_滑动窗迟到事件"
+OUT  = _KB('experiments', 'E1_滑动窗迟到事件')
 os.makedirs(OUT, exist_ok=True)
 
 LOG = []

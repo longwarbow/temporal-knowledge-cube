@@ -5,6 +5,22 @@ E14 / W1 冒烟：EraRAG 动态树路径在 CPU-only + 智谱 GLM-4-Flash + 本�
 - Phase B: 增量补充 (graph.add=True,  graph.force=False) -> 应触发 _refine_graph (增量插入)
 本脚本直接构造 Config 对象（绕过文件 merge 的占位符覆盖问题），仍走真实 GraphRAG(config) 代码路径。
 """
+
+# --- path resolution (released artifact) -----------------------------------
+# No absolute path is baked in.  KB_ROOT points at the directory holding the
+# experiment folders; it defaults to this repository's root and can be
+# overridden with an environment variable.
+import os as _os
+_KB_ROOT = _os.environ.get(
+    "KB_ROOT",
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))),
+)
+
+
+def _KB(*parts):
+    """Join *parts* onto the knowledge-base root."""
+    return _os.path.join(_KB_ROOT, *parts)
+# ---------------------------------------------------------------------------
 import os, sys, asyncio, json, time
 from pathlib import Path
 
@@ -26,8 +42,8 @@ def _force_cpu_st_init(self, *a, **k):
 sentence_transformers.SentenceTransformer.__init__ = _force_cpu_st_init
 
 # ---------- 1. 环境：HF 镜像 + 本地缓存（避免联网下载 MiniLM） ----------
-REPO = Path("D:/WSPforWB/10.keyan/场景1-海量短文本/实验/E14_Baseline2_EraRAG/_repo").resolve()
-ROOT = Path("D:/WSPforWB/10.keyan/场景1-海量短文本/实验/E14_Baseline2_EraRAG").resolve()
+REPO = Path(_KB('experiments', 'E14_Baseline2_EraRAG', '_repo')).resolve()
+ROOT = Path(_KB('experiments', 'E14_Baseline2_EraRAG')).resolve()
 HF_CACHE = str(ROOT / "_hf_cache")
 MINILM = str(next((ROOT / "_hf_cache").rglob("model.safetensors")).parent)
 os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
@@ -35,8 +51,8 @@ os.environ["HF_HOME"] = HF_CACHE
 os.environ["SENTENCE_TRANSFORMERS_HOME"] = HF_CACHE
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-# ---------- 2. 读取 .env_e14 里的智谱 key（位于项目根目录 D:/WSPforWB/10.keyan/） ----------
-ENV_FILE = Path("D:/WSPforWB/10.keyan/.env_e14")
+# ---------- 2. 读取 .env_e14 里的智谱 key（位于项目根目录 ${KB_ROOT}） ----------
+ENV_FILE = Path(_KB('.env_e14'))
 env = {}
 for line in ENV_FILE.read_text(encoding="utf-8").splitlines():
     line = line.strip()
@@ -59,8 +75,8 @@ from Core.Storage.NameSpace import Workspace                        # noqa: E402
 
 # 运行期数据目录必须放在纯 ASCII 路径下：faiss 的 C++ 层 FileIOWriter 在
 # Windows 上无法用非 ASCII（中文）路径打开文件，否则 write_index 必失败。
-# 因此 _w1work/_w1tmp/_w1data 全部放到 D:/WSPforWB/10.keyan/_e14_run（无中文）。
-ASCII_BASE = "D:/WSPforWB/10.keyan/_e14_run"
+# 因此 _w1work/_w1tmp/_w1data 全部放到 ${KB_ROOT}/_e14_run（无中文）。
+ASCII_BASE = _KB('_e14_run')
 W1WORK = str(Path(ASCII_BASE) / "_w1work")
 W1TMP = str(Path(ASCII_BASE) / "_w1tmp")
 W1DATA = str(Path(ASCII_BASE) / "_w1data")

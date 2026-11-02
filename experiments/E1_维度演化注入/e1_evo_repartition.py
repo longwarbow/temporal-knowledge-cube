@@ -19,13 +19,29 @@ E1-EVO: 维度演化注入（MERGE / REPARENT / SPLIT）—— RQ1 §6.3.1「维
 
 输出：E1_EVO_报告.md + e1_evo_metrics.json
 """
+
+# --- path resolution (released artifact) -----------------------------------
+# No absolute path is baked in.  KB_ROOT points at the directory holding the
+# experiment folders; it defaults to this repository's root and can be
+# overridden with an environment variable.
+import os as _os
+_KB_ROOT = _os.environ.get(
+    "KB_ROOT",
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))),
+)
+
+
+def _KB(*parts):
+    """Join *parts* onto the knowledge-base root."""
+    return _os.path.join(_KB_ROOT, *parts)
+# ---------------------------------------------------------------------------
 import os, io, json, time as _time, random, collections, datetime
 
-BASE = r"D:\WSPforWB\10.keyan\场景1-海量短文本\数据\CED\Chinese_Rumor_Dataset-master\CED_Dataset"
+BASE = _KB('数据', 'CED', 'Chinese_Rumor_Dataset-master', 'CED_Dataset')
 RUM  = os.path.join(BASE, "rumor-repost")
 NON  = os.path.join(BASE, "non-rumor-repost")
 ORIG = os.path.join(BASE, "original-microblog")
-OUT  = r"D:\WSPforWB\10.keyan\场景1-海量短文本\实验\E1_维度演化注入"
+OUT  = _KB('experiments', 'E1_维度演化注入')
 os.makedirs(OUT, exist_ok=True)
 
 LOG = []

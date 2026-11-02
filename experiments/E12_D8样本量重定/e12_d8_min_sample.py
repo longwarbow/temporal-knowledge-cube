@@ -29,11 +29,27 @@ E12 —— D8「最小样本量」约束的**实证重定**
 
 输出：e12_results.json + E12_报告.md
 """
+
+# --- path resolution (released artifact) -----------------------------------
+# No absolute path is baked in.  KB_ROOT points at the directory holding the
+# experiment folders; it defaults to this repository's root and can be
+# overridden with an environment variable.
+import os as _os
+_KB_ROOT = _os.environ.get(
+    "KB_ROOT",
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))),
+)
+
+
+def _KB(*parts):
+    """Join *parts* onto the knowledge-base root."""
+    return _os.path.join(_KB_ROOT, *parts)
+# ---------------------------------------------------------------------------
 import os, io, csv, json, math, collections, datetime, pickle
 import numpy as np
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-ROOT = r'D:\WSPforWB\10.keyan\场景1-海量短文本'
+ROOT = _KB_ROOT
 CED = os.path.join(ROOT, '数据', 'CED', 'Chinese_Rumor_Dataset-master', 'CED_Dataset')
 PHEME = os.path.join(ROOT, '数据', 'PHEME')
 LOC_CSV = os.path.join(ROOT, '实验', 'E2_空间维消歧', 'location_映射结果.csv')

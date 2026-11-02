@@ -19,11 +19,27 @@ CPU-only / Windows / Py3.9 / 本地 MiniLM / 智谱 GLM-4-Flash（沿用 W3a 加
 用法：
   python e14_w3b_capability.py --watchdog 1800
 """
+
+# --- path resolution (released artifact) -----------------------------------
+# No absolute path is baked in.  KB_ROOT points at the directory holding the
+# experiment folders; it defaults to this repository's root and can be
+# overridden with an environment variable.
+import os as _os
+_KB_ROOT = _os.environ.get(
+    "KB_ROOT",
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))),
+)
+
+
+def _KB(*parts):
+    """Join *parts* onto the knowledge-base root."""
+    return _os.path.join(_KB_ROOT, *parts)
+# ---------------------------------------------------------------------------
 import os, sys, re, json, time, asyncio, argparse, shutil, threading
 from pathlib import Path
 
-ROOT = Path("D:/WSPforWB/10.keyan/场景1-海量短文本/实验/E14_Baseline2_EraRAG").resolve()
-ASCII_BASE = "D:/WSPforWB/10.keyan/_e14_run"
+ROOT = Path(_KB('experiments', 'E14_Baseline2_EraRAG')).resolve()
+ASCII_BASE = _KB('_e14_run')
 
 # ---------------- CPU 强制 ----------------
 import torch
@@ -77,7 +93,7 @@ def start_watchdog(seconds: int):
     t = threading.Timer(seconds, _kill); t.daemon = True; t.start(); return t
 
 # ---------------- key ----------------
-ENV_FILE = Path("D:/WSPforWB/10.keyan/.env_e14")
+ENV_FILE = Path(_KB('.env_e14'))
 env = {}
 for line in ENV_FILE.read_text(encoding="utf-8").splitlines():
     line = line.strip()

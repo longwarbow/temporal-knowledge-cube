@@ -29,6 +29,22 @@ E13 — $Q_4$ 血缘准确率：**人工标注集构造 + 分层抽样**（Tier 
 **系统预测列**：留空。预测接口见 `E13_标注协议.md` §5；一旦系统产出，
 `e13_score.py` 直接对 `system_pred` 与 `label_relation` 打分。
 """
+
+# --- path resolution (released artifact) -----------------------------------
+# No absolute path is baked in.  KB_ROOT points at the directory holding the
+# experiment folders; it defaults to this repository's root and can be
+# overridden with an environment variable.
+import os as _os
+_KB_ROOT = _os.environ.get(
+    "KB_ROOT",
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))),
+)
+
+
+def _KB(*parts):
+    """Join *parts* onto the knowledge-base root."""
+    return _os.path.join(_KB_ROOT, *parts)
+# ---------------------------------------------------------------------------
 import os
 import csv
 import json
@@ -37,7 +53,7 @@ import pickle
 import datetime
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-DATA = r'D:\WSPforWB\10.keyan\场景1-海量短文本\数据\PHEME'
+DATA = _KB('数据', 'PHEME')
 
 RNG = random.Random(20261011)
 N_PER_STRATUM = 97        # E12: ε=0.10 ⇒ n_min ≈ 97（比例·精）

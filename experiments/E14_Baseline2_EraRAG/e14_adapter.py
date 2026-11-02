@@ -16,7 +16,23 @@ E14 / W2 适配器：PHEME (主) / CED (辅) → EraRAG 文档流
 - 标签枚举：0=true(非谣) / 1=false(谣) / 2=unverified（来自 veracity_dict.pkl 分布）
 - 过滤策略（默认）：仅保留有标签线程里的、有文本的、且能找到源推的贴
 """
+
 from __future__ import annotations
+# --- path resolution (released artifact) -----------------------------------
+# No absolute path is baked in.  KB_ROOT points at the directory holding the
+# experiment folders; it defaults to this repository's root and can be
+# overridden with an environment variable.
+import os as _os
+_KB_ROOT = _os.environ.get(
+    "KB_ROOT",
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))),
+)
+
+
+def _KB(*parts):
+    """Join *parts* onto the knowledge-base root."""
+    return _os.path.join(_KB_ROOT, *parts)
+# ---------------------------------------------------------------------------
 import os, json, pickle, time
 from pathlib import Path
 from collections import Counter
@@ -63,7 +79,7 @@ class PhemeAdapter:
     LABEL_UNVERIFIED = 2
     LABEL_NAME = {0: "true", 1: "false", 2: "unverified"}
 
-    def __init__(self, root: str = "D:/WSPforWB/10.keyan/场景1-海量短文本/数据/PHEME"):
+    def __init__(self, root: str = _KB('数据', 'PHEME')):
         self.root = Path(root)
         self._cascades = None
         self._veracity = None
@@ -252,7 +268,7 @@ def to_erarag_doc(t: Dict, content_prefix_meta: bool = False) -> Dict:
 class CedAdapter:
     """CED 转发流以"到达流"为主（计数即可），本类先提供结构占位。"""
 
-    def __init__(self, root: str = "D:/WSPforWB/10.keyan/场景1-海量短文本/数据/CED"):
+    def __init__(self, root: str = _KB('数据', 'CED')):
         self.root = Path(root)
 
     def exists(self) -> bool:

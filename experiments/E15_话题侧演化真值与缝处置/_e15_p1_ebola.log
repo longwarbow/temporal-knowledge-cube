@@ -1,6 +1,0 @@
-事件 ebola-essien-all-rnr-threads：待抽取线程 14（labeled_only=False）
-完成：新增 14，总 14 条 → D:\WSPforWB\10.keyan\场景1-海量短文本\实验\E15_话题侧演化真值与缝处置\E15_P1_声明_ebola.jsonl（0.1 min）
-
-族分布： {'AMBIG_PERSON': 12, 'FATALITY': 1, 'PERPETRATOR_EXISTS': 1}
-日分布： {'2014-10-12': 12, '2014-10-13': 1, '2014-10-15': 1}
-aspect top12： [('Ebola infection', 3), ('diagnosis', 2), ('Ebola status', 2), ('Ebola virus contraction', 1), ('accuracy', 1), ('status', 1), ('Ebola rumours', 1), ('health status', 1), ('Ebola virus infection', 1), ('consideration', 1)]

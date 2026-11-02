@@ -10,12 +10,28 @@ E14 / W3b 前置探针：在 PHEME 里筛出「适合做能力矩阵 + 辟谣注
 
 只读原数据，输出 JSON 候选清单。
 """
+
+# --- path resolution (released artifact) -----------------------------------
+# No absolute path is baked in.  KB_ROOT points at the directory holding the
+# experiment folders; it defaults to this repository's root and can be
+# overridden with an environment variable.
+import os as _os
+_KB_ROOT = _os.environ.get(
+    "KB_ROOT",
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))),
+)
+
+
+def _KB(*parts):
+    """Join *parts* onto the knowledge-base root."""
+    return _os.path.join(_KB_ROOT, *parts)
+# ---------------------------------------------------------------------------
 import json, pickle
 from pathlib import Path
 from collections import Counter
 
-PHEME = Path("D:/WSPforWB/10.keyan/场景1-海量短文本/数据/PHEME")
-OUT = Path("D:/WSPforWB/10.keyan/场景1-海量短文本/实验/E14_Baseline2_EraRAG/W3b_线程候选.json")
+PHEME = Path(_KB('数据', 'PHEME'))
+OUT = Path(_KB('experiments', 'E14_Baseline2_EraRAG', 'W3b_线程候选.json'))
 
 SNOWFLAKE_EPOCH_MS = 1288834974657
 STANCE = {0: "agreed", 1: "comment", 2: "appeal", 3: "disagreed"}
