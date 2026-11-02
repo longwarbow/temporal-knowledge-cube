@@ -6,7 +6,7 @@ Dimension Evolution and Mergeable Semantic Measures**
 This repository is the supplemental material for the ICDE 2027 submission.
 It contains three things:
 
-1. **`supplementary.pdf`** — the six tables and three figures that were omitted
+1. **`supplementary.pdf`** — the six tables and four figures that were omitted
    from the twelve-page body for space (their numbers are summarised inline in
    the main paper), plus Appendix A (design decisions), Appendix B
    (reproducibility checklist) and Appendix C (the E13 annotation programme in
@@ -29,11 +29,11 @@ numbers can be re-derived rather than taken on trust.
 ```
 supplement/
 ├── README.md                  this file
-├── supplementary.pdf          compiled supplement (14 pp.)
+├── supplementary.pdf          compiled supplement (15 pp.)
 ├── supplementary.tex          source of the above
 ├── appendix_src.tex           Appendix A/B/C, generated from the paper source
-├── floats/01..09.tex          the nine omitted tables/figures, one file each
-├── figures/                   the three figures referenced by the supplement
+├── floats/01..10.tex          the ten omitted tables/figures, one file each
+├── figures/                   the four figures referenced by the supplement
 ├── refs_icde.tex              reference list (numbers identical to the paper)
 └── experiments/               copied from 实验/, one directory per experiment
 ```
